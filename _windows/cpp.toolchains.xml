@@ -2,6 +2,9 @@
   <component name="CPPToolchains" version="4">
     <toolchains detectedVersion="5">
       <toolchain name="Visual Studio" toolSetKind="MSVC" toolSetPath="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community" debuggerKind="BUNDLED_LLDB" />
+      <toolchain name="clang" toolSetKind="MSVC" toolSetPath="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community" customCCompilerPath="C:\bin\LLVM\bin\clang-cl.exe" customCXXCompilerPath="C:\bin\LLVM\bin\clang-cl.exe" debuggerKind="BUNDLED_LLDB">
+        <toolSetOption type="msvc.arch" value="amd64" />
+      </toolchain>
     </toolchains>
   </component>
 </application>
