@@ -154,7 +154,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/GDB" timestamp="1589664204374">
+      <file name="/GDB" timestamp="1589662803907">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1589643603831">
@@ -166,10 +166,11 @@
         <mark key="^" line="6" column="21" />
         <mark key="." line="6" column="20" />
       </file>
-      <file name="$USER_HOME$/test/compile_commands.json" timestamp="1589664386627">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="11" column="1" />
-        <mark key="." line="6" column="0" />
+      <file name="$USER_HOME$/test/compile_commands.json" timestamp="1589667648199">
+        <mark key="[" line="8" column="77" />
+        <mark key="]" line="8" column="77" />
+        <mark key="." line="8" column="77" />
+        <mark key="^" line="8" column="23" />
       </file>
       <file name="$USER_HOME$/test/example/glxpixmap.c" timestamp="1589647651504">
         <mark key="'" line="147" column="10" />
@@ -350,8 +351,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICB7CiAgICAiZGlyZWN0b3J5IjogIkM6XFxVc2Vyc1xcbHJpdXVpMHgwXFx0ZXN0IiwKICAgICJjb21tYW5kIjogImNsIHNyY1xcbWFpbi5jcHAiLAogICAgImZpbGUiOiAic3JjXFxtYWluLmNwcCIKICB9LAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IC1sWDExIC1sWGV4dGNsYW5nKysgc3JjXG1haW4uY3Bw</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -760,13 +761,13 @@
         <text>ConfigureNotify</text>
       </register>
       <register name="-" type="4">
-        <text>XFlush</text>
+        <text encoding="base64">IC1sWDExIC1sWGV4dGNsYW5nKysgc3JjXG1haW4uY3Bw</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxlbmQyXD4=</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBUaW1lIGVuZCA9IGdldF90aW1lc3RhbXAoKTsKICAgICAgICBUaW1lIGVsYXBzZWQgPSBnZXRfdGltZV9kaWZmKCZzdGFydCwgJmVuZCk7CiAgICAgICAgRmxvYXQgZWxhcHNlZF90aW1lID0gZm9ybWF0X2Zsb2F0KCZlbGFwc2VkKTsK</text>
+      <register name="0" type="4">
+        <text>clang++ -g -O0 -Wno-writable-strings -o bin/test src/main.cpp -lX11 -lXext</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICB7CiAgICAiZGlyZWN0b3J5IjogIkM6XFxVc2Vyc1xcbHJpdXVpMHgwXFx0ZXN0IiwKICAgICJjb21tYW5kIjogImNsIHNyY1xcbWFpbi5jcHAiLAogICAgImZpbGUiOiAic3JjXFxtYWluLmNwcCIKICB9LAo=</text>
