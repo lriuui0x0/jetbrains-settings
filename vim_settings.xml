@@ -4,11 +4,44 @@
   </component>
   <component name="VimHistorySettings">
     <history>
-      <history-search />
+      <history-search>
+        <entry encoding="base64">XDxCdXR0b25BY3Rpb25cPg==</entry>
+        <entry encoding="base64">XDxjcmVhdGVfY2FudmFzX2RhdGFcPg==</entry>
+        <entry encoding="base64">XDxTaG1TZWdtZW50SW5mb1w+</entry>
+        <entry encoding="base64">XDx3aW5kb3dfcmVzaXplX2NhbnZhc1w+</entry>
+        <entry encoding="base64">XDxjYW52YXNfZGF0YVw+</entry>
+        <entry encoding="base64">XDxyZXNpemVfd2luZG93X2NhbnZhc1w+</entry>
+        <entry>Configure</entry>
+        <entry>shm</entry>
+        <entry>shmat</entry>
+        <entry encoding="base64">XDxyZW5kZXJcPg==</entry>
+        <entry>XFlush</entry>
+        <entry encoding="base64">XDxnY1w+</entry>
+        <entry encoding="base64">XDx3aWR0aFw+</entry>
+        <entry encoding="base64">XDxlbnRyeVw+</entry>
+        <entry encoding="base64">XDxyZW5kZXJfd2luZG93XD4=</entry>
+        <entry encoding="base64">XDxjcmVhdGVfcGl4bWFwXD4=</entry>
+        <entry>resize</entry>
+        <entry encoding="base64">XDxlbGFwc2VkMlw+</entry>
+        <entry encoding="base64">XDxzdGFydFw+</entry>
+        <entry encoding="base64">XDxlbmQyXD4=</entry>
+      </history-search>
       <history-cmd>
+        <entry>call VimLLDB_Launch()</entry>
+        <entry>call VimLLDB_ToggleBreakpoint()</entry>
+        <entry>call VimLLDB_StepOut()</entry>
+        <entry>call VimLLDB_StepOver()</entry>
+        <entry>call VimLLDB_Resume()</entry>
+        <entry>sp</entry>
         <entry>wq</entry>
+        <entry>:w</entry>
+        <entry>W</entry>
+        <entry>ew</entry>
         <entry>vs</entry>
+        <entry>w]</entry>
+        <entry>we</entry>
         <entry>q</entry>
+        <entry>call Build()</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -17,85 +50,800 @@
   </component>
   <component name="VimKeySettings">
     <shortcut-conflicts>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed OPEN_BRACKET</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed V</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed D</text>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed J</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed U</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed K</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed L</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>shift ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed CLOSE_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>shift ctrl pressed 6</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed I</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed SEMICOLON</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift ctrl pressed SEMICOLON</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed BACK_SPACE</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Z</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed COMMA</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed V</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/test/compile_commands.json" timestamp="1589663917471">
-        <mark key="[" line="10" column="4" />
-        <mark key="]" line="10" column="3" />
-        <mark key="." line="10" column="2" />
-        <mark key="^" line="10" column="3" />
+      <file name="/GDB" timestamp="1589662803907">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/clion64.exe.vmoptions" timestamp="1589661122618">
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="19" column="0" />
-        <mark key="." line="19" column="0" />
+      <file name="/Dummy.txt" timestamp="1589643603831">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1589663504392">
-        <mark key="'" line="28" column="0" />
+      <file name="$USER_HOME$/gitp/compile_commands.json" timestamp="1589583545930">
+        <mark key="[" line="3" column="60" />
+        <mark key="]" line="3" column="64" />
+        <mark key="^" line="3" column="64" />
+        <mark key="." line="3" column="63" />
+      </file>
+      <file name="$USER_HOME$/test/example/glxpixmap.c" timestamp="1589647651504">
+        <mark key="'" line="147" column="10" />
+      </file>
+      <file name="$USER_HOME$/test/src/gui.hpp" timestamp="1589657822648">
+        <mark key="'" line="279" column="39" />
+        <mark key="[" line="329" column="17" />
+        <mark key="]" line="329" column="31" />
+        <mark key="m" line="228" column="4" />
+        <mark key="." line="279" column="15" />
+        <mark key="^" line="279" column="16" />
+      </file>
+      <file name="$USER_HOME$/gitp/src/font.hpp" timestamp="1589582717979">
+        <mark key="[" line="6" column="20" />
+        <mark key="]" line="6" column="21" />
+        <mark key="^" line="6" column="21" />
+        <mark key="." line="6" column="20" />
+      </file>
+      <file name="$USER_HOME$/gitp/src/main.cpp" timestamp="1589582648127">
+        <mark key="'" line="128" column="0" />
+        <mark key="[" line="14" column="5" />
+        <mark key="]" line="14" column="6" />
+        <mark key="." line="14" column="5" />
+        <mark key="^" line="121" column="33" />
+      </file>
+      <file name="/test" timestamp="1589585493920">
+        <mark key="[" line="12" column="23" />
+        <mark key="]" line="12" column="23" />
+        <mark key="^" line="12" column="23" />
+        <mark key="." line="12" column="22" />
+      </file>
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1589662816007">
+        <mark key="'" line="13" column="0" />
+        <mark key="j" line="30" column="0" />
+        <mark key="[" line="133" column="0" />
+        <mark key="]" line="133" column="0" />
+        <mark key="." line="133" column="0" />
+        <mark key="^" line="149" column="35" />
+      </file>
+      <file name="/" timestamp="1589583065103">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/test/src/font.hpp" timestamp="1589587024733">
+        <mark key="'" line="26" column="0" />
+      </file>
+      <file name="$USER_HOME$/test/src/gui.hpp_dir/fragment.cpp" timestamp="1589651663040">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/a.sql" timestamp="1589584914087">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/test/compile_commands.json" timestamp="1589584007031">
+        <mark key="[" line="2" column="34" />
+        <mark key="]" line="2" column="38" />
+        <mark key="." line="2" column="37" />
+        <mark key="^" line="2" column="38" />
+      </file>
+      <file name="$USER_HOME$/test/example/awt_GraphicsEnv.c" timestamp="1589647640142">
+        <mark key="'" line="1027" column="23" />
+      </file>
+      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1589585473042">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/test/src/basic.hpp" timestamp="1589654802897">
+        <mark key="[" line="408" column="9" />
+        <mark key="]" line="408" column="20" />
+        <mark key="." line="408" column="19" />
+        <mark key="^" line="408" column="20" />
+      </file>
+      <file name="$USER_HOME$/test/example/xvideo.cpp" timestamp="1589647623541">
+        <mark key="'" line="203" column="38" />
+      </file>
+      <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1589641476024">
+        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="33" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="121" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="28" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="48" column="14" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="50" column="23" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="167" column="27" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="168" column="22" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="172" column="78" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="175" column="30" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="178" column="8" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="179" column="29" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="182" column="57" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="190" column="64" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="197" column="29" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="203" column="38" filename="$USER_HOME$/test/example/xvideo.cpp" />
+      <jump line="23" column="2" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="956" column="17" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="961" column="9" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="968" column="12" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="971" column="6" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="974" column="52" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="975" column="20" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="981" column="9" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="982" column="9" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="987" column="5" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="988" column="5" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="996" column="24" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="997" column="20" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1000" column="43" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1004" column="49" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1005" column="20" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1006" column="27" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1009" column="43" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1013" column="8" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1017" column="48" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1021" column="58" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="1027" column="23" filename="$USER_HOME$/test/example/awt_GraphicsEnv.c" />
+      <jump line="39" column="28" filename="$USER_HOME$/test/example/glxpixmap.c" />
+      <jump line="145" column="10" filename="$USER_HOME$/test/example/glxpixmap.c" />
+      <jump line="147" column="10" filename="$USER_HOME$/test/example/glxpixmap.c" />
+      <jump line="258" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="18" column="5" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="100" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="112" column="16" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="126" column="24" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="119" column="20" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="353" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="272" column="74" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="100" column="10" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="184" column="10" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="198" column="20" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="138" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="120" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="282" column="7" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="60" column="16" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="66" column="39" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="69" column="61" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="101" column="8" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="121" column="41" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="136" column="78" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="140" column="39" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="178" column="68" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="186" column="57" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="203" column="23" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="207" column="24" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="221" column="61" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="231" column="75" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="331" column="39" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="234" column="27" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="236" column="28" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="278" column="98" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="273" column="5" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="138" column="21" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="119" column="8" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="188" column="26" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="88" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="141" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="108" column="33" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="281" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="140" column="8" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="111" column="8" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="226" column="39" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="333" column="20" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="332" column="16" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="334" column="27" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="155" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="153" column="34" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="143" column="22" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="150" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="145" column="32" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="149" column="23" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="154" column="30" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="144" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="156" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="107" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="24" column="12" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="29" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="34" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="51" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="72" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="86" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="279" column="39" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="13" column="0" filename="$USER_HOME$/test/src/main.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+      </register>
+      <register name="j" type="4">
+        <keys>
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="48" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="48" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="37" code="0" mods="0" />
+          <key char="37" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="37" code="0" mods="0" />
+          <key char="37" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="65535" code="76" mods="520" />
+          <key char="65535" code="76" mods="520" />
+          <key char="65535" code="76" mods="520" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="99" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="86" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="76" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="66" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="83" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="79" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="78" mods="520" />
+          <key char="107" code="0" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="42" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="+" type="4">
+        <text>ConfigureNotify</text>
+      </register>
+      <register name="-" type="4">
+        <text>XFlush</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxlbmQyXD4=</text>
+      </register>
       <register name="0" type="2">
-        <text encoding="base64">ICB7CiAgICAiZGlyZWN0b3J5IjogIi9ob21lL2xyaXV1aTB4MC90ZXN0IiwKICAgICJjb21tYW5kIjogImNsYW5nKysgLWcgLU8wIC1Xbm8td3JpdGFibGUtc3RyaW5ncyAtbyBiaW4vdGVzdCBzcmMvbWFpbi5jcHAgLWxYMTEgLWxYZXh0IiwKICAgICJmaWxlIjogInNyYy9tYWluLmNwcCIKICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBUaW1lIGVuZCA9IGdldF90aW1lc3RhbXAoKTsKICAgICAgICBUaW1lIGVsYXBzZWQgPSBnZXRfdGltZV9kaWZmKCZzdGFydCwgJmVuZCk7CiAgICAgICAgRmxvYXQgZWxhcHNlZF90aW1lID0gZm9ybWF0X2Zsb2F0KCZlbGFwc2VkKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICB7CiAgICAiZGlyZWN0b3J5IjogIkM6XFxVc2Vyc1xcbHJpdXVpMHgwXFx0ZXN0IiwKICAgICJjb21tYW5kIjogImNsIHNyY1xcbWFpbi5jcHAiLAogICAgImZpbGUiOiAic3JjXFxtYWluLmNwcCIKICB9Cg==</text>
-      </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICB7CiAgICAiZGlyZWN0b3J5IjogIkM6XFxVc2Vyc1xcbHJpdXVpMHgwXFx0ZXN0IiwKICAgICJjb21tYW5kIjogImNsIHNyY1xcbWFpbi5jcHAiLAogICAgImZpbGUiOiAic3JjXFxtYWluLmNwcCIKICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Iy1qYXZhYWdlbnQ6QzpcVXNlcnNcUHVibGljXC5qZXRicmFpbnNcamV0YnJhaW5zLWFnZW50LXYzLjIuMC5kZTcyLjYxOQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">LWphdmFhZ2VudDpDOlxVc2Vyc1xQdWJsaWNcLmpldGJyYWluc1xqZXRicmFpbnMtYWdlbnQtdjMuMi4wLmRlNzIuNjE5Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">LWphdmFhZ2VudDpDOlxQcm9ncmFtIEZpbGVzXEpldEJyYWluc1xDTGlvbiAyMDIwLjEuMVxqZXRicmFpbnMtYWdlbnQuamFyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">CiAgICAgICAgVGltZSBlbmQyID0gZ2V0X3RpbWVzdGFtcCgpOwogICAgICAgIFRpbWUgZWxhcHNlZDIgPSBnZXRfdGltZV9kaWZmKCZzdGFydCwgJmVuZDIpOwogICAgICAgIEZsb2F0IGVsYXBzZWRfdGltZTIgPSBmb3JtYXRfZmxvYXQoJmVsYXBzZWQyKTsKICAgICAgICBwcmludGYoIiVmXG4iLCBlbGFwc2VkX3RpbWUyKTsK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Ly8gICAgICAgIHByaW50ZigiJWZcbiIsIDEgLyAoRmxvYXQpIGZwcyk7Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Ly8gICAgICAgIHByaW50ZigiJWZcbiIsIGVsYXBzZWRfdGltZSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
-      </register>
-      <register name="-" type="4">
-        <text>/</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-dir>0</last-dir>
+      <last-search encoding="base64">XDxlbmQyXD4=</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxlbmQyXD4=</last-pattern>
+      <last-replace>~</last-replace>
+      <last-substitute encoding="base64">XDxjYW52YXNfZGF0YVw+</last-substitute>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
   </component>
   <component name="VimSettings">
     <state version="6" enabled="true" />
     <notifications>
-      <idea-join enabled="false" />
+      <idea-join enabled="true" />
       <idea-put enabled="false" />
     </notifications>
   </component>
