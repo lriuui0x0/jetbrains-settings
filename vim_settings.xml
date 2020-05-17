@@ -5,10 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdHJpbmdfZGVzdHJveVw+</entry>
-        <entry encoding="base64">XDxzdHJpbmdfY3JlYXRlXD4=</entry>
-        <entry>Window.h</entry>
-        <entry>windows.h</entry>
         <entry encoding="base64">XDxyZXNcPg==</entry>
         <entry encoding="base64">XDx5XD4=</entry>
         <entry encoding="base64">XDxtb2R1bGVfaGFuZGxlXD4=</entry>
@@ -25,6 +21,10 @@
         <entry>read_file</entry>
         <entry>file_read</entry>
         <entry encoding="base64">XDxQeVJ1bl9TaW1wbGVTdHJpbmdGbGFnc1w+</entry>
+        <entry encoding="base64">XDxzeXNQYXRoXD4=</entry>
+        <entry encoding="base64">XDxkYXRhXD4=</entry>
+        <entry encoding="base64">XDxnZXRfZnVuY1w+</entry>
+        <entry encoding="base64">XDxnZXRfZGlnaXRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -41,6 +41,7 @@
         <entry>@w</entry>
         <entry>w#</entry>
         <entry>.,.+899w</entry>
+        <entry>call VimLLDB_Pause()</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -201,18 +202,17 @@
         <mark key="]" line="19" column="0" />
         <mark key="." line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1589734453802">
+      <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1589746951314">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1589743057361">
-        <mark key="'" line="24" column="58" />
-        <mark key="[" line="20" column="17" />
-        <mark key="]" line="20" column="25" />
-        <mark key="." line="20" column="24" />
-        <mark key="^" line="20" column="25" />
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1589746968215">
+        <mark key="'" line="6" column="0" />
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/test/ml/mnist_V10.py" timestamp="1589741893169">
-        <mark key="'" line="5" column="0" />
+      <file name="$USER_HOME$/test/ml/mnist_V10.py" timestamp="1589743077981">
+        <mark key="'" line="67" column="0" />
         <mark key="[" line="3" column="26" />
         <mark key="]" line="3" column="31" />
         <mark key="." line="3" column="30" />
@@ -221,7 +221,7 @@
       <file name="C:/Program Files/Python37/include/pythonrun.h" timestamp="1589738211479">
         <mark key="'" line="139" column="30" />
       </file>
-      <file name="/LLDB" timestamp="1589739284179">
+      <file name="/LLDB" timestamp="1589746937026">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/ml/load.py" timestamp="1589741923835">
@@ -230,9 +230,6 @@
         <mark key="]" line="30" column="0" />
         <mark key="." line="30" column="0" />
         <mark key="^" line="29" column="0" />
-      </file>
-      <file name="$USER_HOME$/test/src/gui.hpp_dir/fragment.cpp" timestamp="1589651663040">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="/GDB" timestamp="1589662803907">
         <mark key="[" line="0" column="0" />
@@ -256,7 +253,7 @@
       <file name="/Compiler Info Errors" timestamp="1589737915682">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1589670649323">
+      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1589744674443">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/build.fish" timestamp="1589729760564">
@@ -289,21 +286,12 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="197" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
-      <jump line="132" column="8" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="109" column="8" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="190" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
-      <jump line="187" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
-      <jump line="195" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
-      <jump line="184" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="94" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="95" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="97" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="99" column="3" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="126" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="135" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="8" column="72" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="6" column="5" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="12" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="42" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="428" column="32" filename="$USER_HOME$/test/src/basic.hpp" />
@@ -331,20 +319,13 @@
       <jump line="480" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="478" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="38" column="4" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="21" column="4" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="475" column="29" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="47" column="15" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="27" column="58" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="24" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="9" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="4" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="2" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="11" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="13" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="34" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="586" column="32" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="22" column="4" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="28" column="4" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="580" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="55" column="13" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="579" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
@@ -362,9 +343,7 @@
       <jump line="18" column="13" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="26" column="4" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="20" column="4" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="25" column="4" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="591" column="29" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="14" column="43" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="17" column="28" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="139" column="30" filename="C:/Program Files/Python37/include/pythonrun.h" />
       <jump line="3" column="0" filename="$USER_HOME$/test/build.ps1" />
@@ -388,13 +367,31 @@
       <jump line="5" column="0" filename="$USER_HOME$/test/ml/mnist_V10.py" />
       <jump line="30" column="0" filename="$USER_HOME$/test/ml/load.py" />
       <jump line="15" column="0" filename="$USER_HOME$/test/ml/load.py" />
-      <jump line="19" column="58" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="67" column="0" filename="$USER_HOME$/test/ml/mnist_V10.py" />
+      <jump line="21" column="31" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="19" column="87" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="25" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="22" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="23" column="21" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="16" column="55" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="14" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="13" column="10" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="27" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="45" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="28" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="30" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="46" column="64" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="5" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="8" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="34" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="24" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="6" column="0" filename="$USER_HOME$/test/src/main.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>2</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -799,45 +796,44 @@
           <key char="58" code="0" mods="0" />
         </keys>
       </register>
-      <register name="+" type="2">
-        <text encoding="base64">ICAgICJjb21tYW5kIjogImNsYW5nKysgLWcgLU8wIC1Xbm8td3JpdGFibGUtc3RyaW5ncyAtbyBiaW4vdGVzdCBzcmMvbWFpbi5jcHAiLAo=</text>
+      <register name="+" type="4">
+        <text>PyObject_CallObject</text>
       </register>
       <register name="-" type="4">
-        <text>2</text>
+        <text>get_digit</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxQeVJ1bl9TaW1wbGVTdHJpbmdGbGFnc1w+</text>
+        <text encoding="base64">XDxnZXRfZGlnaXRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">b3MuZW52aXJvblsnVEZfQ1BQX01JTl9MT0dfTEVWRUwnXSA9ICczJwo=</text>
+        <text encoding="base64">ICAgIFB5UnVuX1NpbXBsZVN0cmluZygiaW1wb3J0IHN5czsgc3lzLnBhdGguYXBwZW5kKCdDOlxcXFxVc2Vyc1xcXFxscml1dWkweDBcXFxcdGVzdFxcXFxtbCcpIik7CgogICAgUHlPYmplY3QgKm5ldHdvcmsgPSBQeUltcG9ydF9JbXBvcnRNb2R1bGUoIm5ldHdvcmsiKTsKICAgIFB5T2JqZWN0ICpuZXR3b3JrX2V4cG9ydCA9IFB5TW9kdWxlX0dldERpY3QobmV0d29yayk7CiAgICBQeU9iamVjdCAqZ2V0X2RpZ2l0ID0gUHlEaWN0X0dldEl0ZW1TdHJpbmcobmV0d29ya19leHBvcnQsICJnZXRfZGlnaXQiKTsKICAgIFB5X0RFQ1JFRihuZXR3b3JrKTsKICAgIFB5X0RFQ1JFRihuZXR3b3JrX2V4cG9ydCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBbZGQ6XQo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFB5T2JqZWN0ICpnZXRfZGlnaXQgPSBQeU9iamVjdF9HZXRBdHRyU3RyaW5nKG5ldHdvcmssICJnZXRfZGlnaXQiKTsKICAgIFB5TGlzdF9BcHBlbmQocGF0aCwgUHlTdHJpbmdfRnJvbVN0cmluZygiLiIpKTsKCiAgICBQeU9iamVjdCAqIE1vZHVsZVN0cmluZyA9IFB5U3RyaW5nX0Zyb21TdHJpbmcoKGNoYXIqKSAicHlfZnVuY3Rpb24iKTsKICAgIFB5T2JqZWN0ICogTW9kdWxlID0gUHlJbXBvcnRfSW1wb3J0KE1vZHVsZVN0cmluZyk7CiAgICBQeU9iamVjdCAqIERpY3QgPSBQeU1vZHVsZV9HZXREaWN0KE1vZHVsZSk7CiAgICBQeU9iamVjdCAqIEZ1bmMgPSBQeURpY3RfR2V0SXRlbVN0cmluZyhEaWN0LCAicHl0aG9uX3Rlc3QiKTsKICAgIFB5T2JqZWN0ICogUmVzdWx0ID0gUHlPYmplY3RfQ2FsbE9iamVjdChGdW5jLCBOVUxMKTsK</text>
+        <text encoding="base64">Vm9pZCByZW5kZXIoQ2FudmFzICpjYW52YXMpCnsKICAgIGRyYXdfcmVjdChjYW52YXMsIDAsIDAsIGNhbnZhcy0+d2lkdGgsIGNhbnZhcy0+aGVpZ2h0LCAyNTUsIDI1NSwgMjU1KTsKfQoK</text>
       </register>
-      <register name="5" type="4">
-        <text>Dict = PyModule_GetDict(Module);
-    PyObject *</text>
+      <register name="5" type="2">
+        <text encoding="base64">Iwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIFN0cmluZyBzY3JpcHQgPSByZWFkX2ZpbGUoY3JlYXRlX3N0cmluZygibWwvbG9hZC5weSIpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gICAgQ2FudmFzIGNhbnZhczsKLy8gICAgSW50IHdpZHRoID0gMTIwMDsKLy8gICAgSW50IGhlaWdodCA9IDk1MDsKLy8gICAgV2luZG93IHdpbmRvdyA9IGNyZWF0ZV93aW5kb3coNTAsIDUwLCB3aWR0aCwgaGVpZ2h0LCBjcmVhdGVfc3RyaW5nKCJ0ZXN0IiksICZjYW52YXMpOwovLyAgICBzZXRfd2luZG93X3Zpc2liaWxpdHkod2luZG93LCB0cnVlKTsKLy8KLy8gICAgVGltZSBzdGFydCA9IGdldF90aW1lc3RhbXAoKTsKLy8gICAgd2hpbGUgKHRydWUpCi8vICAgIHsKLy8gICAgICAgIHJlbmRlcigmY2FudmFzKTsKLy8gICAgICAgIHJlbmRlcl93aW5kb3cod2luZG93LCAmY2FudmFzKTsKLy8KLy8gICAgICAgIHN0YXJ0ID0gbG9ja19mcHMoc3RhcnQsIDYwKTsKLy8gICAgfQo=</text>
+        <text encoding="base64">ICAgIFB5X0luaXRpYWxpemUoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Zm9yIHggaW4gcmFuZ2UoMTAwKToKICAgIGRpZ2l0ID0gZ2V0X2RpZ2l0KGdldF9yYW5kb21faW5wdXQoKSkKICAgIHByaW50KGRpZ2l0KQo=</text>
+        <text encoding="base64">ICAgIFB5X0luaXRpYWxpemUoKTsKICAgIFB5UnVuX1NpbXBsZVN0cmluZygiaW1wb3J0IHN5czsgc3lzLnBhdGguYXBwZW5kKCdDOlxcXFxVc2Vyc1xcXFxscml1dWkweDBcXFxcdGVzdFxcXFxtbCcpIik7CgogICAgUHlPYmplY3QgKm5ldHdvcmsgPSBQeUltcG9ydF9JbXBvcnRNb2R1bGUoIm5ldHdvcmsiKTsKICAgIFB5T2JqZWN0ICpuZXR3b3JrX2V4cG9ydCA9IFB5TW9kdWxlX0dldERpY3QobmV0d29yayk7CiAgICBQeU9iamVjdCAqZ2V0X2RpZ2l0ID0gUHlEaWN0X0dldEl0ZW1TdHJpbmcobmV0d29ya19leHBvcnQsICJnZXRfZGlnaXQiKTsKICAgIFB5X0RFQ1JFRihuZXR3b3JrKTsKICAgIFB5X0RFQ1JFRihuZXR3b3JrX2V4cG9ydCk7Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -846,9 +842,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxQeVJ1bl9TaW1wbGVTdHJpbmdGbGFnc1w+</last-search>
+      <last-search encoding="base64">XDxnZXRfZGlnaXRcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxQeVJ1bl9TaW1wbGVTdHJpbmdGbGFnc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxnZXRfZGlnaXRcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxjYW52YXNfZGF0YVw+</last-substitute>
       <last-dir>1</last-dir>
