@@ -17,6 +17,7 @@
         <entry encoding="base64">XDxOVUxMXD4=</entry>
         <entry>dc</entry>
         <entry encoding="base64">XDxzY2FubGluZV9zZXRcPg==</entry>
+        <entry encoding="base64">XDxyZW5kZXJcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -207,13 +208,12 @@
       <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1589671473122">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1589728299455">
-        <mark key="'" line="109" column="8" />
-        <mark key="j" line="30" column="0" />
-        <mark key="[" line="141" column="63" />
-        <mark key="]" line="141" column="63" />
-        <mark key="." line="141" column="63" />
-        <mark key="^" line="141" column="25" />
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1589728540067">
+        <mark key="'" line="24" column="21" />
+        <mark key="[" line="16" column="38" />
+        <mark key="]" line="16" column="40" />
+        <mark key="." line="16" column="39" />
+        <mark key="^" line="16" column="40" />
       </file>
       <file name="$USER_HOME$/test/example/awt_GraphicsEnv.c" timestamp="1589647640142">
         <mark key="'" line="1027" column="23" />
@@ -233,7 +233,7 @@
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1589670649323">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/LLDB" timestamp="1589671670061">
+      <file name="/LLDB" timestamp="1589728541901">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/gui.hpp" timestamp="1589728278304">
@@ -261,18 +261,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="128" column="7" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="130" column="7" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="132" column="7" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="145" column="7" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="479" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="512" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="516" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="182" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="316" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="295" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="320" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="459" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="24" column="11" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="460" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="474" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
@@ -361,12 +349,24 @@
       <jump line="187" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="195" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="184" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="19" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="94" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="95" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="97" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="99" column="3" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="126" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="135" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="14" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="12" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="8" column="72" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="6" column="5" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="24" column="21" filename="$USER_HOME$/test/src/main.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>10</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -775,10 +775,10 @@
         <text encoding="base64">ICAgICJjb21tYW5kIjogImNsYW5nKysgLWcgLU8wIC1Xbm8td3JpdGFibGUtc3RyaW5ncyAtbyBiaW4vdGVzdCBzcmMvbWFpbi5jcHAiLAo=</text>
       </register>
       <register name="-" type="4">
-        <text>p</text>
+        <text>10</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzY2FubGluZV9zZXRcPg==</text>
+        <text encoding="base64">XDxyZW5kZXJcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIFdpbmRvd0VudHJ5ICplbnRyeSA9IGdldF93aW5kb3dfZW50cnkod2luZG93KTsKICAgIGlmIChlbnRyeSkKICAgIHsK</text>
@@ -787,28 +787,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoc2NhbmxpbmVfc2V0ID09IGVudHJ5LT5oZWlnaHQpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIHNlZWsocmVhZGVyLCBpKTsKCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gICAgU3RyaW5nIGlkID0gZ2V0X3N0cmluZyhyZWFkZXIpOwovLyAgICBJbnQgeF9taW4gPSBnZXQ8SW50MzI+KHJlYWRlcik7Ci8vICAgIEludCB4X21heCA9IGdldDxJbnQzMj4ocmVhZGVyKTsKLy8gICAgSW50IHlfbWluID0gZ2V0PEludDMyPihyZWFkZXIpOwovLyAgICBJbnQgeV9tYXggPSBnZXQ8SW50MzI+KHJlYWRlcik7Ci8vCi8vICAgIEludCBvZmZzZXRfeCA9IDUwOwovLyAgICBJbnQgb2Zmc2V0X3kgPSA1MDsKLy8gICAgSW50IGV4dGVudCA9IDU1MDsKLy8gICAgRmxvYXQgc2NhbGUgPSAoRmxvYXQpZXh0ZW50IC8gZm1heCh4X21heCAtIHhfbWluLCB5X21heCAtIHlfbWluKTsKLy8KLy8gICAgSW50IHN0cm9rZV9jb3VudCA9IGdldDxJbnQzMj4ocmVhZGVyKTsKLy8gICAgZm9yIChJbnQgaSA9IDA7IGkgPCBzdHJva2VfY291bnQ7IGkrKykKLy8gICAgewovLyAgICAgICAgRmxvYXQgc3RhcnRfdGltZSA9IGdldDxGbG9hdDMyPihyZWFkZXIpOwovLyAgICAgICAgRmxvYXQgZW5kX3RpbWUgPSBnZXQ8RmxvYXQzMj4ocmVhZGVyKTsKLy8gICAgICAgIEludCBwb2ludF9jb3VudCA9IGdldDxJbnQzMj4ocmVhZGVyKTsKLy8gICAgICAgIGZvciAoSW50IGkgPSAwOyBpIDwgcG9pbnRfY291bnQ7IGkrKykKLy8gICAgICAgIHsKLy8gICAgICAgICAgICBGbG9hdCB0aW1lID0gZ2V0PEZsb2F0MzI+KHJlYWRlcik7Ci8vICAgICAgICAgICAgSW50IHggPSBnZXQ8SW50MzI+KHJlYWRlcik7Ci8vICAgICAgICAgICAgSW50IHkgPSBnZXQ8SW50MzI+KHJlYWRlcik7Ci8vICAgICAgICAgICAgSW50IHB4ID0gb2Zmc2V0X3ggKyAoeCAtIHhfbWluKSAqIHNjYWxlOwovLyAgICAgICAgICAgIEludCBweSA9IG9mZnNldF95ICsgKHkgLSB5X21pbikgKiBzY2FsZTsKLy8gICAgICAgICAgICBkcmF3X2NpcmNsZV9maWxsKGNhbnZhcywgcHgsIHB5LCAyLCAwLCAwLCAwKTsKLy8gICAgICAgIH0KLy8gICAgfQovLwovLyAgICBJbnQgbGluZV9jb3VudCA9IGdldDxJbnQzMj4ocmVhZGVyKTsKLy8gICAgSW50IHRleHRfb2Zmc2V0X3ggPSA1MDsKLy8gICAgSW50IHRleHRfb2Zmc2V0X3kgPSA2NTA7Ci8vICAgIEZsb2F0IGZvbnRfc2NhbGU7Ci8vICAgIGZvciAoSW50IGkgPSAwOyBpIDwgbGluZV9jb3VudDsgaSsrKQovLyAgICB7Ci8vICAgICAgICBJbnQgd29yZF9jb3VudCA9IGdldDxJbnQzMj4ocmVhZGVyKTsKLy8gICAgICAgIGZvciAoSW50IGkgPSAwOyBpIDwgd29yZF9jb3VudDsgaSsrKQovLyAgICAgICAgewovLyAgICAgICAgICAgIFN0cmluZyB3b3JkID0gZ2V0X3N0cmluZyhyZWFkZXIpOwovLyAgICAgICAgICAgIGZvciAoSW50IGkgPSAwOyBpIDwgc3RyaW5nX2xlbmd0aCh3b3JkKTsgaSsrKQovLyAgICAgICAgICAgIHsKLy8gICAgICAgICAgICAgICAgVUludDggYyA9IHdvcmRbaV07Ci8vICAgICAgICAgICAgICAgIEFTU0VSVChjID49ICchJyAmJiBjIDw9ICd+Jyk7Ci8vICAgICAgICAgICAgICAgIGlmICghY2hhcl9jYWNoZVtjXSkKLy8gICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgY2hhcl9tZXRyaWNzW2NdID0gZm9udF9jYWxjdWxhdGVfbWV0cmljcygmZm9udCwgYywgMjApOwovLyAgICAgICAgICAgICAgICAgICAgY2hhcl9jYWNoZVtjXSA9IChGbG9hdDMyICopYWxsb2MoY2hhcl9tZXRyaWNzW2NdLndpZHRoICogY2hhcl9tZXRyaWNzW2NdLmhlaWdodCAqIDQpOwovLyAgICAgICAgICAgICAgICAgICAgZm9udF9yZW5kZXIoJmZvbnQsICZjaGFyX21ldHJpY3NbY10sIGNoYXJfY2FjaGVbY10pOwovLyAgICAgICAgICAgICAgICB9Ci8vCi8vICAgICAgICAgICAgICAgIGZvbnRfc2NhbGUgPSBjaGFyX21ldHJpY3NbY10uc2NhbGU7Ci8vICAgICAgICAgICAgICAgIEludCBjaGFyX29mZnNldF94ID0gdGV4dF9vZmZzZXRfeCArIGNoYXJfbWV0cmljc1tjXS5sZWZ0X2JlYXJpbmcgKiBjaGFyX21ldHJpY3NbY10uc2NhbGU7Ci8vICAgICAgICAgICAgICAgIEludCBjaGFyX29mZnNldF95ID0gdGV4dF9vZmZzZXRfeSAtIGNoYXJfbWV0cmljc1tjXS55X21heCAqIGNoYXJfbWV0cmljc1tjXS5zY2FsZTsKLy8gICAgICAgICAgICAgICAgZHJhd19kYXRhKGNhbnZhcywgY2hhcl9vZmZzZXRfeCwgY2hhcl9vZmZzZXRfeSwgY2hhcl9tZXRyaWNzW2NdLndpZHRoLCBjaGFyX21ldHJpY3NbY10uaGVpZ2h0LAovLyAgICAgICAgICAgICAgICAgICAgICAgICAgY2hhcl9jYWNoZVtjXSwgMCwgMCwgMCk7Ci8vICAgICAgICAgICAgICAgIHRleHRfb2Zmc2V0X3ggKz0gY2hhcl9tZXRyaWNzW2NdLmFkdmFuY2UgKiBjaGFyX21ldHJpY3NbY10uc2NhbGU7Ci8vICAgICAgICAgICAgfQovLyAgICAgICAgICAgIHRleHRfb2Zmc2V0X3ggKz0gMTA7Ci8vICAgICAgICB9Ci8vICAgICAgICB0ZXh0X29mZnNldF95ICs9IChmb250LmFzY2VuZGVyIC0gZm9udC5kZXNjZW5kZXIgKyBmb250LmxpbmVfZ2FwKSAqIGZvbnRfc2NhbGU7Ci8vICAgICAgICB0ZXh0X29mZnNldF94ID0gNTA7Ci8vICAgIH0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">Vm9pZCBzZWVrKFJlYWRlciAqcmVhZGVyLCBJbnQgaSkKewogICAgcmVhZGVyLT5vZmZzZXQgPSAwOwogICAgSW50IGNvdW50ID0gZ2V0PEludDMyPihyZWFkZXIpOwogICAgSW50MzIgb2Zmc2V0ID0gcGVlazxJbnQzMj4ocmVhZGVyLCBpICogNCk7CiAgICByZWFkZXItPm9mZnNldCArPSA0ICogKGNvdW50ICsgMSkgKyBvZmZzZXQ7Cn0KCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoKQo=</text>
+        <text encoding="base64">Rm9udCBmb250OwpGb250Q2hhck1ldHJpY3MgY2hhcl9tZXRyaWNzWzEyOF07CkZsb2F0MzIgKmNoYXJfY2FjaGVbMTI4XSA9IHt9OwoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICApOwo=</text>
+        <text encoding="base64">Ly8gICAgICAgIFdpbmRvd0V2ZW50IGV2ZW50OwovLyAgICAgICAgd2hpbGUgKGdldF93aW5kb3dfZXZlbnQod2luZG93LCAmZXZlbnQpKQovLyAgICAgICAgewovLyAgICAgICAgICAgIGlmIChldmVudC50eXBlID09IFdpbmRvd0V2ZW50VHlwZTo6UkVTSVpFKQovLyAgICAgICAgICAgIHsKLy8gICAgICAgICAgICAgICAgcmVzaXplX3dpbmRvd19jYW52YXMod2luZG93LCAmY2FudmFzLCBldmVudC5yZXNpemUud2lkdGgsIGV2ZW50LnJlc2l6ZS5oZWlnaHQpOwovLyAgICAgICAgICAgICAgICByZW5kZXIoJmNhbnZhcywgJnJlYWRlciwgY3Vycl9zYW1wbGUpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgICBlbHNlIGlmIChldmVudC50eXBlID09IFdpbmRvd0V2ZW50VHlwZTo6S0VZX1BSRVNTKQovLyAgICAgICAgICAgIHsKLy8gICAgICAgICAgICAgICAgaWYgKGV2ZW50LmtleS5jb2RlID09ICduJykKLy8gICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgY3Vycl9zYW1wbGUgPSAoY3Vycl9zYW1wbGUgKyAxKSAlIHNhbXBsZV9jb3VudDsKLy8gICAgICAgICAgICAgICAgICAgIHJlbmRlcigmY2FudmFzLCAmcmVhZGVyLCBjdXJyX3NhbXBsZSk7Ci8vICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgZWxzZSBpZiAoZXZlbnQua2V5LmNvZGUgPT0gJ3AnKQovLyAgICAgICAgICAgICAgICB7Ci8vICAgICAgICAgICAgICAgICAgICBjdXJyX3NhbXBsZSA9IChjdXJyX3NhbXBsZSArIGN1cnJfc2FtcGxlIC0gMSkgJSBzYW1wbGVfY291bnQ7Ci8vICAgICAgICAgICAgICAgICAgICByZW5kZXIoJmNhbnZhcywgJnJlYWRlciwgY3Vycl9zYW1wbGUpOwovLyAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgIGVsc2UgaWYgKGV2ZW50LmtleS5jb2RlID09ICdxJykKLy8gICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgZW5kZWQgPSB0cnVlOwovLyAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgfQovLyAgICAgICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnN0IFZPSUQgICAgICAgKmxwdkJpdHMsCiAgICAgICAgICAgICAgICBjb25zdCBCSVRNQVBJTkZPICpscGJtaSwKICAgICAgICAgICAgICAgIFVJTlQgICAgICAgICAgICAgQ29sb3JVc2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFVJTlQgICAgICAgICAgICAgU3RhcnRTY2FuLAogICAgICAgICAgICAgICAgVUlOVCAgICAgICAgICAgICBjTGluZXMsCg==</text>
+        <text encoding="base64">ICAgIEFTU0VSVChmb250X3BhcnNlKGZpbGVfcmVhZChjcmVhdGVfc3RyaW5nKCJCbGVuZGVyIFBybyBCb29rLm90ZiIpKSwgJmZvbnQpKTsKCiAgICBSZWFkZXIgcmVhZGVyID0gY3JlYXRlX3JlYWRlcihmaWxlX3JlYWQoY3JlYXRlX3N0cmluZygicGFjay5kYXRhIikpKTsKCiAgICBJbnQgc2FtcGxlX2NvdW50ID0gZ2V0PEludDMyPigmcmVhZGVyKTsKICAgIEludCBjdXJyX3NhbXBsZSA9IDA7CiAgICByZW5kZXIoJmNhbnZhcywgJnJlYWRlciwgY3Vycl9zYW1wbGUpOwoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGludCAgICAgICAgICAgICAgeFNyYywKICAgICAgICAgICAgICAgIGludCAgICAgICAgICAgICAgeVNyYywK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -817,9 +817,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzY2FubGluZV9zZXRcPg==</last-search>
+      <last-search encoding="base64">XDxyZW5kZXJcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzY2FubGluZV9zZXRcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxyZW5kZXJcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxjYW52YXNfZGF0YVw+</last-substitute>
       <last-dir>1</last-dir>
