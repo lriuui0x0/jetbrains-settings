@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzZXRKb2JXYWl0aW5nXD4=</entry>
         <entry encoding="base64">XDxleGVjdXRvclw+</entry>
         <entry encoding="base64">XDxhcHByb3ZhbFN0YXRlXD4=</entry>
         <entry>logger</entry>
@@ -25,16 +24,17 @@
         <entry encoding="base64">XDxkZWxldGVcPg==</entry>
         <entry encoding="base64">XDxzdGFydGVkXD4=</entry>
         <entry encoding="base64">XDxydW5SdW5uYWJsZVBpcGVsaW5lc1w+</entry>
+        <entry>getRunnable</entry>
       </history-search>
       <history-cmd>
         <entry>qw</entry>
         <entry>e</entry>
         <entry>we</entry>
-        <entry>vs</entry>
         <entry>call VimLLDB_Launch()</entry>
         <entry>call VimLLDB_ToggleBreakpoint()</entry>
         <entry>call VimLLDB_StepOver()</entry>
         <entry>q</entry>
+        <entry>vs</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -162,6 +162,22 @@
       <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1589802263725">
         <mark key="'" line="196" column="75" />
       </file>
+      <file name="/Dummy.txt" timestamp="1589809994891">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Install.java" timestamp="1589811372018">
+        <mark key="'" line="83" column="8" />
+        <mark key="^" line="5" column="84" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Automation.java" timestamp="1589811697460">
+        <mark key="'" line="56" column="99" />
+        <mark key="[" line="62" column="29" />
+        <mark key="]" line="62" column="29" />
+        <mark key="." line="62" column="33" />
+        <mark key="^" line="61" column="35" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" timestamp="1589803680123">
         <mark key="'" line="160" column="18" />
         <mark key="[" line="160" column="12" />
@@ -175,6 +191,10 @@
       <file name="$USER_HOME$/GraknLabs/grabl/server/Server.java" timestamp="1589805178566">
         <mark key="'" line="47" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/Job.java" timestamp="1589791233796">
+        <mark key="'" line="111" column="8" />
+        <mark key="^" line="77" column="77" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" timestamp="1589812494993">
         <mark key="'" line="111" column="81" />
         <mark key="[" line="164" column="0" />
@@ -182,12 +202,11 @@
         <mark key="." line="164" column="0" />
         <mark key="^" line="191" column="54" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" timestamp="1589811829554">
-        <mark key="'" line="208" column="56" />
-        <mark key="[" line="215" column="43" />
-        <mark key="]" line="215" column="48" />
-        <mark key="." line="215" column="47" />
-        <mark key="^" line="215" column="48" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" timestamp="1589814649157">
+        <mark key="'" line="160" column="53" />
+        <mark key="[" line="134" column="0" />
+        <mark key="]" line="134" column="0" />
+        <mark key="." line="134" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Owner.java" timestamp="1589804142096">
         <mark key="'" line="86" column="100" />
@@ -209,41 +228,20 @@
         <mark key="]" line="85" column="0" />
         <mark key="." line="85" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" timestamp="1589804108600">
-        <mark key="[" line="93" column="42" />
-        <mark key="]" line="93" column="44" />
-        <mark key="." line="93" column="43" />
-        <mark key="^" line="93" column="44" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1589809994891">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Install.java" timestamp="1589811372018">
-        <mark key="'" line="83" column="8" />
-        <mark key="^" line="5" column="84" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Automation.java" timestamp="1589811697460">
-        <mark key="'" line="56" column="99" />
-        <mark key="[" line="62" column="29" />
-        <mark key="]" line="62" column="29" />
-        <mark key="." line="62" column="33" />
-        <mark key="^" line="61" column="35" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/Job.java" timestamp="1589791233796">
-        <mark key="'" line="111" column="8" />
-        <mark key="^" line="77" column="77" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1589804954579" />
       <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/test/PipelineTest.java" timestamp="1589732530001">
         <mark key="[" line="107" column="88" />
         <mark key="]" line="107" column="88" />
         <mark key="." line="107" column="88" />
         <mark key="^" line="107" column="82" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1589811982238">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" timestamp="1589804108600">
+        <mark key="[" line="93" column="42" />
+        <mark key="]" line="93" column="44" />
+        <mark key="." line="93" column="43" />
+        <mark key="^" line="93" column="44" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1589814622487">
+        <mark key="'" line="64" column="74" />
         <mark key="[" line="182" column="0" />
         <mark key="]" line="182" column="0" />
         <mark key="^" line="180" column="44" />
@@ -260,12 +258,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="89" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="87" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="86" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="82" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="78" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="73" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="41" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="47" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="63" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
@@ -360,12 +352,18 @@
       <jump line="210" column="21" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
       <jump line="121" column="8" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
       <jump line="111" column="81" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
+      <jump line="30" column="24" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
+      <jump line="244" column="8" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="71" column="8" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="64" column="74" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="177" column="8" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
+      <jump line="163" column="53" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGdldFJ1bm5hYmxlV29ya2Zsb3dzKCkuY29udGFpbnMobXNnLmdldFdvcmtmbG93KCkpKQogICAgICAgICAgICBnZXRSdW5uYWJsZVdvcmtmbG93cygpLmZvckVhY2god29ya2Zsb3cgLT4gewogICAgICAgICAgICB9KTsK</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">cGlwZWxpbmUtZGVwZW5kZW5jeSBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIHBpcGVsaW5lLWRlcGVuZGVuY3lfZGVwZW5kZWUsCiAgICByZWxhdGVzIHBpcGVsaW5lLWRlcGVuZGVuY3lfZGVwZW5kYW50OwoK</text>
@@ -374,13 +372,13 @@
         <text>LocalDateTime.now(ZoneOffset.UTC)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxydW5SdW5uYWJsZVBpcGVsaW5lc1w+</text>
+        <text>getRunnable</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbm90aWZpZXIudXBkYXRlU3RhdHVzKGpvYiwgInJ1bm5pbmciKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGdldFJ1bm5hYmxlV29ya2Zsb3dzKCkuY29udGFpbnMobXNnLmdldFdvcmtmbG93KCkpKQogICAgICAgICAgICBnZXRSdW5uYWJsZVdvcmtmbG93cygpLmZvckVhY2god29ya2Zsb3cgLT4gewogICAgICAgICAgICB9KTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -427,28 +425,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbm90aWZpZXIudXBkYXRlU3RhdHVzKGpvYiwgImVycm9yIik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIExvY2FsRGF0ZVRpbWUgZW5kZWQgPSBMb2NhbERhdGVUaW1lLm5vdyhab25lT2Zmc2V0LlVUQyk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbm90aWZpZXIudXBkYXRlU3RhdHVzKGpvYiwgInJ1bm5pbmciKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbm90aWZpZXIudXBkYXRlU3RhdHVzKGpvYiwgInN1Y2Nlc3MiKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbm90aWZpZXIudXBkYXRlU3RhdHVzKGpvYiwgImVycm9yIik7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIExvY2FsRGF0ZVRpbWUgZW5kZWQgPSBMb2NhbERhdGVUaW1lLm5vdyhab25lT2Zmc2V0LlVUQyk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -457,9 +455,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxydW5SdW5uYWJsZVBpcGVsaW5lc1w+</last-search>
+      <last-search>getRunnable</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxydW5SdW5uYWJsZVBpcGVsaW5lc1w+</last-pattern>
+      <last-pattern>getRunnable</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
