@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>show_window</entry>
-        <entry encoding="base64">XDxheGlzX3hcPg==</entry>
         <entry encoding="base64">XDxwcmVzc3VyZVw+</entry>
         <entry>window_procedure</entry>
         <entry encoding="base64">XDxwYWNrZXRfcmVjZWl2ZWRcPg==</entry>
@@ -25,6 +23,8 @@
         <entry>PostMessage</entry>
         <entry encoding="base64">XDxyZWlyZXNpemVcPg==</entry>
         <entry encoding="base64">XDxtb2R1bGVfaGFuZGxlXD4=</entry>
+        <entry>Thread</entry>
+        <entry>void</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+8w</entry>
@@ -263,24 +263,19 @@
         <mark key="^" line="326" column="48" />
         <mark key="." line="326" column="47" />
       </file>
-      <file name="$USER_HOME$/test/src/basic.hpp" timestamp="1590250053987">
-        <mark key="'" line="81" column="0" />
-        <mark key="[" line="122" column="0" />
+      <file name="$USER_HOME$/test/src/basic.hpp" timestamp="1590251010486">
+        <mark key="'" line="418" column="20" />
+        <mark key="[" line="423" column="32" />
         <mark key="m" line="116" column="32" />
-        <mark key="]" line="122" column="0" />
-        <mark key="." line="122" column="0" />
-        <mark key="^" line="114" column="28" />
+        <mark key="]" line="423" column="43" />
+        <mark key="." line="423" column="42" />
+        <mark key="^" line="423" column="43" />
       </file>
       <file name="C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/WinUser.h" timestamp="1590014201667">
         <mark key="'" line="13698" column="34" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="87" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="88" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="89" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="90" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
-      <jump line="91" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="92" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="93" column="26" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="94" column="12" filename="$USER_HOME$/test/src/basic.hpp" />
@@ -376,12 +371,17 @@
       <jump line="16" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="81" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
       <jump line="55" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="669" column="0" filename="$USER_HOME$/test/src/basic.hpp" />
+      <jump line="416" column="3" filename="$USER_HOME$/test/src/basic.hpp" />
+      <jump line="57" column="8" filename="$USER_HOME$/test/src/basic.hpp" />
+      <jump line="417" column="13" filename="$USER_HOME$/test/src/basic.hpp" />
+      <jump line="418" column="20" filename="$USER_HOME$/test/src/basic.hpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>C:\Users\lriuui0x0\test\</text>
+        <text>func</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1221,16 +1221,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>C:\Users\lriuui0x0\test\</text>
+        <text>func</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtb2R1bGVfaGFuZGxlXD4=</text>
+        <text>void</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICB3aW5kb3dfY2xhc3MuY2JTaXplLiA9IHNpd2lkZXZlbnQtPmhlaWdodC53aXplb2YoKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1316,22 +1316,22 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGZvciAoSW50IHkgPSAwOyB5IDwgaGVpZ2h0OyB5KyspCiAgICB7CiAgICAgICAgZm9yIChJbnQgeCA9IDA7IHggPCB3aWR0aDsgeCsrKQogICAgICAgIHsKICAgICAgICAgICAgc3RhdGUuY2FudmFzLmRhdGFbeSAqIHN0YXRlLmNhbnZhcy53aWR0aCArIHhdID0gMHhmZgogICAgICAgIH0KICAgIH0K</text>
+        <text encoding="base64">VGhyZWFkIGNyZWF0ZV90aHJlYWQoKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVUludDggYSA9IChwaXhlbCA+PiBzdGF0ZS0+Y2FudmFzLmFscGhhX3NoaWZ0KSAmIDB4ZmY7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2681,10 +2681,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2FudmFzCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gRGVmV2luZG93UHJvY0Eod2luZG93LCBtZXNzYWdlLCB3cGFyYW0sIGxwYXJhbSk7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -2693,9 +2693,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxtb2R1bGVfaGFuZGxlXD4=</last-search>
+      <last-search>void</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtb2R1bGVfaGFuZGxlXD4=</last-pattern>
+      <last-pattern>void</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxoZWFkXD4=</last-substitute>
       <last-dir>1</last-dir>
