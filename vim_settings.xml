@@ -39,13 +39,13 @@
         <entry>vs</entry>
         <entry>@w</entry>
         <entry>w#</entry>
-        <entry>q</entry>
         <entry>ew</entry>
         <entry>Lw</entry>
         <entry>:w</entry>
         <entry>W</entry>
         <entry>we</entry>
         <entry>wq</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -222,12 +222,12 @@
       <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1589749222634">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590188043640">
-        <mark key="'" line="44" column="56" />
-        <mark key="[" line="44" column="95" />
-        <mark key="]" line="44" column="96" />
-        <mark key="." line="44" column="95" />
-        <mark key="^" line="44" column="96" />
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590194129507">
+        <mark key="'" line="35" column="0" />
+        <mark key="[" line="40" column="95" />
+        <mark key="]" line="40" column="96" />
+        <mark key="^" line="40" column="96" />
+        <mark key="." line="40" column="95" />
       </file>
       <file name="$USER_HOME$/test/ml/mnist_V10.py" timestamp="1589743077981">
         <mark key="'" line="67" column="0" />
@@ -251,7 +251,7 @@
         <mark key="^" line="0" column="166" />
         <mark key="." line="0" column="157" />
       </file>
-      <file name="/LLDB" timestamp="1590193669284">
+      <file name="/LLDB" timestamp="1590193949579">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/ml/load.py" timestamp="1589741923835">
@@ -261,14 +261,13 @@
         <mark key="." line="30" column="0" />
         <mark key="^" line="29" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/gui.hpp" timestamp="1590193665945">
-        <mark key="'" line="291" column="12" />
+      <file name="$USER_HOME$/test/src/gui.hpp" timestamp="1590194416724">
+        <mark key="'" line="250" column="41" />
         <mark key="h" line="145" column="65" />
-        <mark key="[" line="315" column="62" />
-        <mark key="m" line="307" column="12" />
-        <mark key="]" line="316" column="35" />
-        <mark key="." line="316" column="34" />
-        <mark key="^" line="316" column="35" />
+        <mark key="[" line="256" column="0" />
+        <mark key="m" line="302" column="12" />
+        <mark key="]" line="256" column="0" />
+        <mark key="." line="256" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/basic.hpp" timestamp="1589926284529">
         <mark key="'" line="209" column="0" />
@@ -286,13 +285,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="12" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="67" column="15" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="64" column="8" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="69" column="8" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="324" column="8" filename="$USER_HOME$/test/src/gui.hpp" />
-      <jump line="336" column="19" filename="$USER_HOME$/test/src/gui.hpp" />
-      <jump line="357" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="320" column="12" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="195" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="272" column="16" filename="$USER_HOME$/test/src/gui.hpp" />
@@ -338,7 +330,6 @@
       <jump line="419" column="8" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="287" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="443" column="0" filename="$USER_HOME$/test/src/gui.hpp" />
-      <jump line="206" column="8" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="196" column="8" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="420" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="485" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
@@ -386,12 +377,20 @@
       <jump line="296" column="16" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="318" column="12" filename="$USER_HOME$/test/src/gui.hpp" />
       <jump line="291" column="12" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="206" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="321" column="4" filename="$USER_HOME$/test/src/gui.hpp" />
+      <jump line="20" column="11" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="18" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="13" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="40" column="87" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="35" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="250" column="41" filename="$USER_HOME$/test/src/gui.hpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IHBvaW50Lng7CiAgICAgICAgICAgICAgICAgICAgICAgIHkgPSBwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgV2luZG93RXZlbnQgKmV2ZW50ID0gY2lyY3VsYXJfcXVldWVfcHVzaCgpOwo=</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -3864,16 +3863,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>circular_buffer_push</text>
+        <text>event</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwYWNrZXRfcmVjZWl2ZWRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2luZG93X2RhdGEud2ludGFiLldUUGFja2V0ID0gKFdUUEFDS0VUKUdldFByb2NBZGRyZXNzKGxpYnJhcnksICJXVFBhY2tldCIpOwo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">JndpbmRvd19kYXRhLT5ldmVudHM=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IHBvaW50Lng7CiAgICAgICAgICAgICAgICAgICAgICAgIHkgPSBwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgV2luZG93RXZlbnQgKmV2ZW50ID0gY2lyY3VsYXJfcXVldWVfcHVzaCgpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -3959,22 +3958,22 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFRBQkxFVCwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgV2luZG93RXZlbnQgKmV2ZW50ID0gY2lyY3VsYXJfcXVldWVfcHVzaCgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgV2luZG93RXZlbnQgKmV2ZW50ID0gY2lyY3VsYXJfcXVldWVfcHVzaCgpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQtPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgV2luZG93RXZlbnQgKmV2ZW50ID0gY2lyY3VsYXJfcXVldWVfcHVzaCgmd2luZG93X2RhdGEtPmV2ZW50cyk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgV2luZG93RXZlbnQgKmV2ZW50ID0gY2lyY3VsYXJfcXVldWVfcHVzaCgpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBJbnZhbGlkYXRlUmVjdCh3aW5kb3csICkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQtPnR5cGUgPSBXaW5kb3dFdmVudFR5cGU6OlRBQkxFVDsKICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQtPnRhYmxldC54ID0gcG9pbnQueDsKICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQtPnRhYmxldC55ID0gcG9pbnQueTsKICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQtPnRhYmxldC5wcmVzc3VyZSA9IHByZXNzdXJlOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50ZigiJWRcbiIsIHBhY2tldF9yZWNlaXZlZCk7CiAgICAgICAgICAgICAgICBmZmx1c2goc3Rkb3V0KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -5324,10 +5323,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbHNlIGlmIChldmVudC0+dHlwZSA9PSBXaW5kb3dFdmVudFR5cGU6OlRBQkxFVCkKICAgICAgICB7CiAgICAgICAgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICBMT0dDT05URVhUIGNvbnRleHRfaW5mbzsKICAgICAgICAgICAgICAgIHdpbmRvd19kYXRhLT53aW50YWIuV1RHZXRBKGNvbnRleHQsICZjb250ZXh0X2luZm8pOwogICAgICAgICAgICAgICAgQVhJUyBheGlzX3ByZXNzdXJlOwogICAgICAgICAgICAgICAgd2luZG93X2RhdGEtPndpbnRhYi5XVEluZm9BKFdUSV9ERVZJQ0VTICsgY29udGV4dF9pbmZvLmxjRGV2aWNlLCBEVkNfTlBSRVNTVVJFLCAmYXhpc19wcmVzc3VyZSk7CiAgICAgICAgICAgICAgICBmb3IgKEludCBpID0gMDsgaSA8IHBhY2tldF9yZWNlaXZlZDsgaSsrKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIEludCB4ID0gcGFja2V0c1tpXS5wa1g7CiAgICAgICAgICAgICAgICAgICAgSW50IHkgPSBwYWNrZXRzW2ldLnBrWTsKICAgICAgICAgICAgICAgICAgICBQT0lOVCBwb2ludCA9IHt4LCB5fTsKICAgICAgICAgICAgICAgICAgICBTY3JlZW5Ub0NsaWVudCh3aW5kb3csICZwb2ludCk7CiAgICAgICAgICAgICAgICAgICAgRmxvYXQgcHJlc3N1cmUgPSAocGFja2V0c1tpXS5wa05vcm1hbFByZXNzdXJlIC0gYXhpc19wcmVzc3VyZS5heE1pbikgLyAoRmxvYXQpYXhpc19wcmVzc3VyZS5heE1heDsKICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBwcmludGYoIiVkXG4iLCBldmVudC0+dGFibGV0LngpOwovLyAgICAgICAgICAgIGZmbHVzaChzdGRvdXQpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
