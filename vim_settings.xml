@@ -35,7 +35,6 @@
         <entry>w#</entry>
         <entry>:w</entry>
         <entry>wq</entry>
-        <entry>ew</entry>
         <entry>W</entry>
         <entry>b</entry>
         <entry>r</entry>
@@ -46,6 +45,7 @@
         <entry>q</entry>
         <entry encoding="base64">JzwsJz53</entry>
         <entry>Lw</entry>
+        <entry>ew</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -191,12 +191,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/test/src/lib/buffer.cpp" timestamp="1590339618966">
+      <file name="$USER_HOME$/test/src/lib/buffer.cpp" timestamp="1590339975095">
         <mark key="'" line="29" column="0" />
         <mark key="[" line="32" column="31" />
-        <mark key="]" line="32" column="32" />
+        <mark key="]" line="32" column="31" />
         <mark key="." line="32" column="32" />
-        <mark key="^" line="32" column="31" />
+        <mark key="^" line="31" column="35" />
       </file>
       <file name="$USER_HOME$/test/src/lib/platform.cpp" timestamp="1590329665723">
         <mark key="[" line="0" column="10" />
@@ -220,11 +220,11 @@
         <mark key="." line="1" column="13" />
         <mark key="^" line="0" column="14" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590339575676">
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590339978831">
         <mark key="'" line="31" column="117" />
         <mark key="[" line="31" column="98" />
         <mark key="m" line="73" column="28" />
-        <mark key="]" line="31" column="98" />
+        <mark key="]" line="31" column="99" />
         <mark key="." line="31" column="98" />
         <mark key="^" line="31" column="99" />
       </file>
@@ -268,7 +268,7 @@
         <mark key="." line="663" column="0" />
         <mark key="^" line="662" column="72" />
       </file>
-      <file name="/LLDB" timestamp="1590339620690">
+      <file name="/LLDB" timestamp="1590339981435">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/file.cpp" timestamp="1590331414017">
@@ -293,12 +293,12 @@
         <mark key="." line="33" column="34" />
         <mark key="^" line="33" column="35" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590330775465">
-        <mark key="'" line="356" column="0" />
-        <mark key="[" line="515" column="0" />
-        <mark key="]" line="515" column="0" />
-        <mark key="." line="515" column="0" />
+      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590340127595">
+        <mark key="'" line="242" column="8" />
+        <mark key="[" line="85" column="19" />
+        <mark key="]" line="85" column="22" />
         <mark key="^" line="514" column="6" />
+        <mark key="." line="85" column="22" />
       </file>
       <file name="$USER_HOME$/test/src/basic.hpp" timestamp="1590329366478">
         <mark key="'" line="38" column="17" />
@@ -317,7 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="806" column="36" filename="$USER_HOME$/test/src/font.hpp" />
       <jump line="848" column="16" filename="$USER_HOME$/test/src/font.hpp" />
       <jump line="876" column="12" filename="$USER_HOME$/test/src/font.hpp" />
       <jump line="695" column="8" filename="$USER_HOME$/test/src/font.hpp" />
@@ -417,12 +416,13 @@
       <jump line="34" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
       <jump line="29" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
       <jump line="31" column="117" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="242" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">Pg==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIFJFQUxUSU1FID0gMHgyLAo=</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1262,7 +1262,7 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Pg==</text>
+        <text>.</text>
       </register>
       <register name="/" type="4">
         <text>alloc</text>
@@ -1271,7 +1271,7 @@
         <text encoding="base64">ICAgIGJ1ZmZlci5sZW5ndGggPSBpbmxpbmVfYnVmZmVyLT5sZW5ndGg7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIFJFQUxUSU1FID0gMHgyLAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1303,23 +1303,22 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHN0YXRlLnRocmVhZF9kYXRhLmJ1ZmZlci5kYXRhID0gKFVJbnQ4ICopc3RhdGUudGhyZWFkX2RhdGEuZGF0YTsKICAgIHN0YXRlLnRocmVhZF9kYXRhLmJ1ZmZlci5sZW5ndGggPSA3ODQgKiA0Owo=</text>
+        <text encoding="base64">ICAgIFJFQUxUSU1FID0gMHgyLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEZsb2F0MzIgZGF0YVs3ODRdOwogICAgQnVmZmVyPD4gYnVmZmVyOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIHN0YXRlLnRocmVhZF9kYXRhLmJ1ZmZlci5kYXRhID0gKFVJbnQ4ICopc3RhdGUudGhyZWFkX2RhdGEuZGF0YTsKICAgIHN0YXRlLnRocmVhZF9kYXRhLmJ1ZmZlci5sZW5ndGggPSA3ODQgKiA0Owo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Vm9pZCBmcmVlKFZvaWQgKm1lbW9yeSkKewogICAgX19idWlsdGluX2ZyZWUobWVtb3J5KTsKfQoK</text>
+        <text encoding="base64">ICAgIEZsb2F0MzIgZGF0YVs3ODRdOwogICAgQnVmZmVyPD4gYnVmZmVyOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Cgo=</text>
       </register>
-      <register name="7" type="4">
-        <text>&quot;
-#</text>
+      <register name="7" type="2">
+        <text encoding="base64">Vm9pZCBmcmVlKFZvaWQgKm1lbW9yeSkKewogICAgX19idWlsdGluX2ZyZWUobWVtb3J5KTsKfQoK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2671,8 +2670,9 @@
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="4">
+        <text>&quot;
+#</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
