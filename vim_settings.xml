@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>to</entry>
         <entry encoding="base64">XDx0b19mbG9hdDY0XD4=</entry>
         <entry>elif</entry>
         <entry encoding="base64">XDxTdHJpbmdcPg==</entry>
@@ -25,6 +24,7 @@
         <entry>run_frame</entry>
         <entry>last_frame</entry>
         <entry>timer</entry>
+        <entry>WM_KEYDOWN</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_Pause()</entry>
@@ -201,12 +201,22 @@
       <file name="$USER_HOME$/test/src/lib/gui.cpp_dir/fragment.cpp" timestamp="1590356789665">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="/Dummy.txt" timestamp="1590346879997">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/test/src/lib/index.cpp" timestamp="1590330087398">
         <mark key="'" line="24" column="5" />
         <mark key="[" line="10" column="22" />
         <mark key="]" line="11" column="21" />
         <mark key="." line="11" column="20" />
         <mark key="^" line="11" column="21" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/reader.cpp" timestamp="1590330574776">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1590339267876">
         <mark key="[" line="0" column="0" />
@@ -239,6 +249,13 @@
         <mark key="^" line="48" column="37" />
         <mark key="." line="48" column="36" />
       </file>
+      <file name="$USER_HOME$/test/src/lib/array.cpp" timestamp="1590331466621">
+        <mark key="'" line="4" column="23" />
+        <mark key="[" line="33" column="27" />
+        <mark key="]" line="33" column="35" />
+        <mark key="." line="33" column="34" />
+        <mark key="^" line="33" column="35" />
+      </file>
       <file name="$USER_HOME$/test/src/lib/graphics.cpp_dir/fragment.cpp" timestamp="1590357849618">
         <mark key="[" line="0" column="0" />
       </file>
@@ -255,7 +272,10 @@
         <mark key="." line="663" column="0" />
         <mark key="^" line="662" column="72" />
       </file>
-      <file name="/LLDB" timestamp="1590358201047">
+      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1590356710082">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/LLDB" timestamp="1590401144201">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/file.cpp" timestamp="1590331414017">
@@ -265,33 +285,13 @@
         <mark key="." line="49" column="26" />
         <mark key="^" line="49" column="27" />
       </file>
-      <file name="/Dummy.txt" timestamp="1590346879997">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/test/src/lib/reader.cpp" timestamp="1590330574776">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="0" />
-        <mark key="." line="14" column="0" />
-      </file>
-      <file name="$USER_HOME$/test/src/lib/array.cpp" timestamp="1590331466621">
-        <mark key="'" line="4" column="23" />
-        <mark key="[" line="33" column="27" />
-        <mark key="]" line="33" column="35" />
-        <mark key="." line="33" column="34" />
-        <mark key="^" line="33" column="35" />
-      </file>
-      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1590356710082">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590358178648">
-        <mark key="'" line="315" column="12" />
-        <mark key="[" line="314" column="114" />
+      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590400990030">
+        <mark key="'" line="147" column="0" />
+        <mark key="[" line="415" column="0" />
         <mark key="m" line="368" column="9" />
-        <mark key="]" line="314" column="95" />
-        <mark key="." line="314" column="94" />
-        <mark key="^" line="314" column="95" />
+        <mark key="]" line="415" column="0" />
+        <mark key="." line="415" column="0" />
+        <mark key="^" line="428" column="21" />
       </file>
       <file name="$USER_HOME$/test/src/lib/time.cpp" timestamp="1590329731821">
         <mark key="'" line="132" column="37" />
@@ -302,7 +302,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="60" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="65" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="74" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
@@ -402,12 +401,13 @@
       <jump line="314" column="12" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="317" column="12" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="315" column="12" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="147" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1250,13 +1250,13 @@
         <text>WM_PAINT</text>
       </register>
       <register name="/" type="4">
-        <text>timer</text>
+        <text>WM_KEYDOWN</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcHJpbnRmKCJXTV9QQUlOVFxuIik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1288,22 +1288,22 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVuX3dpbmRvd19mcmFtZSh3aW5kb3dfZGF0YSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHdpbmRvd19kYXRhLT5jYW52YXMuZGF0YSkKICAgICAgICAgICAgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcnVuX3dpbmRvd19mcmFtZSh3aW5kb3dfZGF0YSk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50ZigiJXhcbiIsIG1lc3NhZ2UpOwogICAgZmZsdXNoKHN0ZG91dCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRmKCJXTV9TSVpFXG4iKTsKICAgICAgICAgICAgZmZsdXNoKHN0ZG91dCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2653,10 +2653,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRmKCJXTV9QQUlOVFxuIik7CiAgICAgICAgICAgIGZmbHVzaChzdGRvdXQpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKHdpbmRvd19kYXRhLT5jYW52YXMuZGF0YSkKICAgICAgICAgICAgewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVuX3dpbmRvd19mcmFtZSh3aW5kb3dfZGF0YSk7Cg==</text>
+        <text encoding="base64">ICAgIHByaW50ZigiJXhcbiIsIG1lc3NhZ2UpOwogICAgZmZsdXNoKHN0ZG91dCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -2665,9 +2665,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>timer</last-search>
+      <last-search>WM_KEYDOWN</last-search>
       <last-offset />
-      <last-pattern>timer</last-pattern>
+      <last-pattern>WM_KEYDOWN</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxoZWFkXD4=</last-substitute>
       <last-dir>1</last-dir>
