@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDx0b19mbG9hdDY0XD4=</entry>
-        <entry>elif</entry>
         <entry encoding="base64">XDxTdHJpbmdcPg==</entry>
         <entry>TRUE</entry>
         <entry encoding="base64">XDx7XD4=</entry>
@@ -25,6 +23,8 @@
         <entry>last_frame</entry>
         <entry>timer</entry>
         <entry>WM_KEYDOWN</entry>
+        <entry>WTOpen</entry>
+        <entry>INFOCHANGE</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_Pause()</entry>
@@ -32,7 +32,6 @@
         <entry>2w</entry>
         <entry>'we</entry>
         <entry>:w</entry>
-        <entry>wq</entry>
         <entry>b</entry>
         <entry>r</entry>
         <entry>vs</entry>
@@ -44,8 +43,9 @@
         <entry>w#</entry>
         <entry>W</entry>
         <entry>.,.+89w</entry>
-        <entry>we</entry>
         <entry>q</entry>
+        <entry>we</entry>
+        <entry>wq</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -224,8 +224,8 @@
       <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1590339267876">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590419591591">
-        <mark key="'" line="84" column="0" />
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590421222895">
+        <mark key="'" line="65" column="15" />
         <mark key="[" line="67" column="0" />
         <mark key="]" line="67" column="0" />
         <mark key="^" line="104" column="117" />
@@ -284,7 +284,7 @@
         <mark key="^" line="0" column="179" />
         <mark key="." line="0" column="178" />
       </file>
-      <file name="/LLDB" timestamp="1590419594755">
+      <file name="/LLDB" timestamp="1590421508661">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/file.cpp" timestamp="1590331414017">
@@ -294,26 +294,15 @@
         <mark key="." line="49" column="26" />
         <mark key="^" line="49" column="27" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590419394157">
-        <mark key="'" line="76" column="16" />
-        <mark key="[" line="76" column="12" />
-        <mark key="m" line="454" column="34" />
-        <mark key="]" line="76" column="12" />
-        <mark key="." line="76" column="16" />
-        <mark key="^" line="75" column="17" />
+      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590421855591">
+        <mark key="'" line="588" column="45" />
+        <mark key="[" line="446" column="0" />
+        <mark key="m" line="443" column="0" />
+        <mark key="]" line="446" column="0" />
+        <mark key="." line="446" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="257" column="12" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="251" column="12" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="229" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="230" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="189" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="289" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="293" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="286" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="272" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="533" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="385" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="380" column="16" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="378" column="16" filename="$USER_HOME$/test/src/lib/gui.cpp" />
@@ -393,7 +382,6 @@
       <jump line="424" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="433" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="440" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="443" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="66" column="12" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="58" column="12" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="586" column="67" filename="$USER_HOME$/test/src/lib/gui.cpp" />
@@ -404,12 +392,23 @@
       <jump line="42" column="4" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="37" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="84" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="443" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="469" column="20" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="559" column="75" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="600" column="35" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="162" column="16" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="65" column="15" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="603" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="446" column="41" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="512" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="502" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="588" column="45" filename="$USER_HOME$/test/src/lib/gui.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBlbHNlIGlmIChldmVudC0+dHlwZSA9PSBXaW5kb3dFdmVudFR5cGU6OktFWSAmJiBldmVudC0+a2V5LmFjdGlvbiA9PSBCdXR0b25BY3Rpb246OlBSRVNTICYmIGV2ZW50LT5rZXkuY29kZSA9PSAnWCcpCi8vICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICBpZiAoIXN0YXRlLT5pc190ZXN0aW5nKQovLyAgICAgICAgICAgICAgICB7Ci8vICAgICAgICAgICAgICAgICAgICBzdGF0ZS0+aXNfdGVzdGluZyA9IHRydWU7Ci8vICAgICAgICAgICAgICAgICAgICBzdGF0ZS0+dGhyZWFkX2RhdGEuZGlnaXQgPSAtMTsKLy8gICAgICAgICAgICAgICAgICAgIGZvciAoSW50IHkgPSAwOyB5IDwgMjg7IHkrKykKLy8gICAgICAgICAgICAgICAgICAgIHsKLy8gICAgICAgICAgICAgICAgICAgICAgICBmb3IgKEludCB4ID0gMDsgeCA8IDI4OyB4KyspCi8vICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICBGbG9hdDMyIGRhdGEgPSAwLjA7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoSW50IGkgPSAwOyBpIDwgMTA7IGkrKykKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9yIChJbnQgaiA9IDA7IGogPCAxMDsgaisrKQovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEgKz0gMSAtIChzdGF0ZS0+Y2FudmFzLmRhdGFbKHkgKiAxMCArIGkpICogc3RhdGUtPmNhbnZhcy53aWR0aCArIHggKiAxMCArIGpdICYgMHhmZikgLyAoRmxvYXQzMikyNTU7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUtPnRocmVhZF9kYXRhLmJ1ZmZlci5kYXRhW3kgKiAyOCArIHhdID0gZGF0YSAvIDEwMDsKLy8gICAgICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICBzZW1hcGhvcmVfdXAoc3RhdGUtPnRocmVhZF9kYXRhLnNlbWEpOwovLyAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGNhdGVnb3J5ID09IFdUSV9JTlRFUkZBQ0UgJiYgaW5kZXggPT0gSUZDX05ERVZJQ0VTKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBJbnQgeCA9IDE7CiAgICAgICAgICAgIH0K</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1249,16 +1248,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>Int</text>
+        <text>IFC_DEVI</text>
       </register>
       <register name="/" type="4">
-        <text>WM_KEYDOWN</text>
+        <text>INFOCHANGE</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB4IC09IHBvaW50Lng7Cg==</text>
+      <register name="0" type="4">
+        <text>IFC_NDEVICES</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBlbHNlIGlmIChldmVudC0+dHlwZSA9PSBXaW5kb3dFdmVudFR5cGU6OktFWSAmJiBldmVudC0+a2V5LmFjdGlvbiA9PSBCdXR0b25BY3Rpb246OlBSRVNTICYmIGV2ZW50LT5rZXkuY29kZSA9PSAnWCcpCi8vICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICBpZiAoIXN0YXRlLT5pc190ZXN0aW5nKQovLyAgICAgICAgICAgICAgICB7Ci8vICAgICAgICAgICAgICAgICAgICBzdGF0ZS0+aXNfdGVzdGluZyA9IHRydWU7Ci8vICAgICAgICAgICAgICAgICAgICBzdGF0ZS0+dGhyZWFkX2RhdGEuZGlnaXQgPSAtMTsKLy8gICAgICAgICAgICAgICAgICAgIGZvciAoSW50IHkgPSAwOyB5IDwgMjg7IHkrKykKLy8gICAgICAgICAgICAgICAgICAgIHsKLy8gICAgICAgICAgICAgICAgICAgICAgICBmb3IgKEludCB4ID0gMDsgeCA8IDI4OyB4KyspCi8vICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICBGbG9hdDMyIGRhdGEgPSAwLjA7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoSW50IGkgPSAwOyBpIDwgMTA7IGkrKykKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9yIChJbnQgaiA9IDA7IGogPCAxMDsgaisrKQovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEgKz0gMSAtIChzdGF0ZS0+Y2FudmFzLmRhdGFbKHkgKiAxMCArIGkpICogc3RhdGUtPmNhbnZhcy53aWR0aCArIHggKiAxMCArIGpdICYgMHhmZikgLyAoRmxvYXQzMikyNTU7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUtPnRocmVhZF9kYXRhLmJ1ZmZlci5kYXRhW3kgKiAyOCArIHhdID0gZGF0YSAvIDEwMDsKLy8gICAgICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICBzZW1hcGhvcmVfdXAoc3RhdGUtPnRocmVhZF9kYXRhLnNlbWEpOwovLyAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGNhdGVnb3J5ID09IFdUSV9JTlRFUkZBQ0UgJiYgaW5kZXggPT0gSUZDX05ERVZJQ0VTKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBJbnQgeCA9IDE7CiAgICAgICAgICAgIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1290,22 +1289,22 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBlbHNlIGlmIChldmVudC0+dHlwZSA9PSBXaW5kb3dFdmVudFR5cGU6OktFWSAmJiBldmVudC0+a2V5LmFjdGlvbiA9PSBCdXR0b25BY3Rpb246OlBSRVNTICYmIGV2ZW50LT5rZXkuY29kZSA9PSAnWCcpCi8vICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICBpZiAoIXN0YXRlLT5pc190ZXN0aW5nKQovLyAgICAgICAgICAgICAgICB7Ci8vICAgICAgICAgICAgICAgICAgICBzdGF0ZS0+aXNfdGVzdGluZyA9IHRydWU7Ci8vICAgICAgICAgICAgICAgICAgICBzdGF0ZS0+dGhyZWFkX2RhdGEuZGlnaXQgPSAtMTsKLy8gICAgICAgICAgICAgICAgICAgIGZvciAoSW50IHkgPSAwOyB5IDwgMjg7IHkrKykKLy8gICAgICAgICAgICAgICAgICAgIHsKLy8gICAgICAgICAgICAgICAgICAgICAgICBmb3IgKEludCB4ID0gMDsgeCA8IDI4OyB4KyspCi8vICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICBGbG9hdDMyIGRhdGEgPSAwLjA7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoSW50IGkgPSAwOyBpIDwgMTA7IGkrKykKLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9yIChJbnQgaiA9IDA7IGogPCAxMDsgaisrKQovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgewovLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEgKz0gMSAtIChzdGF0ZS0+Y2FudmFzLmRhdGFbKHkgKiAxMCArIGkpICogc3RhdGUtPmNhbnZhcy53aWR0aCArIHggKiAxMCArIGpdICYgMHhmZikgLyAoRmxvYXQzMikyNTU7Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUtPnRocmVhZF9kYXRhLmJ1ZmZlci5kYXRhW3kgKiAyOCArIHhdID0gZGF0YSAvIDEwMDsKLy8gICAgICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgICAgICAgICBzZW1hcGhvcmVfdXAoc3RhdGUtPnRocmVhZF9kYXRhLnNlbWEpOwovLyAgICAgICAgICAgICAgICB9Ci8vICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGNhdGVnb3J5ID09IFdUSV9JTlRFUkZBQ0UgJiYgaW5kZXggPT0gSUZDX05ERVZJQ0VTKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBJbnQgeCA9IDE7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIDA7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTY3JlZW5Ub0NsaWVudCh3aW5kb3csICZwb2ludCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2luZG93X2RhdGEud2ludGFiLldUSW5mb0EoV1RJX0lOVEVSRkFDRSwgSUZDX05ERVZJQ0VTLCAmZGV2aWNlX2NvdW50KTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQtPnRhYmxldC5wcmVzc3VyZSA9IChwYWNrZXRzW2ldLnBrTm9ybWFsUHJlc3N1cmUgLSBheGlzX3ByZXNzdXJlLmF4TWluKSAvIChGbG9hdCkoYXhpc19wcmVzc3VyZS5heE1heCAtIGF4aXNfcHJlc3N1cmUuYXhNaW4pOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxzZSAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHt9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBHZXRTeXRzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGNhdGVnb3J5ID09IFdUSV9JTlRFUkZBQ0UgJiYgaW5kZXggPT0gSUZDX05ERVZJQ0VTKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBJbnQgeCA9IDE7CiAgICAgICAgICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBQT0lOVCBwb2ludCA9IHt4LCB5fTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2655,10 +2654,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2luZG93X2RhdGEud2ludGFiLldUSW5mb0EoV1RJX0lOVEVSRkFDRSwgSUZDX05ERVZJQ0VTLCAmZGV2aWNlX2NvdW50KTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBJbnQgeSA9IHBhY2tldHNbaV0ucGtZOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -2667,9 +2666,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>WM_KEYDOWN</last-search>
+      <last-search>INFOCHANGE</last-search>
       <last-offset />
-      <last-pattern>WM_KEYDOWN</last-pattern>
+      <last-pattern>INFOCHANGE</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxoZWFkXD4=</last-substitute>
       <last-dir>1</last-dir>
