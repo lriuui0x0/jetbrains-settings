@@ -229,6 +229,12 @@
         <mark key="." line="47" column="0" />
         <mark key="^" line="128" column="117" />
       </file>
+      <file name="$USER_HOME$/test/src/lib/bit.cpp" timestamp="1590413640254">
+        <mark key="[" line="7" column="79" />
+        <mark key="]" line="7" column="79" />
+        <mark key="^" line="7" column="79" />
+        <mark key="." line="7" column="78" />
+      </file>
       <file name="$USER_HOME$/test/src/lib/allocator.cpp" timestamp="1590331511043">
         <mark key="[" line="14" column="11" />
         <mark key="]" line="14" column="17" />
@@ -275,7 +281,7 @@
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1590356710082">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/LLDB" timestamp="1590408815427">
+      <file name="/LLDB" timestamp="1590412934394">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/file.cpp" timestamp="1590331414017">
@@ -285,13 +291,13 @@
         <mark key="." line="49" column="26" />
         <mark key="^" line="49" column="27" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590408872312">
-        <mark key="'" line="147" column="0" />
-        <mark key="[" line="415" column="0" />
+      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590413103771">
+        <mark key="'" line="146" column="0" />
+        <mark key="[" line="418" column="89" />
         <mark key="m" line="368" column="9" />
-        <mark key="]" line="415" column="0" />
-        <mark key="." line="415" column="0" />
-        <mark key="^" line="428" column="21" />
+        <mark key="]" line="418" column="89" />
+        <mark key="." line="418" column="89" />
+        <mark key="^" line="418" column="61" />
       </file>
       <file name="$USER_HOME$/test/src/lib/time.cpp" timestamp="1590329731821">
         <mark key="'" line="132" column="37" />
@@ -302,8 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="65" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="74" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="34" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="351" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
@@ -402,12 +406,14 @@
       <jump line="317" column="12" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="315" column="12" filename="$USER_HOME$/test/src/lib/gui.cpp" />
       <jump line="147" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="418" column="126" filename="$USER_HOME$/test/src/lib/gui.cpp" />
+      <jump line="146" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CgoK</text>
+      <register name="&quot;" type="4">
+        <text>decltype(x)</text>
       </register>
       <register name="j" type="4">
         <keys>
@@ -1247,16 +1253,16 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>WM_PAINT</text>
+        <text encoding="base64">IHwgSVNDX1NIT1dVSUNBTkRJREFURVdJTkRPVw==</text>
       </register>
       <register name="/" type="4">
         <text>WM_KEYDOWN</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnRmKCJXTV9QQUlOVFxuIik7Cg==</text>
+      <register name="0" type="4">
+        <text>decltype(x)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -1288,22 +1294,22 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBjYXNlIFdNX0NIQVI6CiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gMDsKICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBjYXNlIFdNX0lNRV9TVEFSVENPTVBPU0lUSU9OOgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBjYXNlIFdNX0lNRV9DSEFSOgogICAgICAgIGNhc2UgV01fSU1FX0NPTVBPU0lUSU9OOgogICAgICAgIGNhc2UgV01fSU1FX0NPTVBPU0lUSU9ORlVMTDoKICAgICAgICBjYXNlIFdNX0lNRV9DT05UUk9MOgogICAgICAgIGNhc2UgV01fSU1FX0VORENPTVBPU0lUSU9OOgogICAgICAgIGNhc2UgV01fSU1FX0tFWURPV046CiAgICAgICAgY2FzZSBXTV9JTUVfS0VZVVA6CiAgICAgICAgY2FzZSBXTV9JTUVfTk9USUZZOgogICAgICAgIGNhc2UgV01fSU1FX1JFUVVFU1Q6CiAgICAgICAgY2FzZSBXTV9JTUVfU0VMRUNUOgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVuX3dpbmRvd19mcmFtZSh3aW5kb3dfZGF0YSk7Cg==</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -2653,10 +2659,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKHdpbmRvd19kYXRhLT5jYW52YXMuZGF0YSkKICAgICAgICAgICAgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaW50ZigiJXhcbiIsIG1lc3NhZ2UpOwogICAgZmZsdXNoKHN0ZG91dCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcnVuX3dpbmRvd19mcmFtZSh3aW5kb3dfZGF0YSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
