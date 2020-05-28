@@ -28,7 +28,6 @@
       </history-search>
       <history-cmd>
         <entry>qw</entry>
-        <entry>we</entry>
         <entry>call VimLLDB_Launch()</entry>
         <entry>call VimLLDB_ToggleBreakpoint()</entry>
         <entry>call VimLLDB_StepOver()</entry>
@@ -38,8 +37,9 @@
         <entry>W</entry>
         <entry>wq</entry>
         <entry>:w</entry>
-        <entry>q</entry>
         <entry>vs</entry>
+        <entry>we</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -199,19 +199,15 @@
       <file name="vim_settings.xml" timestamp="1590626570526">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="/Dummy.txt" timestamp="1590702944859">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/test/test/test.js" timestamp="1590702263441">
         <mark key="'" line="12" column="15" />
         <mark key="[" line="8" column="0" />
         <mark key="]" line="9" column="43" />
         <mark key="." line="24" column="41" />
         <mark key="^" line="24" column="41" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Repository/index.vue" timestamp="1589994987703">
-        <mark key="'" line="117" column="38" />
-        <mark key="[" line="109" column="34" />
-        <mark key="]" line="110" column="19" />
-        <mark key="^" line="110" column="19" />
-        <mark key="." line="110" column="18" />
       </file>
       <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1590339267876">
         <mark key="[" line="0" column="0" />
@@ -230,11 +226,11 @@
         <mark key="^" line="6" column="3" />
         <mark key="." line="6" column="3" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/allocator.cpp" timestamp="1590331511043">
-        <mark key="[" line="14" column="11" />
-        <mark key="]" line="14" column="17" />
-        <mark key="." line="14" column="16" />
-        <mark key="^" line="14" column="17" />
+      <file name="$USER_HOME$/test/src/lib/allocator.cpp" timestamp="1590703371709">
+        <mark key="[" line="5" column="14" />
+        <mark key="]" line="5" column="11" />
+        <mark key="." line="5" column="10" />
+        <mark key="^" line="5" column="11" />
       </file>
       <file name="$USER_HOME$/test/src/lib/circular_queue.cpp" timestamp="1590331449677">
         <mark key="'" line="75" column="0" />
@@ -243,13 +239,6 @@
         <mark key="^" line="43" column="24" />
         <mark key="." line="20" column="29" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/python.cpp" timestamp="1590331431027">
-        <mark key="'" line="60" column="0" />
-        <mark key="[" line="48" column="29" />
-        <mark key="]" line="48" column="37" />
-        <mark key="^" line="48" column="37" />
-        <mark key="." line="48" column="36" />
-      </file>
       <file name="$USER_HOME$/test/src/lib/array.cpp" timestamp="1590331466621">
         <mark key="'" line="4" column="23" />
         <mark key="[" line="33" column="27" />
@@ -257,8 +246,20 @@
         <mark key="." line="33" column="34" />
         <mark key="^" line="33" column="35" />
       </file>
+      <file name="$USER_HOME$/test/src/lib/memory.cpp" timestamp="1590704592418">
+        <mark key="'" line="19" column="0" />
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
       <file name="$USER_HOME$/test/src/lib/graphics.cpp_dir/fragment.cpp" timestamp="1590357849618">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/math.cpp" timestamp="1590702572757">
+        <mark key="[" line="5" column="19" />
+        <mark key="]" line="5" column="19" />
+        <mark key="^" line="5" column="19" />
+        <mark key="." line="5" column="19" />
       </file>
       <file name="$USER_HOME$/test/src/lib/graphics/font.cpp" timestamp="1590625961966">
         <mark key="'" line="565" column="0" />
@@ -279,19 +280,13 @@
       <file name="/LLDB" timestamp="1590431987002">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590702355585">
-        <mark key="'" line="238" column="17" />
-        <mark key="[" line="239" column="0" />
-        <mark key="]" line="239" column="0" />
-        <mark key="." line="239" column="0" />
-        <mark key="^" line="239" column="4" />
-      </file>
-      <file name="$USER_HOME$/test/src/lib/file.cpp" timestamp="1590331414017">
-        <mark key="'" line="71" column="0" />
-        <mark key="[" line="49" column="23" />
-        <mark key="]" line="49" column="27" />
-        <mark key="." line="49" column="26" />
-        <mark key="^" line="49" column="27" />
+      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590705528027">
+        <mark key="'" line="372" column="0" />
+        <mark key="[" line="258" column="55" />
+        <mark key="]" line="258" column="55" />
+        <mark key="m" line="345" column="0" />
+        <mark key="." line="258" column="54" />
+        <mark key="^" line="258" column="55" />
       </file>
       <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590431755235">
         <mark key="'" line="433" column="33" />
@@ -302,50 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="71" column="24" filename="$USER_HOME$/GraknLabs/grabl/server/Server.java" />
-      <jump line="29" column="28" filename="$USER_HOME$/GraknLabs/grabl/event/github/Router.java" />
-      <jump line="27" column="131" filename="$USER_HOME$/GraknLabs/grabl/event/github/Router.java" />
-      <jump line="63" column="15" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="508" column="51" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="947" column="0" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="967" column="81" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="83" column="8" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="5" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
-      <jump line="68" column="36" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
-      <jump line="949" column="66" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="20" column="145" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
-      <jump line="51" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
-      <jump line="984" column="20" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="978" column="24" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="986" column="8" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="972" column="10" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="987" column="4" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="968" column="83" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="750" column="0" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="263" column="12" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="103" column="12" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="185" column="0" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="154" column="71" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="116" column="43" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="115" column="73" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="111" column="59" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="107" column="68" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="509" column="28" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="510" column="13" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="341" column="8" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="347" column="24" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="306" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="317" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="29" column="84" filename="$USER_HOME$/GraknLabs/grabl/concept/Ref.java" />
-      <jump line="202" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="226" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="236" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="42" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="227" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="237" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="247" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
-      <jump line="518" column="60" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
       <jump line="520" column="36" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
       <jump line="134" column="54" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="137" column="24" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
@@ -401,7 +352,51 @@
       <jump line="113" column="51" filename="$USER_HOME$/GraknLabs/grabl/pages/Repository/index.vue" />
       <jump line="114" column="33" filename="$USER_HOME$/GraknLabs/grabl/pages/Repository/index.vue" />
       <jump line="116" column="38" filename="$USER_HOME$/GraknLabs/grabl/pages/Repository/index.vue" />
-      <jump line="238" column="17" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="238" column="26" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="236" column="12" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="254" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="5" column="17" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="247" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="257" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="260" column="3" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="21" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="230" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="243" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="250" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="267" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="287" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="237" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="256" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="331" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="333" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="359" column="19" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="353" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="361" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="363" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="354" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="364" column="15" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="345" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="18" column="0" filename="$USER_HOME$/test/src/lib/memory.cpp" />
+      <jump line="16" column="0" filename="$USER_HOME$/test/src/lib/memory.cpp" />
+      <jump line="6" column="15" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="5" column="0" filename="$USER_HOME$/test/src/lib/memory.cpp" />
+      <jump line="7" column="0" filename="$USER_HOME$/test/src/lib/memory.cpp" />
+      <jump line="9" column="0" filename="$USER_HOME$/test/src/lib/memory.cpp" />
+      <jump line="15" column="0" filename="$USER_HOME$/test/src/lib/memory.cpp" />
+      <jump line="14" column="0" filename="$USER_HOME$/test/src/lib/memory.cpp" />
+      <jump line="346" column="45" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="334" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="369" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="322" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="323" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="318" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="321" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="324" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="277" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="347" column="63" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="326" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="337" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="372" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -413,13 +408,13 @@
         <text>ownerPage_constructUpdatedRepo</text>
       </register>
       <register name="-" type="4">
-        <text>f</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxnZXRMaXN0Rm9yQ29tbWl0c0xpbmtlZExpc3RcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGxldCB0ID0gTWF0aC5jYnJ0KDEyICogayAvIChyICogcikpOwogICAgbGV0IGNvdW50ID0gTWF0aC5jZWlsKDIgKiBNYXRoLlBJIC8gdCk7Cg==</text>
+      <register name="0" type="4">
+        <text>(width * height + 1) * sizeof(Float)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -469,28 +464,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Vm9pZCBkcmF3X2NpcmNsZShDYW52YXMgKQo=</text>
+        <text encoding="base64">ICAgIC8vIE5PVEU6IFdlIGFwcGVuZCBvbmUgbW9yZSBwaXhlbCBzbyB0aGF0IGFudGlhbGlhc2luZyBhbGdvcml0aG0gZG9lc24ndCBuZWVkIHRvIGRvIGJvdW5kIGNoZWNrCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGluZSArPSBidWZmZXItPndpZHRoOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKG5ldyBIYXNoU2V0PFN0cmluZz4oQXJyYXlzLmFzTGlzdChoZWFkcy5zcGxpdCgiLCIpKS5jb250YWlucyhjb21taXQuZ2V0U2hhKCkpKSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gTk9URTogV2UgZW5zdXJlIHRvIGFsbG9jYXRlIG9uZSBtb3JlIHBpeGVsIHNvIHRoYXQgZXZlbiB3ZSBhcmUgYXQgdGhlIGxhc3QgbGluZSwgdGhpcyB3aWxsIG5vdCBnbyBvdXQgb2YgYm91bmQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBsaW5lICs9IGJ1ZmZlci0+d2lkdGg7CiAgICAgICAgLy8gTk9URTogV2UgZW5zdXJlIHRvIGFsbG9jYXRlIG9uZSBtb3JlIHBpeGVsIHNvIHRoYXQgZXZlbiB3ZSBhcmUgYXQgdGhlIGxhc3QgbGluZSwgdGhpcyB3aWxsIG5vdCBnbyBvdXQgb2YgYm91bmQKICAgICAgICBsaW5lWzBdIC09IHcgKiBkeTsK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
