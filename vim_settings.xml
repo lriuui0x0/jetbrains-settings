@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>previous</entry>
-        <entry>findIndex</entry>
         <entry encoding="base64">XDxuZXdseUFkZGVkQ29tbWl0U0hBXD4=</entry>
         <entry encoding="base64">XDxuZXdDb21taXRzXD4=</entry>
         <entry encoding="base64">XDxnZXRMaXN0Rm9yQ29tbWl0c0xpbmtlZExpc3RcPg==</entry>
@@ -25,6 +23,8 @@
         <entry encoding="base64">XDxhYV9hZGRfbGluZVw+</entry>
         <entry encoding="base64">XDxkeFw+</entry>
         <entry encoding="base64">XDxsYXN0X3hcPg==</entry>
+        <entry encoding="base64">XDx9XD4=</entry>
+        <entry encoding="base64">XDxhYV9hY2N1bXVsYXRlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>qw</entry>
@@ -213,11 +213,11 @@
         <mark key="." line="24" column="41" />
         <mark key="^" line="24" column="41" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590791015030">
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1590792646576">
         <mark key="'" line="22" column="4" />
-        <mark key="[" line="77" column="25" />
-        <mark key="]" line="79" column="0" />
-        <mark key="." line="79" column="0" />
+        <mark key="[" line="96" column="0" />
+        <mark key="]" line="96" column="46" />
+        <mark key="." line="78" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/bit.cpp" timestamp="1590414461251">
         <mark key="'" line="8" column="27" />
@@ -265,16 +265,16 @@
         <mark key="^" line="0" column="179" />
         <mark key="." line="0" column="178" />
       </file>
-      <file name="/LLDB" timestamp="1590789768753">
+      <file name="/LLDB" timestamp="1590792652228">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590789450877">
-        <mark key="'" line="316" column="33" />
-        <mark key="[" line="488" column="0" />
+      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590792567334">
+        <mark key="'" line="490" column="4" />
+        <mark key="[" line="444" column="55" />
         <mark key="m" line="34" column="62" />
-        <mark key="]" line="488" column="0" />
-        <mark key="." line="488" column="0" />
-        <mark key="^" line="316" column="13" />
+        <mark key="]" line="444" column="59" />
+        <mark key="." line="444" column="58" />
+        <mark key="^" line="444" column="59" />
       </file>
       <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590431755235">
         <mark key="'" line="433" column="33" />
@@ -285,11 +285,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="322" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="318" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="321" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="324" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="277" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="347" column="63" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="337" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="258" column="54" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
@@ -385,6 +380,11 @@
       <jump line="74" column="16" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="68" column="16" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="22" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="444" column="30" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="445" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="442" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="438" column="5" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="490" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -399,7 +399,7 @@
         <text>radiusraidius_distance</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxsYXN0X3hcPg==</text>
+        <text encoding="base64">XDxhYV9hY2N1bXVsYXRlXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZHJhd19jaXJjbGVfZmlsbCgmc3RhdGUtPmNhbnZhcywgeCwgeSwgcmFkaXVzLCAwLCAwLCAwKTsK</text>
@@ -452,7 +452,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
@@ -461,19 +461,19 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">RmxvYXQgZ2V0X2Rpc3RhbmNlKEZsb2F0ICkKCg==</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">RmxvYXQgZ2V0X2Rpc3RhbmNlKEZsb2F0ICkKCg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgRmxvYXQgeCA9IGV2ZW50LT50YWJsZXQueDsKICAgICAgICAgICAgICAgICAgICAgICAgRmxvYXQgeSA9IGV2ZW50LT50YWJsZXQueTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -482,9 +482,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxsYXN0X3hcPg==</last-search>
+      <last-search encoding="base64">XDxhYV9hY2N1bXVsYXRlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxsYXN0X3hcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxhYV9hY2N1bXVsYXRlXD4=</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
