@@ -5,12 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxnZXRfcGl4ZWxcPg==</entry>
-        <entry encoding="base64">XDx5MWlcPg==</entry>
-        <entry encoding="base64">XDx5XD4=</entry>
-        <entry>xf</entry>
-        <entry encoding="base64">XDx4XD4=</entry>
-        <entry encoding="base64">XDx4bm5cPg==</entry>
         <entry encoding="base64">XDxhYV9hZGRfbGluZVw+</entry>
         <entry encoding="base64">XDxkeFw+</entry>
         <entry encoding="base64">XDxsYXN0X3hcPg==</entry>
@@ -25,6 +19,12 @@
         <entry encoding="base64">XDxyZWRfc2hpZnRcPg==</entry>
         <entry encoding="base64">XDxjcmVhdGVfY2FudmFzXD4=</entry>
         <entry encoding="base64">XDxpc19tb3ZpbmdcPg==</entry>
+        <entry encoding="base64">XDxkcmF3X3BvaW50XD4=</entry>
+        <entry>clip_line</entry>
+        <entry encoding="base64">XDxnZXRfb3BhY2l0eV9idWZmZXJcPg==</entry>
+        <entry encoding="base64">XDxhYV9hZGRfY2lyY2xlXD4=</entry>
+        <entry encoding="base64">XDxPcGFjaXR5QnVmZmVyXD4=</entry>
+        <entry encoding="base64">XDxhYV9hZGRfYXJjXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>qw</entry>
@@ -41,10 +41,11 @@
         <entry encoding="base64">JzwsJz53</entry>
         <entry>Lw</entry>
         <entry>b</entry>
-        <entry>q</entry>
         <entry>w#</entry>
         <entry>we</entry>
         <entry>W</entry>
+        <entry>q</entry>
+        <entry>w3</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -190,10 +191,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/test/src/lib/buffer.cpp" timestamp="1590437281615">
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
+      <file name="$USER_HOME$/test/src/lib/buffer.cpp" timestamp="1590860909893">
+        <mark key="'" line="38" column="0" />
+        <mark key="[" line="40" column="8" />
+        <mark key="]" line="40" column="14" />
+        <mark key="." line="40" column="13" />
+        <mark key="^" line="40" column="14" />
       </file>
       <file name="$USER_HOME$/test/src/lib/gui.cpp_dir/fragment.cpp" timestamp="1590841684178">
         <mark key="[" line="0" column="0" />
@@ -242,15 +245,21 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/test/temp/graphics.cpp" timestamp="1590860567137">
+        <mark key="'" line="26" column="34" />
+        <mark key="[" line="134" column="0" />
+        <mark key="]" line="164" column="0" />
+        <mark key="." line="134" column="0" />
+      </file>
       <file name="$USER_HOME$/test/src/lib/graphics.cpp_dir/fragment.cpp" timestamp="1590848610178">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/math.cpp" timestamp="1590859996711">
-        <mark key="'" line="72" column="0" />
-        <mark key="[" line="75" column="31" />
-        <mark key="]" line="75" column="31" />
-        <mark key="." line="75" column="31" />
-        <mark key="^" line="75" column="35" />
+      <file name="$USER_HOME$/test/src/lib/math.cpp" timestamp="1590861008047">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="63" column="6" />
+        <mark key="]" line="63" column="16" />
+        <mark key="." line="63" column="15" />
+        <mark key="^" line="63" column="16" />
       </file>
       <file name="$USER_HOME$/test/src/lib/graphics/font.cpp" timestamp="1590710973680">
         <mark key="'" line="552" column="0" />
@@ -262,22 +271,16 @@
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1590842232963">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/build.ps1" timestamp="1590414606047">
-        <mark key="[" line="0" column="178" />
-        <mark key="]" line="0" column="179" />
-        <mark key="^" line="0" column="179" />
-        <mark key="." line="0" column="178" />
-      </file>
       <file name="/LLDB" timestamp="1590860308508">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590860301261">
-        <mark key="'" line="459" column="0" />
-        <mark key="[" line="472" column="0" />
-        <mark key="m" line="247" column="1" />
-        <mark key="]" line="472" column="0" />
-        <mark key="." line="472" column="0" />
-        <mark key="^" line="471" column="53" />
+      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590861410705">
+        <mark key="'" line="214" column="49" />
+        <mark key="[" line="200" column="0" />
+        <mark key="m" line="205" column="71" />
+        <mark key="]" line="200" column="0" />
+        <mark key="." line="200" column="0" />
+        <mark key="^" line="200" column="4" />
       </file>
       <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1590857105396">
         <mark key="'" line="288" column="12" />
@@ -289,73 +292,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="155" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="217" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="284" column="49" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="282" column="47" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="286" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="272" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="133" column="16" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="3" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="40" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="41" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="52" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="43" column="19" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="61" column="47" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="261" column="32" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="188" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="248" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="255" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="56" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="59" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="137" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="64" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="65" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="67" column="9" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="56" column="103" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="58" column="8" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="53" column="8" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="115" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="41" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="472" column="101" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="652" column="0" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="283" column="40" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="54" column="40" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="55" column="42" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="44" column="34" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="57" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="63" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="58" column="19" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="47" column="4" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="44" column="4" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="118" column="100" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="124" column="65" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="7" column="9" filename="$USER_HOME$/test/src/lib/math.cpp" />
-      <jump line="219" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="288" column="62" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="250" column="21" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="247" column="1" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="50" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="244" column="36" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="425" column="34" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="427" column="33" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="239" column="25" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="21" column="7" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="257" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="245" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="253" column="99" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="19" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
-      <jump line="24" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
-      <jump line="15" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
-      <jump line="241" column="39" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="242" column="41" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="240" column="20" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="259" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="236" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="260" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="341" column="16" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="423" column="105" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="430" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="426" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="183" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="434" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
@@ -385,31 +321,98 @@
       <jump line="442" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="453" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="437" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
-      <jump line="418" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="473" column="17" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="474" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="459" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="415" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="349" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="418" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="80" column="5" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="86" column="5" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="141" column="12" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="116" column="12" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="121" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="24" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="26" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="30" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="63" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="227" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="218" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="192" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="78" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="92" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="104" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="157" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="166" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="169" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="172" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="175" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="178" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="184" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="187" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/test/temp/graphics.cpp" />
+      <jump line="3" column="0" filename="$USER_HOME$/test/temp/graphics.cpp" />
+      <jump line="59" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="5" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="7" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="18" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="22" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="199" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="72" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="143" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="181" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="26" column="34" filename="$USER_HOME$/test/temp/graphics.cpp" />
+      <jump line="112" column="12" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="120" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="222" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="31" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="244" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="205" column="71" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="29" column="14" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="153" column="12" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="240" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="77" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="70" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="75" column="53" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="69" column="49" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="5" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="11" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="19" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="26" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="35" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="36" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="42" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="38" column="0" filename="$USER_HOME$/test/src/lib/buffer.cpp" />
+      <jump line="208" column="27" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="23" column="13" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="31" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="67" column="4" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="65" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="88" column="8" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="28" column="5" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="214" column="49" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="+" type="4">
         <text>ownerPage_constructUpdatedRepo</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Jg==</text>
+        <text>{cx - cx, y - cy}</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpc19tb3ZpbmdcPg==</text>
+        <text encoding="base64">XDxhYV9hZGRfYXJjXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEZsb2F0IGsgPSAwLjE7CiAgICBGbG9hdCB0ID0gcG93ZigxMiAqIGsgLyAocmFkaXVzICogcmFkaXVzKSwgMSAvIDMuMGYpOwogICAgLy8gTk9URTogV2UgYWx3YXlzIG1ha2Ugc3VyZSB3ZSByb3VuZCBudW1iZXIgb2YgZWRnZXMgdXAgdG8gdGhlIG11bHRpcGxlIG9mIDQsIHNvIHRoYXQgdGhlIGNpcmNsZSBsb29rcyBzeW1tZXRyaWMKICAgIEludCBjb3VudCA9ICgoSW50KWNlaWxmKDIgKiBQSSAvIHQpICsgMykgJiB+MzsKICAgIEZsb2F0IHRoZXRhID0gMiAqIFBJIC8gY291bnQ7CiAgICBGbG9hdCBhbmdsZSA9IHRoZXRhOwogICAgRmxvYXQgeCA9IGN4ICsgcmFkaXVzOwogICAgRmxvYXQgeSA9IGN5OwogICAgRmxvYXQgeDAsIHkwLCB4MSwgeTE7CiAgICBmb3IgKEludCBpID0gMTsgaSA8IGNvdW50OyBpKyspCiAgICB7CiAgICAgICAgRmxvYXQgeG4gPSBjeCArIHJhZGl1cyAqIGNvc2YoYW5nbGUpOwogICAgICAgIEZsb2F0IHluID0gY3kgKyByYWRpdXMgKiBzaW5mKGFuZ2xlKTsKICAgICAgICB4MCA9IHhuIC0geGY7CiAgICAgICAgeTAgPSB5biAtIHlmOwogICAgICAgIHgxID0geCAtIHhmOwogICAgICAgIHkxID0geSAtIHlmOwogICAgICAgIGFhX2FkZF9saW5lKCZidWZmZXIsIHgwLCB5MCwgeDEsIHkxKTsKICAgICAgICB4ID0geG47CiAgICAgICAgeSA9IHluOwogICAgICAgIGFuZ2xlICs9IHRoZXRhOwogICAgfQogICAgeDAgPSBjeCArIHJhZGl1cyAtIHhmOwogICAgeTAgPSBjeSAtIHlmOwogICAgeDEgPSB4IC0geGY7CiAgICB5MSA9IHkgLSB5ZjsKICAgIGFhX2FkZF9saW5lKCZidWZmZXIsIHgwLCB5MCwgeDEsIHkxKTsKCg==</text>
+        <text encoding="base64">Vm9pZCBhYV9hZGRfYXJjKE9wYWNpdHlCdWZmZXIqIGJ1ZmZlciwgRmxvYXQgY3gsIEZsb2F0IGN5LCBGbG9hdCB4LCBGbG9hdCB5LCBGbG9hdCBhbmdsZSk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -456,28 +459,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEZsb2F0IGsgPSAwLjE7CiAgICBGbG9hdCB0ID0gcG93ZigxMiAqIGsgLyAocmFkaXVzICogcmFkaXVzKSwgMSAvIDMuMGYpOwogICAgLy8gTk9URTogV2UgYWx3YXlzIG1ha2Ugc3VyZSB3ZSByb3VuZCBudW1iZXIgb2YgZWRnZXMgdXAgdG8gdGhlIG11bHRpcGxlIG9mIDQsIHNvIHRoYXQgdGhlIGNpcmNsZSBsb29rcyBzeW1tZXRyaWMKICAgIEludCBjb3VudCA9ICgoSW50KWNlaWxmKDIgKiBQSSAvIHQpICsgMykgJiB+MzsKICAgIEZsb2F0IHRoZXRhID0gMiAqIFBJIC8gY291bnQ7CiAgICBGbG9hdCBhbmdsZSA9IHRoZXRhOwogICAgRmxvYXQgeCA9IGN4ICsgcmFkaXVzOwogICAgRmxvYXQgeSA9IGN5OwogICAgRmxvYXQgeDAsIHkwLCB4MSwgeTE7CiAgICBmb3IgKEludCBpID0gMTsgaSA8IGNvdW50OyBpKyspCiAgICB7CiAgICAgICAgRmxvYXQgeG4gPSBjeCArIHJhZGl1cyAqIGNvc2YoYW5nbGUpOwogICAgICAgIEZsb2F0IHluID0gY3kgKyByYWRpdXMgKiBzaW5mKGFuZ2xlKTsKICAgICAgICB4MCA9IHhuIC0geGY7CiAgICAgICAgeTAgPSB5biAtIHlmOwogICAgICAgIHgxID0geCAtIHhmOwogICAgICAgIHkxID0geSAtIHlmOwogICAgICAgIGFhX2FkZF9saW5lKCZidWZmZXIsIHgwLCB5MCwgeDEsIHkxKTsKICAgICAgICB4ID0geG47CiAgICAgICAgeSA9IHluOwogICAgICAgIGFuZ2xlICs9IHRoZXRhOwogICAgfQogICAgeDAgPSBjeCArIHJhZGl1cyAtIHhmOwogICAgeTAgPSBjeSAtIHlmOwogICAgeDEgPSB4IC0geGY7CiAgICB5MSA9IHkgLSB5ZjsKICAgIGFhX2FkZF9saW5lKCZidWZmZXIsIHgwLCB5MCwgeDEsIHkxKTsKCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEZsb2F0IHgwLCB5MCwgeDEsIHkxOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHgwID0gY3ggKyByYWRpdXMgLSB4ZjsKICAgIHkwID0gY3kgLSB5ZjsKICAgIHgxID0geCAtIHhmOwogICAgeTEgPSB5IC0geWY7Cg==</text>
+        <text encoding="base64">Vm9pZCBhYV9hZGRfYXJjKE9wYWNpdHlCdWZmZXIqIGJ1ZmZlciwgRmxvYXQgY3gsIEZsb2F0IGN5LCBGbG9hdCByYWRpdXMpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB4MCA9IHhuIC0geGY7CiAgICAgICAgeTAgPSB5biAtIHlmOwogICAgICAgIHgxID0geCAtIHhmOwo=</text>
+        <text encoding="base64">c3RydWN0IE9wYWNpdHlCdWZmZXIKewogICAgRmxvYXQgKmRhdGE7CiAgICBJbnQgd2lkdGg7CiAgICBJbnQgaGVpZ2h0Owp9Owo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB5MSA9IHkgLSB5ZjsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB4MCA9IHhuIC0geGY7CiAgICAgICAgeTAgPSB5biAtIHlmOwogICAgICAgIHgxID0geCAtIHhmOwogICAgICAgIHkxID0geSAtIHlmOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAoK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -486,9 +489,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpc19tb3ZpbmdcPg==</last-search>
+      <last-search encoding="base64">XDxhYV9hZGRfYXJjXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpc19tb3ZpbmdcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxhYV9hZGRfYXJjXD4=</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
