@@ -43,9 +43,9 @@
         <entry>Lw</entry>
         <entry>qw</entry>
         <entry>call VimLLDB_Pause()</entry>
-        <entry>q</entry>
         <entry>'w</entry>
         <entry>W</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -233,8 +233,11 @@
       <file name="$USER_HOME$/test/src/lib/memory.cpp_dir/fragment.cpp" timestamp="1590842232978">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/circular_queue.cpp" timestamp="1590939951971">
+      <file name="$USER_HOME$/test/src/lib/circular_queue.cpp" timestamp="1590945860023">
         <mark key="'" line="54" column="0" />
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/python.cpp" timestamp="1590944880829">
         <mark key="'" line="43" column="56" />
@@ -264,8 +267,8 @@
       <file name="/LLDB" timestamp="1590944810510">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590941975307">
-        <mark key="'" line="26" column="5" />
+      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1590945886561">
+        <mark key="'" line="270" column="17" />
         <mark key="[" line="317" column="34" />
         <mark key="m" line="206" column="71" />
         <mark key="]" line="317" column="34" />
@@ -295,7 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="261" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="260" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="303" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
       <jump line="317" column="33" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
@@ -395,12 +397,13 @@
       <jump line="160" column="20" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="38" column="48" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="43" column="56" filename="$USER_HOME$/test/src/lib/python.cpp" />
+      <jump line="270" column="17" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGlmICghYnl0ZXMpCiAgICB7CiAgICAgICAgUHlFcnJfUHJpbnQoKTsKICAgICAgICBmZmx1c2goc3Rkb3V0KTsKICAgICAgICByZXR1cm4ge307CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="+" type="4">
         <text>CreateSemaphore</text>
@@ -415,7 +418,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIG11dGV4X2FjcXVpcmUoc3RhdGUtPnRocmVhZF9kYXRhLmltYWdlX3F1ZXVlX211dGV4KTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGlmICghYnl0ZXMpCiAgICB7CiAgICAgICAgUHlFcnJfUHJpbnQoKTsKICAgICAgICBmZmx1c2goc3Rkb3V0KTsKICAgICAgICByZXR1cm4ge307CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -462,28 +465,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBQeUV4Y19GCg==</text>
+        <text encoding="base64">ICAgIGlmICghYnl0ZXMpCiAgICB7CiAgICAgICAgUHlFcnJfUHJpbnQoKTsKICAgICAgICBmZmx1c2goc3Rkb3V0KTsKICAgICAgICByZXR1cm4ge307CiAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGlmICghYnl0ZXMpCiAgICB7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBQeUV4Y19GCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBQeQo=</text>
+        <text encoding="base64">ICAgIGlmICghYnl0ZXMpCiAgICB7CiAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBQeQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludGYoIiVkXG4iLCBkaWdpdCk7CiAgICAgICAgZmZsdXNoKHN0ZG91dCk7Cgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoZGlnaXRfcHRyKQogICAgICAgIHsKICAgICAgICAgICAgKmRpZ2l0X3B0ciA9IGRpZ2l0OwogICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBwcmludGYoIiVkXG4iLCBkaWdpdCk7CiAgICAgICAgZmZsdXNoKHN0ZG91dCk7Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
