@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cross</entry>
         <entry encoding="base64">XDxpc190ZXN0aW5nXD4=</entry>
         <entry encoding="base64">XDxpc19zaXppbmdcPg==</entry>
         <entry>is_moving</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDxkaWdpdF9hcnJheVw+</entry>
         <entry encoding="base64">XDxhcnJheV9wdXNoXD4=</entry>
         <entry encoding="base64">XDxpc19tb3ZpbmdcPg==</entry>
+        <entry encoding="base64">XDxDcmVhdGVXaW5kb3dFeEFcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_StepOver()</entry>
@@ -212,6 +212,13 @@
         <mark key="^" line="24" column="10" />
         <mark key="." line="26" column="9" />
       </file>
+      <file name="$USER_HOME$/test/src/lib/primitive.cpp" timestamp="1591136230956">
+        <mark key="'" line="33" column="0" />
+        <mark key="[" line="38" column="15" />
+        <mark key="]" line="38" column="16" />
+        <mark key="^" line="37" column="13" />
+        <mark key="." line="38" column="16" />
+      </file>
       <file name="$USER_HOME$/test/src/lib/python.cpp_dir/fragment.cpp" timestamp="1590958024040">
         <mark key="[" line="0" column="0" />
       </file>
@@ -223,12 +230,13 @@
       <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1590952104965">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1591057075898">
-        <mark key="'" line="49" column="0" />
-        <mark key="[" line="21" column="0" />
-        <mark key="m" line="94" column="27" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
+      <file name="$USER_HOME$/test/src/main.cpp" timestamp="1591136426527">
+        <mark key="'" line="164" column="4" />
+        <mark key="[" line="188" column="101" />
+        <mark key="m" line="95" column="27" />
+        <mark key="]" line="188" column="122" />
+        <mark key="." line="188" column="121" />
+        <mark key="^" line="188" column="122" />
       </file>
       <file name="$USER_HOME$/test/src/lib/python.cpp" timestamp="1591055427755">
         <mark key="'" line="66" column="0" />
@@ -242,10 +250,6 @@
         <mark key="]" line="20" column="4" />
         <mark key="^" line="11" column="17" />
         <mark key="." line="20" column="4" />
-      </file>
-      <file name="/windows" timestamp="1590950385727">
-        <mark key="[" line="62719" column="0" />
-        <mark key="]" line="62719" column="20" />
       </file>
       <file name="$USER_HOME$/test/src/lib/string.cpp" timestamp="1590952915814">
         <mark key="[" line="16" column="11" />
@@ -278,12 +282,14 @@
         <mark key="." line="49" column="34" />
         <mark key="^" line="49" column="35" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1591055921186">
-        <mark key="[" line="235" column="123" />
-        <mark key="m" line="440" column="0" />
-        <mark key="]" line="235" column="137" />
-        <mark key="." line="235" column="136" />
-        <mark key="^" line="235" column="137" />
+      <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1591136843389">
+        <mark key="[" line="521" column="30" />
+        <mark key="m" line="443" column="0" />
+        <mark key="]" line="521" column="30" />
+        <mark key="." line="521" column="30" />
+      </file>
+      <file name="C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/WinUser.h" timestamp="1591136584907">
+        <mark key="'" line="4459" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/assert.cpp" timestamp="1591057024229">
         <mark key="[" line="11" column="0" />
@@ -293,12 +299,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="94" column="28" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="97" column="43" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="100" column="48" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="91" column="24" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="104" column="31" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="105" column="16" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="87" column="16" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="82" column="12" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="106" column="0" filename="$USER_HOME$/test/src/main.cpp" />
@@ -387,33 +387,39 @@
       <jump line="156" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="165" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="177" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="188" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="11" column="28" filename="$USER_HOME$/test/src/lib/assert.cpp" />
       <jump line="80" column="0" filename="$USER_HOME$/test/src/lib/graphics/font.cpp" />
       <jump line="60" column="0" filename="$USER_HOME$/test/src/lib/graphics/font.cpp" />
-      <jump line="30" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="49" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="30" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="33" column="0" filename="$USER_HOME$/test/src/lib/primitive.cpp" />
+      <jump line="6" column="0" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="8" column="26" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="188" column="156" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="68" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="164" column="4" filename="$USER_HOME$/test/src/main.cpp" />
+      <jump line="4459" column="0" filename="C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/WinUser.h" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>HAS</text>
       </register>
-      <register name="+" type="2">
-        <text encoding="base64">Y2xhbmcrKyAtSSAiQzpcUHJvZ3JhbSBGaWxlc1xQeXRob24zN1xpbmNsdWRlIiAtSSAiQzpcYmluXHdpbnRhYiIgLUwgIkM6XFByb2dyYW0gRmlsZXNcUHl0aG9uMzdcbGlicyIgLVduby13cml0YWJsZS1zdHJpbmdzIC1nIC1PMCAtbyBiaW5cdGVzdC5leGUgc3JjXG1haW4uY3BwIC1sVXNlcjMyIC1sR2RpMzIgLWxJbW0zMgo=</text>
+      <register name="+" type="4">
+        <text>WS_OVERLAPPEDWINDOW</text>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>HAS</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpc19tb3ZpbmdcPg==</text>
+        <text encoding="base64">XDxDcmVhdGVXaW5kb3dFeEFcPg==</text>
       </register>
-      <register name="0" type="4">
-        <text>__builtin_unreachable();</text>
+      <register name="0" type="2">
+        <text encoding="base64">I2lmbmRlZiB0cnVlCiNkZWZpbmUgdHJ1ZSAoMSkKI2VuZGlmCgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -460,28 +466,29 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZXhpdCAkTEFTVEVYSVRDT0RFCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">I2RlZmluZSBOT19FTFNFIGVsc2UgeyBBU1NFUlQoZmFsc2UpOyBVTlJFQUNIQUJMRTsgfQo=</text>
+        <text encoding="base64">ICAgIFdpbmRvd1N0eWxlIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">I2RlZmluZSBOT19FTFNFIGVsc2UgeyBBU1NFUlQoZmFsc2UpOyBVTlJFQUNIQUJMRTsgfQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">I2RlZmluZSBOT19ERUZBVUxUIGRlZmF1bHQ6IHsgQVNTRVJUKGZhbHNlKTsgVU5SRUFDSEFCTEU7IGJyZWFrOyB9Cg==</text>
+      <register name="5" type="8">
+        <text>true
+true</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAogICAgCg==</text>
+        <text encoding="base64">ZXhpdCAkTEFTVEVYSVRDT0RFCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGVsc2UKICAgIHsKICAgICAgICBBU1NFUlQoZmFsc2UpOwogICAgfQo=</text>
+        <text encoding="base64">I2RlZmluZSBOT19FTFNFIGVsc2UgeyBBU1NFUlQoZmFsc2UpOyBVTlJFQUNIQUJMRTsgfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">I2RlZmluZSBOT19FTFNFIGVsc2UgeyBBU1NFUlQoZmFsc2UpOyBVTlJFQUNIQUJMRTsgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -490,9 +497,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpc19tb3ZpbmdcPg==</last-search>
+      <last-search encoding="base64">XDxDcmVhdGVXaW5kb3dFeEFcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpc19tb3ZpbmdcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxDcmVhdGVXaW5kb3dFeEFcPg==</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
