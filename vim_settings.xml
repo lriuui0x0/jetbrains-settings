@@ -5,19 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cross</entry>
-        <entry encoding="base64">XDxpc190ZXN0aW5nXD4=</entry>
-        <entry encoding="base64">XDxpc19zaXppbmdcPg==</entry>
-        <entry>is_moving</entry>
-        <entry>size</entry>
-        <entry encoding="base64">XDxkcmF3X2xpbmVcPg==</entry>
-        <entry encoding="base64">XDxkcmF3X2NpcmNsZVw+</entry>
-        <entry>create_window</entry>
-        <entry encoding="base64">XDxtYXhfdGFza19jb3VudFw+</entry>
-        <entry>lock</entry>
-        <entry encoding="base64">XDwyOFw+</entry>
-        <entry>28</entry>
-        <entry>10</entry>
         <entry>push</entry>
         <entry>memset</entry>
         <entry encoding="base64">XDxJTUFHRV9ESU1FTlNJT05cPg==</entry>
@@ -25,19 +12,27 @@
         <entry encoding="base64">XDxkaWdpdF9hcnJheVw+</entry>
         <entry encoding="base64">XDxhcnJheV9wdXNoXD4=</entry>
         <entry encoding="base64">XDxpc19tb3ZpbmdcPg==</entry>
+        <entry encoding="base64">XDxDcmVhdGVXaW5kb3dFeEFcPg==</entry>
+        <entry>IMAGE_DIMENSION *</entry>
+        <entry>IMAGE_DIMENSION \*</entry>
+        <entry encoding="base64">XDxmb250X3BhcnNlXD4=</entry>
+        <entry>cubic</entry>
+        <entry>flatten</entry>
+        <entry>hypot</entry>
+        <entry>get_opacity</entry>
+        <entry encoding="base64">XDxnZXRfb3BhY2l0eV9idWZmZXJcPg==</entry>
+        <entry encoding="base64">XDxmb250X2NhbGN1bGF0ZV9tZXRyaWNzXD4=</entry>
+        <entry encoding="base64">XDxydW5uZXJfZHJhd19saW5lXD4=</entry>
+        <entry encoding="base64">XDxydW5uZXJfY2xvc2VfcGF0aFw+</entry>
+        <entry>x</entry>
       </history-search>
       <history-cmd>
-        <entry>call VimLLDB_StepOver()</entry>
-        <entry>e</entry>
-        <entry>wq</entry>
         <entry>:w</entry>
         <entry>vs</entry>
-        <entry>@w</entry>
         <entry>call Build()</entry>
         <entry encoding="base64">JzwsJz53</entry>
         <entry>b</entry>
         <entry>w3</entry>
-        <entry>Lw</entry>
         <entry>qw</entry>
         <entry>call VimLLDB_Pause()</entry>
         <entry>'w</entry>
@@ -45,7 +40,12 @@
         <entry>Lw#</entry>
         <entry>w#</entry>
         <entry>we</entry>
+        <entry>@w</entry>
+        <entry>3w</entry>
         <entry>q</entry>
+        <entry>e</entry>
+        <entry>ws</entry>
+        <entry>Lw</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -197,30 +197,18 @@
         <mark key="^" line="0" column="15" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="vim_settings.xml" timestamp="1591144289924">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/stdio.h_dir/fragment.cpp" timestamp="1591051888739">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/compile_commands.json" timestamp="1590951682954">
-        <mark key="[" line="8" column="25" />
-        <mark key="]" line="8" column="25" />
-        <mark key="." line="8" column="25" />
-        <mark key="^" line="8" column="26" />
-      </file>
-      <file name="$USER_HOME$/test/src/lib/platform.cpp" timestamp="1590953841875">
-        <mark key="[" line="26" column="8" />
-        <mark key="]" line="26" column="8" />
-        <mark key="^" line="24" column="10" />
-        <mark key="." line="26" column="9" />
+      <file name="$USER_HOME$/test/src/lib/index.cpp" timestamp="1591138813094">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="19" />
+        <mark key="." line="19" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/python.cpp_dir/fragment.cpp" timestamp="1590958024040">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/test/ml/network.py" timestamp="1590959077993">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
-        <mark key="." line="10" column="0" />
-      </file>
-      <file name="$USER_HOME$/test/src/main.cpp_dir/fragment.cpp" timestamp="1590952104965">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/main.cpp" timestamp="1591056146475">
@@ -229,6 +217,10 @@
         <mark key="m" line="94" column="27" />
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
+        <mark key="^" line="9" column="24" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/bit.cpp" timestamp="1591138050020">
+        <mark key="'" line="23" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/python.cpp" timestamp="1591055427755">
         <mark key="'" line="66" column="0" />
@@ -237,27 +229,43 @@
         <mark key="." line="95" column="35" />
         <mark key="^" line="95" column="36" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/memory.cpp" timestamp="1590952958835">
-        <mark key="[" line="20" column="4" />
-        <mark key="]" line="20" column="4" />
-        <mark key="^" line="11" column="17" />
-        <mark key="." line="20" column="4" />
-      </file>
-      <file name="/windows" timestamp="1590950385727">
-        <mark key="[" line="62719" column="0" />
-        <mark key="]" line="62719" column="20" />
-      </file>
-      <file name="$USER_HOME$/test/src/lib/string.cpp" timestamp="1590952915814">
-        <mark key="[" line="16" column="11" />
-        <mark key="]" line="16" column="17" />
-        <mark key="." line="16" column="16" />
-        <mark key="^" line="16" column="17" />
-      </file>
       <file name="$USER_HOME$/test/src/lib/graphics/font.cpp" timestamp="1591056441077">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="80" column="0" />
         <mark key="]" line="80" column="0" />
         <mark key="." line="80" column="0" />
+      </file>
+      <file name="/LLDB" timestamp="1591056055600">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1591141146040">
+        <mark key="'" line="255" column="35" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/font.cpp" timestamp="1591144265335">
+        <mark key="'" line="470" column="0" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+        <mark key="^" line="545" column="32" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/primitive.cpp" timestamp="1591138067570">
+        <mark key="'" line="40" column="0" />
+        <mark key="[" line="38" column="15" />
+        <mark key="]" line="38" column="16" />
+        <mark key="^" line="37" column="13" />
+        <mark key="." line="38" column="16" />
+      </file>
+      <file name="$USER_HOME$/test/ml/network.py" timestamp="1590959077993">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/math.cpp" timestamp="1591143694283">
+        <mark key="'" line="4" column="21" />
+        <mark key="[" line="90" column="0" />
+        <mark key="]" line="90" column="0" />
+        <mark key="." line="90" column="0" />
+        <mark key="^" line="89" column="28" />
       </file>
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1591051888698">
         <mark key="[" line="0" column="0" />
@@ -268,22 +276,16 @@
         <mark key="^" line="0" column="38" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="/LLDB" timestamp="1591056055600">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/test/src/lib/file.cpp" timestamp="1590952472178">
-        <mark key="'" line="44" column="0" />
-        <mark key="[" line="49" column="30" />
-        <mark key="]" line="49" column="35" />
-        <mark key="." line="49" column="34" />
-        <mark key="^" line="49" column="35" />
-      </file>
       <file name="$USER_HOME$/test/src/lib/gui.cpp" timestamp="1591055921186">
+        <mark key="'" line="518" column="4" />
         <mark key="[" line="235" column="123" />
         <mark key="m" line="440" column="0" />
         <mark key="]" line="235" column="137" />
         <mark key="." line="235" column="136" />
         <mark key="^" line="235" column="137" />
+      </file>
+      <file name="C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/WinUser.h" timestamp="1591136584907">
+        <mark key="'" line="4459" column="0" />
       </file>
       <file name="$USER_HOME$/test/src/lib/assert.cpp" timestamp="1591057024229">
         <mark key="[" line="11" column="0" />
