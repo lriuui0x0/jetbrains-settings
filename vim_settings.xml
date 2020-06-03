@@ -5,12 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>create_window</entry>
-        <entry encoding="base64">XDxtYXhfdGFza19jb3VudFw+</entry>
-        <entry>lock</entry>
-        <entry encoding="base64">XDwyOFw+</entry>
-        <entry>28</entry>
-        <entry>10</entry>
         <entry>push</entry>
         <entry>memset</entry>
         <entry encoding="base64">XDxJTUFHRV9ESU1FTlNJT05cPg==</entry>
@@ -25,10 +19,14 @@
         <entry>cubic</entry>
         <entry>flatten</entry>
         <entry>hypot</entry>
+        <entry>get_opacity</entry>
+        <entry encoding="base64">XDxnZXRfb3BhY2l0eV9idWZmZXJcPg==</entry>
+        <entry encoding="base64">XDxmb250X2NhbGN1bGF0ZV9tZXRyaWNzXD4=</entry>
+        <entry encoding="base64">XDxydW5uZXJfZHJhd19saW5lXD4=</entry>
+        <entry encoding="base64">XDxydW5uZXJfY2xvc2VfcGF0aFw+</entry>
+        <entry>x</entry>
       </history-search>
       <history-cmd>
-        <entry>e</entry>
-        <entry>wq</entry>
         <entry>:w</entry>
         <entry>vs</entry>
         <entry>call Build()</entry>
@@ -46,6 +44,8 @@
         <entry>@w</entry>
         <entry>3w</entry>
         <entry>q</entry>
+        <entry>e</entry>
+        <entry>ws</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -232,12 +232,6 @@
         <mark key="." line="95" column="35" />
         <mark key="^" line="95" column="36" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/memory.cpp" timestamp="1590952958835">
-        <mark key="[" line="20" column="4" />
-        <mark key="]" line="20" column="4" />
-        <mark key="^" line="11" column="17" />
-        <mark key="." line="20" column="4" />
-      </file>
       <file name="$USER_HOME$/test/src/lib/graphics/font.cpp" timestamp="1591138674372">
         <mark key="'" line="163" column="5" />
         <mark key="[" line="6" column="0" />
@@ -247,12 +241,15 @@
       <file name="/LLDB" timestamp="1591137910053">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/font.cpp" timestamp="1591139508561">
-        <mark key="'" line="713" column="12" />
-        <mark key="[" line="580" column="90" />
-        <mark key="]" line="580" column="90" />
-        <mark key="." line="580" column="90" />
-        <mark key="^" line="580" column="90" />
+      <file name="$USER_HOME$/test/src/lib/graphics.cpp" timestamp="1591141146040">
+        <mark key="'" line="255" column="35" />
+      </file>
+      <file name="$USER_HOME$/test/src/lib/font.cpp" timestamp="1591144161610">
+        <mark key="'" line="514" column="4" />
+        <mark key="[" line="528" column="61" />
+        <mark key="]" line="528" column="24" />
+        <mark key="." line="528" column="23" />
+        <mark key="^" line="528" column="24" />
       </file>
       <file name="$USER_HOME$/test/src/lib/primitive.cpp" timestamp="1591138067570">
         <mark key="'" line="40" column="0" />
@@ -266,12 +263,12 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/test/src/lib/math.cpp" timestamp="1591139603481">
-        <mark key="'" line="101" column="0" />
-        <mark key="[" line="102" column="11" />
-        <mark key="]" line="102" column="15" />
-        <mark key="." line="102" column="14" />
-        <mark key="^" line="102" column="15" />
+      <file name="$USER_HOME$/test/src/lib/math.cpp" timestamp="1591143694283">
+        <mark key="'" line="4" column="21" />
+        <mark key="[" line="90" column="0" />
+        <mark key="]" line="90" column="0" />
+        <mark key="." line="90" column="0" />
+        <mark key="^" line="89" column="28" />
       </file>
       <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1591051888698">
         <mark key="[" line="0" column="0" />
@@ -301,68 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="54" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="61" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="72" column="3" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="35" column="8" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="65" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="62" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="15" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="80" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="79" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="14" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="94" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="91" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="100" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="96" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="116" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="113" column="4" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="122" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="82" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="95" column="45" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="66" column="0" filename="$USER_HOME$/test/src/lib/python.cpp" />
-      <jump line="17" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="18" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="191" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="212" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="600" column="20" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="603" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="638" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="287" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="275" column="8" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="235" column="16" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="41" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="174" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="57" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="156" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="165" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="177" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="11" column="28" filename="$USER_HOME$/test/src/lib/assert.cpp" />
-      <jump line="80" column="0" filename="$USER_HOME$/test/src/lib/graphics/font.cpp" />
-      <jump line="60" column="0" filename="$USER_HOME$/test/src/lib/graphics/font.cpp" />
-      <jump line="49" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="30" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="33" column="0" filename="$USER_HOME$/test/src/lib/primitive.cpp" />
-      <jump line="6" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="8" column="26" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="68" column="4" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="164" column="4" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="4459" column="0" filename="C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um/WinUser.h" />
-      <jump line="178" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="171" column="17" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="188" column="59" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="10" column="39" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="91" column="40" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="93" column="44" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="172" column="70" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="173" column="66" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="184" column="71" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="12" column="0" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="189" column="38" filename="$USER_HOME$/test/src/main.cpp" />
-      <jump line="516" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="518" column="4" filename="$USER_HOME$/test/src/lib/gui.cpp" />
-      <jump line="23" column="0" filename="$USER_HOME$/test/src/lib/bit.cpp" />
       <jump line="40" column="0" filename="$USER_HOME$/test/src/lib/primitive.cpp" />
       <jump line="29" column="0" filename="$USER_HOME$/test/src/main.cpp" />
       <jump line="22" column="0" filename="$USER_HOME$/test/src/main.cpp" />
@@ -398,30 +333,95 @@
       <jump line="110" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
       <jump line="61" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
       <jump line="102" column="11" filename="$USER_HOME$/test/src/lib/math.cpp" />
-      <jump line="60" column="11" filename="$USER_HOME$/test/src/lib/math.cpp" />
       <jump line="103" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
       <jump line="101" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="32" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="43" column="0" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="278" column="35" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="66" column="14" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="255" column="35" filename="$USER_HOME$/test/src/lib/graphics.cpp" />
+      <jump line="31" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="39" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="443" column="5" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="454" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="470" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="478" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="504" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="520" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="562" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="552" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="444" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="866" column="16" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="42" column="16" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="903" column="4" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="917" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="867" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="901" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="593" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="44" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="452" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="468" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="476" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="518" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="550" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="453" column="45" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="489" column="12" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="516" column="8" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="530" column="8" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="761" column="12" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="512" column="5" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="536" column="8" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="767" column="12" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="770" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="40" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="41" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="60" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="64" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="72" column="34" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="95" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="71" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="55" column="0" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="4" column="21" filename="$USER_HOME$/test/src/lib/math.cpp" />
+      <jump line="508" column="32" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="509" column="4" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="502" column="4" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="433" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="441" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="531" column="0" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="532" column="48" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="533" column="38" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="534" column="29" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="539" column="31" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="541" column="22" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="542" column="34" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="544" column="8" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="538" column="8" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="545" column="4" filename="$USER_HOME$/test/src/lib/font.cpp" />
+      <jump line="514" column="4" filename="$USER_HOME$/test/src/lib/font.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>hypot</text>
+        <text>t</text>
       </register>
       <register name="+" type="4">
         <text>WS_OVERLAPPEDWINDOW</text>
       </register>
       <register name="-" type="4">
-        <text>hypot</text>
+        <text>t</text>
       </register>
       <register name="/" type="4">
-        <text>hypot</text>
+        <text>x</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">RmxvYXQgZGlzdChGbG9hdCB4MCwgRmxvYXQgeTAsIEZsb2F0IHgxLCBGbG9hdCB5MSkKewogICAgcmV0dXJuIGh5cG90KHgwIC0geDEsIHkwIC0geTEpOwp9Cgo=</text>
+        <text encoding="base64">CiAgICAgICAgRmxvYXQgYXggPSAzICogKC14MCArIDMgKiB4MSAtIDMgKiB4MiArIHgzKTsKICAgICAgICBGbG9hdCBieCA9IDYgKiAoeDAgLSAyICogeDEgKyB4Mik7CiAgICAgICAgRmxvYXQgY3ggPSAzICogKHgxIC0geDApOwogICAgICAgIEZsb2F0IHR4WzJdOwogICAgICAgIEludCByID0gc29sdmVfcXVhZHJhdGljKGF4LCBieCwgY3gsICZ0eFswXSk7CiAgICAgICAgZm9yIChJbnQgaSA9IDA7IGkgPCByOyBpKyspCiAgICAgICAgewogICAgICAgICAgICBpZiAodHhbaV0gPj0gMCAmJiB0eFtpXSA8PSAxKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBGbG9hdCB4ID0gOwogICAgICAgICAgICAgICAgcnVubmVyX3JlZmluZV9ib3hfeChydW5uZXIsIHgpOwogICAgICAgICAgICB9CiAgICAgICAgfQo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="8">
+        <text>x
+x
+x
+x</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -467,29 +467,33 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="8">
+        <text>x
+x
+x</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly8gVE9ETzogQmV0dGVyIGN1YmljIGJlemllciBmbGF0dGVuaW5nIGZ1bmN0aW9uCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">I2luY2x1ZGUgImZvbnQuY3BwIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">I2luY2x1ZGUgImZvbnQuY3BwIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">I2luY2x1ZGUK</text>
+        <text encoding="base64">ICAgICAgICAqcjEgPSA7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gVE9ETzogQmV0dGVyIGFudGktYWxpYXNpbmcgY2FsY3VsYXRpb24gZnVuY3Rpb24K</text>
+        <text encoding="base64">ICAgICAgICAqcjEgPSB4MTsKICAgICAgICAqcjIgPSB4MjsK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="8" type="8">
+        <text>x
+x</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="8">
+        <text>x
+x</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -498,9 +502,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>hypot</last-search>
+      <last-search>x</last-search>
       <last-offset />
-      <last-pattern>hypot</last-pattern>
+      <last-pattern>x</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
