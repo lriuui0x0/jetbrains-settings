@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjb21taXRTSEFcPg==</entry>
-        <entry>checkNested</entry>
         <entry>nested</entry>
         <entry encoding="base64">XDxuYXZpZ2F0aW9uRXZlbnRCdXNcPg==</entry>
         <entry>page</entry>
@@ -25,6 +23,8 @@
         <entry>navigationLoading</entry>
         <entry encoding="base64">XDxsb2FkaW5nXD4=</entry>
         <entry encoding="base64">XDxpc0xvYWRpbmdcPg==</entry>
+        <entry>job</entry>
+        <entry encoding="base64">XDxnZXRMb2dQYXRoXD4=</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz53</entry>
@@ -191,25 +191,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" timestamp="1591889304786">
-        <mark key="'" line="119" column="12" />
-        <mark key="[" line="96" column="24" />
-        <mark key="]" line="96" column="22" />
-        <mark key="." line="96" column="21" />
-        <mark key="^" line="96" column="22" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1591882827015">
         <mark key="'" line="370" column="12" />
         <mark key="[" line="465" column="0" />
         <mark key="]" line="465" column="0" />
         <mark key="." line="465" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/mixins.js" timestamp="1591889747163">
-        <mark key="'" line="29" column="9" />
-        <mark key="[" line="31" column="78" />
-        <mark key="]" line="31" column="78" />
-        <mark key="." line="31" column="78" />
-        <mark key="^" line="31" column="53" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" timestamp="1591888356913">
         <mark key="'" line="167" column="63" />
@@ -231,12 +217,6 @@
         <mark key="^" line="175" column="59" />
         <mark key="." line="175" column="58" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1591881041712">
-        <mark key="'" line="589" column="6" />
-        <mark key="[" line="234" column="0" />
-        <mark key="]" line="234" column="16" />
-        <mark key="." line="234" column="16" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-groups-response.json" timestamp="1591878060621">
         <mark key="'" line="107" column="16" />
         <mark key="[" line="116" column="0" />
@@ -253,12 +233,12 @@
         <mark key="." line="18" column="38" />
         <mark key="^" line="18" column="39" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Commit.java" timestamp="1591886683561">
-        <mark key="'" line="177" column="88" />
-        <mark key="[" line="179" column="61" />
-        <mark key="]" line="179" column="61" />
-        <mark key="." line="179" column="61" />
-        <mark key="^" line="179" column="62" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1591893180069">
+        <mark key="'" line="135" column="27" />
+        <mark key="[" line="280" column="103" />
+        <mark key="]" line="280" column="104" />
+        <mark key="." line="280" column="103" />
+        <mark key="^" line="280" column="104" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/index/router.js" timestamp="1591880089041">
         <mark key="'" line="86" column="6" />
@@ -272,12 +252,6 @@
         <mark key="[" line="45" column="0" />
         <mark key="]" line="45" column="0" />
         <mark key="." line="45" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/utils.js" timestamp="1591876527387">
-        <mark key="'" line="26" column="0" />
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="." line="64" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/TreeSelect.vue" timestamp="1591888767697">
         <mark key="[" line="26" column="0" />
@@ -293,27 +267,49 @@
         <mark key="[" line="71" column="0" />
         <mark key="]" line="72" column="119" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/conf/azure-images.yml" timestamp="1591882093493">
-        <mark key="'" line="13" column="10" />
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="18" column="37" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/commit-pipelines-response.json" timestamp="1591883165498">
         <mark key="'" line="206" column="30" />
         <mark key="[" line="348" column="0" />
         <mark key="]" line="348" column="0" />
         <mark key="." line="348" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" timestamp="1591892906469">
+        <mark key="'" line="119" column="16" />
+        <mark key="[" line="96" column="24" />
+        <mark key="]" line="96" column="22" />
+        <mark key="." line="96" column="21" />
+        <mark key="^" line="96" column="22" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/mixins.js" timestamp="1591889747163">
+        <mark key="'" line="29" column="9" />
+        <mark key="[" line="31" column="78" />
+        <mark key="]" line="31" column="78" />
+        <mark key="." line="31" column="78" />
+        <mark key="^" line="31" column="53" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1591881041712">
+        <mark key="'" line="589" column="6" />
+        <mark key="[" line="234" column="0" />
+        <mark key="]" line="234" column="16" />
+        <mark key="." line="234" column="16" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Commit.java" timestamp="1591886683561">
+        <mark key="'" line="177" column="88" />
+        <mark key="[" line="179" column="61" />
+        <mark key="]" line="179" column="61" />
+        <mark key="." line="179" column="61" />
+        <mark key="^" line="179" column="62" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/conf/azure-images.yml" timestamp="1591882093493">
+        <mark key="'" line="13" column="10" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="18" column="37" />
+      </file>
       <file name="/fragment.java" timestamp="1591888479749">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="108" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="93" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="79" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="66" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="44" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="33" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="23" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
@@ -399,7 +395,6 @@
       <jump line="802" column="110" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="26" column="79" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/TreeSelect.vue" />
       <jump line="189" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
-      <jump line="119" column="12" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
       <jump line="108" column="3" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/index.vue" />
       <jump line="7" column="30" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/index.vue" />
       <jump line="72" column="83" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/index.vue" />
@@ -409,27 +404,33 @@
       <jump line="30" column="24" filename="$USER_HOME$/GraknLabs/grabl/pages/common/mixins.js" />
       <jump line="35" column="2" filename="$USER_HOME$/GraknLabs/grabl/pages/common/mixins.js" />
       <jump line="29" column="9" filename="$USER_HOME$/GraknLabs/grabl/pages/common/mixins.js" />
+      <jump line="137" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
+      <jump line="119" column="16" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
+      <jump line="105" column="55" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="190" column="48" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="269" column="17" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="135" column="27" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IHx8IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXNvbHZlKFN0cmluZy5mb3JtYXQoIiVzLSVzIiwgd29ya2Zsb3csIHdvcmtmbG93UnVuKSkucmVzb2x2ZShTdHJpbmcuZm9ybWF0KCIlcy0lcyIsIGpvYiwgam9iUnVuKSkucmVzb2x2ZSgibG9nLmxvZyIpOwo=</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">Z3JhYmwtdWJ1bnR1LTIwMDQtbG9uZzoKICBvcy10eXBlOiBsaW51eAogIGFjdGl2ZTogdHJ1ZQogIGN1c3RvbS1pbWFnZToKICAgIHJlc291cmNlLWdyb3VwOiBncmFibC1kZXYKICAgIG5hbWU6IGdyYWJsLXVidW50dS12MjAyMDA2MDgtbG9uZwo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHx8IA==</text>
+        <text>String.format(&quot;%s-%s&quot;, pipeline, pipelineRun))</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpc0xvYWRpbmdcPg==</text>
+        <text encoding="base64">XDxnZXRMb2dQYXRoXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBjb25zdCBpc0RhdGFDaHVuayA9IGNodW5rICYmICFjaGVja0Zvck5lc3RlZFByb3AoY2h1bmssICd1c2VyJywgJ3VzZXJuYW1lJyk7CiAgICAgICAgaWYgKGlzRGF0YUNodW5rICYmIChjaHVuay5zdGF0dXMuY29kZSA9PT0gMjAwIHx8IGNodW5rLnN0YXR1cy5jb2RlID09PSA1MDApKSB0aGlzLmhhc1JlY2VpdmVkRW5kTWVzc2FnZSA9IHRydWU7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgaWYgKG5ld0NodW5rLnBhZ2UpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC5yZXNvbHZlKFN0cmluZy5mb3JtYXQoIiVzLSVzIiwgd29ya2Zsb3csIHdvcmtmbG93UnVuKSkucmVzb2x2ZShTdHJpbmcuZm9ybWF0KCIlcy0lcyIsIGpvYiwgam9iUnVuKSkucmVzb2x2ZSgibG9nLmxvZyIpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -458,28 +459,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgY29uc3QgaXNEYXRhQ2h1bmsgPSBjaHVuayAmJiAhY2hlY2tGb3JOZXN0ZWRQcm9wKGNodW5rLCAndXNlcicsICd1c2VybmFtZScpOwo=</text>
+        <text encoding="base64">ICAgICAgaWYgKG5ld0NodW5rLnBhZ2UpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmhhc1JlY2VpdmVkRW5kTWVzc2FnZSA9IHRydWU7Cg==</text>
+        <text encoding="base64">ICAgICAgY29uc3QgaXNEYXRhQ2h1bmsgPSBjaHVuayAmJiAhY2hlY2tGb3JOZXN0ZWRQcm9wKGNodW5rLCAndXNlcicsICd1c2VybmFtZScpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmhhc1JlY2VpdmVkRW5kTWVzc2FnZSA9IHRydWU7Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgdi1vbj0ieyBjbG9zZTogdHJlZURhdGEuaXRlbXMubGVuZ3RoID09PSAwID8gKCkgPT4gJGVtaXQoJ2NsZWFyJykgOiBudWxsIH0iCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PCEtLSAgICAgIHYtb249InsgY2xvc2U6ICgpID0+IHRyZWVEYXRhLml0ZW1zLmxlbmd0aCA9PT0gMCA/ICRlbWl0KCdjbGVhcicpIDogbnVsbCB9Ii0tPgo=</text>
+        <text encoding="base64">ICAgICAgdi1vbj0ieyBjbG9zZTogdHJlZURhdGEuaXRlbXMubGVuZ3RoID09PSAwID8gKCkgPT4gJGVtaXQoJ2NsZWFyJykgOiBudWxsIH0iCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Pj4+Pj4+PiB3aXAK</text>
+        <text encoding="base64">PCEtLSAgICAgIHYtb249InsgY2xvc2U6ICgpID0+IHRyZWVEYXRhLml0ZW1zLmxlbmd0aCA9PT0gMCA/ICRlbWl0KCdjbGVhcicpIDogbnVsbCB9Ii0tPgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+        <text encoding="base64">Pj4+Pj4+PiB3aXAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -488,9 +489,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpc0xvYWRpbmdcPg==</last-search>
+      <last-search encoding="base64">XDxnZXRMb2dQYXRoXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpc0xvYWRpbmdcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxnZXRMb2dQYXRoXD4=</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
