@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxuYXZpZ2F0aW9uXD4=</entry>
         <entry encoding="base64">XDxjb25zdHJ1Y3RXb3JrZmxvd3NcPg==</entry>
         <entry>performance</entry>
         <entry>commit</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDx1cGRhdGVQZXJmb3JtYW5jZUFuYWx5c2lzUXVlcnlQYXJhbVw+</entry>
         <entry encoding="base64">XDxnZXRQZXJmb3JtYW5jZUFuYWx5c2lzUGFnZVJvdXRlXD4=</entry>
         <entry encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlX3RyYWNrZXJcPg==</entry>
+        <entry>getPath</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz53</entry>
@@ -218,11 +218,12 @@
         <mark key="." line="175" column="55" />
         <mark key="^" line="175" column="56" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1591902186572">
-        <mark key="'" line="66" column="4" />
-        <mark key="[" line="35" column="86" />
-        <mark key="]" line="35" column="86" />
-        <mark key="." line="35" column="86" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1591953397551">
+        <mark key="'" line="157" column="62" />
+        <mark key="[" line="157" column="4" />
+        <mark key="]" line="157" column="17" />
+        <mark key="." line="157" column="16" />
+        <mark key="^" line="157" column="17" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1591888553730">
         <mark key="'" line="802" column="110" />
@@ -231,12 +232,12 @@
         <mark key="^" line="175" column="59" />
         <mark key="." line="175" column="58" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1591951792339">
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1591953319855">
         <mark key="'" line="158" column="49" />
-        <mark key="[" line="206" column="31" />
-        <mark key="]" line="206" column="31" />
-        <mark key="^" line="206" column="32" />
-        <mark key="." line="206" column="31" />
+        <mark key="[" line="236" column="86" />
+        <mark key="]" line="236" column="82" />
+        <mark key="^" line="236" column="82" />
+        <mark key="." line="236" column="81" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Workflow/type/Performance.vue" timestamp="1591901410744">
         <mark key="'" line="114" column="6" />
@@ -311,8 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="370" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="230" column="32" filename="$USER_HOME$/GraknLabs/grabl/service/Commit.java" />
       <jump line="175" column="72" filename="$USER_HOME$/GraknLabs/grabl/service/Commit.java" />
       <jump line="179" column="35" filename="$USER_HOME$/GraknLabs/grabl/service/Commit.java" />
       <jump line="295" column="18" filename="$USER_HOME$/GraknLabs/grabl/design/service/commit-pipelines-response.json" />
@@ -411,21 +410,23 @@
       <jump line="156" column="139" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="163" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="158" column="49" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="162" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="157" column="62" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>s</text>
+        <text>private</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">Z3JhYmwtdWJ1bnR1LTIwMDQtbG9uZzoKICBvcy10eXBlOiBsaW51eAogIGFjdGl2ZTogdHJ1ZQogIGN1c3RvbS1pbWFnZToKICAgIHJlc291cmNlLWdyb3VwOiBncmFibC1kZXYKICAgIG5hbWU6IGdyYWJsLXVidW50dS12MjAyMDA2MDgtbG9uZwo=</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>private</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlX3RyYWNrZXJcPg==</text>
+        <text>getPath</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAvLyB2dWUtcm91dGVyIGNvbXBsYWlucyB3aGVuIHRoZSBuZXcgcm91dGUgYmVpbmcgYHB1c2hgZWQgb3IgYHJlcGxhY2VgZCBpcyBpZGVudGljYWwgdG8gdGhlIGN1cnJlbnQgb25lCiAgICAgICAgLy8gc28gd2Ugb25seSBjaGFuZ2UgdGhlIHJvdXRlIHdoZW4gd2UncmUgY2VydGFpbiB0aGUgbmV3IHJvdXRlIGRpZmZlcnMK</text>
@@ -490,9 +491,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlX3RyYWNrZXJcPg==</last-search>
+      <last-search>getPath</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlX3RyYWNrZXJcPg==</last-pattern>
+      <last-pattern>getPath</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
