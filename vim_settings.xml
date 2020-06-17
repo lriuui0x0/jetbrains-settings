@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>debugger</entry>
         <entry encoding="base64">XDxzaG91bGRTaG93Q2xvc2VCdG5cPg==</entry>
         <entry encoding="base64">XDxzZWxlY3RlZFw+</entry>
         <entry encoding="base64">XDxhbmFseXNpc1w+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxjb25zdHJ1Y3RBbmFseXNpc1RyZWVPYmplY3RPcHRpb25zXD4=</entry>
         <entry encoding="base64">XDxzdGFydFw+</entry>
         <entry>println</entry>
+        <entry encoding="base64">XDx0cmVlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_Pause()</entry>
@@ -193,12 +193,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1592400021051">
-        <mark key="'" line="521" column="46" />
-        <mark key="[" line="557" column="38" />
-        <mark key="]" line="557" column="52" />
-        <mark key="^" line="557" column="52" />
-        <mark key="." line="557" column="51" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1592400643119">
+        <mark key="'" line="508" column="28" />
+        <mark key="[" line="510" column="8" />
+        <mark key="]" line="510" column="8" />
+        <mark key="^" line="507" column="22" />
+        <mark key="." line="510" column="14" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Workflow.java" timestamp="1592392370008">
         <mark key="'" line="55" column="0" />
@@ -306,8 +306,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="102" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/TreeSelect.vue" />
-      <jump line="60" column="26" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/TheNavigation/utils.js" />
       <jump line="2" column="36" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/TheNavigation/utils.js" />
       <jump line="62" column="2" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/TheNavigation/utils.js" />
       <jump line="59" column="44" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/TheNavigation/utils.js" />
@@ -406,21 +404,23 @@
       <jump line="43" column="21" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="521" column="46" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="64" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="507" column="21" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="508" column="28" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiPj4+PiB0cmFjZTogcGVyZm9ybWFuY2UgYW5hbHlzaXMgUkVTUE9OU0UgY29uc3RydWN0aW9uOiAiICsgKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQyKSk7Cg==</text>
+      <register name="&quot;" type="4">
+        <text>tree</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">Z3JhYmwtdWJ1bnR1LTIwMDQtbG9uZzoKICBvcy10eXBlOiBsaW51eAogIGFjdGl2ZTogdHJ1ZQogIGN1c3RvbS1pbWFnZToKICAgIHJlc291cmNlLWdyb3VwOiBncmFibC1kZXYKICAgIG5hbWU6IGdyYWJsLXVidW50dS12MjAyMDA2MDgtbG9uZwo=</text>
       </register>
       <register name="-" type="4">
-        <text>Analysis.getLabels(tx, selectedAnalysis)</text>
+        <text>tree</text>
       </register>
       <register name="/" type="4">
-        <text>println</text>
+        <text encoding="base64">XDx0cmVlXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Ly8gICAgICAgIFNldDxTdHJpbmc+IGxhYmVsT3B0aW9uc1JhdyA9IEFuYWx5c2lzLmdldExhYmVscyh0eCwgc2VsZWN0ZWRBbmFseXNpcyk7Cg==</text>
@@ -486,9 +486,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>println</last-search>
+      <last-search encoding="base64">XDx0cmVlXD4=</last-search>
       <last-offset />
-      <last-pattern>println</last-pattern>
+      <last-pattern encoding="base64">XDx0cmVlXD4=</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
