@@ -226,8 +226,12 @@
         <mark key="^" line="507" column="22" />
         <mark key="." line="510" column="14" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/index/router.js" timestamp="1592390298364">
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/index/router.js" timestamp="1592406229969">
         <mark key="'" line="110" column="0" />
+        <mark key="[" line="287" column="51" />
+        <mark key="]" line="287" column="74" />
+        <mark key="^" line="287" column="74" />
+        <mark key="." line="287" column="73" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Workflow.java" timestamp="1592392370008">
         <mark key="'" line="55" column="0" />
@@ -246,8 +250,8 @@
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" timestamp="1592399000552">
         <mark key="'" line="17" column="22" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" timestamp="1592394580041">
-        <mark key="'" line="293" column="11" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" timestamp="1592406624813">
+        <mark key="'" line="211" column="13" />
         <mark key="[" line="293" column="29" />
         <mark key="]" line="293" column="29" />
         <mark key="." line="293" column="29" />
@@ -267,8 +271,8 @@
       <file name="$USER_HOME$/GraknLabs/grabl/service/Login.java" timestamp="1592332590915">
         <mark key="'" line="36" column="81" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592400483053">
-        <mark key="'" line="64" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592406711959">
+        <mark key="'" line="66" column="0" />
         <mark key="[" line="70" column="0" />
         <mark key="]" line="70" column="0" />
         <mark key="^" line="110" column="38" />
@@ -298,8 +302,8 @@
         <mark key="." line="46" column="19" />
         <mark key="^" line="46" column="20" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TrackerSelect.vue" timestamp="1592402623107">
-        <mark key="'" line="35" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TrackerSelect.vue" timestamp="1592406716414">
+        <mark key="'" line="42" column="0" />
         <mark key="[" line="38" column="36" />
         <mark key="]" line="38" column="54" />
         <mark key="^" line="38" column="54" />
@@ -307,10 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="290" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" />
-      <jump line="293" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" />
-      <jump line="202" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
-      <jump line="157" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
       <jump line="154" column="25" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
       <jump line="56" column="19" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
       <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/PathSelect.vue" />
@@ -407,12 +407,16 @@
       <jump line="203" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
       <jump line="190" column="52" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
       <jump line="193" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/index.vue" />
+      <jump line="211" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" />
+      <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TrackerSelect.vue" />
+      <jump line="42" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TrackerSelect.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>updatedTrackerTree.tracker</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICB0aGlzLmlzTmF2TG9hZGluZyA9IHRydWU7Cgo=</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">Z3JhYmwtdWJ1bnR1LTIwMDQtbG9uZzoKICBvcy10eXBlOiBsaW51eAogIGFjdGl2ZTogdHJ1ZQogIGN1c3RvbS1pbWFnZToKICAgIHJlc291cmNlLWdyb3VwOiBncmFibC1kZXYKICAgIG5hbWU6IGdyYWJsLXVidW50dS12MjAyMDA2MDgtbG9uZwo=</text>
@@ -427,7 +431,7 @@
         <text encoding="base64">Ly8gICAgICAgIFNldDxTdHJpbmc+IGxhYmVsT3B0aW9uc1JhdyA9IEFuYWx5c2lzLmdldExhYmVscyh0eCwgc2VsZWN0ZWRBbmFseXNpcyk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCB1cGRhdGVkVHJhY2tlclRyZWUgPSBjbG9uZUpTT04odGhpcy5kYXRhKTsK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmlzTmF2TG9hZGluZyA9IHRydWU7Cgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -457,28 +461,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCB1cGRhdGVkVHJhY2tlclRyZWUgPSBjbG9uZUpTT04odGhpcy5kYXRhKTsKICAgICAgICB1cGRhdGVkVHJhY2tlclRyZWUudHJhY2tlciA9IG5ld1RyYWNrZXJUcmVlLnRyYWNrZXI7Cg==</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">ICAgICAgICBjb25zdCB1cGRhdGVkVHJhY2tlclRyZWUgPSBjbG9uZUpTT04odGhpcy5kYXRhKTsK</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBjb25zdCB1cGRhdGVkVHJhY2tlclRyZWUgPSBjbG9uZUpTT04odGhpcy5kYXRhKTsKICAgICAgICB1cGRhdGVkVHJhY2tlclRyZWUudHJhY2tlciA9IG5ld1RyYWNrZXJUcmVlLnRyYWNrZXI7Cg==</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLiRlbWl0KCd0cmFja2VyQ2hhbmdlJywgdXBkYXRlZFRyYWNrZXJUcmVlLnRyYWNrZXIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCB1cGRhdGVkVHJhY2tlclRyZWUgPSBjbG9uZUpTT04odGhpcy5kYXRhKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB1cGRhdGVkVHJhY2tlclRyZWUudHJhY2tlciA9IHsgb3B0aW9uYWw6IHRydWUgfTsK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLiRlbWl0KCd0cmFja2VyQ2hhbmdlJywgdXBkYXRlZFRyYWNrZXJUcmVlLnRyYWNrZXIpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5kYXRhKTsK</text>
+        <text encoding="base64">ICAgICAgICB1cGRhdGVkVHJhY2tlclRyZWUudHJhY2tlciA9IHsgb3B0aW9uYWw6IHRydWUgfTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiPj4+PiB0cmFjZTogcGVyZm9ybWFuY2UgYW5hbHlzaXMgUkVTUE9OU0UgY29uc3RydWN0aW9uOiAiICsgKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQyKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgY29uc29sZS5sb2codGhpcy5kYXRhKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gICAgICAgIFNldDxTdHJpbmc+IGxhYmVsT3B0aW9uc1JhdyA9IEFuYWx5c2lzLmdldExhYmVscyh0eCwgc2VsZWN0ZWRBbmFseXNpcyk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiPj4+PiB0cmFjZTogcGVyZm9ybWFuY2UgYW5hbHlzaXMgUkVTUE9OU0UgY29uc3RydWN0aW9uOiAiICsgKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQyKSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Ci8vICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiPj4+PiB0cmFjZTogcGVyZm9ybWFuY2UgcGFnZSAoY29uc3RydWN0aW9uIC0gdHJhY2VzIGZvciBpdGVyYXRpb24gJyIgKyBpdGVyYXRpb24gKyAiJyk6ICIgKyAoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBzdGFydCkpOwo=</text>
+        <text encoding="base64">Ly8gICAgICAgIFNldDxTdHJpbmc+IGxhYmVsT3B0aW9uc1JhdyA9IEFuYWx5c2lzLmdldExhYmVscyh0eCwgc2VsZWN0ZWRBbmFseXNpcyk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
