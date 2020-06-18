@@ -218,18 +218,12 @@
         <mark key="." line="36" column="3" />
         <mark key="^" line="36" column="4" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592500856896">
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592501655201">
         <mark key="'" line="66" column="74" />
-        <mark key="[" line="316" column="110" />
-        <mark key="]" line="316" column="110" />
-        <mark key="." line="316" column="110" />
-        <mark key="^" line="316" column="109" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/ui/components/Select.vue" timestamp="1592483976362">
-        <mark key="'" line="103" column="45" />
-        <mark key="[" line="2" column="15" />
-        <mark key="]" line="2" column="15" />
-        <mark key="." line="2" column="15" />
+        <mark key="[" line="320" column="105" />
+        <mark key="]" line="320" column="106" />
+        <mark key="^" line="320" column="106" />
+        <mark key="." line="320" column="105" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/LineChart.vue" timestamp="1592495699824">
         <mark key="'" line="48" column="14" />
@@ -276,12 +270,12 @@
         <mark key="." line="1" column="4" />
         <mark key="^" line="43" column="26" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" timestamp="1592499504866">
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" timestamp="1592502185028">
         <mark key="'" line="111" column="61" />
-        <mark key="[" line="108" column="46" />
-        <mark key="]" line="108" column="45" />
-        <mark key="." line="108" column="44" />
-        <mark key="^" line="108" column="45" />
+        <mark key="[" line="112" column="0" />
+        <mark key="]" line="114" column="58" />
+        <mark key="." line="112" column="0" />
+        <mark key="^" line="123" column="54" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TraceIdInput.vue" timestamp="1592500019649">
         <mark key="'" line="57" column="96" />
@@ -308,7 +302,7 @@
         <mark key="." line="52" column="0" />
         <mark key="^" line="0" column="18" />
       </file>
-      <file name="/fragment.java" timestamp="1592486274087">
+      <file name="/fragment.java" timestamp="1592501972087">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/User/Settings.vue" timestamp="1592498750020">
@@ -424,20 +418,25 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhcigpLmlzYSgidHJhY2UtdHJlZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoInRyYWNlLXRyZWVfcGFyZW50IiwgInRyYWNlIikKICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgidHJhY2UtdHJlZV9jaGlsZCIsICJjaGlsZCIpLAo=</text>
       </register>
-      <register name="+" type="4">
-        <text>2019-10-30T16:13:42.100Z</text>
+      <register name="+" type="2">
+        <text>match
+$trace isa trace, has idr &quot;003040af-d7c8-4258-9f39-3a9095f20cc3&quot;;
+$child isa trace, has idr $idr;
+$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
+$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
+get $idr;</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">IiA=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjb21taXRBdXRob3JcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb25nIHN0YXJ0MSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwovLyAgICAgICAgSnNvbkFycmF5IHBhdGggPSBjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlX3BhdGgodHgsIHNlbGVjdGVkVHJhY2VzLCBzZWxlY3RlZEFuYWx5c2lzKTsKICAgICAgICBKc29uQXJyYXkgcGF0aCA9IG5ldyBKc29uQXJyYXkoKTsKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIj4+Pj4gdHJhY2U6IHBlcmZvcm1hbmNlIGFuYWx5c2lzIE5BVklHQVRJT04gY29uc3RydWN0aW9uLCBUUkFDRVM6ICIgKyAoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBzdGFydDEpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhcigpLmlzYSgidHJhY2UtdHJlZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoInRyYWNlLXRyZWVfcGFyZW50IiwgInRyYWNlIikKICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgidHJhY2UtdHJlZV9jaGlsZCIsICJjaGlsZCIpLAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
