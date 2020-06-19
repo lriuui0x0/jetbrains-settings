@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxuYXZpZ2F0aW9uRXZlbnRCdXNcPg==</entry>
-        <entry encoding="base64">XDxjb250ZW50XD4=</entry>
-        <entry encoding="base64">XDxBbmFseXNpc1w+</entry>
         <entry encoding="base64">XDxhbmFseXNpc1w+</entry>
         <entry encoding="base64">Pj4+</entry>
         <entry>System</entry>
@@ -24,13 +21,14 @@
         <entry encoding="base64">XDxjb25zdHJ1Y3RUcmFjZUdyb3VwUGVyZm9ybWFuY2VBbmFseXNpc1w+</entry>
         <entry encoding="base64">XDxwZXJmb3JtYW5jZVw+</entry>
         <entry encoding="base64">XDxwZXJmb3JtYW5jZUdyb3VwUGFnZVw+</entry>
-        <entry>IntStream</entry>
         <entry encoding="base64">XDxpdGVyYXRpb25cPg==</entry>
+        <entry>txInStream</entry>
         <entry encoding="base64">XDxjb25zdHJ1Y3RUcmFjZUxpc3RcPg==</entry>
+        <entry>IntRange</entry>
+        <entry>IntStram</entry>
+        <entry>IntStream</entry>
       </history-search>
       <history-cmd>
-        <entry>Lw#</entry>
-        <entry>w#</entry>
         <entry>@w</entry>
         <entry>3w</entry>
         <entry>ws</entry>
@@ -46,8 +44,10 @@
         <entry>W</entry>
         <entry>w\</entry>
         <entry>e</entry>
-        <entry>vs</entry>
         <entry>q</entry>
+        <entry>s</entry>
+        <entry>%</entry>
+        <entry>vs</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -200,7 +200,7 @@
         <mark key="." line="518" column="173" />
         <mark key="^" line="518" column="174" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1592565991430">
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1592566047956">
         <mark key="'" line="79" column="111" />
         <mark key="[" line="88" column="33" />
         <mark key="]" line="89" column="8" />
@@ -214,12 +214,12 @@
         <mark key="." line="36" column="3" />
         <mark key="^" line="36" column="4" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592565711610">
-        <mark key="'" line="303" column="77" />
-        <mark key="[" line="47" column="109" />
-        <mark key="]" line="47" column="109" />
-        <mark key="." line="47" column="108" />
-        <mark key="^" line="47" column="109" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592567335378">
+        <mark key="'" line="193" column="45" />
+        <mark key="[" line="111" column="38" />
+        <mark key="]" line="111" column="48" />
+        <mark key="." line="111" column="47" />
+        <mark key="^" line="111" column="48" />
       </file>
       <file name="/Dummy.txt" timestamp="1592560736005">
         <mark key="[" line="0" column="0" />
@@ -311,11 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/layouts/Tree.vue" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/layouts/Tree.vue" />
-      <jump line="25" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/layouts/Tree.vue" />
-      <jump line="47" column="2" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/layouts/Tree.vue" />
-      <jump line="24" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/layouts/Tree.vue" />
       <jump line="27" column="16" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/layouts/Tree.vue" />
       <jump line="28" column="58" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/layouts/Tree.vue" />
       <jump line="0" column="9" filename="$USER_HOME$/GraknLabs/grabl/pages/common/mixins.js" />
@@ -373,7 +368,6 @@
       <jump line="437" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="107" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="397" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
-      <jump line="194" column="24" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="190" column="14" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="195" column="52" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="196" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
@@ -392,15 +386,12 @@
       <jump line="215" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="110" column="55" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="22" column="24" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
-      <jump line="197" column="220" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="199" column="75" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="203" column="10" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="206" column="24" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="222" column="32" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
-      <jump line="221" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="258" column="41" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="259" column="9" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
-      <jump line="200" column="22" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="260" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="185" column="45" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="256" column="23" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
@@ -411,12 +402,21 @@
       <jump line="452" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="91" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="79" column="111" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="200" column="86" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="263" column="12" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="221" column="45" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="197" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="181" column="50" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="192" column="49" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="282" column="51" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="23" column="24" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
+      <jump line="194" column="45" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>range</text>
       </register>
       <register name="+" type="2">
         <text>match
@@ -426,16 +426,16 @@ $_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa 
 get;</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LSAgICA=</text>
+        <text>range</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb25zdHJ1Y3RUcmFjZUxpc3RcPg==</text>
+        <text>IntStream</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb25nIHN0YXJ0MyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwo=</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PExvbmc+IGl0ZXJhdGlvbnMgPSBMb25nU3RyZWFtLnJhbmdlKGl0ZXJhdGlvbk1pbiwgaXRlcmF0aW9uTWF4KS5ib3hlZCgpLmNvbGxlY3QoQ29sbGVjdG9ycy50b0xpc3QoKSk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBBcnJheUxpc3Q8SW50ZWdlcj4gcmFuZ2UgPSAoQXJyYXlMaXN0PEludGVnZXI+KUludFN0cmVhbS5yYW5nZSgoaW50KWl0ZXJhdGlvbk1pbiwgKGludClpdGVyYXRpb25NYXgpLmJveGVkKCkuY29sbGVjdChDb2xsZWN0b3JzLnRvTGlzdCgpKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -465,30 +465,28 @@ get;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBMb25nU3RyZWFtIGl0ZXJhdGlvbnMgPSBMb25nU3RyZWFtLnJhbmdlKGl0ZXJhdGlvbk1pbiwgaXRlcmF0aW9uTWF4KTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAtCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAtCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IChHcmFrbkNsaWVudC5TZXNzaW9uIHNlc3Npb25JblN0cmVhbSA9IGdyYWtuQ2xpZW50LnNlc3Npb24oa2V5c3BhY2UpKSB7CiAgICAgICAgICAgICAgICB0cnkgKEdyYWtuQ2xpZW50LlRyYW5zYWN0aW9uIHR4SW5TdHJlYW0gPSBzZXNzaW9uSW5TdHJlYW0udHJhbnNhY3Rpb24oKS5yZWFkKCkpIHsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>new JsonObject()
-                    .add(&quot;path&quot;, tracePath)
-                    .add(&quot;traces&quot;, traces)</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gU3RyZWFtLm9mKG5ldyBKc29uT2JqZWN0KCkKICAgICAgICAgICAgICAgIC5hZGQoInBhdGgiLCB0cmFjZVBhdGgpCiAgICAgICAgICAgICAgICAuYWRkKCJ0cmFjZXMiLCB0cmFjZXMpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -497,9 +495,9 @@ get;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjb25zdHJ1Y3RUcmFjZUxpc3RcPg==</last-search>
+      <last-search>IntStream</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb25zdHJ1Y3RUcmFjZUxpc3RcPg==</last-pattern>
+      <last-pattern>IntStream</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
