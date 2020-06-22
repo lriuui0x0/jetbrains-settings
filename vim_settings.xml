@@ -225,11 +225,12 @@
         <mark key="^" line="86" column="10" />
         <mark key="." line="86" column="55" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592839998202">
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" timestamp="1592840978112">
         <mark key="'" line="180" column="8" />
-        <mark key="[" line="176" column="0" />
-        <mark key="]" line="176" column="0" />
-        <mark key="." line="175" column="38" />
+        <mark key="[" line="219" column="57" />
+        <mark key="]" line="219" column="62" />
+        <mark key="." line="219" column="61" />
+        <mark key="^" line="219" column="62" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TrackerSelect.vue" timestamp="1592835946554">
         <mark key="'" line="37" column="0" />
@@ -252,13 +253,6 @@
         <mark key="]" line="156" column="47" />
         <mark key="." line="141" column="0" />
         <mark key="^" line="140" column="28" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/infrastructure/authorized_keys.tfvars" timestamp="1592817064726">
-        <mark key="'" line="0" column="20" />
-        <mark key="[" line="8" column="748" />
-        <mark key="]" line="8" column="748" />
-        <mark key="." line="8" column="747" />
-        <mark key="^" line="8" column="748" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/IterationSelect.vue" timestamp="1592831660707">
         <mark key="'" line="35" column="100" />
@@ -298,6 +292,9 @@
         <mark key="]" line="121" column="16" />
         <mark key="^" line="121" column="16" />
         <mark key="." line="121" column="15" />
+      </file>
+      <file name="/fragment.java" timestamp="1592841468553">
+        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -406,13 +403,29 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text>match
+$commit isa commit, has symbol &quot;lriuui0x0/graknlabs-test-grakn@9aa540eb95254b5feea11b433472a7be99c12f59&quot;;
+$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
+$_ (commit-analysis_commit: $commit, commit-analysis_analysis: $analysis) isa commit-analysis;
+$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
+$trace isa trace, has path &quot;tx.write&quot;, has idr $idr, has iteration 2, has started $started, has duration $duration, has ended $ended, has data $data;
+$tracker isa tracker, has path $tracker-path;
+$_ (trace-tracker_trace: $trace, trace-tracker_tracker: $tracker) isa trace-tracker;
+get;</text>
       </register>
-      <register name="+" type="4">
-        <text>49</text>
+      <register name="+" type="2">
+        <text>match
+$commit isa commit, has symbol &quot;lriuui0x0/graknlabs-test-grakn@9aa540eb95254b5feea11b433472a7be99c12f59&quot;;
+$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
+$_ (commit-analysis_commit: $commit, commit-analysis_analysis: $analysis) isa commit-analysis;
+$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
+$trace isa trace, has path &quot;tx.write&quot;, has idr $idr, has iteration 2, has started $started, has duration $duration, has ended $ended, has data $data;
+$tracker isa tracker, has path $tracker-path;
+$_ (trace-tracker_trace: $trace, trace-tracker_tracker: $tracker) isa trace-tracker;
+get;</text>
       </register>
       <register name="-" type="4">
-        <text>trackerPath</text>
+        <text>Path</text>
       </register>
       <register name="/" type="4">
         <text>tracker</text>
