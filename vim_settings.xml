@@ -283,7 +283,7 @@
         <mark key="^" line="128" column="116" />
         <mark key="." line="128" column="115" />
       </file>
-      <file name="/fragment.java" timestamp="1592911427759">
+      <file name="/fragment.java" timestamp="1592930602519">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TrackerSelect.vue" timestamp="1592835946554">
@@ -398,16 +398,20 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>name</text>
+      <register name="&quot;" type="2">
+        <text>match
+$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
+$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
+$trace isa trace, has path &quot;tx.write&quot;, has idr $idr, has iteration 4, has started $started, has duration $duration, has ended $ended, has data $data;
+$tracker isa tracker, has path $tracker-path;
+$_ (trace-tracker_trace: $trace, trace-tracker_tracker: $tracker) isa trace-tracker;
+get;</text>
       </register>
       <register name="+" type="2">
         <text>match
-$commit isa commit, has symbol &quot;lriuui0x0/graknlabs-test-grakn@9aa540eb95254b5feea11b433472a7be99c12f59&quot;;
 $analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
-$_ (commit-analysis_commit: $commit, commit-analysis_analysis: $analysis) isa commit-analysis;
 $_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
-$trace isa trace, has path &quot;tx.write&quot;, has idr $idr, has iteration 2, has started $started, has duration $duration, has ended $ended, has data $data;
+$trace isa trace, has path &quot;tx.write&quot;, has idr $idr, has iteration 4, has started $started, has duration $duration, has ended $ended, has data $data;
 $tracker isa tracker, has path $tracker-path;
 $_ (trace-tracker_trace: $trace, trace-tracker_tracker: $tracker) isa trace-tracker;
 get;</text>
