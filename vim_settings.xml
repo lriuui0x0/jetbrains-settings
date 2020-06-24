@@ -47,8 +47,8 @@
         <entry>wb</entry>
         <entry>vs</entry>
         <entry>w\</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -203,11 +203,11 @@
         <mark key="'" line="95" column="15" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/chartsConfig.js" timestamp="1592915842102">
-        <mark key="'" line="83" column="27" />
-        <mark key="[" line="83" column="4" />
-        <mark key="]" line="108" column="0" />
-        <mark key="." line="83" column="4" />
-        <mark key="^" line="82" column="2" />
+        <mark key="'" line="88" column="27" />
+        <mark key="[" line="88" column="4" />
+        <mark key="]" line="113" column="0" />
+        <mark key="." line="88" column="4" />
+        <mark key="^" line="87" column="2" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/index.vue" timestamp="1592909844419">
         <mark key="[" line="54" column="0" />
@@ -262,8 +262,8 @@
         <mark key="." line="28" column="0" />
         <mark key="^" line="51" column="38" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" timestamp="1592930113552">
-        <mark key="'" line="128" column="24" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" timestamp="1592989642216">
+        <mark key="'" line="177" column="0" />
         <mark key="[" line="59" column="51" />
         <mark key="]" line="59" column="51" />
         <mark key="^" line="50" column="34" />
@@ -283,7 +283,7 @@
         <mark key="^" line="128" column="116" />
         <mark key="." line="128" column="115" />
       </file>
-      <file name="/fragment.java" timestamp="1592930602519">
+      <file name="/fragment.java" timestamp="1592989508545">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/components/navigation/TrackerSelect.vue" timestamp="1592835946554">
@@ -298,10 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="137" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/utils.js" />
-      <jump line="130" column="49" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/utils.js" />
-      <jump line="2" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/TraceGroupChart.vue" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/TraceGroupChart.vue" />
       <jump line="5" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/TraceGroupChart.vue" />
       <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/TraceGroupChart.vue" />
       <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/TraceGroupChart.vue" />
@@ -350,7 +346,6 @@
       <jump line="49" column="103" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
       <jump line="57" column="44" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
       <jump line="66" column="88" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
-      <jump line="177" column="97" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
       <jump line="182" column="44" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
       <jump line="107" column="87" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
       <jump line="109" column="58" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
@@ -398,15 +393,28 @@
       <jump line="169" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="103" column="196" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
       <jump line="808" column="61" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="60" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
+      <jump line="47" column="92" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
+      <jump line="58" column="24" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
+      <jump line="39" column="31" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
+      <jump line="177" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/Analysis.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>3.tcp.eu.ngrok.io:21897</text>
+      <register name="&quot;" type="2">
+        <text>match
+$trace isa trace, has path $path;
+$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
+$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
+get $path;</text>
       </register>
-      <register name="+" type="4">
-        <text>3.tcp.eu.ngrok.io:21897</text>
+      <register name="+" type="2">
+        <text>match
+$trace isa trace, has path $path;
+$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
+$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
+get $path;</text>
       </register>
       <register name="-" type="4">
         <text>name</text>
@@ -415,7 +423,11 @@
         <text>getRoot</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWluTWF4WzBdID0gTWF0aC5taW4obWluTWF4WzBdLCB2YWwpOwo=</text>
+        <text>match
+$trace isa trace, has path $path;
+$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
+$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
+get $path;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgbWluTWF4WzBdID0gTWF0aC5taW4obWluTWF4WzBdLCB2YWwpOwogICAgICAgICAgICBtaW5NYXhbMV0gPSBNYXRoLm1heChtaW5NYXhbMV0sIHZhbCk7Cg==</text>
@@ -473,7 +485,7 @@ trace</text>
         <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
