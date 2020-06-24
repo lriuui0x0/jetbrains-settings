@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>performance-tracker</entry>
-        <entry encoding="base64">XDxjb25zdHJ1Y3RPdmVydmlld1BlcmZvcm1hbmNlQW5hbHlzaXNcPg==</entry>
-        <entry encoding="base64">XDx2YXJcPg==</entry>
         <entry encoding="base64">XDxuYW1lXD4=</entry>
         <entry>getRoot</entry>
         <entry encoding="base64">XDxzZW5kUmVxdWVzdFw+</entry>
@@ -23,10 +20,13 @@
         <entry encoding="base64">XDxmb3JrXD4=</entry>
         <entry encoding="base64">XDxnZXRSZXBvc2l0b3JpZXNcPg==</entry>
         <entry encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlX3BhdGhcPg==</entry>
-        <entry encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlXD4=</entry>
         <entry encoding="base64">XDxjb25zdHJ1Y3RBbmFseXNpc1w+</entry>
         <entry encoding="base64">XDxhbmFseXNpc09wdGlvbnNcPg==</entry>
         <entry encoding="base64">XDxwZXJmb3JtYW5jZVBhZ2VOYXZpZ2F0aW9uXD4=</entry>
+        <entry>compare</entry>
+        <entry encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX3RyYWNlXD4=</entry>
+        <entry encoding="base64">XDxjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX2NvbXBhcmVcPg==</entry>
+        <entry encoding="base64">XDxoYW5kbGVSZXBvc2l0b3J5Q2hhbmdlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -200,8 +200,8 @@
         <mark key="." line="44" column="59" />
         <mark key="^" line="44" column="60" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/CompareSelect.vue" timestamp="1593011964972">
-        <mark key="'" line="37" column="11" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/CompareSelect.vue" timestamp="1593020224459">
+        <mark key="'" line="9" column="35" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1593011077350">
         <mark key="'" line="82" column="28" />
@@ -209,12 +209,11 @@
       <file name="/a.dummy" timestamp="1593010839160">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1593018970868">
-        <mark key="'" line="484" column="160" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1593020422174">
+        <mark key="'" line="492" column="109" />
         <mark key="[" line="494" column="0" />
         <mark key="]" line="494" column="0" />
         <mark key="." line="494" column="0" />
-        <mark key="^" line="493" column="24" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1593014165855">
         <mark key="'" line="10" column="0" />
@@ -288,14 +287,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/PerformanceAnalysis.java" />
-      <jump line="51" column="55" filename="$USER_HOME$/GraknLabs/grabl/service/Analysis.java" />
-      <jump line="82" column="28" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="400" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="6" column="21" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="476" column="71" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="525" column="53" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="526" column="39" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="542" column="51" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="263" column="6" filename="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-comparison-response.json" />
       <jump line="87" column="33" filename="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-comparison-response.json" />
@@ -362,7 +353,6 @@
       <jump line="45" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/TheNavigation/index.vue" />
       <jump line="29" column="14" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/TheNavigation/index.vue" />
       <jump line="518" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="595" column="30" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="16" column="36" filename="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-comparison-response.json" />
       <jump line="79" column="12" filename="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-comparison-response.json" />
       <jump line="466" column="65" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
@@ -379,36 +369,45 @@
       <jump line="489" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="487" column="37" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="483" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="465" column="27" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="482" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="21" column="25" filename="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-comparison-response.json" />
       <jump line="36" column="14" filename="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-comparison-response.json" />
       <jump line="491" column="33" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="492" column="70" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="493" column="24" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
       <jump line="496" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
-      <jump line="484" column="160" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="635" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="603" column="27" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="732" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="595" column="30" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="470" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="484" column="30" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="490" column="44" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="44" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/CompareSelect.vue" />
+      <jump line="78" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/CompareSelect.vue" />
+      <jump line="9" column="35" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/CompareSelect.vue" />
+      <jump line="482" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="465" column="27" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="492" column="109" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC47Cg==</text>
+        <text encoding="base64">ICAgICAgICBKc29uT2JqZWN0IGNvbW1pdEpzb24gPSBuZXcgSnNvbk9iamVjdCgpOwo=</text>
       </register>
       <register name="+" type="2">
         <text>{&quot;id&quot;:249953855,&quot;node_id&quot;:&quot;MDEwOlJlcG9zaXRvcnkyNDk5NTM4NTU=&quot;,&quot;name&quot;:&quot;graknlabs-test-grakn&quot;,&quot;full_name&quot;:&quot;lriuui0x0/graknlabs-test-grakn&quot;,&quot;private&quot;:false,&quot;owner&quot;:{&quot;login&quot;:&quot;lriuui0x0&quot;,&quot;id&quot;:33423526,&quot;node_id&quot;:&quot;MDQ6VXNlcjMzNDIzNTI2&quot;,&quot;avatar_url&quot;:&quot;https://avatars2.githubusercontent.com/u/33423526?v=4&quot;,&quot;gravatar_id&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://api.github.com/users/lriuui0x0&quot;,&quot;html_url&quot;:&quot;https://github.com/lriuui0x0&quot;,&quot;followers_url&quot;:&quot;https://api.github.com/users/lriuui0x0/followers&quot;,&quot;following_url&quot;:&quot;https://api.github.com/users/lriuui0x0/following{/other_user}&quot;,&quot;gists_url&quot;:&quot;https://api.github.com/users/lriuui0x0/gists{/gist_id}&quot;,&quot;starred_url&quot;:&quot;https://api.github.com/users/lriuui0x0/starred{/owner}{/repo}&quot;,&quot;subscriptions_url&quot;:&quot;https://api.github.com/users/lriuui0x0/subscriptions&quot;,&quot;organizations_url&quot;:&quot;https://api.github.com/users/lriuui0x0/orgs&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/users/lriuui0x0/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/users/lriuui0x0/events{/privacy}&quot;,&quot;received_events_url&quot;:&quot;https://api.github.com/users/lriuui0x0/received_events&quot;,&quot;type&quot;:&quot;User&quot;,&quot;site_admin&quot;:false},&quot;html_url&quot;:&quot;https://github.com/lriuui0x0/graknlabs-test-grakn&quot;,&quot;description&quot;:null,&quot;fork&quot;:true,&quot;url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn&quot;,&quot;forks_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/forks&quot;,&quot;keys_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/keys{/key_id}&quot;,&quot;collaborators_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/collaborators{/collaborator}&quot;,&quot;teams_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/teams&quot;,&quot;hooks_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/hooks&quot;,&quot;issue_events_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/issues/events{/number}&quot;,&quot;events_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/events&quot;,&quot;assignees_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/assignees{/user}&quot;,&quot;branches_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/branches{/branch}&quot;,&quot;tags_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/tags&quot;,&quot;blobs_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/git/blobs{/sha}&quot;,&quot;git_tags_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/git/tags{/sha}&quot;,&quot;git_refs_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/git/refs{/sha}&quot;,&quot;trees_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/git/trees{/sha}&quot;,&quot;statuses_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/statuses/{sha}&quot;,&quot;languages_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/languages&quot;,&quot;stargazers_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/stargazers&quot;,&quot;contributors_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/contributors&quot;,&quot;subscribers_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/subscribers&quot;,&quot;subscription_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/subscription&quot;,&quot;commits_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/commits{/sha}&quot;,&quot;git_commits_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/git/commits{/sha}&quot;,&quot;comments_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/comments{/number}&quot;,&quot;issue_comment_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/issues/comments{/number}&quot;,&quot;contents_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/contents/{+path}&quot;,&quot;compare_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/compare/{base}...{head}&quot;,&quot;merges_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/merges&quot;,&quot;archive_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/{archive_format}{/ref}&quot;,&quot;downloads_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/downloads&quot;,&quot;issues_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/issues{/number}&quot;,&quot;pulls_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/pulls{/number}&quot;,&quot;milestones_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/milestones{/number}&quot;,&quot;notifications_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/notifications{?since,all,participating}&quot;,&quot;labels_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/labels{/name}&quot;,&quot;releases_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/releases{/id}&quot;,&quot;deployments_url&quot;:&quot;https://api.github.com/repos/lriuui0x0/graknlabs-test-grakn/deployments&quot;,&quot;created_at&quot;:&quot;2020-03-25T10:54:53Z&quot;,&quot;updated_at&quot;:&quot;2020-06-03T09:59:30Z&quot;,&quot;pushed_at&quot;:&quot;2020-06-24T16:20:48Z&quot;,&quot;git_url&quot;:&quot;git://github.com/lriuui0x0/graknlabs-test-grakn.git&quot;,&quot;ssh_url&quot;:&quot;git@github.com:lriuui0x0/graknlabs-test-grakn.git&quot;,&quot;clone_url&quot;:&quot;https://github.com/lriuui0x0/graknlabs-test-grakn.git&quot;,&quot;svn_url&quot;:&quot;https://github.com/lriuui0x0/graknlabs-test-grakn&quot;,&quot;homepage&quot;:null,&quot;size&quot;:133,&quot;stargazers_count&quot;:0,&quot;watchers_count&quot;:0,&quot;language&quot;:null,&quot;has_issues&quot;:false,&quot;has_projects&quot;:true,&quot;has_downloads&quot;:true,&quot;has_wiki&quot;:true,&quot;has_pages&quot;:false,&quot;forks_count&quot;:1,&quot;mirror_url&quot;:null,&quot;archived&quot;:false,&quot;disabled&quot;:false,&quot;open_issues_count&quot;:0,&quot;license&quot;:null,&quot;forks&quot;:1,&quot;open_issues&quot;:0,&quot;watchers&quot;:0,&quot;default_branch&quot;:&quot;master&quot;,&quot;permissions&quot;:{&quot;admin&quot;:false,&quot;push&quot;:false,&quot;pull&quot;:false}}</text>
       </register>
       <register name="-" type="4">
-        <text>null</text>
+        <text>n</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwZXJmb3JtYW5jZVBhZ2VOYXZpZ2F0aW9uXD4=</text>
+        <text encoding="base64">XDxoYW5kbGVSZXBvc2l0b3J5Q2hhbmdlXD4=</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiPj4+PiB0cmFjZTogcGVyZm9ybWFuY2UgYW5hbHlzaXMgTkFWSUdBVElPTiBjb25zdHJ1Y3Rpb24sIFRSQUNFUzogIiArIChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0MSkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC47Cg==</text>
+        <text encoding="base64">ICAgICAgICBKc29uT2JqZWN0IGNvbW1pdEpzb24gPSBuZXcgSnNvbk9iamVjdCgpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -438,28 +437,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgc2VsZWN0ZWQgCg==</text>
+        <text encoding="base64">ICAgICAgICBKc29uCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC47Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLmFkZCgiY29tcGFyZSIsIGNvbXBhcmUpCg==</text>
+        <text encoding="base64">ICAgICAgICBTdHJpbmcgc2VsZWN0ZWQgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBKc29uT2JqZWN0IGNvbXBhcmUgPSBjb25zdHJ1Y3RQZXJmb3JtYW5jZUFuYWx5c2lzX2NvbXBhcmUodHgsIHNlbGVjdGVkQ29tcGFyZSwgbG9nZ2VyKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLmFkZCgiY29tcGFyZSIsIGNvbXBhcmUpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -468,9 +467,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwZXJmb3JtYW5jZVBhZ2VOYXZpZ2F0aW9uXD4=</last-search>
+      <last-search encoding="base64">XDxoYW5kbGVSZXBvc2l0b3J5Q2hhbmdlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwZXJmb3JtYW5jZVBhZ2VOYXZpZ2F0aW9uXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxoYW5kbGVSZXBvc2l0b3J5Q2hhbmdlXD4=</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
