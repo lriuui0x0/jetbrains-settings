@@ -196,9 +196,6 @@
       <file name="$USER_HOME$/GraknLabs/grabl/pages/mock.js" timestamp="1592910827050">
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Slider.vue" timestamp="1592832162826">
-        <mark key="'" line="19" column="9" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/dev/run.py" timestamp="1592910567775">
         <mark key="'" line="95" column="15" />
       </file>
@@ -248,6 +245,11 @@
         <mark key="[" line="37" column="0" />
         <mark key="]" line="37" column="0" />
         <mark key="." line="37" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/hocs/withWsConn.js" timestamp="1592997048181">
+        <mark key="[" line="47" column="0" />
+        <mark key="]" line="47" column="0" />
+        <mark key="." line="47" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Performance/common/charts/utils_review.js" timestamp="1592918460310">
         <mark key="'" line="243" column="19" />
@@ -403,11 +405,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text>match
-$trace isa trace, has path $path;
-$analysis isa performance-analysis, has idr &quot;233a7694-d95d-46ee-965c-5cbc5686e03e&quot;;
-$_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa performance-trace;
-get $path;</text>
+        <text encoding="base64">ICAgICAgICAgIHRoaXMudXBkYXRlRGF0YSgpCg==</text>
       </register>
       <register name="+" type="2">
         <text>match
@@ -430,7 +428,7 @@ $_ (performance-trace_analysis: $analysis, performance-trace_trace: $trace) isa 
 get $path;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbWluTWF4WzBdID0gTWF0aC5taW4obWluTWF4WzBdLCB2YWwpOwogICAgICAgICAgICBtaW5NYXhbMV0gPSBNYXRoLm1heChtaW5NYXhbMV0sIHZhbCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHRoaXMudXBkYXRlRGF0YSgpCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -463,26 +461,26 @@ get $path;</text>
         <text encoding="base64">ICAgICAgICAgICAgbWluTWF4WzBdID0gTWF0aC5taW4obWluTWF4WzBdLCB2YWwpOwogICAgICAgICAgICBtaW5NYXhbMV0gPSBNYXRoLm1heChtaW5NYXhbMV0sIHZhbCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNYXA8U3RyaW5nLCBMaXN0PExvbmc+PiBwYXRoRHVyYXRpb25NYXAgPSBuZXcgSGFzaE1hcDw+KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbWluTWF4WzBdID0gTWF0aC5taW4obWluTWF4WzBdLCB2YWwpOwogICAgICAgICAgICBtaW5NYXhbMV0gPSBNYXRoLm1heChtaW5NYXhbMV0sIHZhbCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBNYXA8U3RyaW5nLCBMaXN0PExvbmc+PiBwYXRoRHVyYXRpb25NYXAgPSBuZXcgSGFzaE1hcDw+KCk7Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGRhdGEgPSBtYXAuZ2V0KCJkYXRhIikuPFN0cmluZz5hc0F0dHJpYnV0ZSgpLnZhbHVlKCk7Cg==</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text>trace
 trace</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYWRkKCJkYXRhIiwgZGF0YUpzb24pOwo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYWRkKCJzdGFydGVkIiwgc3RhcnRlZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYWRkKCJlbmRlZCIsIGVuZGVkKQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYWRkKCJzdGFydGVkIiwgc3RhcnRlZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYWRkKCJlbmRlZCIsIGVuZGVkKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
