@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxhbmltYXRpb25TdGF0ZVw+</entry>
-        <entry encoding="base64">XDxhbmltYXRpb25FbmRTdGF0ZVw+</entry>
         <entry>logState</entry>
         <entry>this.logState</entry>
         <entry>animationState</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxyZW5kZXJcPg==</entry>
         <entry encoding="base64">XDxjYWNoZUNvb3JkaW5hdGVTeXN0ZW1cPg==</entry>
         <entry>zIndex</entry>
+        <entry>overView</entry>
+        <entry>servePer</entry>
       </history-search>
       <history-cmd>
         <entry>e</entry>
@@ -210,14 +210,18 @@
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/CompareSelect.vue" timestamp="1593519460224">
         <mark key="'" line="53" column="51" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1593510680654">
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1593528553515">
+        <mark key="'" line="633" column="4" />
         <mark key="^" line="516" column="8" />
       </file>
       <file name="/a.dummy" timestamp="1593519320452">
         <mark key="[" line="0" column="1" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" timestamp="1593527010678">
-        <mark key="'" line="39" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" timestamp="1593529412736">
+        <mark key="'" line="36" column="18" />
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="41" column="0" />
+        <mark key="." line="41" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" timestamp="1593198687046">
         <mark key="[" line="8" column="0" />
@@ -251,30 +255,12 @@
         <mark key="." line="286" column="45" />
         <mark key="^" line="286" column="46" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" timestamp="1593527184274">
-        <mark key="'" line="33" column="84" />
-        <mark key="[" line="37" column="22" />
-        <mark key="]" line="38" column="26" />
-        <mark key="." line="38" column="25" />
-        <mark key="^" line="38" column="26" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/PerformanceAnalysis.java" timestamp="1593085227205">
-        <mark key="'" line="133" column="43" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="^" line="16" column="113" />
-        <mark key="." line="31" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1593085853703">
         <mark key="'" line="85" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" timestamp="1593527844265">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="115" column="0" />
         <mark key="m" line="283" column="35" />
-        <mark key="]" line="115" column="0" />
-        <mark key="^" line="233" column="38" />
-        <mark key="." line="115" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" timestamp="1593521181294">
         <mark key="'" line="188" column="0" />
@@ -299,11 +285,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="124" column="27" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
-      <jump line="27" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
-      <jump line="188" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="196" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
-      <jump line="260" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
       <jump line="187" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
       <jump line="167" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
       <jump line="159" column="25" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
@@ -399,6 +380,11 @@
       <jump line="27" column="19" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
       <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="633" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="38" column="25" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="44" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="43" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
+      <jump line="36" column="18" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -413,10 +399,10 @@
         <text>2</text>
       </register>
       <register name="/" type="4">
-        <text>zIndex</text>
+        <text>servePer</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBjb25zdCBaX0lOREVYX0JBQ0tHUk9VTkQgPSAwOwo=</text>
+        <text encoding="base64">ICAgICAgaWYgKHRoaXMud2lkdGggJiYgdGhpcy5oZWlnaHQpIHsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -448,28 +434,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCBkdXJhdGlvbkxhYmVsc0xvZyA9IGdldExhYmVscyguLi50aGlzLmR1cmF0aW9uUmFuZ2UubWFwKHNhZmVMb2cxMCksIDgpCiAgICAgICAgICAgIC5maWx0ZXIoeCA9PiB4ID49IDApCiAgICAgICAgICAgIC5tYXAobGFiZWwgPT4gKHsgbGFiZWw6IGxhYmVsLnRvU3RyaW5nKCksIHBvczogdGhpcy5tYXBZTG9nKGxhYmVsKSB9KSk7Cg==</text>
+        <text encoding="base64">ICAgICAgdGhpcy5yZW5kZXIoKTsKICAgICAgdGhpcy4kcmVmcy5yb290LmlubmVySFRNTCA9ICcnOwogICAgICB0aGlzLiRyZWZzLnJvb3QuYXBwZW5kQ2hpbGQodGhpcy5jaGFydC52aWV3KTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCBkdXJhdGlvbkxhYmVscyA9IGdldExhYmVscyguLi50aGlzLmR1cmF0aW9uUmFuZ2UsIDgpCiAgICAgICAgICAgIC5maWx0ZXIoeCA9PiB4ID49IDApCiAgICAgICAgICAgIC5tYXAobGFiZWwgPT4gKHtsYWJlbDogbGFiZWwudG9TdHJpbmcoKSwgcG9zOiB0aGlzLm1hcFkobGFiZWwpfSkpOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGNsZWFyQ2hhcnQsCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgY2FjaGVDb29yZGluYXRlU3lzdGVtKCkgewogICAgICAgIGNvbnN0IGl0ZXJhdGlvbkxhYmVscyA9IGdldExhYmVscyguLi50aGlzLml0ZXJhdGlvblJhbmdlLCAyMCkKICAgICAgICAgICAgLmZpbHRlcih4ID0+IHggPj0gMCkKICAgICAgICAgICAgLm1hcChsYWJlbCA9PiAoeyBsYWJlbDogbGFiZWwudG9TdHJpbmcoKSwgcG9zOiB0aGlzLm1hcFgobGFiZWwpIH0pKTsKICAgICAgICBjb25zdCBkdXJhdGlvbkxhYmVscyA9IGdldExhYmVscyguLi50aGlzLmR1cmF0aW9uUmFuZ2UsIDgpCiAgICAgICAgICAgIC5maWx0ZXIoeCA9PiB4ID49IDApCiAgICAgICAgICAgIC5tYXAobGFiZWwgPT4gKHsgbGFiZWw6IGxhYmVsLnRvU3RyaW5nKCksIHBvczogdGhpcy5tYXBZKGxhYmVsKSB9KSk7CiAgICAgICAgY29uc3QgZHVyYXRpb25MYWJlbHNMb2cgPSBnZXRMYWJlbHMoLi4udGhpcy5kdXJhdGlvblJhbmdlLm1hcChzYWZlTG9nMTApLCA4KQogICAgICAgICAgICAuZmlsdGVyKHggPT4geCA+PSAwKQogICAgICAgICAgICAubWFwKGxhYmVsID0+ICh7IGxhYmVsOiBsYWJlbC50b1N0cmluZygpLCBwb3M6IHRoaXMubWFwWUxvZyhsYWJlbCkgfSkpOwogICAgICAgIHRoaXMuY29vcmRpbmF0ZVN5c3RlbSA9IGNyZWF0ZUNvb3JkaW5hdGVTeXN0ZW0oCiAgICAgICAgICAgIENIQVJUX0NPTkZJRy5DSEFSVC5QQURESU5HLkhPUklaT05UQUwsCiAgICAgICAgICAgIENIQVJUX0NPTkZJRy5DSEFSVC5QQURESU5HLlZFUlRJQ0FMLAogICAgICAgICAgICB0aGlzLmhlaWdodCwKICAgICAgICAgICAgdGhpcy53aWR0aCwKICAgICAgICAgICAgaXRlcmF0aW9uTGFiZWxzLAogICAgICAgICAgICBkdXJhdGlvbkxhYmVscyk7CiAgICAgICAgdGhpcy5jb29yZGluYXRlU3lzdGVtTG9nID0gY3JlYXRlQ29vcmRpbmF0ZVN5c3RlbSgKICAgICAgICAgICAgQ0hBUlRfQ09ORklHLkNIQVJULlBBRERJTkcuSE9SSVpPTlRBTCwKICAgICAgICAgICAgQ0hBUlRfQ09ORklHLkNIQVJULlBBRERJTkcuVkVSVElDQUwsCiAgICAgICAgICAgIHRoaXMuaGVpZ2h0LAogICAgICAgICAgICB0aGlzLndpZHRoLAogICAgICAgICAgICBpdGVyYXRpb25MYWJlbHMsCiAgICAgICAgICAgIGR1cmF0aW9uTGFiZWxzTG9nKTsKICAgICAgfSwKCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB0aGlzLmNoYXJ0ID0gY3JlYXRlUElYSUFwcGxpY2F0aW9uKHRoaXMud2lkdGgsIHRoaXMuaGVpZ2h0KTsK</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">fQogICAgICAg</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgfQo=</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">CiAgICAgICAgaWYgKHRoaXMuaXNMb2dTY2FsZWQpIHsKICAgICAgICAgIGlmICh0aGlzLmNoYXJ0LnN0YWdlLmdldENoaWxkQnlOYW1lKCdjb29yZGluYXRlU3lzdGVtJykpIHsKICAgICAgICAgICAgaWYgKHRoaXMuYW5pbWF0aW9uU3RhdGUgPT09IDEpIHsKICAgICAgICAgICAgICByZW1vdmVDaGlsZElmRXhpc3RzKHRoaXMuY2hhcnQuc3RhZ2UsICdjb29yZGluYXRlU3lzdGVtJyk7CiAgICAgICAgICAgICAgY3JlYXRlQ2hpbGRJZk5vdEV4aXN0KHRoaXMuY2hhcnQuc3RhZ2UsICdjb29yZGluYXRlU3lzdGVtTG9nJywgKCkgPT4gewogICAgICAgICAgICAgICAgcmV0dXJuIGNyZWF0ZUNvb3JkaW5hdGVTeXN0ZW0oCiAgICAgICAgICAgICAgICAgICAgQ0hBUlRfQ09ORklHLkNIQVJULlBBRERJTkcuSE9SSVpPTlRBTCwKICAgICAgICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5WRVJUSUNBTCwKICAgICAgICAgICAgICAgICAgICB0aGlzLmhlaWdodCwKICAgICAgICAgICAgICAgICAgICB0aGlzLndpZHRoLAogICAgICAgICAgICAgICAgICAgIGl0ZXJhdGlvbkxhYmVscywKICAgICAgICAgICAgICAgICAgICBkdXJhdGlvbkxhYmVsc0xvZyk7CiAgICAgICAgICAgICAgfSwgMik7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJlbW92ZUNoaWxkSWZFeGlzdHModGhpcy5jaGFydC5zdGFnZSwgJ2Nvb3JkaW5hdGVTeXN0ZW1Mb2cnKTsKICAgICAgICAgICAgY3JlYXRlQ2hpbGRJZk5vdEV4aXN0KHRoaXMuY2hhcnQuc3RhZ2UsICdjb29yZGluYXRlU3lzdGVtTG9nJywgKCkgPT4gewogICAgICAgICAgICAgIHJldHVybiBjcmVhdGVDb29yZGluYXRlU3lzdGVtKAogICAgICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5IT1JJWk9OVEFMLAogICAgICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5WRVJUSUNBTCwKICAgICAgICAgICAgICAgICAgdGhpcy5oZWlnaHQsCiAgICAgICAgICAgICAgICAgIHRoaXMud2lkdGgsCiAgICAgICAgICAgICAgICAgIGl0ZXJhdGlvbkxhYmVscywKICAgICAgICAgICAgICAgICAgZHVyYXRpb25MYWJlbHNMb2cpOwogICAgICAgICAgICB9LCAyKTsKICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgY29uc3QgaXRlcmF0aW9uTGFiZWxzID0gZ2V0TGFiZWxzKC4uLnRoaXMuaXRlcmF0aW9uUmFuZ2UsIDIwKQogICAgICAgICAgICAgIC5maWx0ZXIoeCA9PiB4ID49IDApCiAgICAgICAgICAgICAgLm1hcChsYWJlbCA9PiAoe2xhYmVsOiBsYWJlbC50b1N0cmluZygpLCBwb3M6IHRoaXMubWFwWChsYWJlbCl9KSk7CiAgICAgICAgICBpZiAodGhpcy5jaGFydC5zdGFnZS5nZXRDaGlsZEJ5TmFtZSgnY29vcmRpbmF0ZVN5c3RlbUxvZycpKSB7CiAgICAgICAgICAgIGlmICh0aGlzLmFuaW1hdGlvblN0YXRlID09PSAwKSB7CiAgICAgICAgICAgICAgcmVtb3ZlQ2hpbGRJZkV4aXN0cyh0aGlzLmNoYXJ0LnN0YWdlLCAnY29vcmRpbmF0ZVN5c3RlbUxvZycpOwogICAgICAgICAgICAgIGNyZWF0ZUNoaWxkSWZOb3RFeGlzdCh0aGlzLmNoYXJ0LnN0YWdlLCAnY29vcmRpbmF0ZVN5c3RlbScsICgpID0+IHsKICAgICAgICAgICAgICAgIHJldHVybiBjcmVhdGVDb29yZGluYXRlU3lzdGVtKAogICAgICAgICAgICAgICAgICAgIENIQVJUX0NPTkZJRy5DSEFSVC5QQURESU5HLkhPUklaT05UQUwsCiAgICAgICAgICAgICAgICAgICAgQ0hBUlRfQ09ORklHLkNIQVJULlBBRERJTkcuVkVSVElDQUwsCiAgICAgICAgICAgICAgICAgICAgdGhpcy5oZWlnaHQsCiAgICAgICAgICAgICAgICAgICAgdGhpcy53aWR0aCwKICAgICAgICAgICAgICAgICAgICBpdGVyYXRpb25MYWJlbHMsCiAgICAgICAgICAgICAgICAgICAgZHVyYXRpb25MYWJlbHMpOwogICAgICAgICAgICAgIH0sIDIpOwogICAgICAgICAgICB9CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZW1vdmVDaGlsZElmRXhpc3RzKHRoaXMuY2hhcnQuc3RhZ2UsICdjb29yZGluYXRlU3lzdGVtJyk7CiAgICAgICAgICB9CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgaWYgKHRoaXMud2lkdGggJiYgdGhpcy5oZWlnaHQpIHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY3JlYXRlQ2hpbGRJZk5vdEV4aXN0KHRoaXMuY2hhcnQuc3RhZ2UsICdjb29yZGluYXRlU3lzdGVtJywgKCkgPT4gewogICAgICAgICAgICAgIHJldHVybiBjcmVhdGVDb29yZGluYXRlU3lzdGVtKAogICAgICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5IT1JJWk9OVEFMLAogICAgICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5WRVJUSUNBTCwKICAgICAgICAgICAgICAgICAgdGhpcy5oZWlnaHQsCiAgICAgICAgICAgICAgICAgIHRoaXMud2lkdGgsCiAgICAgICAgICAgICAgICAgIGl0ZXJhdGlvbkxhYmVscywKICAgICAgICAgICAgICAgICAgZHVyYXRpb25MYWJlbHMpOwogICAgICAgICAgICB9LCAyKTsK</text>
+        <text encoding="base64">ZXhwb3J0IGNvbnN0IGNyZWF0ZUNvbnRhaW5lciA9IG5hbWUgPT4gewogIGNvbnN0IGNvbnRhaW5lciA9IG5ldyBQSVhJLkNvbnRhaW5lcigpOwogIGNvbnRhaW5lci5uYW1lID0gbmFtZTsKICByZXR1cm4gY29udGFpbmVyOwp9OwoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIGNyZWF0ZUNoaWxkSWZOb3RFeGlzdCh0aGlzLmNoYXJ0LnN0YWdlLCAnY29vcmRpbmF0ZVN5c3RlbUxvZycsICgpID0+IHsKICAgICAgICAgICAgcmV0dXJuIGNyZWF0ZUNvb3JkaW5hdGVTeXN0ZW0oCiAgICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5IT1JJWk9OVEFMLAogICAgICAgICAgICAgICAgQ0hBUlRfQ09ORklHLkNIQVJULlBBRERJTkcuVkVSVElDQUwsCiAgICAgICAgICAgICAgICB0aGlzLmhlaWdodCwKICAgICAgICAgICAgICAgIHRoaXMud2lkdGgsCiAgICAgICAgICAgICAgICBpdGVyYXRpb25MYWJlbHMsCiAgICAgICAgICAgICAgICBkdXJhdGlvbkxhYmVsc0xvZyk7CiAgICAgICAgICB9LCAyKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -478,9 +464,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>zIndex</last-search>
+      <last-search>servePer</last-search>
       <last-offset />
-      <last-pattern>zIndex</last-pattern>
+      <last-pattern>servePer</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
