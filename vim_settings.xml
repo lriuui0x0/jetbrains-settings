@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxhbmltYXRpb25UaW1lXD4=</entry>
-        <entry encoding="base64">XDxhbmltYXRpb25TdGF0ZVw+</entry>
-        <entry encoding="base64">XDxsb2dTY2FsZUFuaW1hdGlvblRpbWVcPg==</entry>
-        <entry>animation</entry>
-        <entry>animationTime</entry>
         <entry>time</entry>
         <entry encoding="base64">XDxsb2dTY2FsZUFuaW1hdGlvbkN1cnJUaW1lXD4=</entry>
         <entry>helper</entry>
@@ -27,6 +22,11 @@
         <entry>config</entry>
         <entry>VERTICAL_PADDING</entry>
         <entry>PADDING</entry>
+        <entry encoding="base64">XDx0cmFjZURhdGFcPg==</entry>
+        <entry>createDash</entry>
+        <entry encoding="base64">XDxkcmF3RGFzaGVkUG9seWdvblw+</entry>
+        <entry>text</entry>
+        <entry>resolution</entry>
       </history-search>
       <history-cmd>
         <entry>e</entry>
@@ -199,9 +199,11 @@
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/CompareSelect.vue" timestamp="1593519460224">
         <mark key="'" line="53" column="51" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1593528553515">
-        <mark key="'" line="633" column="4" />
-        <mark key="^" line="516" column="8" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1593705253694">
+        <mark key="'" line="510" column="0" />
+        <mark key="[" line="519" column="0" />
+        <mark key="]" line="519" column="0" />
+        <mark key="." line="519" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/RunSelect.vue" timestamp="1593595980303">
         <mark key="'" line="19" column="0" />
@@ -215,12 +217,11 @@
         <mark key="]" line="0" column="6" />
         <mark key="." line="0" column="6" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" timestamp="1593696844395">
-        <mark key="'" line="53" column="29" />
-        <mark key="[" line="133" column="23" />
-        <mark key="]" line="133" column="24" />
-        <mark key="." line="133" column="23" />
-        <mark key="^" line="133" column="24" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" timestamp="1593704888246">
+        <mark key="'" line="228" column="23" />
+        <mark key="[" line="229" column="0" />
+        <mark key="]" line="229" column="0" />
+        <mark key="." line="229" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" timestamp="1593689017691">
         <mark key="'" line="83" column="11" />
@@ -229,21 +230,24 @@
         <mark key="." line="83" column="35" />
         <mark key="^" line="74" column="38" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" timestamp="1593597595820">
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="48" />
-        <mark key="." line="35" column="0" />
-        <mark key="^" line="18" column="19" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" timestamp="1593705755351">
+        <mark key="'" line="8" column="26" />
+        <mark key="[" line="87" column="0" />
+        <mark key="]" line="93" column="5" />
+        <mark key="." line="4" column="54" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/charts/chart-trend-by-iteration.json" timestamp="1593619831845">
         <mark key="'" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" timestamp="1593597621764">
-        <mark key="'" line="123" column="0" />
-        <mark key="[" line="45" column="55" />
-        <mark key="]" line="45" column="55" />
-        <mark key="^" line="17" column="17" />
-        <mark key="." line="45" column="55" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" timestamp="1593705791740">
+        <mark key="'" line="71" column="8" />
+        <mark key="[" line="14" column="81" />
+        <mark key="]" line="14" column="81" />
+        <mark key="^" line="128" column="27" />
+        <mark key="." line="14" column="81" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Groups.vue" timestamp="1593705518317">
+        <mark key="'" line="33" column="2" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/CoordinateTransformer.js" timestamp="1593688546915">
         <mark key="[" line="49" column="89" />
@@ -256,8 +260,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="16" column="108" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" timestamp="1593689633312">
-        <mark key="'" line="393" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" timestamp="1593705011152">
+        <mark key="'" line="340" column="0" />
+        <mark key="[" line="9" column="20" />
+        <mark key="]" line="9" column="19" />
+        <mark key="^" line="9" column="19" />
+        <mark key="." line="9" column="18" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/.eslintrc.js" timestamp="1593689507446">
         <mark key="'" line="59" column="10" />
@@ -265,12 +273,12 @@
         <mark key="]" line="77" column="0" />
         <mark key="." line="77" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" timestamp="1593696840811">
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" timestamp="1593701422404">
         <mark key="'" line="44" column="51" />
-        <mark key="[" line="136" column="70" />
-        <mark key="]" line="136" column="71" />
-        <mark key="." line="136" column="70" />
-        <mark key="^" line="136" column="71" />
+        <mark key="[" line="136" column="86" />
+        <mark key="]" line="136" column="148" />
+        <mark key="." line="136" column="147" />
+        <mark key="^" line="136" column="148" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/charts/chart-trend-single-iteration.json" timestamp="1593632509081">
         <mark key="[" line="2" column="17" />
@@ -278,28 +286,20 @@
         <mark key="^" line="2" column="17" />
         <mark key="." line="2" column="17" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" timestamp="1593698855887">
-        <mark key="'" line="242" column="0" />
-        <mark key="[" line="238" column="0" />
-        <mark key="]" line="238" column="0" />
-        <mark key="." line="238" column="0" />
-        <mark key="^" line="238" column="42" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" timestamp="1593704760885">
+        <mark key="'" line="38" column="8" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+        <mark key="^" line="237" column="42" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/test.py" timestamp="1593420504804">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="243" column="44" />
-        <mark key="m" line="150" column="70" />
-        <mark key="." line="148" column="68" />
-        <mark key="^" line="148" column="69" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" timestamp="1593632369486">
-        <mark key="'" line="36" column="21" />
-        <mark key="[" line="38" column="15" />
-        <mark key="m" line="323" column="35" />
-        <mark key="]" line="38" column="15" />
-        <mark key="." line="38" column="25" />
-        <mark key="^" line="36" column="45" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" timestamp="1593700902313">
+        <mark key="'" line="57" column="0" />
+        <mark key="[" line="29" column="20" />
+        <mark key="m" line="327" column="35" />
+        <mark key="]" line="29" column="21" />
+        <mark key="." line="29" column="20" />
+        <mark key="^" line="29" column="21" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Job/runs.vue" timestamp="1593594487774">
         <mark key="[" line="134" column="35" />
@@ -309,82 +309,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="88" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="58" column="116" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="59" column="136" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="47" column="24" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="73" column="33" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="81" column="52" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="85" column="45" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="86" column="45" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="87" column="62" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="65" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="74" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="82" column="32" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="83" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/mixins.js" />
-      <jump line="185" column="55" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="183" column="27" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="61" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="34" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/.eslintrc.js" />
-      <jump line="59" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/.eslintrc.js" />
-      <jump line="24" column="28" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="230" column="47" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="225" column="60" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="142" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="236" column="47" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="177" column="83" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="179" column="64" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="195" column="66" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="218" column="58" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="231" column="60" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="34" column="42" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
-      <jump line="393" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
-      <jump line="87" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="233" column="74" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="21" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="26" column="16" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="181" column="20" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="186" column="46" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="88" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="225" column="68" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="210" column="27" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="209" column="88" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="220" column="50" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="89" column="45" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="224" column="70" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="91" column="38" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="81" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="135" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="188" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="213" column="80" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="217" column="65" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="218" column="52" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="39" column="5" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="58" column="59" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="59" column="65" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="212" column="61" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="229" column="87" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="57" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="98" column="63" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="100" column="18" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="101" column="64" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="104" column="28" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="105" column="18" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="228" column="61" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="110" column="24" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
-      <jump line="165" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="144" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="164" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="159" column="31" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="156" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="154" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="150" column="36" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="158" column="30" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="157" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="155" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="149" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
-      <jump line="145" column="50" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
       <jump line="148" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
       <jump line="132" column="57" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
       <jump line="90" column="45" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
@@ -408,28 +332,104 @@
       <jump line="227" column="46" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
       <jump line="53" column="29" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
       <jump line="9" column="28" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
-      <jump line="242" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
+      <jump line="27" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="5" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="34" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="17" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="3" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="16" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="28" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="104" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="23" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="20" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TrendChart.vue" />
+      <jump line="69" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="5" column="29" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="95" column="5" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="65" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="59" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="4" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="102" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="23" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="50" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
+      <jump line="242" column="2" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
+      <jump line="125" column="21" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
+      <jump line="28" column="34" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="210" column="28" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="215" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="221" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="71" column="9" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
+      <jump line="304" column="62" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="373" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="217" column="47" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="52" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="279" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="50" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="273" column="33" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="98" column="12" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="211" column="94" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="223" column="23" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="214" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="217" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="218" column="74" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="220" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="228" column="23" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" />
+      <jump line="38" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" />
+      <jump line="10" column="16" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="174" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="259" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="271" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="330" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="341" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
+      <jump line="539" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="520" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="510" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="32" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Groups.vue" />
+      <jump line="27" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Groups.vue" />
+      <jump line="22" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Groups.vue" />
+      <jump line="33" column="2" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Groups.vue" />
+      <jump line="30" column="9" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="128" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="59" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="54" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="87" column="37" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="90" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="106" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="62" column="14" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="92" column="22" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="105" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="54" column="14" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="89" column="24" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="8" column="26" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/layouts/Overview.vue" />
+      <jump line="15" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="75" column="14" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="132" column="2" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="56" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
+      <jump line="71" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TraceGroupChart.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgU0lOR0xFX0lURVJBVElPTl9WRVJUSUNBTF9QQURESU5HOiAwLAo=</text>
+      <register name="&quot;" type="4">
+        <text>[pathData.path]</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ICAgICAgbG9nU2NhbGVBbmltYXRpb25DdXJyVGltZTogbnVsbCwKICAgICAgLy8gTk9URTogVGhlIHByb2dyZXNzIHJ1bnMgZnJvbSBbMCwgMV0gd2hlcmUgMCBtZWFucyBpdCdzIGNvbXBsZXRlIGxpbmVhciBhbmQgMSBtZWFucyBpdCdzIGNvbXBsZXRlIGxvZyBzY2FsZSwgbnVtYmVycyBpbiBiZXR3ZWVuIG1lYW5zIGludGVycG9sYXRpb24KICAgICAgbG9nU2NhbGVBbmltYXRpb25Qcm9ncmVzczogMAo=</text>
       </register>
       <register name="-" type="4">
-        <text>5</text>
+        <text>[pathData.path]</text>
       </register>
       <register name="/" type="4">
-        <text>PADDING</text>
+        <text>resolution</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdmVDaGlsZElmRXhpc3RzKHRoaXMuY2hhcnQuc3RhZ2UsICdheGlzTG9nJyk7Cg==</text>
+        <text encoding="base64">CiAgICBtZXRob2RzOiB7CiAgICAgIGhhbmRsZVNjYWxlU3dpdGNoKHBhdGgsIHZhbHVlKSB7CiAgICAgICAgdGhpcy5pc0xvZ1NjYWxlZFtwYXRoXSA9IHZhbHVlOwogICAgICAgIHRoaXMuaXNMb2dTY2FsZWQgPSB7IC4uLnRoaXMuaXNMb2dTY2FsZWQgfTsKICAgICAgfQogICAgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgU0lOR0xFX0lURVJBVElPTl9WRVJUSUNBTF9QQURESU5HOiAwLAo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmlzTG9nU2NhbGVkID0geyAuLi50aGlzLmlzTG9nU2NhbGVkIH07Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -458,28 +458,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgQ0hBUlRfQ09ORklHLkNPT1JESU5BVEVfU1lTVEVNLlVOSVRfTEFCRUwuU0lOR0xFX0lURVJBVElPTl9WRVJUSUNBTF9QQURESU5HOwo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIHJlbW92ZUNoaWxkSWZFeGlzdHModGhpcy5jaGFydC5zdGFnZSwgJ2Nvb3JkaW5hdGVTeXN0ZW0nKTsKICAgICAgICAgIHJlbW92ZUNoaWxkSWZFeGlzdHModGhpcy5jaGFydC5zdGFnZSwgJ2Nvb3JkaW5hdGVTeXN0ZW1Mb2cnKTsKICAgICAgICAgIGNyZWF0ZUNoaWxkSWZOb3RFeGlzdCgKICAgICAgICAgICAgdGhpcy5jaGFydC5zdGFnZSwKICAgICAgICAgICAgJ2Nvb3JkaW5hdGVTeXN0ZW1Mb2cnLAogICAgICAgICAgICAoKSA9PiBjcmVhdGVDb29yZGluYXRlU3lzdGVtKHRoaXMuaGVpZ2h0LCB0aGlzLndpZHRoLCBpdGVyYXRpb25MYWJlbHMsIGR1cmF0aW9uTGFiZWxzTG9nKSwKICAgICAgICAgICAgWl9JTkRFWF9DT09SRElOQVRFX1NZU1RFTQogICAgICAgICAgKTsK</text>
+        <text encoding="base64">CgogICAgbWV0aG9kczogewo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICA8c3BhbiBjbGFzcz0ic3dpdGNoLXRpdGxlIj46PC9zcGFuPgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZW1vdmVDaGlsZElmRXhpc3RzKHRoaXMuY2hhcnQuc3RhZ2UsICdjb29yZGluYXRlU3lzdGVtJyk7CiAgICAgICAgY3JlYXRlQ2hpbGRJZk5vdEV4aXN0KAogICAgICAgICAgICB0aGlzLmNoYXJ0LnN0YWdlLAogICAgICAgICAgICAnY29vcmRpbmF0ZVN5c3RlbScsCiAgICAgICAgICAgICgpID0+IGNyZWF0ZUNvb3JkaW5hdGVTeXN0ZW0odGhpcy5oZWlnaHQsIHRoaXMud2lkdGgsIGl0ZXJhdGlvbkxhYmVscywgZHVyYXRpb25MYWJlbHMpLAogICAgICAgICAgICBaX0lOREVYX0NPT1JESU5BVEVfU1lTVEVNCiAgICAgICAgKTsK</text>
+        <text encoding="base64">ICAgICAgICA8c3BhbiBjbGFzcz0ic3dpdGNoLXRpdGxlIj5DaGFydDo8L3NwYW4+Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHJlbW92ZUNoaWxkSWZFeGlzdHModGhpcy5jaGFydC5zdGFnZSwgJ2Nvb3JkaW5hdGVTeXN0ZW0nKTsKICAgICAgICAgIGNyZWF0ZUNoaWxkSWZOb3RFeGlzdCgKICAgICAgICAgICAgdGhpcy5jaGFydC5zdGFnZSwKICAgICAgICAgICAgJ2Nvb3JkaW5hdGVTeXN0ZW0nLAogICAgICAgICAgICAoKSA9PiBjcmVhdGVDb29yZGluYXRlU3lzdGVtKHRoaXMuaGVpZ2h0LCB0aGlzLndpZHRoLCBpdGVyYXRpb25MYWJlbHMsIGR1cmF0aW9uTGFiZWxzKSwKICAgICAgICAgICAgWl9JTkRFWF9DT09SRElOQVRFX1NZU1RFTQogICAgICAgICAgKTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIHJlbW92ZUNoaWxkSWZFeGlzdHModGhpcy5jaGFydC5zdGFnZSwgJ2Nvb3JkaW5hdGVTeXN0ZW1Mb2cnKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tdW51c2VkLXZhcnMK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIHJlbW92ZUNoaWxkSWZFeGlzdHModGhpcy5jaGFydC5zdGFnZSwgJ2F4aXMnKTsKICAgICAgICAgIHJlbW92ZUNoaWxkSWZFeGlzdHModGhpcy5jaGFydC5zdGFnZSwgJ2F4aXNMb2cnKTsKICAgICAgICAgIGNyZWF0ZUNoaWxkSWZOb3RFeGlzdCgKICAgICAgICAgICAgdGhpcy5jaGFydC5zdGFnZSwKICAgICAgICAgICAgJ2F4aXNMb2cnLAogICAgICAgICAgICAoKSA9PiBjcmVhdGVWZXJ0aWNhbEF4aXModGhpcy5oZWlnaHQsIHRoaXMud2lkdGgsIGR1cmF0aW9uTGFiZWxzKSwKICAgICAgICAgICAgWl9JTkRFWF9DT09SRElOQVRFX1NZU1RFTQogICAgICAgICAgKTsK</text>
+        <text encoding="base64">ICAgICAgaXNMb2dTY2FsZWQ6IHsKICAgICAgICB0eXBlOiBCb29sCiAgICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -488,9 +488,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>PADDING</last-search>
+      <last-search>resolution</last-search>
       <last-offset />
-      <last-pattern>PADDING</last-pattern>
+      <last-pattern>resolution</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
