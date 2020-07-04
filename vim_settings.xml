@@ -196,11 +196,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" timestamp="1593806782050">
-        <mark key="'" line="86" column="53" />
-        <mark key="[" line="86" column="29" />
-        <mark key="]" line="86" column="29" />
-        <mark key="." line="86" column="15" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" timestamp="1593862303356">
+        <mark key="'" line="60" column="6" />
+        <mark key="[" line="81" column="0" />
+        <mark key="]" line="81" column="0" />
+        <mark key="." line="81" column="0" />
+        <mark key="^" line="53" column="104" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationTrendChart.vue" timestamp="1593806726893">
         <mark key="'" line="81" column="53" />
@@ -299,9 +300,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="8" filename="$USER_HOME$/GraknLabs/grabl/design/charts/chart-line-single-iteration-input.json" />
-      <jump line="5" column="8" filename="$USER_HOME$/GraknLabs/grabl/design/charts/chart-line-single-iteration-input.json" />
-      <jump line="37" column="25" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/LineChart.vue" />
       <jump line="2" column="30" filename="$USER_HOME$/GraknLabs/grabl/design/charts/chart-line-single-iteration-input.json" />
       <jump line="42" column="28" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/LineChart.vue" />
       <jump line="49" column="9" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/LineChart.vue" />
@@ -399,18 +397,21 @@
       <jump line="120" column="12" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
       <jump line="66" column="53" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationTrendChart.vue" />
       <jump line="87" column="53" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" />
+      <jump line="53" column="35" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" />
+      <jump line="43" column="25" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" />
+      <jump line="60" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhwaXhlbERhdGEpOwo=</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">PHRlbXBsYXRlPgogIDxTaW5nbGVJdGVyYXRpb25UcmVuZENoYXJ0CiAgICB2LWlmPSJvbmx5T25lSXRlcmF0aW9uIgogICAgOmRhdGE9InNpbmdsZUl0ZXJhdGlvbkRhdGEiCiAgICA6d2lkdGg9IndpZHRoIgogICAgOmhlaWdodD0iaGVpZ2h0IgogICAgOmlzTG9nU2NhbGVkPSJpc0xvZ1NjYWxlZCIKICAvPgogIDxNdWx0aUl0ZXJhdGlvblRyZW5kQ2hhcnQgdi1lbHNlIDpkYXRhPSJkYXRhIiA6d2lkdGg9IndpZHRoIiA6aGVpZ2h0PSJoZWlnaHQiIDppc0xvZ1NjYWxlZD0iaXNMb2dTY2FsZWQiIC8+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0PgogIGltcG9ydCBNdWx0aUl0ZXJhdGlvblRyZW5kQ2hhcnQgZnJvbSAnLi9NdWx0aUl0ZXJhdGlvblRyZW5kQ2hhcnQnOwogIGltcG9ydCBTaW5nbGVJdGVyYXRpb25UcmVuZENoYXJ0IGZyb20gJy4vU2luZ2xlSXRlcmF0aW9uVHJlbmRDaGFydCc7CgogIGV4cG9ydCBkZWZhdWx0IHsKICAgIG5hbWU6ICdUcmVuZENoYXJ0JywKICAgIGNvbXBvbmVudHM6IHsgU2luZ2xlSXRlcmF0aW9uVHJlbmRDaGFydCwgTXVsdGlJdGVyYXRpb25UcmVuZENoYXJ0IH0sCgogICAgcHJvcHM6IHsKICAgICAgd2lkdGg6IHsKICAgICAgICB0eXBlOiBOdW1iZXIsCiAgICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgfSwKICAgICAgaGVpZ2h0OiB7CiAgICAgICAgdHlwZTogTnVtYmVyLAogICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgIH0sCiAgICAgIGRhdGE6IHsKICAgICAgICB0eXBlOiBPYmplY3QsCiAgICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgfSwKICAgICAgaXNMb2dTY2FsZWQ6IEJvb2xlYW4KICAgIH0sCgogICAgY29tcHV0ZWQ6IHsKICAgICAgb25seU9uZUl0ZXJhdGlvbigpIHsKICAgICAgICBjb25zdCBpdGVyYXRpb25zID0gdGhpcy5nZXRJdGVyYXRpb25zKCk7CiAgICAgICAgcmV0dXJuIGl0ZXJhdGlvbnMubGVuZ3RoID09PSAxOwogICAgICB9LAoKICAgICAgc2luZ2xlSXRlcmF0aW9uRGF0YSgpIHsKICAgICAgICBjb25zdCBpdGVyYXRpb24gPSB0aGlzLmdldEl0ZXJhdGlvbnMoKVswXTsKICAgICAgICBjb25zdCBkYXRhID0geyBpdGVyYXRpb24sIHBlcmNlbnRpbGVzOiB7fSB9OwogICAgICAgIE9iamVjdC5lbnRyaWVzKHRoaXMuZGF0YSkuZm9yRWFjaCgoW2tleSwgdmFsdWVdKSA9PiB7CiAgICAgICAgICBkYXRhLnBlcmNlbnRpbGVzW2tleV0gPSBPYmplY3QudmFsdWVzKHZhbHVlKVswXTsKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gZGF0YTsKICAgICAgfQogICAgfSwKCiAgICBtZXRob2RzOiB7CiAgICAgIGdldEl0ZXJhdGlvbnMoKSB7CiAgICAgICAgcmV0dXJuIEFycmF5LmZyb20obmV3IFNldChPYmplY3QudmFsdWVzKHRoaXMuZGF0YSkuZmxhdE1hcCh4ID0+IE9iamVjdC5rZXlzKHgpKSkpOwogICAgICB9CiAgICB9CiAgfTsKPC9zY3JpcHQ+Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>percentileData</text>
       </register>
       <register name="/" type="4">
         <text>render()</text>
@@ -419,7 +420,7 @@
         <text>CHART_CONFIG.CHART.PADDING.VERTICAL</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5IT1JJWk9OVEFMLAogICAgICAgICAgICAgIENIQVJUX0NPTkZJRy5DSEFSVC5QQURESU5HLlZFUlRJQ0FMLAo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhwaXhlbERhdGEpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -454,22 +455,22 @@
         <text encoding="base64">ICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5IT1JJWk9OVEFMLAogICAgICAgICAgICAgIENIQVJUX0NPTkZJRy5DSEFSVC5QQURESU5HLlZFUlRJQ0FMLAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCBsaW5lcyA9IGRhdGEubWFwKChsaW5lRGF0YSwgaSkgPT4gewogICAgICAgICAgY29uc3Qgam9pbnRzID0gW107CiAgICAgICAgICBjb25zdCBwb2ludHMgPSBPYmplY3QuZW50cmllcyhsaW5lRGF0YSkKICAgICAgICAgICAgLm1hcCgoW2l0ZXJhdGlvbiwgZHVyYXRpb25zXSkgPT4gewogICAgICAgICAgICAgIGNvbnN0IHAgPSBbTnVtYmVyKGl0ZXJhdGlvbiksIGF2ZXJhZ2UoZHVyYXRpb25zKV07CiAgICAgICAgICAgICAgaWYgKGR1cmF0aW9ucy5sZW5ndGggPiAxKSB7CiAgICAgICAgICAgICAgICBqb2ludHMucHVzaCh7IHBvaW50OiBwLCBkdXJhdGlvbnM6IGR1cmF0aW9ucyB9KTsKICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgcmV0dXJuIHA7CiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5zb3J0KChhLCBiKSA9PiBhWzBdIC0gYlswXSk7CiAgICAgICAgICByZXR1cm4geyBpZDogaSwgcG9pbnRzOiBwb2ludHMuZmxhdE1hcChwID0+IGNvb3JkaW5hdGVUcmFuc2Zvcm1lci5tYXAocCkpLCBqb2ludHMgfTsKICAgICAgICB9KTsKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBDSEFSVF9DT05GSUcuQ0hBUlQuUEFERElORy5IT1JJWk9OVEFMLAogICAgICAgICAgICAgIENIQVJUX0NPTkZJRy5DSEFSVC5QQURESU5HLlZFUlRJQ0FMLAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhwaXhlbERhdGEpOwo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCBsaW5lcyA9IGRhdGEubWFwKChsaW5lRGF0YSwgaSkgPT4gewogICAgICAgICAgY29uc3Qgam9pbnRzID0gW107CiAgICAgICAgICBjb25zdCBwb2ludHMgPSBPYmplY3QuZW50cmllcyhsaW5lRGF0YSkKICAgICAgICAgICAgLm1hcCgoW2l0ZXJhdGlvbiwgZHVyYXRpb25zXSkgPT4gewogICAgICAgICAgICAgIGNvbnN0IHAgPSBbTnVtYmVyKGl0ZXJhdGlvbiksIGF2ZXJhZ2UoZHVyYXRpb25zKV07CiAgICAgICAgICAgICAgaWYgKGR1cmF0aW9ucy5sZW5ndGggPiAxKSB7CiAgICAgICAgICAgICAgICBqb2ludHMucHVzaCh7IHBvaW50OiBwLCBkdXJhdGlvbnM6IGR1cmF0aW9ucyB9KTsKICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgcmV0dXJuIHA7CiAgICAgICAgICAgIH0pCiAgICAgICAgICAgIC5zb3J0KChhLCBiKSA9PiBhWzBdIC0gYlswXSk7CiAgICAgICAgICByZXR1cm4geyBpZDogaSwgcG9pbnRzOiBwb2ludHMuZmxhdE1hcChwID0+IGNvb3JkaW5hdGVUcmFuc2Zvcm1lci5tYXAocCkpLCBqb2ludHMgfTsKICAgICAgICB9KTsKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBvCg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhwaXhlbERhdGEpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBvCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIAoKCiAgICAgICAgICBPYmplY3QuZW50cmllcyhwZXJjZW50aWxlRGF0YSkuZm9yRWFjaCgoW2l0ZXJhdGlvbiwgZHVyYXRpb25dKSA9PiB7CiAgICAgICAgICAgIHBpeGVsRGF0YVtwZXJjZW50XS5wdXNoKFttYXBYKE51bWJlcihpdGVyYXRpb24pKSwgbWFwWShkdXJhdGlvbildKTsKICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgIAoKCiAgICAgICAgICBPYmplY3QuZW50cmllcyhwZXJjZW50aWxlRGF0YSkuZm9yRWFjaCgoW2l0ZXJhdGlvbiwgZHVyYXRpb25dKSA9PiB7CiAgICAgICAgICAgIHBpeGVsRGF0YVtwZXJjZW50XS5wdXNoKFttYXBYKE51bWJlcihpdGVyYXRpb24pKSwgbWFwWShkdXJhdGlvbildKTsKICAgICAgICAgIH0pOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
