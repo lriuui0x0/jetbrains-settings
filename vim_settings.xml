@@ -196,13 +196,13 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" timestamp="1594110562108">
-        <mark key="'" line="1" column="0" />
-        <mark key="[" line="199" column="21" />
-        <mark key="]" line="199" column="30" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" timestamp="1594111602274">
+        <mark key="'" line="145" column="27" />
+        <mark key="[" line="241" column="37" />
+        <mark key="]" line="241" column="37" />
         <mark key="m" line="148" column="33" />
-        <mark key="." line="199" column="29" />
-        <mark key="^" line="199" column="30" />
+        <mark key="." line="241" column="37" />
+        <mark key="^" line="156" column="54" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Job/index.vue" timestamp="1593966124119" />
       <file name="/a.dummy" timestamp="1594047049648">
@@ -317,7 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="192" column="77" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
       <jump line="200" column="2" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
       <jump line="201" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
       <jump line="181" column="64" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
@@ -417,24 +416,25 @@
       <jump line="174" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/utils.js" />
       <jump line="239" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" />
       <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" />
+      <jump line="145" column="27" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>mouseout</text>
+        <text>.target</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">PHRlbXBsYXRlPgogIDxTaW5nbGVJdGVyYXRpb25UcmVuZENoYXJ0CiAgICB2LWlmPSJvbmx5T25lSXRlcmF0aW9uIgogICAgOmRhdGE9InNpbmdsZUl0ZXJhdGlvbkRhdGEiCiAgICA6d2lkdGg9IndpZHRoIgogICAgOmhlaWdodD0iaGVpZ2h0IgogICAgOmlzTG9nU2NhbGVkPSJpc0xvZ1NjYWxlZCIKICAvPgogIDxNdWx0aUl0ZXJhdGlvblRyZW5kQ2hhcnQgdi1lbHNlIDpkYXRhPSJkYXRhIiA6d2lkdGg9IndpZHRoIiA6aGVpZ2h0PSJoZWlnaHQiIDppc0xvZ1NjYWxlZD0iaXNMb2dTY2FsZWQiIC8+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0PgogIGltcG9ydCBNdWx0aUl0ZXJhdGlvblRyZW5kQ2hhcnQgZnJvbSAnLi9NdWx0aUl0ZXJhdGlvblRyZW5kQ2hhcnQnOwogIGltcG9ydCBTaW5nbGVJdGVyYXRpb25UcmVuZENoYXJ0IGZyb20gJy4vU2luZ2xlSXRlcmF0aW9uVHJlbmRDaGFydCc7CgogIGV4cG9ydCBkZWZhdWx0IHsKICAgIG5hbWU6ICdUcmVuZENoYXJ0JywKICAgIGNvbXBvbmVudHM6IHsgU2luZ2xlSXRlcmF0aW9uVHJlbmRDaGFydCwgTXVsdGlJdGVyYXRpb25UcmVuZENoYXJ0IH0sCgogICAgcHJvcHM6IHsKICAgICAgd2lkdGg6IHsKICAgICAgICB0eXBlOiBOdW1iZXIsCiAgICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgfSwKICAgICAgaGVpZ2h0OiB7CiAgICAgICAgdHlwZTogTnVtYmVyLAogICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgIH0sCiAgICAgIGRhdGE6IHsKICAgICAgICB0eXBlOiBPYmplY3QsCiAgICAgICAgcmVxdWlyZWQ6IHRydWUKICAgICAgfSwKICAgICAgaXNMb2dTY2FsZWQ6IEJvb2xlYW4KICAgIH0sCgogICAgY29tcHV0ZWQ6IHsKICAgICAgb25seU9uZUl0ZXJhdGlvbigpIHsKICAgICAgICBjb25zdCBpdGVyYXRpb25zID0gdGhpcy5nZXRJdGVyYXRpb25zKCk7CiAgICAgICAgcmV0dXJuIGl0ZXJhdGlvbnMubGVuZ3RoID09PSAxOwogICAgICB9LAoKICAgICAgc2luZ2xlSXRlcmF0aW9uRGF0YSgpIHsKICAgICAgICBjb25zdCBpdGVyYXRpb24gPSB0aGlzLmdldEl0ZXJhdGlvbnMoKVswXTsKICAgICAgICBjb25zdCBkYXRhID0geyBpdGVyYXRpb24sIHBlcmNlbnRpbGVzOiB7fSB9OwogICAgICAgIE9iamVjdC5lbnRyaWVzKHRoaXMuZGF0YSkuZm9yRWFjaCgoW2tleSwgdmFsdWVdKSA9PiB7CiAgICAgICAgICBkYXRhLnBlcmNlbnRpbGVzW2tleV0gPSBPYmplY3QudmFsdWVzKHZhbHVlKVswXTsKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gZGF0YTsKICAgICAgfQogICAgfSwKCiAgICBtZXRob2RzOiB7CiAgICAgIGdldEl0ZXJhdGlvbnMoKSB7CiAgICAgICAgcmV0dXJuIEFycmF5LmZyb20obmV3IFNldChPYmplY3QudmFsdWVzKHRoaXMuZGF0YSkuZmxhdE1hcCh4ID0+IE9iamVjdC5rZXlzKHgpKSkpOwogICAgICB9CiAgICB9CiAgfTsKPC9zY3JpcHQ+Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>mouseout</text>
+        <text>.target</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnZhbGlkYXRlXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygnbW91c2VvdXQnKTsK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZygnbW91c2VvdXQnLCBldmVudC50YXJnZXQpOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
