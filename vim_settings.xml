@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>fragment.stream</entry>
         <entry>query.stream</entry>
         <entry encoding="base64">XDxncmFwaExpbmVcPg==</entry>
         <entry encoding="base64">XDxncmFwaFRleHRcPg==</entry>
@@ -27,6 +26,7 @@
         <entry>urn</entry>
         <entry>automation</entry>
         <entry encoding="base64">XDxhdXRvbWF0aW9uXD4=</entry>
+        <entry>getCookie</entry>
       </history-search>
       <history-cmd>
         <entry>e</entry>
@@ -223,8 +223,8 @@
         <mark key="^" line="580" column="80" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1594397674716" />
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" timestamp="1594390479178">
-        <mark key="'" line="362" column="13" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" timestamp="1594642883954">
+        <mark key="'" line="359" column="0" />
         <mark key="[" line="369" column="7" />
         <mark key="]" line="370" column="12" />
         <mark key="." line="370" column="11" />
@@ -321,7 +321,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="340" column="29" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TreeChart.vue" />
       <jump line="342" column="23" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TreeChart.vue" />
       <jump line="345" column="21" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TreeChart.vue" />
       <jump line="347" column="23" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/TreeChart.vue" />
@@ -421,6 +420,7 @@
       <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/TreeSelect.vue" />
       <jump line="4" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/TreeSelect.vue" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/TreeSelect.vue" />
+      <jump line="359" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -435,7 +435,7 @@
         <text>getOptionsParentPath</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhdXRvbWF0aW9uXD4=</text>
+        <text>getCookie</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldFBhdGgoSnNvbk9iamVjdCBvYmplY3QsIFN0cmluZyBrZXkpIHsKICAgICAgICBTdHJpbmdCdWlsZGVyIHBhdGggPSBuZXcgU3RyaW5nQnVpbGRlcigpOwogICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgIFN0cmluZyBuYW1lID0gb2JqZWN0LmdldFN0cmluZygic2VsZWN0ZWQiLCBudWxsKTsKICAgICAgICAgICAgaWYgKG5hbWUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgaWYgKHBhdGgudG9TdHJpbmcoKS5lcXVhbHMoIiIpKSB7CiAgICAgICAgICAgICAgICAgICAgcGF0aC5hcHBlbmQobmFtZSk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHBhdGguYXBwZW5kKCI6IikuYXBwZW5kKG5hbWUpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIEpzb25WYWx1ZSBuZXh0T2JqZWN0ID0gb2JqZWN0LmdldChrZXkpOwogICAgICAgICAgICBpZiAobmV4dE9iamVjdCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBvYmplY3QgPSBuZXh0T2JqZWN0LmFzT2JqZWN0KCk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gcGF0aC50b1N0cmluZygpOwogICAgfQoK</text>
@@ -500,9 +500,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxhdXRvbWF0aW9uXD4=</last-search>
+      <last-search>getCookie</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhdXRvbWF0aW9uXD4=</last-pattern>
+      <last-pattern>getCookie</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
