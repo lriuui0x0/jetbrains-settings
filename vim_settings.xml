@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>urn</entry>
-        <entry>automation</entry>
         <entry encoding="base64">XDxhdXRvbWF0aW9uXD4=</entry>
         <entry>getCookie</entry>
         <entry encoding="base64">XDxwZXJmb3JtYW5jZUFuYWx5c2lzXD4=</entry>
@@ -27,6 +25,8 @@
         <entry>created</entry>
         <entry>image</entry>
         <entry encoding="base64">XDxhdXRoZW50aWNhdGVkQW5hbHlzaXNJZHNcPg==</entry>
+        <entry>onNext</entry>
+        <entry>handleRequest</entry>
       </history-search>
       <history-cmd>
         <entry>e</entry>
@@ -204,13 +204,6 @@
       <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1594732895834">
         <mark key="'" line="352" column="22" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/utils.js" timestamp="1594653354499">
-        <mark key="'" line="359" column="0" />
-        <mark key="[" line="369" column="7" />
-        <mark key="]" line="370" column="12" />
-        <mark key="." line="370" column="11" />
-        <mark key="^" line="370" column="12" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/chartsConfig.js" timestamp="1594664057536">
         <mark key="'" line="87" column="17" />
         <mark key="[" line="169" column="22" />
@@ -237,11 +230,19 @@
         <mark key="." line="688" column="6" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1594727974091" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/cc84a188dd01b277d4e8abad1fc1ebf5/execroot/graknlabs_grakn_core/bazel-out/darwin-fastbuild/bin/external/graknlabs_grabl_tracing/client/libclient-hjar.jar!/grabl/tracing/client/GrablTracingThreadStatic.class" timestamp="1594741728508" />
       <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1594714870435">
         <mark key="'" line="521" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/components/navigation/IterationSelect.vue" timestamp="1594718383327">
         <mark key="'" line="35" column="100" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" timestamp="1594741383287">
+        <mark key="'" line="191" column="34" />
+        <mark key="[" line="203" column="111" />
+        <mark key="]" line="203" column="112" />
+        <mark key="." line="203" column="112" />
+        <mark key="^" line="194" column="20" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-groups-response.json" timestamp="1594718004219">
         <mark key="'" line="52" column="24" />
@@ -257,9 +258,6 @@
         <mark key="]" line="0" column="17" />
         <mark key="." line="0" column="16" />
         <mark key="^" line="0" column="17" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-overviews-response.json" timestamp="1594658091486">
-        <mark key="'" line="5" column="10" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/index/router.js" timestamp="1594735710711">
         <mark key="'" line="290" column="22" />
@@ -277,7 +275,7 @@
         <mark key="." line="18" column="31" />
         <mark key="^" line="18" column="32" />
       </file>
-      <file name="/fragment.java" timestamp="1594737687158">
+      <file name="/fragment.java" timestamp="1594741405489">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="19" />
         <mark key="^" line="0" column="19" />
@@ -285,11 +283,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="338" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
-      <jump line="388" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
-      <jump line="426" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
-      <jump line="428" column="52" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
-      <jump line="431" column="59" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
       <jump line="243" column="12" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
       <jump line="244" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
       <jump line="175" column="44" filename="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" />
@@ -385,6 +378,11 @@
       <jump line="179" column="37" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
       <jump line="185" column="36" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
       <jump line="186" column="65" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
+      <jump line="136" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" />
+      <jump line="142" column="29" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" />
+      <jump line="161" column="64" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" />
+      <jump line="464" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" />
+      <jump line="191" column="34" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -399,7 +397,7 @@
         <text>analysis.getId()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhdXRoZW50aWNhdGVkQW5hbHlzaXNJZHNcPg==</text>
+        <text>handleRequest</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIDxsb2dnZXIgbmFtZT0iZ3JhYmwiIGxldmVsPSJERUJVRyIvPgo=</text>
@@ -464,9 +462,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxhdXRoZW50aWNhdGVkQW5hbHlzaXNJZHNcPg==</last-search>
+      <last-search>handleRequest</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhdXRoZW50aWNhdGVkQW5hbHlzaXNJZHNcPg==</last-pattern>
+      <last-pattern>handleRequest</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
