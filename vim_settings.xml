@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>onNext</entry>
-        <entry>handleRequest</entry>
         <entry>FIXME</entry>
         <entry encoding="base64">XDxaX0lOREVYX0VYUEFOU0lPTl9QT0lOVFw+</entry>
         <entry encoding="base64">XDxkZXZpY2VQaXhlbFJhdGlvXD4=</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxlbnN1cmVDb25uZWN0aW9uXD4=</entry>
         <entry encoding="base64">XDx0aHJvd0Vycm9yc1w+</entry>
         <entry encoding="base64">XDxzaW5nbGV0b25DbGllbnRcPg==</entry>
+        <entry>keepAlive</entry>
+        <entry>timeout</entry>
       </history-search>
       <history-cmd>
         <entry>e</entry>
@@ -196,6 +196,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" timestamp="1594900413913">
+        <mark key="e" line="264" column="45" />
+        <mark key="'" line="480" column="15" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/MultiIterationLineChart.vue" timestamp="1594828603131">
         <mark key="'" line="301" column="51" />
         <mark key="[" line="107" column="0" />
@@ -224,12 +228,8 @@
         <mark key="." line="87" column="50" />
         <mark key="^" line="87" column="51" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1594827494787">
-        <mark key="'" line="500" column="52" />
-        <mark key="[" line="512" column="32" />
-        <mark key="]" line="512" column="40" />
-        <mark key="^" line="512" column="40" />
-        <mark key="." line="512" column="39" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" timestamp="1594899722505">
+        <mark key="'" line="163" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl-tracing/client/GrablTracing.java" timestamp="1594893626445">
         <mark key="'" line="116" column="39" />
@@ -237,16 +237,12 @@
       <file name="$USER_HOME$/GraknLabs/grabl-tracing/client/GrablTracingThreadStatic.java" timestamp="1594892795181">
         <mark key="'" line="37" column="78" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/index.vue" timestamp="1594826765253">
-        <mark key="'" line="182" column="0" />
-        <mark key="^" line="42" column="129" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" timestamp="1594898725736">
-        <mark key="'" line="65" column="58" />
-        <mark key="[" line="55" column="48" />
-        <mark key="]" line="55" column="67" />
-        <mark key="." line="65" column="93" />
-        <mark key="^" line="65" column="94" />
+      <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" timestamp="1594900995530">
+        <mark key="'" line="79" column="89" />
+        <mark key="[" line="65" column="73" />
+        <mark key="]" line="65" column="73" />
+        <mark key="." line="65" column="73" />
+        <mark key="^" line="65" column="97" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/common/charts/SingleIterationLineChart.vue" timestamp="1594828609346">
         <mark key="[" line="61" column="0" />
@@ -293,18 +289,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="117" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="154" column="21" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="274" column="18" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="277" column="34" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="262" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="265" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="273" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="261" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="26" column="41" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="135" column="28" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="138" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
-      <jump line="648" column="5" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
       <jump line="650" column="7" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
       <jump line="186" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
       <jump line="281" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/lib/Select.vue" />
@@ -388,26 +372,38 @@
       <jump line="10" column="0" filename="$USER_HOME$/GraknLabs/grabl/local/ngrok.yml" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/local/ngrok.yml" />
       <jump line="109" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Repository/index.vue" />
-      <jump line="65" column="58" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
       <jump line="146" column="42" filename="$USER_HOME$/GraknLabs/grabl-tracing/client/TraceStream.java" />
       <jump line="167" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/ServerFactory.java" />
       <jump line="146" column="129" filename="$USER_HOME$/GraknLabs/grakn/server/ServerFactory.java" />
       <jump line="166" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/ServerFactory.java" />
+      <jump line="163" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" />
+      <jump line="158" column="47" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
+      <jump line="527" column="45" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" />
+      <jump line="554" column="67" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" />
+      <jump line="98" column="15" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" />
+      <jump line="99" column="15" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" />
+      <jump line="264" column="45" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" />
+      <jump line="422" column="29" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" />
+      <jump line="480" column="15" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerBuilder.java" />
+      <jump line="65" column="58" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
+      <jump line="77" column="44" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
+      <jump line="86" column="10" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
+      <jump line="79" column="89" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">Z3Jha25sYWJzL2dyYWJsIzQ4OSA=</text>
+        <text>out</text>
       </register>
       <register name="+" type="4">
         <text encoding="base64">Z3Jha25sYWJzL2dyYWJsIzQ4OSA=</text>
       </register>
       <register name="-" type="4">
-        <text>m</text>
+        <text>out</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzaW5nbGV0b25DbGllbnRcPg==</text>
+        <text>timeout</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Z3Jha25sYWJzL2dyYWJsIzQ4OSA=</text>
@@ -472,9 +468,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzaW5nbGV0b25DbGllbnRcPg==</last-search>
+      <last-search>timeout</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzaW5nbGV0b25DbGllbnRcPg==</last-pattern>
+      <last-pattern>timeout</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
