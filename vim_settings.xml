@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxoYW5kbGVNb3VzZU1vdmVcPg==</entry>
         <entry>close</entry>
         <entry>width</entry>
         <entry encoding="base64">XDxzZXRXaWR0aFw+</entry>
@@ -27,6 +26,7 @@
         <entry>tree.left</entry>
         <entry encoding="base64">XDxyaWdodFw+</entry>
         <entry>right</entry>
+        <entry>trace sub</entry>
       </history-search>
       <history-cmd>
         <entry>e</entry>
@@ -228,6 +228,9 @@
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionService.java" timestamp="1594901688419">
         <mark key="'" line="314" column="8" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1594914621193">
+        <mark key="'" line="387" column="12" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl-tracing/client/GrablTracing.java" timestamp="1594905707939">
         <mark key="'" line="12" column="6" />
         <mark key="[" line="119" column="0" />
@@ -243,9 +246,6 @@
         <mark key="]" line="158" column="26" />
         <mark key="." line="158" column="26" />
         <mark key="^" line="158" column="68" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl-tracing/client/GrablTracingThreadStatic.java" timestamp="1594892795181">
-        <mark key="'" line="37" column="78" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" timestamp="1594912133049">
         <mark key="'" line="41" column="29" />
@@ -289,8 +289,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="838" column="10" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerHandler.java" />
-      <jump line="839" column="8" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerHandler.java" />
       <jump line="995" column="36" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerHandler.java" />
       <jump line="998" column="26" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerHandler.java" />
       <jump line="1000" column="31" filename="/private/var/tmp/_bazel_lriuui0x0/1238044cf9ff669594db6dfc5f47b053/external/io-grpc-grpc-netty/jar/io-grpc-grpc-netty-sources.jar!/io/grpc/netty/NettyServerHandler.java" />
@@ -389,6 +387,8 @@
       <jump line="41" column="29" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" />
       <jump line="150" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/PerformanceAnalysis.java" />
       <jump line="158" column="25" filename="$USER_HOME$/GraknLabs/grabl/concept/PerformanceAnalysis.java" />
+      <jump line="361" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="387" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -407,7 +407,7 @@ get $name;</text>
         <text>.sort(&quot;iteration&quot;, Graql.Token.Order.DESC)</text>
       </register>
       <register name="/" type="4">
-        <text>right</text>
+        <text>trace sub</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBkZWZhdWx0Qm91bmRhcmllc0VsZW1lbnQ6ICdib2R5JywK</text>
@@ -472,9 +472,9 @@ get $name;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>right</last-search>
+      <last-search>trace sub</last-search>
       <last-offset />
-      <last-pattern>right</last-pattern>
+      <last-pattern>trace sub</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
