@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxsb2dTY2FsZUFuaW1hdGlvblByb2dyZXNzXD4=</entry>
         <entry>animation</entry>
         <entry>ANIMATION</entry>
         <entry encoding="base64">XDxzd2FwT3V0V2ViZ2xDYW52YXNcPg==</entry>
@@ -27,6 +26,7 @@
         <entry>alpha = 1</entry>
         <entry>Single</entry>
         <entry encoding="base64">XDxnZXRKb2JEZXBlbmRlbmN5R3JhcGhNdWx0aXBsZVw+</entry>
+        <entry encoding="base64">XDxjYW52YXNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>e</entry>
@@ -212,8 +212,8 @@
         <mark key="]" line="46" column="0" />
         <mark key="." line="46" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" timestamp="1595249183864">
-        <mark key="'" line="26" column="5" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" timestamp="1595250620020">
+        <mark key="'" line="142" column="0" />
         <mark key="[" line="26" column="2" />
         <mark key="]" line="26" column="3" />
         <mark key="." line="26" column="2" />
@@ -224,10 +224,10 @@
         <mark key="]" line="32" column="0" />
         <mark key="." line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/TrendChart.vue" timestamp="1595249438017">
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="0" />
-        <mark key="." line="36" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/TrendChart.vue" timestamp="1595250678082">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/MultiIterationTrendChart.vue" timestamp="1595246476185">
         <mark key="'" line="276" column="28" />
@@ -281,8 +281,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="118" column="34" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" />
-      <jump line="160" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" />
       <jump line="164" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" />
       <jump line="28" column="9" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" />
       <jump line="39" column="13" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" />
@@ -381,12 +379,14 @@
       <jump line="34" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/TrendChart.vue" />
       <jump line="38" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/TrendChart.vue" />
       <jump line="36" column="4" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/TrendChart.vue" />
+      <jump line="142" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" />
+      <jump line="7" column="9" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/TrendChart.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHVwZGF0ZWQoKSB7CiAgICAgIGRlYnVnZ2VyOwogICAgfSwKCg==</text>
+        <text encoding="base64">ICAgIHJlZj0iY2FudmFzIgo=</text>
       </register>
       <register name="+" type="2">
         <text>match
@@ -399,13 +399,13 @@ get $name;</text>
         <text>l</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRKb2JEZXBlbmRlbmN5R3JhcGhNdWx0aXBsZVw+</text>
+        <text encoding="base64">XDxjYW52YXNcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHVwZGF0ZWQoKSB7CiAgICAgIGRlYnVnZ2VyOwogICAgfSwKCg==</text>
+        <text encoding="base64">ICAgIHJlZj0iY2FudmFzIgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -434,28 +434,28 @@ get $name;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHVwZGF0ZWQoKSB7CiAgICAgIGRlYnVnZ2VyOwogICAgfSwKCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAvLyBtb3VudGVkKCkgewogIC8vICAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7CiAgLy8gICAgIHRoaXMucmVuZGVyQ2hhcnQoKTsKICAvLyAgICAgdGhpcy5jb3B5Q2hhcnQoKTsKICAvLyAgIH0pOwogIC8vIH0sCiAgLy8K</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaG92ZXJPdmVybGF5LmFscGhhID0gMDsK</text>
+        <text encoding="base64">ICAvLyBtb3VudGVkKCkgewogIC8vICAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7CiAgLy8gICAgIHRoaXMucmVuZGVyQ2hhcnQoKTsKICAvLyAgICAgdGhpcy5jb3B5Q2hhcnQoKTsKICAvLyAgIH0pOwogIC8vIH0sCiAgLy8K</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgaG92ZXJPdmVybGF5LmFscGhhID0gMDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNyZWF0ZUNoaWxkSWZOb3RFeGlzdCwKICAgIGNyZWF0ZUNvb3JkaW5hdGVTeXN0ZW0sCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaG92ZXJPdmVybGF5LmFscGhhID0gMDsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CiAgaW1wb3J0IHsgZ2V0RW5naW5lTW91c2VQb3NpdGlvbiB9IGZyb20gJy4vZW5naW5lJzsK</text>
+        <text encoding="base64">ICAgIGNyZWF0ZUNoaWxkSWZOb3RFeGlzdCwKICAgIGNyZWF0ZUNvb3JkaW5hdGVTeXN0ZW0sCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBjb25zdCBaX0lOREVYX0JBQ0tHUk9VTkQgPSAwOwogIGNvbnN0IFpfSU5ERVhfR1JBUEggPSAxOwogIGNvbnN0IFpfSU5ERVhfQ09PUkRJTkFURV9TWVNURU0gPSAyOwogIGNvbnN0IFpfSU5ERVhfSE9WRVJfT1ZFUkxBWSA9IDM7Cgo=</text>
+        <text encoding="base64">CiAgaW1wb3J0IHsgZ2V0RW5naW5lTW91c2VQb3NpdGlvbiB9IGZyb20gJy4vZW5naW5lJzsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBjb25zdCBaX0lOREVYX0JBQ0tHUk9VTkQgPSAwOwogIGNvbnN0IFpfSU5ERVhfR1JBUEggPSAxOwogIGNvbnN0IFpfSU5ERVhfQ09PUkRJTkFURV9TWVNURU0gPSAyOwogIGNvbnN0IFpfSU5ERVhfSE9WRVJfT1ZFUkxBWSA9IDM7Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -464,9 +464,9 @@ get $name;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxnZXRKb2JEZXBlbmRlbmN5R3JhcGhNdWx0aXBsZVw+</last-search>
+      <last-search encoding="base64">XDxjYW52YXNcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRKb2JEZXBlbmRlbmN5R3JhcGhNdWx0aXBsZVw+</last-pattern>
+      <last-pattern encoding="base64">XDxjYW52YXNcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
