@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>renderChart</entry>
         <entry encoding="base64">XDxyZW5kZXJDaGFydFw+</entry>
         <entry>data</entry>
         <entry encoding="base64">XDxzdHJpbmdpZnlcPg==</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxhcnJvd1w+</entry>
         <entry encoding="base64">XDxob3ZlcmVkVHJhY2VcPg==</entry>
         <entry encoding="base64">XDw1XD4=</entry>
+        <entry>performancePage</entry>
       </history-search>
       <history-cmd>
         <entry>wjj:w</entry>
@@ -218,6 +218,12 @@
       <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" timestamp="1595511523998">
         <mark key="'" line="231" column="38" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1595583188209">
+        <mark key="[" line="518" column="0" />
+        <mark key="]" line="518" column="0" />
+        <mark key="^" line="519" column="8" />
+        <mark key="." line="518" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" timestamp="1595523959285">
         <mark key="'" line="204" column="37" />
         <mark key="[" line="231" column="0" />
@@ -245,25 +251,18 @@
       <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/test/PipelineTest.java" timestamp="1595512597092">
         <mark key="'" line="16" column="8" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" timestamp="1595579967638">
-        <mark key="'" line="135" column="0" />
-        <mark key="[" line="53" column="14" />
-        <mark key="]" line="53" column="13" />
-        <mark key="." line="53" column="12" />
-        <mark key="^" line="53" column="13" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/mixins.js" timestamp="1595583120820">
+        <mark key="'" line="126" column="0" />
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="8" />
+        <mark key="." line="58" column="8" />
+        <mark key="^" line="48" column="13" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/WORKSPACE" timestamp="1595511519776">
         <mark key="'" line="176" column="0" />
         <mark key="[" line="74" column="19" />
         <mark key="]" line="74" column="61" />
         <mark key="." line="74" column="19" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/ui/styles/_variables.scss" timestamp="1595427889122">
-        <mark key="'" line="72" column="0" />
-        <mark key="[" line="65" column="16" />
-        <mark key="]" line="65" column="17" />
-        <mark key="." line="65" column="16" />
-        <mark key="^" line="65" column="17" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/dependencies/graknlabs/dependencies.bzl" timestamp="1595510724614">
         <mark key="[" line="13" column="59" />
@@ -384,8 +383,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>happens</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="+" type="4">
         <text>div[x-placement=&quot;top&quot;].tooltip</text>
@@ -394,13 +393,13 @@
         <text>happens</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDw1XD4=</text>
+        <text>performancePage</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAvLyBOT1RFOiBXZSBhZGQgYSBiaXQgb2Ygb2Zmc2V0IHNvIHRoYXQgdGhlIHRvb2x0aXAgZG9lc24ndCBzaG93IHJpZ2h0IGF0IHRoZSBwb3NpdGlvbiBvZiB0aGUgbW91c2UsIHdoaWNoIGNhdXNlcyBhIG1vdXNlb3V0IGV2ZW50CiAgICAgICAgICAgICAgY29uc3QgdG9vbHRpcE9mZnNldCA9IDU7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgLwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -429,28 +428,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9KTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNhbGN1bGF0ZURhdGFNYXAodGhpcy5kYXRhKTsKICAgICAgICB0aGlzLnJlbmRlckNoYXJ0KCk7CiAgICAgICAgdGhpcy5jb3B5Q2hhcnQoKTsK</text>
+        <text encoding="base64">ICAgICAgICB3aW5kb3cucmVxdWVzdEFuaW1hdGlvbkZyYW1lKCgpID0+IHsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmNhbGN1bGF0ZURhdGFNYXAodGhpcy5kYXRhKTsKICAgICAgICB0aGlzLnJlbmRlckNoYXJ0KCk7CiAgICAgICAgdGhpcy5jb3B5Q2hhcnQoKTsKICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgfSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5jYWxjdWxhdGVEYXRhTWFwKHRoaXMuZGF0YSk7CiAgICAgIHRoaXMucmVuZGVyQ2hhcnQoKTsKICAgICAgdGhpcy5jb3B5Q2hhcnQoKTsK</text>
+        <text encoding="base64">ICAgICAgfSk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgd2luZG93LnJlcXVlc3RBbmltYXRpb25GcmFtZSgoKSA9PiB7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy5jYWxjdWxhdGVEYXRhTWFwKHRoaXMuZGF0YSk7CiAgICAgIHRoaXMucmVuZGVyQ2hhcnQoKTsKICAgICAgdGhpcy5jb3B5Q2hhcnQoKTsK</text>
+        <text encoding="base64">ICAgIH0pOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC8vIFRPRE86Cg==</text>
+        <text encoding="base64">ICAgIC8vIFRPRE86IEZpZ3VyZSBvdXQgd2h5IHRoaXMgb25seSB3b3JrcyBpbiB3aW5kb3cucmVxdWVzdEFuaW1hdGlvbkZyYW1lCiAgICB3aW5kb3cucmVxdWVzdEFuaW1hdGlvbkZyYW1lKCgpID0+IHsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -459,9 +458,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDw1XD4=</last-search>
+      <last-search>performancePage</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDw1XD4=</last-pattern>
+      <last-pattern>performancePage</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
