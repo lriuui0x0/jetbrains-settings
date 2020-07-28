@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDx1cmxcPg==</entry>
-        <entry encoding="base64">XDx0cmFjZURhdGFcPg==</entry>
         <entry encoding="base64">XDxwYXRoRGF0YVw+</entry>
         <entry encoding="base64">XDxQZXJmb3JtYW5jZU92ZXJ2aWV3XD4=</entry>
         <entry encoding="base64">XDxnZXRQaXBlbGluZVZhbGlkYXRpb25TdGF0dXNcPg==</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDx0ZXJtaW5hdGVcPg==</entry>
         <entry encoding="base64">XDxwaW5nSW50ZXJ2YWxcPg==</entry>
         <entry encoding="base64">XDx3c0Nvbm5cPg==</entry>
+        <entry>branch</entry>
+        <entry>branch-rule</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_Pause()</entry>
@@ -202,8 +202,8 @@
         <mark key="]" line="238" column="0" />
         <mark key="." line="238" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" timestamp="1595941885542">
-        <mark key="'" line="58" column="56" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" timestamp="1595942545339">
+        <mark key="'" line="455" column="4" />
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="0" />
         <mark key="." line="60" column="0" />
@@ -224,6 +224,9 @@
         <mark key="[" line="484" column="0" />
         <mark key="]" line="484" column="1" />
         <mark key="." line="484" column="1" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1595944335686">
+        <mark key="'" line="221" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/commit-build-performance/trace-comparison-response.json" timestamp="1595871562425">
         <mark key="'" line="79" column="12" />
@@ -266,6 +269,13 @@
         <mark key="'" line="155" column="14" />
         <mark key="[" line="61" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" timestamp="1595944306681">
+        <mark key="'" line="123" column="38" />
+        <mark key="[" line="17" column="31" />
+        <mark key="]" line="17" column="62" />
+        <mark key="^" line="17" column="62" />
+        <mark key="." line="17" column="61" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" timestamp="1595871015856">
         <mark key="[" line="438" column="136" />
         <mark key="]" line="438" column="137" />
@@ -281,23 +291,11 @@
       <file name="/fragment.java" timestamp="1595869400069">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/yaml/AutomationYaml.java" timestamp="1595944136039">
+        <mark key="'" line="92" column="4" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="128" column="53" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="153" column="69" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="177" column="49" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="181" column="41" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="185" column="46" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="189" column="52" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="191" column="64" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="196" column="59" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="200" column="53" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="202" column="57" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="204" column="60" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="209" column="69" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="213" column="53" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="215" column="52" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="217" column="55" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="219" column="56" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="224" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="155" column="14" filename="$USER_HOME$/GraknLabs/grabl/pages/PerformanceAnalysis/charts/MultiIterationTrendChart.vue" />
@@ -383,6 +381,21 @@
       <jump line="50" column="214" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
       <jump line="61" column="13" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
       <jump line="58" column="56" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
+      <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
+      <jump line="455" column="4" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
+      <jump line="183" column="12" filename="$USER_HOME$/GraknLabs/grabl/automation/yaml/AutomationYaml.java" />
+      <jump line="45" column="90" filename="$USER_HOME$/GraknLabs/grabl/automation/yaml/AutomationYaml.java" />
+      <jump line="92" column="4" filename="$USER_HOME$/GraknLabs/grabl/automation/yaml/AutomationYaml.java" />
+      <jump line="22" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" />
+      <jump line="18" column="89" filename="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" />
+      <jump line="24" column="108" filename="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" />
+      <jump line="46" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" />
+      <jump line="123" column="38" filename="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" />
+      <jump line="3" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="106" column="17" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="218" column="17" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="219" column="17" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="221" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -397,7 +410,7 @@
         <text>info</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx3c0Nvbm5cPg==</text>
+        <text>branch-rule</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBAcGF0aENoYW5nZT0idXBkYXRlUGF0aFRyZWUgPT4gaGFuZGxlUXVlcnlDaGFuZ2UodXBkYXRlUGF0aFRyZWUsICd0cmFjZS5wYXRoJykiCg==</text>
@@ -462,9 +475,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx3c0Nvbm5cPg==</last-search>
+      <last-search>branch-rule</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx3c0Nvbm5cPg==</last-pattern>
+      <last-pattern>branch-rule</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxyZW5kZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
