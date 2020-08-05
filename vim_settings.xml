@@ -29,7 +29,6 @@
         <entry encoding="base64">XDxhZGRNZW1iZXJcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>d</entry>
         <entry>w'</entry>
         <entry>wk</entry>
         <entry>w;</entry>
@@ -49,6 +48,7 @@
         <entry>vs</entry>
         <entry>q</entry>
         <entry>w</entry>
+        <entry>let @/ = &quot;&quot;</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -251,12 +251,12 @@
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Team.java" timestamp="1596632662821">
         <mark key="'" line="97" column="93" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1596634709554">
-        <mark key="'" line="149" column="0" />
-        <mark key="[" line="254" column="16" />
-        <mark key="]" line="254" column="17" />
-        <mark key="." line="254" column="16" />
-        <mark key="^" line="254" column="17" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1596640107409">
+        <mark key="'" line="173" column="0" />
+        <mark key="[" line="200" column="4" />
+        <mark key="]" line="201" column="0" />
+        <mark key="." line="201" column="0" />
+        <mark key="^" line="201" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" timestamp="1596554906734">
         <mark key="'" line="41" column="59" />
@@ -298,27 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="69" column="8" filename="$USER_HOME$/GraknLabs/grabl/event/github/Router.java" />
-      <jump line="65" column="59" filename="$USER_HOME$/GraknLabs/grabl/event/github/Router.java" />
-      <jump line="69" column="0" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="195" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
-      <jump line="159" column="136" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
-      <jump line="67" column="49" filename="$USER_HOME$/GraknLabs/grabl/event/github/Organisation.java" />
-      <jump line="106" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="185" column="66" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="190" column="13" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="202" column="24" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="209" column="14" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="167" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="172" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="183" column="18" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="51" column="40" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="43" column="16" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="62" column="15" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="73" column="126" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="74" column="76" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="82" column="78" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="86" column="64" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="96" column="119" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="97" column="64" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="132" column="29" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
@@ -398,18 +377,39 @@
       <jump line="136" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="140" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="149" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="208" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="210" column="3" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="207" column="3" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="203" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="197" column="3" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="194" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="200" column="3" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="198" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="184" column="7" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="188" column="2" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="175" column="9" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="178" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="193" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="202" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="211" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="201" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="163" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="168" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="192" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="182" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="173" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHBsYXlzIGNvbW1pdC1hdXRob3JfY29tbWl0LAo=</text>
+      <register name="&quot;" type="4">
+        <text>;</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">KiAgICAgICAgICAgICAgICAgICBAbG9sc2tpIEBscml1dWkweDAKL2F1dG9tYXRpb24gICAgICAgICBAbHJpdXVpMHgwIEB2bGFkZ2FuIEB2bWF4Ci9jb21tb24gICAgICAgICAgICAgQGxyaXV1aTB4MCBAdmxhZGdhbiBAdm1heAovY29uY2VwdCAgICAgICAgICAgIEBscml1dWkweDAgQHZsYWRnYW4gQHZtYXgKL2NvbmNlcHQvc2NoZW1hICAgICBAaGFpa2FscHJpYmFkaQoK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Jg==</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxhZGRNZW1iZXJcPg==</text>
