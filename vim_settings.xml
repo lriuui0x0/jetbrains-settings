@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxwZXJzaXN0T3duZXJcPg==</entry>
         <entry encoding="base64">XDxnZXRPd25lclw+</entry>
         <entry encoding="base64">XDxsb2dnZXJcPg==</entry>
         <entry>owner-repo</entry>
@@ -27,6 +26,7 @@
         <entry>active</entry>
         <entry>ref</entry>
         <entry>repo-reference</entry>
+        <entry>getRepo</entry>
       </history-search>
       <history-cmd>
         <entry>w'</entry>
@@ -196,12 +196,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Organisation.java" timestamp="1596804514363">
-        <mark key="a" line="39" column="23" />
-        <mark key="'" line="11" column="4" />
-        <mark key="[" line="58" column="0" />
-        <mark key="]" line="58" column="0" />
-        <mark key="." line="58" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Organisation.java" timestamp="1596806221442">
+        <mark key="a" line="38" column="23" />
+        <mark key="'" line="35" column="8" />
+        <mark key="[" line="34" column="17" />
+        <mark key="]" line="34" column="17" />
+        <mark key="." line="34" column="17" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Owner.java" timestamp="1596794474731">
         <mark key="'" line="121" column="49" />
@@ -252,8 +252,15 @@
         <mark key="'" line="238" column="10" />
         <mark key="^" line="200" column="5" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/common/Github.java" timestamp="1596806191562">
+        <mark key="'" line="98" column="81" />
+        <mark key="[" line="98" column="81" />
+        <mark key="]" line="98" column="82" />
+        <mark key="^" line="98" column="82" />
+        <mark key="." line="98" column="81" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1596796234231">
-        <mark key="'" line="305" column="4" />
+        <mark key="'" line="310" column="4" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" timestamp="1596797970101">
         <mark key="'" line="110" column="93" />
@@ -276,7 +283,7 @@
         <mark key="^" line="81" column="61" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" timestamp="1596805814671">
-        <mark key="'" line="85" column="99" />
+        <mark key="'" line="81" column="99" />
         <mark key="[" line="86" column="0" />
         <mark key="]" line="86" column="62" />
         <mark key="." line="86" column="0" />
@@ -314,10 +321,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="68" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="127" column="78" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="67" column="73" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="63" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="85" column="45" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="66" column="33" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="43" column="64" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
@@ -336,7 +339,6 @@
       <jump line="45" column="35" filename="$USER_HOME$/GraknLabs/grabl/event/github/test/TeamTest.java" />
       <jump line="83" column="81" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="34" column="103" filename="$USER_HOME$/GraknLabs/grabl/common/Http.java" />
-      <jump line="98" column="4" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="92" column="18" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="137" column="36" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="140" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
@@ -414,12 +416,17 @@
       <jump line="66" column="71" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
       <jump line="76" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
       <jump line="61" column="69" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
+      <jump line="69" column="8" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
+      <jump line="89" column="19" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
+      <jump line="98" column="81" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
+      <jump line="30" column="18" filename="$USER_HOME$/GraknLabs/grabl/concept/Organisation.java" />
+      <jump line="35" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/Organisation.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBHaXRIdWIgZ2l0aHViID0gbmV3IEdpdEh1YkJ1aWxkZXIoKS53aXRoT0F1dGhUb2tlbih0b2tlbikuYnVpbGQoKTsKICAgICAgICBHSE15c2VsZiB1c2VyID0gZ2l0aHViLmdldE15c2VsZigpOwoK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="+" type="4">
         <text>https://developer.github.com/v3/activity/events/types/#teamevent</text>
@@ -428,10 +435,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>organization.getLogin()</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>repo-reference</text>
+        <text>getRepo</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -501,9 +508,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>repo-reference</last-search>
+      <last-search>getRepo</last-search>
       <last-offset />
-      <last-pattern>repo-reference</last-pattern>
+      <last-pattern>getRepo</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>design</last-substitute>
       <last-dir>1</last-dir>
