@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>repo-owner</entry>
         <entry>branch sub entity</entry>
         <entry>repo-team</entry>
         <entry encoding="base64">XDxwcm9jZXNzQ2hhbmdlZERlc2NyaXB0aW9uXD4=</entry>
@@ -27,6 +26,7 @@
         <entry>heads</entry>
         <entry encoding="base64">XDxoZWFkc1w+</entry>
         <entry>collaborator</entry>
+        <entry>repo-owner</entry>
       </history-search>
       <history-cmd>
         <entry>w'</entry>
@@ -243,6 +243,13 @@
         <mark key="^" line="76" column="40" />
         <mark key="." line="78" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" timestamp="1596819849738">
+        <mark key="'" line="310" column="35" />
+        <mark key="[" line="310" column="126" />
+        <mark key="]" line="310" column="132" />
+        <mark key="^" line="310" column="132" />
+        <mark key="." line="310" column="131" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/OwnerSettings.java" timestamp="1596797502914">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="116" column="0" />
@@ -312,13 +319,6 @@
         <mark key="." line="35" column="104" />
         <mark key="^" line="34" column="27" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/event/github/test/RepositoryTest.java" timestamp="1596728521238">
-        <mark key="'" line="257" column="0" />
-        <mark key="[" line="76" column="113" />
-        <mark key="]" line="76" column="137" />
-        <mark key="^" line="76" column="137" />
-        <mark key="." line="76" column="136" />
-      </file>
       <file name="/fragment.java" timestamp="1596812600244">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="10" />
@@ -327,12 +327,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="164" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="168" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="220" column="75" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
-      <jump line="230" column="8" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
-      <jump line="197" column="53" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
-      <jump line="218" column="8" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
       <jump line="87" column="25" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="85" column="94" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="84" column="21" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
@@ -427,12 +421,18 @@
       <jump line="174" column="137" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="168" column="81" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="172" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
+      <jump line="287" column="86" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="308" column="76" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="283" column="68" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="286" column="68" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="305" column="76" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
+      <jump line="310" column="35" filename="$USER_HOME$/GraknLabs/grabl/service/Navigation.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgCgo=</text>
+      <register name="&quot;" type="4">
+        <text>false</text>
       </register>
       <register name="+" type="4">
         <text>https://github.com/%s.keys</text>
@@ -441,10 +441,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>, token</text>
+        <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>collaborator</text>
+        <text>repo-owner</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -514,9 +514,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>collaborator</last-search>
+      <last-search>repo-owner</last-search>
       <last-offset />
-      <last-pattern>collaborator</last-pattern>
+      <last-pattern>repo-owner</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>design</last-substitute>
       <last-dir>1</last-dir>
