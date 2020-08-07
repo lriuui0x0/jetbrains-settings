@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>install</entry>
         <entry>installation-id</entry>
         <entry encoding="base64">XDxpbnN0YWxsYXRpb25cPg==</entry>
         <entry>GH</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxURUFNX0FEREVEX1RPX1JFUE9cPg==</entry>
         <entry>team-member</entry>
         <entry>get</entry>
+        <entry>permission</entry>
       </history-search>
       <history-cmd>
         <entry>w'</entry>
@@ -245,8 +245,8 @@
         <mark key="." line="138" column="33" />
         <mark key="^" line="138" column="34" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1596728626679">
-        <mark key="'" line="90" column="10" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1596789732679">
+        <mark key="'" line="164" column="8" />
         <mark key="^" line="200" column="5" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/common/Github.java" timestamp="1596733451786">
@@ -256,7 +256,7 @@
         <mark key="." line="105" column="25" />
         <mark key="^" line="105" column="26" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1596716090525">
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1596789902658">
         <mark key="'" line="299" column="36" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" timestamp="1596736298431">
@@ -326,7 +326,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="239" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="211" column="16" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="72" column="12" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="74" column="12" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
@@ -391,7 +390,6 @@
       <jump line="73" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="74" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
       <jump line="69" column="153" filename="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" />
-      <jump line="164" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="177" column="9" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="90" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="159" column="128" filename="$USER_HOME$/GraknLabs/grabl/event/github/test/TeamTest.java" />
@@ -426,6 +424,8 @@
       <jump line="131" column="27" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="133" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="104" column="13" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="164" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -443,7 +443,7 @@
         <text>repoSymbol</text>
       </register>
       <register name="/" type="4">
-        <text>get</text>
+        <text>permission</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -513,9 +513,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>get</last-search>
+      <last-search>permission</last-search>
       <last-offset />
-      <last-pattern>get</last-pattern>
+      <last-pattern>permission</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>design</last-substitute>
       <last-dir>1</last-dir>
