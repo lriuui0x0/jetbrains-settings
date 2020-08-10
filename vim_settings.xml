@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>getRepo</entry>
         <entry>commit-link</entry>
         <entry encoding="base64">XDxoZWFkc1w+</entry>
         <entry>collaborator</entry>
@@ -27,6 +26,7 @@
         <entry>commit-perv</entry>
         <entry>commit-prev</entry>
         <entry>commit sub entity</entry>
+        <entry>pipeline-automation_branch</entry>
       </history-search>
       <history-cmd>
         <entry>w'</entry>
@@ -206,13 +206,6 @@
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Job.java" timestamp="1597050984529">
         <mark key="'" line="91" column="12" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Commit/common/components/Summary.vue" timestamp="1596813682270">
-        <mark key="'" line="5" column="70" />
-        <mark key="[" line="5" column="109" />
-        <mark key="]" line="5" column="114" />
-        <mark key="^" line="5" column="114" />
-        <mark key="." line="5" column="113" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1597066097631">
         <mark key="'" line="68" column="106" />
         <mark key="[" line="72" column="73" />
@@ -275,8 +268,8 @@
         <mark key="." line="59" column="0" />
         <mark key="^" line="58" column="92" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1597074641793">
-        <mark key="'" line="56" column="4" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1597078707243">
+        <mark key="'" line="240" column="10" />
         <mark key="^" line="200" column="5" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" timestamp="1597072882567">
@@ -300,6 +293,12 @@
         <mark key="." line="177" column="100" />
         <mark key="^" line="177" column="101" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Pipeline.java" timestamp="1597079027704">
+        <mark key="[" line="38" column="24" />
+        <mark key="]" line="38" column="29" />
+        <mark key="." line="38" column="28" />
+        <mark key="^" line="38" column="29" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" timestamp="1597068805592">
         <mark key="'" line="81" column="99" />
         <mark key="[" line="14" column="20" />
@@ -322,8 +321,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="196" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
-      <jump line="204" column="21" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="205" column="112" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="203" column="24" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="217" column="0" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
@@ -422,12 +419,14 @@
       <jump line="110" column="43" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="125" column="24" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="56" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="298" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="240" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">V2Ug</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAocGlwZWxpbmUuZ2V0TmFtZSgpLmVxdWFscygicmVsZWFzZSIpKSB7Cg==</text>
       </register>
       <register name="+" type="4">
         <text>https://developer.github.com/v3/activity/events/types/#repositoryevent</text>
@@ -439,18 +438,18 @@
         <text encoding="base64">V2Ug</text>
       </register>
       <register name="/" type="4">
-        <text>commit sub entity</text>
+        <text>pipeline-automation_branch</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0cnkgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgR3Jha25DbGllbnQuU2Vzc2lvbiBncmFrblNlc3Npb24gPSBncmFrbkNsaWVudC5zZXNzaW9uKGtleXNwYWNlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEdyYWtuQ2xpZW50LlRyYW5zYWN0aW9uIHR4ID0gZ3Jha25TZXNzaW9uLnRyYW5zYWN0aW9uKCkucmVhZCgpCiAgICAgICAgICAgICAgICAgICAgKSB7Cg==</text>
+      <register name="0" type="4">
+        <text>&quot;is-approved&quot;, false</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdXRvbWF0aW9uTWFuYWdlci5ydW4oY29tbWl0KTsK</text>
+        <text encoding="base64">ICAgICAgICBpZiAocGlwZWxpbmUuZ2V0TmFtZSgpLmVxdWFscygicmVsZWFzZSIpKSB7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -479,28 +478,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0eC5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgIG1hdGNoKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCJjb21taXQiKS5pc2EoImNvbW1pdCIpLmhhcygic3ltYm9sIiwgcGlwZWxpbmUuZ2V0Q29tbWl0KCkudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICApLmluc2VydCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcigicGlwZWxpbmUtYXV0b21hdGlvbiIpLmlzYSgicGlwZWxpbmUtYXV0b21hdGlvbiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoInBpcGVsaW5lLWF1dG9tYXRpb25fcGlwZWxpbmUiLCAicGlwZWxpbmUiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJwaXBlbGluZS1hdXRvbWF0aW9uX3RyaWdnZXIiLCAiY29tbWl0IiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXIoInBpcGVsaW5lIikuaXNhKCJwaXBlbGluZSIpLmhhcygic3ltYm9sIiwgcGlwZWxpbmUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygicnVuIiwgcGlwZWxpbmUuZ2V0UnVuKCkpLmhhcygibmFtZSIsIHBpcGVsaW5lLmdldE5hbWUoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygic3RhdHVzIiwgIndhaXRpbmciKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJpbmRleCIsIGluZGV4KQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgT3B0aW9uYWw8U3RyaW5nPiBhdXRvbWF0aW9uWW1sID0gZ2V0QXV0b21hdGlvblltbEdpdGh1YihnaXRIdWJCdWlsZGVyLCBjb21taXQsIGxvZ2dlcik7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhdXRvbWF0aW9uWW1sLmlzUHJlc2VudCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiYXV0b21hdGlvbi55bWwgZm91bmQuIHRoZSBmaWxlIHdpbGwgYmUgcGVyc2lzdGVkLiIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JhYmwuY29uY2VwdC5Db21taXQuYWRkRmlsZSh0eCwgY29tbWl0LCAiYXV0b21hdGlvbi55bWwiLCBhdXRvbWF0aW9uWW1sLmdldCgpKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJhdXRvbWF0aW9uLnltbCBkb2VzIG5vdCBleGlzdCBpbiB0aGlzIGNvbW1pdC4iKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGF1dG9tYXRpb25ZbWwuaXNQcmVzZW50KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJzdGFydGluZyBhbiBhdXRvbWF0aW9uIHJ1bi4uLiIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXV0b21hdGlvbk1hbmFnZXIucnVuKGNvbW1pdCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiYXV0b21hdGlvbiBleGVjdXRpb24gd2lsbCBiZSBza2lwcGVkLiIpOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhcigicGlwZWxpbmUiKS5pc2EoInBpcGVsaW5lLXJlbGVhc2UiKS5oYXMoInN5bWJvbCIsIHBpcGVsaW5lLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXMoInJ1biIsIHBpcGVsaW5lLmdldFJ1bigpKS5oYXMoIm5hbWUiLCBwaXBlbGluZS5nZXROYW1lKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXMoInN0YXR1cyIsICJ3YWl0aW5nIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygiaXMtYXBwcm92ZWQiLCBmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygiaW5kZXgiLCBpbmRleCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiY29tbWl0cyBwZXJzaXN0ZWQuIik7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdHguY29tbWl0KCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJjb21taXQgZGF0YSBwZXJzaXN0ZWQuIik7Cgo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygiaXMtYXBwcm92ZWQiLCBmYWxzZSkK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdXRvbWF0aW9uTWFuYWdlci5ydW4oY29tbWl0KTsK</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oImNvbW1pdCB7fSBhbHJlYWR5IGV4aXN0IiwgY29tbWl0KTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGdyYWJsLmNvbmNlcHQuQ29tbWl0LmV4aXN0cyh0eCwgY29tbWl0KSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oImNvbW1pdCB7fSBhbHJlYWR5IGV4aXN0IiwgY29tbWl0KTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgT3B0aW9uYWw8U3RyaW5nPiBhdXRvbWF0aW9uWW1sID0gZ2V0QXV0b21hdGlvblltbEdpdGh1YihnaXRIdWJCdWlsZGVyLCBjb21taXQsIGxvZ2dlcik7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhdXRvbWF0aW9uWW1sLmlzUHJlc2VudCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiYXV0b21hdGlvbi55bWwgZm91bmQuIHRoZSBmaWxlIHdpbGwgYmUgcGVyc2lzdGVkLiIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JhYmwuY29uY2VwdC5Db21taXQuYWRkRmlsZSh0eCwgY29tbWl0LCAiYXV0b21hdGlvbi55bWwiLCBhdXRvbWF0aW9uWW1sLmdldCgpKTsKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJhdXRvbWF0aW9uLnltbCBkb2VzIG5vdCBleGlzdCBpbiB0aGlzIGNvbW1pdC4iKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGF1dG9tYXRpb25ZbWwuaXNQcmVzZW50KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKCJzdGFydGluZyBhbiBhdXRvbWF0aW9uIHJ1bi4uLiIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXV0b21hdGlvbk1hbmFnZXIucnVuKGNvbW1pdCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiYXV0b21hdGlvbiBleGVjdXRpb24gd2lsbCBiZSBza2lwcGVkLiIpOwogICAgICAgICAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5bWJvbC5SZWYgYnJhbmNoID0gCg==</text>
+        <text encoding="base64">ICAgICAgICBsb2dnZXIuaW5mbygiY29tbWl0cyBwZXJzaXN0ZWQuIik7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -509,9 +508,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>commit sub entity</last-search>
+      <last-search>pipeline-automation_branch</last-search>
       <last-offset />
-      <last-pattern>commit sub entity</last-pattern>
+      <last-pattern>pipeline-automation_branch</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>design</last-substitute>
       <last-dir>1</last-dir>
