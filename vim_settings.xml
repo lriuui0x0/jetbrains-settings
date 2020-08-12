@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxERUxFVEVEX0JSQU5DSF9DT01NSVRfU0hBXD4=</entry>
         <entry>trigger</entry>
         <entry>pipeline-automation_trigger</entry>
         <entry encoding="base64">XDxjb21taXRcPg==</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDx3b3JrZmxvd1w+</entry>
         <entry encoding="base64">XDxydW5uaW5nXD4=</entry>
         <entry>report</entry>
+        <entry encoding="base64">XDxlcnJvclw+</entry>
       </history-search>
       <history-cmd>
         <entry>w'</entry>
@@ -241,12 +241,12 @@
         <mark key="^" line="56" column="27" />
         <mark key="." line="56" column="26" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1597229151577">
-        <mark key="'" line="207" column="69" />
-        <mark key="[" line="210" column="16" />
-        <mark key="]" line="210" column="16" />
-        <mark key="^" line="208" column="24" />
-        <mark key="." line="210" column="16" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1597230697825">
+        <mark key="'" line="210" column="32" />
+        <mark key="[" line="207" column="0" />
+        <mark key="]" line="208" column="84" />
+        <mark key="^" line="210" column="80" />
+        <mark key="." line="207" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1597163818454">
         <mark key="'" line="737" column="4" />
@@ -298,12 +298,12 @@
         <mark key="." line="39" column="17" />
         <mark key="^" line="39" column="18" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" timestamp="1597228871552">
-        <mark key="'" line="286" column="0" />
-        <mark key="[" line="226" column="55" />
-        <mark key="]" line="226" column="62" />
-        <mark key="^" line="226" column="62" />
-        <mark key="." line="226" column="61" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" timestamp="1597230716345">
+        <mark key="'" line="221" column="81" />
+        <mark key="[" line="215" column="0" />
+        <mark key="]" line="216" column="92" />
+        <mark key="^" line="221" column="82" />
+        <mark key="." line="215" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/test/PipelineTest.java" timestamp="1597165726963">
         <mark key="'" line="66" column="38" />
@@ -320,9 +320,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="91" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
-      <jump line="238" column="7" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
-      <jump line="194" column="58" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
       <jump line="226" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
       <jump line="259" column="26" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
       <jump line="276" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
@@ -420,12 +417,15 @@
       <jump line="235" column="16" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
       <jump line="233" column="48" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
       <jump line="288" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
+      <jump line="210" column="32" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="222" column="83" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
+      <jump line="221" column="81" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">aWYgKHN0YXR1c0J5TmFtZS5jb250YWluc1ZhbHVlKCJlcnJvciIpKSB7CiAgICAgICAgICAgICAgICA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuV29ya2Zsb3cuZ2V0V29ya2Zsb3dzQnlTdGF0dXModHgsIHBpcGVsaW5lLCAiZXJyb3IiKQogICAgICAgICAgICAgICAgICAgICAgICAuZm9yRWFjaCh3b3JrZmxvdyAtPiBzdGF0dXNCeU5hbWUucHV0KHdvcmtmbG93LmdldE5hbWUoKSwgImVycm9yIikpOwo=</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">cGlwZWxpbmUtYXV0b21hdGlvbiBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIHBpcGVsaW5lLWF1dG9tYXRpb25fcGlwZWxpbmUsCiAgICByZWxhdGVzIHBpcGVsaW5lLWF1dG9tYXRpb25fdHJpZ2dlciwKICAgIHJlbGF0ZXMgcGlwZWxpbmUtYXV0b21hdGlvbl9icmFuY2g7Cg==</text>
@@ -434,21 +434,21 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>running</text>
+        <text>error</text>
       </register>
       <register name="/" type="4">
-        <text>report</text>
+        <text encoding="base64">XDxlcnJvclw+</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>statusByName.containsValue(&quot;running&quot;)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuV29ya2Zsb3cuZ2V0V29ya2Zsb3dzQnlTdGF0dXModHgsIHBpcGVsaW5lLCAiZXJyb3IiKQogICAgICAgICAgICAgICAgICAgICAgICAuZm9yRWFjaCh3b3JrZmxvdyAtPiBzdGF0dXNCeU5hbWUucHV0KHdvcmtmbG93LmdldE5hbWUoKSwgImVycm9yIikpOwo=</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">aWYgKHN0YXR1c0J5TmFtZS5jb250YWluc1ZhbHVlKCJlcnJvciIpKSB7CiAgICAgICAgICAgICAgICA=</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuV29ya2Zsb3cuZ2V0V29ya2Zsb3dzQnlTdGF0dXModHgsIHBpcGVsaW5lLCAiZXJyb3IiKQogICAgICAgICAgICAgICAgICAgICAgICAuZm9yRWFjaCh3b3JrZmxvdyAtPiBzdGF0dXNCeU5hbWUucHV0KHdvcmtmbG93LmdldE5hbWUoKSwgImVycm9yIikpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -477,28 +477,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN0cmluZyBzdGF0dXM7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuSm9iLmdldEpvYnNCeVN0YXR1cyh0eCwgd29ya2Zsb3csICJydW5uaW5nIikKICAgICAgICAgICAgICAgICAgICAgICAgLmZvckVhY2goam9iIC0+IHN0YXR1c0J5TmFtZS5wdXQoam9iLmdldE5hbWUoKSwgInJ1bm5pbmciKSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuSm9iLmdldEpvYnNCeVN0YXR1cyh0eCwgd29ya2Zsb3csICJ3YWl0aW5nIikKICAgICAgICAgICAgICAgICAgICAgICAgLmZvckVhY2goam9iIC0+IHN0YXR1c0J5TmFtZS5wdXQoam9iLmdldE5hbWUoKSwgIndhaXRpbmciKSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFNldDxTeW1ib2wuV29ya2Zsb3c+IGVycm9yID0gZ3JhYmwuY29uY2VwdC5Xb3JrZmxvdy5nZXRXb3JrZmxvd3NCeVN0YXR1cyh0eCwgcGlwZWxpbmUsICJlcnJvciIpOwogICAgICAgICAgICAgICAgU2V0PFN5bWJvbC5Xb3JrZmxvdz4gcnVubmluZyA9IGdyYWJsLmNvbmNlcHQuV29ya2Zsb3cuZ2V0V29ya2Zsb3dzQnlTdGF0dXModHgsIHBpcGVsaW5lLCAicnVubmluZyIpOwogICAgICAgICAgICAgICAgU2V0PFN5bWJvbC5Xb3JrZmxvdz4gd2FpdGluZyA9IGdyYWJsLmNvbmNlcHQuV29ya2Zsb3cuZ2V0V29ya2Zsb3dzQnlTdGF0dXModHgsIHBpcGVsaW5lLCAid2FpdGluZyIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuSm9iLmdldEpvYnNCeVN0YXR1cyh0eCwgd29ya2Zsb3csICJlcnJvciIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5mb3JFYWNoKGpvYiAtPiBzdGF0dXNCeU5hbWUucHV0KGpvYi5nZXROYW1lKCksICJlcnJvciIpKTsK</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">aWYgKHN0YXR1c0J5TmFtZS5jb250YWluc1ZhbHVlKCJlcnJvciIpKSB7CiAgICAgICAgICAgICAgICA=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CgoKICAgICAgICAgICAgICAgIHdhaXRpbmcuZm9yRWFjaChqb2IgLT4gc3RhdHVzQnlOYW1lLnB1dChqb2IuZ2V0TmFtZSgpLCAid2FpdGluZyIpKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN0cmluZyBzdGF0dXM7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFNldDxTeW1ib2wuSm9iPiBydW5uaW5nID0gZ3JhYmwuY29uY2VwdC5Kb2IuZ2V0Sm9ic0J5U3RhdHVzKHR4LCB3b3JrZmxvdywgInJ1bm5pbmciKTsKICAgICAgICAgICAgICAgIFNldDxTeW1ib2wuSm9iPiBlcnJvciA9IGdyYWJsLmNvbmNlcHQuSm9iLmdldEpvYnNCeVN0YXR1cyh0eCwgd29ya2Zsb3csICJlcnJvciIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE1hcDxTdHJpbmcsIFN0cmluZz4gc3RhdHVzQnlOYW1lID0gbmV3IEhhc2hNYXA8PigpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFNldDxTeW1ib2wuV29ya2Zsb3c+IGVycm9yID0gZ3JhYmwuY29uY2VwdC5Xb3JrZmxvdy5nZXRXb3JrZmxvd3NCeVN0YXR1cyh0eCwgcGlwZWxpbmUsICJlcnJvciIpOwogICAgICAgICAgICAgICAgU2V0PFN5bWJvbC5Xb3JrZmxvdz4gcnVubmluZyA9IGdyYWJsLmNvbmNlcHQuV29ya2Zsb3cuZ2V0V29ya2Zsb3dzQnlTdGF0dXModHgsIHBpcGVsaW5lLCAicnVubmluZyIpOwogICAgICAgICAgICAgICAgU2V0PFN5bWJvbC5Xb3JrZmxvdz4gd2FpdGluZyA9IGdyYWJsLmNvbmNlcHQuV29ya2Zsb3cuZ2V0V29ya2Zsb3dzQnlTdGF0dXModHgsIHBpcGVsaW5lLCAid2FpdGluZyIpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -507,9 +507,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>report</last-search>
+      <last-search encoding="base64">XDxlcnJvclw+</last-search>
       <last-offset />
-      <last-pattern>report</last-pattern>
+      <last-pattern encoding="base64">XDxlcnJvclw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>design</last-substitute>
       <last-dir>1</last-dir>
