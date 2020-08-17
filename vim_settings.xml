@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjYWxsV2l0aFJlYWRUcmFuc2FjdGlvblw+</entry>
         <entry encoding="base64">XDxqb2JcPg==</entry>
         <entry encoding="base64">XDxqb2JzXD4=</entry>
         <entry encoding="base64">XDx3b3JrZmxvd1w+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxsb2dGaWxlXD4=</entry>
         <entry encoding="base64">XDxleGVjdXRlU2NyaXB0XD4=</entry>
         <entry>assertOwner</entry>
+        <entry>execute</entry>
       </history-search>
       <history-cmd>
         <entry>w'</entry>
@@ -47,8 +47,8 @@
         <entry>:w</entry>
         <entry>w\</entry>
         <entry>vs</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -244,8 +244,8 @@
         <mark key="]" line="91" column="0" />
         <mark key="." line="91" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1597678504160">
-        <mark key="'" line="196" column="16" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1597679708377">
+        <mark key="'" line="241" column="20" />
         <mark key="[" line="1037" column="114" />
         <mark key="]" line="1037" column="114" />
         <mark key="." line="1037" column="114" />
@@ -313,21 +313,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="193" column="4" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="175" column="40" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="176" column="79" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="187" column="38" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="188" column="35" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="180" column="4" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="172" column="81" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="181" column="0" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="169" column="0" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="1532" column="4" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="1513" column="4" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="1504" column="81" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="1461" column="116" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="1390" column="138" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
-      <jump line="15" column="29" filename="$USER_HOME$/GraknLabs/grabl/pages/Workflow/type/Performance.vue" />
       <jump line="18" column="29" filename="$USER_HOME$/GraknLabs/grabl/pages/Workflow/type/Performance.vue" />
       <jump line="74" column="100" filename="$USER_HOME$/GraknLabs/grabl/pages/Workflow/type/Performance.vue" />
       <jump line="78" column="6" filename="$USER_HOME$/GraknLabs/grabl/pages/Workflow/type/Performance.vue" />
@@ -413,6 +398,21 @@
       <jump line="84" column="61" filename="$USER_HOME$/GraknLabs/grabl/pages/common/hocs/withWsConn.js" />
       <jump line="88" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/common/hocs/withWsConn.js" />
       <jump line="196" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="915" column="12" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="952" column="17" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="185" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="195" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="206" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="208" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="210" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="212" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="223" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="225" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="227" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="229" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="231" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="256" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="241" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -430,7 +430,7 @@
         <text encoding="base64">IG9yZ2FuaXNhdGlvbg==</text>
       </register>
       <register name="/" type="4">
-        <text>assertOwner</text>
+        <text>execute</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -494,15 +494,15 @@
         <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgaW50IEVSUk9SX0NPREVfTk9UX0ZPVU5EID0gNDA0OwoK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>assertOwner</last-search>
+      <last-search>execute</last-search>
       <last-offset />
-      <last-pattern>assertOwner</last-pattern>
+      <last-pattern>execute</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>design</last-substitute>
       <last-dir>1</last-dir>
