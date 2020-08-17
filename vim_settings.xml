@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxhbGxBbmFseXNpc1w+</entry>
         <entry encoding="base64">XDx0eFw+</entry>
         <entry>ownerDisplayName</entry>
         <entry>notifier</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxjYWxsV2l0aFJlYWRUcmFuc2FjdGlvblw+</entry>
         <entry encoding="base64">XDxwYXJlbnRcPg==</entry>
         <entry>circle</entry>
+        <entry>ssh</entry>
       </history-search>
       <history-cmd>
         <entry>wk</entry>
@@ -196,12 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/design/service/automation/automation-job-single-response.json" timestamp="1597398327688">
-        <mark key="'" line="5" column="10" />
-        <mark key="[" line="65" column="0" />
-        <mark key="]" line="65" column="0" />
-        <mark key="." line="65" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/Commit/index.vue" timestamp="1597678088498">
         <mark key="'" line="99" column="4" />
         <mark key="[" line="102" column="6" />
@@ -210,13 +204,16 @@
         <mark key="^" line="36" column="53" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/.bazelrc" timestamp="1597683723299">
-        <mark key="[" line="15" column="41" />
-        <mark key="]" line="15" column="31" />
-        <mark key="^" line="15" column="31" />
-        <mark key="." line="15" column="30" />
+        <mark key="[" line="14" column="41" />
+        <mark key="]" line="14" column="31" />
+        <mark key="^" line="14" column="31" />
+        <mark key="." line="14" column="30" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/.circleci/config.yml" timestamp="1597662364314">
         <mark key="'" line="45" column="12" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" timestamp="1597685073500">
+        <mark key="'" line="251" column="29" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1597662505468">
         <mark key="'" line="194" column="49" />
@@ -279,6 +276,12 @@
       <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1597673253918">
         <mark key="'" line="130" column="29" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/machine/install.sh" timestamp="1597685460785">
+        <mark key="[" line="12" column="9" />
+        <mark key="]" line="12" column="101" />
+        <mark key="." line="12" column="76" />
+        <mark key="^" line="12" column="77" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Status.java" timestamp="1597668992928">
         <mark key="'" line="2" column="20" />
         <mark key="[" line="10" column="22" />
@@ -308,7 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="205" column="37" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
       <jump line="342" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
       <jump line="89" column="123" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Release.java" />
       <jump line="99" column="86" filename="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" />
@@ -408,24 +410,25 @@
       <jump line="188" column="9" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="184" column="31" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
       <jump line="171" column="54" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
+      <jump line="251" column="29" filename="$USER_HOME$/GraknLabs/grabl/notifier/Notifier.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">LCA=</text>
+        <text>https://raw.githubusercontent.com/graknlabs/dependencies/grabl-image/tool/bazelinstall/rbe.sh</text>
       </register>
-      <register name="+" type="2">
-        <text encoding="base64">cGlwZWxpbmUtYXV0b21hdGlvbiBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIHBpcGVsaW5lLWF1dG9tYXRpb25fcGlwZWxpbmUsCiAgICByZWxhdGVzIHBpcGVsaW5lLWF1dG9tYXRpb25fdHJpZ2dlciwKICAgIHJlbGF0ZXMgcGlwZWxpbmUtYXV0b21hdGlvbl9icmFuY2g7Cg==</text>
+      <register name="+" type="4">
+        <text>https://raw.githubusercontent.com/graknlabs/dependencies/grabl-image/tool/bazelinstall/rbe.sh</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LCA=</text>
+        <text>master</text>
       </register>
       <register name="/" type="4">
-        <text>circle</text>
+        <text>ssh</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -495,9 +498,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>circle</last-search>
+      <last-search>ssh</last-search>
       <last-offset />
-      <last-pattern>circle</last-pattern>
+      <last-pattern>ssh</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute>design</last-substitute>
       <last-dir>1</last-dir>
