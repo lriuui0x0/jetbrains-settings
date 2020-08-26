@@ -204,8 +204,8 @@
         <mark key="." line="137" column="28" />
         <mark key="^" line="137" column="29" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Job.java" timestamp="1598456138183">
-        <mark key="'" line="215" column="41" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Job.java" timestamp="1598457862135">
+        <mark key="'" line="175" column="4" />
         <mark key="[" line="81" column="0" />
         <mark key="]" line="81" column="0" />
         <mark key="." line="81" column="0" />
@@ -254,6 +254,12 @@
         <mark key="]" line="76" column="59" />
         <mark key="." line="76" column="55" />
         <mark key="^" line="76" column="56" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" timestamp="1598457928405">
+        <mark key="[" line="183" column="0" />
+        <mark key="]" line="183" column="0" />
+        <mark key="." line="183" column="0" />
+        <mark key="^" line="188" column="20" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Owner.java" timestamp="1598444031276">
         <mark key="'" line="8" column="20" />
@@ -306,8 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="66" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="531" column="13" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="76" column="9" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="77" column="18" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="82" column="66" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
@@ -406,12 +410,14 @@
       <jump line="50" column="31" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/theHeader.vue" />
       <jump line="85" column="31" filename="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/theHeader.vue" />
       <jump line="223" column="41" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
+      <jump line="175" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
+      <jump line="188" column="5" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>Refresh</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxQYXR0ZXJuPiBwYXR0ZXJucyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7CiAgICAgICAgICAgIHBhdHRlcm5zLmFkZCgpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7Cg==</text>
       </register>
       <register name="+" type="2">
         <text>match
@@ -424,7 +430,7 @@ get $name;</text>
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>Refresh</text>
+        <text>var(&quot;user&quot;).isa(&quot;user&quot;).has(&quot;name&quot;, userOpt.get())</text>
       </register>
       <register name="/" type="4">
         <text>getIp</text>
@@ -438,7 +444,7 @@ get $name;</text>
         <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgU2V0PFN5bWJvbC5Kb2I+IGdldEpvYnNCeVN0YXR1cyhHcmFrbkNsaWVudC5UcmFuc2FjdGlvbiB0eCwgU3ltYm9sLldvcmtmbG93IHdvcmtmbG93LCBTdHJpbmcgc3RhdHVzKSB7CiAgICAgICAgR3JhcWxHZXQuVW5maWx0ZXJlZCBxdWVyeSA9IG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJ3b3JrZmxvdyIpLmlzYSgid29ya2Zsb3ciKS5oYXMoInN5bWJvbCIsIHdvcmtmbG93LnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJ3b3JrZmxvdy1qb2IiKQogICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJ3b3JrZmxvdy1qb2Jfd29ya2Zsb3ciLCB2YXIoIndvcmtmbG93IikpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoIndvcmtmbG93LWpvYl9qb2IiLCB2YXIoImpvYiIpKSwKICAgICAgICAgICAgICAgIHZhcigiam9iIikKICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygibmFtZSIsIHZhcigibmFtZSIpKQogICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJydW4iLCB2YXIoInJ1biIpKQogICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJzdGF0dXMiLCBzdGF0dXMpCiAgICAgICAgKS5nZXQoKTsKICAgICAgICByZXR1cm4gdHguc3RyZWFtKHF1ZXJ5KS5nZXQoKQogICAgICAgICAgICAgICAgLm1hcChjb25jZXB0TWFwIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIG5ldyBTeW1ib2wuSm9iKHdvcmtmbG93LCBjb25jZXB0TWFwLmdldCgibmFtZSIpLjxTdHJpbmc+YXNBdHRyaWJ1dGUoKS52YWx1ZSgpLCBjb25jZXB0TWFwLmdldCgicnVuIikuPExvbmc+YXNBdHRyaWJ1dGUoKS52YWx1ZSgpKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b1NldCgpKTsKICAgIH0KCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLiRyb3V0ZXIuZ28oMCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxQYXR0ZXJuPiBwYXR0ZXJucyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7CiAgICAgICAgICAgIHBhdHRlcm5zLmFkZCgpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -467,28 +473,29 @@ get $name;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBOT1RFOiBSZWZyZXNoIHRoZSBwYWdlIHNpbmNlIHdlIG1pZ2h0IG5vdyBoYXZlIGRpZmZlcmVudCBwZXJtaXNzaW9ucyBhbmQgY2FuIHNlZSBkaWZmZXJlbnQgY29udGVudAo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICB3aW5kb3cubG9jYXRpb24ucmVsb2FkKCk7Cg==</text>
+      <register name="3" type="4">
+        <text>var().isa(&quot;repo-collaborator&quot;).has(&quot;permission&quot;, &quot;read&quot;)
+                    .rel(&quot;repo-collaborator_collaborator&quot;, var(&quot;user&quot;)).rel(&quot;repo-collaborator_repo&quot;, var(&quot;repo&quot;))</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBicm93c2VyLmNvb2tpZXMucmVtb3ZlKCdHaXRodWJUb2tlbicpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgpCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLiRyb3V0ZXIuZ28oMCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAvLyBOT1RFOiBSZWZyZXNoIHRoZSBwYWdlIHNpbmNlIHdlIG1pZ2h0IG5vdyBoYXZlIGRpZmZlcmVudCBwZXJtaXNzaW9ucyBhbmQgY2FuIHNlZSBkaWZmZXJlbnQgY29udGVudAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB3c0V2ZW50QnVzLiRlbWl0KCd3c1JlcXVlc3QnLCAnbG9nb3V0Jyk7Cg==</text>
+        <text encoding="base64">ICB3aW5kb3cubG9jYXRpb24ucmVsb2FkKCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmIChkYXRhLnN0YXR1cy5jb2RlID09PSBTVEFUVVMuQ09ERV9FUlJPUikgewogICAgICAgICAgICB0aGlzLiRub3RpZnlFcnJvcihkYXRhLnN0YXR1cy5tZXNzYWdlKTsKICAgICAgICAgICAgdGhpcy5zaG91bGRSZWNvbm5lY3QgPSBmYWxzZTsKICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBicm93c2VyLmNvb2tpZXMucmVtb3ZlKCdHaXRodWJUb2tlbicpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmIChkYXRhLnN0YXR1cy5jb2RlID09PSBTVEFUVVMuQ09ERV9OT1RfRk9VTkQpIHsKICAgICAgICAgICAgdGhpcy4kbm90aWZ5RXJyb3IoJ3BhZ2Ugbm90IGZvdW5kJyk7CiAgICAgICAgICAgIHRoaXMuc2hvdWxkUmVjb25uZWN0ID0gZmFsc2U7CiAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
