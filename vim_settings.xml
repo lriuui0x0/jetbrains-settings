@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxURVNUX1JFUE9fU1lNQk9MXD4=</entry>
-        <entry encoding="base64">XDxvd25lclw+</entry>
-        <entry>read</entry>
-        <entry encoding="base64">XDxwYXR0ZXJuXD4=</entry>
         <entry encoding="base64">XDx1c2VyXD4=</entry>
         <entry>success</entry>
         <entry encoding="base64">XDxyZXBvXD4=</entry>
@@ -27,9 +23,12 @@
         <entry>Navigation</entry>
         <entry encoding="base64">XDx1c2VyT3B0XD4=</entry>
         <entry encoding="base64">XDx0b2tlblw+</entry>
+        <entry>is_author</entry>
+        <entry>Author</entry>
+        <entry encoding="base64">XDxwYXJlbnRDb250ZXh0XD4=</entry>
+        <entry encoding="base64">XDxzdGFydDFcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>ww</entry>
         <entry>w]</entry>
         <entry>w\:w</entry>
         <entry>s/newPage/page/g</entry>
@@ -47,6 +46,7 @@
         <entry>w:w</entry>
         <entry>v</entry>
         <entry>vs</entry>
+        <entry>W</entry>
         <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
@@ -196,12 +196,20 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Repository.java" timestamp="1598367136753">
-        <mark key="'" line="49" column="4" />
-        <mark key="[" line="48" column="15" />
-        <mark key="]" line="48" column="15" />
-        <mark key="^" line="48" column="27" />
-        <mark key="." line="48" column="15" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Repository.java" timestamp="1598378247859">
+        <mark key="'" line="32" column="106" />
+        <mark key="[" line="48" column="22" />
+        <mark key="]" line="48" column="23" />
+        <mark key="^" line="48" column="23" />
+        <mark key="." line="48" column="22" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" timestamp="1598376621004">
+        <mark key="'" line="253" column="4" />
+        <mark key="[" line="142" column="0" />
+        <mark key="k" line="254" column="0" />
+        <mark key="]" line="142" column="0" />
+        <mark key="." line="63" column="9" />
+        <mark key="^" line="141" column="51" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Navigation.java" timestamp="1598371947988">
         <mark key="'" line="61" column="80" />
@@ -217,25 +225,24 @@
         <mark key="." line="188" column="15" />
         <mark key="^" line="188" column="16" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1598367531527">
-        <mark key="'" line="53" column="126" />
-        <mark key="[" line="58" column="86" />
-        <mark key="]" line="58" column="98" />
-        <mark key="." line="58" column="97" />
-        <mark key="^" line="58" column="98" />
+      <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingAuth.java" timestamp="1598377847393">
+        <mark key="'" line="135" column="32" />
+        <mark key="[" line="135" column="71" />
+        <mark key="]" line="135" column="70" />
+        <mark key="." line="135" column="69" />
+        <mark key="^" line="135" column="70" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Owner.java" timestamp="1598366747302">
-        <mark key="'" line="59" column="170" />
-        <mark key="[" line="56" column="15" />
-        <mark key="]" line="56" column="15" />
-        <mark key="." line="56" column="15" />
-        <mark key="^" line="56" column="32" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Owner/List.vue" timestamp="1598376172935">
+        <mark key="'" line="132" column="0" />
+        <mark key="[" line="26" column="93" />
+        <mark key="]" line="26" column="93" />
+        <mark key="^" line="27" column="68" />
+        <mark key="." line="26" column="93" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" timestamp="1598368128400">
-        <mark key="[" line="51" column="56" />
-        <mark key="]" line="51" column="88" />
-        <mark key="." line="51" column="87" />
-        <mark key="^" line="51" column="88" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1598377107917">
+        <mark key="[" line="34" column="0" />
+        <mark key="]" line="34" column="0" />
+        <mark key="." line="34" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" timestamp="1598373255444">
         <mark key="'" line="62" column="57" />
@@ -251,40 +258,28 @@
         <mark key="." line="1005" column="94" />
         <mark key="^" line="1005" column="95" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1598373776892">
-        <mark key="'" line="887" column="16" />
-        <mark key="[" line="104" column="54" />
-        <mark key="]" line="104" column="60" />
-        <mark key="." line="104" column="59" />
-        <mark key="^" line="104" column="60" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1598378144878">
+        <mark key="'" line="58" column="12" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" timestamp="1598368610114">
-        <mark key="'" line="103" column="65" />
-        <mark key="[" line="103" column="65" />
-        <mark key="]" line="103" column="65" />
-        <mark key="." line="103" column="65" />
-        <mark key="^" line="103" column="67" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Repository/index.vue" timestamp="1598376181550">
+        <mark key="'" line="37" column="49" />
+        <mark key="[" line="37" column="87" />
+        <mark key="]" line="37" column="87" />
+        <mark key="." line="37" column="87" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Job.java" timestamp="1598371816995">
-        <mark key="'" line="135" column="4" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="16" />
-        <mark key="." line="53" column="16" />
-        <mark key="^" line="62" column="86" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" timestamp="1598377908483">
+        <mark key="'" line="67" column="64" />
+        <mark key="[" line="160" column="76" />
+        <mark key="]" line="161" column="24" />
+        <mark key="^" line="161" column="24" />
+        <mark key="." line="161" column="23" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Workflow.java" timestamp="1598371628763">
-        <mark key="'" line="53" column="106" />
-        <mark key="[" line="53" column="79" />
-        <mark key="]" line="54" column="16" />
-        <mark key="^" line="54" column="16" />
-        <mark key="." line="54" column="15" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/BranchRuleSettings.java" timestamp="1598370258771">
-        <mark key="'" line="21" column="131" />
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="47" column="0" />
-        <mark key="." line="47" column="0" />
-        <mark key="^" line="43" column="57" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Owner.java" timestamp="1598375950451">
+        <mark key="'" line="111" column="7" />
+        <mark key="[" line="111" column="8" />
+        <mark key="]" line="111" column="8" />
+        <mark key="." line="111" column="7" />
+        <mark key="^" line="111" column="8" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/notifier/Session.java" timestamp="1598373299317">
         <mark key="[" line="18" column="20" />
@@ -292,32 +287,24 @@
         <mark key="." line="18" column="25" />
         <mark key="^" line="12" column="54" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Owner/index.vue" timestamp="1598376273611">
+        <mark key="'" line="20" column="0" />
+        <mark key="[" line="20" column="87" />
+        <mark key="]" line="20" column="88" />
+        <mark key="^" line="20" column="88" />
+        <mark key="." line="20" column="87" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/service/User.java" timestamp="1598375898296">
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="41" column="0" />
+        <mark key="." line="41" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Pipeline.java" timestamp="1598373526785">
         <mark key="'" line="30" column="48" />
         <mark key="[" line="52" column="0" />
         <mark key="]" line="52" column="16" />
         <mark key="^" line="26" column="87" />
         <mark key="." line="52" column="16" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Repository/Settings.vue" timestamp="1598366289999">
-        <mark key="'" line="98" column="0" />
-        <mark key="[" line="114" column="0" />
-        <mark key="]" line="114" column="0" />
-        <mark key="." line="114" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Commit.java" timestamp="1598371621260">
-        <mark key="'" line="161" column="97" />
-        <mark key="[" line="161" column="69" />
-        <mark key="]" line="162" column="20" />
-        <mark key="^" line="162" column="20" />
-        <mark key="." line="162" column="19" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/OwnerSettings.java" timestamp="1598368591057">
-        <mark key="'" line="121" column="0" />
-        <mark key="[" line="76" column="70" />
-        <mark key="]" line="76" column="82" />
-        <mark key="^" line="76" column="82" />
-        <mark key="." line="76" column="81" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Login.java" timestamp="1598373966533">
         <mark key="'" line="86" column="60" />
@@ -330,69 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="424" column="42" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="431" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="441" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="42" column="3" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="54" column="27" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="57" column="126" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="59" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="53" column="126" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="438" column="19" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="35" column="79" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="38" column="60" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="34" column="54" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="439" column="119" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="446" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="433" column="86" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="448" column="103" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="450" column="44" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="93" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="462" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="447" column="105" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="464" column="108" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="479" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="471" column="82" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="50" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="101" column="17" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="492" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="89" column="70" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="499" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="481" column="109" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="102" column="53" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="106" column="60" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="107" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="105" column="111" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="121" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/OwnerSettings.java" />
-      <jump line="7" column="27" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="103" column="65" filename="$USER_HOME$/GraknLabs/grabl/service/RepoSettings.java" />
-      <jump line="533" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="518" column="110" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="539" column="74" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="26" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/BranchRuleSettings.java" />
-      <jump line="25" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/BranchRuleSettings.java" />
-      <jump line="62" column="80" filename="$USER_HOME$/GraknLabs/grabl/concept/Navigation.java" />
-      <jump line="32" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/BranchRuleSettings.java" />
-      <jump line="22" column="131" filename="$USER_HOME$/GraknLabs/grabl/service/BranchRuleSettings.java" />
-      <jump line="432" column="99" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="198" column="41" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="911" column="58" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="538" column="120" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="215" column="158" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="572" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="557" column="121" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="31" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Commit.java" />
-      <jump line="165" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Commit.java" />
-      <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Commit.java" />
-      <jump line="137" column="174" filename="$USER_HOME$/GraknLabs/grabl/service/Workflow.java" />
-      <jump line="139" column="12" filename="$USER_HOME$/GraknLabs/grabl/service/Workflow.java" />
-      <jump line="85" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Pipeline.java" />
-      <jump line="109" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Pipeline.java" />
-      <jump line="77" column="150" filename="$USER_HOME$/GraknLabs/grabl/service/Pipeline.java" />
-      <jump line="692" column="17" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="679" column="17" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="618" column="17" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="427" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="330" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="276" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="332" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
@@ -430,12 +354,75 @@
       <jump line="71" column="54" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
       <jump line="81" column="74" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
       <jump line="86" column="60" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
+      <jump line="108" column="12" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="61" column="43" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
+      <jump line="110" column="7" filename="$USER_HOME$/GraknLabs/grabl/concept/Owner.java" />
+      <jump line="47" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="31" column="19" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="33" column="133" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="39" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="59" column="28" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="74" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="4" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="18" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="43" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="69" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="73" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="77" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="81" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="85" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="95" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="100" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="110" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="120" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="134" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="146" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="152" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="156" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="163" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="175" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="184" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="190" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="197" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="204" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="211" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="216" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="223" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="236" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="248" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="254" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Owner/index.vue" />
+      <jump line="42" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="147" column="103" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="253" column="4" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
+      <jump line="55" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="42" column="53" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="34" column="26" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
+      <jump line="150" column="75" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="157" column="43" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="160" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="148" column="61" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="48" column="108" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="50" column="20" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="67" column="64" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
+      <jump line="135" column="32" filename="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingAuth.java" />
+      <jump line="69" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
+      <jump line="6" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
+      <jump line="132" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="58" column="12" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="24" column="40" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
+      <jump line="25" column="13" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
+      <jump line="34" column="106" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>SessionUser</text>
+        <text>, Status.successAllEnd().add(&quot;page&quot;, page));</text>
       </register>
       <register name="+" type="4">
         <text>event-github-team-test</text>
@@ -444,10 +431,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>SessionUser</text>
+        <text>, Status.successAllEnd().add(&quot;page&quot;, page));</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0b2tlblw+</text>
+        <text encoding="base64">XDxzdGFydDFcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -455,7 +442,7 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5bWJvbC5Pd25lciBvd25lciA9IGdyYWJsLmNvbmNlcHQuT3duZXIuZ2V0KHR4LCByb3V0ZS5nZXRPd25lcigpKTsK</text>
+        <text encoding="base64">ICAgICAgICBMaXN0PEpzb25PYmplY3Q+IHJlcG9zaXRvcmllcyA9IG5ldyBBcnJheUxpc3Q8PigpOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -487,28 +474,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnRDb21taXRWYWxpZGl0eSh0eCwgcm91dGUuZ2V0T3duZXIoKSwgcm91dGUuZ2V0UmVwb3NpdG9yeSgpLCByb3V0ZS5nZXRDb21taXQoKSk7CiAgICAgICAgICAgICAgICAgICAgbG9uZyBzdGFydDEgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbygiPj4+PiB0cmFjZTogcGVyZm9ybWFuY2UgYW5hbHlzaXMgcGFnZSAoYXNzZXJ0aW9uKTogIiArIChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0MSkpOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvLyBUT0RPOiBMaXZlIHVwZGF0ZSBmb3IgcGVyZm9ybWFuY2UgYW5hbHlzaXMgcGFnZQo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oIj4+Pj4gdHJhY2U6IHBlcmZvcm1hbmNlIGFuYWx5c2lzIHBhZ2UgKGNvbnN0cnVjdGlvbiArIHRyYW5zbWlzc2lvbik6ICIgKyAoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBzdGFydDIpKTsK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlIHsKICAgICAgICAgICAgd2Vic29ja2V0LnRlbGwoU3RhdHVzLm5vdEZvdW5kKCkudG9TdHJpbmcoKSwgc2VsZik7CiAgICAgICAgfQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IChHcmFrbkNsaWVudC5TZXNzaW9uIHNlc3Npb24gPSBncmFrbkNsaWVudC5zZXNzaW9uKGtleXNwYWNlKSkgewo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgfQogICAgICAgIH0K</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB0cnkgKEdyYWtuQ2xpZW50LlNlc3Npb24gc2Vzc2lvbiA9IGdyYWtuQ2xpZW50LnNlc3Npb24oa2V5c3BhY2UpKSB7CiAgICAgICAgICAgIHRyeSAoR3Jha25DbGllbnQuVHJhbnNhY3Rpb24gdHggPSBzZXNzaW9uLnRyYW5zYWN0aW9uKCkucmVhZCgpKSB7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IGNvbXByZXNzIHN0YXR1cwo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">PDw8PDw8PCBIRUFECg==</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2VyLmluZm8oIj4+Pj4gdHJhY2U6IGpvYiBwYWdlIChhc3NlcnRpb24pOiAiICsgKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQxKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbmV3IEpzb25PYmplY3QoKQogICAgICAgICAgICAgICAgLmFkZCgic3RhdHVzIiwgbmV3IEpzb25PYmplY3QoKQogICAgICAgICAgICAgICAgICAgIC5hZGQoImNvZGUiLCBTdGF0dXMuQ09ERV9DT05USU5VRSkpCj09PT09PT0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -517,9 +504,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx0b2tlblw+</last-search>
+      <last-search encoding="base64">XDxzdGFydDFcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0b2tlblw+</last-pattern>
+      <last-pattern encoding="base64">XDxzdGFydDFcPg==</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
