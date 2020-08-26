@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXJlbnRDb250ZXh0XD4=</entry>
         <entry encoding="base64">XDxzdGFydDFcPg==</entry>
         <entry>Optional</entry>
         <entry>currentUser</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxzdGF0dXNcPg==</entry>
         <entry encoding="base64">XDxyZW1vdmVDb29raWVcPg==</entry>
         <entry>getIp</entry>
+        <entry encoding="base64">XDxjaGVja0Zvck5lc3RlZFByb3BcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>w]</entry>
@@ -215,11 +215,11 @@
         <mark key="]" line="288" column="0" />
         <mark key="." line="288" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Owner/List.vue" timestamp="1598443777366">
-        <mark key="'" line="137" column="0" />
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Owner/List.vue" timestamp="1598458552914">
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="0" />
+        <mark key="^" line="52" column="5" />
+        <mark key="." line="42" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Workflow.java" timestamp="1598453797591">
         <mark key="]" line="10" column="22" />
@@ -280,12 +280,12 @@
         <mark key="^" line="48" column="71" />
         <mark key="." line="48" column="70" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/theHeader.vue" timestamp="1598456087803">
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/ui/layouts/page/theHeader.vue" timestamp="1598459969097">
         <mark key="'" line="85" column="31" />
-        <mark key="[" line="85" column="17" />
-        <mark key="]" line="85" column="23" />
-        <mark key="." line="85" column="22" />
-        <mark key="^" line="85" column="23" />
+        <mark key="[" line="87" column="0" />
+        <mark key="]" line="87" column="0" />
+        <mark key="." line="87" column="0" />
+        <mark key="^" line="86" column="27" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/Pipeline.java" timestamp="1598453949333">
         <mark key="[" line="216" column="24" />
@@ -312,8 +312,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="76" column="9" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
-      <jump line="77" column="18" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="82" column="66" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="78" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="75" column="35" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
@@ -412,12 +410,14 @@
       <jump line="223" column="41" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
       <jump line="175" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
       <jump line="188" column="5" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
+      <jump line="30" column="18" filename="$USER_HOME$/GraknLabs/grabl/pages/Owner/List.vue" />
+      <jump line="42" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/Owner/List.vue" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxQYXR0ZXJuPiBwYXR0ZXJucyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7CiAgICAgICAgICAgIHBhdHRlcm5zLmFkZCgpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB3aW5kb3cubG9jYXRpb24ucmVsb2FkKCk7Cg==</text>
       </register>
       <register name="+" type="2">
         <text>match
@@ -433,7 +433,7 @@ get $name;</text>
         <text>var(&quot;user&quot;).isa(&quot;user&quot;).has(&quot;name&quot;, userOpt.get())</text>
       </register>
       <register name="/" type="4">
-        <text>getIp</text>
+        <text encoding="base64">XDxjaGVja0Zvck5lc3RlZFByb3BcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -444,7 +444,7 @@ get $name;</text>
         <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgU2V0PFN5bWJvbC5Kb2I+IGdldEpvYnNCeVN0YXR1cyhHcmFrbkNsaWVudC5UcmFuc2FjdGlvbiB0eCwgU3ltYm9sLldvcmtmbG93IHdvcmtmbG93LCBTdHJpbmcgc3RhdHVzKSB7CiAgICAgICAgR3JhcWxHZXQuVW5maWx0ZXJlZCBxdWVyeSA9IG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJ3b3JrZmxvdyIpLmlzYSgid29ya2Zsb3ciKS5oYXMoInN5bWJvbCIsIHdvcmtmbG93LnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJ3b3JrZmxvdy1qb2IiKQogICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJ3b3JrZmxvdy1qb2Jfd29ya2Zsb3ciLCB2YXIoIndvcmtmbG93IikpCiAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoIndvcmtmbG93LWpvYl9qb2IiLCB2YXIoImpvYiIpKSwKICAgICAgICAgICAgICAgIHZhcigiam9iIikKICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygibmFtZSIsIHZhcigibmFtZSIpKQogICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJydW4iLCB2YXIoInJ1biIpKQogICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJzdGF0dXMiLCBzdGF0dXMpCiAgICAgICAgKS5nZXQoKTsKICAgICAgICByZXR1cm4gdHguc3RyZWFtKHF1ZXJ5KS5nZXQoKQogICAgICAgICAgICAgICAgLm1hcChjb25jZXB0TWFwIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIG5ldyBTeW1ib2wuSm9iKHdvcmtmbG93LCBjb25jZXB0TWFwLmdldCgibmFtZSIpLjxTdHJpbmc+YXNBdHRyaWJ1dGUoKS52YWx1ZSgpLCBjb25jZXB0TWFwLmdldCgicnVuIikuPExvbmc+YXNBdHRyaWJ1dGUoKS52YWx1ZSgpKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLmNvbGxlY3QoQ29sbGVjdG9ycy50b1NldCgpKTsKICAgIH0KCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxQYXR0ZXJuPiBwYXR0ZXJucyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7CiAgICAgICAgICAgIHBhdHRlcm5zLmFkZCgpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB3aW5kb3cubG9jYXRpb24ucmVsb2FkKCk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -473,29 +473,29 @@ get $name;</text>
         </keys>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICBpbXBvcnQgeyBjaGVja0Zvck5lc3RlZFByb3AgfSBmcm9tICcuLi9jb21tb24vdXRpbHMnOwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICBpbXBvcnQgeyBjaGVja0Zvck5lc3RlZFByb3AgfSBmcm9tICcuLi9jb21tb24vdXRpbHMnOwo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CiAgICBtZXRob2RzOiB7CiAgICAgIGNoZWNrRm9yTmVzdGVkUHJvcAogICAgfQ==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxQYXR0ZXJuPiBwYXR0ZXJucyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7CiAgICAgICAgICAgIHBhdHRlcm5zLmFkZCgpOwogICAgICAgICAgICBwYXR0ZXJucy5hZGQoKTsKICAgICAgICAgICAgcGF0dGVybnMuYWRkKCk7Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">Cgo=</text>
       </register>
-      <register name="3" type="4">
+      <register name="8" type="4">
         <text>var().isa(&quot;repo-collaborator&quot;).has(&quot;permission&quot;, &quot;read&quot;)
                     .rel(&quot;repo-collaborator_collaborator&quot;, var(&quot;user&quot;)).rel(&quot;repo-collaborator_repo&quot;, var(&quot;repo&quot;))</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLiRyb3V0ZXIuZ28oMCk7Cg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBOT1RFOiBSZWZyZXNoIHRoZSBwYWdlIHNpbmNlIHdlIG1pZ2h0IG5vdyBoYXZlIGRpZmZlcmVudCBwZXJtaXNzaW9ucyBhbmQgY2FuIHNlZSBkaWZmZXJlbnQgY29udGVudAo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICB3aW5kb3cubG9jYXRpb24ucmVsb2FkKCk7Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBicm93c2VyLmNvb2tpZXMucmVtb3ZlKCdHaXRodWJUb2tlbicpOwo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -504,9 +504,9 @@ get $name;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>getIp</last-search>
+      <last-search encoding="base64">XDxjaGVja0Zvck5lc3RlZFByb3BcPg==</last-search>
       <last-offset />
-      <last-pattern>getIp</last-pattern>
+      <last-pattern encoding="base64">XDxjaGVja0Zvck5lc3RlZFByb3BcPg==</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
