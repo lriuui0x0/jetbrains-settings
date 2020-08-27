@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Optional</entry>
         <entry>currentUser</entry>
         <entry>user sub entity</entry>
         <entry encoding="base64">XDxFbnZpcm9ubWVudFZhcmlhYmxlXD4=</entry>
@@ -27,6 +26,7 @@
         <entry>getIp</entry>
         <entry encoding="base64">XDxjaGVja0Zvck5lc3RlZFByb3BcPg==</entry>
         <entry>Github</entry>
+        <entry>getDefaultPermission</entry>
       </history-search>
       <history-cmd>
         <entry>w\:w</entry>
@@ -236,21 +236,15 @@
       <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1598461603262">
         <mark key="'" line="44" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/server/About.java" timestamp="1598532947361">
+      <file name="$USER_HOME$/GraknLabs/grabl/server/About.java" timestamp="1598533990682">
         <mark key="'" line="19" column="38" />
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="0" />
-        <mark key="." line="14" column="0" />
+        <mark key="[" line="16" column="41" />
+        <mark key="]" line="16" column="41" />
+        <mark key="." line="16" column="41" />
         <mark key="^" line="18" column="74" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/common/mixins.js" timestamp="1598454781482">
-        <mark key="'" line="2" column="0" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="0" />
-        <mark key="." line="36" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Install.java" timestamp="1598527064936">
-        <mark key="'" line="43" column="58" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Install.java" timestamp="1598533957212">
+        <mark key="'" line="181" column="75" />
         <mark key="[" line="179" column="0" />
         <mark key="]" line="179" column="0" />
         <mark key="." line="179" column="0" />
@@ -302,6 +296,7 @@
         <mark key="." line="82" column="33" />
         <mark key="^" line="82" column="34" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/common/Http.java" timestamp="1598534386962" />
       <file name="$USER_HOME$/GraknLabs/grabl/service/Login.java" timestamp="1598526170655">
         <mark key="[" line="41" column="149" />
         <mark key="]" line="41" column="149" />
@@ -316,8 +311,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="767" column="52" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="840" column="46" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="328" column="38" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="360" column="42" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="376" column="42" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
@@ -416,12 +409,14 @@
       <jump line="43" column="58" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="18" column="38" filename="$USER_HOME$/GraknLabs/grabl/server/About.java" />
       <jump line="29" column="29" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
+      <jump line="112" column="65" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="181" column="75" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>11480791</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ICAgICAgICBKc29uT2JqZWN0IG9iamVjdCA9IEh0dHAuZ2V0SnNvbigKICAgICAgICAgICAgICAgIFN0cmluZy5mb3JtYXQoImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vb3Jncy8lcy9tZW1iZXJzaGlwcy8lcyIsIG9yZywgdXNlciksCiAgICAgICAgICAgICAgICBTdHJpbmcuZm9ybWF0KCJUb2tlbiAlcyIsIHRva2VuKSwKICAgICAgICAgICAgICAgICJhcHBsaWNhdGlvbi92bmQuZ2l0aHViLm1hY2hpbmUtbWFuLXByZXZpZXcranNvbiIKICAgICAgICApLmFzT2JqZWN0KCk7CiAgICAgICAgU3RyaW5nIHJvbGUgPSBvYmplY3QuZ2V0KCJyb2xlIikuYXNTdHJpbmcoKTsKICAgICAgICByZXR1cm4gcGFyc2VHaXRodWJPcmdhbmlzYXRpb25Sb2xlKHJvbGUpOwo=</text>
@@ -430,10 +425,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>11480791</text>
       </register>
       <register name="/" type="4">
-        <text>Github</text>
+        <text>getDefaultPermission</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -503,9 +498,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Github</last-search>
+      <last-search>getDefaultPermission</last-search>
       <last-offset />
-      <last-pattern>Github</last-pattern>
+      <last-pattern>getDefaultPermission</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
