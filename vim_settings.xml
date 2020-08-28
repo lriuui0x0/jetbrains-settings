@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXlsb2FkVmFyaWFibGVzXD4=</entry>
         <entry>computed</entry>
         <entry encoding="base64">XDxwYXlsb2FkQnJhbmNoUnVsZVw+</entry>
         <entry encoding="base64">XDxoYW5kbGVPcHRpb25zQ2hhbmdlZFw+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDx0XD4=</entry>
         <entry>team</entry>
         <entry>rename</entry>
+        <entry>repo-branch-rule</entry>
       </history-search>
       <history-cmd>
         <entry>w\:w</entry>
@@ -202,8 +202,8 @@
         <mark key="^" line="25" column="19" />
         <mark key="." line="25" column="18" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1598609666412">
-        <mark key="'" line="100" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1598619854726">
+        <mark key="'" line="114" column="21" />
         <mark key="[" line="284" column="0" />
         <mark key="]" line="284" column="0" />
         <mark key="." line="284" column="0" />
@@ -222,6 +222,12 @@
         <mark key="]" line="116" column="4" />
         <mark key="." line="116" column="3" />
         <mark key="^" line="116" column="4" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" timestamp="1598620926291">
+        <mark key="'" line="89" column="203" />
+        <mark key="[" line="138" column="0" />
+        <mark key="]" line="138" column="79" />
+        <mark key="." line="138" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/automation/automation-job-single-response.json" timestamp="1598606595573">
         <mark key="'" line="5" column="10" />
@@ -287,12 +293,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="38" filename="$USER_HOME$/GraknLabs/grabl/server/About.java" />
-      <jump line="29" column="29" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
-      <jump line="112" column="65" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
-      <jump line="181" column="75" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
-      <jump line="175" column="78" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
-      <jump line="183" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="7" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="194" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="83" column="23" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
@@ -372,9 +372,7 @@
       <jump line="124" column="140" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="119" column="18" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="133" column="112" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
-      <jump line="129" column="24" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="102" column="18" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
-      <jump line="89" column="203" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="128" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="48" column="63" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="116" column="112" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
@@ -387,12 +385,20 @@
       <jump line="118" column="84" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="126" column="84" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
       <jump line="110" column="60" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
+      <jump line="129" column="8" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
+      <jump line="134" column="53" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
+      <jump line="114" column="21" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="136" column="61" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
+      <jump line="137" column="8" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
+      <jump line="92" column="65" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
+      <jump line="140" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
+      <jump line="89" column="203" filename="$USER_HOME$/GraknLabs/grabl/event/github/Repository.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgZ3JhYmwuY29uY2VwdC5SZXBvc2l0b3J5LnVwZGF0ZUFjdGl2ZSh0eCwgbmV3UmVwb1N5bWJvbCwgaXNBY3RpdmUpOwo=</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidCIpLmlzYSgidGVhbSIpLAogICAgICAgICAgICAgICAgdmFyKCJyLXQiKS5pc2EoInJlcG8tdGVhbSIpLmhhcygicGVybWlzc2lvbiIsIHZhcigicCIpKS5yZWwoInJlcG8tdGVhbV9yZXBvIiwgdmFyKCJyIikpLnJlbCgicmVwby10ZWFtX3RlYW0iLCB2YXIoInQiKSkpCiAgICAgICAgICAgICAgICAuaW5zZXJ0KAogICAgICAgICAgICAgICAgICAgICAgICB2YXIoIm5yLXQiKS5pc2EoInJlcG8tdGVhbSIpLmhhcygicGVybWlzc2lvbiIsIHZhcigicCIpKS5yZWwoInJlcG8tdGVhbV9yZXBvIiwgdmFyKCJuciIpLnJlbCgicmVwby10ZWFtX3RlYW0iLCB2YXIoInQiKSkpKSk7Cg==</text>
@@ -401,10 +407,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>.has(&quot;permission&quot;, var(&quot;p&quot;))</text>
       </register>
       <register name="/" type="4">
-        <text>rename</text>
+        <text>repo-branch-rule</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -412,10 +418,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJyZXBvLWNvbGxhYm9yYXRvciIpLnJlbCgicmVwby1jb2xsYWJvcmF0b3JfcmVwbyIsIHZhcigibnIiKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX2NvbGxhYm9yYXRvciIsIHZhcigidSIpKSkpLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ3JhYmwuY29uY2VwdC5SZXBvc2l0b3J5LnVwZGF0ZUFjdGl2ZSh0eCwgbmV3UmVwb1N5bWJvbCwgaXNBY3RpdmUpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhcigibnItdSIpLmlzYSgicmVwby1jb2xsYWJvcmF0b3IiKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX3JlcG8iLCB2YXIoInIiKSkucmVsKCJyZXBvLWNvbGxhYm9yYXRvcl9jb2xsYWJvcmF0b3IiLCB2YXIoInUiKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -444,28 +450,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhcigibnItdCIpLmlzYSgicmVwby10ZWFtIikucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigiciIpKS5yZWwoInJlcG8tdGVhbV90ZWFtIiwgdmFyKCJ0IikpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidSIpLmlzYSgidXNlciIpLAogICAgICAgICAgICAgICAgdmFyKCJyLXUiKS5pc2EoInJlcG8tY29sbGFib3JhdG9yIikucmVsKCJyZXBvLWNvbGxhYm9yYXRvcl9yZXBvIiwgdmFyKCJyIikpLnJlbCgicmVwby1jb2xsYWJvcmF0b3JfY29sbGFib3JhdG9yIiwgdmFyKCJ1IikpKQogICAgICAgICAgICAgICAgLmluc2VydCgKICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJyZXBvLWNvbGxhYm9yYXRvciIpLnJlbCgicmVwby1jb2xsYWJvcmF0b3JfcmVwbyIsIHZhcigibnIiKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX2NvbGxhYm9yYXRvciIsIHZhcigidSIpKSkpLAogICAgICAgICAgICAgICAgR3Jha25DbGllbnQuVHJhbnNhY3Rpb24uT3B0aW9ucy5pbmZlcihmYWxzZSkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCJuci11IikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpKSwK</text>
+        <text encoding="base64">ICAgICAgICBncmFibC5jb25jZXB0LlJlcG9zaXRvcnkuY3JlYXRlKHR4LCBuZXdSZXBvU3ltYm9sLCBkZXNjcmlwdGlvbiwgZGVmYXVsdEJyYW5jaFN5bWJvbCwgaXNQcml2YXRlKTsKICAgICAgICBncmFibC5jb25jZXB0LlJlcG9zaXRvcnkudXBkYXRlQWN0aXZlKHR4LCBuZXdSZXBvU3ltYm9sLCBpc0FjdGl2ZSk7CiAgICAgICAgLy8gTk9URTogVHJhbnNmZXIgdGVhbSByZWxhdGlvbiB0byByZW5hbWVkIHJlcG9zaXRvcnkKICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidCIpLmlzYSgidGVhbSIpLAogICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJyZXBvLXRlYW0iKS5oYXMoInBlcm1pc3Npb24iLCB2YXIoInAiKSkucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigiciIpKS5yZWwoInJlcG8tdGVhbV90ZWFtIiwgdmFyKCJ0IikpKQogICAgICAgICAgICAgICAgLmluc2VydCgKICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCJuci10IikuaXNhKCJyZXBvLXRlYW0iKS5oYXMoInBlcm1pc3Npb24iLCB2YXIoInAiKSkucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigibnIiKSkucmVsKCJyZXBvLXRlYW1fdGVhbSIsIHZhcigidCIpKSkpOwogICAgICAgIC8vIE5PVEU6IFRyYW5zZmVyIGNvbGxhYm9yYXRvciByZWxhdGlvbiB0byByZW5hbWVkIHJlcG9zaXRvcnkKICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidSIpLmlzYSgidXNlciIpLAogICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJyZXBvLWNvbGxhYm9yYXRvciIpLmhhcygicGVybWlzc2lvbiIsIHZhcigicCIpKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX3JlcG8iLCB2YXIoInIiKSkucmVsKCJyZXBvLWNvbGxhYm9yYXRvcl9jb2xsYWJvcmF0b3IiLCB2YXIoInUiKSkpCiAgICAgICAgICAgICAgICAuaW5zZXJ0KAogICAgICAgICAgICAgICAgICAgICAgICB2YXIoKS5pc2EoInJlcG8tY29sbGFib3JhdG9yIikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpLnJlbCgicmVwby1jb2xsYWJvcmF0b3JfcmVwbyIsIHZhcigibnIiKSkucmVsKCJyZXBvLWNvbGxhYm9yYXRvcl9jb2xsYWJvcmF0b3IiLCB2YXIoInUiKSkpLAogICAgICAgICAgICAgICAgR3Jha25DbGllbnQuVHJhbnNhY3Rpb24uT3B0aW9ucy5pbmZlcihmYWxzZSkpOwogICAgICAgIC8vIE5PVEU6IFRyYW5zZmVyIGZvcmsgcmVsYXRpb24gdG8gcmVuYW1lZCByZXBvc2l0b3J5CiAgICAgICAgdHguZXhlY3V0ZShtYXRjaCgKICAgICAgICAgICAgICAgIHZhcigiciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgb2xkUmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigibnIiKS5pc2EoInJlcG9zaXRvcnkiKS5oYXMoInN5bWJvbCIsIG5ld1JlcG9TeW1ib2wudG9TdHJpbmcoKSksCiAgICAgICAgICAgICAgICB2YXIoInJmIikuaXNhKCJyZXBvc2l0b3J5IiksCiAgICAgICAgICAgICAgICB2YXIoKS5pc2EoInJlcG8tZm9yayIpLnJlbCgicmVwby1mb3JrX2NoaWxkIiwgdmFyKCJyIikpLnJlbCgicmVwby1mb3JrX3BhcmVudCIsIHZhcigicmYiKSkpCiAgICAgICAgICAgICAgICAuaW5zZXJ0KAogICAgICAgICAgICAgICAgICAgICAgICB2YXIoKS5pc2EoInJlcG8tZm9yayIpLnJlbCgicmVwby1mb3JrX2NoaWxkIiwgdmFyKCJuciIpKS5yZWwoInJlcG8tZm9ya19wYXJlbnQiLCB2YXIoInJmIikpKSwKICAgICAgICAgICAgICAgIEdyYWtuQ2xpZW50LlRyYW5zYWN0aW9uLk9wdGlvbnMuaW5mZXIoZmFsc2UpKTsKICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigicmMiKS5pc2EoInJlcG9zaXRvcnkiKSwKICAgICAgICAgICAgICAgIHZhcigpLmlzYSgicmVwby1mb3JrIikucmVsKCJyZXBvLWZvcmtfcGFyZW50IiwgdmFyKCJyIikpLnJlbCgicmVwby1mb3JrX2NoaWxkIiwgdmFyKCJyYyIpKSkKICAgICAgICAgICAgICAgIC5pbnNlcnQoCiAgICAgICAgICAgICAgICAgICAgICAgIHZhcigpLmlzYSgicmVwby1mb3JrIikucmVsKCJyZXBvLWZvcmtfcGFyZW50IiwgdmFyKCJuciIpKS5yZWwoInJlcG8tZm9ya19jaGlsZCIsIHZhcigicmMiKSkpLAogICAgICAgICAgICAgICAgR3Jha25DbGllbnQuVHJhbnNhY3Rpb24uT3B0aW9ucy5pbmZlcihmYWxzZSkpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgICAgIHZhcigiciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgb2xkUmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgICAgICB2YXIoIm5yIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBuZXdSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgICAgIHZhcigidCIpLmlzYSgidGVhbSIpLAogICAgICAgICAgICAgICAgICAgIHZhcigici10IikuaXNhKCJyZXBvLXRlYW0iKS5yZWwoInJlcG8tdGVhbV9yZXBvIiwgdmFyKCJyIikpLnJlbCgicmVwby10ZWFtX3RlYW0iLCB2YXIoInQiKSkpCiAgICAgICAgICAgICAgICAuaW5zZXJ0KAogICAgICAgICAgICAgICAgICAgIHZhcigpLmlzYSgicmVwby10ZWFtIikucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigibnIiKS5yZWwoInJlcG8tdGVhbV90ZWFtIiwgdmFyKCJ0IikpKSkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhcigibnItdSIpLmlzYSgicmVwby1jb2xsYWJvcmF0b3IiKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX3JlcG8iLCB2YXIoInIiKSkucmVsKCJyZXBvLWNvbGxhYm9yYXRvcl9jb2xsYWJvcmF0b3IiLCB2YXIoInUiKSkpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCJuci10IikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhcigibnItdCIpLmlzYSgicmVwby10ZWFtIikucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigiciIpKS5yZWwoInJlcG8tdGVhbV90ZWFtIiwgdmFyKCJ0IikpKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidSIpLmlzYSgidXNlciIpLAogICAgICAgICAgICAgICAgdmFyKCJyLXUiKS5pc2EoInJlcG8tY29sbGFib3JhdG9yIikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpLnJlbCgicmVwby1jb2xsYWJvcmF0b3JfcmVwbyIsIHZhcigiciIpKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX2NvbGxhYm9yYXRvciIsIHZhcigidSIpKSwKICAgICAgICAgICAgICAgIHZhcigibnItdSIpLmlzYSgicmVwby1jb2xsYWJvcmF0b3IiKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX3JlcG8iLCB2YXIoInIiKSkucmVsKCJyZXBvLWNvbGxhYm9yYXRvcl9jb2xsYWJvcmF0b3IiLCB2YXIoInUiKSkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5pbnNlcnQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCJuci11IikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpKSwKICAgICAgICAgICAgICAgIEdyYWtuQ2xpZW50LlRyYW5zYWN0aW9uLk9wdGlvbnMuaW5mZXIoZmFsc2UpKTsK</text>
+        <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidSIpLmlzYSgidXNlciIpLAogICAgICAgICAgICAgICAgdmFyKCJyLXUiKS5pc2EoInJlcG8tY29sbGFib3JhdG9yIikucmVsKCJyZXBvLWNvbGxhYm9yYXRvcl9yZXBvIiwgdmFyKCJyIikpLnJlbCgicmVwby1jb2xsYWJvcmF0b3JfY29sbGFib3JhdG9yIiwgdmFyKCJ1IikpKQogICAgICAgICAgICAgICAgLmluc2VydCgKICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJyZXBvLWNvbGxhYm9yYXRvciIpLnJlbCgicmVwby1jb2xsYWJvcmF0b3JfcmVwbyIsIHZhcigibnIiKS5yZWwoInJlcG8tY29sbGFib3JhdG9yX2NvbGxhYm9yYXRvciIsIHZhcigidSIpKSkpLAogICAgICAgICAgICAgICAgR3Jha25DbGllbnQuVHJhbnNhY3Rpb24uT3B0aW9ucy5pbmZlcihmYWxzZSkpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCJuci11IikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpKSwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidCIpLmlzYSgidGVhbSIpLAogICAgICAgICAgICAgICAgdmFyKCJyLXQiKS5pc2EoInJlcG8tdGVhbSIpLnJlbCgicmVwby10ZWFtX3JlcG8iLCB2YXIoInIiKSkucmVsKCJyZXBvLXRlYW1fdGVhbSIsIHZhcigidCIpKSkKICAgICAgICAgICAgICAgIC5pbnNlcnQoCiAgICAgICAgICAgICAgICAgICAgICAgIHZhcigpLmlzYSgicmVwby10ZWFtIikucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigibnIiKS5yZWwoInJlcG8tdGVhbV90ZWFtIiwgdmFyKCJ0IikpKSkpOwogICAgICAgIHR4LmV4ZWN1dGUobWF0Y2goCiAgICAgICAgICAgICAgICB2YXIoInIiKS5pc2EoInJlcG9zaXRvcnkiKS5oYXMoInN5bWJvbCIsIG9sZFJlcG9TeW1ib2wudG9TdHJpbmcoKSksCiAgICAgICAgICAgICAgICB2YXIoIm5yIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBuZXdSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJ0IikuaXNhKCJ0ZWFtIiksCiAgICAgICAgICAgICAgICB2YXIoInItdCIpLmlzYSgicmVwby10ZWFtIikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpLnJlbCgicmVwby10ZWFtX3JlcG8iLCB2YXIoInIiKSkucmVsKCJyZXBvLXRlYW1fdGVhbSIsIHZhcigidCIpKSwKICAgICAgICAgICAgICAgIHZhcigibnItdCIpLmlzYSgicmVwby10ZWFtIikucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigiciIpKS5yZWwoInJlcG8tdGVhbV90ZWFtIiwgdmFyKCJ0IikpKQogICAgICAgICAgICAgICAgLmluc2VydCgKICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCJuci10IikuaGFzKCJwZXJtaXNzaW9uIiwgdmFyKCJwIikpKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgICAgIHZhcigiciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgb2xkUmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgICAgICB2YXIoIm5yIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBuZXdSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgICAgIHZhcigidCIpLmlzYSgidGVhbSIpLAogICAgICAgICAgICAgICAgICAgIHZhcigici10IikuaXNhKCJyZXBvLXRlYW0iKS5yZWwoInJlcG8tdGVhbV9yZXBvIiwgdmFyKCJyIikpLnJlbCgicmVwby10ZWFtX3RlYW0iLCB2YXIoInQiKSkpCiAgICAgICAgICAgICAgICAuaW5zZXJ0KAogICAgICAgICAgICAgICAgICAgIHZhcigpLmlzYSgicmVwby10ZWFtIikucmVsKCJyZXBvLXRlYW1fcmVwbyIsIHZhcigibnIiKS5yZWwoInJlcG8tdGVhbV90ZWFtIiwgdmFyKCJ0IikpKSkpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -474,9 +480,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>rename</last-search>
+      <last-search>repo-branch-rule</last-search>
       <last-offset />
-      <last-pattern>rename</last-pattern>
+      <last-pattern>repo-branch-rule</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
