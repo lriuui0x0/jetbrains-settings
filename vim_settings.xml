@@ -199,11 +199,18 @@
       <file name="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" timestamp="1598954559693">
         <mark key="'" line="157" column="92" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" timestamp="1598960345051">
+        <mark key="'" line="177" column="8" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1598619854726">
         <mark key="'" line="114" column="21" />
         <mark key="[" line="284" column="0" />
         <mark key="]" line="284" column="0" />
         <mark key="." line="284" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/local/grabl.env" timestamp="1598960900148">
+        <mark key="[" line="16" column="7" />
+        <mark key="]" line="16" column="107" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" timestamp="1598606833372">
         <mark key="'" line="54" column="4" />
@@ -248,9 +255,6 @@
         <mark key="." line="22" column="50" />
         <mark key="^" line="20" column="47" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/common/Http.java" timestamp="1598546536790">
-        <mark key="'" line="35" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/test/RepositoryTest.java" timestamp="1598959154792">
         <mark key="'" line="283" column="37" />
         <mark key="]" line="171" column="76" />
@@ -293,8 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="10" filename="$USER_HOME$/GraknLabs/grabl/design/service/automation/automation-job-single-response.json" />
-      <jump line="72" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
       <jump line="18" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
       <jump line="141" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
       <jump line="23" column="38" filename="$USER_HOME$/GraknLabs/grabl/service/Login.java" />
@@ -393,15 +395,17 @@
       <jump line="309" column="4" filename="$USER_HOME$/GraknLabs/grabl/event/github/test/RepositoryTest.java" />
       <jump line="283" column="37" filename="$USER_HOME$/GraknLabs/grabl/event/github/test/RepositoryTest.java" />
       <jump line="42" column="93" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
+      <jump line="167" column="33" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
+      <jump line="177" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>downloadEnvironmentFile</text>
+        <text>GRABL_JAVAOPTS=&quot;-Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005&quot;</text>
       </register>
       <register name="+" type="4">
-        <text>downloadEnvironmentFile</text>
+        <text>GRABL_JAVAOPTS=&quot;-Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005&quot;</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
@@ -418,7 +422,7 @@
         </keys>
       </register>
       <register name="0" type="4">
-        <text>&quot;repo description&quot;, new Symbol.Ref(repository, &quot;master&quot;, Symbol.Ref.Type.BRANCH), true</text>
+        <text>GRABL_JAVAOPTS=&quot;-Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005&quot;</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
