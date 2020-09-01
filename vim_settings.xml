@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdGF0dXNcPg==</entry>
-        <entry encoding="base64">XDxyZW1vdmVDb29raWVcPg==</entry>
-        <entry>getIp</entry>
-        <entry encoding="base64">XDxjaGVja0Zvck5lc3RlZFByb3BcPg==</entry>
         <entry>Github</entry>
         <entry>getDefaultPermission</entry>
         <entry encoding="base64">XDxKc29uT2JqZWN0XD4=</entry>
@@ -27,6 +23,10 @@
         <entry>githubNotifiers</entry>
         <entry encoding="base64">XDxTU0hfU0VUVVBfU0NSSVBUXD4=</entry>
         <entry encoding="base64">XDxTQ1JJUFRfU0hcPg==</entry>
+        <entry encoding="base64">XDxnZXRFbnZpcm9ubWVudFw+</entry>
+        <entry encoding="base64">XDxkb3dubG9hZEVudmlyb25tZW50RmlsZVw+</entry>
+        <entry>timeout</entry>
+        <entry encoding="base64">XDx0aW1lb3V0U2VjXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>w\:w</entry>
@@ -236,8 +236,10 @@
       <file name="$USER_HOME$/GraknLabs/grabl/automation/status/Notifier.java" timestamp="1598951462168">
         <mark key="'" line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1598955602251">
-        <mark key="'" line="361" column="48" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1598958366506">
+        <mark key="'" line="184" column="53" />
+        <mark key="[" line="221" column="32" />
+        <mark key="]" line="221" column="54" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" timestamp="1598546575740">
         <mark key="'" line="21" column="46" />
@@ -291,14 +293,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="232" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="245" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="254" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="264" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="273" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="291" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="299" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="35" column="0" filename="$USER_HOME$/GraknLabs/grabl/common/Http.java" />
       <jump line="139" column="24" filename="$USER_HOME$/GraknLabs/grabl/common/Symbol.java" />
       <jump line="20" column="46" filename="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" />
       <jump line="21" column="46" filename="$USER_HOME$/GraknLabs/grabl/concept/BranchRule.java" />
@@ -391,15 +385,23 @@
       <jump line="175" column="173" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
       <jump line="186" column="80" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
       <jump line="361" column="48" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="351" column="19" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="176" column="53" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="221" column="32" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="130" column="50" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="230" column="69" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="93" column="76" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="184" column="53" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgfQo=</text>
+      <register name="&quot;" type="4">
+        <text>downloadEnvironmentFile</text>
       </register>
-      <register name="+" type="2">
-        <text encoding="base64">ICAgICAgICB0eC5leGVjdXRlKG1hdGNoKAogICAgICAgICAgICAgICAgdmFyKCJyIikuaXNhKCJyZXBvc2l0b3J5IikuaGFzKCJzeW1ib2wiLCBvbGRSZXBvU3ltYm9sLnRvU3RyaW5nKCkpLAogICAgICAgICAgICAgICAgdmFyKCJuciIpLmlzYSgicmVwb3NpdG9yeSIpLmhhcygic3ltYm9sIiwgbmV3UmVwb1N5bWJvbC50b1N0cmluZygpKSwKICAgICAgICAgICAgICAgIHZhcigidCIpLmlzYSgidGVhbSIpLAogICAgICAgICAgICAgICAgdmFyKCJyLXQiKS5pc2EoInJlcG8tdGVhbSIpLmhhcygicGVybWlzc2lvbiIsIHZhcigicCIpKS5yZWwoInJlcG8tdGVhbV9yZXBvIiwgdmFyKCJyIikpLnJlbCgicmVwby10ZWFtX3RlYW0iLCB2YXIoInQiKSkpCiAgICAgICAgICAgICAgICAuaW5zZXJ0KAogICAgICAgICAgICAgICAgICAgICAgICB2YXIoIm5yLXQiKS5pc2EoInJlcG8tdGVhbSIpLmhhcygicGVybWlzc2lvbiIsIHZhcigicCIpKS5yZWwoInJlcG8tdGVhbV9yZXBvIiwgdmFyKCJuciIpLnJlbCgicmVwby10ZWFtX3RlYW0iLCB2YXIoInQiKSkpKSk7Cg==</text>
+      <register name="+" type="4">
+        <text>downloadEnvironmentFile</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
@@ -408,7 +410,7 @@
         <text>, newName</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxTQ1JJUFRfU0hcPg==</text>
+        <text encoding="base64">XDx0aW1lb3V0U2VjXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -478,9 +480,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxTQ1JJUFRfU0hcPg==</last-search>
+      <last-search encoding="base64">XDx0aW1lb3V0U2VjXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxTQ1JJUFRfU0hcPg==</last-pattern>
+      <last-pattern encoding="base64">XDx0aW1lb3V0U2VjXD4=</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
