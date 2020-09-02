@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>githubNotfier</entry>
         <entry>notifier</entry>
         <entry>githubNotifiers</entry>
         <entry encoding="base64">XDxTU0hfU0VUVVBfU0NSSVBUXD4=</entry>
@@ -27,6 +26,7 @@
         <entry>channel</entry>
         <entry>team-repo</entry>
         <entry>repo-team</entry>
+        <entry>create</entry>
       </history-search>
       <history-cmd>
         <entry>w\:w</entry>
@@ -288,8 +288,8 @@
         <mark key="." line="70" column="0" />
         <mark key="^" line="69" column="40" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Install.java" timestamp="1599049579056">
-        <mark key="'" line="208" column="4" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Install.java" timestamp="1599053203765">
+        <mark key="'" line="85" column="51" />
         <mark key="[" line="113" column="0" />
         <mark key="]" line="113" column="0" />
         <mark key="." line="113" column="0" />
@@ -303,8 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/PermissionCache.java" />
-      <jump line="20" column="31" filename="$USER_HOME$/GraknLabs/grabl/concept/PermissionCache.java" />
       <jump line="141" column="44" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="159" column="129" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="164" column="38" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
@@ -381,9 +379,6 @@
       <jump line="108" column="57" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="131" column="16" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="104" column="23" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
-      <jump line="125" column="24" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
-      <jump line="120" column="61" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
-      <jump line="98" column="75" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="87" column="64" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="196" column="29" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="200" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
@@ -403,6 +398,11 @@
       <jump line="209" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="128" column="36" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="131" column="33" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
+      <jump line="120" column="58" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="94" column="28" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="98" column="47" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="125" column="35" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="85" column="51" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -420,7 +420,7 @@
         <text>repoSymbol</text>
       </register>
       <register name="/" type="4">
-        <text>repo-team</text>
+        <text>create</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -490,9 +490,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>repo-team</last-search>
+      <last-search>create</last-search>
       <last-offset />
-      <last-pattern>repo-team</last-pattern>
+      <last-pattern>create</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
