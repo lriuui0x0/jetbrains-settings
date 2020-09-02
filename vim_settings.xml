@@ -196,12 +196,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Repository.java" timestamp="1598977674473">
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Repository.java" timestamp="1598977914808">
         <mark key="'" line="33" column="51" />
-        <mark key="[" line="32" column="33" />
-        <mark key="]" line="32" column="69" />
-        <mark key="." line="32" column="68" />
-        <mark key="^" line="32" column="69" />
+        <mark key="[" line="82" column="20" />
+        <mark key="]" line="82" column="33" />
+        <mark key="." line="82" column="32" />
+        <mark key="^" line="82" column="33" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" timestamp="1598977021666">
         <mark key="[" line="63" column="0" />
@@ -236,8 +236,8 @@
         <mark key="[" line="16" column="7" />
         <mark key="]" line="16" column="107" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Commit.java" timestamp="1598977039079">
-        <mark key="'" line="0" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Commit.java" timestamp="1598977764400">
+        <mark key="'" line="125" column="0" />
         <mark key="[" line="124" column="0" />
         <mark key="]" line="124" column="0" />
         <mark key="." line="124" column="0" />
@@ -316,7 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="167" column="33" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="19" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Owner.java" />
       <jump line="16" column="59" filename="$USER_HOME$/GraknLabs/grabl/service/Owner.java" />
       <jump line="33" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Owner.java" />
@@ -416,12 +415,13 @@
       <jump line="71" column="97" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
       <jump line="34" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
       <jump line="33" column="51" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
+      <jump line="125" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/Commit.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>grabl.concept.Repository.getDefaultBranch(tx, repoSymbol)</text>
+        <text>LocalDateTime</text>
       </register>
       <register name="+" type="4">
         <text>GRABL_JAVAOPTS=&quot;-Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005&quot;</text>
@@ -430,7 +430,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>grabl.concept.Repository.getDefaultBranch(tx, repoSymbol)</text>
+        <text>LocalDateTime</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxnZXRIZWFkc1w+</text>
@@ -444,7 +444,7 @@
         <text encoding="base64">CiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBnZXRDcmVhdGVkKEdyYWtuQ2xpZW50LlRyYW5zYWN0aW9uIHR4LCBTeW1ib2wuQ29tbWl0IGNvbW1pdCkgewogICAgICAgIEdyYXFsR2V0LlVuZmlsdGVyZWQgcXVlcnkgPSBtYXRjaCgKICAgICAgICAgICAgICAgIHZhcigiY29tbWl0IikuaXNhKCJjb21taXQiKQogICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJzeW1ib2wiLCBjb21taXQudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygiY3JlYXRlZCIsIHZhcigiY3JlYXRlZCIpKQogICAgICAgICkuZ2V0KCJjcmVhdGVkIik7CiAgICAgICAgTGlzdDxDb25jZXB0TWFwPiByZXMgPSB0eC5leGVjdXRlKHF1ZXJ5KS5nZXQoKTsKCiAgICAgICAgaWYgKHJlcy5pc0VtcHR5KCkpIHJldHVybiBudWxsOwogICAgICAgIHJldHVybiBab25lZERhdGVUaW1lLm9mKHJlcy5nZXQoMCkuZ2V0KCJjcmVhdGVkIikuPExvY2FsRGF0ZVRpbWU+YXNBdHRyaWJ1dGUoKS52YWx1ZSgpLCBab25lT2Zmc2V0LlVUQykKICAgICAgICAgICAgICAgIC5mb3JtYXQoRGF0ZVRpbWVGb3JtYXR0ZXIuSVNPX0lOU1RBTlQpOwogICAgfQoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBicmFuY2hlcy5mb3JFYWNoKGJyYW5jaCAtPiB7CiAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBab25lZERhdGVUaW1lIGxhc3RUaW1lID0gWm9uZWREYXRlVGltZS5vZihMb2NhbERhdGVUaW1lLk1JTiwgWm9uZU9mZnNldC5VVC5vZihVVEMpKQogICAgICAgIFN5bWJvbC5SZWYgbGF0ZXN0QnJhbmNoID0gZ3JhYmwuY29uY2VwdC5SZXBvc2l0b3J5LmdldERlZmF1bHRCcmFuY2godHgsIHJlcG8pOwogICAgICAgIGZvciAoU3ltYm9sLlJlZiBicmFuY2ggOiBicmFuY2hlcykgewogICAgICAgICAgICBMaXN0PFN5bWJvbC5Db21taXQ+IGhlYWRzID0gZ3JhYmwuY29uY2VwdC5SZWYuZ2V0TGF0ZXN0Q29tbWl0cyh0eCwgYnJhbmNoKTsKICAgICAgICAgICAgaWYgKCFoZWFkcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIFN5bWJvbC5Db21taXQgbGFzdENvbW1pdCA9IGhlYWRzLmdldCgwKTsKICAgICAgICAgICAgICAgIFN0cmluZyBjcmVhdGVkID0gZ3JhYmwuY29uY2VwdC5Db21taXQuZ2V0Q3JlYXRlZCh0eCwgbGFzdENvbW1pdCk7CiAgICAgICAgICAgICAgICBpZiAoTG9jYWxEYXRlVGltZS5wYXJzZShjcmVhdGVkKS5pc0FmdGVyKGxhc3RUaW1lKSkgewogICAgICAgICAgICAgICAgICAgIGxhdGVzdEJyYW5jaCA9IGJyYW5jaDsKICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -473,28 +473,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBicmFuY2hlcy5mb3JFYWNoKGJyYW5jaCAtPiB7CiAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxTeW1ib2wuQ29tbWl0PiBoZWFkcyA9IGdyYWJsLmNvbmNlcHQuUmVmLmdldExhdGVzdENvbW1pdHModHgsIGJyYW5jaCk7CiAgICAgICAgICAgIGlmICghaGVhZHMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBTeW1ib2wuQ29tbWl0IGxhc3RDb21taXQgPSBoZWFkcy5nZXQoMCk7CiAgICAgICAgICAgICAgICBTdHJpbmcgY3JlYXRlZCA9IGdyYWJsLmNvbmNlcHQuQ29tbWl0LmdldENyZWF0ZWQodHgsIGxhc3RDb21taXQpOwogICAgICAgICAgICAgICAgaWYgKExvY2FsRGF0ZVRpbWUucGFyc2UoY3JlYXRlZCkuaXNBZnRlcihsYXN0VGltZSkgewogICAgICAgICAgICAgICAgICAgIGxhdGVzdEJyYW5jaCA9IDsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBMb2NhbERhdGVUaW1lIGxhc3RUaW1lCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgTGlzdDxTeW1ib2wuQ29tbWl0PiBoZWFkcyA9IGdyYWJsLmNvbmNlcHQuUmVmLmdldExhdGVzdENvbW1pdHModHgsIGJyYW5jaCk7CiAgICAgICAgICAgIGlmICghaGVhZHMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBTeW1ib2wuQ29tbWl0IGxhc3RDb21taXQgPSBoZWFkcy5nZXQoMCk7CiAgICAgICAgICAgICAgICBTdHJpbmcgY3JlYXRlZCA9IGdyYWJsLmNvbmNlcHQuQ29tbWl0LmdldENyZWF0ZWQodHgsIGxhc3RDb21taXQpOwogICAgICAgICAgICAgICAgaWYgKExvY2FsRGF0ZVRpbWUucGFyc2UoY3JlYXRlZCkuaXNBZnRlcihsYXN0VGltZSkgewogICAgICAgICAgICAgICAgICAgIGxhdGVzdEJyYW5jaCA9IDsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBMb2NhbERhdGVUaW1lIGxhc3RUaW1lCg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuQ29tbWl0LmFzc2VydEV4aXN0cyh0eCwgY29tbWl0KTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuQ29tbWl0LmFzc2VydEV4aXN0cyh0eCwgY29tbWl0KTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGdyYWJsLmNvbmNlcHQuQ29tbWl0LmFzc2VydEV4aXN0cyh0eCwgY29tbWl0KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
