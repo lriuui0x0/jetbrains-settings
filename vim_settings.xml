@@ -196,13 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Repository.java" timestamp="1598977914808">
-        <mark key="'" line="33" column="51" />
-        <mark key="[" line="82" column="20" />
-        <mark key="]" line="82" column="33" />
-        <mark key="." line="82" column="32" />
-        <mark key="^" line="82" column="33" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" timestamp="1598977021666">
         <mark key="[" line="63" column="0" />
         <mark key="]" line="63" column="0" />
@@ -214,9 +207,6 @@
       <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1598977012598">
         <mark key="'" line="926" column="116" />
         <mark key="[" line="947" column="96" />
-        <mark key="]" line="948" column="52" />
-        <mark key="." line="948" column="51" />
-        <mark key="^" line="948" column="52" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Navigation.java" timestamp="1598971176842">
         <mark key="'" line="264" column="0" />
@@ -232,8 +222,8 @@
         <mark key="^" line="61" column="10" />
         <mark key="." line="61" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1599043147180">
-        <mark key="'" line="110" column="10" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1599043906379">
+        <mark key="'" line="82" column="10" />
         <mark key="[" line="284" column="0" />
         <mark key="]" line="284" column="0" />
         <mark key="." line="284" column="0" />
@@ -249,6 +239,11 @@
         <mark key="." line="124" column="0" />
         <mark key="^" line="61" column="42" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Owner/index.vue" timestamp="1599043932599">
+        <mark key="[" line="36" column="56" />
+        <mark key="]" line="36" column="56" />
+        <mark key="." line="36" column="56" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1598970161162">
         <mark key="'" line="53" column="126" />
         <mark key="[" line="55" column="0" />
@@ -262,9 +257,6 @@
         <mark key="]" line="66" column="32" />
         <mark key="^" line="66" column="32" />
         <mark key="." line="66" column="31" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/status/Notifier.java" timestamp="1598951462168">
-        <mark key="'" line="12" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Owner.java" timestamp="1598970061937">
         <mark key="'" line="42" column="80" />
@@ -284,7 +276,6 @@
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/PerformanceAnalysis.java" timestamp="1598976366894">
         <mark key="[" line="128" column="0" />
-        <mark key="]" line="129" column="45" />
         <mark key="." line="128" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/test/RepositoryTest.java" timestamp="1598959154792">
@@ -314,7 +305,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="163" column="74" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="171" column="114" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="183" column="17" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="262" column="170" filename="$USER_HOME$/GraknLabs/grabl/concept/Navigation.java" />
@@ -414,12 +404,13 @@
       <jump line="134" column="12" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="63" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
       <jump line="59" column="21" filename="$USER_HOME$/GraknLabs/grabl/service/Install.java" />
+      <jump line="82" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgCgo=</text>
+      <register name="&quot;" type="4">
+        <text>/${repository.branch.name}</text>
       </register>
       <register name="+" type="4">
         <text>GRABL_JAVAOPTS=&quot;-Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005&quot;</text>
@@ -428,7 +419,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>LocalDateTime</text>
+        <text>/${repository.branch.name}</text>
       </register>
       <register name="/" type="4">
         <text>repo-team</text>
