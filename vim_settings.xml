@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Run</entry>
         <entry>Long.parse</entry>
         <entry>try</entry>
         <entry>getWorkflows</entry>
@@ -27,6 +26,7 @@
         <entry>parse</entry>
         <entry>binary</entry>
         <entry>user sub entity</entry>
+        <entry>size</entry>
       </history-search>
       <history-cmd>
         <entry>s/newPage/page/gg</entry>
@@ -47,8 +47,8 @@
         <entry>w\</entry>
         <entry>w:w</entry>
         <entry>s</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -196,12 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" timestamp="1599838546653">
-        <mark key="'" line="333" column="0" />
-        <mark key="[" line="298" column="43" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="298" column="55" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" timestamp="1600080409080">
         <mark key="'" line="99" column="4" />
         <mark key="]" line="39" column="32" />
@@ -242,10 +236,11 @@
         <mark key="^" line="179" column="93" />
         <mark key="." line="179" column="114" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Commit.java" timestamp="1600078408485">
-        <mark key="'" line="83" column="94" />
+      <file name="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" timestamp="1600161077304">
+        <mark key="'" line="6" column="7" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1600159172374">
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1600162217442">
+        <mark key="'" line="41" column="0" />
         <mark key="[" line="93" column="0" />
         <mark key="]" line="93" column="0" />
         <mark key="^" line="93" column="52" />
@@ -254,12 +249,14 @@
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Router.java" timestamp="1600086672966">
         <mark key="'" line="35" column="26" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" timestamp="1600160458140">
-        <mark key="'" line="16" column="28" />
-        <mark key="[" line="16" column="26" />
-        <mark key="]" line="16" column="27" />
-        <mark key="." line="16" column="26" />
-        <mark key="^" line="16" column="27" />
+      <file name="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grabl/main.tf" timestamp="1600161068761">
+        <mark key="'" line="125" column="9" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" timestamp="1600162192620">
+        <mark key="'" line="17" column="25" />
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/BUILD" timestamp="1600097357947">
         <mark key="[" line="12" column="0" />
@@ -310,13 +307,6 @@
       <file name="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" timestamp="1600160936730" />
     </filemarks>
     <jumps>
-      <jump line="111" column="4" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
-      <jump line="114" column="58" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
-      <jump line="117" column="47" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
-      <jump line="60" column="61" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
-      <jump line="112" column="34" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
-      <jump line="120" column="0" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
-      <jump line="113" column="27" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
       <jump line="115" column="27" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
       <jump line="67" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
       <jump line="10" column="213" filename="$USER_HOME$/GraknLabs/grabl/server/routes" />
@@ -409,13 +399,20 @@
       <jump line="12" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="8" column="30" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="16" column="28" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grabl/main.tf" />
+      <jump line="17" column="2" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grabl/main.tf" />
+      <jump line="125" column="9" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grabl/main.tf" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="20" column="2" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="6" column="7" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="16" column="25" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
+      <jump line="41" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">PFN0cmluZz4=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICByZXBvLgo=</text>
       </register>
       <register name="+" type="4">
         <text>kt_jvm_binary</text>
@@ -427,7 +424,7 @@
         <text encoding="base64">PFN0cmluZz4=</text>
       </register>
       <register name="/" type="4">
-        <text>user sub entity</text>
+        <text>size</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -438,7 +435,7 @@
         <text encoding="base64">ICAgIHZhbCBzc2hQcml2YXRlS2V5ID0gIlRPRE8iCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIE5PVEU6IENyZWF0ZSB1c2VyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICByZXBvLgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -467,39 +464,39 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhbCBncmFibCA9IE93bmVyLmdldCh0eCwgImdyYWJsIikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIE5PVEU6IENyZWF0ZSB1c2VyCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFVzZXIuaW5zZXJ0R2l0aHViVG9rZW4odHgsICJncmFibCIsICJUT0RPIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9yZ2EK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhbCBncmFibCA9IE93bmVyLmdldCh0eCwgImdyYWJsIikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIE9yZ2FuCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>user sub entity</last-search>
+      <last-search>size</last-search>
       <last-offset />
-      <last-pattern>user sub entity</last-pattern>
+      <last-pattern>size</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
