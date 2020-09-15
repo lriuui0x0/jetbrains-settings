@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>byName</entry>
         <entry>getJobNames</entry>
         <entry encoding="base64">XDxKb2JcPg==</entry>
         <entry encoding="base64">XDxXb3JrZmxvd1w+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxnaXRIdWJCdWlsZGVyXD4=</entry>
         <entry>create</entry>
         <entry encoding="base64">XDxyZXBvSnNvblw+</entry>
+        <entry encoding="base64">XDxncmFrbmxhYnNUZXN0XD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wj</entry>
@@ -196,6 +196,9 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1600170852483">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/server/Server.java" timestamp="1600165287789">
         <mark key="'" line="66" column="30" />
         <mark key="[" line="31" column="0" />
@@ -260,16 +263,12 @@
         <mark key="." line="133" column="104" />
         <mark key="^" line="133" column="105" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" timestamp="1600170200412">
-        <mark key="'" line="54" column="33" />
-        <mark key="[" line="22" column="25" />
-        <mark key="]" line="22" column="32" />
-        <mark key="." line="22" column="31" />
-        <mark key="^" line="22" column="32" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/BUILD" timestamp="1600097357947">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="39" />
+      <file name="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" timestamp="1600172672139">
+        <mark key="'" line="53" column="38" />
+        <mark key="[" line="53" column="10" />
+        <mark key="]" line="53" column="15" />
+        <mark key="." line="53" column="14" />
+        <mark key="^" line="53" column="15" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/staging/BUILD" timestamp="1600099434538">
         <mark key="'" line="2" column="13" />
@@ -307,8 +306,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="0" filename="$USER_HOME$/GraknLabs/grabl/server/routes" />
-      <jump line="17" column="0" filename="$USER_HOME$/GraknLabs/grabl/server/routes" />
       <jump line="143" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/Pipeline.java" />
       <jump line="215" column="0" filename="$USER_HOME$/GraknLabs/grabl/server/Status.java" />
       <jump line="22" column="11" filename="$USER_HOME$/GraknLabs/grabl/pages/Owner/List.vue" />
@@ -385,14 +382,11 @@
       <jump line="156" column="62" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="134" column="34" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="44" column="41" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="32" column="9" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="30" column="22" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="23" column="41" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="26" column="3" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="22" column="36" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="19" column="22" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="31" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/Repository.java" />
       <jump line="35" column="74" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="36" column="84" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
@@ -406,13 +400,18 @@
       <jump line="40" column="68" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="52" column="39" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="58" column="11" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="53" column="33" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
+      <jump line="32" column="43" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
+      <jump line="19" column="8" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="20" column="23" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
+      <jump line="22" column="37" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
+      <jump line="53" column="38" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>listOf()</text>
+        <text>(repo, parentRepo) in repos zip parentRepos zip branches</text>
       </register>
       <register name="+" type="4">
         <text>kt_jvm_binary</text>
@@ -421,10 +420,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>listOf()</text>
+        <text>(repo, parentRepo) in repos zip parentRepos zip branches</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxyZXBvSnNvblw+</text>
+        <text encoding="base64">XDxncmFrbmxhYnNUZXN0XD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -435,7 +434,7 @@
         <text encoding="base64">ICAgICAgICAgICAgZ2l0QGdpdGh1Yi5jb206JHJlcG8uZ2l0Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHZhbCAK</text>
+        <text encoding="base64">ICAgICAgICBwYXJlbnRSZXBvLgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -464,28 +463,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHBhcmVudFJlcG9zCg==</text>
+        <text encoding="base64">ICAgIHZhbCBicmFuY2hlcyA9IEFycmF5KHJlcG9zLnNpemUpIHsgc2V0T2YoIm1hc3RlciIpIH0K</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">Lgo=</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHZhbCAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIFtrXQo=</text>
+        <text encoding="base64">ICAgIHBhcmVudFJlcG9zCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZ2l0QGdpdGh1Yi5jb206JHJlcG8uZ2l0Cg==</text>
+      <register name="7" type="4">
+        <text encoding="base64">Lgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgIFtrXQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -494,9 +493,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxyZXBvSnNvblw+</last-search>
+      <last-search encoding="base64">XDxncmFrbmxhYnNUZXN0XD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxyZXBvSnNvblw+</last-pattern>
+      <last-pattern encoding="base64">XDxncmFrbmxhYnNUZXN0XD4=</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
