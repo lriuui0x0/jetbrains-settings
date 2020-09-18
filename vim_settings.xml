@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>builder</entry>
-        <entry encoding="base64">XDxnaXRIdWJCdWlsZGVyXD4=</entry>
         <entry>create</entry>
         <entry encoding="base64">XDxyZXBvSnNvblw+</entry>
         <entry encoding="base64">XDxncmFrbmxhYnNUZXN0XD4=</entry>
@@ -27,6 +25,8 @@
         <entry>analysis sub entity</entry>
         <entry>performance-analysis</entry>
         <entry>date</entry>
+        <entry>grakn-nic</entry>
+        <entry>install</entry>
       </history-search>
       <history-cmd>
         <entry>wj</entry>
@@ -204,6 +204,11 @@
         <mark key="'" line="353" column="21" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingAuth.java" timestamp="1600355528824" />
+      <file name="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" timestamp="1600446904531">
+        <mark key="[" line="72" column="0" />
+        <mark key="]" line="72" column="0" />
+        <mark key="." line="72" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1600422111803">
         <mark key="'" line="106" column="0" />
         <mark key="[" line="99" column="27" />
@@ -214,12 +219,6 @@
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/automation/automation-job-single-response.json" timestamp="1600432029099">
         <mark key="[" line="63" column="15" />
         <mark key="]" line="63" column="49" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/common/Github.java" timestamp="1600350858773">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="0" />
-        <mark key="." line="12" column="0" />
-        <mark key="^" line="12" column="32" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" timestamp="1600355417478">
         <mark key="'" line="28" column="0" />
@@ -234,9 +233,6 @@
         <mark key="]" line="187" column="24" />
         <mark key="^" line="187" column="24" />
         <mark key="." line="187" column="24" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1600350175303">
-        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/server/Server.java" timestamp="1600354575821">
         <mark key="'" line="66" column="30" />
@@ -258,6 +254,10 @@
         <mark key="^" line="36" column="36" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingServer.java" timestamp="1600355645169" />
+      <file name="$USER_HOME$/GraknLabs/grabl/infrastructure/images/install-grakn-azure.sh" timestamp="1600447506366">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="48" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/common/hocs/withWsConn.js" timestamp="1600422702435">
         <mark key="'" line="0" column="0" />
       </file>
@@ -292,21 +292,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="52" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="54" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="32" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="36" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="53" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="25" column="8" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="47" column="4" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="37" column="18" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="72" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="35" column="19" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="41" column="19" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="97" column="8" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="91" column="40" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="69" column="37" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="99" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="81" column="4" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="71" column="37" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
@@ -392,27 +377,30 @@
       <jump line="85" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" />
       <jump line="82" column="16" filename="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" />
       <jump line="76" column="88" filename="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" />
+      <jump line="58" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="25" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="38" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="49" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="51" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="59" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="16" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="13" column="37" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="64" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="71" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="7" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
+      <jump line="73" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/common/terraform_azure/modules/grakn/main.tf" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text>match
-$commit isa commit, has symbol &quot;graknlabs/grakn-2.0@2af2f69386823baa34f9c2a3d2870ec8b864c594&quot;;
-$_ (pipeline-automation_trigger: $commit, pipeline-automation_pipeline: $pipeline) isa pipeline-automation;
-$pipeline has name $pipeline-name, has latest true;
-$_ (pipeline-workflow_pipeline: $pipeline, pipeline-workflow_workflow: $workflow) isa pipeline-workflow;
-$workflow has name $workflow-name, has status $workflow-status, has latest true;
-get $pipeline-name, $workflow-name, $workflow-status;</text>
+        <text encoding="base64">c3VkbyBhcHQgaW5zdGFsbCAtcXkgb3Blbmpkay04LWpkayBvcGVuamRrLTgtanJlCg==</text>
       </register>
       <register name="+" type="2">
-        <text>match
-$commit isa commit, has symbol &quot;graknlabs/grakn-2.0@2af2f69386823baa34f9c2a3d2870ec8b864c594&quot;;
-$_ (pipeline-automation_trigger: $commit, pipeline-automation_pipeline: $pipeline) isa pipeline-automation;
-$pipeline has name $pipeline-name, has latest true;
-$_ (pipeline-workflow_pipeline: $pipeline, pipeline-workflow_workflow: $workflow) isa pipeline-workflow;
-$workflow has name $workflow-name, has status $workflow-status, has latest true;
-get $pipeline-name, $workflow-name, $workflow-status;</text>
+        <text encoding="base64">c3VkbyBhcHQgaW5zdGFsbCAtcXkgb3Blbmpkay04LWpkayBvcGVuamRrLTgtanJlCg==</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
@@ -421,7 +409,7 @@ get $pipeline-name, $workflow-name, $workflow-status;</text>
         <text encoding="base64">PA==</text>
       </register>
       <register name="/" type="4">
-        <text>date</text>
+        <text>install</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -429,7 +417,7 @@ get $pipeline-name, $workflow-name, $workflow-status;</text>
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoIiAgQ2hlY2tpbmcgbGFzdCBzdWNjZXNzIGNvbW1pdCAuLi4uLi4gIikK</text>
+        <text encoding="base64">cmVzb3VyY2UgImF6dXJlcm1fbmV0d29ya19pbnRlcmZhY2UiICJncmFrbl9uaWMiIHsKICBuYW1lICAgICAgICAgICAgICAgID0gImdyYWtuLW5pYyIKICBsb2NhdGlvbiAgICAgICAgICAgID0gImVhc3R1cyIKICByZXNvdXJjZV9ncm91cF9uYW1lID0gImdyYWJsLXByb2QiCgogIGlwX2NvbmZpZ3VyYXRpb24gewogICAgbmFtZSAgICAgICAgICAgICAgICAgICAgICAgICAgPSAiZ3Jha25fbmljIgogICAgc3VibmV0X2lkICAgICAgICAgICAgICAgICAgICAgPSB2YXIuc3VibmV0X2lkCiAgICBwcml2YXRlX2lwX2FkZHJlc3NfYWxsb2NhdGlvbiA9ICJEeW5hbWljIgogIH0KfQoK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -461,28 +449,28 @@ get $pipeline-name, $workflow-name, $workflow-status;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGF1dG8K</text>
+        <text encoding="base64">CnJlc291cmNlICJhenVyZXJtX25ldHdvcmtfaW50ZXJmYWNlIiAiZ3Jha25fbmljMiIgewogIG5hbWUgICAgICAgICAgICAgICAgPSAiZ3Jha24tbmljMiIKICBsb2NhdGlvbiAgICAgICAgICAgID0gImVhc3R1cyIKICByZXNvdXJjZV9ncm91cF9uYW1lID0gImdyYWJsLXByb2QiCgogIGlwX2NvbmZpZ3VyYXRpb24gewogICAgbmFtZSAgICAgICAgICAgICAgICAgICAgICAgICAgPSAiZ3Jha25fbmljMiIKICAgIHN1Ym5ldF9pZCAgICAgICAgICAgICAgICAgICAgID0gdmFyLnN1Ym5ldF9pZAogICAgcHJpdmF0ZV9pcF9hZGRyZXNzX2FsbG9jYXRpb24gPSAiRHluYW1pYyIKICB9Cn0KCnJlc291cmNlICJhenVyZXJtX2xpbnV4X3ZpcnR1YWxfbWFjaGluZSIgImdyYWtuMiIgewogIG5hbWUgICAgICAgICAgICAgICAgPSAiZ3Jha24yIgogIHJlc291cmNlX2dyb3VwX25hbWUgPSAiZ3JhYmwtcHJvZCIKICBsb2NhdGlvbiAgICAgICAgICAgID0gImVhc3R1cyIKICBzaXplICAgICAgICAgICAgICAgID0gIlN0YW5kYXJkX0Y4IgogIGFkbWluX3VzZXJuYW1lICAgICAgPSAiZ3JhYmwiCiAgbmV0d29ya19pbnRlcmZhY2VfaWRzID0gWwogICAgYXp1cmVybV9uZXR3b3JrX2ludGVyZmFjZS5ncmFrbl9uaWMyLmlkLAogIF0KCiAgYWRtaW5fc3NoX2tleSB7CiAgICB1c2VybmFtZSAgID0gImdyYWJsIgogICAgcHVibGljX2tleSA9IHZhci5zc2hfcHVia2V5CiAgfQoKICBkeW5hbWljICJhZG1pbl9zc2hfa2V5IiB7CiAgICBmb3JfZWFjaCA9IHZhci5kZXZlbG9wZXJfcHVia2V5cwogICAgY29udGVudCB7CiAgICAgIHVzZXJuYW1lICAgPSAiZ3JhYmwiCiAgICAgIHB1YmxpY19rZXkgPSBhZG1pbl9zc2hfa2V5LnZhbHVlCiAgICB9CiAgfQoKICBvc19kaXNrIHsKICAgIGNhY2hpbmcgICAgICAgICAgICAgID0gIlJlYWRXcml0ZSIKICAgIHN0b3JhZ2VfYWNjb3VudF90eXBlID0gIlN0YW5kYXJkX0xSUyIKICAgIG5hbWUgICAgICAgICAgICAgICAgID0gImdyYWtuLWRpc2siCiAgfQoKICBpZGVudGl0eSB7CiAgICB0eXBlICAgICAgICAgPSAiVXNlckFzc2lnbmVkIgogICAgaWRlbnRpdHlfaWRzID0gW3Zhci5ncmFibF9tYW5hZ2VkX2lkZW50aXR5LmlkXQogIH0KCiAgc291cmNlX2ltYWdlX2lkID0gIi9zdWJzY3JpcHRpb25zLyR7ZGF0YS5henVyZXJtX2NsaWVudF9jb25maWcuY3VycmVudC5zdWJzY3JpcHRpb25faWR9L3Jlc291cmNlR3JvdXBzL2dyYWJsLXByb2QvcHJvdmlkZXJzL01pY3Jvc29mdC5Db21wdXRlL2ltYWdlcy9ncmFrbi0ke3Zhci5pbWFnZV92ZXJzaW9ufSIKCiAgLy8gc2NyaXB0IGV4ZWN1dGVkIGF0IHN0YXJ0dXAKICBjdXN0b21fZGF0YSA9IGJhc2U2NGVuY29kZSh0ZW1wbGF0ZWZpbGUoIiR7cGF0aC5tb2R1bGV9L2NvbmZpZy9zdGFydHVwLWdyYWtuLnNoIiwgewogICAga2V5X3ZhdWx0X25hbWUgICAgICAgICA9IHZhci5ncmFibF9rZXlfdmF1bHRfbmFtZSwKICAgIHNzaF9ob3N0X2VjZHNhX3ByaXZrZXkgPSB2YXIuZ3JhYmxfc2VjcmV0X2lkcy5zc2hfaG9zdF9lY2RzYV9wcml2a2V5LAogICAgc3NoX2hvc3RfZWNkc2FfcHVia2V5ICA9IHZhci5ncmFibF9zZWNyZXRfaWRzLnNzaF9ob3N0X2VjZHNhX3B1YmtleSwKICB9KSkKfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcml2YXRlIHZvaWQgCgo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KCkK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGF1dG8K</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnVuQ29tbWFuZCgiICBQdXNoaW5nIGJyYW5jaCAkYnJhbmNoIiwgdG1wRGlyZWN0b3J5LCAiIiIKICAgICAgICAgICAgICAgIGNkICR7cmVwby5uYW1lfQogICAgICAgICAgICAgICAgZ2l0IGNoZWNrb3V0IHVwc3RyZWFtLyRicmFuY2gKICAgICAgICAgICAgICAgIGdpdCBjaGVja291dCAtQiAkYnJhbmNoCiAgICAgICAgICAgICAgICBnaXQgY29tbWl0IC0tYWxsb3ctZW1wdHkgLW0gJ3RyaWdnZXIgc3RhZ2luZyB0ZXN0JwogICAgICAgICAgICAgICAgZ2l0IHB1c2ggLWYgb3JpZ2luICRicmFuY2gKICAgICAgICAgICAgIiIiKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcml2YXRlIHZvaWQgCgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJ1bkNvbW1hbmQoIiAgUHVzaGluZyBicmFuY2ggJGJyYW5jaCIsIHRtcERpcmVjdG9yeSwgIiIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2QgJHtyZXBvLm5hbWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2l0IGNoZWNrb3V0IHVwc3RyZWFtLyRicmFuY2gKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBnaXQgY2hlY2tvdXQgLUIgJGJyYW5jaAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdpdCBjb21taXQgLS1hbGxvdy1lbXB0eSAtbSAndHJpZ2dlciBzdGFnaW5nIHRlc3QnCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2l0IHB1c2ggLWYgb3JpZ2luICRicmFuY2gKICAgICAgICAgICAgICAgICAgICAgICAgICAgICIiIikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcnVuQ29tbWFuZCgiICBQdXNoaW5nIGJyYW5jaCAkYnJhbmNoIiwgdG1wRGlyZWN0b3J5LCAiIiIKICAgICAgICAgICAgICAgIGNkICR7cmVwby5uYW1lfQogICAgICAgICAgICAgICAgZ2l0IGNoZWNrb3V0IHVwc3RyZWFtLyRicmFuY2gKICAgICAgICAgICAgICAgIGdpdCBjaGVja291dCAtQiAkYnJhbmNoCiAgICAgICAgICAgICAgICBnaXQgY29tbWl0IC0tYWxsb3ctZW1wdHkgLW0gJ3RyaWdnZXIgc3RhZ2luZyB0ZXN0JwogICAgICAgICAgICAgICAgZ2l0IHB1c2ggLWYgb3JpZ2luICRicmFuY2gKICAgICAgICAgICAgIiIiKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -491,9 +479,9 @@ get $pipeline-name, $workflow-name, $workflow-status;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>date</last-search>
+      <last-search>install</last-search>
       <last-offset />
-      <last-pattern>date</last-pattern>
+      <last-pattern>install</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
