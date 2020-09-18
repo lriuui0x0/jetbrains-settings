@@ -228,9 +228,6 @@
         <mark key="." line="28" column="26" />
         <mark key="^" line="28" column="27" />
       </file>
-      <file name="/fragment.kt" timestamp="1600344792966">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Install.java" timestamp="1600351475690">
         <mark key="'" line="89" column="57" />
         <mark key="[" line="187" column="24" />
@@ -241,7 +238,6 @@
       <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1600350175303">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/RepositoryPage.java" timestamp="1600339023359" />
       <file name="$USER_HOME$/GraknLabs/grabl/server/Server.java" timestamp="1600354575821">
         <mark key="'" line="66" column="30" />
         <mark key="[" line="79" column="0" />
@@ -282,12 +278,20 @@
         <mark key="." line="113" column="0" />
         <mark key="^" line="108" column="78" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" timestamp="1600441187639">
+        <mark key="'" line="76" column="88" />
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="85" column="17" />
+        <mark key="." line="83" column="0" />
+      </file>
+      <file name="/fragment.java" timestamp="1600441433884">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="6" />
+        <mark key="^" line="0" column="1" />
+        <mark key="." line="0" column="6" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="196" column="12" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
-      <jump line="206" column="0" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
-      <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/status/GithubNotifier.java" />
-      <jump line="92" column="8" filename="$USER_HOME$/GraknLabs/grabl/automation/status/GithubNotifier.java" />
       <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="52" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="54" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
@@ -384,15 +388,31 @@
       <jump line="22" column="29" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="23" column="27" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="343" column="21" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="72" column="102" filename="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" />
+      <jump line="85" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" />
+      <jump line="82" column="16" filename="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" />
+      <jump line="76" column="88" filename="$USER_HOME$/GraknLabs/grabl/concept/OwnerPage.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>bazel build //:assemble-linux-targz</text>
+      <register name="&quot;" type="2">
+        <text>match
+$commit isa commit, has symbol &quot;graknlabs/grakn-2.0@2af2f69386823baa34f9c2a3d2870ec8b864c594&quot;;
+$_ (pipeline-automation_trigger: $commit, pipeline-automation_pipeline: $pipeline) isa pipeline-automation;
+$pipeline has name $pipeline-name, has latest true;
+$_ (pipeline-workflow_pipeline: $pipeline, pipeline-workflow_workflow: $workflow) isa pipeline-workflow;
+$workflow has name $workflow-name, has status $workflow-status, has latest true;
+get $pipeline-name, $workflow-name, $workflow-status;</text>
       </register>
-      <register name="+" type="4">
-        <text>bazel build //:assemble-linux-targz</text>
+      <register name="+" type="2">
+        <text>match
+$commit isa commit, has symbol &quot;graknlabs/grakn-2.0@2af2f69386823baa34f9c2a3d2870ec8b864c594&quot;;
+$_ (pipeline-automation_trigger: $commit, pipeline-automation_pipeline: $pipeline) isa pipeline-automation;
+$pipeline has name $pipeline-name, has latest true;
+$_ (pipeline-workflow_pipeline: $pipeline, pipeline-workflow_workflow: $workflow) isa pipeline-workflow;
+$workflow has name $workflow-name, has status $workflow-status, has latest true;
+get $pipeline-name, $workflow-name, $workflow-status;</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
