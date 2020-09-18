@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>user sub entity</entry>
-        <entry>size</entry>
         <entry>builder</entry>
         <entry encoding="base64">XDxnaXRIdWJCdWlsZGVyXD4=</entry>
         <entry>create</entry>
@@ -27,6 +25,8 @@
         <entry>:</entry>
         <entry>analysis</entry>
         <entry>analysis sub entity</entry>
+        <entry>performance-analysis</entry>
+        <entry>date</entry>
       </history-search>
       <history-cmd>
         <entry>wj</entry>
@@ -196,8 +196,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1600355334382">
-        <mark key="'" line="487" column="26" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1600427988512">
+        <mark key="'" line="343" column="21" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/GrablTracingAuth.java" timestamp="1600355528824" />
       <file name="$USER_HOME$/GraknLabs/grabl/concept/User.java" timestamp="1600422111803">
@@ -288,12 +288,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="90" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Repository.java" />
-      <jump line="140" column="45" filename="$USER_HOME$/GraknLabs/grabl/dev/run.py" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grabl/dev/run.py" />
-      <jump line="97" column="19" filename="$USER_HOME$/GraknLabs/grabl/automation/status/GithubNotifier.java" />
-      <jump line="57" column="28" filename="$USER_HOME$/GraknLabs/grabl/automation/status/GithubNotifier.java" />
-      <jump line="82" column="32" filename="$USER_HOME$/GraknLabs/grabl/automation/status/GithubNotifier.java" />
       <jump line="196" column="12" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="206" column="0" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/status/GithubNotifier.java" />
@@ -377,7 +371,6 @@
       <jump line="475" column="19" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="476" column="28" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="478" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="479" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="481" column="26" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="483" column="11" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="487" column="26" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
@@ -388,6 +381,13 @@
       <jump line="106" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/User.java" />
       <jump line="428" column="65" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/common/hocs/withWsConn.js" />
+      <jump line="479" column="9" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="14" column="29" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="15" column="13" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="22" column="29" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="23" column="27" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="343" column="21" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -405,7 +405,7 @@
         <text encoding="base64">PA==</text>
       </register>
       <register name="/" type="4">
-        <text>analysis sub entity</text>
+        <text>date</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -475,9 +475,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>analysis sub entity</last-search>
+      <last-search>date</last-search>
       <last-offset />
-      <last-pattern>analysis sub entity</last-pattern>
+      <last-pattern>date</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
