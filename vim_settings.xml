@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>isPrivate</entry>
-        <entry>time</entry>
-        <entry encoding="base64">XDxtb21lbnRcPg==</entry>
         <entry>branch</entry>
         <entry encoding="base64">XDxhbmFseXNlc1w+</entry>
         <entry encoding="base64">XDxHUkFLTl9ST09UX0RJUlw+</entry>
@@ -27,6 +24,9 @@
         <entry>dist</entry>
         <entry>automation</entry>
         <entry>user</entry>
+        <entry>trigger</entry>
+        <entry encoding="base64">XDxhdXRvbWF0aW9uX3BpcGVsaW5lXD4=</entry>
+        <entry>pipeline-automation sub relation</entry>
       </history-search>
       <history-cmd>
         <entry>wj</entry>
@@ -202,8 +202,8 @@
       <file name="$USER_HOME$/GraknLabs/grabl/infrastructure/prod/config/grabl.env" timestamp="1601375940437">
         <mark key="'" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1601388623909">
-        <mark key="'" line="493" column="30" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1601392662965">
+        <mark key="'" line="392" column="30" />
         <mark key="[" line="57" column="0" />
         <mark key="]" line="57" column="0" />
         <mark key="." line="57" column="0" />
@@ -252,7 +252,7 @@
       <file name="$USER_HOME$/GraknLabs/grabl/server/routes" timestamp="1601377128743">
         <mark key="'" line="7" column="18" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/design/automation.yml" timestamp="1601391155313">
+      <file name="$USER_HOME$/GraknLabs/grabl/design/automation.yml" timestamp="1601393710149">
         <mark key="'" line="1" column="0" />
         <mark key="[" line="129" column="4" />
         <mark key="]" line="129" column="20" />
@@ -267,12 +267,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="105" column="48" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="88" column="25" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="75" column="45" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="74" column="26" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="58" column="15" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="24" column="33" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="34" column="25" filename="$USER_HOME$/GraknLabs/grabl/common/Http.java" />
       <jump line="35" column="29" filename="$USER_HOME$/GraknLabs/grabl/common/Http.java" />
       <jump line="26" column="29" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
@@ -367,6 +361,12 @@
       <jump line="50" column="25" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
       <jump line="493" column="30" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="114" column="86" filename="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" />
+      <jump line="13" column="36" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="348" column="30" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="357" column="30" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="411" column="19" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="396" column="21" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="392" column="30" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -384,7 +384,7 @@
         <text encoding="base64">YXV0b21hdGlvblltbC5pc1ByZXNlbnQoKSAmJiA=</text>
       </register>
       <register name="/" type="4">
-        <text>user</text>
+        <text>pipeline-automation sub relation</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -454,9 +454,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>user</last-search>
+      <last-search>pipeline-automation sub relation</last-search>
       <last-offset />
-      <last-pattern>user</last-pattern>
+      <last-pattern>pipeline-automation sub relation</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
