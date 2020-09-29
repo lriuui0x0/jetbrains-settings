@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZXBvSnNvblw+</entry>
-        <entry encoding="base64">XDxncmFrbmxhYnNUZXN0XD4=</entry>
         <entry>isPrivate</entry>
         <entry>time</entry>
         <entry encoding="base64">XDxtb21lbnRcPg==</entry>
@@ -27,6 +25,8 @@
         <entry>grakn-nic</entry>
         <entry>install</entry>
         <entry>dist</entry>
+        <entry>automation</entry>
+        <entry>user</entry>
       </history-search>
       <history-cmd>
         <entry>wj</entry>
@@ -200,7 +200,12 @@
       <file name="$USER_HOME$/GraknLabs/grabl/infrastructure/prod/config/grabl.env" timestamp="1601375940437">
         <mark key="'" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1601377644578" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1601379727511">
+        <mark key="'" line="57" column="0" />
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="0" />
+        <mark key="." line="57" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Router.java" timestamp="1601377602351" />
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/repository-commits-response.json" timestamp="1601296376295" />
       <file name="$USER_HOME$/GraknLabs/grabl/.bazelrc" timestamp="1601376248296" />
@@ -219,8 +224,8 @@
         <mark key="]" line="79" column="0" />
         <mark key="." line="79" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1601377414929">
-        <mark key="'" line="428" column="65" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1601378484956">
+        <mark key="'" line="415" column="23" />
         <mark key="[" line="428" column="40" />
         <mark key="]" line="428" column="46" />
         <mark key="." line="428" column="45" />
@@ -239,11 +244,12 @@
         <mark key="." line="242" column="0" />
         <mark key="^" line="189" column="17" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/conf/grabl-dev.properties" timestamp="1601378911369" />
       <file name="$USER_HOME$/GraknLabs/grabl/service/Router.java" timestamp="1601376855134" />
       <file name="$USER_HOME$/GraknLabs/grabl/server/routes" timestamp="1601377128743">
         <mark key="'" line="7" column="18" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/design/automation.yml" timestamp="1601306768377">
+      <file name="$USER_HOME$/GraknLabs/grabl/design/automation.yml" timestamp="1601380040265">
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
@@ -262,9 +268,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="110" column="4" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="95" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
-      <jump line="101" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
       <jump line="108" column="12" filename="$USER_HOME$/GraknLabs/grabl/common/Github.java" />
       <jump line="102" column="37" filename="$USER_HOME$/GraknLabs/grabl/staging/Setup.kt" />
@@ -362,12 +365,15 @@
       <jump line="6" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/prod/config/grabl.env" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/prod/config/grabl.env" />
       <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grabl/infrastructure/prod/config/grabl.env" />
+      <jump line="415" column="23" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="93" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">YWJzdHJhY3QgCgo=</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">c3VkbyBhcHQgaW5zdGFsbCAtcXkgb3Blbmpkay04LWpkayBvcGVuamRrLTgtanJlCg==</text>
@@ -379,7 +385,7 @@
         <text>@</text>
       </register>
       <register name="/" type="4">
-        <text>dist</text>
+        <text>user</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -390,7 +396,7 @@
         <text>@lriuui0x0 @vladgan @vmax</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">YWJzdHJhY3QgCgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -419,28 +425,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGpvYnM6Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGpvYjoK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">ICAgIGpvYnM6Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGpvYjoK</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCBwaXBlbGluZXMgPSB0aGlzLnBheWxvYWQucGlwZWxpbmVzOwo=</text>
+        <text encoding="base64">ICAgIGpvYnM6Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCAK</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCBwaXBlbGluZXMgPSB0aGlzLnBheWxvYWQucGlwZWxpbmVzOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdCB7IHBpcGVsaW5lcyB9ID0gdGhpcy5wYXlsb2FkOwo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCAK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBjb25zdCB7IHBpcGVsaW5lcyB9ID0gdGhpcy5wYXlsb2FkOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zdCB7IHBpcGVsaW5lcyB9ID0gdGhpcy5wYXlsb2FkOwo=</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
@@ -449,9 +455,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>dist</last-search>
+      <last-search>user</last-search>
       <last-offset />
-      <last-pattern>dist</last-pattern>
+      <last-pattern>user</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute encoding="base64">XDxNRVNTQUdFX0FERF9SRVBPXD4=</last-substitute>
       <last-dir>1</last-dir>
