@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>pipeline-automation sub relation</entry>
-        <entry encoding="base64">XDxkZXBlbmRzXD4=</entry>
-        <entry encoding="base64">XDxzbmFwc2hvdFw+</entry>
         <entry>ubuntu</entry>
         <entry>depen</entry>
         <entry>commit-dependency_analysis</entry>
@@ -27,6 +24,9 @@
         <entry>repository sub entity</entry>
         <entry>is-default</entry>
         <entry>default</entry>
+        <entry>pipeline sub entity</entry>
+        <entry>pipeline sub automation</entry>
+        <entry>pipeline-automation</entry>
       </history-search>
       <history-cmd>
         <entry>wj</entry>
@@ -208,8 +208,8 @@
         <mark key="]" line="166" column="0" />
         <mark key="." line="166" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1601469846325">
-        <mark key="'" line="332" column="4" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1601474403989">
+        <mark key="'" line="339" column="10" />
         <mark key="[" line="336" column="0" />
         <mark key="]" line="336" column="0" />
         <mark key="." line="336" column="0" />
@@ -239,11 +239,6 @@
         <mark key="." line="8" column="27" />
         <mark key="^" line="8" column="28" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/order/AutomationConfig.java" timestamp="1601459698991">
-        <mark key="]" line="9" column="29" />
-        <mark key="^" line="9" column="29" />
-        <mark key="." line="9" column="28" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/pipeline/test/BUILD" timestamp="1601459868014">
         <mark key="[" line="22" column="22" />
         <mark key="]" line="22" column="22" />
@@ -269,6 +264,12 @@
         <mark key="]" line="5" column="22" />
         <mark key="." line="5" column="27" />
         <mark key="^" line="9" column="36" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/common/Automation.java" timestamp="1601474420115">
+        <mark key="[" line="14" column="13" />
+        <mark key="]" line="14" column="17" />
+        <mark key="." line="14" column="16" />
+        <mark key="^" line="14" column="17" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Push.java" timestamp="1601473732473">
         <mark key="'" line="113" column="86" />
@@ -297,17 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="168" column="79" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="169" column="79" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="170" column="82" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="363" column="28" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="364" column="17" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="805" column="58" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="385" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="478" column="20" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="475" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="360" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
-      <jump line="477" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="430" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="476" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
       <jump line="130" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
@@ -397,6 +387,17 @@
       <jump line="334" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
       <jump line="345" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
       <jump line="355" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/commit/Commit.java" />
+      <jump line="327" column="39" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="402" column="4" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="348" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="357" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="395" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="396" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="397" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="398" column="12" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="408" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="411" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="339" column="10" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -414,7 +415,7 @@
         <text encoding="base64">IGVsc2Ugew==</text>
       </register>
       <register name="/" type="4">
-        <text>default</text>
+        <text>pipeline-automation</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -484,9 +485,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>default</last-search>
+      <last-search>pipeline-automation</last-search>
       <last-offset />
-      <last-pattern>default</last-pattern>
+      <last-pattern>pipeline-automation</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
