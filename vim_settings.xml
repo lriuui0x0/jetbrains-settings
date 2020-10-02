@@ -243,11 +243,11 @@
         <mark key="^" line="13" column="24" />
         <mark key="." line="13" column="23" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/ActorTest.java" timestamp="1601630249917">
-        <mark key="'" line="22" column="0" />
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/ActorTest.java" timestamp="1601633138079">
+        <mark key="[" line="28" column="27" />
+        <mark key="]" line="28" column="27" />
+        <mark key="." line="28" column="27" />
+        <mark key="^" line="29" column="26" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicated/DistributedSession.java" timestamp="1601569526910">
         <mark key="]" line="16" column="24" />
@@ -264,7 +264,7 @@
         <mark key="'" line="63" column="31" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" timestamp="1601629598555">
-        <mark key="'" line="333" column="18" />
+        <mark key="'" line="338" column="18" />
         <mark key="[" line="20" column="49" />
         <mark key="]" line="20" column="64" />
       </file>
@@ -277,6 +277,13 @@
         <mark key="." line="8" column="22" />
         <mark key="^" line="8" column="22" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/PromiseExecutorTest.java" timestamp="1601631465628">
+        <mark key="'" line="29" column="8" />
+        <mark key="[" line="25" column="16" />
+        <mark key="]" line="25" column="19" />
+        <mark key="." line="25" column="18" />
+        <mark key="^" line="25" column="19" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/BUILD" timestamp="1601569613264">
         <mark key="[" line="7" column="22" />
         <mark key="]" line="7" column="22" />
@@ -285,8 +292,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="114" column="78" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="115" column="64" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="116" column="15" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="157" column="25" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="232" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
@@ -385,12 +390,14 @@
       <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/ActorTest.java" />
       <jump line="24" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/ActorTest.java" />
       <jump line="23" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/ActorTest.java" />
+      <jump line="25" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/PromiseExecutorTest.java" />
+      <jump line="29" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/PromiseExecutorTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCB0ZXN0KCkgdGhyb3dzIEludGVycnVwdGVkRXhjZXB0aW9uIHsKICAgIH0KCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ICsgMQ==</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ZXhwb3J0IEdSQUJMX0pBVkFPUFRTPSItWGRlYnVnIC1hZ2VudGxpYjpqZHdwPXRyYW5zcG9ydD1kdF9zb2NrZXQsc2VydmVyPXksc3VzcGVuZD1uLGFkZHJlc3M9NTAwNSIK</text>
@@ -399,7 +406,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>periodicTask_mustNotBeInvokedIfItIsStoppedBeforeTheTimeoutHasElapsed</text>
+        <text encoding="base64">ICsgMQ==</text>
       </register>
       <register name="/" type="4">
         <text>WaitingPromise</text>
@@ -410,10 +417,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBwZXJpb2RpY1Rhc2tfbXVzdE5vdEJlSW52b2tlZElmSXRJc1N0b3BwZWRCZWZvcmVUaGVUaW1lb3V0SGFzRWxhcHNlZCgpIHRocm93cyBJbnRlcnJ1cHRlZEV4Y2VwdGlvbiB7CiAgICAgICAgU2luZ2xlVGhyZWFkZWRFdmVudExvb3BQcm9taXNlRXhlY3V0b3Igcm9vdExvb3AgPSBTaW5nbGVUaHJlYWRlZEV2ZW50TG9vcFByb21pc2VFeGVjdXRvci5zdGFydChuYW1lZFRocmVhZEZhY3RvcnkoInJvb3RMb29wIikpOwogICAgICAgIEFjdG9yPFN0cmluZz4gcm9vdCA9IG5ldyBBY3Rvcjw+KHJvb3RMb29wLCAicm9vdCIpOwogICAgICAgIEF0b21pY0ludGVnZXIgY291bnQgPSBuZXcgQXRvbWljSW50ZWdlcigpOwogICAgICAgIEFjdG9yUGVyaW9kaWNUYXNrPFN0cmluZz4gcGVyaW9kaWNUYXNrID0gbmV3IEFjdG9yUGVyaW9kaWNUYXNrPD4ocm9vdCwgMTAwMCwgMCwgbXNnIC0+IHsKICAgICAgICAgICAgY291bnQuaW5jcmVtZW50QW5kR2V0KCk7CiAgICAgICAgfSk7CiAgICAgICAgcGVyaW9kaWNUYXNrLm9uY2UoKTsKICAgICAgICBwZXJpb2RpY1Rhc2suc3RvcCgpOwogICAgICAgIFRocmVhZC5zbGVlcCgxNTAwKTsKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgY291bnQuZ2V0KCkpOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRocmVhZElkc1tpICsgMV0gPSA7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCB0ZXN0KCkgdGhyb3dzIEludGVycnVwdGVkRXhjZXB0aW9uIHsKICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -442,28 +449,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBDb21wbGV0YWJsZUZ1dHVyZTw+Cg==</text>
+        <text encoding="base64">IAogICAgICAgICAgICB9</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBTaW5nbGVUaHJlYWRlZEV2ZW50TG9vcFByb21pc2VFeGVjdXRvciByb290TG9vcCA9IFNpbmdsZVRocmVhZGVkRXZlbnRMb29wUHJvbWlzZUV4ZWN1dG9yLnN0YXJ0KG5hbWVkVGhyZWFkRmFjdG9yeSgicm9vdExvb3AiKSk7CiAgICAgICAgQWN0b3I8U3RyaW5nPiByb290ID0gbmV3IEFjdG9yPD4ocm9vdExvb3AsICJyb290Iik7CiAgICAgICAgQXRvbWljSW50ZWdlciBjb3VudCA9IG5ldyBBdG9taWNJbnRlZ2VyKCk7CiAgICAgICAgQWN0b3JQZXJpb2RpY1Rhc2s8U3RyaW5nPiBwZXJpb2RpY1Rhc2sgPSBuZXcgQWN0b3JQZXJpb2RpY1Rhc2s8Pihyb290LCAxMDAwLCAwLCBtc2cgLT4gewogICAgICAgICAgICBjb3VudC5pbmNyZW1lbnRBbmRHZXQoKTsKICAgICAgICB9KTsKICAgICAgICBwZXJpb2RpY1Rhc2sub25jZSgpOwogICAgICAgIHBlcmlvZGljVGFzay5zdG9wKCk7CiAgICAgICAgVGhyZWFkLnNsZWVwKDE1MDApOwogICAgICAgIGFzc2VydEVxdWFscygwLCBjb3VudC5nZXQoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBTaW5nbGVUaHJlYWRlZEV2ZW50TG9vcFByb21pc2VFeGVjdXRvciByb290TG9vcCA9IFNpbmdsZVRocmVhZGVkRXZlbnRMb29wUHJvbWlzZUV4ZWN1dG9yLnN0YXJ0KG5hbWVkVGhyZWFkRmFjdG9yeSgicm9vdExvb3AiKSk7CiAgICAgICAgQWN0b3I8U3RyaW5nPiByb290ID0gbmV3IEFjdG9yPD4ocm9vdExvb3AsICJyb290Iik7CiAgICAgICAgQXRvbWljSW50ZWdlciBjb3VudCA9IG5ldyBBdG9taWNJbnRlZ2VyKCk7CiAgICAgICAgQWN0b3JQZXJpb2RpY1Rhc2s8U3RyaW5nPiBwZXJpb2RpY1Rhc2sgPSBuZXcgQWN0b3JQZXJpb2RpY1Rhc2s8Pihyb290LCAxMDAwLCAwLCBtc2cgLT4gewogICAgICAgICAgICBjb3VudC5pbmNyZW1lbnRBbmRHZXQoKTsKICAgICAgICB9KTsKICAgICAgICBwZXJpb2RpY1Rhc2sub25jZSgpOwogICAgICAgIHBlcmlvZGljVGFzay5zdG9wKCk7CiAgICAgICAgVGhyZWFkLnNsZWVwKDE1MDApOwogICAgICAgIGFzc2VydEVxdWFscygwLCBjb3VudC5nZXQoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBleGVjdXRvci5zdGFyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBhY3Rvci50ZWxsKHggLT4gewogICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBhY3Rvci50ZWxsKHggLT4gewogICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBDb21wbGV0YWJsZUZ1dHVyZTxJbnRlZ2VyPiBmdXR1cmUgPSBDb21wbGV0YWJsZUZ1dHVyZS5zdXBwbHlBc3luYygoKSAtPiB7Ci8vICAgICAgICAgICAgdHJ5IHsKLy8gICAgICAgICAgICAgICAgVGhyZWFkLnNsZWVwKDEwMDApOwovLyAgICAgICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKLy8gICAgICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKLy8gICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiAwOwogICAgICAgIH0pOwogICAgICAgIGludCB2YWx1ZSA9IGZ1dHVyZS5nZXQoKTsKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4odmFsdWUpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
