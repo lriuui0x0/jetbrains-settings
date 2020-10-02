@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>pipeline sub automation</entry>
-        <entry>pipeline-automation</entry>
         <entry>class</entry>
         <entry>thenDefer</entry>
         <entry encoding="base64">XDxwcm9taXNlclw+</entry>
@@ -27,6 +25,8 @@
         <entry>Until</entry>
         <entry encoding="base64">XDx0aGVuV2FpdFVudGlsXD4=</entry>
         <entry>replicated</entry>
+        <entry>create</entry>
+        <entry encoding="base64">XDx0aGVuXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wj</entry>
@@ -202,12 +202,6 @@
         <mark key="." line="5" column="62" />
         <mark key="^" line="5" column="63" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/components/BUILD" timestamp="1601639216466">
-        <mark key="[" line="6" column="48" />
-        <mark key="]" line="6" column="58" />
-        <mark key="." line="6" column="57" />
-        <mark key="^" line="6" column="58" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/BUILD" timestamp="1601639792021">
         <mark key="'" line="7" column="21" />
         <mark key="[" line="3" column="84" />
@@ -215,11 +209,29 @@
         <mark key="." line="3" column="94" />
         <mark key="^" line="3" column="95" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/config/test/BUILD" timestamp="1601638578780">
+        <mark key="[" line="2" column="32" />
+        <mark key="]" line="2" column="32" />
+        <mark key="." line="2" column="42" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/protocol/BUILD" timestamp="1601639573271">
+        <mark key="[" line="23" column="48" />
+        <mark key="]" line="23" column="56" />
+        <mark key="." line="23" column="55" />
+        <mark key="^" line="23" column="56" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/.grabl/automation.yml" timestamp="1601638617955">
         <mark key="[" line="17" column="9" />
         <mark key="]" line="17" column="9" />
         <mark key="." line="17" column="19" />
         <mark key="^" line="20" column="45" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/cli/BUILD" timestamp="1601639397700">
+        <mark key="'" line="5" column="48" />
+        <mark key="[" line="5" column="48" />
+        <mark key="]" line="5" column="90" />
+        <mark key="." line="23" column="90" />
+        <mark key="^" line="23" column="91" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/BUILD" timestamp="1601639610221">
         <mark key="[" line="9" column="55" />
@@ -232,31 +244,6 @@
         <mark key="]" line="3" column="58" />
         <mark key="." line="3" column="57" />
         <mark key="^" line="3" column="58" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/BUILD" timestamp="1601639733639">
-        <mark key="'" line="9" column="21" />
-        <mark key="[" line="3" column="95" />
-        <mark key="]" line="3" column="106" />
-        <mark key="." line="3" column="105" />
-        <mark key="^" line="3" column="106" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/BUILD" timestamp="1601638679354">
-        <mark key="'" line="33" column="0" />
-        <mark key="[" line="34" column="11" />
-        <mark key="]" line="34" column="11" />
-        <mark key="." line="34" column="21" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/config/test/BUILD" timestamp="1601638578780">
-        <mark key="[" line="2" column="32" />
-        <mark key="]" line="2" column="32" />
-        <mark key="." line="2" column="42" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/cli/BUILD" timestamp="1601639397700">
-        <mark key="'" line="5" column="48" />
-        <mark key="[" line="5" column="48" />
-        <mark key="]" line="5" column="90" />
-        <mark key="." line="23" column="90" />
-        <mark key="^" line="23" column="91" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/BUILD" timestamp="1601639548309">
         <mark key="'" line="5" column="48" />
@@ -271,39 +258,41 @@
         <mark key="." line="3" column="58" />
         <mark key="^" line="6" column="22" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/rpc/BUILD" timestamp="1601638547650">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/rpc/BUILD" timestamp="1601646209032">
         <mark key="'" line="9" column="21" />
-        <mark key="[" line="10" column="11" />
-        <mark key="]" line="10" column="11" />
-        <mark key="." line="10" column="21" />
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="20" column="1" />
+        <mark key="^" line="21" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/BUILD" timestamp="1601639733639">
+        <mark key="'" line="9" column="21" />
+        <mark key="[" line="3" column="95" />
+        <mark key="]" line="3" column="106" />
+        <mark key="." line="3" column="105" />
+        <mark key="^" line="3" column="106" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/components/BUILD" timestamp="1601639216466">
+        <mark key="[" line="6" column="48" />
+        <mark key="]" line="6" column="58" />
+        <mark key="." line="6" column="57" />
+        <mark key="^" line="6" column="58" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" timestamp="1601646702363">
+        <mark key="'" line="209" column="30" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" timestamp="1601646416017">
+        <mark key="'" line="105" column="176" />
+        <mark key="[" line="111" column="48" />
+        <mark key="]" line="111" column="59" />
+        <mark key="." line="111" column="58" />
+        <mark key="^" line="111" column="59" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/config/BUILD" timestamp="1601639459164">
         <mark key="[" line="9" column="84" />
         <mark key="]" line="9" column="90" />
         <mark key="." line="9" column="89" />
         <mark key="^" line="9" column="90" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/BUILD" timestamp="1601638456031">
-        <mark key="[" line="12" column="11" />
-        <mark key="]" line="12" column="11" />
-        <mark key="." line="12" column="21" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/dev/BUILD" timestamp="1601639229577">
-        <mark key="[" line="13" column="52" />
-        <mark key="]" line="13" column="52" />
-        <mark key="." line="13" column="52" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/protocol/BUILD" timestamp="1601639573271">
-        <mark key="[" line="23" column="48" />
-        <mark key="]" line="23" column="56" />
-        <mark key="." line="23" column="55" />
-        <mark key="^" line="23" column="56" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/storage/test/BUILD" timestamp="1601638538441">
-        <mark key="'" line="5" column="29" />
-        <mark key="[" line="8" column="11" />
-        <mark key="]" line="8" column="11" />
-        <mark key="." line="8" column="21" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/storage/BUILD" timestamp="1601639639266">
         <mark key="'" line="3" column="0" />
@@ -318,21 +307,19 @@
         <mark key="." line="3" column="58" />
         <mark key="^" line="3" column="59" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/BUILD" timestamp="1601638679354">
+        <mark key="'" line="33" column="0" />
+        <mark key="[" line="34" column="11" />
+        <mark key="]" line="34" column="11" />
+        <mark key="." line="34" column="21" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/dev/BUILD" timestamp="1601639229577">
+        <mark key="[" line="13" column="52" />
+        <mark key="]" line="13" column="52" />
+        <mark key="." line="13" column="52" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="416" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="26" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/AdHocEventLoopPromiseExecutor.java" />
-      <jump line="392" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="302" column="62" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="104" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicated/DistributedDatabase.java" />
-      <jump line="82" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicated/ReplicatedTransaction.java" />
-      <jump line="29" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicated/DistributedTransaction.java" />
-      <jump line="36" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/common/ThreadLocalSystem.java" />
-      <jump line="4" column="33" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/PromiseExecutor.java" />
-      <jump line="13" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/PromiseExecutor.java" />
-      <jump line="8" column="33" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/PromiseExecutor.java" />
-      <jump line="34" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/ActorTest.java" />
-      <jump line="54" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="162" column="5" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="166" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="168" column="19" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
@@ -420,6 +407,19 @@
       <jump line="9" column="21" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/rpc/BUILD" />
       <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/BUILD" />
       <jump line="3" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/storage/BUILD" />
+      <jump line="131" column="62" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="141" column="28" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="108" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="103" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="104" column="50" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="107" column="36" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="106" column="58" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="105" column="176" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" />
+      <jump line="147" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="348" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="268" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="267" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="209" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -437,7 +437,7 @@
         <text>replicated</text>
       </register>
       <register name="/" type="4">
-        <text>replicated</text>
+        <text encoding="base64">XDx0aGVuXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -507,9 +507,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>replicated</last-search>
+      <last-search encoding="base64">XDx0aGVuXD4=</last-search>
       <last-offset />
-      <last-pattern>replicated</last-pattern>
+      <last-pattern encoding="base64">XDx0aGVuXD4=</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
