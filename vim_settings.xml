@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Await</entry>
-        <entry>defer</entry>
         <entry encoding="base64">XDxpbnN0YW5jZVw+</entry>
         <entry encoding="base64">XDx0aGVuRGVmZXJcPg==</entry>
         <entry encoding="base64">XDxzdG9wTGlzdGVuZXJzXD4=</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxBY3RvclN0YXRlXD4=</entry>
         <entry encoding="base64">XDxhY3RvckNvbnRleHRcPg==</entry>
         <entry>getContext</entry>
+        <entry>parent</entry>
+        <entry>owner</entry>
       </history-search>
       <history-cmd>
         <entry>wjj:w</entry>
@@ -196,8 +196,17 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1601656915647">
-        <mark key="'" line="54" column="17" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" timestamp="1601658064406">
+        <mark key="'" line="50" column="100" />
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="54" column="0" />
+        <mark key="." line="54" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" timestamp="1601658920062">
+        <mark key="'" line="161" column="12" />
+        <mark key="[" line="161" column="0" />
+        <mark key="]" line="161" column="0" />
+        <mark key="." line="161" column="119" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/cli/BUILD" timestamp="1601639397700">
         <mark key="'" line="5" column="48" />
@@ -225,12 +234,6 @@
         <mark key="]" line="21" column="0" />
         <mark key="." line="20" column="1" />
         <mark key="^" line="21" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/components/BUILD" timestamp="1601639216466">
-        <mark key="[" line="6" column="48" />
-        <mark key="]" line="6" column="58" />
-        <mark key="." line="6" column="57" />
-        <mark key="^" line="6" column="58" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/ActorTest.java" timestamp="1601654872143">
         <mark key="[" line="22" column="0" />
@@ -313,17 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="364" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="153" column="31" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="280" column="54" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="279" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="221" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="194" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicated/ReplicatedTransaction.java" />
-      <jump line="18" column="11" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/cli/BUILD" />
-      <jump line="21" column="39" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/cli/BUILD" />
-      <jump line="23" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/cli/BUILD" />
-      <jump line="5" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/cli/BUILD" />
-      <jump line="10" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/BUILD" />
       <jump line="3" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/BUILD" />
       <jump line="9" column="21" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/BUILD" />
       <jump line="3" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/BUILD" />
@@ -413,12 +405,23 @@
       <jump line="249" column="122" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
       <jump line="250" column="19" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
       <jump line="54" column="17" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="55" column="36" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="83" column="20" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="90" column="16" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="91" column="16" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="213" column="20" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="44" column="41" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="49" column="172" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="58" column="17" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="53" column="124" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="50" column="100" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
+      <jump line="162" column="12" filename="$USER_HOME$/GraknLabs/grabl/automation/AutomationManager.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHN0YXRpYyBhYnN0cmFjdCBjbGFzcyBTdGF0ZTxBPiB7CiAgICAgICAgcHJvdGVjdGVkIEFjdG9yPEE+IGFjdG9yOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFjdG9yQ29udGV4dC5nZXRTZWxmKCkudGVsbCgpOwo=</text>
       </register>
       <register name="+" type="4">
         <text>maven_coordinates</text>
@@ -427,10 +430,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>implements</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
-        <text>getContext</text>
+        <text>owner</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -441,7 +444,7 @@
         <text>distributed-core-testkit-simulation-components-lib</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHN0YXRpYyBhYnN0cmFjdCBjbGFzcyBTdGF0ZTxBPiB7CiAgICAgICAgcHJvdGVjdGVkIEFjdG9yPEE+IGFjdG9yOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFjdG9yQ29udGV4dC5nZXRTZWxmKCkudGVsbCgpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -469,29 +472,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIGNsYXNzIENhY2hlIGV4dGVuZHMgQWN0b3IuU3RhdGU8Q2FjaGU+IHsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdGVzdCgpIHsKICAgIH0KCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">YWN0b3JDb250ZXh0IC0+IHsgbmV3IEV4ZWN1dG9yKGdyYWtuQ2xpZW50LCBncmFibFByb3BlcnRpZXMsIG5vdGlmaWVyLCBhY3RvckNvbnRleHQpCiAgICAgICAgICAgIH0=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAogICAgCgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGFjdG9yQ29udGV4dC5nZXRTZWxmKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBBY3Rvci5TdGF0ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ2V0Q29udGV4dCgpLgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgQWN0b3I8Q2FjaGU+IGdldEFjdG9yKCkgewogICAgICAgICAgICByZXR1cm4gdGhpczsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIHN0YXRpYyBhYnN0cmFjdCBjbGFzcyBTdGF0ZTxBPiB7CiAgICAgICAgcHJvdGVjdGVkIEFjdG9yPEE+IGFjdG9yOwogICAgfQoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGNsYXNzIENhY2hlIGV4dGVuZHMgQWN0b3IuU3RhdGU8Q2FjaGU+IHsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdGVzdCgpIHsKICAgIH0KCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGNsYXNzIENhY2hlIGltcGxlbWVudHMgQWN0b3IuU3RhdGU8Q2FjaGU+IHsKICAgIH0KCg==</text>
+        <text encoding="base64">ICAgIAogICAgCgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgQWN0b3I8Q2FjaGU+IGdldEFjdG9yKCkgewogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBBY3Rvci5TdGF0ZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgQWN0b3I8Q2FjaGU+IGdldEFjdG9yKCkgewogICAgICAgICAgICByZXR1cm4gdGhpczsKICAgICAgICB9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -500,9 +503,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>getContext</last-search>
+      <last-search>owner</last-search>
       <last-offset />
-      <last-pattern>getContext</last-pattern>
+      <last-pattern>owner</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
