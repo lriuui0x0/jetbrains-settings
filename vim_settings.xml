@@ -20,13 +20,13 @@
         <entry encoding="base64">XDxyYWZ0QWN0b3JcPg==</entry>
         <entry>self</entry>
         <entry encoding="base64">XDxMb2dpY2FsVGltZXJRdWV1ZVw+</entry>
-        <entry encoding="base64">XDxvcGVuXD4=</entry>
         <entry>raft</entry>
         <entry encoding="base64">XDxhY3RpdmF0ZVw+</entry>
-        <entry>actor</entry>
         <entry encoding="base64">XDxjcmVhdGVOZXdBbmRPcGVuXD4=</entry>
         <entry encoding="base64">XDxsb2FkRXhpc3RpbmdBbmRPcGVuXD4=</entry>
         <entry encoding="base64">XDxncmFrblNlcnZlckFjdG9yXD4=</entry>
+        <entry encoding="base64">XDxvcGVuXD4=</entry>
+        <entry>actor</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz4=</entry>
@@ -47,8 +47,8 @@
         <entry>v</entry>
         <entry>vs</entry>
         <entry>wj</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -216,12 +216,6 @@
         <mark key="^" line="38" column="21" />
         <mark key="." line="38" column="20" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" timestamp="1601981607362">
-        <mark key="'" line="433" column="0" />
-        <mark key="[" line="389" column="19" />
-        <mark key="]" line="389" column="19" />
-        <mark key="." line="389" column="27" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/EventLoopPromiseExecutor.java" timestamp="1601985397427">
         <mark key="'" line="12" column="18" />
         <mark key="[" line="38" column="26" />
@@ -235,18 +229,25 @@
         <mark key="^" line="82" column="16" />
         <mark key="." line="82" column="15" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTest.java" timestamp="1601981123457">
-        <mark key="[" line="41" column="93" />
-        <mark key="]" line="41" column="93" />
-        <mark key="^" line="41" column="93" />
-        <mark key="." line="41" column="92" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" timestamp="1601989327124">
-        <mark key="'" line="3" column="32" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" timestamp="1601991229221">
+        <mark key="'" line="6" column="24" />
         <mark key="[" line="66" column="36" />
         <mark key="]" line="66" column="41" />
         <mark key="." line="66" column="40" />
         <mark key="^" line="66" column="41" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" timestamp="1601991849311">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="0" />
+        <mark key="^" line="55" column="44" />
+        <mark key="." line="56" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" timestamp="1601991760866">
+        <mark key="'" line="33" column="106" />
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="34" column="50" />
+        <mark key="." line="17" column="18" />
+        <mark key="^" line="17" column="14" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/test/ZeroMQNetworkingTest.java" timestamp="1601989462405">
         <mark key="'" line="28" column="0" />
@@ -262,18 +263,32 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="47" column="41" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/ActorPeriodicTask.java" timestamp="1601981568627">
-        <mark key="'" line="7" column="0" />
-        <mark key="[" line="8" column="32" />
-        <mark key="]" line="8" column="32" />
-        <mark key="^" line="8" column="32" />
-        <mark key="." line="8" column="31" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" timestamp="1601991996378">
+        <mark key="[" line="66" column="38" />
+        <mark key="]" line="66" column="38" />
+        <mark key="^" line="66" column="38" />
+        <mark key="." line="66" column="37" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetwork.java" timestamp="1601990747927">
-        <mark key="[" line="58" column="26" />
-        <mark key="]" line="58" column="30" />
-        <mark key="^" line="58" column="30" />
-        <mark key="." line="58" column="29" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" timestamp="1601992262848">
+        <mark key="'" line="296" column="0" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+        <mark key="^" line="23" column="13" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedStorageManager.java" timestamp="1601992171483">
+        <mark key="'" line="29" column="73" />
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="0" />
+        <mark key="^" line="34" column="30" />
+        <mark key="." line="35" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetwork.java" timestamp="1601991001328">
+        <mark key="'" line="13" column="0" />
+        <mark key="[" line="86" column="25" />
+        <mark key="]" line="86" column="31" />
+        <mark key="^" line="86" column="31" />
+        <mark key="." line="86" column="30" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/storage/RocksStorageManager.java" timestamp="1601990241172">
         <mark key="'" line="145" column="0" />
@@ -281,13 +296,6 @@
         <mark key="]" line="41" column="0" />
         <mark key="." line="41" column="0" />
         <mark key="^" line="39" column="45" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" timestamp="1601981593033">
-        <mark key="'" line="58" column="0" />
-        <mark key="[" line="57" column="67" />
-        <mark key="]" line="57" column="76" />
-        <mark key="." line="57" column="75" />
-        <mark key="^" line="57" column="76" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" timestamp="1601988827924">
         <mark key="'" line="43" column="16" />
@@ -312,30 +320,8 @@
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" timestamp="1601985006522">
         <mark key="'" line="70" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1601980840324">
-        <mark key="[" line="0" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="128" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
-      <jump line="26" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
-      <jump line="29" column="29" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
-      <jump line="30" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
-      <jump line="50" column="226" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="324" column="11" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="363" column="11" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="416" column="29" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="43" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="37" column="96" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="32" column="41" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
-      <jump line="29" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
-      <jump line="420" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="11" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
-      <jump line="18" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
-      <jump line="23" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
-      <jump line="32" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
-      <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
       <jump line="248" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
       <jump line="229" column="192" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
       <jump line="222" column="182" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
@@ -385,7 +371,6 @@
       <jump line="4" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/Database.java" />
       <jump line="51" column="52" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" />
       <jump line="37" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" />
-      <jump line="6" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" />
       <jump line="15" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" />
       <jump line="22" column="47" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" />
       <jump line="28" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" />
@@ -417,24 +402,44 @@
       <jump line="76" column="99" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/GraknServer.java" />
       <jump line="79" column="242" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/GraknServer.java" />
       <jump line="23" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetwork.java" />
+      <jump line="13" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetwork.java" />
+      <jump line="79" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
+      <jump line="76" column="82" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
+      <jump line="57" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
+      <jump line="50" column="68" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
+      <jump line="6" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/components/networking/ZeroMQNetworking.java" />
+      <jump line="34" column="106" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
+      <jump line="24" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedStorageManager.java" />
+      <jump line="31" column="52" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedStorageManager.java" />
+      <jump line="35" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedStorageManager.java" />
+      <jump line="29" column="73" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedStorageManager.java" />
+      <jump line="33" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="59" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="46" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="41" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="37" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="26" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="3" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="2" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
+      <jump line="296" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC50aGVuUnVuKG4gLT4gcmVjZWl2ZXJzLnB1dChhZGRyZXNzLCBuKSk7Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="+" type="4">
-        <text>ELECTION_TIMEOUT_MS, ELECTION_TIMEOUT_VARIATION_MS, HEARTBEAT_INTERVAL_MS</text>
+      <register name="+" type="2">
+        <text encoding="base64">ICAgICAgICBzaW11bGF0ZWROZXR3b3JrLndhaXRGb3Ioc04gLT4gc04ubm9kZShhZGRyZXNzLCAoYSwgbSkgLT4gYWN0b3IudGVsbChzdGF0ZSAtPiBzdGF0ZS5yZWNlaXZlKGEsIG0pKSkKICAgICAgICAgICAgICAgIC50aGVuUnVuKG4gLT4gc2ltdWxhdGVkTm9kZSA9IG4pKTsK</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>false</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxncmFrblNlcnZlckFjdG9yXD4=</text>
+        <text>actor</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -442,10 +447,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByb2Nrc1N0b3JhZ2VNYW5hZ2VyQWN0b3IgPSBncmFrblNlcnZlckFjdG9yLmFzayhyb290IC0+IHJvb3QuPFJvY2tzU3RvcmFnZU1hbmFnZXI+Y3JlYXRlQ29tcG9uZW50KGFjdG9yIC0+IG5ldyBSb2Nrc1N0b3JhZ2VNYW5hZ2VyKGFjdG9yLCBvcHRpb25zLmRhdGFiYXNlRGlyZWN0b3J5KCkpKSkuYXdhaXRVbmNoZWNrZWQoKTsK</text>
+        <text encoding="base64">ICAgICAgICBzaW11bGF0ZWROZXR3b3JrLndhaXRGb3Ioc04gLT4gc04ubm9kZShhZGRyZXNzLCAoYSwgbSkgLT4gYWN0b3IudGVsbChzdGF0ZSAtPiBzdGF0ZS5yZWNlaXZlKGEsIG0pKSkKICAgICAgICAgICAgICAgIC50aGVuUnVuKG4gLT4gc2ltdWxhdGVkTm9kZSA9IG4pKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC50aGVuUnVuKG4gLT4gcmVjZWl2ZXJzLnB1dChhZGRyZXNzLCBuKSk7Cg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -474,39 +479,39 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgQWN0b3I8U2ltdWxhdGVkTmV0d29yaz4gbmV0d29ya0FjdG9yOwoK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgQWN0b3I8U2ltdWxhdGVkRGF0YT4gYWN0b3I7Cgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgUHJvbWlzZTxBY3RvcjxTaW11bGF0ZWROZXR3b3JrPj4gY3JlYXRlKEFjdG9yPD8+IHBhcmVudCwgQ29uZmlnLk5ldHdvcmsgY29uZmlnKSB7CiAgICAgICAgcmV0dXJuIHBhcmVudC5jaGlsZCgoKSAtPiBuZXcgU2ltdWxhdGVkTmV0d29yayhjb25maWcpKQogICAgICAgICAgICAgICAgLnRoZW5XYWl0VW50aWwoYSAtPiBhLnJ1bihzdGF0ZSAtPiBzdGF0ZS5uZXR3b3JrQWN0b3IgPSBhKSk7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgUHJvbWlzZTxBY3RvcjxTaW11bGF0ZWREYXRhPj4gY3JlYXRlKEFjdG9yPFNpbXVsYXRlZFN0b3JhZ2VNYW5hZ2VyPiBwYXJlbnQpIHsKICAgICAgICByZXR1cm4gcGFyZW50LmNoaWxkKCgpIC0+IG5ldyBTaW11bGF0ZWREYXRhKHBhcmVudCkpCiAgICAgICAgICAgICAgICAudGhlbldhaXRVbnRpbChhIC0+IGEucnVuKHN0YXRlIC0+IHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZS5hY3RvciA9IGE7CiAgICAgICAgICAgICAgICAgICAgc3RhdGUub3BlbiA9IHRydWU7CiAgICAgICAgICAgICAgICB9KSk7CiAgICB9Cgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFkZHJlc3MsIG9wdGlvbnMuZ2V0RGF0YWJhc2VDbHVzdGVyU2VydmVycygpKS5hd2FpdFVuY2hlY2tlZCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBvcGVuID0gdHJ1ZTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBEYXRhYmFzZU1hbmFnZXIuY3JlYXRlKGdyYWtuU2VydmVyQWN0b3IsIHJvY2tzU3RvcmFnZU1hbmFnZXJBY3RvciwgemVyb01RTmV0d29ya2luZ0FjdG9yLAo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gU2ltdWxhdGVkRGF0YS5jcmVhdGUoYWN0b3IpCiAgICAgICAgICAgICAgICAudGhlbihkYXRhIC0+IHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZGI7CiAgICAgICAgICAgICAgICB9KTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBkYXRhYmFzZXMucHV0KG5hbWUsIGRiKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB6ZXJvTVFOZXR3b3JraW5nQWN0b3IgPSBaZXJvTVFOZXR3b3JraW5nLmNyZWF0ZShncmFrblNlcnZlckFjdG9yLCBhZGRyZXNzLCB0aHJlYWRzLmNvbW1vblRocmVhZEZhY3RvcnkoKSkuYXdhaXRVbmNoZWNrZWQoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBEYXRhYmFzZSBkYiA9IG5ldyBEYXRhYmFzZShuYW1lLCBkYXRhKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBncmFrblNlcnZlckFjdG9yID0gQWN0b3IuY3JlYXRlKHRocmVhZHMuY29tbW9uUHJvbWlzZUV4ZWN1dG9yKCksICJncmFrblNlcnZlciIpOwo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgQWN0b3I8U2ltdWxhdGVkU3RvcmFnZU1hbmFnZXI+IGFjdG9yOwoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgUHJvbWlzZTxBY3RvcjxTaW11bGF0ZWRTdG9yYWdlTWFuYWdlcj4+IGNyZWF0ZShBY3Rvcjw/PiBwYXJlbnQpIHsKICAgIH0KCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxncmFrblNlcnZlckFjdG9yXD4=</last-search>
+      <last-search>actor</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxncmFrblNlcnZlckFjdG9yXD4=</last-pattern>
+      <last-pattern>actor</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
