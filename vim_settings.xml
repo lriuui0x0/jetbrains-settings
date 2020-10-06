@@ -45,9 +45,9 @@
         <entry>q\</entry>
         <entry>;w</entry>
         <entry>v</entry>
-        <entry>vs</entry>
         <entry>wj</entry>
         <entry>q</entry>
+        <entry>vs</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -270,11 +270,12 @@
         <mark key="^" line="35" column="20" />
         <mark key="." line="35" column="19" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" timestamp="1601992867478">
-        <mark key="[" line="91" column="0" />
-        <mark key="]" line="91" column="0" />
-        <mark key="^" line="88" column="159" />
-        <mark key="." line="91" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" timestamp="1601994379182">
+        <mark key="'" line="28" column="71" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="30" column="0" />
+        <mark key="." line="30" column="0" />
+        <mark key="^" line="29" column="13" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/storage/SimulatedData.java" timestamp="1601992262848">
         <mark key="'" line="296" column="0" />
@@ -290,12 +291,12 @@
         <mark key="^" line="34" column="30" />
         <mark key="." line="35" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetwork.java" timestamp="1601991001328">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetwork.java" timestamp="1601994224112">
         <mark key="'" line="13" column="0" />
-        <mark key="[" line="86" column="25" />
-        <mark key="]" line="86" column="31" />
-        <mark key="^" line="86" column="31" />
-        <mark key="." line="86" column="30" />
+        <mark key="[" line="15" column="4" />
+        <mark key="]" line="15" column="10" />
+        <mark key="^" line="15" column="10" />
+        <mark key="." line="15" column="9" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/components/storage/RocksStorageManager.java" timestamp="1601990241172">
         <mark key="'" line="145" column="0" />
@@ -326,7 +327,6 @@
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedDatabase.java" timestamp="1601988685833" />
     </filemarks>
     <jumps>
-      <jump line="62" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
       <jump line="13" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
       <jump line="17" column="46" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
       <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" />
@@ -426,21 +426,22 @@
       <jump line="88" column="79" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
       <jump line="91" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
       <jump line="93" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
+      <jump line="28" column="71" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9taXNlPD8+IGluaXQoQWN0b3I8U2ltdWxhdGVkTm9kZT4gYWN0b3IpIHsKICAgICAgICAgICAgdGhpcy5hY3RvciA9IGFjdG9yOwoKICAgICAgICAgICAgcmV0dXJuIERhdGFiYXNlTWFuYWdlci5jcmVhdGUoYWN0b3IsIHNpbXVsYXRlZFN0b3JhZ2VNYW5hZ2VyQWN0b3IsIHNpbXVsYXRlZE5ldHdvcmtpbmdBY3RvciwgYWRkcmVzcywgc2VydmVycykKICAgICAgICAgICAgICAgICAgICAudGhlblJ1bihkYm0gLT4gZGF0YWJhc2VNYW5hZ2VyQWN0b3IgPSBkYm0pOwogICAgICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNlcnZlcnMgPSBzZXJ2ZXJzOwo=</text>
       </register>
       <register name="+" type="2">
-        <text encoding="base64">ICAgICAgICBzaW11bGF0ZWROZXR3b3JrLndhaXRGb3Ioc04gLT4gc04ubm9kZShhZGRyZXNzLCAoYSwgbSkgLT4gYWN0b3IudGVsbChzdGF0ZSAtPiBzdGF0ZS5yZWNlaXZlKGEsIG0pKSkKICAgICAgICAgICAgICAgIC50aGVuUnVuKG4gLT4gc2ltdWxhdGVkTm9kZSA9IG4pKTsK</text>
+        <text encoding="base64">ICAgICAgICBTZXQ8U3RyaW5nPiBzZXJ2ZXJzID0gSW50U3RyZWFtLnJhbmdlKDAsIGNvbmZpZy5jbHVzdGVyLm5vZGVzKS5tYXBUb09iaihTaW11bGF0aW9uQ2x1c3Rlcjo6Z2V0TmFtZSkuY29sbGVjdChDb2xsZWN0b3JzLnRvU2V0KCkpOwo=</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>e</text>
+        <text encoding="base64">U2V0PFN0cmluZz4g</text>
       </register>
       <register name="/" type="4">
         <text>actor</text>
@@ -451,10 +452,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzaW11bGF0ZWROZXR3b3JrLndhaXRGb3Ioc04gLT4gc04ubm9kZShhZGRyZXNzLCAoYSwgbSkgLT4gYWN0b3IudGVsbChzdGF0ZSAtPiBzdGF0ZS5yZWNlaXZlKGEsIG0pKSkKICAgICAgICAgICAgICAgIC50aGVuUnVuKG4gLT4gc2ltdWxhdGVkTm9kZSA9IG4pKTsK</text>
+        <text encoding="base64">ICAgICAgICBTZXQ8U3RyaW5nPiBzZXJ2ZXJzID0gSW50U3RyZWFtLnJhbmdlKDAsIGNvbmZpZy5jbHVzdGVyLm5vZGVzKS5tYXBUb09iaihTaW11bGF0aW9uQ2x1c3Rlcjo6Z2V0TmFtZSkuY29sbGVjdChDb2xsZWN0b3JzLnRvU2V0KCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9taXNlPD8+IGluaXQoQWN0b3I8U2ltdWxhdGVkTm9kZT4gYWN0b3IpIHsKICAgICAgICAgICAgdGhpcy5hY3RvciA9IGFjdG9yOwoKICAgICAgICAgICAgcmV0dXJuIERhdGFiYXNlTWFuYWdlci5jcmVhdGUoYWN0b3IsIHNpbXVsYXRlZFN0b3JhZ2VNYW5hZ2VyQWN0b3IsIHNpbXVsYXRlZE5ldHdvcmtpbmdBY3RvciwgYWRkcmVzcywgc2VydmVycykKICAgICAgICAgICAgICAgICAgICAudGhlblJ1bihkYm0gLT4gZGF0YWJhc2VNYW5hZ2VyQWN0b3IgPSBkYm0pOwogICAgICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNlcnZlcnMgPSBzZXJ2ZXJzOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -483,28 +484,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBQcm9taXNlPD8+IGluaXQoQWN0b3I8U2ltdWxhdGVkTm9kZT4gYWN0b3IpIHsKICAgICAgICAgICAgdGhpcy5hY3RvciA9IGFjdG9yOwoK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmNoaWxkKGFjdG9yIC0+IG5ldyBTaW11bGF0aW9uQ2x1c3RlcigpKQo=</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">IAogCiAKIA==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICB0aGlzLmNoaWxkKGFjdG9yIC0+ICkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLnNpbXVsYXRlZE5ldHdvcmsgPSBzaW11bGF0ZWROZXR3b3JrOwo=</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">Cg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgQWN0b3I8U2ltdWxhdGVkRGF0YT4gYWN0b3I7Cgo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgUHJvbWlzZTxBY3RvcjxTaW11bGF0ZWREYXRhPj4gY3JlYXRlKEFjdG9yPFNpbXVsYXRlZFN0b3JhZ2VNYW5hZ2VyPiBwYXJlbnQpIHsKICAgICAgICByZXR1cm4gcGFyZW50LmNoaWxkKCgpIC0+IG5ldyBTaW11bGF0ZWREYXRhKHBhcmVudCkpCiAgICAgICAgICAgICAgICAudGhlbldhaXRVbnRpbChhIC0+IGEucnVuKHN0YXRlIC0+IHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZS5hY3RvciA9IGE7CiAgICAgICAgICAgICAgICAgICAgc3RhdGUub3BlbiA9IHRydWU7CiAgICAgICAgICAgICAgICB9KSk7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICBQcm9taXNlPD8+IGluaXQoQWN0b3I8U2ltdWxhdGVkTm9kZT4gYWN0b3IpIHsKICAgICAgICAgICAgdGhpcy5hY3RvciA9IGFjdG9yOwoKICAgICAgICAgICAgcmV0dXJuIERhdGFiYXNlTWFuYWdlci5jcmVhdGUoYWN0b3IsIHNpbXVsYXRlZFN0b3JhZ2VNYW5hZ2VyQWN0b3IsIHNpbXVsYXRlZE5ldHdvcmtpbmdBY3RvciwgYWRkcmVzcywgc2VydmVycykKICAgICAgICAgICAgICAgICAgICAudGhlblJ1bihkYm0gLT4gZGF0YWJhc2VNYW5hZ2VyQWN0b3IgPSBkYm0pOwogICAgICAgIH0KCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBvcGVuID0gdHJ1ZTsK</text>
+        <text encoding="base64">ICAgICAgICBQcm9taXNlPD8+IGluaXQoQWN0b3I8U2ltdWxhdGVkTm9kZT4gYWN0b3IpIHsKICAgICAgICAgICAgdGhpcy5hY3RvciA9IGFjdG9yOwoK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gU2ltdWxhdGVkRGF0YS5jcmVhdGUoYWN0b3IpCiAgICAgICAgICAgICAgICAudGhlbihkYXRhIC0+IHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZGI7CiAgICAgICAgICAgICAgICB9KTsK</text>
+      <register name="9" type="8">
+        <text encoding="base64">IAogCiAKIA==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
