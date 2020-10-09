@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZXBsaWNhdGVcPg==</entry>
         <entry encoding="base64">XDxvbkNvbW1pdHRlZFw+</entry>
         <entry encoding="base64">XDxpc0xvY2FsXD4=</entry>
         <entry encoding="base64">XDxMT0NBTF9FWEVDVVRPUlw+</entry>
@@ -27,6 +26,7 @@
         <entry>assert</entry>
         <entry>assert false</entry>
         <entry>commit</entry>
+        <entry encoding="base64">XDxhd2FpdFw+</entry>
       </history-search>
       <history-cmd>
         <entry>wo</entry>
@@ -208,8 +208,8 @@
         <mark key="]" line="57" column="9" />
         <mark key="." line="57" column="9" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" timestamp="1602258459379">
-        <mark key="'" line="79" column="48" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" timestamp="1602259530494">
+        <mark key="'" line="64" column="79" />
         <mark key="[" line="62" column="22" />
         <mark key="]" line="62" column="30" />
         <mark key="." line="62" column="29" />
@@ -291,12 +291,12 @@
         <mark key="." line="79" column="0" />
         <mark key="^" line="79" column="13" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" timestamp="1602255143612">
-        <mark key="'" line="174" column="8" />
-        <mark key="[" line="260" column="8" />
-        <mark key="]" line="208" column="21" />
-        <mark key="." line="103" column="55" />
-        <mark key="^" line="208" column="21" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" timestamp="1602260352368">
+        <mark key="'" line="263" column="52" />
+        <mark key="[" line="208" column="16" />
+        <mark key="]" line="208" column="29" />
+        <mark key="." line="208" column="28" />
+        <mark key="^" line="208" column="29" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" timestamp="1602255116766">
         <mark key="'" line="49" column="63" />
@@ -310,20 +310,14 @@
         <mark key="]" line="20" column="0" />
         <mark key="." line="20" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1602258422413">
+      <file name="/fragment.java" timestamp="1602259856538">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="32" />
-        <mark key="^" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="7" />
         <mark key="." line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/EventLoopPromiseExecutor.java" />
-      <jump line="54" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/SingleThreadedEventLoopPromiseExecutor.java" />
-      <jump line="34" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/EventLoopPromiseExecutor.java" />
-      <jump line="49" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/SingleThreadedEventLoopPromiseExecutor.java" />
-      <jump line="26" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/SingleThreadedEventLoopPromiseExecutor.java" />
-      <jump line="22" column="22" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/SingleThreadedEventLoopPromiseExecutor.java" />
       <jump line="51" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/EventLoopPromiseExecutor.java" />
       <jump line="37" column="54" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/EventLoopPromiseExecutor.java" />
       <jump line="77" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
@@ -379,7 +373,6 @@
       <jump line="218" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
       <jump line="216" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
       <jump line="89" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftAssert.java" />
-      <jump line="141" column="22" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="267" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="260" column="73" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="43" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" />
@@ -417,13 +410,20 @@
       <jump line="337" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTest.java" />
       <jump line="276" column="55" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTest.java" />
       <jump line="77" column="54" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
-      <jump line="79" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
+      <jump line="79" column="82" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
+      <jump line="141" column="22" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="151" column="19" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="57" column="77" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
+      <jump line="64" column="79" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" />
+      <jump line="169" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="261" column="15" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
+      <jump line="263" column="52" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text>future.</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ICAgIHJ1bnRpbWVfZGVwcyA9IFsKICAgICAgICAiQG1hdmVuLy86Y2hfcW9zX2xvZ2JhY2tfbG9nYmFja19jbGFzc2ljIiwKICAgICAgICAiQG1hdmVuLy86aW9fZ3JwY19ncnBjX25ldHR5IiwKICAgIF0sCg==</text>
@@ -435,7 +435,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>commit</text>
+        <text encoding="base64">XDxhd2FpdFw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -446,7 +446,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJhZnRBY3Rvci50ZWxsKHJhZnQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgcmFmdC5yZXBsaWNhdGUoYnVmZmVyLCByZXMgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgTE9HLnRyYWNlKCJDb21taXR0ZWQgdHJhbnNhY3Rpb24iKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrLmFjY2VwdChudWxsKTsgLy8gVE9ETyByZWNvbnNpZGVyIHRoaXMgY2FsbGJhY2sgdG8gYmUgbW9yZSAicHJvbWlzZXkiCiAgICAgICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByYWZ0QWN0b3IudGVsbChyYWZ0IC0+CiAgICAgICAgICAgICAgICByYWZ0LnJlcGxpY2F0ZShidWZmZXIsIHJlcyAtPiB7CiAgICAgICAgICAgICAgICAgICAgTE9HLnRyYWNlKCJDb21taXR0ZWQgdHJhbnNhY3Rpb24iKTsKICAgICAgICAgICAgICAgICAgICBjYWxsYmFjay5hY2NlcHQobnVsbCk7IC8vIFRPRE8gcmVjb25zaWRlciB0aGlzIGNhbGxiYWNrIHRvIGJlIG1vcmUgInByb21pc2V5IgogICAgICAgICAgICAgICAgfSkKICAgICAgICApOwo=</text>
+        <text>future.</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -475,7 +475,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
+        <text encoding="base64">ICAgICAgICByYWZ0QWN0b3IudGVsbChyYWZ0IC0+CiAgICAgICAgICAgICAgICByYWZ0LnJlcGxpY2F0ZShidWZmZXIsIHJlcyAtPiB7CiAgICAgICAgICAgICAgICAgICAgTE9HLnRyYWNlKCJDb21taXR0ZWQgdHJhbnNhY3Rpb24iKTsKICAgICAgICAgICAgICAgICAgICBjYWxsYmFjay5hY2NlcHQobnVsbCk7IC8vIFRPRE8gcmVjb25zaWRlciB0aGlzIGNhbGxiYWNrIHRvIGJlIG1vcmUgInByb21pc2V5IgogICAgICAgICAgICAgICAgfSkKICAgICAgICApOwo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
@@ -490,13 +490,13 @@
         <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBOT1QgV09SS0lORwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIChDb25zdW1lcjxWPiB3YWl0ZXIgOiB3YWl0ZXJzKSB7CiAgICAgICAgICAgICAgICB3YWl0ZXIuYWNjZXB0KHZhbHVlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICB3YWl0ZXJzLmNsZWFyKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBOT1QgV09SS0lORwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbih2KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIChDb25zdW1lcjxWPiB3YWl0ZXIgOiB3YWl0ZXJzKSB7CiAgICAgICAgICAgICAgICB3YWl0ZXIuYWNjZXB0KHZhbHVlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICB3YWl0ZXJzLmNsZWFyKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -505,9 +505,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>commit</last-search>
+      <last-search encoding="base64">XDxhd2FpdFw+</last-search>
       <last-offset />
-      <last-pattern>commit</last-pattern>
+      <last-pattern encoding="base64">XDxhd2FpdFw+</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
