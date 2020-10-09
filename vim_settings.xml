@@ -32,7 +32,6 @@
         <entry>wo</entry>
         <entry>w\jjb</entry>
         <entry>wbhb</entry>
-        <entry>W</entry>
         <entry>w:q</entry>
         <entry>ww</entry>
         <entry>:w</entry>
@@ -49,6 +48,7 @@
         <entry>vs</entry>
         <entry>q</entry>
         <entry>w</entry>
+        <entry>W</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -202,12 +202,11 @@
         <mark key="." line="3" column="0" />
         <mark key="^" line="8" column="35" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/TransactionManager.java" timestamp="1602165481474">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/TransactionManager.java" timestamp="1602255025057">
         <mark key="'" line="52" column="30" />
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="0" />
-        <mark key="." line="51" column="0" />
-        <mark key="^" line="55" column="15" />
+        <mark key="[" line="57" column="9" />
+        <mark key="]" line="57" column="9" />
+        <mark key="." line="57" column="9" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTestKit.java" timestamp="1602251688990">
         <mark key="'" line="433" column="0" />
@@ -292,14 +291,14 @@
         <mark key="." line="79" column="0" />
         <mark key="^" line="79" column="13" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" timestamp="1602251909082">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" timestamp="1602255143612">
         <mark key="'" line="174" column="8" />
         <mark key="[" line="260" column="8" />
         <mark key="]" line="208" column="21" />
-        <mark key="." line="260" column="20" />
+        <mark key="." line="103" column="55" />
         <mark key="^" line="208" column="21" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" timestamp="1602249761177">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Actor.java" timestamp="1602255116766">
         <mark key="'" line="49" column="63" />
         <mark key="[" line="7" column="45" />
         <mark key="]" line="7" column="37" />
@@ -319,8 +318,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="113" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
-      <jump line="128" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="117" column="39" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="112" column="92" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
       <jump line="130" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/Promise.java" />
@@ -419,12 +416,14 @@
       <jump line="290" column="15" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTest.java" />
       <jump line="82" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTest.java" />
       <jump line="252" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/test/RaftTest.java" />
+      <jump line="57" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/TransactionManager.java" />
+      <jump line="52" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/TransactionManager.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ICAgIHJ1bnRpbWVfZGVwcyA9IFsKICAgICAgICAiQG1hdmVuLy86Y2hfcW9zX2xvZ2JhY2tfbG9nYmFja19jbGFzc2ljIiwKICAgICAgICAiQG1hdmVuLy86aW9fZ3JwY19ncnBjX25ldHR5IiwKICAgIF0sCg==</text>
@@ -433,7 +432,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZmluYWwg</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>assert false</text>
@@ -443,11 +442,11 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>server.raftActor()</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhZnRBY3Rvci50ZWxsKHJhZnQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgcmFmdC5yZXBsaWNhdGUoYnVmZmVyLCByZXMgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgTE9HLnRyYWNlKCJDb21taXR0ZWQgdHJhbnNhY3Rpb24iKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrLmFjY2VwdChudWxsKTsgLy8gVE9ETyByZWNvbnNpZGVyIHRoaXMgY2FsbGJhY2sgdG8gYmUgbW9yZSAicHJvbWlzZXkiCiAgICAgICAgICAgICAgICAgICAgICAgIH0pCiAgICAgICAgKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
+        <text encoding="base64">ICAgICAgICByYWZ0QWN0b3IudGVsbChyYWZ0IC0+CiAgICAgICAgICAgICAgICByYWZ0LnJlcGxpY2F0ZShidWZmZXIsIHJlcyAtPiB7CiAgICAgICAgICAgICAgICAgICAgTE9HLnRyYWNlKCJDb21taXR0ZWQgdHJhbnNhY3Rpb24iKTsKICAgICAgICAgICAgICAgICAgICBjYWxsYmFjay5hY2NlcHQobnVsbCk7IC8vIFRPRE8gcmVjb25zaWRlciB0aGlzIGNhbGxiYWNrIHRvIGJlIG1vcmUgInByb21pc2V5IgogICAgICAgICAgICAgICAgfSkKICAgICAgICApOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -488,16 +487,16 @@
         <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBOT1QgV09SS0lORwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZhbHNlOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIChDb25zdW1lcjxWPiB3YWl0ZXIgOiB3YWl0ZXJzKSB7CiAgICAgICAgICAgICAgICB3YWl0ZXIuYWNjZXB0KHZhbHVlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICB3YWl0ZXJzLmNsZWFyKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBOT1QgV09SS0lORwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbih2KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIChDb25zdW1lcjxWPiB3YWl0ZXIgOiB3YWl0ZXJzKSB7CiAgICAgICAgICAgICAgICB3YWl0ZXIuYWNjZXB0KHZhbHVlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICB3YWl0ZXJzLmNsZWFyKCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKHZhbHVlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbih2KTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
