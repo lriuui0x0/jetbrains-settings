@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>loop</entry>
-        <entry encoding="base64">XDx3b3JrUXVldWVcPg==</entry>
         <entry encoding="base64">XDxlbmRPZlRoZVVuaXZlcnNlXD4=</entry>
         <entry encoding="base64">XDxwcm9taXNlU3RhY2tcPg==</entry>
         <entry encoding="base64">XDxydW5uaW5nXD4=</entry>
@@ -27,6 +25,8 @@
         <entry>roll</entry>
         <entry encoding="base64">XDxsaXN0ZW5lcnNcPg==</entry>
         <entry encoding="base64">XDxpbnRlcm5ldFw+</entry>
+        <entry>Networking</entry>
+        <entry encoding="base64">XDxOZXR3b3JraW5nXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wo</entry>
@@ -207,13 +207,6 @@
         <mark key="^" line="8" column="32" />
         <mark key="." line="8" column="31" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/BUILD" timestamp="1602517725711">
-        <mark key="'" line="34" column="17" />
-        <mark key="[" line="34" column="39" />
-        <mark key="]" line="34" column="39" />
-        <mark key="." line="34" column="39" />
-        <mark key="^" line="34" column="43" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/config/Config.java" timestamp="1602602260102">
         <mark key="'" line="39" column="37" />
       </file>
@@ -283,6 +276,13 @@
       <file name="/Dummy.txt" timestamp="1602602936983">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" timestamp="1602663673383">
+        <mark key="'" line="55" column="37" />
+        <mark key="[" line="36" column="147" />
+        <mark key="]" line="36" column="155" />
+        <mark key="." line="36" column="154" />
+        <mark key="^" line="36" column="155" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/DatabaseManager.java" timestamp="1602599067278">
         <mark key="'" line="21" column="55" />
         <mark key="[" line="33" column="75" />
@@ -301,14 +301,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/dependencies/graknlabs/repositories.bzl" />
-      <jump line="17" column="18" filename="$USER_HOME$/GraknLabs/grakn-cluster/dependencies/graknlabs/repositories.bzl" />
-      <jump line="38" column="65" filename="$USER_HOME$/GraknLabs/grakn-cluster/WORKSPACE" />
-      <jump line="12" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/WORKSPACE" />
-      <jump line="13" column="7" filename="$USER_HOME$/GraknLabs/grakn-cluster/WORKSPACE" />
-      <jump line="15" column="7" filename="$USER_HOME$/GraknLabs/grakn-cluster/WORKSPACE" />
-      <jump line="18" column="7" filename="$USER_HOME$/GraknLabs/grakn-cluster/WORKSPACE" />
-      <jump line="24" column="7" filename="$USER_HOME$/GraknLabs/grakn-cluster/WORKSPACE" />
       <jump line="16" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/dependencies/graknlabs/repositories.bzl" />
       <jump line="9" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/dependencies/graknlabs/repositories.bzl" />
       <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/dependencies/graknlabs/repositories.bzl" />
@@ -401,6 +393,14 @@
       <jump line="20" column="105" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
       <jump line="48" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedInternet.java" />
       <jump line="45" column="90" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/components/networking/SimulatedInternet.java" />
+      <jump line="56" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
+      <jump line="9" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
+      <jump line="27" column="34" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
+      <jump line="29" column="75" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
+      <jump line="36" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
+      <jump line="53" column="38" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
+      <jump line="55" column="37" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -418,7 +418,7 @@
         <text>.</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpbnRlcm5ldFw+</text>
+        <text encoding="base64">XDxOZXR3b3JraW5nXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -488,9 +488,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpbnRlcm5ldFw+</last-search>
+      <last-search encoding="base64">XDxOZXR3b3JraW5nXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpbnRlcm5ldFw+</last-pattern>
+      <last-pattern encoding="base64">XDxOZXR3b3JraW5nXD4=</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
