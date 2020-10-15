@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxsaXN0ZW5lcnNcPg==</entry>
-        <entry encoding="base64">XDxpbnRlcm5ldFw+</entry>
         <entry>Networking</entry>
         <entry encoding="base64">XDxOZXR3b3JraW5nXD4=</entry>
         <entry>connect</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxjdXJyZW50VGltZVw+</entry>
         <entry encoding="base64">XDxkaXNwYXRjaFRpbWVyXD4=</entry>
         <entry encoding="base64">XDxwaWNrXD4=</entry>
+        <entry encoding="base64">XDx0ZXN0TWFjaGluZVw+</entry>
+        <entry encoding="base64">XDx1bml2ZXJzZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>wo</entry>
@@ -203,12 +203,12 @@
         <mark key="." line="10" column="21" />
         <mark key="^" line="10" column="22" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/Promise.java" timestamp="1602769695418">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/Promise.java" timestamp="1602771866074">
         <mark key="'" line="176" column="56" />
-        <mark key="[" line="63" column="12" />
-        <mark key="]" line="63" column="72" />
-        <mark key="^" line="49" column="12" />
-        <mark key="." line="63" column="12" />
+        <mark key="[" line="79" column="0" />
+        <mark key="]" line="79" column="8" />
+        <mark key="^" line="83" column="9" />
+        <mark key="." line="79" column="8" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopBase.java" timestamp="1602755330213">
         <mark key="'" line="24" column="0" />
@@ -222,12 +222,19 @@
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" timestamp="1602761403626">
-        <mark key="'" line="35" column="94" />
-        <mark key="[" line="35" column="48" />
-        <mark key="]" line="35" column="55" />
-        <mark key="^" line="35" column="55" />
-        <mark key="." line="35" column="54" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" timestamp="1602771149992">
+        <mark key="'" line="38" column="66" />
+        <mark key="[" line="38" column="97" />
+        <mark key="]" line="38" column="114" />
+        <mark key="^" line="38" column="114" />
+        <mark key="." line="38" column="113" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/ActorPeriodicTask.java" timestamp="1602771012405">
+        <mark key="'" line="31" column="4" />
+        <mark key="[" line="54" column="39" />
+        <mark key="]" line="54" column="40" />
+        <mark key="^" line="54" column="40" />
+        <mark key="." line="54" column="39" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/BUILD" timestamp="1602753219357">
         <mark key="'" line="34" column="17" />
@@ -235,9 +242,6 @@
         <mark key="]" line="34" column="39" />
         <mark key="." line="34" column="39" />
         <mark key="^" line="34" column="43" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/DistributedSession.java" timestamp="1602694369527">
-        <mark key="'" line="42" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Raft.java" timestamp="1602752824809">
         <mark key="'" line="255" column="167" />
@@ -256,18 +260,19 @@
         <mark key="]" line="130" column="0" />
         <mark key="." line="130" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" timestamp="1602764469118">
-        <mark key="'" line="45" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" timestamp="1602770079289">
+        <mark key="'" line="14" column="13" />
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
         <mark key="^" line="16" column="64" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" timestamp="1602769680666">
-        <mark key="'" line="149" column="8" />
-        <mark key="[" line="145" column="0" />
-        <mark key="]" line="145" column="0" />
-        <mark key="." line="145" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" timestamp="1602771277421">
+        <mark key="'" line="44" column="4" />
+        <mark key="[" line="42" column="82" />
+        <mark key="]" line="42" column="84" />
+        <mark key="." line="42" column="83" />
+        <mark key="^" line="42" column="84" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSelector.java" timestamp="1602754114403">
         <mark key="[" line="2" column="49" />
@@ -275,25 +280,33 @@
         <mark key="." line="2" column="61" />
         <mark key="^" line="2" column="62" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" timestamp="1602769861516">
-        <mark key="'" line="68" column="54" />
-        <mark key="[" line="64" column="104" />
-        <mark key="]" line="64" column="115" />
-        <mark key="." line="64" column="114" />
-        <mark key="^" line="64" column="115" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" timestamp="1602771322897">
+        <mark key="[" line="64" column="50" />
+        <mark key="]" line="64" column="51" />
+        <mark key="." line="64" column="50" />
+        <mark key="^" line="64" column="51" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/EventLoopTest.java" timestamp="1602761543166">
         <mark key="'" line="55" column="0" />
         <mark key="[" line="50" column="0" />
         <mark key="]" line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationClient.java" timestamp="1602766659494" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationClient.java" timestamp="1602770125260">
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="52" column="14" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" timestamp="1602754256818">
         <mark key="i" line="68" column="38" />
         <mark key="[" line="68" column="38" />
         <mark key="]" line="68" column="39" />
         <mark key="." line="68" column="38" />
         <mark key="^" line="68" column="39" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/testkit/TestState.java" timestamp="1602771018775">
+        <mark key="'" line="18" column="35" />
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="13" column="5" />
+        <mark key="^" line="4" column="31" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Peers.java" timestamp="1602750744583">
         <mark key="'" line="87" column="50" />
@@ -302,13 +315,7 @@
         <mark key="." line="36" column="0" />
         <mark key="^" line="36" column="77" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/DatabaseManager.java" timestamp="1602694542464">
-        <mark key="'" line="50" column="0" />
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="50" column="0" />
-        <mark key="." line="50" column="0" />
-      </file>
-      <file name="/fragment.java" timestamp="1602762242088">
+      <file name="/fragment.java" timestamp="1602771528068">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="14" />
         <mark key="^" line="0" column="7" />
@@ -316,15 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="33" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/Promise.java" />
-      <jump line="5" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
-      <jump line="89" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
-      <jump line="174" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/Promise.java" />
-      <jump line="133" column="59" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/Promise.java" />
-      <jump line="27" column="44" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
-      <jump line="165" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
-      <jump line="86" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
-      <jump line="20" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
       <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
       <jump line="17" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
       <jump line="7" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopThreadChecker.java" />
@@ -336,7 +334,6 @@
       <jump line="89" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
       <jump line="29" column="23" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
       <jump line="90" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
-      <jump line="35" column="94" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
       <jump line="51" column="104" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="50" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/EventLoopTest.java" />
       <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/test/EventLoopTest.java" />
@@ -400,9 +397,6 @@
       <jump line="49" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="53" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="58" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="69" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="71" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="76" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="82" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
@@ -415,13 +409,26 @@
       <jump line="18" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="119" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="81" column="59" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="68" column="54" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
+      <jump line="14" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/EventLoopSingleThreaded.java" />
+      <jump line="71" column="82" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
+      <jump line="35" column="9" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
+      <jump line="33" column="77" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
+      <jump line="37" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
+      <jump line="26" column="130" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
+      <jump line="65" column="50" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
+      <jump line="69" column="55" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
+      <jump line="68" column="56" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
+      <jump line="21" column="79" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
+      <jump line="27" column="23" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
+      <jump line="35" column="47" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
+      <jump line="38" column="66" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" />
+      <jump line="44" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aW1lKys7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="+" type="4">
         <text>distributed.core</text>
@@ -430,21 +437,21 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>eventLoop.isOnThread()</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwaWNrXD4=</text>
+        <text encoding="base64">XDx1bml2ZXJzZVw+</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>EventLoopSingleThreaded.THREAD_EVENT_LOOP.get() == eventLoop</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAoRXZlbnRMb29wU2luZ2xlVGhyZWFkZWQuVEhSRUFEX0VWRU5UX0xPT1AuZ2V0KCkgPT0gZXZlbnRMb29wKSB7CiAgICAgICAgICAgIHJldHVybiBqb2JBc3luYy5nZXQoKTsKICAgICAgICB9IGVsc2Ugewo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aW1lKys7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -473,28 +480,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBpZiAoRXZlbnRMb29wU2luZ2xlVGhyZWFkZWQuVEhSRUFEX0VWRU5UX0xPT1AuZ2V0KCkgPT0gZXZlbnRMb29wKSB7CiAgICAgICAgICAgIHJldHVybiBqb2JBc3luYy5nZXQoKTsKICAgICAgICB9IGVsc2Ugewo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiBbXQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGJvb2xlYW4gaXNPblRocmVhZCgpOwo=</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">CiAgICAgICAgZXZlbnRMb29wLnN1Ym1pdCgwLCAoKSAtPiB0aGlzLmN1cnJlbnRUaW1lICs9IDEwMDApOwogICAgICAgIEFjdG9yUGVyaW9kaWNUYXNrPFNpbXVsYXRpb25Vbml2ZXJzZT4gdGltZXIgPSBuZXcgQWN0b3JQZXJpb2RpY1Rhc2s8PihzZWxmLCAxMDAwLCAwLCB4IC0+IHRoaXMuY3VycmVudFRpbWUgKz0gMTAwMCk7CiAgICAgICAgdGltZXIucmVzdGFydCgpOwo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgYm9vbGVhbiBpc09uVGhyZWFkKCkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmV2ZW50TG9vcCA9IGV2ZW50TG9vcDsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIG5ldyBTaW11bGF0ZWRTY2hlZHVsZWRKb2IobWlsbGlzLCB3cmFwKGpvYikpOwo=</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgICAgIFNpbXVsYXRpb25Vbml2ZXJzZS5TaW11bGF0ZWRNYWNoaW5lIHRlc3RNYWNoaW5lID0gdW5pdmVyc2UuY3JlYXRlTWFjaGluZSgicm9vdCIpOwovLyAgICAgICAgICAgICAgICAgICAgQWN0b3I8VGVzdFN0YXRlPiByb290ID0gQWN0b3Iucm9vdCh0ZXN0TWFjaGluZSwgYWN0b3IgLT4gbmV3IFRlc3RTdGF0ZShhY3RvcikpOwoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd29ya1F1ZXVlLm9mZmVyKHdyYXAoam9iKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTaW11bGF0aW9uVW5pdmVyc2UuU2ltdWxhdGVkTWFjaGluZSB0ZXN0TWFjaGluZSA9IHVuaXZlcnNlLmNyZWF0ZU1hY2hpbmUoInJvb3QiKTsKICAgICAgICAgICAgICAgICAgICBBY3RvcjxUZXN0U3RhdGU+IHJvb3QgPSBBY3Rvci5yb290KHRlc3RNYWNoaW5lLCBhY3RvciAtPiBuZXcgVGVzdFN0YXRlKGFjdG9yKSk7Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -503,9 +510,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwaWNrXD4=</last-search>
+      <last-search encoding="base64">XDx1bml2ZXJzZVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwaWNrXD4=</last-pattern>
+      <last-pattern encoding="base64">XDx1bml2ZXJzZVw+</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
