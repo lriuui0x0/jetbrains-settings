@@ -47,8 +47,8 @@
         <entry>W</entry>
         <entry>w\</entry>
         <entry>w:w</entry>
-        <entry>w</entry>
         <entry>q</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -196,6 +196,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/BUILD" timestamp="1602849330177">
+        <mark key="[" line="3" column="54" />
+        <mark key="]" line="3" column="68" />
+        <mark key="." line="3" column="67" />
+        <mark key="^" line="3" column="68" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/eventloop/Promise.java" timestamp="1602842865371">
         <mark key="'" line="180" column="16" />
         <mark key="[" line="179" column="65" />
@@ -207,20 +213,6 @@
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationCluster.java" timestamp="1602771149992">
-        <mark key="'" line="21" column="66" />
-        <mark key="[" line="21" column="97" />
-        <mark key="]" line="21" column="114" />
-        <mark key="^" line="21" column="114" />
-        <mark key="." line="21" column="113" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/ActorPeriodicTask.java" timestamp="1602771012405">
-        <mark key="'" line="31" column="4" />
-        <mark key="[" line="54" column="39" />
-        <mark key="]" line="54" column="40" />
-        <mark key="^" line="54" column="40" />
-        <mark key="." line="54" column="39" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoopThreadChecker.java" timestamp="1602848493367">
         <mark key="[" line="5" column="35" />
@@ -241,18 +233,27 @@
         <mark key="." line="0" column="32" />
         <mark key="^" line="0" column="32" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/TransactionManager.java" timestamp="1602842217481">
-        <mark key="'" line="56" column="9" />
-        <mark key="[" line="57" column="9" />
-        <mark key="]" line="57" column="9" />
-        <mark key="." line="57" column="9" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" timestamp="1602849699868">
+        <mark key="'" line="10" column="71" />
+        <mark key="[" line="11" column="39" />
+        <mark key="]" line="11" column="49" />
+        <mark key="." line="11" column="48" />
+        <mark key="^" line="11" column="49" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationUniverse.java" timestamp="1602771277421">
-        <mark key="'" line="44" column="4" />
-        <mark key="[" line="42" column="82" />
-        <mark key="]" line="42" column="84" />
-        <mark key="." line="42" column="83" />
-        <mark key="^" line="42" column="84" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/RaftTest.java" timestamp="1602849267771">
+        <mark key="'" line="22" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/BUILD" timestamp="1602849306917">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="20" column="1" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedLog.java" timestamp="1602849923100">
+        <mark key="'" line="9" column="41" />
+        <mark key="[" line="13" column="22" />
+        <mark key="]" line="13" column="26" />
+        <mark key="." line="13" column="25" />
+        <mark key="^" line="13" column="26" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/components/Networking.java" timestamp="1602845364661">
         <mark key="'" line="15" column="0" />
@@ -261,15 +262,10 @@
         <mark key="." line="20" column="24" />
         <mark key="^" line="20" column="25" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" timestamp="1602773920433">
-        <mark key="'" line="67" column="57" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationClient.java" timestamp="1602772857399">
-        <mark key="'" line="39" column="50" />
-        <mark key="[" line="74" column="0" />
-        <mark key="]" line="74" column="0" />
-        <mark key="." line="74" column="0" />
-        <mark key="^" line="74" column="48" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1602849732013">
+        <mark key="[" line="78" column="0" />
+        <mark key="]" line="78" column="0" />
+        <mark key="." line="78" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/components/Applicator.java" timestamp="1602845432697">
         <mark key="'" line="4" column="28" />
@@ -279,11 +275,8 @@
         <mark key="]" line="53" column="0" />
         <mark key="." line="53" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/actor/testkit/TestState.java" timestamp="1602771018775">
-        <mark key="'" line="18" column="35" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="13" column="5" />
-        <mark key="^" line="4" column="31" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/core/test/testkit/simulation/components/storage/SimulatedLog.java" timestamp="1602849850554">
+        <mark key="'" line="32" column="19" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/concurrent/raft/Replications.java" timestamp="1602845452320">
         <mark key="'" line="79" column="0" />
@@ -300,7 +293,7 @@
         <mark key="." line="2" column="0" />
         <mark key="^" line="0" column="32" />
       </file>
-      <file name="/fragment.java" timestamp="1602771528068">
+      <file name="/fragment.java" timestamp="1602849875220">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="14" />
         <mark key="^" line="0" column="7" />
@@ -308,20 +301,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="11" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="17" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="26" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="39" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="45" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="49" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="53" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="58" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
-      <jump line="82" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="93" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="96" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
       <jump line="100" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/distributed/core/test/testkit/simulation/runner/SimulationRunner.java" />
@@ -408,21 +387,35 @@
       <jump line="241" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/Promise.java" />
       <jump line="34" column="33" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/Promise.java" />
       <jump line="169" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/core/test/testkit/simulation/runner/SimulationUniverse.java" />
+      <jump line="27" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/RaftTest.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/RaftTest.java" />
+      <jump line="831" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/RaftTest.java" />
+      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/RaftTest.java" />
+      <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
+      <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/BUILD" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/BUILD" />
+      <jump line="9" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
+      <jump line="4" column="28" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
+      <jump line="14" column="9" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
+      <jump line="10" column="71" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
+      <jump line="32" column="19" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/core/test/testkit/simulation/components/storage/SimulatedLog.java" />
+      <jump line="38" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedLog.java" />
+      <jump line="9" column="41" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedLog.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgdm9pZCBhd2FpdChQcm9taXNlPD8+IHByb21pc2UpIHsKICAgICAgICAgICAgcHJvbWlzZVN0YWNrLnB1c2gocHJvbWlzZSk7CiAgICAgICAgICAgIGxvb3AoKTsKICAgICAgICAgICAgcHJvbWlzZVN0YWNrLnBvcCgpOwogICAgICAgIH0KCg==</text>
+      <register name="&quot;" type="4">
+        <text>TreeMap</text>
       </register>
-      <register name="+" type="4">
-        <text>distributed.core</text>
+      <register name="+" type="2">
+        <text encoding="base64">amF2YV90ZXN0KAogICAgbmFtZSA9ICJ0ZXN0IiwKICAgIHNyY3MgPSBnbG9iKFsiKi5qYXZhIl0pLAogICAgdGVzdF9jbGFzcyA9ICJncmFrbi5jbHVzdGVyLnJlcGxpY2F0b3IuUmFmdFRlc3QiLAogICAgZGVwcyA9IFsKICAgICAgICAiLy9leGVjdXRpb246bGliIiwKICAgICAgICAiLy9leGVjdXRpb24vdGVzdGtpdDpsaWIiLAogICAgICAgICIvL3Byb3RvY29sOmxpYiIsCiAgICAgICAgIi8vcmVwbGljYXRvcjpsaWIiLAogICAgICAgICIvL3JlcGxpY2F0b3IvY29tbW9uOmxpYiIsCiAgICAgICAgIi8vcmVwbGljYXRvci9jb21wb25lbnRzOmxpYiIsCiAgICAgICAgIkBncmFrbmxhYnNfY29tbW9uLy86Y29tbW9uIiwKICAgICAgICAiQG1hdmVuLy86Y29tX2dvb2dsZV9jb2RlX2ZpbmRidWdzX2pzcjMwNSIsCiAgICAgICAgIkBtYXZlbi8vOmNvbV9nb29nbGVfcHJvdG9idWZfcHJvdG9idWZfamF2YSIsCiAgICBdLAogICAgcnVudGltZV9kZXBzID0gWwogICAgICAgICJAbWF2ZW4vLzpjaF9xb3NfbG9nYmFja19sb2diYWNrX2NsYXNzaWMiLAogICAgXSwKICAgIHJlc291cmNlcyA9IFsiLy9jb21tb246bG9nYmFjay10ZXN0LnhtbCJdLAogICAgcmVzb3VyY2Vfc3RyaXBfcHJlZml4ID0gImNvbW1vbiIsCikK</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text>TreeMap</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxhY3RpdmF0ZVw+</text>
@@ -433,10 +426,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoRXZlbnRMb29wU2luZ2xlVGhyZWFkZWQuVEhSRUFEX0VWRU5UX0xPT1AuZ2V0KCkgPT0gZXZlbnRMb29wKSB7CiAgICAgICAgICAgIHJldHVybiBqb2JBc3luYy5nZXQoKTsKICAgICAgICB9IGVsc2Ugewo=</text>
+        <text encoding="base64">ICAgICAgICBwdWJsaWMgdm9pZCBhY3RpdmF0ZV9tdXN0QmVJbml0aWFsaXNlZFRvQ29ycmVjdENvbmZpZ3VyYXRpb25zKCkgdGhyb3dzIEV4ZWN1dGlvbkV4Y2VwdGlvbiwgSW50ZXJydXB0ZWRFeGNlcHRpb24gewogICAgICAgICAgICBSYWZ0SUQgc2VydmVySWQgPSBuZXcgUmFmdElEKCIxMjcuMC4wLjE6MTAwMDIiLCAic2VydmVyIik7CiAgICAgICAgICAgIFJhZnRJRCBwZWVySWQgPSBuZXcgUmFmdElEKCIxMjcuMC4wLjE6MTAwMDIiLCAicGVlciIpOwogICAgICAgICAgICBSYWZ0VGVzdEtpdC5UZXN0SW5zdGFuY2Ugc2VydmVyID0gcmFmdFRlc3RLaXQubmV3SW5hY3RpdmUoc2VydmVySWQsIHNldChwZWVySWQpKTsKICAgICAgICAgICAgc2VydmVyLnJhZnRBY3RvcigpLm9yZGVyKFJhZnQ6OmFjdGl2YXRlKS5hd2FpdCgpOwogICAgICAgICAgICBSYWZ0QXNzZXJ0LkV4cGVjdGVkRm9sbG93ZXIgZXhwZWN0ZWQgPSBuZXcgUmFmdEFzc2VydC5FeHBlY3RlZEZvbGxvd2VyKAogICAgICAgICAgICAgICAgICAgIHNlcnZlcklkLAogICAgICAgICAgICAgICAgICAgIHNldChwZWVySWQpLAogICAgICAgICAgICAgICAgICAgIC0xLAogICAgICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgICAgIC0xTAogICAgICAgICAgICApOwogICAgICAgICAgICBleHBlY3RlZC5hc3NlcnRFcXVhbHMoc2VydmVyLnJhZnRBY3RvcigpKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgdm9pZCBhd2FpdChQcm9taXNlPD8+IHByb21pc2UpIHsKICAgICAgICAgICAgcHJvbWlzZVN0YWNrLnB1c2gocHJvbWlzZSk7CiAgICAgICAgICAgIGxvb3AoKTsKICAgICAgICAgICAgcHJvbWlzZVN0YWNrLnBvcCgpOwogICAgICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICBvcGVuID0gZmFsc2U7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -465,31 +458,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgYm9vbGVhbiBpc0xvY2FsKCkgewogICAgICAgICAgICAvLyBBbHdheXMgcmV0dXJuIGZhbHNlIHNvIHRoYXQgbWVzc2FnZXMgYXJlIGNvb3BlcmF0aXZlbHkgZGlzcGF0Y2hlZCwgc2ltdWxhdGluZyBtYXhpbXVtIGNvbmN1cnJlbmN5CiAgICAgICAgICAgIC8vIFRPRE8gc2hvdWxkIHJldmlldyB0aGlzIGFwcHJvYWNoCiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgb3BlbjsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEV2ZW50TG9vcFNlbGVjdG9yLnNldCh0ZXN0TWFjaGluZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgb3BlbjsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsdXN0ZXIuZXhlY3V0aW9uLmV2ZW50bG9vcC5FdmVudExvb3A7CmltcG9ydCBncmFrbi5jbHVzdGVyLmV4ZWN1dGlvbi5ldmVudGxvb3AuRXZlbnRMb29wVGhyZWFkQ2hlY2tlcjsK</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgb3BlbjsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cGFja2FnZSBncmFrbi5jbHVzdGVyLmV4ZWN1dGlvbi5ldmVudGxvb3A7CgppbXBvcnQgb3JnLnNsZjRqLkxvZ2dlcjsKaW1wb3J0IG9yZy5zbGY0ai5Mb2dnZXJGYWN0b3J5OwoKaW1wb3J0IGphdmF4LmFubm90YXRpb24uQ2hlY2tSZXR1cm5WYWx1ZTsKaW1wb3J0IGphdmF4LmFubm90YXRpb24uY29uY3VycmVudC5Ob3RUaHJlYWRTYWZlOwppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuRXhlY3V0aW9uRXhjZXB0aW9uOwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0ludGVnZXI7CmltcG9ydCBqYXZhLnV0aWwuZnVuY3Rpb24uQ29uc3VtZXI7CmltcG9ydCBqYXZhLnV0aWwuZnVuY3Rpb24uRnVuY3Rpb247CmltcG9ydCBqYXZhLnV0aWwuZnVuY3Rpb24uU3VwcGxpZXI7CgovKioKICogVGhpcyBpcyBzdGFydGluZyB0byBzdHJheSBhd2F5IGZyb20gcHJvbWlzZXMgYXMgInB1cmUgYXN5bmMiIGZ1bmN0aW9ucyBhbmQKICogdG93YXJkcyB0aGVtIGJlaW5nIGdyZWVkeSBjby1yb3V0aW5lcyB0aGF0IHdpbGwgb25seSB5aWVsZCB3aGVuIHRoZXkgY2Fubm90CiAqIHByb2dyZXNzIGZ1cnRoZXIuIFdoaWxzdCB0aGlzIHJlZHVjZXMgYXBwYXJlbnQgcGFyYWxsZWxpc20sIGJ5IGVhZ2VybHkKICogcHJvY2Vzc2luZyBwcm9taXNlcyB3ZSBjb21wbGV0ZWx5IGF2b2lkIGNvbnRleHQgc3dpdGNoaW5nLCB1bm5lY2Vzc2FyeQogKiBhbGxvY2F0aW9ucyBldGMuIHdoaWNoIHNob3VsZCBncmVhdGx5IGltcHJvdmUgY2FjaGUgY29oZXJlbmNlIGFuZCBhdm9pZAogKiBzYXR1cmF0aW5nIHRoZSByZWFsIHdvcmsgcXVldWVzIG5lY2Vzc2FyeSB0byBjb21tdW5pY2F0ZSBiZXR3ZWVuIHRocmVhZHMuCiAqCiAqIEF0IHNvbWUgcG9pbnQsIGl0IHdvdWxkIGJlIG5pY2UgZm9yIHRoaXMgc3R5bGUgdG8gd29yayB3aXRoIGFjdG9ycyBvbiBhCiAqIG11bHRpLXRocmVhZGVkIHByb21pc2UgZXZlbnQgbG9vcC4KICoKICogVGhlIGd1YXJhbnRlZXMgb2YgdGhlc2UgcHJvbWlzZXMgY2FuIGJlIGludGVycHJldGVkIGFzIGZvbGxvd3M6CiAqICAgLSBPcGVyYXRpb25zIGluIGEgcHJvbWlzZSBhcmUgTk9UIGd1YXJhbnRlZWQgdG8gYmUgZXhlY3V0ZWQgYWZ0ZXIgdGhlCiAqICAgICBjYWxsIHRvIGNyZWF0ZSB0aGVtLiBUaGV5IG1heSBiZSBleGVjdXRlZCBpbmxpbmUsIGFzeW5jaHJvbm91c2x5LCBvcgogKiAgICAgZnVsbHkgYWZ0ZXIgdGhlIGNhbGwgaGFzIGNvbXBsZXRlZC4KICogICAtIENoYWluZWQgcHJvbWlzZXMgYXJlIGd1YXJhbnRlZWQgdG8gYmUgZXhlY3V0ZWQgaW4gb3JkZXIgYW5kIHJlY2VpdmUgdGhlCiAqICAgICByZXN1bHQgb2YgdGhlIHByZXZpb3VzIG9wZXJhdGlvbi4KICovCkBOb3RUaHJlYWRTYWZlCnB1YmxpYyBhYnN0cmFjdCBjbGFzcyBQcm9taXNlPFY+IHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihQcm9taXNlLmNsYXNzKTsKCiAgICBAQ2hlY2tSZXR1cm5WYWx1ZQogICAgcHVibGljIHN0YXRpYyA8Vj4gUHJvbWlzZTxWPiBvZihWIHZhbHVlKSB7CiAgICAgICAgcmV0dXJuIG5ldyBQcmVjb21wdXRlZDw+KHZhbHVlKTsKICAgIH0KCiAgICBAQ2hlY2tSZXR1cm5WYWx1ZQogICAgcHVibGljIHN0YXRpYyBQcm9taXNlPFZvaWQ+IGRvbmUoKSB7CiAgICAgICAgcmV0dXJuIFByZWNvbXB1dGVkLkRPTkU7CiAgICB9CgogICAgQENoZWNrUmV0dXJuVmFsdWUKICAgIHB1YmxpYyBzdGF0aWMgPFY+IFByb21pc2U8Vj4gY29tcHV0ZShmaW5hbCBFdmVudExvb3AgZXZlbnRMb29wLCBmaW5hbCBTdXBwbGllcjxWPiBqb2IpIHsKICAgICAgICBpZiAoZXZlbnRMb29wLmlzTG9jYWwoKSkgewogICAgICAgICAgICByZXR1cm4gbmV3IFByZWNvbXB1dGVkPD4oam9iLmdldCgpKTsgLy8gVE9ETyBoYW5kbGUgZmFpbHVyZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGZpbmFsIEV2ZW50TG9vcCBsb2NhbCA9IEV2ZW50TG9vcFNlbGVjdG9yLmdldCgpOwogICAgICAgICAgICBmaW5hbCBDb21wdXRlZDxWPiBwcm9taXNlID0gbmV3IENvbXB1dGVkPD4oKTsKICAgICAgICAgICAgZXZlbnRMb29wLnN1Ym1pdCgoKSAtPiB7CiAgICAgICAgICAgICAgICBmaW5hbCBWIHYgPSBqb2IuZ2V0KCk7CiAgICAgICAgICAgICAgICBsb2NhbC5zdWJtaXQoKCkgLT4gcHJvbWlzZS5jb21wbGV0ZSh2KSk7IC8vIFRPRE8gY2hlY2ssIGlzIHRoaXMgY29ycmVjdCBmb3IgZmlsbGluZyBwcm9taXNlPwogICAgICAgICAgICB9KTsKICAgICAgICAgICAgcmV0dXJuIHByb21pc2U7CiAgICAgICAgfQogICAgfQoKICAgIEBDaGVja1JldHVyblZhbHVlCiAgICBwdWJsaWMgc3RhdGljIDxWPiBQcm9taXNlPFY+IGNvbXB1dGVBc3luYyhmaW5hbCBFdmVudExvb3AgZXZlbnRMb29wLCBmaW5hbCBTdXBwbGllcjxQcm9taXNlPFY+PiBqb2JBc3luYykgewogICAgICAgIGlmIChldmVudExvb3AuaXNMb2NhbCgpKSB7CiAgICAgICAgICAgIHJldHVybiBqb2JBc3luYy5nZXQoKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBmaW5hbCBFdmVudExvb3AgbG9jYWwgPSBFdmVudExvb3BTZWxlY3Rvci5nZXQoKTsKICAgICAgICAgICAgZmluYWwgQ29tcHV0ZWQ8Vj4gcHJvbWlzZSA9IG5ldyBDb21wdXRlZDw+KCk7CiAgICAgICAgICAgIGV2ZW50TG9vcC5zdWJtaXQoKCkgLT4gewogICAgICAgICAgICAgICAgUHJvbWlzZTxWPiBvdGhlclAgPSBqb2JBc3luYy5nZXQoKTsKICAgICAgICAgICAgICAgIG90aGVyUC50aGVuRGVmZXIodiAtPiBsb2NhbC5zdWJtaXQoKCkgLT4gcHJvbWlzZS5jb21wbGV0ZSh2KSkpOwogICAgICAgICAgICB9KTsKICAgICAgICAgICAgcmV0dXJuIHByb21pc2U7CiAgICAgICAgfQogICAgfQoKICAgIEBDaGVja1JldHVyblZhbHVlCiAgICBwdWJsaWMgc3RhdGljIDxWPiBQcm9taXNlPFY+IHByb21pc2UoZmluYWwgQ29uc3VtZXI8Q29uc3VtZXI8Vj4+IHByb21pc2VyKSB7CiAgICAgICAgZmluYWwgQ29tcHV0ZWQ8Vj4gcHJvbWlzZSA9IG5ldyBDb21wdXRlZDw+KCk7CiAgICAgICAgcHJvbWlzZXIuYWNjZXB0KHByb21pc2U6OmNvbXBsZXRlKTsKICAgICAgICByZXR1cm4gcHJvbWlzZTsKICAgIH0KCiAgICBAQ2hlY2tSZXR1cm5WYWx1ZQogICAgcHVibGljIHN0YXRpYyA8Vj4gUHJvbWlzZTxMaXN0PFY+PiBjb2xsZWN0KGZpbmFsIExpc3Q8UHJvbWlzZTxWPj4gcHJvbWlzZXMpIHsKICAgICAgICBDb21wdXRlZDxMaXN0PFY+PiB3YWl0ZXIgPSBuZXcgQ29tcHV0ZWQ8PigpOwogICAgICAgIGludCBzaXplID0gcHJvbWlzZXMuc2l6ZSgpOwogICAgICAgIEF0b21pY0ludGVnZXIgY291bnRkb3duID0gbmV3IEF0b21pY0ludGVnZXIoc2l6ZSk7CiAgICAgICAgQXJyYXlMaXN0PFY+IHJlc3VsdHMgPSBuZXcgQXJyYXlMaXN0PD4oc2l6ZSk7CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBzaXplOyBpKyspIHsKICAgICAgICAgICAgcmVzdWx0cy5hZGQobnVsbCk7CiAgICAgICAgICAgIGZpbmFsIGludCBqID0gaTsKICAgICAgICAgICAgcHJvbWlzZXMuZ2V0KGkpLnRoZW5EZWZlcih2IC0+IHsKICAgICAgICAgICAgICAgIHJlc3VsdHMuc2V0KGosIHYpOwogICAgICAgICAgICAgICAgY291bnRkb3duLmRlY3JlbWVudEFuZEdldCgpOwogICAgICAgICAgICAgICAgYXNzZXJ0IGNvdW50ZG93bi5nZXQoKSA+PSAwOwogICAgICAgICAgICAgICAgaWYgKGNvdW50ZG93bi5nZXQoKSA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgd2FpdGVyLmNvbXBsZXRlKHJlc3VsdHMpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHdhaXRlcjsKICAgIH0KCiAgICBwdWJsaWMgYWJzdHJhY3Qgdm9pZCB0aGVuRGVmZXIoZmluYWwgQ29uc3VtZXI8Vj4gam9iKTsKCiAgICBAQ2hlY2tSZXR1cm5WYWx1ZQogICAgcHVibGljIGFic3RyYWN0IFByb21pc2U8Vj4gdGhlblJ1bihmaW5hbCBDb25zdW1lcjxWPiBqb2IpOwoKICAgIEBDaGVja1JldHVyblZhbHVlCiAgICBwdWJsaWMgYWJzdHJhY3QgPFI+IFByb21pc2U8Uj4gdGhlbihmaW5hbCBGdW5jdGlvbjxWLCBSPiBqb2IpOwoKICAgIEBDaGVja1JldHVyblZhbHVlCiAgICBwdWJsaWMgYWJzdHJhY3QgPFI+IFByb21pc2U8Uj4gdGhlbkFzeW5jKGZpbmFsIEZ1bmN0aW9uPFYsIFByb21pc2U8Uj4+IGpvYkFzeW5jKTsKCiAgICBwdWJsaWMgYWJzdHJhY3QgYm9vbGVhbiBpc0NvbXBsZXRlZCgpOwoKICAgIHB1YmxpYyBhYnN0cmFjdCBWIGF3YWl0KCkgdGhyb3dzIEV4ZWN1dGlvbkV4Y2VwdGlvbiwgSW50ZXJydXB0ZWRFeGNlcHRpb247CgogICAgLyoqCiAgICAgKiBOb3QgcmVjb21tZW5kZWQsIHRoaXMgYmFzaWNhbGx5IGp1c3QgaWdub3JlcyBlcnJvciBoYW5kbGluZy4KICAgICAqCiAgICAgKiBAcmV0dXJuIFRoZSB2YWx1ZSBmcm9tIHRoZSBwcm9taXNlLgogICAgICovCiAgICBARGVwcmVjYXRlZAogICAgcHVibGljIFYgYXdhaXRVbmNoZWNrZWQoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcmV0dXJuIGF3YWl0KCk7CiAgICAgICAgfSBjYXRjaCAoRXhlY3V0aW9uRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IFJ1bnRpbWVFeGNlcHRpb24oZSk7CiAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZSkgewogICAgICAgICAgICBUaHJlYWQuY3VycmVudFRocmVhZCgpLmludGVycnVwdCgpOwogICAgICAgICAgICB0aHJvdyBuZXcgUnVudGltZUV4Y2VwdGlvbihlKTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgY2xhc3MgUHJlY29tcHV0ZWQ8Vj4gZXh0ZW5kcyBQcm9taXNlPFY+IHsKICAgICAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBQcm9taXNlPFZvaWQ+IERPTkUgPSBuZXcgUHJlY29tcHV0ZWQ8PihudWxsKTsKCiAgICAgICAgcHJpdmF0ZSBmaW5hbCBWIHZhbHVlOwogICAgICAgIFByZWNvbXB1dGVkKFYgdmFsdWUpIHsKICAgICAgICAgICAgdGhpcy52YWx1ZSA9IHZhbHVlOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIFYgYXdhaXQoKSB7CiAgICAgICAgICAgIHJldHVybiB2YWx1ZTsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyB2b2lkIHRoZW5EZWZlcihmaW5hbCBDb25zdW1lcjxWPiBqb2IpIHsKICAgICAgICAgICAgam9iLmFjY2VwdCh2YWx1ZSk7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBAQ2hlY2tSZXR1cm5WYWx1ZQogICAgICAgIHB1YmxpYyBQcm9taXNlPFY+IHRoZW5SdW4oZmluYWwgQ29uc3VtZXI8Vj4gam9iKSB7CiAgICAgICAgICAgIGpvYi5hY2NlcHQodmFsdWUpOwogICAgICAgICAgICByZXR1cm4gdGhpczsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIEBDaGVja1JldHVyblZhbHVlCiAgICAgICAgcHVibGljIDxSPiBQcm9taXNlPFI+IHRoZW4oZmluYWwgRnVuY3Rpb248ViwgUj4gam9iKSB7CiAgICAgICAgICAgIHJldHVybiBuZXcgUHJlY29tcHV0ZWQ8Pihqb2IuYXBwbHkodmFsdWUpKTsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIEBDaGVja1JldHVyblZhbHVlCiAgICAgICAgcHVibGljIDxSPiBQcm9taXNlPFI+IHRoZW5Bc3luYyhmaW5hbCBGdW5jdGlvbjxWLCBQcm9taXNlPFI+PiBqb2JBc3luYykgewogICAgICAgICAgICByZXR1cm4gam9iQXN5bmMuYXBwbHkodmFsdWUpOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIGJvb2xlYW4gaXNDb21wbGV0ZWQoKSB7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0KCiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgY2xhc3MgQ29tcHV0ZWQ8Vj4gZXh0ZW5kcyBQcm9taXNlPFY+IHsKICAgICAgICBwcml2YXRlIHZvbGF0aWxlIFYgdmFsdWU7CiAgICAgICAgcHJpdmF0ZSBib29sZWFuIGNvbXBsZXRlZCA9IGZhbHNlOwogICAgICAgIHByaXZhdGUgTGlzdDxDb25zdW1lcjxWPj4gd2FpdGVyczsKCiAgICAgICAgcHJpdmF0ZSB2b2lkIGNvbXBsZXRlKFYgdmFsdWUpIHsKICAgICAgICAgICAgaWYgKGNvbXBsZXRlZCkgcmV0dXJuOwogICAgICAgICAgICBpZiAod2FpdGVycyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBmb3IgKENvbnN1bWVyPFY+IHdhaXRlciA6IHdhaXRlcnMpIHsKICAgICAgICAgICAgICAgICAgICB3YWl0ZXIuYWNjZXB0KHZhbHVlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHdhaXRlcnMuY2xlYXIoKTsKICAgICAgICAgICAgICAgIHdhaXRlcnMgPSBudWxsOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbXBsZXRlZCA9IHRydWU7CiAgICAgICAgICAgIHRoaXMudmFsdWUgPSB2YWx1ZTsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyB2b2lkIHRoZW5EZWZlcihmaW5hbCBDb25zdW1lcjxWPiBqb2IpIHsKICAgICAgICAgICAgaWYgKGNvbXBsZXRlZCkgewogICAgICAgICAgICAgICAgam9iLmFjY2VwdCh2YWx1ZSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBpZiAod2FpdGVycyA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgd2FpdGVycyA9IG5ldyBBcnJheUxpc3Q8PigxKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHdhaXRlcnMuYWRkKGpvYik7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIEBDaGVja1JldHVyblZhbHVlCiAgICAgICAgcHVibGljIFByb21pc2U8Vj4gdGhlblJ1bihmaW5hbCBDb25zdW1lcjxWPiBqb2IpIHsKICAgICAgICAgICAgZmluYWwgQ29tcHV0ZWQ8Vj4gcHJvbWlzZSA9IG5ldyBDb21wdXRlZDw+KCk7CiAgICAgICAgICAgIHRoZW5EZWZlcih2IC0+IHsKICAgICAgICAgICAgICAgIGpvYi5hY2NlcHQodik7CiAgICAgICAgICAgICAgICBwcm9taXNlLmNvbXBsZXRlKHYpOwogICAgICAgICAgICB9KTsKICAgICAgICAgICAgcmV0dXJuIHByb21pc2U7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBAQ2hlY2tSZXR1cm5WYWx1ZQogICAgICAgIHB1YmxpYyA8Uj4gUHJvbWlzZTxSPiB0aGVuKGZpbmFsIEZ1bmN0aW9uPFYsIFI+IGpvYikgewogICAgICAgICAgICBmaW5hbCBDb21wdXRlZDxSPiBwcm9taXNlID0gbmV3IENvbXB1dGVkPD4oKTsKICAgICAgICAgICAgdGhlbkRlZmVyKHYgLT4gcHJvbWlzZS5jb21wbGV0ZShqb2IuYXBwbHkodikpKTsKICAgICAgICAgICAgcmV0dXJuIHByb21pc2U7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBAQ2hlY2tSZXR1cm5WYWx1ZQogICAgICAgIHB1YmxpYyA8Uj4gUHJvbWlzZTxSPiB0aGVuQXN5bmMoZmluYWwgRnVuY3Rpb248ViwgUHJvbWlzZTxSPj4gam9iQXN5bmMpIHsKICAgICAgICAgICAgZmluYWwgQ29tcHV0ZWQ8Uj4gcHJvbWlzZSA9IG5ldyBDb21wdXRlZDw+KCk7CiAgICAgICAgICAgIHRoZW5EZWZlcih2IC0+IGpvYkFzeW5jLmFwcGx5KHYpLnRoZW5EZWZlcihwcm9taXNlOjpjb21wbGV0ZSkpOwogICAgICAgICAgICByZXR1cm4gcHJvbWlzZTsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyBib29sZWFuIGlzQ29tcGxldGVkKCkgewogICAgICAgICAgICByZXR1cm4gY29tcGxldGVkOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIFYgYXdhaXQoKSB0aHJvd3MgRXhlY3V0aW9uRXhjZXB0aW9uLCBJbnRlcnJ1cHRlZEV4Y2VwdGlvbiB7CiAgICAgICAgICAgIGlmIChjb21wbGV0ZWQpIHsKICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEV2ZW50TG9vcCBsb2NhbCA9IEV2ZW50TG9vcFNlbGVjdG9yLmdldCgpOwogICAgICAgICAgICAgICAgbG9jYWwuYXdhaXQodGhpcyk7CiAgICAgICAgICAgICAgICByZXR1cm4gdmFsdWU7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg==</text>
+        <text encoding="base64">ICAgICAgICBhc3NlcnQgb3BlbjsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">cGFja2FnZSBncmFrbi5jbHVzdGVyLmV4ZWN1dGlvbi5ldmVudGxvb3A7CgpwdWJsaWMgY2xhc3MgRXZlbnRMb29wVGhyZWFkQ2hlY2tlciB7CiAgICAKfQo=</text>
+        <text encoding="base64">ICAgICAgICBvcGVuID0gdHJ1ZTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cGFja2FnZSBncmFrbi5jbHVzdGVyLmV4ZWN1dGlvbi5ldmVudGxvb3A7CgppbXBvcnQgb3JnLnNsZjRqLkxvZ2dlcjsKaW1wb3J0IG9yZy5zbGY0ai5Mb2dnZXJGYWN0b3J5OwoKaW1wb3J0IGphdmEudXRpbC5EZXF1ZTsKaW1wb3J0IGphdmEudXRpbC5MaW5rZWRMaXN0OwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ291bnREb3duTGF0Y2g7CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaHJlYWRGYWN0b3J5OwoKLy8gVE9ETzoKLy8gIFRoaXMgY2xhc3Mgc2hvdWxkIGJlIG9wdGltaXNlZCwgbW9zdCBzcGVjaWZpY2FsbHksIGl0IHNob3VsZCBwcm9iYWJseQovLyAgdXNlIGEgc2VwYXJhdGUgc2NoZWR1bGVkIHRpbWVyIHRocmVhZCBldmVudCBsb29wIGZvciB0aGUgd2hvbGUgc3lzdGVtIHRvCi8vICBwcm92aWRlIGVmZmljaWVudCBhbmQgcmVsaWFibGUgdGltZXIgZXZlbnRzLgpwdWJsaWMgY2xhc3MgRXZlbnRMb29wU2luZ2xlVGhyZWFkZWQgaW1wbGVtZW50cyBFdmVudExvb3AgewogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgTG9nZ2VyIExPRyA9IExvZ2dlckZhY3RvcnkuZ2V0TG9nZ2VyKEV2ZW50TG9vcFNpbmdsZVRocmVhZGVkLmNsYXNzKTsKCiAgICBwcml2YXRlIGZpbmFsIERlcXVlPFJ1bm5hYmxlPiBzdG9wTGlzdGVuZXJzOwoKICAgIHByaXZhdGUgZmluYWwgVGhyZWFkIHRocmVhZDsKCiAgICBwcml2YXRlIFN0YXRlIHN0YXRlOwoKICAgIHB1YmxpYyBlbnVtIFN0YXRlIHsgUkVBRFksIFJVTk5JTkcsIFNUT1BQRUQgfQoKICAgIHB1YmxpYyBFdmVudExvb3BTaW5nbGVUaHJlYWRlZChUaHJlYWRGYWN0b3J5IGZhY3RvcnkpIHsKICAgICAgICBzdXBlcigpOwogICAgICAgIHN0b3BMaXN0ZW5lcnMgPSBuZXcgTGlua2VkTGlzdDw+KCk7CiAgICAgICAgdGhyZWFkID0gZmFjdG9yeS5uZXdUaHJlYWQodGhpczo6bG9vcCk7CiAgICAgICAgc3RhdGUgPSBTdGF0ZS5SRUFEWTsKICAgICAgICB0aHJlYWQuc3RhcnQoKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIGF3YWl0KFByb21pc2U8Pz4gcHJvbWlzZSkgdGhyb3dzIEludGVycnVwdGVkRXhjZXB0aW9uIHsKICAgICAgICBDb3VudERvd25MYXRjaCB3YWl0ZXIgPSBuZXcgQ291bnREb3duTGF0Y2goMSk7CiAgICAgICAgcHJvbWlzZS50aGVuRGVmZXIodiAtPiB3YWl0ZXIuY291bnREb3duKCkpOwogICAgICAgIHdhaXRlci5hd2FpdCgpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIGJvb2xlYW4gaXNSdW5uaW5nKCkgewogICAgICAgIHJldHVybiBzdGF0ZSA9PSBTdGF0ZS5SVU5OSU5HOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgc3RvcCgpIHRocm93cyBJbnRlcnJ1cHRlZEV4Y2VwdGlvbiB7CiAgICAgICAgc3VibWl0KCgpIC0+IHsKICAgICAgICAgICAgUnVubmFibGUgcnVubmFibGU7CiAgICAgICAgICAgIHdoaWxlICgocnVubmFibGUgPSBzdG9wTGlzdGVuZXJzLnBvbGwoKSkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgcnVubmFibGUucnVuKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc3RhdGUgPSBTdGF0ZS5TVE9QUEVEOwogICAgICAgIH0pOwogICAgICAgIHRocmVhZC5qb2luKCk7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBsb29wKCkgewogICAgICAgIExPRy5pbmZvKCJTdGFydGluZyBFdmVudExvb3AiKTsKICAgICAgICBzdGF0ZSA9IFN0YXRlLlJVTk5JTkc7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgRXZlbnRMb29wU2VsZWN0b3Iuc2V0KHRoaXMpOwogICAgICAgICAgICBzdXBlci5sb29wKCk7CiAgICAgICAgICAgIEV2ZW50TG9vcFNlbGVjdG9yLnNldChudWxsKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZXgpIHsKICAgICAgICAgICAgTE9HLmVycm9yKCJFdmVudExvb3AgZXJyb3IiLCBleCk7CiAgICAgICAgfQogICAgICAgIHN0YXRlID0gU3RhdGUuU1RPUFBFRDsKICAgICAgICBMT0cuaW5mbygiU3RvcHBlZCBFdmVudExvb3AiKTsKICAgIH0KfQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgYm9vbGVhbiBvcGVuOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkV4ZWN1dGlvbkV4Y2VwdGlvbjsKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGJvb2xlYW4gaXNMb2NhbCgpOwogICAgdm9pZCBhd2FpdChQcm9taXNlPD8+IHByb21pc2UpIHRocm93cyBJbnRlcnJ1cHRlZEV4Y2VwdGlvbiwgRXhlY3V0aW9uRXhjZXB0aW9uOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhyZWFkLgo=</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>w</text>
       </register>
     </registers>
   </component>
