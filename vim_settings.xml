@@ -19,7 +19,6 @@
         <entry encoding="base64">XDxCb29sZWFuXD4=</entry>
         <entry>test-database</entry>
         <entry encoding="base64">XDxsb25nXD4=</entry>
-        <entry encoding="base64">XDxhcHBsaWNhdG9yXD4=</entry>
         <entry>applicator</entry>
         <entry encoding="base64">XDxhcHBsaWNhdG9yQWN0b3JcPg==</entry>
         <entry encoding="base64">XDxjb25maWdcPg==</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxUaHJlYWRMb2NhbFN5c3RlbVw+</entry>
         <entry>synchronise</entry>
         <entry>onCommited</entry>
+        <entry encoding="base64">XDxhcHBsaWNhdG9yXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wo</entry>
@@ -256,6 +256,9 @@
         <mark key="'" line="24" column="3" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/networking/SimulatedNetworking.java" timestamp="1602859845262" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/components/Log.java" timestamp="1603103023466">
+        <mark key="'" line="17" column="26" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/storage/SimulatedTerm.java" timestamp="1602856485956">
         <mark key="'" line="115" column="0" />
         <mark key="[" line="16" column="4" />
@@ -263,6 +266,7 @@
         <mark key="^" line="16" column="11" />
         <mark key="." line="16" column="10" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/protocol/raft.proto" timestamp="1603102778058" />
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" timestamp="1603102256300">
         <mark key="'" line="48" column="0" />
         <mark key="[" line="34" column="125" />
@@ -283,18 +287,12 @@
         <mark key="." line="56" column="51" />
         <mark key="^" line="56" column="52" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1602863392848">
-        <mark key="'" line="55" column="25" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1603103102039">
+        <mark key="'" line="39" column="112" />
         <mark key="[" line="273" column="91" />
         <mark key="]" line="273" column="93" />
         <mark key="." line="273" column="92" />
         <mark key="^" line="273" column="93" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/storage/SimulatedLog.java" timestamp="1602855874499">
-        <mark key="[" line="13" column="4" />
-        <mark key="]" line="13" column="11" />
-        <mark key="^" line="13" column="11" />
-        <mark key="." line="13" column="10" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/storage/BUILD" timestamp="1602862698046">
         <mark key="[" line="5" column="0" />
@@ -310,12 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
-      <jump line="2" column="36" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/core/test/testkit/simulation/components/networking/SimulatedNetworking.java" />
-      <jump line="2" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedNetworking.java" />
-      <jump line="86" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedNetworking.java" />
-      <jump line="24" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedInternet.java" />
-      <jump line="29" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedInternet.java" />
       <jump line="30" column="78" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedInternet.java" />
       <jump line="36" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedInternet.java" />
       <jump line="37" column="78" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedInternet.java" />
@@ -366,7 +358,6 @@
       <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedServer.java" />
       <jump line="14" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/config/BUILD" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/config/BUILD" />
-      <jump line="39" column="167" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="31" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedServer.java" />
       <jump line="55" column="25" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="38" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulatedServer.java" />
@@ -410,6 +401,13 @@
       <jump line="38" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
       <jump line="32" column="41" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
       <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/simulation/SimulationTest.java" />
+      <jump line="638" column="51" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="628" column="55" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="17" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/components/Log.java" />
+      <jump line="40" column="41" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="31" column="112" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="35" column="38" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="39" column="112" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -427,7 +425,7 @@
         <text>address</text>
       </register>
       <register name="/" type="4">
-        <text>onCommited</text>
+        <text encoding="base64">XDxhcHBsaWNhdG9yXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -497,9 +495,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>onCommited</last-search>
+      <last-search encoding="base64">XDxhcHBsaWNhdG9yXD4=</last-search>
       <last-offset />
-      <last-pattern>onCommited</last-pattern>
+      <last-pattern encoding="base64">XDxhcHBsaWNhdG9yXD4=</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
