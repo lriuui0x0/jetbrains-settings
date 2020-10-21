@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cleanup</entry>
         <entry encoding="base64">XDxzdGF0ZVw+</entry>
         <entry encoding="base64">XDx2ZXJzaW9uXD4=</entry>
         <entry>Config</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDw2MFw+</entry>
         <entry encoding="base64">XDw5MFw+</entry>
         <entry encoding="base64">XDxTaW11bGF0ZWRJbnRlcm5ldFw+</entry>
+        <entry encoding="base64">XDxkZWFjdGl2YXRlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wbhb</entry>
@@ -243,12 +243,12 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1603268772335">
-        <mark key="'" line="544" column="25" />
-        <mark key="[" line="429" column="40" />
-        <mark key="]" line="429" column="44" />
-        <mark key="^" line="429" column="44" />
-        <mark key="." line="429" column="43" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1603280634253">
+        <mark key="'" line="644" column="24" />
+        <mark key="[" line="74" column="4" />
+        <mark key="]" line="74" column="11" />
+        <mark key="^" line="74" column="11" />
+        <mark key="." line="74" column="10" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/storage/SimulatedApplicator.java" timestamp="1603207922348">
         <mark key="[" line="21" column="0" />
@@ -307,12 +307,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="97" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulationTest.java" />
-      <jump line="62" column="108" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulatedServer.java" />
-      <jump line="64" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulatedServer.java" />
-      <jump line="67" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulatedServer.java" />
-      <jump line="60" column="57" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulatedServer.java" />
-      <jump line="86" column="84" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulationTest.java" />
       <jump line="26" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulationTest.java" />
       <jump line="110" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulationTest.java" />
       <jump line="118" column="59" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulationTest.java" />
@@ -407,12 +401,18 @@
       <jump line="21" column="70" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulationTest.java" />
       <jump line="44" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulatedServer.java" />
       <jump line="39" column="73" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/SimulatedServer.java" />
+      <jump line="47" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="111" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="113" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="361" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="506" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="644" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgU2ltdWxhdGlvblJlc3VsdCBydW5TaW11bGF0aW9uKENvbmZpZyBjb25maWcsIGludCBzZWVkKSB0aHJvd3MgSW50ZXJydXB0ZWRFeGNlcHRpb24gewogICAgICAgIC8vIE5PVEU6IFNldCB1cCBnbG9iYWwgZGV0ZXJtaW5pc3RpYyByYW5kb20gYW5kIGZha2UgdGltZQogICAgICAgIGxvbmdbXSB0aW1lID0geyAwIH07CiAgICAgICAgR2xvYmFsU3lzdGVtLnNldCgoKSAtPiB0aW1lWzBdLCBuZXcgUmFuZG9tKHNlZWQpKTsKICAgICAgICBFdmVudExvb3BTaW5nbGVUaHJlYWRlZCBzaW11bGF0aW9uID0gbmV3IEV2ZW50TG9vcFNpbmdsZVRocmVhZGVkKHRocmVhZEZ1bmMgLT4gewogICAgICAgICAgICBUaHJlYWQgdGhyZWFkID0gbmV3IFRocmVhZCh0aHJlYWRGdW5jKTsKICAgICAgICAgICAgdGhyZWFkLnNldE5hbWUoInNpbXVsYXRpb25FdmVudExvb3AiKTsKICAgICAgICAgICAgcmV0dXJuIHRocmVhZDsKICAgICAgICB9KTsKCiAgICAgICAgLy8gTk9URTogU2V0IHVwIGNsdXN0ZXIgYW5kIGludGVybmV0CiAgICAgICAgQWN0b3I8U2ltdWxhdGVkTmV0d29yaz4gaW50ZXJuZXQgPSBBY3Rvci5yb290KHNpbXVsYXRpb24sIGFjdG9yIC0+IG5ldyBTaW11bGF0ZWROZXR3b3JrKGFjdG9yLCBjb25maWcubmV0d29yaykpOwogICAgICAgIExpc3Q8U3RyaW5nPiBhZGRyZXNzZXMgPSBJbnRTdHJlYW0ucmFuZ2UoMCwgY29uZmlnLmNsdXN0ZXIuc2VydmVycykubWFwVG9PYmooaSAtPiAic2VydmVyLSIgKyBpKS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwogICAgICAgIExpc3Q8U3RyaW5nPiBkYXRhYmFzZXMgPSBjb25maWcuY2x1c3Rlci5kYXRhYmFzZXM7CiAgICAgICAgTGlzdDxBY3RvcjxTaW11bGF0ZWRTZXJ2ZXI+PiBzZXJ2ZXJzID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgZm9yIChTdHJpbmcgYWRkcmVzcyA6IGFkZHJlc3NlcykgewogICAgICAgICAgICBMaXN0PFN0cmluZz4gcGVlckFkZHJlc3NlcyA9IG5ldyBBcnJheUxpc3Q8PihhZGRyZXNzZXMpOwogICAgICAgICAgICBwZWVyQWRkcmVzc2VzLnJlbW92ZShhZGRyZXNzKTsKICAgICAgICAgICAgQWN0b3I8U2ltdWxhdGVkU2VydmVyPiBzZXJ2ZXIgPSBBY3Rvci5yb290KHNpbXVsYXRpb24sIGFjdG9yIC0+IG5ldyBTaW11bGF0ZWRTZXJ2ZXIoYWN0b3IsIGFkZHJlc3MsIHBlZXJBZGRyZXNzZXMsIGRhdGFiYXNlcywgaW50ZXJuZXQpKTsKICAgICAgICAgICAgc2VydmVycy5hZGQoc2VydmVyKTsKICAgICAgICB9CgogICAgICAgIC8vIE5PVEU6IFNldCB1cCBjbGllbnQKICAgICAgICBBY3RvcjxTaW11bGF0ZWRDbGllbnQ+IGNsaWVudCA9IEFjdG9yLnJvb3Qoc2ltdWxhdGlvbiwgYWN0b3IgLT4gbmV3IFNpbXVsYXRlZENsaWVudChhY3RvciwgZGF0YWJhc2VzKSk7CiAgICAgICAgQWN0b3JQZXJpb2RpY1Rhc2s8U2ltdWxhdGVkQ2xpZW50PiBjbGllbnRSZXF1ZXN0ID0gbmV3IEFjdG9yUGVyaW9kaWNUYXNrPD4oY2xpZW50LCAoaW50KWNvbmZpZy5jbGllbnQuaW50ZXJ2YWwudG9NaWxsaXMoKSwgMCwgYyAtPiB7CiAgICAgICAgICAgIFN0cmluZyBkYXRhYmFzZSA9IGRhdGFiYXNlcy5nZXQoR2xvYmFsU3lzdGVtLnJhbmRvbSgpLm5leHRJbnQoZGF0YWJhc2VzLnNpemUoKSkpOwogICAgICAgICAgICBMaXN0PEFjdG9yPFNpbXVsYXRlZFNlcnZlcj4+IGxlYWRlcnMgPSBzZXJ2ZXJzLnN0cmVhbSgpCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlcihzZXJ2ZXIgLT4gc2VydmVyLmFzayhzIC0+IHMuaXNMZWFkZXIoZGF0YWJhc2UpKS5hd2FpdFVuY2hlY2tlZCgpKQogICAgICAgICAgICAgICAgICAgIC5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwogICAgICAgICAgICBpZiAobGVhZGVycy5zaXplKCkgPiAwKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBBY3RvcjxTaW11bGF0ZWRTZXJ2ZXI+IGxlYWRlciA9IGxlYWRlcnMuZ2V0KEdsb2JhbFN5c3RlbS5yYW5kb20oKS5uZXh0SW50KGxlYWRlcnMuc2l6ZSgpKSk7CiAgICAgICAgICAgICAgICBTdHJpbmcgZGF0YSA9IHJhbmRvbURhdGEoKTsKICAgICAgICAgICAgICAgIGMucmVxdWVzdFNlbnQoZGF0YWJhc2UsIGRhdGEpOwogICAgICAgICAgICAgICAgbGVhZGVyLnRlbGwocyAtPiBzLnNlbmQoZGF0YWJhc2UsIGRhdGEsICgpIC0+IHsKICAgICAgICAgICAgICAgICAgICBjbGllbnQudGVsbChjYyAtPiBjYy5yZXF1ZXN0Q29tbWl0dGVkKGRhdGFiYXNlLCBkYXRhKSk7CiAgICAgICAgICAgICAgICB9KSk7CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICBjbGllbnRSZXF1ZXN0LnJlc3RhcnQoKTsKCiAgICAgICAgLy8gTk9URTogU3RhcnQgdGltZXIgdGljawogICAgICAgIEFjdG9yPFRlc3RTdGF0ZT4gdGltZXIgPSBBY3Rvci5yb290KHNpbXVsYXRpb24sIHggLT4gbmV3IFRlc3RTdGF0ZSh4KSk7CiAgICAgICAgQWN0b3JQZXJpb2RpY1Rhc2s8VGVzdFN0YXRlPiB0aW1lclRhc2sgPSBuZXcgQWN0b3JQZXJpb2RpY1Rhc2s8Pih0aW1lciwgMCwgMCwgeCAtPiB0aW1lWzBdICs9IGNvbmZpZy5ncmFudWxhcml0eS50b01pbGxpcygpKTsKICAgICAgICB0aW1lclRhc2sucmVzdGFydCgpOwoKICAgICAgICAvLyBOT1RFOiBXYWl0IGZvciBzaW11bGF0aW9uIGZpbmlzaCBhbmQgZ2V0IHJlc3VsdAogICAgICAgIFNpbXVsYXRpb25SZXN1bHRbXSByZXN1bHQgPSB7IG51bGwgfTsKICAgICAgICBDb3VudERvd25MYXRjaCBsYXRjaCA9IG5ldyBDb3VudERvd25MYXRjaCgxKTsKICAgICAgICBzaW11bGF0aW9uLnN1Ym1pdChjb25maWcuZHVyYXRpb24udG9NaWxsaXMoKSwgKCkgLT4gewogICAgICAgICAgICBjbGllbnRSZXF1ZXN0LnN0b3AoKTsKICAgICAgICAgICAgdGltZXJUYXNrLnN0b3AoKTsKCiAgICAgICAgICAgIE1hcDxTdHJpbmcsIExpc3Q8U3RyaW5nPj4gc2VudFJlcXVlc3RzID0gY2xpZW50LmFzayhjIC0+IGMucmVzdWx0U2VudFJlcXVlc3RzKCkpLmF3YWl0VW5jaGVja2VkKCk7CiAgICAgICAgICAgIE1hcDxTdHJpbmcsIExpc3Q8U3RyaW5nPj4gY29tbWl0dGVkUmVxdWVzdHMgPSBjbGllbnQuYXNrKGMgLT4gYy5yZXN1bHRDb21taXR0ZWRSZXF1ZXN0cygpKS5hd2FpdFVuY2hlY2tlZCgpOwogICAgICAgICAgICBMaXN0PE1hcDxTdHJpbmcsIExpc3Q8U3RyaW5nPj4+IGNvbW1pdHRlZERhdGEgPSBzZXJ2ZXJzLnN0cmVhbSgpLm1hcChzZXJ2ZXIgLT4gc2VydmVyLmFzayhzIC0+IHMucmVzdWx0Q29tbWl0dGVkRGF0YSgpKS5hd2FpdFVuY2hlY2tlZCgpKS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwogICAgICAgICAgICByZXN1bHRbMF0gPSBuZXcgU2ltdWxhdGlvblJlc3VsdChkYXRhYmFzZXMsIHNlbnRSZXF1ZXN0cywgY29tbWl0dGVkUmVxdWVzdHMsIGNvbW1pdHRlZERhdGEpOwogICAgICAgICAgICBsYXRjaC5jb3VudERvd24oKTsKICAgICAgICB9KTsKICAgICAgICBsYXRjaC5hd2FpdCgpOwoKICAgICAgICByZXR1cm4gcmVzdWx0WzBdOwogICAgfQogICAgCiAgICBwcml2YXRlIFN0cmluZyByYW5kb21EYXRhKCkgewogICAgICAgIFN0cmluZyBjaGFycyA9ICJhYmNkZWZnaGlqZWxtbm9wcXJzdHV2d3h5ejEyMzQ1Njc4OSI7CiAgICAgICAgU3RyaW5nQnVpbGRlciBidWlsZGVyID0gbmV3IFN0cmluZ0J1aWxkZXIoKTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IDMyOyBpKyspIHsKICAgICAgICAgICAgY2hhciBjaCA9IGNoYXJzLmNoYXJBdChHbG9iYWxTeXN0ZW0ucmFuZG9tKCkubmV4dEludChjaGFycy5sZW5ndGgoKSkpOwogICAgICAgICAgICBidWlsZGVyLmFwcGVuZChjaCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBidWlsZGVyLnRvU3RyaW5nKCk7CiAgICB9CgogICAgcHJpdmF0ZSBib29sZWFuIGlzUHJlZml4KExpc3Q8U3RyaW5nPiBwcmVmaXgsIExpc3Q8U3RyaW5nPiBhbGwpIHsKICAgICAgICBpZiAocHJlZml4LnNpemUoKSA+IGFsbC5zaXplKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHByZWZpeC5zaXplKCk7IGkrKykgewogICAgICAgICAgICBpZiAoIXByZWZpeC5nZXQoaSkuZXF1YWxzKGFsbC5nZXQoaSkpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIGFzc2VydFNpbXVsYXRpb25SZXN1bHQoU2ltdWxhdGlvblJlc3VsdCByZXN1bHQpIHsKICAgICAgICBmb3IgKFN0cmluZyBkYXRhYmFzZSA6IHJlc3VsdC5kYXRhYmFzZXMpIHsKICAgICAgICAgICAgTGlzdDxTdHJpbmc+IHNlbnRSZXF1ZXN0cyA9IHJlc3VsdC5zZW50UmVxdWVzdHMuZ2V0KGRhdGFiYXNlKTsKICAgICAgICAgICAgTGlzdDxTdHJpbmc+IGNvbW1pdHRlZFJlcXVlc3RzID0gcmVzdWx0LmNvbW1pdHRlZFJlcXVlc3RzLmdldChkYXRhYmFzZSk7CiAgICAgICAgICAgIExpc3Q8TGlzdDxTdHJpbmc+PiBjb21taXR0ZWREYXRhID0gcmVzdWx0LmNvbW1pdHRlZERhdGEuc3RyZWFtKCkubWFwKHggLT4geC5nZXQoZGF0YWJhc2UpKS5jb2xsZWN0KENvbGxlY3RvcnMudG9MaXN0KCkpOwoKICAgICAgICAgICAgLy8gTk9URTogRGVub3RlIHByZWZpeCByZWxhdGlvbiBhcyAnPD0nLCB3ZSBhc3NlcnQgdGhlIGZvbGxvd2luZwogICAgICAgICAgICAvLyAxKSBjb21taXR0ZWRSZXF1ZXN0cyA8PSBzZW50UmVxdWVzdHMKICAgICAgICAgICAgLy8gMikgRm9yIGFsbCBzZXJ2ZXJDb21taXR0ZWREYXRhLCBzZXJ2ZXJDb21taXR0ZWREYXRhIDw9IHNlbnRSZXF1ZXN0cwogICAgICAgICAgICAvLyAzKSBGb3IgbWFqb3JpdHkgb2Ygc2VydmVyQ29tbWl0dGVkRGF0YSwgc2VydmVyQ29tbWl0dGVkRGF0YSA8PSBjb21taXR0ZWRSZXF1ZXN0cwogICAgICAgICAgICAvLyBUaGVzZSBhc3NlcnRpb25zIHRvZ2V0aGVyIG1ha2Ugc3VyZSBhbGwgZGF0YSBhcmUgc2F2ZWQgY29uc2lzdGVudGx5IGFuZCByZXBsaWNhdGVkIHRvIG1ham9yaXR5LgogICAgICAgICAgICBhc3NlcnQgaXNQcmVmaXgoY29tbWl0dGVkUmVxdWVzdHMsIHNlbnRSZXF1ZXN0cyk7CiAgICAgICAgICAgIGludCByZXBsaWNhdGlvbkNvdW50ID0gMDsKICAgICAgICAgICAgZm9yIChMaXN0PFN0cmluZz4gc2VydmVyQ29tbWl0dGVkRGF0YSA6IGNvbW1pdHRlZERhdGEpIHsKICAgICAgICAgICAgICAgIGFzc2VydCBpc1ByZWZpeChzZXJ2ZXJDb21taXR0ZWREYXRhLCBzZW50UmVxdWVzdHMpOwogICAgICAgICAgICAgICAgaWYgKGlzUHJlZml4KGNvbW1pdHRlZFJlcXVlc3RzLCBzZXJ2ZXJDb21taXR0ZWREYXRhKSkgewogICAgICAgICAgICAgICAgICAgIHJlcGxpY2F0aW9uQ291bnQrKzsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBhc3NlcnQgcmVwbGljYXRpb25Db3VudCA+PSBSZXBsaWNhdGlvbnMuUmVwbGljYXRpb24uZ2V0TWFqb3JpdHlDb3VudChyZXN1bHQuY29tbWl0dGVkRGF0YS5zaXplKCkpOwogICAgICAgIH0KICAgIH0KCg==</text>
+      <register name="&quot;" type="4">
+        <text>public</text>
       </register>
       <register name="+" type="4">
         <text>ready.get(random.nextInt(ready.size()))</text>
@@ -421,10 +421,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>SimulatedInternet</text>
+        <text>public</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxTaW11bGF0ZWRJbnRlcm5ldFw+</text>
+        <text encoding="base64">XDxkZWFjdGl2YXRlXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -494,9 +494,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxTaW11bGF0ZWRJbnRlcm5ldFw+</last-search>
+      <last-search encoding="base64">XDxkZWFjdGl2YXRlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxTaW11bGF0ZWRJbnRlcm5ldFw+</last-pattern>
+      <last-pattern encoding="base64">XDxkZWFjdGl2YXRlXD4=</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>reference-type</last-substitute>
       <last-dir>1</last-dir>
