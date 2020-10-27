@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>next</entry>
         <entry encoding="base64">XDxuZXh0SW5kaWNlc1w+</entry>
         <entry encoding="base64">XDxuZXh0RW50cnlcPg==</entry>
         <entry>getLatest</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxrdlJlcGxpY2F0b3JBY3Rvclw+</entry>
         <entry>commitIndex</entry>
         <entry encoding="base64">XDxwZXJzb25cPg==</entry>
+        <entry>List</entry>
       </history-search>
       <history-cmd>
         <entry>wbhb</entry>
@@ -245,20 +245,20 @@
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/dev/DevClient.java" timestamp="1603798976797">
         <mark key="'" line="44" column="128" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTest.java" timestamp="1603803560416">
-        <mark key="'" line="303" column="8" />
-        <mark key="[" line="328" column="0" />
-        <mark key="]" line="328" column="0" />
-        <mark key="^" line="327" column="26" />
-        <mark key="." line="328" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTest.java" timestamp="1603806959235">
+        <mark key="'" line="206" column="144" />
+        <mark key="[" line="206" column="123" />
+        <mark key="]" line="206" column="135" />
+        <mark key="^" line="206" column="135" />
+        <mark key="." line="206" column="134" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1603805143009">
-        <mark key="'" line="21" column="44" />
-        <mark key="[" line="360" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1603806551729">
+        <mark key="'" line="135" column="26" />
+        <mark key="[" line="415" column="47" />
         <mark key="m" line="189" column="21" />
-        <mark key="]" line="360" column="0" />
-        <mark key="^" line="358" column="32" />
-        <mark key="." line="360" column="0" />
+        <mark key="]" line="415" column="44" />
+        <mark key="^" line="415" column="44" />
+        <mark key="." line="415" column="43" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Replications.java" timestamp="1603732863372">
         <mark key="'" line="3" column="0" />
@@ -315,12 +315,9 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="362" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="364" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="354" column="55" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="371" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="208" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTest.java" />
-      <jump line="206" column="42" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTest.java" />
       <jump line="207" column="115" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTest.java" />
       <jump line="7" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Replications.java" />
       <jump line="40" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
@@ -415,12 +412,15 @@
       <jump line="129" column="31" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
       <jump line="722" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="21" column="44" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="135" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="35" column="54" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTest.java" />
+      <jump line="206" column="144" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTest.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>implement</text>
+        <text>Long</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">amF2YV9saWJyYXJ5KAogICAgbmFtZSA9ICJsaWIiLAogICAgc3JjcyA9IGdsb2IoWyIqLmphdmEiXSksCiAgICBkZXBzID0gWwogICAgICAgICIvL2V4ZWN1dGlvbjpsaWIiLAogICAgICAgICIvL3JlcGxpY2F0b3IvY29tcG9uZW50OmxpYiIsCiAgICAgICAgIi8vcmVwbGljYXRvci90ZXN0L3NpbXVsYXRpb24vY29uZmlnOmxpYiIsCiAgICAgICAgIkBtYXZlbi8vOmNvbV9nb29nbGVfY29kZV9maW5kYnVnc19qc3IzMDUiLAogICAgICAgICJAbWF2ZW4vLzpvcmdfc2xmNGpfc2xmNGpfYXBpIiwKICAgIF0sCiAgICB0YWdzID0gWyJtYXZlbl9jb29yZGluYXRlcz1pby5ncmFrbi5jbHVzdGVyOnJlcGxpY2F0b3Itc2ltdWxhdGlvbi1uZXR3b3JraW5nLWxpYjp7cG9tX3ZlcnNpb259Il0sCiAgICB2aXNpYmlsaXR5ID0gWwogICAgICAgICIvL3Zpc2liaWxpdHk6cHVibGljIgogICAgXSwKKQo=</text>
@@ -429,10 +429,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>implement</text>
+        <text>Long</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwZXJzb25cPg==</text>
+        <text>List</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -440,10 +440,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gY2xpZW50LnNlc3Npb24oREVGQVVMVF9EQVRBQkFTRSk7CiAgICAgICAgICAgICAgICAgICAgIEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihHcmFrbi5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CiAgICAgICAgICAgICAgICAgICAgRW50aXR5VHlwZS5Mb2NhbCBwZXJzb24gPSB0eC5jb25jZXB0cygpLmdldEVudGl0eVR5cGUoInBlcnNvbiIpOwogICAgICAgICAgICAgICAgICAgIGFzc2VydE5vdE51bGwocGVyc29uKTsKICAgICAgICAgICAgICAgICAgICBhc3NlcnRFcXVhbHMoInBlcnNvbiIsIHBlcnNvbi5nZXRMYWJlbCgpKTsKICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBsZWFkZXIucmFmdEFjdG9yKCkuYXNrKHJhZnQgLT4gcmFmdC5zdGF0ZS5hc0xlYWRlcigpLmxhc3RBcHBsaWVkKS5hd2FpdCgpLmxvbmdWYWx1ZSgpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gY2xpZW50LnNlc3Npb24oREVGQVVMVF9EQVRBQkFTRSk7CiAgICAgICAgICAgICAgICAgICAgIEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihHcmFrbi5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CiAgICAgICAgICAgICAgICAgICAgRW50aXR5VHlwZS5Mb2NhbCBhbmltYWwgPSB0eC5jb25jZXB0cygpLmdldEVudGl0eVR5cGUoImFuaW1hbCIpOwogICAgICAgICAgICAgICAgICAgIGFzc2VydE5vdE51bGwoYW5pbWFsKTsKICAgICAgICAgICAgICAgICAgICBhc3NlcnRFcXVhbHMoImFuaW1hbCIsIGFuaW1hbC5nZXRMYWJlbCgpKTsKICAgICAgICAgICAgICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBsZWFkZXIucmFmdEFjdG9yKCkuYXNrKHJhZnQgLT4gcmFmdC5zdGF0ZS5hc0xlYWRlcigpLmxhc3RBcHBsaWVkKS5hd2FpdCgpLmxvbmdWYWx1ZSgpKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -475,25 +475,25 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gY2xpZW50LnNlc3Npb24oREVGQVVMVF9EQVRBQkFTRSk7CiAgICAgICAgICAgICAgICAgICAgIEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihHcmFrbi5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CiAgICAgICAgICAgICAgICAgICAgRW50aXR5VHlwZS5Mb2NhbCBhbmltYWwgPSB0eC5jb25jZXB0cygpLmdldEVudGl0eVR5cGUoImFuaW1hbCIpOwogICAgICAgICAgICAgICAgICAgIGFzc2VydE5vdE51bGwoYW5pbWFsKTsKICAgICAgICAgICAgICAgICAgICBhc3NlcnRFcXVhbHMoImFuaW1hbCIsIGFuaW1hbC5nZXRMYWJlbCgpKTsKICAgICAgICAgICAgICAgIH0KCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBSYWZ0UHJvdG8uRW50cnkgZW50cnlQcm90byA9IGFwcGVuZEVudHJpZXNSZXEuZ2V0RW50cmllcygwKTsKLy8gICAgICAgICAgICBMb2cuRW50cnkgYWN0dWFsRW50cnkgPSBuZXcgTG9nLkVudHJ5KGVudHJ5UHJvdG8uZ2V0RW50cnlJZCgpLmdldEluZGV4KCksIGVudHJ5UHJvdG8uZ2V0RW50cnlJZCgpLmdldFRlcm0oKSwgZW50cnlQcm90by5nZXRDb250ZW50KCkuYXNSZWFkT25seUJ5dGVCdWZmZXIoKSk7Ci8vICAgICAgICAgICAgYXNzZXJ0RXF1YWxzKGV4aXN0aW5nRW50cnksIGFjdHVhbEVudHJ5KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gY2xpZW50LnNlc3Npb24oREVGQVVMVF9EQVRBQkFTRSk7CiAgICAgICAgICAgICAgICAgICAgIEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihHcmFrbi5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CiAgICAgICAgICAgICAgICAgICAgRW50aXR5VHlwZS5Mb2NhbCBhbmltYWwgPSB0eC5jb25jZXB0cygpLmdldEVudGl0eVR5cGUoImFuaW1hbCIpOwogICAgICAgICAgICAgICAgICAgIGFzc2VydE5vdE51bGwoYW5pbWFsKTsKICAgICAgICAgICAgICAgICAgICBhc3NlcnRFcXVhbHMoImFuaW1hbCIsIGFuaW1hbC5nZXRMYWJlbCgpKTsKICAgICAgICAgICAgICAgIH0KCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFzc2VydCBvbkFwcGxpZWQgIT0gbnVsbDsK</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICBSYWZ0UHJvdG8uRW50cnkgZW50cnlQcm90byA9IGFwcGVuZEVudHJpZXNSZXEuZ2V0RW50cmllcygwKTsKLy8gICAgICAgICAgICBMb2cuRW50cnkgYWN0dWFsRW50cnkgPSBuZXcgTG9nLkVudHJ5KGVudHJ5UHJvdG8uZ2V0RW50cnlJZCgpLmdldEluZGV4KCksIGVudHJ5UHJvdG8uZ2V0RW50cnlJZCgpLmdldFRlcm0oKSwgZW50cnlQcm90by5nZXRDb250ZW50KCkuYXNSZWFkT25seUJ5dGVCdWZmZXIoKSk7Ci8vICAgICAgICAgICAgYXNzZXJ0RXF1YWxzKGV4aXN0aW5nRW50cnksIGFjdHVhbEVudHJ5KTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFzc2VydCBvbkFwcGxpZWQgIT0gbnVsbDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQXBwbGllZC5ydW4oKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQXBwbGllZC5ydW4oKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gY2xpZW50LnNlc3Npb24oREVGQVVMVF9EQVRBQkFTRSk7CiAgICAgICAgICAgICAgICAgICAgIEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihHcmFrbi5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CiAgICAgICAgICAgICAgICAgICAgRW50aXR5VHlwZS5Mb2NhbCBwZXJzb24gPSB0eC5jb25jZXB0cygpLmdldEVudGl0eVR5cGUoInBlcnNvbiIpOwogICAgICAgICAgICAgICAgICAgIGFzc2VydE5vdE51bGwocGVyc29uKTsKICAgICAgICAgICAgICAgICAgICBhc3NlcnRFcXVhbHMoInBlcnNvbiIsIHBlcnNvbi5nZXRMYWJlbCgpKTsKICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGhlYXJ0YmVhdChwZWVySURzLCB0ZXJtLCBsb2csIHBlZXJzKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gY2xpZW50LnNlc3Npb24oREVGQVVMVF9EQVRBQkFTRSk7CiAgICAgICAgICAgICAgICAgICAgIEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihHcmFrbi5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CiAgICAgICAgICAgICAgICAgICAgRW50aXR5VHlwZS5Mb2NhbCBwZXJzb24gPSB0eC5jb25jZXB0cygpLmdldEVudGl0eVR5cGUoInBlcnNvbiIpOwogICAgICAgICAgICAgICAgICAgIGFzc2VydE5vdE51bGwocGVyc29uKTsKICAgICAgICAgICAgICAgICAgICBhc3NlcnRFcXVhbHMoInBlcnNvbiIsIHBlcnNvbi5nZXRMYWJlbCgpKTsKICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -502,9 +502,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwZXJzb25cPg==</last-search>
+      <last-search>List</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwZXJzb25cPg==</last-pattern>
+      <last-pattern>List</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>requestId</last-substitute>
       <last-dir>1</last-dir>
