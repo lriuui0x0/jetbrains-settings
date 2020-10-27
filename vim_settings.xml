@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxJUFw+</entry>
         <entry>ASCII_LOGO_FILE</entry>
         <entry>requestVoteReq_mustNotGrantVoteIfRequestHasSameTerm_AndIsACandidate</entry>
         <entry encoding="base64">XDxkZWFjdGl2YXRlXD4=</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxnZXRNYWpvcml0eUNvdW50XD4=</entry>
         <entry encoding="base64">XDxtYWpvcml0eUNvdW50XD4=</entry>
         <entry encoding="base64">XDxub25BbGl2ZVNlcnZlcnNcPg==</entry>
+        <entry>log</entry>
       </history-search>
       <history-cmd>
         <entry>wbhb</entry>
@@ -203,7 +203,7 @@
         <mark key="." line="122" column="49" />
         <mark key="^" line="122" column="50" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" timestamp="1603734545194">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" timestamp="1603734892433">
         <mark key="'" line="117" column="115" />
         <mark key="[" line="117" column="85" />
         <mark key="]" line="117" column="88" />
@@ -253,8 +253,8 @@
         <mark key="^" line="329" column="167" />
         <mark key="." line="204" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1603734297666">
-        <mark key="'" line="359" column="66" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" timestamp="1603735426134">
+        <mark key="'" line="359" column="63" />
         <mark key="[" line="430" column="0" />
         <mark key="]" line="430" column="0" />
         <mark key="m" line="189" column="21" />
@@ -307,11 +307,11 @@
       <file name="/Dummy.txt" timestamp="1603731709558">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1603734473378">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="28" />
-        <mark key="^" line="0" column="28" />
-        <mark key="." line="0" column="27" />
+      <file name="/fragment.java" timestamp="1603735404045">
+        <mark key="[" line="0" column="8" />
+        <mark key="]" line="0" column="8" />
+        <mark key="^" line="0" column="21" />
+        <mark key="." line="0" column="8" />
       </file>
     </filemarks>
     <jumps>
@@ -406,21 +406,21 @@
       <jump line="722" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="189" column="22" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="349" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="350" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="358" column="111" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="365" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="359" column="66" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="102" column="93" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
       <jump line="101" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
       <jump line="117" column="115" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
       <jump line="60" column="81" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/common/ServerTestKit.java" />
       <jump line="63" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/common/ServerTestKit.java" />
+      <jump line="350" column="23" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
+      <jump line="359" column="63" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>+</text>
+        <text>appliedIndex</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">amF2YV9saWJyYXJ5KAogICAgbmFtZSA9ICJsaWIiLAogICAgc3JjcyA9IGdsb2IoWyIqLmphdmEiXSksCiAgICBkZXBzID0gWwogICAgICAgICIvL2V4ZWN1dGlvbjpsaWIiLAogICAgICAgICIvL3JlcGxpY2F0b3IvY29tcG9uZW50OmxpYiIsCiAgICAgICAgIi8vcmVwbGljYXRvci90ZXN0L3NpbXVsYXRpb24vY29uZmlnOmxpYiIsCiAgICAgICAgIkBtYXZlbi8vOmNvbV9nb29nbGVfY29kZV9maW5kYnVnc19qc3IzMDUiLAogICAgICAgICJAbWF2ZW4vLzpvcmdfc2xmNGpfc2xmNGpfYXBpIiwKICAgIF0sCiAgICB0YWdzID0gWyJtYXZlbl9jb29yZGluYXRlcz1pby5ncmFrbi5jbHVzdGVyOnJlcGxpY2F0b3Itc2ltdWxhdGlvbi1uZXR3b3JraW5nLWxpYjp7cG9tX3ZlcnNpb259Il0sCiAgICB2aXNpYmlsaXR5ID0gWwogICAgICAgICIvL3Zpc2liaWxpdHk6cHVibGljIgogICAgXSwKKQo=</text>
@@ -429,10 +429,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>+</text>
+        <text>appliedIndex</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxub25BbGl2ZVNlcnZlcnNcPg==</text>
+        <text>log</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -502,9 +502,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxub25BbGl2ZVNlcnZlcnNcPg==</last-search>
+      <last-search>log</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxub25BbGl2ZVNlcnZlcnNcPg==</last-pattern>
+      <last-pattern>log</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>requestId</last-substitute>
       <last-dir>1</last-dir>
