@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>await</entry>
         <entry encoding="base64">XDxUZXN0U3RhdGVcPg==</entry>
         <entry encoding="base64">XDxjcmVhdGVDaGlsZFw+</entry>
         <entry>testkit</entry>
@@ -27,6 +26,7 @@
         <entry>Identy</entry>
         <entry>set</entry>
         <entry>trans</entry>
+        <entry>timeout</entry>
       </history-search>
       <history-cmd>
         <entry>w:q</entry>
@@ -300,12 +300,11 @@
         <mark key="." line="12" column="3" />
         <mark key="^" line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" timestamp="1603976791772">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" timestamp="1603980099413">
         <mark key="'" line="46" column="62" />
-        <mark key="[" line="140" column="49" />
-        <mark key="]" line="140" column="56" />
-        <mark key="." line="140" column="55" />
-        <mark key="^" line="140" column="56" />
+        <mark key="[" line="127" column="0" />
+        <mark key="]" line="127" column="0" />
+        <mark key="." line="127" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/test/ActorTest.java" timestamp="1603971857003">
         <mark key="[" line="12" column="0" />
@@ -433,7 +432,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VuZGVyLnNldFJvdXQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VuZGVyLmRpc2Nvbm5lY3QoKTsK</text>
       </register>
       <register name="+" type="4">
         <text>DEALER-ROUTER messaging pattern</text>
@@ -442,10 +441,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>close</text>
       </register>
       <register name="/" type="4">
-        <text>trans</text>
+        <text>timeout</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -453,10 +452,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBsb25nIGV4cGlyZUF0ID0gY2FsY3VsYXRlRXhwaXJlQXRNaWxsaXMoKTsKICAgICAgICBmaW5hbCBsb25nIHRhc2tWZXJzaW9uID0gKyt2ZXJzaW9uOwogICAgICAgIHRpbWVyID0gYWN0b3Iuc2NoZWR1bGUoCiAgICAgICAgICAgICAgICBleHBpcmVBdCwKICAgICAgICAgICAgICAgIHN0YXRlIC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAodGFza1ZlcnNpb24gIT0gdmVyc2lvbikgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgIG9uVGltZW91dC5hY2NlcHQoc3RhdGUpOwogICAgICAgICAgICAgICAgICAgIHN0YXJ0KCk7IC8vIFRPRE8gZmluZCBhIGJldHRlciB3YXkgdG8gZG8gdGhpcwogICAgICAgICAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VuZGVyLmNsb3NlKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VuZGVyLnNldFJvdXQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VuZGVyLmRpc2Nvbm5lY3QoKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -494,19 +493,19 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTE9HLmRlYnVnKCJEaXNjb25uZWN0aW5nIFNlbmRlciB7fSIsIHBlZXJBZGRyZXNzKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHNlbmRlci5kaXNjb25uZWN0KCJ0Y3A6Ly8iICsgcGVlckFkZHJlc3MpOwogICAgICAgICAgICB9IGZpbmFsbHkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChwb2xsZXIucG9sbGluKDApKSB7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY2VpdmVyLmNsb3NlKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vICBIYW5kbGUgaW5jb21pbmcgc3RhdHVzIG1lc3NhZ2VzCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY2VpdmVyLmNsb3NlKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vICBQb2xsIGZvciBhY3Rpdml0eSwgb3IgMW1zIHRpbWVvdXQKICAgICAgICAgICAgICAgIGludCByYyA9IHBvbGxlci5wb2xsKDEpOwogICAgICAgICAgICAgICAgaWYgKHJjID09IC0xKSB7CiAgICAgICAgICAgICAgICAgICAgTE9HLmRlYnVnKCJJbnRlcnJ1cHRlZCBkdXJpbmcgcG9sbCIpOwogICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgfQoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -515,9 +514,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>trans</last-search>
+      <last-search>timeout</last-search>
       <last-offset />
-      <last-pattern>trans</last-pattern>
+      <last-pattern>timeout</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>requestId</last-substitute>
       <last-dir>1</last-dir>
