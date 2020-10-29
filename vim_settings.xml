@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxkYXRhQWN0b3JcPg==</entry>
         <entry>await</entry>
         <entry encoding="base64">XDxUZXN0U3RhdGVcPg==</entry>
         <entry encoding="base64">XDxjcmVhdGVDaGlsZFw+</entry>
@@ -27,6 +26,7 @@
         <entry>identity</entry>
         <entry>Identy</entry>
         <entry>set</entry>
+        <entry>trans</entry>
       </history-search>
       <history-cmd>
         <entry>w:q</entry>
@@ -47,8 +47,8 @@
         <entry>ww</entry>
         <entry>2</entry>
         <entry>vs</entry>
-        <entry>w</entry>
         <entry>q</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -300,11 +300,12 @@
         <mark key="." line="12" column="3" />
         <mark key="^" line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" timestamp="1603974927484">
-        <mark key="'" line="127" column="19" />
-        <mark key="[" line="128" column="0" />
-        <mark key="]" line="128" column="0" />
-        <mark key="." line="128" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" timestamp="1603976791772">
+        <mark key="'" line="46" column="62" />
+        <mark key="[" line="140" column="49" />
+        <mark key="]" line="140" column="56" />
+        <mark key="." line="140" column="55" />
+        <mark key="^" line="140" column="56" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/test/ActorTest.java" timestamp="1603971857003">
         <mark key="[" line="12" column="0" />
@@ -327,7 +328,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" />
       <jump line="50" column="63" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" />
       <jump line="46" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" />
       <jump line="60" column="31" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" />
@@ -427,6 +427,7 @@
       <jump line="21" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
       <jump line="44" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
       <jump line="127" column="19" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
+      <jump line="46" column="62" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -444,7 +445,7 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>set</text>
+        <text>trans</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -508,15 +509,15 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJlY2VpdmVyLmNsb3NlKCk7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>w</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>set</last-search>
+      <last-search>trans</last-search>
       <last-offset />
-      <last-pattern>set</last-pattern>
+      <last-pattern>trans</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>requestId</last-substitute>
       <last-dir>1</last-dir>
