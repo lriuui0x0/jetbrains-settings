@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>set</entry>
         <entry>trans</entry>
         <entry>interrupt</entry>
         <entry>setSocket</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxjb21tb25UaHJlYWRQb29sXD4=</entry>
         <entry encoding="base64">XDx0aHJlYWRGYWN0b3J5XD4=</entry>
         <entry encoding="base64">XDxleGVjdXRvclNlcnZpY2VcPg==</entry>
+        <entry>await</entry>
       </history-search>
       <history-cmd>
         <entry>w:q</entry>
@@ -253,6 +253,9 @@
         <mark key="." line="405" column="32" />
         <mark key="^" line="405" column="33" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" timestamp="1604051106799">
+        <mark key="'" line="132" column="67" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/Actor.java" timestamp="1603990107241">
         <mark key="'" line="26" column="0" />
         <mark key="[" line="3" column="0" />
@@ -271,8 +274,8 @@
       <file name="$APPLICATION_HOME_DIR$/jbr/Contents/Home!/java.base/sun/security/util/SignatureUtil.class" timestamp="1603986820620">
         <mark key="'" line="25" column="13" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" timestamp="1603985535053">
-        <mark key="'" line="29" column="136" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" timestamp="1604051174497">
+        <mark key="'" line="54" column="18" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" timestamp="1603987179517">
         <mark key="'" line="109" column="68" />
@@ -290,10 +293,6 @@
       <file name="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/zeromq/jeromq/0.5.2/jeromq-0.5.2.jar!/org/zeromq/ZMQ.class" timestamp="1603984009363">
         <mark key="'" line="141" column="73" />
       </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/zeromq/jeromq/0.5.2/jeromq-0.5.2.jar!/zmq/ZError.class" timestamp="1603982686346">
-        <mark key="[" line="14" column="28" />
-        <mark key="]" line="14" column="33" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" timestamp="1603991763495">
         <mark key="'" line="29" column="0" />
         <mark key="]" line="14" column="22" />
@@ -305,12 +304,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="108" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="206" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="39" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="54" column="51" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
-      <jump line="61" column="34" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
-      <jump line="124" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
       <jump line="5" column="68" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/component/Connections.java" />
       <jump line="35" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Peers.java" />
       <jump line="32" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Peers.java" />
@@ -405,6 +398,12 @@
       <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
       <jump line="8" column="21" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
       <jump line="63" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
+      <jump line="67" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
+      <jump line="140" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
+      <jump line="144" column="91" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
+      <jump line="132" column="67" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
+      <jump line="29" column="138" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
+      <jump line="54" column="18" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -422,7 +421,7 @@
         <text encoding="base64">VGhyZWFkRmFjdG9yeSA=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxleGVjdXRvclNlcnZpY2VcPg==</text>
+        <text>await</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -492,9 +491,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxleGVjdXRvclNlcnZpY2VcPg==</last-search>
+      <last-search>await</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxleGVjdXRvclNlcnZpY2VcPg==</last-pattern>
+      <last-pattern>await</last-pattern>
       <last-replace>page</last-replace>
       <last-substitute>requestId</last-substitute>
       <last-dir>1</last-dir>
