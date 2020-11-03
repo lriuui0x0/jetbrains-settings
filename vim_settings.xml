@@ -196,8 +196,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" timestamp="1604333202048">
-        <mark key="'" line="173" column="75" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" timestamp="1604394273127">
+        <mark key="'" line="171" column="94" />
         <mark key="[" line="198" column="0" />
         <mark key="]" line="198" column="0" />
         <mark key="." line="198" column="0" />
@@ -208,13 +208,6 @@
         <mark key="]" line="20" column="45" />
         <mark key="^" line="20" column="45" />
         <mark key="." line="20" column="44" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" timestamp="1604305707776">
-        <mark key="'" line="63" column="144" />
-        <mark key="[" line="58" column="38" />
-        <mark key="]" line="58" column="46" />
-        <mark key="." line="58" column="45" />
-        <mark key="^" line="58" column="46" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/GraknServer.java" timestamp="1604327296562">
         <mark key="'" line="20" column="0" />
@@ -287,6 +280,13 @@
         <mark key="." line="28" column="0" />
         <mark key="^" line="60" column="28" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoopGroup.java" timestamp="1604394667953">
+        <mark key="'" line="15" column="4" />
+        <mark key="[" line="12" column="42" />
+        <mark key="]" line="12" column="55" />
+        <mark key="^" line="12" column="55" />
+        <mark key="." line="12" column="54" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTestKit.java" timestamp="1604330327524">
         <mark key="'" line="361" column="37" />
         <mark key="[" line="377" column="29" />
@@ -304,8 +304,8 @@
       <file name="/Dummy.txt" timestamp="1604320770139">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" timestamp="1604330655429">
-        <mark key="'" line="124" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" timestamp="1604334549345">
+        <mark key="'" line="146" column="0" />
         <mark key="[" line="124" column="69" />
         <mark key="]" line="124" column="99" />
         <mark key="^" line="124" column="99" />
@@ -316,16 +316,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="130" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
-      <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/GraknServer.java" />
-      <jump line="154" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
-      <jump line="104" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="142" column="25" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="55" column="33" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Peers.java" />
-      <jump line="59" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="60" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="134" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
-      <jump line="136" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="304" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="305" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
       <jump line="308" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Raft.java" />
@@ -416,6 +406,16 @@
       <jump line="200" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
       <jump line="173" column="75" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
       <jump line="40" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/ZeroMQConnections.java" />
+      <jump line="13" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" />
+      <jump line="146" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" />
+      <jump line="70" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
+      <jump line="50" column="80" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
+      <jump line="93" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
+      <jump line="73" column="75" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
+      <jump line="202" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
+      <jump line="171" column="94" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/test/ServerTest.java" />
+      <jump line="8" column="58" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoopGroup.java" />
+      <jump line="15" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoopGroup.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
