@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxleGVjdXRvclw+</entry>
-        <entry>client</entry>
-        <entry encoding="base64">XDxjbGllbnRSUENzXD4=</entry>
         <entry encoding="base64">XDxldmVudExvb3BHcm91cFw+</entry>
         <entry encoding="base64">XDx0aHJlYWRzXD4=</entry>
         <entry>UnableToProcess</entry>
@@ -27,6 +24,9 @@
         <entry encoding="base64">XDxrZXlHZW5lcmF0b3JcPg==</entry>
         <entry encoding="base64">XDxjb25jZXB0c1w+</entry>
         <entry encoding="base64">XDxrZXlWYWx1ZVJlcGxpY2F0b3JcPg==</entry>
+        <entry encoding="base64">XDxPcHRpbWlzdGljVHJhbnNhY3Rpb25EQlw+</entry>
+        <entry encoding="base64">XDxkYXRhYmFzZU1nclw+</entry>
+        <entry encoding="base64">XDxyb2Nrc0NvbmZpZ1w+</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -41,7 +41,6 @@
         <entry>W</entry>
         <entry>w:w</entry>
         <entry>w\:w</entry>
-        <entry>w]</entry>
         <entry>2</entry>
         <entry>vs</entry>
         <entry>b</entry>
@@ -49,6 +48,7 @@
         <entry>w\</entry>
         <entry>q</entry>
         <entry>w</entry>
+        <entry>w]</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -201,6 +201,9 @@
         <mark key="]" line="29" column="1" />
         <mark key="." line="19" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" timestamp="1604406581826">
+        <mark key="'" line="80" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorRoot.java" timestamp="1604404326041">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="2" column="0" />
@@ -235,6 +238,9 @@
         <mark key="[" line="6" column="0" />
         <mark key="]" line="74" column="1" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" timestamp="1604406095611">
+        <mark key="'" line="51" column="13" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/common/concurrent/actor/ActorPeriodicTask.java" timestamp="1604404317578">
         <mark key="'" line="74" column="0" />
         <mark key="[" line="21" column="0" />
@@ -242,31 +248,21 @@
         <mark key="." line="21" column="0" />
         <mark key="^" line="20" column="59" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" timestamp="1604404172403">
-        <mark key="'" line="12" column="56" />
-        <mark key="[" line="9" column="47" />
-        <mark key="]" line="9" column="47" />
-        <mark key="." line="9" column="52" />
-        <mark key="^" line="9" column="26" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" timestamp="1604406289410">
+        <mark key="'" line="54" column="18" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/dependencies/graknlabs/repositories.bzl" timestamp="1604400778241">
-        <mark key="'" line="12" column="4" />
-        <mark key="[" line="20" column="58" />
-        <mark key="]" line="20" column="58" />
-        <mark key="." line="20" column="58" />
-        <mark key="^" line="20" column="19" />
+      <file name="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" timestamp="1604405883222">
+        <mark key="'" line="19" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="26" column="26" />
       </file>
       <file name="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopSingleThreaded.java" timestamp="1604404085996">
         <mark key="[" line="31" column="36" />
         <mark key="]" line="31" column="37" />
         <mark key="^" line="31" column="36" />
         <mark key="." line="31" column="37" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/dependencies/graknlabs/repositories.bzl" timestamp="1604399250016">
-        <mark key="[" line="30" column="58" />
-        <mark key="]" line="30" column="58" />
-        <mark key="^" line="30" column="20" />
-        <mark key="." line="30" column="58" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/Promise.java" timestamp="1604404110665">
         <mark key="'" line="2" column="7" />
@@ -276,18 +272,11 @@
       <file name="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/execroot/graknlabs_grakn_cluster/bazel-out/darwin-fastbuild/bin/external/graknlabs_grakn_core/graph/libgraph-hjar.jar!/grakn/core/graph/Graphs.class" timestamp="1604401406488">
         <mark key="'" line="43" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoop.java" timestamp="1604404099619">
-        <mark key="'" line="19" column="0" />
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="95" column="1" />
+      <file name="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoop.java" timestamp="1604405878143">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="16" column="0" />
         <mark key="." line="19" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/WORKSPACE" timestamp="1604399532035">
-        <mark key="'" line="72" column="14" />
-        <mark key="[" line="96" column="0" />
-        <mark key="]" line="96" column="0" />
-        <mark key="." line="96" column="0" />
-        <mark key="^" line="90" column="67" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" timestamp="1604404094647">
         <mark key="'" line="2" column="0" />
@@ -308,32 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="99" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="210" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="57" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="215" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="121" column="20" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="488" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="524" column="32" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="530" column="37" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="559" column="42" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="605" column="48" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="606" column="20" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="620" column="77" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="507" column="37" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="479" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="450" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="635" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="268" column="20" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="330" column="10" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="329" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="331" column="21" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="326" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="335" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="336" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="266" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="214" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="270" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="333" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="328" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="327" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
@@ -408,12 +371,38 @@
       <jump line="12" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorRoot.java" />
       <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorRoot.java" />
       <jump line="19" column="12" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/ActorRoot.java" />
+      <jump line="76" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
+      <jump line="27" column="19" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
+      <jump line="54" column="18" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
+      <jump line="95" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoop.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoop.java" />
+      <jump line="18" column="51" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" />
+      <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" />
+      <jump line="46" column="39" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="55" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="56" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="89" column="51" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="95" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="107" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="74" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="44" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="51" column="13" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
+      <jump line="31" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="36" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="41" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="52" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="61" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="71" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
+      <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5GdW5jdGlvbjsKCnB1YmxpYyBjbGFzcyBBY3RvclJvb3QgZXh0ZW5kcyBBY3Rvci5TdGF0ZTxBY3RvclJvb3Q+IHsKICAgIHB1YmxpYyBBY3RvclJvb3QoQWN0b3I8QWN0b3JSb290PiBzZWxmKSB7CiAgICAgICAgc3VwZXIoc2VsZik7CiAgICB9CgogICAgcHVibGljIDxTIGV4dGVuZHMgQWN0b3IuU3RhdGU8Uz4+IEFjdG9yPFM+IGNyZWF0ZUFjdG9yKEZ1bmN0aW9uPEFjdG9yPFM+LCBTPiBzdGF0ZUNvbnN0cnVjdG9yKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuY2hpbGQoc3RhdGVDb25zdHJ1Y3Rvcik7CiAgICB9Cn0K</text>
+        <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKi8KCg==</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5GdW5jdGlvbjsKCnB1YmxpYyBjbGFzcyBBY3RvclJvb3QgZXh0ZW5kcyBBY3Rvci5TdGF0ZTxBY3RvclJvb3Q+IHsKICAgIHB1YmxpYyBBY3RvclJvb3QoQWN0b3I8QWN0b3JSb290PiBzZWxmKSB7CiAgICAgICAgc3VwZXIoc2VsZik7CiAgICB9CgogICAgcHVibGljIDxTIGV4dGVuZHMgQWN0b3IuU3RhdGU8Uz4+IEFjdG9yPFM+IGNyZWF0ZUFjdG9yKEZ1bmN0aW9uPEFjdG9yPFM+LCBTPiBzdGF0ZUNvbnN0cnVjdG9yKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuY2hpbGQoc3RhdGVDb25zdHJ1Y3Rvcik7CiAgICB9Cn0K</text>
@@ -425,7 +414,7 @@
         <text>EventLoop</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxrZXlWYWx1ZVJlcGxpY2F0b3JcPg==</text>
+        <text encoding="base64">XDxyb2Nrc0NvbmZpZ1w+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -433,7 +422,7 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cGFja2FnZSBncmFrbi5jbHVzdGVyLmV4ZWN1dGlvbjsKCmltcG9ydCBqYXZhLnV0aWwuZnVuY3Rpb24uRnVuY3Rpb247Cg==</text>
+        <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKi8KCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5GdW5jdGlvbjsKCnB1YmxpYyBjbGFzcyBBY3RvclJvb3QgZXh0ZW5kcyBBY3Rvci5TdGF0ZTxBY3RvclJvb3Q+IHsKICAgIHB1YmxpYyBBY3RvclJvb3QoQWN0b3I8QWN0b3JSb290PiBzZWxmKSB7CiAgICAgICAgc3VwZXIoc2VsZik7CiAgICB9CgogICAgcHVibGljIDxTIGV4dGVuZHMgQWN0b3IuU3RhdGU8Uz4+IEFjdG9yPFM+IGNyZWF0ZUFjdG9yKEZ1bmN0aW9uPEFjdG9yPFM+LCBTPiBzdGF0ZUNvbnN0cnVjdG9yKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuY2hpbGQoc3RhdGVDb25zdHJ1Y3Rvcik7CiAgICB9Cn0K</text>
@@ -489,15 +478,15 @@
         <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuZ3JhcGguR3JhcGhzOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>w]</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxrZXlWYWx1ZVJlcGxpY2F0b3JcPg==</last-search>
+      <last-search encoding="base64">XDxyb2Nrc0NvbmZpZ1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxrZXlWYWx1ZVJlcGxpY2F0b3JcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxyb2Nrc0NvbmZpZ1w+</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
