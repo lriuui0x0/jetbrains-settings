@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>delete</entry>
         <entry encoding="base64">XDxzdG9yYWdlc1w+</entry>
         <entry encoding="base64">XDxDb3JlU3RvcmFnZVw+</entry>
         <entry>close</entry>
@@ -27,6 +26,7 @@
         <entry>snapshot</entry>
         <entry>snapShot</entry>
         <entry>serialize</entry>
+        <entry>commit</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -47,8 +47,8 @@
         <entry>ww</entry>
         <entry>w\</entry>
         <entry>w]</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -208,7 +208,7 @@
         <mark key="]" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" timestamp="1604414125519">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" timestamp="1604483120876">
         <mark key="'" line="69" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Session.java" timestamp="1604418535050">
@@ -217,8 +217,8 @@
       <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionDB.java" timestamp="1604420217948">
         <mark key="'" line="150" column="10" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" timestamp="1604420627593">
-        <mark key="'" line="222" column="16" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" timestamp="1604483529633">
+        <mark key="'" line="210" column="70" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/DatabaseManager.java" timestamp="1604483019294">
         <mark key="'" line="62" column="8" />
@@ -255,7 +255,7 @@
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" timestamp="1604422624927">
         <mark key="'" line="62" column="4" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1604482674598">
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1604483488686">
         <mark key="'" line="179" column="8" />
       </file>
       <file name="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" timestamp="1604405883222">
@@ -275,8 +275,6 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/BUILD" timestamp="1604477059627" />
     </filemarks>
     <jumps>
-      <jump line="82" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/ActorPeriodicTask.java" />
-      <jump line="107" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
       <jump line="44" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
       <jump line="51" column="13" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
       <jump line="74" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksGrakn.java" />
@@ -375,6 +373,8 @@
       <jump line="29" column="157" filename="$USER_HOME$/GraknLabs/grakn-cluster/dependencies/graknlabs/repositories.bzl" />
       <jump line="46" column="121" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksSession.java" />
       <jump line="54" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksSession.java" />
+      <jump line="348" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" />
+      <jump line="210" column="70" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -392,7 +392,7 @@
         <text encoding="base64">ICAgICAgICBuYW1lID0gIiIs</text>
       </register>
       <register name="/" type="4">
-        <text>serialize</text>
+        <text>commit</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -458,15 +458,15 @@
         <text encoding="base64">aW1wb3J0IGdyYWtuLmNvbW1vbi5jb25jdXJyZW50LmFjdG9yLmV2ZW50bG9vcC5HbG9iYWxTeXN0ZW07CmltcG9ydCBvcmcuc2xmNGouTG9nZ2VyOwppbXBvcnQgb3JnLnNsZjRqLkxvZ2dlckZhY3Rvcnk7CgppbXBvcnQgamF2YS51dGlsLmZ1bmN0aW9uLkNvbnN1bWVyOwoKcHVibGljIGNsYXNzIEFjdG9yUGVyaW9kaWNUYXNrPFNUQVRFIGV4dGVuZHMgQWN0b3IuU3RhdGU8U1RBVEU+PiB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBMb2dnZXIgTE9HID0gTG9nZ2VyRmFjdG9yeS5nZXRMb2dnZXIoQWN0b3JQZXJpb2RpY1Rhc2suY2xhc3MpOwoKICAgIHByaXZhdGUgZmluYWwgQWN0b3I8U1RBVEU+IGFjdG9yOwogICAgcHJpdmF0ZSBmaW5hbCBpbnQgdGltZW91dE1zOwogICAgcHJpdmF0ZSBmaW5hbCBpbnQgdmFyaWF0aW9uTXM7CiAgICBwcml2YXRlIGZpbmFsIENvbnN1bWVyPFNUQVRFPiBvblRpbWVvdXQ7CiAgICBwcml2YXRlIEV2ZW50TG9vcC5TY2hlZHVsZWRKb2IgdGltZXI7CgogICAgcHJpdmF0ZSBsb25nIHZlcnNpb24gPSAwOwoKICAgIHB1YmxpYyBBY3RvclBlcmlvZGljVGFzayhBY3RvcjxTVEFURT4gYWN0b3IsIGludCB0aW1lb3V0TXMsIGludCB2YXJpYXRpb25NcywgQ29uc3VtZXI8U1RBVEU+IG9uVGltZW91dCkgewogICAgICAgIHRoaXMuYWN0b3IgPSBhY3RvcjsKICAgICAgICB0aGlzLnRpbWVvdXRNcyA9IHRpbWVvdXRNczsKICAgICAgICB0aGlzLnZhcmlhdGlvbk1zID0gdmFyaWF0aW9uTXM7CiAgICAgICAgdGhpcy5vblRpbWVvdXQgPSBvblRpbWVvdXQ7CiAgICAgICAgdGltZXIgPSBudWxsOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHJlc3RhcnQoKSB7CiAgICAgICAgc3RvcCgpOwogICAgICAgIHN0YXJ0KCk7CiAgICB9CgogICAgcHVibGljIHZvaWQgb25jZSgpIHsKICAgICAgICBzdG9wKCk7CiAgICAgICAgbG9uZyBleHBpcmVBdCA9IGNhbGN1bGF0ZUV4cGlyZUF0TWlsbGlzKCk7CiAgICAgICAgZmluYWwgbG9uZyB0YXNrVmVyc2lvbiA9ICsrdmVyc2lvbjsKICAgICAgICB0aW1lciA9IGFjdG9yLnNjaGVkdWxlKAogICAgICAgICAgICAgICAgZXhwaXJlQXQsCiAgICAgICAgICAgICAgICBzdGF0ZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHRhc2tWZXJzaW9uICE9IHZlcnNpb24pIHJldHVybjsKICAgICAgICAgICAgICAgICAgICBvblRpbWVvdXQuYWNjZXB0KHN0YXRlKTsKICAgICAgICAgICAgICAgIH0pOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHN0b3AoKSB7CiAgICAgICAgaWYgKHRpbWVyID09IG51bGwpIHJldHVybjsKICAgICAgICB2ZXJzaW9uKys7CiAgICAgICAgdGltZXIuY2FuY2VsKCk7CiAgICB9CgogICAgcHJpdmF0ZSBsb25nIGNhbGN1bGF0ZUV4cGlyZUF0TWlsbGlzKCkgewogICAgICAgIGxvbmcgdmFyaWF0aW9uTXMgPSB0aGlzLnZhcmlhdGlvbk1zID4gMCA/IEdsb2JhbFN5c3RlbS5yYW5kb20oKS5uZXh0SW50KHRoaXMudmFyaWF0aW9uTXMpICsgMSA6IDA7CiAgICAgICAgbG9uZyBjdXJyZW50TWlsbGlzID0gR2xvYmFsU3lzdGVtLnRpbWUoKTsKICAgICAgICByZXR1cm4gY3VycmVudE1pbGxpcyArIHRpbWVvdXRNcyArIHZhcmlhdGlvbk1zOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBzdGFydCgpIHsKICAgICAgICBsb25nIGV4cGlyZUF0ID0gY2FsY3VsYXRlRXhwaXJlQXRNaWxsaXMoKTsKICAgICAgICBmaW5hbCBsb25nIHRhc2tWZXJzaW9uID0gKyt2ZXJzaW9uOwogICAgICAgIHRpbWVyID0gYWN0b3Iuc2NoZWR1bGUoCiAgICAgICAgICAgICAgICBleHBpcmVBdCwKICAgICAgICAgICAgICAgIHN0YXRlIC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAodGFza1ZlcnNpb24gIT0gdmVyc2lvbikgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgIG9uVGltZW91dC5hY2NlcHQoc3RhdGUpOwogICAgICAgICAgICAgICAgICAgIHN0YXJ0KCk7IC8vIFRPRE8gZmluZCBhIGJldHRlciB3YXkgdG8gZG8gdGhpcwogICAgICAgICAgICAgICAgfSk7CiAgICB9Cn0K</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>serialize</last-search>
+      <last-search>commit</last-search>
       <last-offset />
-      <last-pattern>serialize</last-pattern>
+      <last-pattern>commit</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
