@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Rocks</entry>
         <entry>create</entry>
         <entry>jni</entry>
         <entry encoding="base64">XDxzZXNzaW9uc1w+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxyZWFkT3B0aW9uc1w+</entry>
         <entry encoding="base64">XDxyb2Nrc1R4T3B0aW9uc1w+</entry>
         <entry encoding="base64">XDxyb2Nrc1RyYW5zYWN0aW9uXD4=</entry>
+        <entry encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -205,10 +205,10 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" timestamp="1604494624666">
         <mark key="'" line="58" column="23" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" timestamp="1604496794045">
-        <mark key="'" line="119" column="12" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" timestamp="1604498737381">
+        <mark key="'" line="43" column="56" />
         <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="45" />
+        <mark key="]" line="52" column="47" />
         <mark key="." line="127" column="0" />
         <mark key="^" line="72" column="53" />
       </file>
@@ -305,16 +305,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
-      <jump line="27" column="155" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
-      <jump line="293" column="34" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="171" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="72" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="105" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="79" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
-      <jump line="31" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
-      <jump line="80" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
-      <jump line="78" column="47" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
       <jump line="81" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
       <jump line="77" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
       <jump line="87" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
@@ -405,6 +395,16 @@
       <jump line="70" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
       <jump line="72" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
       <jump line="119" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="512" column="19" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="126" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="134" column="18" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="241" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="374" column="21" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="373" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="53" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="530" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="43" column="56" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -422,7 +422,7 @@
         <text encoding="base64">cHJpdmF0ZSA=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxyb2Nrc1RyYW5zYWN0aW9uXD4=</text>
+        <text encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -492,9 +492,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxyb2Nrc1RyYW5zYWN0aW9uXD4=</last-search>
+      <last-search encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxyb2Nrc1RyYW5zYWN0aW9uXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
