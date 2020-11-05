@@ -20,6 +20,7 @@
         <entry>!= null</entry>
         <entry encoding="base64">XDxyZWR1Y2VcPg==</entry>
         <entry encoding="base64">XDxzdWJzdF9kZWx0YVw+</entry>
+        <entry>is_sort</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_ToggleBreakpoint()</entry>
@@ -188,7 +189,7 @@
         <mark key="^" line="0" column="4" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/LLDB" timestamp="1604606050496">
+      <file name="/LLDB" timestamp="1604607684980">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/thmp/code/test.cpp" timestamp="1604364596543">
@@ -198,14 +199,14 @@
         <mark key="^" line="14" column="35" />
         <mark key="." line="14" column="34" />
       </file>
-      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604606236817">
-        <mark key="'" line="681" column="12" />
-        <mark key="g" line="343" column="25" />
-        <mark key="[" line="568" column="33" />
-        <mark key="m" line="373" column="0" />
-        <mark key="]" line="568" column="63" />
-        <mark key="." line="568" column="62" />
-        <mark key="^" line="568" column="63" />
+      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604608017833">
+        <mark key="g" line="346" column="25" />
+        <mark key="'" line="332" column="23" />
+        <mark key="[" line="331" column="62" />
+        <mark key="m" line="376" column="0" />
+        <mark key="]" line="331" column="80" />
+        <mark key="." line="331" column="79" />
+        <mark key="^" line="331" column="80" />
       </file>
       <file name="$USER_HOME$/thmp/code/test.cpp_dir/fragment.cpp" timestamp="1604353381432">
         <mark key="[" line="0" column="0" />
@@ -238,7 +239,6 @@
       <jump line="99" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="210" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="57" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="215" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="121" column="20" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="488" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="524" column="32" filename="$USER_HOME$/thmp/code/core.cpp" />
@@ -252,7 +252,6 @@
       <jump line="450" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="635" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="268" column="20" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="330" column="10" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="329" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="331" column="21" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="326" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
@@ -285,7 +284,6 @@
       <jump line="345" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="383" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="342" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="334" column="6" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="354" column="23" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="332" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="277" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
@@ -295,48 +293,55 @@
       <jump line="718" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="685" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="6" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="681" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="713" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="686" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="683" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="334" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="215" column="5" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="330" column="23" filename="$USER_HOME$/thmp/code/core.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBBU1NFUlQoZmFsc2UpOwogICAgICAgICAgICAgICAgfQo=</text>
+      <register name="&quot;" type="4">
+        <text>fn</text>
       </register>
       <register name="-" type="4">
-        <text>T</text>
+        <text>fn</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzdWJzdF9kZWx0YVw+</text>
+        <text>is_sort</text>
       </register>
       <register name="0" type="4">
         <text encoding="base64">Y29udGV4dC0+ZGF0YVthcnJheV9pbmRleF0uc3Vic3Q=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBBU1NFUlQoZmFsc2UpOwogICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">Ly8gCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEV4cHIgKnJlZHVjZV90eXBlX3R5cGUgPSByZWR1Y2VfdW50aWxfdHlwZShjb250ZXh0LCB0eXBlX3R5cGUsIEV4cHJUeXBlOjpTT1JUKTsKICAgICAgICAgICAgICAgIGlmIChyZWR1Y2VfdHlwZV90eXBlKQogICAgICAgICAgICAgICAgewo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">KGZuIHggdHlwZSB0eXBlKQoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBlbHNlIGlmIChleHByLT50eXBlID09IEV4cHJUeXBlOjpMRVQpCiAgICAgICAgewogICAgICAgICAgICBleHByID0gc3Vic3RfZnJlZShleHByLT5sZXQuYm9keSwgZXhwci0+bGV0LnN1YnN0KTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFRPRE86IERlbHRhIHJlZHVjdGlvbiBuZWVkcyB0byBiZSBhYmxlIHRvIHJlbW92ZSB0aGUgbGV0IGJpbmRlcgo=</text>
+        <text encoding="base64">Qm9vbCBpc19zb3J0KEV4cHIgKmEpCnsKICAgIHJldHVybiBhLT50eXBlID09IEV4cHJUeXBlOjpUWVBFIHx8IGEtPnR5cGUgPT0gRXhwclR5cGU6OlRZUEUxOwp9Cgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Qm9vbCBpc19zb3J0KEV4cHIgKmV4cHIpCnsKICAgIHJldHVybiAKfQoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">KGZuIHggdHlwZTEgdHlwZSkKCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEV4cHIgKnN1YnN0ID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFRPRE86IElzIHNpbXBseSB0ZXN0aW5nIGFnYWluc3Qgc29ydCB3aXRob3V0IHJlZHVjdGlvbiBlbm91Z2g/IE90aGVyd2lzZSBhIG5haXZlIHJlZHVjdGlvbiBtYXkgcmVkdWNlIGl0IHZlcnkgZGVlcGx5IHRoZW4gZm91bmQgaXQncyBub3QgYSBzb3J0Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEFTU0VSVChleHByLT52YXIuaW5kZXggPj0gMCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBBU1NFUlQoZmFsc2UpOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -345,9 +350,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzdWJzdF9kZWx0YVw+</last-search>
+      <last-search>is_sort</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzdWJzdF9kZWx0YVw+</last-pattern>
+      <last-pattern>is_sort</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
