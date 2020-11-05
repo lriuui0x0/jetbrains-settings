@@ -7,13 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>close</entry>
-        <entry encoding="base64">XDxrZXlWYWx1ZVJlcGxpY2F0b3JcPg==</entry>
-        <entry>rocks</entry>
-        <entry>remove</entry>
-        <entry>coreStorage</entry>
-        <entry>coreStroage</entry>
-        <entry>storage</entry>
         <entry encoding="base64">XDxzdG9yYWdlXD4=</entry>
         <entry encoding="base64">XDx3cml0ZU9wdGlvbnNcPg==</entry>
         <entry encoding="base64">XDxyZWFkT3B0aW9uc1w+</entry>
@@ -27,6 +20,13 @@
         <entry encoding="base64">XDxwZXJtaXNzaW9uXD4=</entry>
         <entry>team sub entity</entry>
         <entry>session</entry>
+        <entry encoding="base64">XDxyZWFkV3JpdGVCYXRjaFw+</entry>
+        <entry>openWriteBatch</entry>
+        <entry>replicate</entry>
+        <entry>commit</entry>
+        <entry>iterate</entry>
+        <entry>getWrite</entry>
+        <entry>getCommit</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -216,16 +216,11 @@
         <mark key="." line="124" column="128" />
         <mark key="^" line="124" column="129" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" timestamp="1604576203066">
-        <mark key="'" line="310" column="8" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" timestamp="1604578743390">
+        <mark key="'" line="372" column="4" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksIterator.java" timestamp="1604494136919">
-        <mark key="'" line="20" column="0" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="111" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" timestamp="1604566909330">
-        <mark key="'" line="28" column="165" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" timestamp="1604578587988">
+        <mark key="'" line="73" column="46" />
         <mark key="[" line="28" column="53" />
         <mark key="]" line="28" column="53" />
         <mark key="." line="28" column="53" />
@@ -235,11 +230,8 @@
       <file name="vim_settings.xml" timestamp="1604565663264">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" timestamp="1604494624666">
-        <mark key="'" line="58" column="23" />
-      </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" timestamp="1604500864131">
-        <mark key="'" line="289" column="16" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" timestamp="1604580507113">
+        <mark key="'" line="84" column="62" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/local/grabl.env" timestamp="1604505443383">
         <mark key="[" line="0" column="25" />
@@ -247,12 +239,15 @@
         <mark key="^" line="0" column="31" />
         <mark key="." line="0" column="30" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" timestamp="1604573146216">
-        <mark key="'" line="285" column="4" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
-        <mark key="^" line="72" column="53" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatch.java" timestamp="1604580511969">
+        <mark key="'" line="59" column="43" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" timestamp="1604580632008">
+        <mark key="'" line="342" column="28" />
+        <mark key="[" line="350" column="0" />
+        <mark key="]" line="350" column="0" />
+        <mark key="." line="350" column="0" />
+        <mark key="^" line="350" column="37" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/Grakn.java" timestamp="1604569400193">
         <mark key="'" line="123" column="0" />
@@ -263,14 +258,16 @@
       <file name="$USER_HOME$/GraknLabs/grabl/automation/status/GithubNotifier.java" timestamp="1604565142870">
         <mark key="'" line="53" column="12" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValue.java" timestamp="1604579379880">
+        <mark key="'" line="161" column="72" />
+      </file>
+      <file name="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" timestamp="1604580824731">
+        <mark key="'" line="735" column="0" />
+        <mark key="[" line="1676" column="20" />
+        <mark key="]" line="1676" column="42" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/event/github/Team.java" timestamp="1604508284427">
         <mark key="'" line="57" column="4" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/RocksIterator.java" timestamp="1604494826003">
-        <mark key="'" line="92" column="0" />
-        <mark key="[" line="10" column="7" />
-        <mark key="]" line="10" column="7" />
-        <mark key="." line="10" column="7" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Storage.java" timestamp="1604572411627" />
       <file name="/fragment.java" timestamp="1604575427744">
@@ -278,48 +275,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="65" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="31" column="42" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Session.java" />
-      <jump line="36" column="28" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Session.java" />
-      <jump line="43" column="11" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="43" column="0" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/execroot/graknlabs_grakn_cluster/bazel-out/darwin-fastbuild/bin/external/graknlabs_grakn_core/graph/libgraph-hjar.jar!/grakn/core/graph/Graphs.class" />
-      <jump line="39" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="59" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="79" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="81" column="15" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="105" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="108" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="48" column="42" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="55" column="34" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="115" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
-      <jump line="21" column="23" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" />
-      <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoop.java" />
-      <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoop.java" />
-      <jump line="2" column="7" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/Promise.java" />
-      <jump line="19" column="17" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/Promise.java" />
-      <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/Promise.java" />
-      <jump line="16" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoopGroup.java" />
-      <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/eventloop/EventLoopGroup.java" />
-      <jump line="2" column="27" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" />
-      <jump line="12" column="56" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" />
-      <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/Actor.java" />
-      <jump line="25" column="13" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/Actor.java" />
-      <jump line="97" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/Actor.java" />
-      <jump line="6" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/Actor.java" />
-      <jump line="29" column="19" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/Actor.java" />
-      <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="5" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="2" column="31" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="19" column="23" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/ActorPeriodicTask.java" />
-      <jump line="3" column="3" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/ActorPeriodicTask.java" />
-      <jump line="74" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/ActorPeriodicTask.java" />
-      <jump line="12" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorRoot.java" />
-      <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorRoot.java" />
-      <jump line="19" column="12" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/ActorRoot.java" />
-      <jump line="76" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="27" column="19" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="54" column="18" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="95" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoop.java" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoop.java" />
       <jump line="18" column="51" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" />
       <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/common/concurrent/actor/eventloop/EventLoopGroup.java" />
@@ -378,24 +333,66 @@
       <jump line="235" column="73" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" />
       <jump line="294" column="63" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" />
       <jump line="310" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" />
+      <jump line="579" column="49" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="586" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="587" column="39" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="648" column="18" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="672" column="10" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="689" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="691" column="49" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="692" column="36" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="707" column="21" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="753" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="742" column="21" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="737" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="732" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="727" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="722" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="717" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="85" column="22" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="191" column="75" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="639" column="36" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="636" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="631" column="54" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="349" column="37" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="62" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
+      <jump line="73" column="46" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/KeyValueReplicator.java" />
+      <jump line="372" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/keyvalue/RocksKeyValue.java" />
+      <jump line="218" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="645" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="419" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="620" column="18" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="411" column="61" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="647" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="342" column="28" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" />
+      <jump line="21" column="51" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" />
+      <jump line="89" column="52" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" />
+      <jump line="102" column="62" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" />
+      <jump line="124" column="52" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" />
+      <jump line="147" column="52" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" />
+      <jump line="84" column="62" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatchWithIndex.java" />
+      <jump line="28" column="37" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatch.java" />
+      <jump line="59" column="43" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/WriteBatch.java" />
+      <jump line="948" column="21" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
+      <jump line="735" column="0" filename="/private/var/tmp/_bazel_lriuui0x0/14227d1dd5bca8503fc450529a837c5e/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+        <text>getCommitTimeWriteBatch</text>
       </register>
-      <register name="+" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5GdW5jdGlvbjsKCnB1YmxpYyBjbGFzcyBBY3RvclJvb3QgZXh0ZW5kcyBBY3Rvci5TdGF0ZTxBY3RvclJvb3Q+IHsKICAgIHB1YmxpYyBBY3RvclJvb3QoQWN0b3I8QWN0b3JSb290PiBzZWxmKSB7CiAgICAgICAgc3VwZXIoc2VsZik7CiAgICB9CgogICAgcHVibGljIDxTIGV4dGVuZHMgQWN0b3IuU3RhdGU8Uz4+IEFjdG9yPFM+IGNyZWF0ZUFjdG9yKEZ1bmN0aW9uPEFjdG9yPFM+LCBTPiBzdGF0ZUNvbnN0cnVjdG9yKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuY2hpbGQoc3RhdGVDb25zdHJ1Y3Rvcik7CiAgICB9Cn0K</text>
+      <register name="+" type="4">
+        <text>getCommitTimeWriteBatch</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>getWriteBatch()</text>
       </register>
       <register name="/" type="4">
-        <text>session</text>
+        <text>getCommit</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -406,7 +403,7 @@
         <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNjaGVkdWxlT25jZSgpIHsKICAgICAgICBzY2hlZHVsZShmYWxzZSk7CiAgICB9Cgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmtleVZhbHVlUmVwbGljYXRvciA9IGtleVZhbHVlUmVwbGljYXRvcjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByb2Nrc1RyYW5zYWN0aW9uLgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -435,28 +432,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmtleVZhbHVlUmVwbGljYXRvciA9IGtleVZhbHVlUmVwbGljYXRvcjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByb2Nrc1RyYW5zYWN0aW9uLgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAogICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByb2Nrc1RyYW5zYWN0aW9uLgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdG9wKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICA/IAoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmtleVZhbHVlUmVwbGljYXRvciA9IGtleVZhbHVlUmVwbGljYXRvcjsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzdG9wKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0aGlzLmtleVZhbHVlUmVwbGljYXRvciA9IGtleVZhbHVlUmVwbGljYXRvcjsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5GdW5jdGlvbjsKCnB1YmxpYyBjbGFzcyBBY3RvclJvb3QgZXh0ZW5kcyBBY3Rvci5TdGF0ZTxBY3RvclJvb3Q+IHsKICAgIHB1YmxpYyBBY3RvclJvb3QoQWN0b3I8QWN0b3JSb290PiBzZWxmKSB7CiAgICAgICAgc3VwZXIoc2VsZik7CiAgICB9CgogICAgcHVibGljIDxTIGV4dGVuZHMgQWN0b3IuU3RhdGU8Uz4+IEFjdG9yPFM+IGNyZWF0ZUFjdG9yKEZ1bmN0aW9uPEFjdG9yPFM+LCBTPiBzdGF0ZUNvbnN0cnVjdG9yKSB7CiAgICAgICAgcmV0dXJuIHRoaXMuY2hpbGQoc3RhdGVDb25zdHJ1Y3Rvcik7CiAgICB9Cn0K</text>
+        <text encoding="base64">ICAgIAogICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsdXN0ZXIuZXhlY3V0aW9uLmV2ZW50bG9vcC5HbG9iYWxTeXN0ZW07Cg==</text>
+        <text encoding="base64">ICAgICAgICBzdG9wKCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvbW1vbi5jb25jdXJyZW50LmFjdG9yLmV2ZW50bG9vcC5HbG9iYWxTeXN0ZW07CmltcG9ydCBvcmcuc2xmNGouTG9nZ2VyOwppbXBvcnQgb3JnLnNsZjRqLkxvZ2dlckZhY3Rvcnk7CgppbXBvcnQgamF2YS51dGlsLmZ1bmN0aW9uLkNvbnN1bWVyOwoKcHVibGljIGNsYXNzIEFjdG9yUGVyaW9kaWNUYXNrPFNUQVRFIGV4dGVuZHMgQWN0b3IuU3RhdGU8U1RBVEU+PiB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBMb2dnZXIgTE9HID0gTG9nZ2VyRmFjdG9yeS5nZXRMb2dnZXIoQWN0b3JQZXJpb2RpY1Rhc2suY2xhc3MpOwoKICAgIHByaXZhdGUgZmluYWwgQWN0b3I8U1RBVEU+IGFjdG9yOwogICAgcHJpdmF0ZSBmaW5hbCBpbnQgdGltZW91dE1zOwogICAgcHJpdmF0ZSBmaW5hbCBpbnQgdmFyaWF0aW9uTXM7CiAgICBwcml2YXRlIGZpbmFsIENvbnN1bWVyPFNUQVRFPiBvblRpbWVvdXQ7CiAgICBwcml2YXRlIEV2ZW50TG9vcC5TY2hlZHVsZWRKb2IgdGltZXI7CgogICAgcHJpdmF0ZSBsb25nIHZlcnNpb24gPSAwOwoKICAgIHB1YmxpYyBBY3RvclBlcmlvZGljVGFzayhBY3RvcjxTVEFURT4gYWN0b3IsIGludCB0aW1lb3V0TXMsIGludCB2YXJpYXRpb25NcywgQ29uc3VtZXI8U1RBVEU+IG9uVGltZW91dCkgewogICAgICAgIHRoaXMuYWN0b3IgPSBhY3RvcjsKICAgICAgICB0aGlzLnRpbWVvdXRNcyA9IHRpbWVvdXRNczsKICAgICAgICB0aGlzLnZhcmlhdGlvbk1zID0gdmFyaWF0aW9uTXM7CiAgICAgICAgdGhpcy5vblRpbWVvdXQgPSBvblRpbWVvdXQ7CiAgICAgICAgdGltZXIgPSBudWxsOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHJlc3RhcnQoKSB7CiAgICAgICAgc3RvcCgpOwogICAgICAgIHN0YXJ0KCk7CiAgICB9CgogICAgcHVibGljIHZvaWQgb25jZSgpIHsKICAgICAgICBzdG9wKCk7CiAgICAgICAgbG9uZyBleHBpcmVBdCA9IGNhbGN1bGF0ZUV4cGlyZUF0TWlsbGlzKCk7CiAgICAgICAgZmluYWwgbG9uZyB0YXNrVmVyc2lvbiA9ICsrdmVyc2lvbjsKICAgICAgICB0aW1lciA9IGFjdG9yLnNjaGVkdWxlKAogICAgICAgICAgICAgICAgZXhwaXJlQXQsCiAgICAgICAgICAgICAgICBzdGF0ZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHRhc2tWZXJzaW9uICE9IHZlcnNpb24pIHJldHVybjsKICAgICAgICAgICAgICAgICAgICBvblRpbWVvdXQuYWNjZXB0KHN0YXRlKTsKICAgICAgICAgICAgICAgIH0pOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHN0b3AoKSB7CiAgICAgICAgaWYgKHRpbWVyID09IG51bGwpIHJldHVybjsKICAgICAgICB2ZXJzaW9uKys7CiAgICAgICAgdGltZXIuY2FuY2VsKCk7CiAgICB9CgogICAgcHJpdmF0ZSBsb25nIGNhbGN1bGF0ZUV4cGlyZUF0TWlsbGlzKCkgewogICAgICAgIGxvbmcgdmFyaWF0aW9uTXMgPSB0aGlzLnZhcmlhdGlvbk1zID4gMCA/IEdsb2JhbFN5c3RlbS5yYW5kb20oKS5uZXh0SW50KHRoaXMudmFyaWF0aW9uTXMpICsgMSA6IDA7CiAgICAgICAgbG9uZyBjdXJyZW50TWlsbGlzID0gR2xvYmFsU3lzdGVtLnRpbWUoKTsKICAgICAgICByZXR1cm4gY3VycmVudE1pbGxpcyArIHRpbWVvdXRNcyArIHZhcmlhdGlvbk1zOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBzdGFydCgpIHsKICAgICAgICBsb25nIGV4cGlyZUF0ID0gY2FsY3VsYXRlRXhwaXJlQXRNaWxsaXMoKTsKICAgICAgICBmaW5hbCBsb25nIHRhc2tWZXJzaW9uID0gKyt2ZXJzaW9uOwogICAgICAgIHRpbWVyID0gYWN0b3Iuc2NoZWR1bGUoCiAgICAgICAgICAgICAgICBleHBpcmVBdCwKICAgICAgICAgICAgICAgIHN0YXRlIC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAodGFza1ZlcnNpb24gIT0gdmVyc2lvbikgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgIG9uVGltZW91dC5hY2NlcHQoc3RhdGUpOwogICAgICAgICAgICAgICAgICAgIHN0YXJ0KCk7IC8vIFRPRE8gZmluZCBhIGJldHRlciB3YXkgdG8gZG8gdGhpcwogICAgICAgICAgICAgICAgfSk7CiAgICB9Cn0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -465,9 +462,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>session</last-search>
+      <last-search>getCommit</last-search>
       <last-offset />
-      <last-pattern>session</last-pattern>
+      <last-pattern>getCommit</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
