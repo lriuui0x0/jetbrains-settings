@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxwaVw+</entry>
         <entry encoding="base64">XDxmblw+</entry>
         <entry encoding="base64">XDxhcHBcPg==</entry>
         <entry>is_sort</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDxzdWJzdFw+</entry>
         <entry>LET</entry>
         <entry encoding="base64">XDxMRVRcPg==</entry>
+        <entry encoding="base64">XDxsZXRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_ToggleBreakpoint()</entry>
@@ -182,12 +182,11 @@
       <file name="/Dummy.txt" timestamp="1604708688718">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1604749749384">
-        <mark key="'" line="11" column="7" />
-        <mark key="[" line="11" column="7" />
-        <mark key="]" line="11" column="8" />
-        <mark key="." line="11" column="7" />
-        <mark key="^" line="11" column="8" />
+      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1604750840706">
+        <mark key="'" line="9" column="5" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/thmp/code/core.cpp_dir/fragment.cpp" timestamp="1604703605825">
         <mark key="[" line="0" column="0" />
@@ -195,7 +194,7 @@
         <mark key="^" line="0" column="4" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/LLDB" timestamp="1604748990075">
+      <file name="/LLDB" timestamp="1604750781165">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/thmp/code/test.cpp" timestamp="1604364596543">
@@ -205,23 +204,23 @@
         <mark key="^" line="14" column="35" />
         <mark key="." line="14" column="34" />
       </file>
-      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604750055814">
-        <mark key="'" line="192" column="73" />
-        <mark key="[" line="191" column="43" />
-        <mark key="]" line="191" column="45" />
-        <mark key="." line="191" column="44" />
-        <mark key="^" line="191" column="45" />
+      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604751213121">
+        <mark key="[" line="188" column="0" />
+        <mark key="]" line="188" column="0" />
+        <mark key="." line="188" column="0" />
       </file>
       <file name="$USER_HOME$/thmp/code/test.cpp_dir/fragment.cpp" timestamp="1604353381432">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/thmp/notes/type_theory.md" timestamp="1604751224674">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="6" column="4" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="0" />
+        <mark key="." line="6" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="73" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="4" column="48" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="12" column="32" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="13" column="67" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="14" column="73" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="15" column="48" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="23" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="25" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
@@ -314,51 +313,56 @@
       <jump line="467" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="206" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="189" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="11" column="7" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="192" column="73" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="193" column="32" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="197" column="27" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="198" column="53" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="9" column="5" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="1" column="0" filename="$USER_HOME$/thmp/notes/type_theory.md" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>LET</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2UgaWYgKHNFeHByLT5saXN0LnNpemUgPT0gNCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBFeHByICpleHByID0gYWxsb2M8RXhwcj4oKTsKICAgICAgICAgICAgICAgICAgICBleHByLT50eXBlID0gRXhwclR5cGU6OkZOOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmFyZyA9IHBhcnNlX2V4cHIoJnNFeHByLT5saXN0LmRhdGFbMl0sIHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+Zm4uYXJnKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICphcnJheV9wdXNoKHZhcnMpID0gc0V4cHItPmxpc3QuZGF0YVsxXS5hdG9tOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmJvZHkgPSBwYXJzZV9leHByKCZzRXhwci0+bGlzdC5kYXRhWzNdLCB2YXJzKTsKICAgICAgICAgICAgICAgICAgICBhcnJheV9wb3AodmFycyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFleHByLT5mbi5ib2R5KQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBleHByOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="-" type="4">
-        <text>LET</text>
+        <text encoding="base64">ICA=</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxMRVRcPg==</text>
+        <text encoding="base64">XDxsZXRcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBFeHByICpleHByID0gYWxsb2M8RXhwcj4oKTsKICAgICAgICAgICAgICAgICAgICBleHByLT50eXBlID0gRXhwclR5cGU6OkxFVDsKICAgICAgICAgICAgICAgICAgICBleHByLT5sZXQuYXJnID0gcGFyc2VfZXhwcigmc0V4cHItPmxpc3QuZGF0YVsyXSwgdmFycyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFleHByLT5sZXQuYXJnKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGV4cHItPmxldC5zdWJzdCA9IHBhcnNlX2V4cHIoJnNFeHByLT5saXN0LmRhdGFbM10sIHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+bGV0LnN1YnN0KQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICphcnJheV9wdXNoKHZhcnMpID0gc0V4cHItPmxpc3QuZGF0YVsxXS5hdG9tOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmxldC5ib2R5ID0gcGFyc2VfZXhwcigmc0V4cHItPmxpc3QuZGF0YVs0XSwgdmFycyk7CiAgICAgICAgICAgICAgICAgICAgYXJyYXlfcG9wKHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+bGV0LmJvZHkpCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGV4cHI7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGVsc2UgaWYgKGV4cHItPnR5cGUgPT0gRXhwclR5cGU6OkxFVCkKICAgIHsKICAgICAgICByZXR1cm4gZXhwci0+c3Vic3QgIT0gbnVsbDsKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2UgaWYgKHNFeHByLT5saXN0LnNpemUgPT0gNCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBFeHByICpleHByID0gYWxsb2M8RXhwcj4oKTsKICAgICAgICAgICAgICAgICAgICBleHByLT50eXBlID0gRXhwclR5cGU6OkZOOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmFyZyA9IHBhcnNlX2V4cHIoJnNFeHByLT5saXN0LmRhdGFbMl0sIHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+Zm4uYXJnKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICphcnJheV9wdXNoKHZhcnMpID0gc0V4cHItPmxpc3QuZGF0YVsxXS5hdG9tOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmJvZHkgPSBwYXJzZV9leHByKCZzRXhwci0+bGlzdC5kYXRhWzNdLCB2YXJzKTsKICAgICAgICAgICAgICAgICAgICBhcnJheV9wb3AodmFycyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFleHByLT5mbi5ib2R5KQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBleHByOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">KGZuIHNkCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwciA9IHN1YnN0X2ZyZWUoZXhwci0+bGV0LmJvZHksIGV4cHItPmxldC5zdWJzdCk7Cg==</text>
+        <text encoding="base64">KGZuIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">KGxldCBuYXQgKgoobGV0IDAgYXQK</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">RXhwclR5cGU6OkFQUDsKICAgIA==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoIWV4cHItPmxldC5ib2R5KQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHByLT5mbi5zdWJzdCA9IG51bGw7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoIWV4cHItPmxldC5zdWJzdCkKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">LSBgbGV0IHg9YTpBIGluIE1gIHR5cGUgZG9lc24ndCBzZWVtIHRvIGJlIGVsZWdhbnQgdG8g</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGVsc2UgaWYgKGV4cHItPnR5cGUgPT0gRXhwclR5cGU6OkxFVCkKICAgIHsKICAgICAgICByZXR1cm4gZXhwci0+c3Vic3QgIT0gbnVsbDsKICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -367,9 +371,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxMRVRcPg==</last-search>
+      <last-search encoding="base64">XDxsZXRcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxMRVRcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxsZXRcPg==</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
