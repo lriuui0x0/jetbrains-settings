@@ -182,11 +182,12 @@
       <file name="/Dummy.txt" timestamp="1604708688718">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1604750840706">
-        <mark key="'" line="9" column="5" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1604845171347">
+        <mark key="'" line="7" column="15" />
+        <mark key="[" line="7" column="72" />
+        <mark key="]" line="7" column="73" />
+        <mark key="^" line="7" column="73" />
+        <mark key="." line="7" column="72" />
       </file>
       <file name="$USER_HOME$/thmp/code/core.cpp_dir/fragment.cpp" timestamp="1604703605825">
         <mark key="[" line="0" column="0" />
@@ -194,7 +195,7 @@
         <mark key="^" line="0" column="4" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/LLDB" timestamp="1604750781165">
+      <file name="/LLDB" timestamp="1604844501596">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/thmp/code/test.cpp" timestamp="1604364596543">
@@ -221,10 +222,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="15" column="48" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="23" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="25" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="34" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="35" column="12" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="40" column="35" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="41" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
@@ -238,7 +235,6 @@
       <jump line="210" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="196" column="20" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="209" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="5" column="67" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="16" column="57" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="42" column="19" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="30" column="11" filename="$USER_HOME$/thmp/proof/test.lisp" />
@@ -313,56 +309,61 @@
       <jump line="467" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="206" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="189" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="11" column="7" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="192" column="73" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="193" column="32" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="197" column="27" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="198" column="53" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="9" column="5" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="1" column="0" filename="$USER_HOME$/thmp/notes/type_theory.md" />
+      <jump line="11" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="9" column="5" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="5" column="27" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="0" column="25" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="12" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="8" column="15" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="2" column="41" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="7" column="15" filename="$USER_HOME$/thmp/proof/test.lisp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2UgaWYgKHNFeHByLT5saXN0LnNpemUgPT0gNCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBFeHByICpleHByID0gYWxsb2M8RXhwcj4oKTsKICAgICAgICAgICAgICAgICAgICBleHByLT50eXBlID0gRXhwclR5cGU6OkZOOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmFyZyA9IHBhcnNlX2V4cHIoJnNFeHByLT5saXN0LmRhdGFbMl0sIHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+Zm4uYXJnKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICphcnJheV9wdXNoKHZhcnMpID0gc0V4cHItPmxpc3QuZGF0YVsxXS5hdG9tOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmJvZHkgPSBwYXJzZV9leHByKCZzRXhwci0+bGlzdC5kYXRhWzNdLCB2YXJzKTsKICAgICAgICAgICAgICAgICAgICBhcnJheV9wb3AodmFycyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFleHByLT5mbi5ib2R5KQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBleHByOwogICAgICAgICAgICAgICAgfQo=</text>
+      <register name="&quot;" type="4">
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICA=</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxsZXRcPg==</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBFeHByICpleHByID0gYWxsb2M8RXhwcj4oKTsKICAgICAgICAgICAgICAgICAgICBleHByLT50eXBlID0gRXhwclR5cGU6OkxFVDsKICAgICAgICAgICAgICAgICAgICBleHByLT5sZXQuYXJnID0gcGFyc2VfZXhwcigmc0V4cHItPmxpc3QuZGF0YVsyXSwgdmFycyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFleHByLT5sZXQuYXJnKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGV4cHItPmxldC5zdWJzdCA9IHBhcnNlX2V4cHIoJnNFeHByLT5saXN0LmRhdGFbM10sIHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+bGV0LnN1YnN0KQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICphcnJheV9wdXNoKHZhcnMpID0gc0V4cHItPmxpc3QuZGF0YVsxXS5hdG9tOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmxldC5ib2R5ID0gcGFyc2VfZXhwcigmc0V4cHItPmxpc3QuZGF0YVs0XSwgdmFycyk7CiAgICAgICAgICAgICAgICAgICAgYXJyYXlfcG9wKHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+bGV0LmJvZHkpCiAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGV4cHI7Cg==</text>
+      <register name="0" type="4">
+        <text>pi A * (pi B * *)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVsc2UgaWYgKHNFeHByLT5saXN0LnNpemUgPT0gNCkKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBFeHByICpleHByID0gYWxsb2M8RXhwcj4oKTsKICAgICAgICAgICAgICAgICAgICBleHByLT50eXBlID0gRXhwclR5cGU6OkZOOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmFyZyA9IHBhcnNlX2V4cHIoJnNFeHByLT5saXN0LmRhdGFbMl0sIHZhcnMpOwogICAgICAgICAgICAgICAgICAgIGlmICghZXhwci0+Zm4uYXJnKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICphcnJheV9wdXNoKHZhcnMpID0gc0V4cHItPmxpc3QuZGF0YVsxXS5hdG9tOwogICAgICAgICAgICAgICAgICAgIGV4cHItPmZuLmJvZHkgPSBwYXJzZV9leHByKCZzRXhwci0+bGlzdC5kYXRhWzNdLCB2YXJzKTsKICAgICAgICAgICAgICAgICAgICBhcnJheV9wb3AodmFycyk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFleHByLT5mbi5ib2R5KQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBleHByOwogICAgICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">YWJzdXJkaXR5Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">KGZuIHNkCg==</text>
+        <text encoding="base64">KGxldCBhbmQtZWxpbTEgKHBpICogKikgKGZuIEEgKikKCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">KGZuIAo=</text>
+        <text encoding="base64">KGxldCBhbmQtZWxpbTEgKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">KGxldCBuYXQgKgoobGV0IDAgYXQK</text>
+        <text encoding="base64">YWJzdXJkaXR5Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoIWV4cHItPmxldC5ib2R5KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHByLT5mbi5zdWJzdCA9IG51bGw7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">LSBgbGV0IHg9YTpBIGluIE1gIHR5cGUgZG9lc24ndCBzZWVtIHRvIGJlIGVsZWdhbnQgdG8g</text>
+        <text encoding="base64">KCkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGVsc2UgaWYgKGV4cHItPnR5cGUgPT0gRXhwclR5cGU6OkxFVCkKICAgIHsKICAgICAgICByZXR1cm4gZXhwci0+c3Vic3QgIT0gbnVsbDsKICAgIH0K</text>
+        <text encoding="base64">KGxldCAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
