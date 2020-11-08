@@ -5,12 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZWR1Y2VcPg==</entry>
-        <entry encoding="base64">XDxzdWJzdF90eXBlXD4=</entry>
-        <entry encoding="base64">XDxlcXVhbHNcPg==</entry>
-        <entry encoding="base64">XDxyZWR1Y2VfZGVsdGFcPg==</entry>
-        <entry encoding="base64">XDx0eXBlXD4=</entry>
-        <entry encoding="base64">XDxfXD4=</entry>
         <entry encoding="base64">XDxhcmdcPg==</entry>
         <entry encoding="base64">XDxzdWJzdFw+</entry>
         <entry>LET</entry>
@@ -25,6 +19,12 @@
         <entry encoding="base64">XDxFeHByXD4=</entry>
         <entry encoding="base64">XDxhcnJheV9wdXNoXD4=</entry>
         <entry encoding="base64">XDxvclw+</entry>
+        <entry>(*</entry>
+        <entry>\(\*</entry>
+        <entry>(\*</entry>
+        <entry encoding="base64">XDxzRXhwclw+</entry>
+        <entry encoding="base64">XDxhYnN1cmRpdHlcPg==</entry>
+        <entry encoding="base64">XDxlbVw+</entry>
       </history-search>
       <history-cmd>
         <entry>call VimLLDB_ToggleBreakpoint()</entry>
@@ -35,13 +35,13 @@
         <entry>call VimLLDB_StepOut()</entry>
         <entry>@w</entry>
         <entry>ew</entry>
-        <entry>we</entry>
-        <entry>Lw</entry>
         <entry>/s/type/*/g</entry>
         <entry>wq</entry>
         <entry>vsw</entry>
         <entry>vs</entry>
         <entry>q</entry>
+        <entry>we</entry>
+        <entry>Lw</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -181,18 +181,18 @@
       <file name="vim_settings.xml" timestamp="1604620037590">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1604871642002">
+      <file name="/Dummy.txt" timestamp="1604872755511">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1604871641447">
-        <mark key="'" line="165" column="0" />
-        <mark key="[" line="1" column="2" />
-        <mark key="m" line="15" column="71" />
-        <mark key="]" line="6" column="28" />
-        <mark key="." line="6" column="27" />
-        <mark key="^" line="6" column="28" />
+      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1604874213354">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="178" column="8" />
+        <mark key="m" line="10" column="71" />
+        <mark key="]" line="178" column="12" />
+        <mark key="." line="178" column="11" />
+        <mark key="^" line="178" column="12" />
       </file>
       <file name="$USER_HOME$/thmp/code/lib/allocator.cpp" timestamp="1604857958193">
         <mark key="'" line="71" column="0" />
@@ -203,12 +203,12 @@
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/code/lib/string.cpp" timestamp="1604848408145">
+      <file name="$USER_HOME$/thmp/code/lib/string.cpp" timestamp="1604872110800">
         <mark key="'" line="119" column="0" />
-        <mark key="[" line="81" column="7" />
-        <mark key="]" line="81" column="14" />
-        <mark key="." line="81" column="13" />
-        <mark key="^" line="81" column="14" />
+        <mark key="[" line="73" column="13" />
+        <mark key="]" line="73" column="13" />
+        <mark key="." line="73" column="13" />
+        <mark key="^" line="67" column="10" />
       </file>
       <file name="$USER_HOME$/thmp/code/lib/allocator.cpp_dir/fragment.cpp" timestamp="1604857982701">
         <mark key="[" line="0" column="25" />
@@ -222,60 +222,36 @@
         <mark key="^" line="0" column="10" />
         <mark key="." line="0" column="9" />
       </file>
-      <file name="/LLDB" timestamp="1604871519301">
+      <file name="/LLDB" timestamp="1604874020012">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604871518010">
-        <mark key="'" line="247" column="16" />
-        <mark key="[" line="250" column="16" />
+      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604872580991">
+        <mark key="'" line="143" column="8" />
+        <mark key="[" line="141" column="0" />
         <mark key="m" line="519" column="24" />
-        <mark key="]" line="250" column="16" />
-        <mark key="." line="250" column="16" />
-        <mark key="^" line="248" column="66" />
+        <mark key="]" line="141" column="0" />
+        <mark key="." line="141" column="0" />
+        <mark key="^" line="141" column="18" />
+      </file>
+      <file name="$USER_HOME$/thmp/code/lib/array.cpp" timestamp="1604872526036">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="74" column="16" />
+        <mark key="]" line="74" column="10" />
+        <mark key="^" line="74" column="10" />
+        <mark key="." line="74" column="9" />
       </file>
       <file name="$USER_HOME$/thmp/code/test.cpp_dir/fragment.cpp" timestamp="1604849054545">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/notes/type_theory.md" timestamp="1604751224674">
+      <file name="$USER_HOME$/thmp/notes/type_theory.md" timestamp="1604874179150">
         <mark key="'" line="1" column="0" />
-        <mark key="[" line="6" column="4" />
-        <mark key="]" line="6" column="0" />
-        <mark key="^" line="6" column="0" />
-        <mark key="." line="6" column="0" />
+        <mark key="[" line="11" column="78" />
+        <mark key="]" line="11" column="78" />
+        <mark key="." line="11" column="78" />
+        <mark key="^" line="11" column="79" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="40" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="38" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="39" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="32" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="50" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="42" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="49" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="41" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="18" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="60" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="24" column="5" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="9" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="59" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="425" column="24" filename="$USER_HOME$/thmp/code/lib/allocator.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/thmp/code/lib/allocator.cpp" />
-      <jump line="64" column="6" filename="$USER_HOME$/thmp/code/lib/allocator.cpp" />
-      <jump line="71" column="0" filename="$USER_HOME$/thmp/code/lib/allocator.cpp" />
-      <jump line="51" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="70" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="64" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="66" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="68" column="52" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="71" column="17" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="69" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="73" column="6" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="89" column="15" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="61" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="67" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="13" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="85" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="81" column="7" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="76" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="80" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="75" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
@@ -288,7 +264,6 @@
       <jump line="97" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="103" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="115" column="56" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="44" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="761" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="787" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="92" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
@@ -301,7 +276,6 @@
       <jump line="132" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="52" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="104" column="23" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="102" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="106" column="6" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="138" column="24" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="108" column="14" filename="$USER_HOME$/thmp/proof/test.lisp" />
@@ -329,64 +303,97 @@
       <jump line="131" column="39" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="7" column="69" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="126" column="45" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="5" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="141" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="245" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="272" column="12" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="248" column="37" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="249" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="247" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="2" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="1" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="161" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="0" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="154" column="1" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="3" column="42" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="160" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="122" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="158" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="48" column="18" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="2" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="1" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="157" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="5" column="42" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="162" column="27" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="21" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="102" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="12" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="141" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="140" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="282" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="145" column="115" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="144" column="15" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="148" column="148" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="146" column="15" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/thmp/code/lib/array.cpp" />
+      <jump line="141" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="156" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="143" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="44" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="10" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="13" column="1" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="172" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="3" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="4" column="36" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="15" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="167" column="1" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="165" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="173" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="175" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="17" column="16" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="176" column="7" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="171" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="168" column="37" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="174" column="43" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="170" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="188" column="30" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="0" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cgo=</text>
+      <register name="&quot;" type="4">
+        <text>refl</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>refl</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxvclw+</text>
+        <text encoding="base64">XDxlbVw+</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">c0V4cHItPmxpc3Quc2l6ZSA+PSAy</text>
+      <register name="0" type="2">
+        <text encoding="base64">KGxldCBlcS1yZWZsIChwaSBTICogKHBpIHggUyAoZXEgUyB4IHgpKSkKICAgIChmbiBTICoKICAgIChmbiB4IFMKICAgIChmbiBQIChwaSBTICopCiAgICAobGV0IGggKGlmIChQIHgpIChQIHgpKSAoZm4gaDEgKFAgeCkgaDEpCiAgICAoaWZmLWludHJvIChQIHgpIChQIHgpIGggaCkKICAgICkpKSkKICAgIAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIAoK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIChmbiBoIChvciBBIEIpCiAgICAob3ItZWxpbSBBIEIgKG9yIEIgQSkgaCAoZm4gYSBBIChvci1pbnRyby0yIEIgQSBhKSkgKGZuIGIgQiAob3ItaW50cm8tMSBCIEEgYikpKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">KQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">IApm</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">KGxldCAKCg==</text>
+        <text encoding="base64">ICAgICAgICAvLyBOT1RFOiBTCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">KGxldAoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNFeHByLT5saXN0LmRhdGFbbm9uX2NvbW1lbnQrK10gPQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -395,9 +402,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxvclw+</last-search>
+      <last-search encoding="base64">XDxlbVw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxvclw+</last-pattern>
+      <last-pattern encoding="base64">XDxlbVw+</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
