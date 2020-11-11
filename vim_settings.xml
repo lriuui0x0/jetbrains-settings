@@ -196,12 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/server" timestamp="1604910877241">
-        <mark key="[" line="6" column="28" />
-        <mark key="]" line="6" column="35" />
-        <mark key="^" line="6" column="35" />
-        <mark key="." line="6" column="34" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" timestamp="1604911453521">
         <mark key="'" line="63" column="0" />
         <mark key="[" line="28" column="95" />
@@ -220,7 +214,7 @@
         <mark key="]" line="53" column="0" />
         <mark key="." line="53" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/console/printer/Printer.java" timestamp="1605095421193">
+      <file name="$USER_HOME$/GraknLabs/console/printer/Printer.java" timestamp="1605096148129">
         <mark key="[" line="19" column="0" />
         <mark key="]" line="19" column="0" />
         <mark key="." line="19" column="0" />
@@ -235,6 +229,12 @@
         <mark key="[" line="33" column="0" />
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/console/exception/GraknConsoleException.java" timestamp="1605095751203">
+        <mark key="[" line="28" column="16" />
+        <mark key="]" line="28" column="17" />
+        <mark key="." line="28" column="16" />
+        <mark key="^" line="28" column="17" />
       </file>
       <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1605050241163">
         <mark key="'" line="242" column="9" />
@@ -264,6 +264,13 @@
         <mark key="^" line="12" column="76" />
         <mark key="." line="12" column="75" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/console/ConsoleSession.java" timestamp="1605096127278">
+        <mark key="'" line="211" column="144" />
+        <mark key="[" line="360" column="47" />
+        <mark key="]" line="360" column="52" />
+        <mark key="." line="360" column="51" />
+        <mark key="^" line="360" column="52" />
+      </file>
       <file name="/Dummy." timestamp="1605082172946">
         <mark key="[" line="0" column="0" />
       </file>
@@ -292,6 +299,12 @@
         <mark key="[" line="38" column="10" />
         <mark key="]" line="38" column="78" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1605095768543">
+        <mark key="'" line="132" column="46" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+      </file>
       <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604951772514">
         <mark key="'" line="745" column="19" />
         <mark key="[" line="141" column="0" />
@@ -300,26 +313,8 @@
         <mark key="." line="141" column="0" />
         <mark key="^" line="141" column="18" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/BUILD" timestamp="1604911373036">
-        <mark key="[" line="2" column="16" />
-        <mark key="]" line="2" column="21" />
-        <mark key="." line="2" column="20" />
-        <mark key="^" line="2" column="21" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/BUILD" timestamp="1604910677709">
-        <mark key="'" line="28" column="0" />
-        <mark key="[" line="9" column="23" />
-        <mark key="]" line="9" column="28" />
-        <mark key="." line="9" column="27" />
-        <mark key="^" line="9" column="28" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="4" column="36" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="15" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="167" column="1" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="165" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="175" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="17" column="16" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="168" column="37" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="174" column="43" filename="$USER_HOME$/thmp/proof/test.lisp" />
@@ -415,12 +410,17 @@
       <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/console/test/BUILD" />
       <jump line="34" column="0" filename="$USER_HOME$/GraknLabs/console/.circleci/config.yml" />
       <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/console/.circleci/config.yml" />
+      <jump line="107" column="12" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="96" column="53" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="132" column="46" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="111" column="18" filename="$USER_HOME$/GraknLabs/console/ConsoleSession.java" />
+      <jump line="211" column="144" filename="$USER_HOME$/GraknLabs/console/ConsoleSession.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLgo=</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5HcmFrbkNsaWVudDsKaW1wb3J0IGdyYWtuLmNsaWVudC5hbnN3ZXIuQW5zd2VyR3JvdXA7CmltcG9ydCBncmFrbi5jbGllbnQuYW5zd2VyLkNvbmNlcHRMaXN0OwppbXBvcnQgZ3Jha24uY2xpZW50LmFuc3dlci5Db25jZXB0TWFwOwppbXBvcnQgZ3Jha24uY2xpZW50LmFuc3dlci5Db25jZXB0U2V0OwppbXBvcnQgZ3Jha24uY2xpZW50LmFuc3dlci5Db25jZXB0U2V0TWVhc3VyZTsKaW1wb3J0IGdyYWtuLmNsaWVudC5hbnN3ZXIuTnVtZXJpYzsKaW1wb3J0IGdyYWtuLmNsaWVudC5hbnN3ZXIuVm9pZDsK</text>
       </register>
       <register name="+" type="4">
         <text>bazel run @graknlabs_dependencies//distribution/artifact:create-netrc</text>
@@ -429,7 +429,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ImdyYWtubGFic19ncmFxbCIsIA==</text>
+        <text>stream</text>
       </register>
       <register name="/" type="4">
         <text>check</text>
@@ -443,7 +443,7 @@
         <text encoding="base64">ICAgIChmbiBhIEEK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLgo=</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5HcmFrbkNsaWVudDsKaW1wb3J0IGdyYWtuLmNsaWVudC5hbnN3ZXIuQW5zd2VyR3JvdXA7CmltcG9ydCBncmFrbi5jbGllbnQuYW5zd2VyLkNvbmNlcHRMaXN0OwppbXBvcnQgZ3Jha24uY2xpZW50LmFuc3dlci5Db25jZXB0TWFwOwppbXBvcnQgZ3Jha24uY2xpZW50LmFuc3dlci5Db25jZXB0U2V0OwppbXBvcnQgZ3Jha24uY2xpZW50LmFuc3dlci5Db25jZXB0U2V0TWVhc3VyZTsKaW1wb3J0IGdyYWtuLmNsaWVudC5hbnN3ZXIuTnVtZXJpYzsKaW1wb3J0IGdyYWtuLmNsaWVudC5hbnN3ZXIuVm9pZDsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -472,28 +472,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG5ldyBHcmFrbkNsaWVudAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Y2hlY2tzdHlsZV90ZXN0KAogICAgbmFtZSA9ICJjaGVja3N0eWxlIiwKICAgIHRhcmdldHMgPSBbCiAgICAgICAgIjpncmFrbi1jb25zb2xlLWl0IiwKICAgIF0sCikK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5HcmFrbkNsaWVudDsKaW1wb3J0IGdyYWtuLmNsaWVudC5leGNlcHRpb24uR3Jha25DbGllbnRFeGNlcHRpb247Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGV4Y2x1ZGUgPSBnbG9iKFsiZG9jcy8qIl0pLAo=</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5leGNlcHRpb24uR3Jha25DbGllbnRFeGNlcHRpb247Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Y2hlY2tzdHlsZV90ZXN0KAogICAgbmFtZSA9ICJjaGVja3N0eWxlIiwKICAgIHRhcmdldHMgPSBbCiAgICAgICAgIjpjb25zb2xlIiwKICAgIF0sCikK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5HcmFrbkNsaWVudDsKaW1wb3J0IGdyYWtuLmNsaWVudC5leGNlcHRpb24uR3Jha25DbGllbnRFeGNlcHRpb247Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Y2hlY2tzdHlsZV90ZXN0KAogICAgbmFtZSA9ICJjaGVja3N0eWxlIiwKICAgIHRhcmdldHMgPSBbCiAgICAgICAgIjpjb25zb2xlIiwKICAgIF0sCikK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Z3Jha25sYWJzX2dyYXFsKCkK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Z3Jha25sYWJzX2dyYXFsKCkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGVmIGdyYWtubGFic19ncmFxbCgpOgogICAgZ2l0X3JlcG9zaXRvcnkoCiAgICAgICAgbmFtZSA9ICJncmFrbmxhYnNfZ3JhcWwiLAogICAgICAgIHJlbW90ZSA9ICJodHRwczovL2dpdGh1Yi5jb20vZ3Jha25sYWJzL2dyYXFsIiwKICAgICAgICBjb21taXQgPSAiNzZmYTg3NTdiYmI5N2Q3NDQ3YTI1ZDYzMGU0MzRkMmFjNWQzZWUzMyIgIyBzeW5jLW1hcmtlcjogZG8gbm90IHJlbW92ZSB0aGlzIGNvbW1lbnQsIHRoaXMgaXMgdXNlZCBmb3Igc3luYy1kZXBlbmRlbmNpZXMgYnkgQGdyYWtubGFic19ncmFxbAogICAgKQoK</text>
+        <text encoding="base64">Y2hlY2tzdHlsZV90ZXN0KAogICAgbmFtZSA9ICJjaGVja3N0eWxlIiwKICAgIHRhcmdldHMgPSBbCiAgICAgICAgIjpncmFrbi1jb25zb2xlLWl0IiwKICAgIF0sCikK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
