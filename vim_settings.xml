@@ -1,53 +1,48 @@
 <application>
   <component name="VimEditorSettings">
-    <editor>
-      <key-repeat enabled="true" />
-    </editor>
+    <editor />
   </component>
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>replicate</entry>
-        <entry>iterate</entry>
-        <entry>getWrite</entry>
-        <entry>getCommit</entry>
-        <entry encoding="base64">XDx3cml0ZUJhdGNoV2l0aEluZGV4XD4=</entry>
-        <entry>getWriteBatch</entry>
-        <entry>openWriteBatch</entry>
-        <entry encoding="base64">XDxpbmZvXD4=</entry>
-        <entry encoding="base64">XDxmb3JFYWNoT3BlcmF0aW9uXD4=</entry>
-        <entry>getData</entry>
-        <entry>KeyValue</entry>
-        <entry>commit</entry>
-        <entry>empty</entry>
-        <entry encoding="base64">XDxTZXJpYWxpc2VyXD4=</entry>
-        <entry encoding="base64">XDxLZXlWYWx1ZVw+</entry>
-        <entry>keyvalue</entry>
-        <entry encoding="base64">XDxsb2dcPg==</entry>
-        <entry encoding="base64">XDxSUENDbGllbnRcPg==</entry>
-        <entry>dev</entry>
-        <entry encoding="base64">XDxyb290QWN0b3JcPg==</entry>
+        <entry encoding="base64">XDxzdWJzdFw+</entry>
+        <entry>LET</entry>
+        <entry encoding="base64">XDxMRVRcPg==</entry>
+        <entry encoding="base64">XDxsZXRcPg==</entry>
+        <entry encoding="base64">XDxnZXRfdmFyX2FyZ1w+</entry>
+        <entry encoding="base64">XDxzaGlmdFw+</entry>
+        <entry encoding="base64">XDxyZWR1Y2VfYmV0YVw+</entry>
+        <entry encoding="base64">XDxnZXRfdmFyX2FycmF5X2luZGV4XD4=</entry>
+        <entry>array_push</entry>
+        <entry encoding="base64">XDxhcnJheV9wb3BcPg==</entry>
+        <entry encoding="base64">XDxFeHByXD4=</entry>
+        <entry encoding="base64">XDxhcnJheV9wdXNoXD4=</entry>
+        <entry encoding="base64">XDxvclw+</entry>
+        <entry>(*</entry>
+        <entry>\(\*</entry>
+        <entry>(\*</entry>
+        <entry encoding="base64">XDxzRXhwclw+</entry>
+        <entry encoding="base64">XDxhYnN1cmRpdHlcPg==</entry>
+        <entry encoding="base64">XDxlbVw+</entry>
+        <entry encoding="base64">XDxhbGxcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>wi</entry>
-        <entry>q\</entry>
-        <entry>;w</entry>
-        <entry>v</entry>
-        <entry>wj</entry>
-        <entry encoding="base64">JzwsJz53</entry>
-        <entry>w:</entry>
-        <entry>W</entry>
-        <entry>w:w</entry>
-        <entry>w\:w</entry>
-        <entry>2</entry>
-        <entry>b</entry>
-        <entry>ww</entry>
-        <entry>w\</entry>
-        <entry>w]</entry>
+        <entry>call VimLLDB_ToggleBreakpoint()</entry>
+        <entry>call VimLLDB_StepOver()</entry>
+        <entry>call VimLLDB_Kill()</entry>
+        <entry>call VimLLDB_Resume()</entry>
+        <entry>call VimLLDB_StepInto()</entry>
+        <entry>call VimLLDB_StepOut()</entry>
+        <entry>ew</entry>
+        <entry>/s/type/*/g</entry>
+        <entry>vsw</entry>
         <entry>vs</entry>
-        <entry>Q</entry>
-        <entry>.,.+1w</entry>
         <entry>q</entry>
+        <entry>Lw</entry>
+        <entry>wq</entry>
+        <entry>w3</entry>
+        <entry>we</entry>
+        <entry>@w</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -57,22 +52,46 @@
   <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Z</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed COMMA</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
         <text>ctrl pressed OPEN_BRACKET</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed V</text>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed J</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed D</text>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Q</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed U</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>ctrl pressed B</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>ctrl pressed J</text>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed K</text>
@@ -82,6 +101,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed B</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed W</text>
@@ -103,6 +125,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed BACK_SPACE</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed O</text>
@@ -146,348 +171,235 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed I</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed SEMICOLON</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>shift ctrl pressed SEMICOLON</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed Q</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed R</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed M</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed X</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed J</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed BACK_SPACE</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed Z</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed B</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed COMMA</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed N</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed C</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed V</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed L</text>
-      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftAssert.java" timestamp="1604657814554">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
+      <file name="/GDB" timestamp="1604270042231">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/server" timestamp="1604910877241">
-        <mark key="[" line="6" column="28" />
-        <mark key="]" line="6" column="35" />
-        <mark key="^" line="6" column="35" />
-        <mark key="." line="6" column="34" />
+      <file name="vim_settings.xml" timestamp="1604620037590">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" timestamp="1604911453521">
-        <mark key="'" line="63" column="0" />
-        <mark key="[" line="28" column="95" />
-        <mark key="]" line="28" column="104" />
-        <mark key="." line="28" column="103" />
-        <mark key="^" line="28" column="104" />
+      <file name="/Dummy.txt" timestamp="1604879782285">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/BUILD" timestamp="1604658816290">
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="51" column="37" />
-        <mark key="." line="51" column="0" />
+      <file name="$USER_HOME$/thmp/code/core.py" timestamp="1605050103168">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="3" />
+        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" timestamp="1604662357284">
-        <mark key="'" line="46" column="0" />
-        <mark key="[" line="22" column="83" />
-        <mark key="]" line="22" column="83" />
-        <mark key="." line="22" column="82" />
-        <mark key="^" line="22" column="83" />
+      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1605050241163">
+        <mark key="'" line="242" column="9" />
+        <mark key="[" line="256" column="8" />
+        <mark key="]" line="256" column="12" />
+        <mark key="." line="256" column="11" />
+        <mark key="^" line="256" column="12" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/BUILD" timestamp="1604658806754">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/thmp/code/lib/allocator.cpp" timestamp="1604857958193">
+        <mark key="'" line="71" column="0" />
+        <mark key="m" line="425" column="24" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/unit/RaftTestKit.java" timestamp="1604657828169">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
+      <file name="$USER_HOME$/thmp/code/test.cpp" timestamp="1604849070943">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Transaction.java" timestamp="1604670276395">
-        <mark key="[" line="157" column="0" />
-        <mark key="]" line="157" column="0" />
-        <mark key="." line="157" column="0" />
+      <file name="$USER_HOME$/thmp/code/lib/string.cpp" timestamp="1604872110800">
+        <mark key="'" line="119" column="0" />
+        <mark key="[" line="73" column="13" />
+        <mark key="]" line="73" column="13" />
+        <mark key="." line="73" column="13" />
+        <mark key="^" line="67" column="10" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" timestamp="1604662320573">
-        <mark key="'" line="66" column="37" />
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
-        <mark key="^" line="89" column="31" />
+      <file name="$USER_HOME$/thmp/code/lib/allocator.cpp_dir/fragment.cpp" timestamp="1604857982701">
+        <mark key="[" line="0" column="25" />
+        <mark key="]" line="0" column="26" />
+        <mark key="^" line="0" column="26" />
+        <mark key="." line="0" column="25" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/Session.java" timestamp="1604669866581" />
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/conf/grakn.properties" timestamp="1604911461253">
-        <mark key="[" line="2" column="23" />
-        <mark key="]" line="2" column="32" />
-        <mark key="." line="2" column="31" />
-        <mark key="^" line="2" column="32" />
+      <file name="$USER_HOME$/thmp/code/core.cpp_dir/fragment.cpp" timestamp="1604952004004">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="24" />
+        <mark key="^" line="0" column="24" />
+        <mark key="." line="0" column="23" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/GraknServer.java" timestamp="1604662378619">
-        <mark key="'" line="133" column="101" />
+      <file name="/LLDB" timestamp="1604954344967">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/DatabaseManager.java" timestamp="1604657790572">
-        <mark key="'" line="24" column="0" />
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
-        <mark key="^" line="31" column="24" />
+      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1604951772514">
+        <mark key="'" line="745" column="19" />
+        <mark key="[" line="141" column="0" />
+        <mark key="m" line="519" column="24" />
+        <mark key="]" line="141" column="0" />
+        <mark key="." line="141" column="0" />
+        <mark key="^" line="141" column="18" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerDefaults.java" timestamp="1604911485885">
-        <mark key="[" line="12" column="67" />
-        <mark key="]" line="12" column="76" />
-        <mark key="^" line="12" column="76" />
-        <mark key="." line="12" column="75" />
+      <file name="$USER_HOME$/thmp/code/lib/array.cpp" timestamp="1604872526036">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="74" column="16" />
+        <mark key="]" line="74" column="10" />
+        <mark key="^" line="74" column="10" />
+        <mark key="." line="74" column="9" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/.grabl/automation.yml" timestamp="1604658125295">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="0" />
-        <mark key="." line="13" column="0" />
+      <file name="$USER_HOME$/thmp/code/test.cpp_dir/fragment.cpp" timestamp="1604849054545">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" timestamp="1604662363300">
-        <mark key="'" line="146" column="0" />
-        <mark key="[" line="15" column="64" />
-        <mark key="]" line="15" column="64" />
-        <mark key="." line="15" column="68" />
-        <mark key="^" line="14" column="71" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/grakn" timestamp="1604911562902">
-        <mark key="[" line="6" column="69" />
-        <mark key="]" line="6" column="75" />
-        <mark key="^" line="6" column="75" />
-        <mark key="." line="6" column="74" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/database/BUILD" timestamp="1604658782082">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="37" />
-        <mark key="." line="9" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/BUILD" timestamp="1604911373036">
-        <mark key="[" line="2" column="16" />
-        <mark key="]" line="2" column="21" />
-        <mark key="." line="2" column="20" />
-        <mark key="^" line="2" column="21" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/BUILD" timestamp="1604910677709">
-        <mark key="'" line="28" column="0" />
-        <mark key="[" line="9" column="23" />
-        <mark key="]" line="9" column="28" />
-        <mark key="." line="9" column="27" />
-        <mark key="^" line="9" column="28" />
+      <file name="$USER_HOME$/thmp/notes/type_theory.md" timestamp="1604955450303">
+        <mark key="'" line="21" column="138" />
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
+        <mark key="^" line="25" column="151" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="440" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="416" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="448" column="29" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="450" column="38" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="447" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="390" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="564" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="563" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="470" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="386" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="468" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="384" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="376" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="326" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="271" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="328" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="373" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="383" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="659" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="648" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="365" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="367" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="349" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="335" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="344" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="351" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="369" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="394" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="359" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="387" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="395" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="408" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="467" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="404" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="485" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="486" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="399" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="374" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="402" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
-      <jump line="5" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="64" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="54" column="42" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="37" column="11" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="28" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="29" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="35" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="34" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/execution/ActorPeriodicTask.java" />
-      <jump line="16" column="21" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/config/Config.java" />
-      <jump line="3" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/config/Config.java" />
-      <jump line="82" column="30" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/config/Config.java" />
-      <jump line="2" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/common/PeriodicTask.java" />
-      <jump line="31" column="13" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/common/PeriodicTask.java" />
-      <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/common/PeriodicTask.java" />
-      <jump line="67" column="22" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/test/simulation/component/SimulatedConnections.java" />
-      <jump line="27" column="11" filename="$USER_HOME$/GraknLabs/grakn-cluster/replicator/Peers.java" />
-      <jump line="31" column="29" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/KeyValueReplicator.java" />
-      <jump line="28" column="39" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/KeyValueReplicator.java" />
-      <jump line="30" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Grakn.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/DatabaseManager.java" />
-      <jump line="20" column="62" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="17" column="34" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="24" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/BUILD" />
-      <jump line="40" column="48" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="244" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="74" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="55" column="195" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="39" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="41" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="54" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="64" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="66" column="37" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/Database.java" />
-      <jump line="37" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="35" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="6" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="5" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="10" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="13" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="18" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="12" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="63" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="4" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="9" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="15" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="28" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="32" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="36" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="40" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/resources/cpu/Threads.java" />
-      <jump line="13" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" />
-      <jump line="146" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/database/component/test/ZeroMQConnectionsTest.java" />
-      <jump line="133" column="101" filename="$USER_HOME$/GraknLabs/grakn-cluster/server/GraknServer.java" />
-      <jump line="22" column="12" filename="$USER_HOME$/GraknLabs/grakn-cluster/BUILD" />
-      <jump line="28" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/BUILD" />
+      <jump line="282" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="145" column="115" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="144" column="15" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="148" column="148" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="146" column="15" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/thmp/code/lib/array.cpp" />
+      <jump line="141" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="156" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="143" column="8" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="44" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="13" column="1" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="4" column="36" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="15" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="167" column="1" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="165" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="175" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="17" column="16" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="168" column="37" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="174" column="43" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="170" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="176" column="7" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="171" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="72" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="69" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="77" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="71" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="87" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="182" column="37" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="183" column="14" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="114" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="192" column="42" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="184" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="185" column="8" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="179" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="178" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="195" column="12" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="197" column="22" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="198" column="8" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="199" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="196" column="8" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="201" column="8" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="204" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="206" column="12" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="188" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="202" column="40" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="210" column="31" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="187" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="216" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="209" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="208" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="224" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="228" column="48" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="232" column="63" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="256" column="16" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="218" column="100" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="226" column="35" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="229" column="8" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="230" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="233" column="8" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="231" column="8" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="234" column="25" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="235" column="12" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="219" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="5" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="239" column="33" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="1" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="107" column="5" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="237" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="240" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="241" column="13" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="245" column="35" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="189" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="244" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="247" column="36" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="169" column="37" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="172" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="252" column="49" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="173" column="10" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="251" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="261" column="37" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="257" column="42" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="10" column="25" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="253" column="50" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="11" column="21" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="255" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="9" column="37" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="12" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="745" column="19" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="19" column="0" filename="$USER_HOME$/thmp/notes/type_theory.md" />
+      <jump line="259" column="43" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="21" column="138" filename="$USER_HOME$/thmp/notes/type_theory.md" />
+      <jump line="3" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="254" column="101" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="258" column="43" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="227" column="4" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="260" column="44" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="256" column="146" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="265" column="44" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="0" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
+      <jump line="242" column="9" filename="$USER_HOME$/thmp/proof/test.lisp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>grakn</text>
-      </register>
-      <register name="+" type="4">
-        <text>127.0.0.1:1730</text>
-      </register>
-      <register name="l" type="4">
-        <text>a</text>
+      <register name="&quot;" type="2">
+        <text>def</text>
       </register>
       <register name="-" type="4">
-        <text>grakn</text>
+        <text>A</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxOT19FTFNFXD4=</text>
-      </register>
-      <register name="o" type="4">
-        <keys>
-          <key char="65535" code="91" mods="130" />
-        </keys>
+        <text encoding="base64">XDxhbGxcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19jb21tb24vLzpjb21tb24iLAo=</text>
+        <text encoding="base64">ICAgIChmbiBhIEEK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3B0aW9ucy4K</text>
-      </register>
-      <register name="q" type="4">
-        <keys>
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="65535" code="65" mods="130" />
-          <key char="94" code="0" mods="0" />
-          <key char="106" code="0" mods="0" />
-        </keys>
+        <text>def</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text>def sadfa</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3B0aW9ucy4K</text>
+        <text encoding="base64">ICAgKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3B0aW9ucy4K</text>
+        <text encoding="base64">KGxldCByZWMgKHBpIEEgKiAocGkgYSBBIChwaSBmIChwaSBBIEEpIChoYXMhIChwaSBuYXQgQSkgKGZuIGggKHBpIG5hdCBBKSAoYW5kIChlcSBBIChoIDApIGEpIChhbGwgbmF0IChmbiBuIG5hdCAoZXEgQSAoaCAocyBuKSkgKGYgKGggbikpKSkpKSkpKSkpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgb3B0aW9ucy4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19jb21tb24vLzpjb21tb24iLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19jb21tb24vLzpjb21tb24iLAo=</text>
+        <text encoding="base64">KGxldCBwcm9wIChwaSAqICopIChmbiBTICogKHBpIFMgKikpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHRlc3QtZXhlY3V0aW9uOgogICAgICBtYWNoaW5lOiBncmFrbmxhYnMtdWJ1bnR1LTIwLjA0CiAgICAgIHNjcmlwdDogfAogICAgICAgIGJhemVsIHRlc3QgLS1jb25maWc9cmJlIC8vZXhlY3V0aW9uLy4uLiAtLXRlc3Rfb3V0cHV0PWVycm9ycwo=</text>
+        <text encoding="base64">YGBgCgpgYGAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsdXN0ZXIuZXhlY3V0aW9uLmV2ZW50bG9vcC5FdmVudExvb3BHcm91cDsK</text>
+        <text encoding="base64">KGxldCBwcm9wIChwaSAqICopIChmbiBTICogKHBpIFMgKikpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -496,9 +408,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxOT19FTFNFXD4=</last-search>
+      <last-search encoding="base64">XDxhbGxcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxOT19FTFNFXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxhbGxcPg==</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
