@@ -1,48 +1,53 @@
 <application>
   <component name="VimEditorSettings">
-    <editor />
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
   </component>
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdWJzdFw+</entry>
-        <entry>LET</entry>
-        <entry encoding="base64">XDxMRVRcPg==</entry>
-        <entry encoding="base64">XDxsZXRcPg==</entry>
-        <entry encoding="base64">XDxnZXRfdmFyX2FyZ1w+</entry>
-        <entry encoding="base64">XDxzaGlmdFw+</entry>
-        <entry encoding="base64">XDxyZWR1Y2VfYmV0YVw+</entry>
-        <entry encoding="base64">XDxnZXRfdmFyX2FycmF5X2luZGV4XD4=</entry>
-        <entry>array_push</entry>
-        <entry encoding="base64">XDxhcnJheV9wb3BcPg==</entry>
-        <entry encoding="base64">XDxFeHByXD4=</entry>
-        <entry encoding="base64">XDxhcnJheV9wdXNoXD4=</entry>
-        <entry encoding="base64">XDxvclw+</entry>
-        <entry>(*</entry>
-        <entry>\(\*</entry>
-        <entry>(\*</entry>
-        <entry encoding="base64">XDxzRXhwclw+</entry>
-        <entry encoding="base64">XDxhYnN1cmRpdHlcPg==</entry>
-        <entry encoding="base64">XDxlbVw+</entry>
-        <entry encoding="base64">XDxhbGxcPg==</entry>
+        <entry>replicate</entry>
+        <entry>iterate</entry>
+        <entry>getWrite</entry>
+        <entry>getCommit</entry>
+        <entry encoding="base64">XDx3cml0ZUJhdGNoV2l0aEluZGV4XD4=</entry>
+        <entry>getWriteBatch</entry>
+        <entry>openWriteBatch</entry>
+        <entry encoding="base64">XDxpbmZvXD4=</entry>
+        <entry encoding="base64">XDxmb3JFYWNoT3BlcmF0aW9uXD4=</entry>
+        <entry>getData</entry>
+        <entry>KeyValue</entry>
+        <entry>commit</entry>
+        <entry>empty</entry>
+        <entry encoding="base64">XDxTZXJpYWxpc2VyXD4=</entry>
+        <entry encoding="base64">XDxLZXlWYWx1ZVw+</entry>
+        <entry>keyvalue</entry>
+        <entry encoding="base64">XDxsb2dcPg==</entry>
+        <entry encoding="base64">XDxSUENDbGllbnRcPg==</entry>
+        <entry>dev</entry>
+        <entry encoding="base64">XDxyb290QWN0b3JcPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>call VimLLDB_ToggleBreakpoint()</entry>
-        <entry>call VimLLDB_StepOver()</entry>
-        <entry>call VimLLDB_Kill()</entry>
-        <entry>call VimLLDB_Resume()</entry>
-        <entry>call VimLLDB_StepInto()</entry>
-        <entry>call VimLLDB_StepOut()</entry>
-        <entry>ew</entry>
-        <entry>/s/type/*/g</entry>
-        <entry>vsw</entry>
+        <entry>wi</entry>
+        <entry>q\</entry>
+        <entry>;w</entry>
+        <entry>v</entry>
+        <entry>wj</entry>
+        <entry encoding="base64">JzwsJz53</entry>
+        <entry>w:</entry>
+        <entry>W</entry>
+        <entry>w:w</entry>
+        <entry>w\:w</entry>
+        <entry>2</entry>
+        <entry>b</entry>
+        <entry>ww</entry>
+        <entry>w\</entry>
+        <entry>w]</entry>
         <entry>vs</entry>
+        <entry>Q</entry>
+        <entry>.,.+1w</entry>
         <entry>q</entry>
-        <entry>Lw</entry>
-        <entry>wq</entry>
-        <entry>w3</entry>
-        <entry>we</entry>
-        <entry>@w</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -52,46 +57,22 @@
   <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
-        <text>ctrl pressed D</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed X</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed J</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed B</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed N</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed Z</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed C</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed M</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed COMMA</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="vim">
         <text>ctrl pressed OPEN_BRACKET</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>ctrl pressed J</text>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed Q</text>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed U</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed V</text>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed J</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed K</text>
@@ -101,9 +82,6 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed A</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>ctrl pressed B</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed W</text>
@@ -125,9 +103,6 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed Y</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed BACK_SPACE</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed O</text>
@@ -171,27 +146,123 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed I</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed SEMICOLON</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>shift ctrl pressed SEMICOLON</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed BACK_SPACE</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Z</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed COMMA</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed L</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/GDB" timestamp="1604270042231">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="vim_settings.xml" timestamp="1604620037590">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/server" timestamp="1604910877241">
+        <mark key="[" line="6" column="28" />
+        <mark key="]" line="6" column="35" />
+        <mark key="^" line="6" column="35" />
+        <mark key="." line="6" column="34" />
       </file>
       <file name="/Dummy.txt" timestamp="1604879782285">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/code/core.py" timestamp="1605050103168">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerOptions.java" timestamp="1604911453521">
+        <mark key="'" line="63" column="0" />
+        <mark key="[" line="28" column="95" />
+        <mark key="]" line="28" column="104" />
+        <mark key="." line="28" column="103" />
+        <mark key="^" line="28" column="104" />
+      </file>
+      <file name="$USER_HOME$/thmp/code/test.cpp" timestamp="1604849070943">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
+      </file>
+      <file name="$USER_HOME$/thmp/code/core.cpp_dir/fragment.cpp" timestamp="1604952004004">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="0" column="3" />
-        <mark key="." line="0" column="0" />
+        <mark key="]" line="0" column="24" />
+        <mark key="^" line="0" column="24" />
+        <mark key="." line="0" column="23" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/util/ServerDefaults.java" timestamp="1604911485885">
+        <mark key="[" line="12" column="67" />
+        <mark key="]" line="12" column="76" />
+        <mark key="^" line="12" column="76" />
+        <mark key="." line="12" column="75" />
+      </file>
+      <file name="$USER_HOME$/thmp/code/lib/allocator.cpp_dir/fragment.cpp" timestamp="1604857982701">
+        <mark key="[" line="0" column="25" />
+        <mark key="]" line="0" column="26" />
+        <mark key="^" line="0" column="26" />
+        <mark key="." line="0" column="25" />
+      </file>
+      <file name="$USER_HOME$/thmp/code/lib/allocator.cpp" timestamp="1604857958193">
+        <mark key="'" line="71" column="0" />
+        <mark key="m" line="425" column="24" />
+      </file>
+      <file name="$USER_HOME$/thmp/code/lib/array.cpp" timestamp="1604872526036">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="74" column="16" />
+        <mark key="]" line="74" column="10" />
+        <mark key="^" line="74" column="10" />
+        <mark key="." line="74" column="9" />
+      </file>
+      <file name="/Dummy." timestamp="1605082172946">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/thmp/notes/type_theory.md" timestamp="1604955450303">
+        <mark key="'" line="21" column="138" />
+        <mark key="[" line="26" column="0" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
+        <mark key="^" line="25" column="151" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/grakn" timestamp="1604911562902">
+        <mark key="[" line="6" column="69" />
+        <mark key="]" line="6" column="75" />
+        <mark key="^" line="6" column="75" />
+        <mark key="." line="6" column="74" />
       </file>
       <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1605050241163">
         <mark key="'" line="242" column="9" />
@@ -200,33 +271,12 @@
         <mark key="." line="256" column="11" />
         <mark key="^" line="256" column="12" />
       </file>
-      <file name="$USER_HOME$/thmp/code/lib/allocator.cpp" timestamp="1604857958193">
-        <mark key="'" line="71" column="0" />
-        <mark key="m" line="425" column="24" />
-      </file>
-      <file name="$USER_HOME$/thmp/code/test.cpp" timestamp="1604849070943">
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
-      </file>
       <file name="$USER_HOME$/thmp/code/lib/string.cpp" timestamp="1604872110800">
         <mark key="'" line="119" column="0" />
         <mark key="[" line="73" column="13" />
         <mark key="]" line="73" column="13" />
         <mark key="." line="73" column="13" />
         <mark key="^" line="67" column="10" />
-      </file>
-      <file name="$USER_HOME$/thmp/code/lib/allocator.cpp_dir/fragment.cpp" timestamp="1604857982701">
-        <mark key="[" line="0" column="25" />
-        <mark key="]" line="0" column="26" />
-        <mark key="^" line="0" column="26" />
-        <mark key="." line="0" column="25" />
-      </file>
-      <file name="$USER_HOME$/thmp/code/core.cpp_dir/fragment.cpp" timestamp="1604952004004">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="24" />
-        <mark key="^" line="0" column="24" />
-        <mark key="." line="0" column="23" />
       </file>
       <file name="/LLDB" timestamp="1604954344967">
         <mark key="[" line="0" column="0" />
@@ -239,22 +289,30 @@
         <mark key="." line="141" column="0" />
         <mark key="^" line="141" column="18" />
       </file>
-      <file name="$USER_HOME$/thmp/code/lib/array.cpp" timestamp="1604872526036">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="74" column="16" />
-        <mark key="]" line="74" column="10" />
-        <mark key="^" line="74" column="10" />
-        <mark key="." line="74" column="9" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/conf/grakn.properties" timestamp="1604911461253">
+        <mark key="[" line="2" column="23" />
+        <mark key="]" line="2" column="32" />
+        <mark key="." line="2" column="31" />
+        <mark key="^" line="2" column="32" />
       </file>
-      <file name="$USER_HOME$/thmp/code/test.cpp_dir/fragment.cpp" timestamp="1604849054545">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/server/BUILD" timestamp="1604911373036">
+        <mark key="[" line="2" column="16" />
+        <mark key="]" line="2" column="21" />
+        <mark key="." line="2" column="20" />
+        <mark key="^" line="2" column="21" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/BUILD" timestamp="1604910677709">
+        <mark key="'" line="28" column="0" />
+        <mark key="[" line="9" column="23" />
+        <mark key="]" line="9" column="28" />
+        <mark key="." line="9" column="27" />
+        <mark key="^" line="9" column="28" />
+      </file>
+      <file name="$USER_HOME$/thmp/code/core.py" timestamp="1605050103168">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/thmp/notes/type_theory.md" timestamp="1604955450303">
-        <mark key="'" line="21" column="138" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
-        <mark key="^" line="25" column="151" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="3" />
+        <mark key="." line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -365,17 +423,54 @@
       <register name="&quot;" type="2">
         <text>def</text>
       </register>
+      <register name="+" type="4">
+        <text>127.0.0.1:1730</text>
+      </register>
+      <register name="l" type="4">
+        <text>a</text>
+      </register>
       <register name="-" type="4">
         <text>A</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxhbGxcPg==</text>
       </register>
+      <register name="o" type="4">
+        <keys>
+          <key char="65535" code="91" mods="130" />
+        </keys>
+      </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIChmbiBhIEEK</text>
       </register>
       <register name="1" type="2">
         <text>def</text>
+      </register>
+      <register name="q" type="4">
+        <keys>
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="65535" code="65" mods="130" />
+          <key char="94" code="0" mods="0" />
+          <key char="106" code="0" mods="0" />
+        </keys>
       </register>
       <register name="2" type="2">
         <text>def sadfa</text>
