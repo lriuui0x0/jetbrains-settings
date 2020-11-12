@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>getWriteBatch</entry>
-        <entry>openWriteBatch</entry>
         <entry encoding="base64">XDxpbmZvXD4=</entry>
         <entry encoding="base64">XDxmb3JFYWNoT3BlcmF0aW9uXD4=</entry>
         <entry>getData</entry>
@@ -27,6 +25,8 @@
         <entry>config</entry>
         <entry>server</entry>
         <entry>grakn</entry>
+        <entry>callWidge</entry>
+        <entry>redraw</entry>
       </history-search>
       <history-cmd>
         <entry>wi</entry>
@@ -246,17 +246,11 @@
         <mark key="^" line="2" column="5" />
         <mark key="." line="2" column="25" />
       </file>
-      <file name="/LLDB" timestamp="1604954344967">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/console/impl/DefaultPrinter.java" timestamp="1605182413384">
         <mark key="'" line="55" column="33" />
       </file>
-      <file name="$USER_HOME$/thmp/code/core.py" timestamp="1605050103168">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="0" column="3" />
-        <mark key="." line="0" column="0" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/reader/impl/LineReaderImpl.java" timestamp="1605185684749">
+        <mark key="'" line="125" column="45" />
       </file>
       <file name="$USER_HOME$/GraknLabs/console/ConsoleSession.java" timestamp="1605096683264">
         <mark key="'" line="211" column="144" />
@@ -277,31 +271,27 @@
         <mark key="^" line="110" column="0" />
         <mark key="." line="107" column="70" />
       </file>
-      <file name="$USER_HOME$/thmp/notes/type_theory.md" timestamp="1604955450303">
-        <mark key="'" line="21" column="138" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
-        <mark key="^" line="25" column="151" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/reader/impl/BufferImpl.java" timestamp="1605186037799">
+        <mark key="'" line="226" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/console/.circleci/config.yml" timestamp="1605095168382">
         <mark key="'" line="33" column="0" />
         <mark key="[" line="38" column="10" />
         <mark key="]" line="38" column="78" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1605183199780">
-        <mark key="'" line="58" column="15" />
-        <mark key="[" line="49" column="35" />
-        <mark key="]" line="49" column="45" />
-        <mark key="." line="49" column="44" />
-        <mark key="^" line="49" column="45" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/widget/AutopairWidgets.java" timestamp="1605186381299">
+        <mark key="[" line="119" column="27" />
+        <mark key="]" line="119" column="50" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1605187018157">
+        <mark key="'" line="63" column="0" />
+        <mark key="[" line="63" column="65" />
+        <mark key="]" line="63" column="67" />
+        <mark key="." line="63" column="66" />
+        <mark key="^" line="63" column="67" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="10" filename="$USER_HOME$/GraknLabs/console/test/BUILD" />
-      <jump line="217" column="64" filename="$USER_HOME$/GraknLabs/console/BUILD" />
-      <jump line="71" column="0" filename="$USER_HOME$/GraknLabs/console/BUILD" />
-      <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/console/test/BUILD" />
       <jump line="34" column="0" filename="$USER_HOME$/GraknLabs/console/.circleci/config.yml" />
       <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/console/.circleci/config.yml" />
       <jump line="96" column="53" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
@@ -316,9 +306,7 @@
       <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
-      <jump line="61" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
-      <jump line="68" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="71" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="51" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
@@ -398,12 +386,18 @@
       <jump line="52" column="4" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="55" column="33" filename="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/console/impl/DefaultPrinter.java" />
       <jump line="58" column="15" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="68" column="28" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="61" column="53" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="125" column="45" filename="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/reader/impl/LineReaderImpl.java" />
+      <jump line="226" column="0" filename="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/reader/impl/BufferImpl.java" />
+      <jump line="64" column="34" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="63" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybjsK</text>
+      <register name="&quot;" type="4">
+        <text>t</text>
       </register>
       <register name="+" type="4">
         <text>hamcrest</text>
@@ -412,10 +406,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>Prin</text>
+        <text>t</text>
       </register>
       <register name="/" type="4">
-        <text>grakn</text>
+        <text>redraw</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -423,10 +417,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5leGl0KDApOwo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuamxpbmUua2V5bWFwLktleU1hcC5hbHQ7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHRydWU7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -455,28 +449,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIElnbm9yZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVhZGVyLmNhbGxXaWRnZXQoTGluZVJlYWRlci5CQUNLV0FSRF9DSEFSKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuamxpbmUua2V5bWFwLjsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3RyaW5nIGxpbmUgPSBsaW5lUmVhZGVyLnJlYWRMaW5lKCI+ICIpOwogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4obGluZSk7Cg==</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBQcmludGVyIHByaW50ZXIgPSBuZXcgRGVmYXVsdFByaW50ZXIoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYnVmZmVyKCkuY2xlYXIoKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5yZWFkZXIgPSByZWFkOwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYnVmZmVyKCkuOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBDb25zb2xlUmVhZGVyIGNvbnNvbGUgPSBuZXcgQ29uc29sZVJlYWRlcihTeXN0ZW0uaW4sIFN5c3RlbS5vdXQpOwogICAgICAgIGNvbnNvbGUucHJpbnQoQ09QWVJJR0hUKTsKICAgICAgICBjb25zb2xlLnNldFByb21wdCgiPiAiKTsKICAgICAgICBTdHJpbmcgaW5wdXQ7CiAgICAgICAgd2hpbGUgKChpbnB1dCA9IGNvbnNvbGUucmVhZExpbmUoKSkgIT0gbnVsbCkgewogICAgICAgICAgICBjb25zb2xlLnByaW50bG4oaW5wdXQpOwogICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgYnVmZmVyKCkud3JpdGUoImhlbGxvIik7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -485,9 +479,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>grakn</last-search>
+      <last-search>redraw</last-search>
       <last-offset />
-      <last-pattern>grakn</last-pattern>
+      <last-pattern>redraw</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
