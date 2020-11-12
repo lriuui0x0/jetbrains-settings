@@ -42,12 +42,12 @@
         <entry>2</entry>
         <entry>b</entry>
         <entry>ww</entry>
-        <entry>w\</entry>
         <entry>w]</entry>
         <entry>vs</entry>
         <entry>Q</entry>
         <entry>.,.+1w</entry>
         <entry>q</entry>
+        <entry>w\</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -196,11 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/console/test/BUILD" timestamp="1605094517177">
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/console/printer/Printer.java" timestamp="1605097084191">
         <mark key="[" line="109" column="35" />
         <mark key="]" line="109" column="41" />
@@ -233,13 +228,6 @@
         <mark key="^" line="91" column="30" />
         <mark key="." line="91" column="29" />
       </file>
-      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1605050241163">
-        <mark key="'" line="242" column="9" />
-        <mark key="[" line="256" column="8" />
-        <mark key="]" line="256" column="12" />
-        <mark key="." line="256" column="11" />
-        <mark key="^" line="256" column="12" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/console/dependencies/maven/artifacts.bzl" timestamp="1605177042596">
         <mark key="[" line="2" column="25" />
         <mark key="]" line="2" column="25" />
@@ -252,6 +240,17 @@
       <file name="/private/var/tmp/_bazel_lriuui0x0/201ae33e1e851ed58546c79c5fd9207b/external/maven/v1/https/repo1.maven.org/maven2/org/jline/jline/3.17.1/jline-3.17.1-sources.jar!/org/jline/reader/impl/LineReaderImpl.java" timestamp="1605185684749">
         <mark key="'" line="125" column="45" />
       </file>
+      <file name="/Dummy.txt" timestamp="1605193638321">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/console/dependencies/graknlabs/artifacts.bzl" timestamp="1605192874253">
+        <mark key="[" line="27" column="58" />
+        <mark key="]" line="27" column="58" />
+        <mark key="^" line="27" column="20" />
+        <mark key="." line="27" column="58" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/console/ConsoleSession.java" timestamp="1605096683264">
         <mark key="'" line="211" column="144" />
       </file>
@@ -260,9 +259,6 @@
         <mark key="]" line="0" column="5" />
         <mark key="." line="0" column="4" />
         <mark key="^" line="0" column="5" />
-      </file>
-      <file name="/Dummy." timestamp="1605082172946">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/console/WORKSPACE" timestamp="1605099717292">
         <mark key="'" line="111" column="4" />
@@ -283,16 +279,21 @@
         <mark key="[" line="119" column="27" />
         <mark key="]" line="119" column="50" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1605190074716">
-        <mark key="'" line="59" column="0" />
-        <mark key="[" line="41" column="78" />
-        <mark key="]" line="41" column="78" />
-        <mark key="." line="41" column="78" />
-        <mark key="^" line="41" column="50" />
+      <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1605194194971">
+        <mark key="'" line="43" column="52" />
+        <mark key="[" line="53" column="0" />
+        <mark key="]" line="53" column="0" />
+        <mark key="." line="53" column="0" />
+        <mark key="^" line="53" column="42" />
+      </file>
+      <file name="/fragment.java" timestamp="1605193887178">
+        <mark key="[" line="0" column="6" />
+        <mark key="]" line="0" column="6" />
+        <mark key="^" line="0" column="6" />
+        <mark key="." line="0" column="5" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/console/.circleci/config.yml" />
       <jump line="96" column="53" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="132" column="46" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="111" column="18" filename="$USER_HOME$/GraknLabs/console/ConsoleSession.java" />
@@ -330,7 +331,6 @@
       <jump line="42" column="12" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="40" column="19" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="49" column="8" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
-      <jump line="43" column="52" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="49" column="20" filename="$USER_HOME$/GraknLabs/console/BUILD" />
       <jump line="135" column="0" filename="$USER_HOME$/GraknLabs/console/BUILD" />
       <jump line="147" column="14" filename="$USER_HOME$/GraknLabs/console/BUILD" />
@@ -392,12 +392,14 @@
       <jump line="64" column="34" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="63" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="59" column="0" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="50" column="91" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="43" column="52" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICB9Cgo=</text>
       </register>
       <register name="+" type="4">
         <text>hamcrest</text>
@@ -406,7 +408,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>No ctrl-c</text>
       </register>
       <register name="/" type="4">
         <text>redraw</text>
@@ -416,11 +418,11 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuamxpbmUua2V5bWFwLktleU1hcC5hbHQ7Cg==</text>
+      <register name="0" type="4">
+        <text>Use command 'exit' to exit to console</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBNeVdpZGdldHMgd2lkZ2V0cyA9IG5ldyBNeVdpZGdldHMobGluZVJlYWRlcik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICB9Cgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -449,28 +451,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBwdWJsaWMgYm9vbGVhbiB0ZXN0V2lkZ2V0KCkgewogICAgICAgICAgICByZWFkZXIuY2FsbFdpZGdldChMaW5lUmVhZGVyLkJBQ0tXQVJEX0NIQVIpOwogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNsaWVudC5kYXRhYmFzZXMoKS5jcmVhdGUoKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgY2xhc3MgTXlXaWRnZXRzIGV4dGVuZHMgV2lkZ2V0cyB7CiAgICAgICAgcHVibGljIE15V2lkZ2V0cyhMaW5lUmVhZGVyIHJlYWRlcikgewogICAgICAgICAgICBzdXBlcihyZWFkZXIpOwogICAgICAgICAgICBhZGRXaWRnZXQoInRlc3Qtd2lkZ2V0IiwgdGhpczo6dGVzdFdpZGdldCk7CiAgICAgICAgICAgIGdldEtleU1hcCgpLmJpbmQobmV3IFJlZmVyZW5jZSgidGVzdC13aWRnZXQiKSwgYWx0KCdcbicpKTsKICAgICAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHRydWU7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFRocmVhZC5zbGVlcCgxMDAwMCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVhZGVyLmNhbGxXaWRnZXQoTGluZVJlYWRlci5CQUNLV0FSRF9DSEFSKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBvcmcuamxpbmUua2V5bWFwLjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYnVmZmVyKCkuY2xlYXIoKTsK</text>
+      <register name="8" type="4">
+        <text encoding="base64">CiAgICAgICAg</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5yZWFkZXIgPSByZWFkOwo=</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oQ09QWVJJR0hUKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
