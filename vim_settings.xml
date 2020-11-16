@@ -196,16 +196,18 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1605480874087">
+      <file name="/Dummy.txt" timestamp="1605547155995">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/console/Printer.java" timestamp="1605547038081">
-        <mark key="'" line="31" column="21" />
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
+      <file name="$USER_HOME$/GraknLabs/console/Printer.java" timestamp="1605547459048">
+        <mark key="'" line="45" column="76" />
+        <mark key="[" line="45" column="27" />
+        <mark key="]" line="45" column="46" />
+        <mark key="." line="45" column="45" />
+        <mark key="^" line="45" column="46" />
       </file>
       <file name="$USER_HOME$/thmp/code/test.cpp" timestamp="1605470507206">
         <mark key="'" line="6" column="0" />
@@ -323,10 +325,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="12" filename="$USER_HOME$/thm100/index.html" />
-      <jump line="84" column="14" filename="$USER_HOME$/thm100/index.html" />
-      <jump line="89" column="5" filename="$USER_HOME$/thm100/index.html" />
-      <jump line="9" column="0" filename="$USER_HOME$/thm100/index.html" />
       <jump line="18" column="0" filename="$USER_HOME$/thm100/index.html" />
       <jump line="12" column="43" filename="$USER_HOME$/thm100/index.html" />
       <jump line="26" column="26" filename="$USER_HOME$/thm100/index.html" />
@@ -423,12 +421,16 @@
       <jump line="84" column="71" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="106" column="4" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="65" column="46" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="42" column="68" filename="$USER_HOME$/GraknLabs/console/Printer.java" />
+      <jump line="43" column="40" filename="$USER_HOME$/GraknLabs/console/Printer.java" />
+      <jump line="47" column="8" filename="$USER_HOME$/GraknLabs/console/Printer.java" />
+      <jump line="45" column="76" filename="$USER_HOME$/GraknLabs/console/Printer.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>builder</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">dGhlb3JlbSBhbmRfY29tbSAocCBxOiBQcm9wKTogcCDiiKcgcSDihpQgcSDiiKcgcCA6PQppZmYuaW50cm8KICAoYXNzdW1lIEhwcSA6IHAg4oinIHEsCiAgICBhbmQuaW50cm8gKGFuZC5lbGltX3JpZ2h0IEhwcSkgKGFuZC5lbGltX2xlZnQgSHBxKSkKICAoYXNzdW1lIEhxcCA6IHEg4oinIHAsCiAgICBhbmQuaW50cm8gKGFuZC5lbGltX3JpZ2h0IEhxcCkgKGFuZC5lbGltX2xlZnQgSHFwKSkK</text>
@@ -437,7 +439,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>String</text>
+        <text>builder</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxyZWFkZXJcPg==</text>
@@ -451,7 +453,7 @@
         <text encoding="base64">ICAgICAgICBMaW5lUmVhZGVyIHJlYWRlciA9IExpbmVSZWFkZXJCdWlsZGVyLmJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnRlcm1pbmFsKHRlcm1pbmFsKQogICAgICAgICAgICAgICAgLnZhcmlhYmxlKExpbmVSZWFkZXIuSElTVE9SWV9GSUxFLCBQYXRocy5nZXQoIn4vLmdyYWtuLWNvbnNvbGUtaGlzdG9yeSIpLnRvQWJzb2x1dGVQYXRoKCkpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uZQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -480,28 +482,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBjb25jZXB0TWFwLgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25jZXB0TWFwLgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZWFkZXIuZ2V0QnVmZmVyKCkuZmwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgQ29uY2VwdCBjOwogICAgICAgICAgICAgICAgYy5hc1RoaW5nKCkuYXNSZW1vdGUodHgpLgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbmNlcHQgYzsKCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGMuYXNSZW1vdGUodHgpLgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBDb25jZXB0IGM7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZWFkZXIuZ2V0QnVmZmVyKCkuZmwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjLmFzVGhpbmcoKS4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgQ29uY2VwdCBjOwogICAgICAgICAgICAgICAgYy5hc1RoaW5nKCkuYXNSZW1vdGUodHgpLgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
