@@ -43,9 +43,9 @@
         <entry>w3</entry>
         <entry>we</entry>
         <entry>vs</entry>
+        <entry>q</entry>
         <entry>call OpenTerminal()</entry>
         <entry>Lw</entry>
-        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -196,10 +196,10 @@
         <mark key="^" line="0" column="3" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1605656722010">
-        <mark key="'" line="21" column="29" />
-        <mark key="[" line="236" column="0" />
-        <mark key="]" line="238" column="100" />
+      <file name="$USER_HOME$/thmp/proof/test.lisp" timestamp="1605573742707">
+        <mark key="'" line="47" column="27" />
+        <mark key="[" line="36" column="11" />
+        <mark key="]" line="36" column="5" />
         <mark key="." line="36" column="4" />
         <mark key="^" line="36" column="5" />
       </file>
@@ -253,13 +253,13 @@
       <file name="/LLDB" timestamp="1605470512404">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1605646211061">
+      <file name="$USER_HOME$/thmp/code/core.cpp" timestamp="1605470516932">
         <mark key="'" line="949" column="0" />
         <mark key="k" line="468" column="0" />
-        <mark key="[" line="908" column="111" />
+        <mark key="[" line="432" column="37" />
         <mark key="m" line="492" column="0" />
-        <mark key="]" line="908" column="112" />
-        <mark key="." line="908" column="112" />
+        <mark key="]" line="432" column="37" />
+        <mark key="." line="432" column="40" />
         <mark key="^" line="430" column="40" />
       </file>
       <file name="$USER_HOME$/thmp/code/lib/array.cpp" timestamp="1604872526036">
@@ -281,6 +281,9 @@
       </file>
     </filemarks>
     <jumps>
+      <jump line="428" column="14" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="439" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
+      <jump line="379" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="474" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="472" column="4" filename="$USER_HOME$/thmp/code/core.cpp" />
       <jump line="462" column="0" filename="$USER_HOME$/thmp/code/core.cpp" />
@@ -378,18 +381,15 @@
       <jump line="29" column="42" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="34" column="49" filename="$USER_HOME$/thmp/proof/test.lisp" />
       <jump line="47" column="27" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="125" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="18" column="0" filename="$USER_HOME$/thmp/proof/test.lisp" />
-      <jump line="21" column="29" filename="$USER_HOME$/thmp/proof/test.lisp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">KGF4bS1uYXQtMSAoYWxsIG5hdCAoZm4gbiBuYXQgKG5lIG5hdCAocyBuKSAwKSkpKQooYXhtLW5hdC0yIChhbGwgbmF0IChmbiBuIG5hdCAoYWxsIG5hdCAoZm4gbSBuYXQgKGlmIChlcSBuYXQgKHMgbikgKHMgbSkpIChlcSBuYXQgbiBtKSkpKSkpKQooYXhtLW5hdC0zIChwaSBQIChwaSBuYXQgKikgKHBpIChhbmQgKFAgMCkgKGFsbCBuYXQgKGZuIG4gbmF0IChwaSAoUCBuKSAoUCAocyBuKSkpKSkpIChhbGwgbmF0IFApKSkpCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IGdldCBhcm91bmQgdGhlIGZhY3QgdGhhdCB3ZSBuZWVkIGEgcmVjdXJzaXZlIGZ1bmN0aW9uIA==</text>
       </register>
       <register name="+" type="2">
-        <text encoding="base64">KGF4bS1uYXQtMSAoYWxsIG5hdCAoZm4gbiBuYXQgKG5lIG5hdCAocyBuKSAwKSkpKQooYXhtLW5hdC0yIChhbGwgbmF0IChmbiBuIG5hdCAoYWxsIG5hdCAoZm4gbSBuYXQgKGlmIChlcSBuYXQgKHMgbikgKHMgbSkpIChlcSBuYXQgbiBtKSkpKSkpKQooYXhtLW5hdC0zIChwaSBQIChwaSBuYXQgKikgKHBpIChhbmQgKFAgMCkgKGFsbCBuYXQgKGZuIG4gbmF0IChwaSAoUCBuKSAoUCAocyBuKSkpKSkpIChhbGwgbmF0IFApKSkpCg==</text>
+        <text encoding="base64">dGhlb3JlbSBhbmRfY29tbSAocCBxOiBQcm9wKTogcCDiiKcgcSDihpQgcSDiiKcgcCA6PQppZmYuaW50cm8KICAoYXNzdW1lIEhwcSA6IHAg4oinIHEsCiAgICBhbmQuaW50cm8gKGFuZC5lbGltX3JpZ2h0IEhwcSkgKGFuZC5lbGltX2xlZnQgSHBxKSkKICAoYXNzdW1lIEhxcCA6IHEg4oinIHAsCiAgICBhbmQuaW50cm8gKGFuZC5lbGltX3JpZ2h0IEhxcCkgKGFuZC5lbGltX2xlZnQgSHFwKSkK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IGdldCBhcm91bmQgdGhlIGZhY3QgdGhhdCB3ZSBuZWVkIGEgcmVjdXJzaXZlIGZ1bmN0aW9uIA==</text>
@@ -398,7 +398,7 @@
         <text encoding="base64">XDx0ZXN0XD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">KGVxIChwaSBTICogKHBpIHggUyAocGkgeSBTICopKSkKICAgIChmbiBTICogKGZuIHggUyAoZm4geSBTIChwaSBQIChwaSBTICopIChpZmYgKFAgeCkgKFAgeSkpKSkpKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29uc29sZS5sb2coJ2NyZWF0ZWQgZmlsZXMnKTsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
