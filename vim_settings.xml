@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDx3b3Jkc1w+</entry>
-        <entry encoding="base64">XDx0eExpbmVcPg==</entry>
-        <entry>termina</entry>
-        <entry>terminal</entry>
         <entry encoding="base64">XDxEYXRhYmFzZUNyZWF0ZVw+</entry>
         <entry encoding="base64">XDxzZXNzaW9uVHlwZVw+</entry>
         <entry encoding="base64">XDxpbXBsZW1lbnRzXD4=</entry>
@@ -27,6 +23,10 @@
         <entry>check</entry>
         <entry encoding="base64">XDxkZXZlbG9wbWVudFw+</entry>
         <entry>master</entry>
+        <entry>test</entry>
+        <entry>test-ing</entry>
+        <entry encoding="base64">XDxpbnRlZ3JhdGlvblw+</entry>
+        <entry>integration</entry>
       </history-search>
       <history-cmd>
         <entry>;w</entry>
@@ -232,12 +232,12 @@
         <mark key="." line="37" column="58" />
         <mark key="^" line="37" column="20" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" timestamp="1605640735921">
-        <mark key="'" line="8" column="16" />
-        <mark key="[" line="8" column="16" />
-        <mark key="]" line="8" column="16" />
-        <mark key="." line="8" column="21" />
+      <file name="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" timestamp="1605641818646">
+        <mark key="'" line="33" column="26" />
+        <mark key="[" line="61" column="26" />
+        <mark key="]" line="61" column="26" />
         <mark key="^" line="30" column="22" />
+        <mark key="." line="61" column="26" />
       </file>
       <file name="$USER_HOME$/GraknLabs/console/conf/logback/logback.xml" timestamp="1605636899220">
         <mark key="'" line="18" column="15" />
@@ -323,9 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="12" filename="$USER_HOME$/GraknLabs/console/TransactionReplCommand.java" />
-      <jump line="115" column="4" filename="$USER_HOME$/GraknLabs/console/ReplCommand.java" />
-      <jump line="37" column="21" filename="$USER_HOME$/GraknLabs/console/Console.java" />
       <jump line="38" column="0" filename="$USER_HOME$/GraknLabs/console/Console.java" />
       <jump line="45" column="0" filename="$USER_HOME$/GraknLabs/console/Console.java" />
       <jump line="51" column="0" filename="$USER_HOME$/GraknLabs/console/Console.java" />
@@ -423,12 +420,15 @@
       <jump line="58" column="16" filename="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" />
       <jump line="73" column="12" filename="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" />
       <jump line="8" column="16" filename="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" />
+      <jump line="38" column="59" filename="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" />
+      <jump line="61" column="33" filename="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" />
+      <jump line="33" column="26" filename="$USER_HOME$/GraknLabs/console/.grabl/automation.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>development</text>
+        <text>, test-integration</text>
       </register>
       <register name="+" type="4">
         <text>3fff3fb8e039cf735b134c60127cf8337b4f5f1b</text>
@@ -437,10 +437,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>development</text>
+        <text>, test-integration</text>
       </register>
       <register name="/" type="4">
-        <text>master</text>
+        <text>integration</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -451,7 +451,7 @@
         <text encoding="base64">ICAgICAgZmlsdGVyOgogICAgICAgIG93bmVyOiBncmFrbmxhYnMKICAgICAgICBicmFuY2g6IGRldmVsb3BtZW50Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZmlsdGVyOgogICAgICAgIG93bmVyOiBncmFrbmxhYnMKICAgICAgICBicmFuY2g6IG1hc3Rlcgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -483,16 +483,16 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IwojIENvcHlyaWdodCAoQykgMjAyMCBHcmFrbiBMYWJzCiMKIyBUaGlzIHByb2dyYW0gaXMgZnJlZSBzb2Z0d2FyZTogeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQojIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiMgTGljZW5zZSwgb3IgKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4KIwojIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAojIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiMgTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQojIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgojCiMgWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiMgYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgojCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKi8KCg==</text>
+        <text encoding="base64">IwojIENvcHlyaWdodCAoQykgMjAyMCBHcmFrbiBMYWJzCiMKIyBUaGlzIHByb2dyYW0gaXMgZnJlZSBzb2Z0d2FyZTogeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQojIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiMgTGljZW5zZSwgb3IgKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4KIwojIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAojIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiMgTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQojIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgojCiMgWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiMgYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgojCg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKi8KCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBleGVjdXRpb246CiAgICAtIGJ1aWxkCiAgICAtIGRlcGxveS1hcnRpZmFjdC1zbmFwc2hvdAogICAgLSBkZXBsb3ktYXB0LXNuYXBzaG90CiAgICAtIGRlcGxveS1ycG0tc25hcHNob3QK</text>
+        <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKi8KCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICBleGVjdXRpb246CiAgICAtIGJ1aWxkCiAgICAtIGRlcGxveS1hcnRpZmFjdC1zbmFwc2hvdAogICAgLSBkZXBsb3ktYXB0LXNuYXBzaG90CiAgICAtIGRlcGxveS1ycG0tc25hcHNob3QK</text>
@@ -501,7 +501,7 @@
         <text encoding="base64">ICBleGVjdXRpb246CiAgICAtIGJ1aWxkCiAgICAtIGRlcGxveS1hcnRpZmFjdC1zbmFwc2hvdAogICAgLSBkZXBsb3ktYXB0LXNuYXBzaG90CiAgICAtIGRlcGxveS1ycG0tc25hcHNob3QK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIC0gdGVzdC1pbnRlZ3JhdGlvbgo=</text>
+        <text encoding="base64">ICBleGVjdXRpb246CiAgICAtIGJ1aWxkCiAgICAtIGRlcGxveS1hcnRpZmFjdC1zbmFwc2hvdAogICAgLSBkZXBsb3ktYXB0LXNuYXBzaG90CiAgICAtIGRlcGxveS1ycG0tc25hcHNob3QK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -510,9 +510,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>master</last-search>
+      <last-search>integration</last-search>
       <last-offset />
-      <last-pattern>master</last-pattern>
+      <last-pattern>integration</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
