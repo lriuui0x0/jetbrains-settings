@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxsb25nXD4=</entry>
         <entry encoding="base64">XDxpbnNlcnRTZXNzaW9uT3Blblw+</entry>
         <entry encoding="base64">XDxsZW5ndGhcPg==</entry>
         <entry encoding="base64">XDxyZWFkRGF0YVw+</entry>
@@ -27,6 +26,7 @@
         <entry>getInstances</entry>
         <entry encoding="base64">XDxyZXF1ZXN0T2JzZXJ2ZXJcPg==</entry>
         <entry>manual</entry>
+        <entry encoding="base64">XDxHcmVldFNlcnZlclw+</entry>
       </history-search>
       <history-cmd>
         <entry>;w</entry>
@@ -47,8 +47,8 @@
         <entry encoding="base64">JzwsJz53</entry>
         <entry>vs</entry>
         <entry>w:w</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -236,12 +236,6 @@
         <mark key="." line="76" column="0" />
         <mark key="^" line="56" column="26" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" timestamp="1605866406832">
-        <mark key="'" line="67" column="0" />
-        <mark key="[" line="220" column="0" />
-        <mark key="]" line="220" column="20" />
-        <mark key="." line="220" column="20" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/GraknRPCService.java" timestamp="1605871437261">
         <mark key="[" line="46" column="37" />
         <mark key="]" line="46" column="60" />
@@ -261,6 +255,12 @@
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/dependencies/maven/artifacts.snapshot" timestamp="1605869333324">
         <mark key="'" line="25" column="55" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grpc-java/test-tcp/src/main/java/Main.java" timestamp="1605881474330">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1605873363265">
         <mark key="[" line="0" column="0" />
@@ -307,10 +307,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="32" filename="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" />
-      <jump line="137" column="8" filename="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" />
-      <jump line="69" column="0" filename="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" />
-      <jump line="50" column="89" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/EntityTypeImpl.java" />
       <jump line="101" column="4" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/EntityTypeImpl.java" />
       <jump line="134" column="25" filename="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" />
       <jump line="139" column="37" filename="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" />
@@ -407,12 +403,16 @@
       <jump line="31" column="37" filename="$USER_HOME$/GraknLabs/grpc-java/examples/src/main/java/io/grpc/examples/manualflowcontrol/ManualFlowControlClient.java" />
       <jump line="84" column="2" filename="$USER_HOME$/GraknLabs/grpc-java/examples/src/main/java/io/grpc/examples/manualflowcontrol/ManualFlowControlClient.java" />
       <jump line="35" column="69" filename="$USER_HOME$/GraknLabs/grpc-java/examples/src/main/java/io/grpc/examples/manualflowcontrol/ManualFlowControlClient.java" />
+      <jump line="27" column="8" filename="$USER_HOME$/GraknLabs/grpc-java/test-tcp/src/main/java/Main.java" />
+      <jump line="0" column="16" filename="$USER_HOME$/GraknLabs/grpc-java/test-tcp/src/main/java/Main.java" />
+      <jump line="15" column="56" filename="$USER_HOME$/GraknLabs/grpc-java/test-tcp/src/main/java/Main.java" />
+      <jump line="3" column="0" filename="$USER_HOME$/GraknLabs/grpc-java/test-tcp/src/main/java/Main.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAuZXhlY3V0b3IoRXhlY3V0b3JzLm5ld0ZpeGVkVGhyZWFkUG9vbCg4KSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="+" type="4">
         <text>disableAutoInboundFlowControl</text>
@@ -421,10 +421,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">QnVmZmVyZWRSZWFkZXIg</text>
       </register>
       <register name="/" type="4">
-        <text>manual</text>
+        <text encoding="base64">XDxHcmVldFNlcnZlclw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -435,7 +435,7 @@
         <text encoding="base64">ICAgIHJlcXVlc3RPYnNlcnZlci5vbk5leHQocmVxdWVzdCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAuZXhlY3V0b3IoRXhlY3V0b3JzLm5ld0ZpeGVkVGhyZWFkUG9vbCg4KSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -464,39 +464,39 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBQcmludFdyaXRlciBvdXQgPSBuZXcgUHJpbnRXcml0ZXIoY2xpZW50U29ja2V0LmdldE91dHB1dFN0cmVhbSgpLCB0cnVlKTsKICAgICAgICBCdWZmZXJlZFJlYWRlciBpbiA9IG5ldyBCdWZmZXJlZFJlYWRlcihuZXcgSW5wdXRTdHJlYW1SZWFkZXIoY2xpZW50U29ja2V0LmdldElucHV0U3RyZWFtKCkpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHJlcXVlc3RPYnNlcnZlci5vbk5leHQocmVxdWVzdCk7CiAgICByZXF1ZXN0T2JzZXJ2ZXIub25OZXh0KHJlcXVlc3QpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBjbGllbnRTb2NrZXQuZ2V0T3V0cHV0U3RyZWFtKCkud3JpdGUobmV3IGJ5dGVbOF0pOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoY291bnQgPT0gNjU1MzUpIHsK</text>
+        <text encoding="base64">ICAgICAgICBvdXQuCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgaW50IGNvdW50ID0gMDsKCg==</text>
+        <text encoding="base64">ICAgICAgICBCdWZmZXJlZFJlYWRlciBpbiA9IG5ldyBCdWZmZXJlZFJlYWRlcihuZXcgSW5wdXRTdHJlYW1SZWFkZXIoY2xpZW50U29ja2V0LmdldElucHV0U3RyZWFtKCkpKTsKICAgICAgICBvdXQuCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjb3VudCsrOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiAoY291bnQgPj0gMykgewo=</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICBTdHJpbmcgZ3JlZXRpbmcgPSBpbi5yZWFkTGluZSgpOwogICAgICAgIGlmICgiaGVsbG8gc2VydmVyIi5lcXVhbHMoZ3JlZXRpbmcpKSB7CiAgICAgICAgICAgIG91dC5wcmludGxuKCJoZWxsbyBjbGllbnQiKTsKICAgICAgICB9CiAgICAgICAgZWxzZSB7CiAgICAgICAgICAgIG91dC5wcmludGxuKCJ1bnJlY29nbmlzZWQgZ3JlZXRpbmciKTsKICAgICAgICB9CiAgICAgICAgR3JlZXRTZXJ2ZXIgc2VydmVyPW5ldyBHcmVldFNlcnZlcigpOwogICAgICAgIHNlcnZlci5zdGFydCg2NjY2KTsK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>manual</last-search>
+      <last-search encoding="base64">XDxHcmVldFNlcnZlclw+</last-search>
       <last-offset />
-      <last-pattern>manual</last-pattern>
+      <last-pattern encoding="base64">XDxHcmVldFNlcnZlclw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
