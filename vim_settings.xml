@@ -23,10 +23,10 @@
         <entry>channel</entry>
         <entry encoding="base64">XDxpbnRcPg==</entry>
         <entry encoding="base64">XDxyZXF1ZXN0T2JzZXJ2ZXJcPg==</entry>
-        <entry>instances</entry>
         <entry>INSTANCES</entry>
         <entry>now</entry>
         <entry>nano</entry>
+        <entry>instances</entry>
       </history-search>
       <history-cmd>
         <entry>;w</entry>
@@ -241,10 +241,6 @@
         <mark key="." line="221" column="43" />
         <mark key="^" line="221" column="44" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/GraknRPCService.java" timestamp="1605871437261">
-        <mark key="[" line="46" column="37" />
-        <mark key="]" line="46" column="60" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grpc-java/examples/build.gradle" timestamp="1605873858615">
         <mark key="'" line="85" column="0" />
         <mark key="[" line="132" column="9" />
@@ -304,6 +300,13 @@
         <mark key="^" line="224" column="80" />
         <mark key="." line="224" column="79" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/protocol/protobuf/concept.proto" timestamp="1606209109545">
+        <mark key="'" line="524" column="8" />
+        <mark key="[" line="523" column="12" />
+        <mark key="]" line="523" column="21" />
+        <mark key="^" line="523" column="21" />
+        <mark key="." line="523" column="20" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" timestamp="1605872994323">
         <mark key="'" line="45" column="8" />
         <mark key="[" line="68" column="0" />
@@ -312,11 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="177" column="69" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="221" column="34" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="67" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="163" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
-      <jump line="305" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
       <jump line="248" column="78" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
       <jump line="42" column="33" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
       <jump line="69" column="34" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
@@ -412,6 +410,11 @@
       <jump line="8" column="1" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionStream.java" />
       <jump line="153" column="104" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionStream.java" />
       <jump line="97" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="175" column="17" filename="$USER_HOME$/GraknLabs/protocol/protobuf/concept.proto" />
+      <jump line="394" column="54" filename="$USER_HOME$/GraknLabs/protocol/protobuf/concept.proto" />
+      <jump line="349" column="54" filename="$USER_HOME$/GraknLabs/protocol/protobuf/concept.proto" />
+      <jump line="522" column="20" filename="$USER_HOME$/GraknLabs/protocol/protobuf/concept.proto" />
+      <jump line="524" column="8" filename="$USER_HOME$/GraknLabs/protocol/protobuf/concept.proto" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -429,7 +432,7 @@
         <text>0</text>
       </register>
       <register name="/" type="4">
-        <text>nano</text>
+        <text>instances</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -499,9 +502,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>nano</last-search>
+      <last-search>instances</last-search>
       <last-offset />
-      <last-pattern>nano</last-pattern>
+      <last-pattern>instances</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
