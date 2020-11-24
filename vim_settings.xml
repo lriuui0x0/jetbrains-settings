@@ -47,8 +47,8 @@
         <entry encoding="base64">JzwsJz53</entry>
         <entry>vs</entry>
         <entry>w:w</entry>
-        <entry>w</entry>
         <entry>q</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -196,9 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/protocol/protobuf/query.proto" timestamp="1606227476279">
-        <mark key="'" line="57" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1606237610023">
         <mark key="[" line="52" column="37" />
         <mark key="]" line="52" column="46" />
@@ -212,13 +209,19 @@
         <mark key="." line="45" column="75" />
         <mark key="^" line="45" column="76" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/ThingImpl.java" timestamp="1606240113086">
+        <mark key="'" line="309" column="118" />
+        <mark key="[" line="238" column="68" />
+        <mark key="]" line="238" column="72" />
+        <mark key="^" line="238" column="72" />
+        <mark key="." line="238" column="71" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/ThingType.java" timestamp="1606229775557" />
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/ThingHandler.java" timestamp="1606237179586">
-        <mark key="'" line="228" column="9" />
-        <mark key="[" line="228" column="0" />
-        <mark key="]" line="228" column="115" />
-        <mark key="^" line="246" column="10" />
-        <mark key="." line="246" column="9" />
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/AttributeTypeImpl.java" timestamp="1606239729799">
+        <mark key="[" line="224" column="84" />
+        <mark key="]" line="224" column="88" />
+        <mark key="^" line="224" column="88" />
+        <mark key="." line="224" column="87" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" timestamp="1606237184202">
         <mark key="'" line="254" column="0" />
@@ -227,31 +230,25 @@
         <mark key="." line="201" column="35" />
         <mark key="^" line="201" column="36" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/EntityTypeImpl.java" timestamp="1606239607006">
-        <mark key="'" line="46" column="0" />
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/AttributeImpl.java" timestamp="1606240154981">
+        <mark key="'" line="503" column="12" />
+        <mark key="[" line="134" column="66" />
+        <mark key="]" line="134" column="70" />
+        <mark key="^" line="134" column="70" />
+        <mark key="." line="134" column="69" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/query/QueryManager.java" timestamp="1606224925028">
-        <mark key="'" line="58" column="4" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/Type.java" timestamp="1606230413414" />
       <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/RelationTypeImpl.java" timestamp="1606239617014">
         <mark key="[" line="114" column="62" />
         <mark key="]" line="114" column="75" />
         <mark key="." line="114" column="74" />
         <mark key="^" line="114" column="75" />
       </file>
-      <file name="/Dummy.txt" timestamp="1606237227479">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-        <mark key="^" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/RoleTypeImpl.java" timestamp="1606239688770">
-        <mark key="'" line="155" column="31" />
-        <mark key="[" line="145" column="31" />
-        <mark key="]" line="145" column="31" />
-        <mark key="^" line="145" column="31" />
-        <mark key="." line="145" column="30" />
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/RoleTypeImpl.java" timestamp="1606239938899">
+        <mark key="'" line="156" column="31" />
+        <mark key="[" line="137" column="79" />
+        <mark key="]" line="137" column="83" />
+        <mark key="^" line="137" column="83" />
+        <mark key="." line="137" column="82" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" timestamp="1606239583381">
         <mark key="'" line="293" column="120" />
@@ -259,6 +256,37 @@
         <mark key="]" line="293" column="41" />
         <mark key="." line="293" column="40" />
         <mark key="^" line="293" column="41" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/dependencies/graknlabs/repositories.bzl" timestamp="1606230058374">
+        <mark key="'" line="24" column="4" />
+        <mark key="[" line="44" column="58" />
+        <mark key="]" line="44" column="58" />
+        <mark key="." line="44" column="58" />
+        <mark key="^" line="44" column="20" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/ThingHandler.java" timestamp="1606237179586">
+        <mark key="'" line="228" column="9" />
+        <mark key="[" line="228" column="0" />
+        <mark key="]" line="228" column="115" />
+        <mark key="^" line="246" column="10" />
+        <mark key="." line="246" column="9" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/EntityTypeImpl.java" timestamp="1606239607006">
+        <mark key="'" line="46" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/Type.java" timestamp="1606230413414" />
+      <file name="/Dummy.txt" timestamp="1606237227479">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/RelationImpl.java" timestamp="1606240470177">
+        <mark key="'" line="86" column="8" />
+        <mark key="[" line="121" column="66" />
+        <mark key="]" line="121" column="70" />
+        <mark key="^" line="121" column="70" />
+        <mark key="." line="121" column="69" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1606239392134">
         <mark key="'" line="183" column="4" />
@@ -273,13 +301,6 @@
         <mark key="]" line="82" column="0" />
         <mark key="." line="82" column="0" />
         <mark key="^" line="80" column="41" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/dependencies/graknlabs/repositories.bzl" timestamp="1606230058374">
-        <mark key="'" line="24" column="4" />
-        <mark key="[" line="44" column="58" />
-        <mark key="]" line="44" column="58" />
-        <mark key="." line="44" column="58" />
-        <mark key="^" line="44" column="20" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/ThingTypeImpl.java" timestamp="1606239546423">
         <mark key="'" line="108" column="95" />
@@ -297,12 +318,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="267" column="68" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="286" column="45" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="327" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="242" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
-      <jump line="244" column="17" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
-      <jump line="246" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
       <jump line="240" column="65" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
       <jump line="252" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
       <jump line="247" column="76" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
@@ -397,12 +412,18 @@
       <jump line="293" column="120" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
       <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/EntityTypeImpl.java" />
       <jump line="155" column="31" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/RoleTypeImpl.java" />
+      <jump line="299" column="32" filename="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/ThingImpl.java" />
+      <jump line="303" column="120" filename="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/ThingImpl.java" />
+      <jump line="309" column="118" filename="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/ThingImpl.java" />
+      <jump line="503" column="12" filename="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/AttributeImpl.java" />
+      <jump line="84" column="42" filename="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/RelationImpl.java" />
+      <jump line="86" column="8" filename="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/RelationImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>getRole</text>
+        <text>ThingImpl</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ICAgIHN0YXRpYyBjbGFzcyBQZXJmIHsKICAgICAgICBsb25nIGluc2VydERhdGE7CiAgICAgICAgbG9uZyBpbnNlcnRDb21taXQ7CiAgICAgICAgbG9uZyByZWFkRGF0YTsKICAgIH07CgogICAgQFRlc3QKICAgIHB1YmxpYyB2b2lkIHRlc3QoKSB0aHJvd3MgSW50ZXJydXB0ZWRFeGNlcHRpb24gewogICAgICAgIExpc3Q8UGVyZj4gcGVyZnMgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICBmb3IgKGludCBwID0gMDsgcCA8IDIwOyBwKyspIHsKICAgICAgICAgICAgcGVyZnMuYWRkKG5ldyBQZXJmKCkpOwogICAgICAgIH0KICAgICAgICBmb3IgKFBlcmYgcGVyZiA6IHBlcmZzKSB7CiAgICAgICAgICAgIGdyYWtuQ2xpZW50LmRhdGFiYXNlcygpLmNyZWF0ZSgiZ3Jha24iKTsKCiAgICAgICAgICAgIExPRy5pbmZvKCJkZWZpbmluZyBzY2hlbWEiKTsKICAgICAgICAgICAgbG9jYWxob3N0R3Jha25UeCh0eCAtPiB7CiAgICAgICAgICAgICAgICBmaW5hbCBHcmFxbERlZmluZSBkZWZpbmVRdWVyeSA9IEdyYXFsLmRlZmluZSgKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSgicGVyc29uIikuc3ViKCJlbnRpdHkiKQogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIHR4LnF1ZXJ5KCkuZGVmaW5lKGRlZmluZVF1ZXJ5KTsKICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpOwogICAgICAgICAgICB9LCBTZXNzaW9uLlR5cGUuU0NIRU1BKTsKICAgICAgICAgICAgTE9HLmluZm8oImZpbmlzaGVkIGRlZmluaW5nIHNjaGVtYSIpOwoKICAgICAgICAgICAgbG9uZyBjdXJyVGltZTsKICAgICAgICAgICAgdHJ5IChTZXNzaW9uIHNlc3Npb24gPSBncmFrbkNsaWVudC5zZXNzaW9uKCJncmFrbiIsIFNlc3Npb24uVHlwZS5EQVRBKSkgewogICAgICAgICAgICAgICAgdHJ5IChUcmFuc2FjdGlvbiB0eCA9IHNlc3Npb24udHJhbnNhY3Rpb24oV1JJVEUpKSB7CiAgICAgICAgICAgICAgICAgICAgY3VyclRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IDY1NTM1OyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmluYWwgR3JhcWxJbnNlcnQgaW5zZXJ0UXVlcnkgPSBHcmFxbC5pbnNlcnQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyKCkuaXNhKCJwZXJzb24iKQogICAgICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgICAgICB0eC5xdWVyeSgpLmluc2VydChpbnNlcnRRdWVyeSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHBlcmYuaW5zZXJ0RGF0YSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gY3VyclRpbWU7CiAgICAgICAgICAgICAgICAgICAgY3VyclRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgICAgICAgICB0eC5jb21taXQoKTsKICAgICAgICAgICAgICAgICAgICBwZXJmLmluc2VydENvbW1pdCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gY3VyclRpbWU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGludCB4W10gPSBuZXcgaW50WzFdOwogICAgICAgICAgICB0cnkgKFNlc3Npb24gc2Vzc2lvbiA9IGdyYWtuQ2xpZW50LnNlc3Npb24oImdyYWtuIiwgU2Vzc2lvbi5UeXBlLkRBVEEpKSB7CiAgICAgICAgICAgICAgICB0cnkgKFRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihSRUFELCBuZXcgR3Jha25PcHRpb25zKCkuYmF0Y2hTaXplKDEwMDAwMDAwKSkpIHsKICAgICAgICAgICAgICAgICAgICBjdXJyVGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwogICAgICAgICAgICAgICAgICAgIFN0cmVhbTw/IGV4dGVuZHMgRW50aXR5PiBwZXJzb25zID0gdHguY29uY2VwdHMoKS5nZXRFbnRpdHlUeXBlKCJwZXJzb24iKS5hc1JlbW90ZSh0eCkuZ2V0SW5zdGFuY2VzKCk7CiAgICAgICAgICAgICAgICAgICAgcGVyc29ucy5mb3JFYWNoKHBlcnNvbiAtPiB4WzBdKyspOwogICAgICAgICAgICAgICAgICAgIHBlcmYucmVhZERhdGEgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIGN1cnJUaW1lOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbih4WzBdKTsKCiAgICAgICAgICAgIGdyYWtuQ2xpZW50LmRhdGFiYXNlcygpLmRlbGV0ZSgiZ3Jha24iKTsKICAgICAgICB9CgogICAgICAgIFBlcmYgYXZnID0gbmV3IFBlcmYoKTsKICAgICAgICBmb3IgKFBlcmYgcGVyZiA6IHBlcmZzKSB7CiAgICAgICAgICAgIGF2Zy5pbnNlcnREYXRhICs9IHBlcmYuaW5zZXJ0RGF0YTsKICAgICAgICAgICAgYXZnLmluc2VydENvbW1pdCArPSBwZXJmLmluc2VydENvbW1pdDsKICAgICAgICAgICAgYXZnLnJlYWREYXRhICs9IHBlcmYucmVhZERhdGE7CiAgICAgICAgfQogICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiaW5zZXJ0RGF0YSAiICsgKGF2Zy5pbnNlcnREYXRhIC8gcGVyZnMuc2l6ZSgpKSk7CiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJpbnNlcnRDb21taXQgIiArIChhdmcuaW5zZXJ0Q29tbWl0IC8gcGVyZnMuc2l6ZSgpKSk7CiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJyZWFkRGF0YSAiICsgKGF2Zy5yZWFkRGF0YSAvIHBlcmZzLnNpemUoKSkpOwogICAgfQoK</text>
@@ -411,7 +432,7 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text>getRole</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxUeXBlXD4=</text>
@@ -478,7 +499,7 @@
         <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLnNlcnZlci5ycGMudXRpbC5SZXNwb25zZUJ1aWxkZXIuQW5zd2VyLmNvbmNlcHRNYXA7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>w</text>
       </register>
     </registers>
   </component>
