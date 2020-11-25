@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>INSTANCES</entry>
         <entry>now</entry>
         <entry>nano</entry>
         <entry>instances</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxUeXBlXD4=</entry>
         <entry>types</entry>
         <entry encoding="base64">Y2FuIGJlIA==</entry>
+        <entry>Attribute types can be subtypes of other attribute types</entry>
       </history-search>
       <history-cmd>
         <entry>;w</entry>
@@ -196,34 +196,20 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" timestamp="1606299940527">
-        <mark key="'" line="86" column="71" />
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" timestamp="1606300146942">
+        <mark key="'" line="96" column="61" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/BehaviourTest.java" timestamp="1606299512984">
         <mark key="[" line="36" column="0" />
         <mark key="]" line="36" column="0" />
         <mark key="." line="36" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1606296864398">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="52" column="37" />
-        <mark key="]" line="52" column="46" />
-        <mark key="^" line="52" column="46" />
-        <mark key="." line="52" column="45" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/ThingImpl.java" timestamp="1606241405288">
-        <mark key="'" line="309" column="118" />
-        <mark key="[" line="238" column="68" />
-        <mark key="]" line="238" column="72" />
-        <mark key="^" line="238" column="72" />
-        <mark key="." line="238" column="71" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/BUILD" timestamp="1606244860577">
-        <mark key="'" line="30" column="7" />
-        <mark key="[" line="109" column="0" />
-        <mark key="]" line="110" column="42" />
-        <mark key="." line="109" column="0" />
-        <mark key="^" line="91" column="4" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" timestamp="1606301618474">
+        <mark key="'" line="472" column="0" />
+        <mark key="[" line="236" column="45" />
+        <mark key="]" line="236" column="58" />
+        <mark key="." line="236" column="57" />
+        <mark key="^" line="236" column="58" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/artifacts.bzl" timestamp="1606298262948">
         <mark key="'" line="17" column="0" />
@@ -232,34 +218,18 @@
         <mark key="^" line="29" column="20" />
         <mark key="." line="29" column="58" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/transaction/TransactionTest.java" timestamp="1606245848744">
-        <mark key="'" line="53" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" timestamp="1606299273593">
-        <mark key="'" line="188" column="164" />
-        <mark key="[" line="231" column="70" />
-        <mark key="]" line="231" column="72" />
-        <mark key="." line="231" column="71" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" timestamp="1606302149954">
+        <mark key="'" line="34" column="0" />
+        <mark key="[" line="34" column="0" />
+        <mark key="]" line="34" column="0" />
+        <mark key="." line="34" column="0" />
         <mark key="^" line="231" column="72" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/query/QueryManager.java" timestamp="1606241884114">
-        <mark key="'" line="63" column="129" />
-        <mark key="[" line="63" column="53" />
-        <mark key="]" line="63" column="130" />
-        <mark key="^" line="63" column="143" />
-        <mark key="." line="63" column="53" />
+      <file name="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" timestamp="1606300511715" />
+      <file name="/Dummy." timestamp="1606300080381">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/dependencies/graknlabs/artifacts.bzl" timestamp="1606246450949">
-        <mark key="'" line="21" column="17" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" timestamp="1606241292294">
-        <mark key="'" line="293" column="120" />
-        <mark key="[" line="293" column="40" />
-        <mark key="]" line="293" column="41" />
-        <mark key="." line="293" column="40" />
-        <mark key="^" line="293" column="41" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" timestamp="1606299756424">
+      <file name="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" timestamp="1606302523444">
         <mark key="[" line="54" column="38" />
         <mark key="]" line="54" column="38" />
         <mark key="." line="54" column="38" />
@@ -272,25 +242,29 @@
         <mark key="^" line="47" column="53" />
         <mark key="." line="47" column="52" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" timestamp="1606301480031">
+        <mark key="'" line="165" column="12" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="27" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/debug/debug.feature" timestamp="1606300982772">
+        <mark key="'" line="21" column="2" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeTest.java" timestamp="1606301272269" />
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/maven/update.sh" timestamp="1606298277308">
         <mark key="'" line="19" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionStream.java" timestamp="1606245852792">
-        <mark key="'" line="178" column="0" />
-        <mark key="[" line="141" column="105" />
-        <mark key="]" line="141" column="106" />
-        <mark key="." line="141" column="105" />
-        <mark key="^" line="141" column="106" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/concept/thing/impl/RelationImpl.java" timestamp="1606242512254">
-        <mark key="'" line="95" column="103" />
-        <mark key="[" line="96" column="118" />
-        <mark key="]" line="96" column="118" />
-        <mark key="^" line="95" column="86" />
-        <mark key="." line="96" column="118" />
+      <file name="/Dummy.txt" timestamp="1606301129782">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1606298492737">
         <mark key="'" line="161" column="25" />
@@ -299,6 +273,11 @@
         <mark key="^" line="161" column="31" />
         <mark key="." line="161" column="30" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/thingtype/ThingTypeSteps.java" timestamp="1606301492284">
+        <mark key="'" line="231" column="60" />
+        <mark key="[" line="200" column="0" />
+        <mark key="]" line="200" column="133" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" timestamp="1606297579604">
         <mark key="'" line="78" column="8" />
         <mark key="[" line="77" column="0" />
@@ -306,8 +285,14 @@
         <mark key="." line="77" column="16" />
         <mark key="^" line="77" column="41" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionSteps.java" timestamp="1606299523040">
-        <mark key="'" line="58" column="13" />
+      <file name="/fragment.java" timestamp="1606301549863">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="3" />
+        <mark key="^" line="0" column="3" />
+        <mark key="." line="0" column="2" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionSteps.java" timestamp="1606300566069">
+        <mark key="'" line="68" column="0" />
         <mark key="[" line="58" column="25" />
         <mark key="]" line="58" column="48" />
         <mark key="." line="58" column="47" />
@@ -318,23 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="246" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="206" column="39" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="378" column="30" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
-      <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
-      <jump line="469" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/TypeHandler.java" />
-      <jump line="228" column="9" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/concept/ThingHandler.java" />
-      <jump line="254" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="289" column="132" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="287" column="8" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="283" column="133" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="295" column="8" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="292" column="31" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="290" column="140" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="294" column="8" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="284" column="32" filename="$USER_HOME$/GraknLabs/client-java/concept/type/impl/TypeImpl.java" />
-      <jump line="45" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
       <jump line="57" column="7" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
       <jump line="79" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
       <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
@@ -418,6 +386,23 @@
       <jump line="80" column="52" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
       <jump line="82" column="65" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
       <jump line="86" column="71" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
+      <jump line="96" column="61" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
+      <jump line="673" column="4" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="18" column="30" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="68" column="0" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="43" column="13" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/thingtype/ThingTypeSteps.java" />
+      <jump line="180" column="26" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="29" column="2" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/debug/debug.feature" />
+      <jump line="90" column="4" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/debug/debug.feature" />
+      <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="21" column="2" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/debug/debug.feature" />
+      <jump line="231" column="60" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/thingtype/ThingTypeSteps.java" />
+      <jump line="120" column="0" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="199" column="31" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="152" column="4" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="173" column="12" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="165" column="12" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
+      <jump line="34" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -426,7 +411,7 @@
         <text>grakn.address()</text>
       </register>
       <register name="+" type="2">
-        <text encoding="base64">ICAgICAgICBiYXplbCB0ZXN0IC8vdGVzdC9iZWhhdmlvdXIvZ3JhcWwvbGFuZ3VhZ2UvZGVmaW5lLy4uLiAtLXRlc3Rfb3V0cHV0PWVycm9ycwo=</text>
+        <text encoding="base64">ICBCYWNrZ3JvdW5kOgogICAgR2l2ZW4gY29ubmVjdGlvbiBoYXMgYmVlbiBvcGVuZWQKICAgIEdpdmVuIGNvbm5lY3Rpb24gZGVsZXRlIGFsbCBkYXRhYmFzZXMKICAgIEdpdmVuIGNvbm5lY3Rpb24gZG9lcyBub3QgaGF2ZSBhbnkgZGF0YWJhc2UKICAgIEdpdmVuIGNvbm5lY3Rpb24gY3JlYXRlIGRhdGFiYXNlOiBncmFrbgogICAgR2l2ZW4gY29ubmVjdGlvbiBvcGVuIHNjaGVtYSBzZXNzaW9uIGZvciBkYXRhYmFzZTogZ3Jha24KICAgIEdpdmVuIHNlc3Npb24gb3BlbnMgdHJhbnNhY3Rpb24gb2YgdHlwZTogd3JpdGUKCg==</text>
       </register>
       <register name="l" type="4">
         <text>a</text>
@@ -435,7 +420,7 @@
         <text>grakn.address()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">Y2FuIGJlIA==</text>
+        <text>Attribute types can be subtypes of other attribute types</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -443,10 +428,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHJlc291cmNlcyA9IFsgIi8vc2VydmVyL2NvbmY6bG9nYmFjay54bWwiIF0sCiAgICByZXNvdXJjZV9zdHJpcF9wcmVmaXggPSAic2VydmVyL2NvbmYvIgo=</text>
+        <text encoding="base64">ICBCYWNrZ3JvdW5kOgogICAgR2l2ZW4gY29ubmVjdGlvbiBoYXMgYmVlbiBvcGVuZWQKICAgIEdpdmVuIGNvbm5lY3Rpb24gZGVsZXRlIGFsbCBkYXRhYmFzZXMKICAgIEdpdmVuIGNvbm5lY3Rpb24gZG9lcyBub3QgaGF2ZSBhbnkgZGF0YWJhc2UKICAgIEdpdmVuIGNvbm5lY3Rpb24gY3JlYXRlIGRhdGFiYXNlOiBncmFrbgogICAgR2l2ZW4gY29ubmVjdGlvbiBvcGVuIHNjaGVtYSBzZXNzaW9uIGZvciBkYXRhYmFzZTogZ3Jha24KICAgIEdpdmVuIHNlc3Npb24gb3BlbnMgdHJhbnNhY3Rpb24gb2YgdHlwZTogd3JpdGUKCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBncmFrbi5zdG9wKCk7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -475,28 +460,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiMhL3Vzci9iaW4vZW52IHNoCg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudGltZS50ZW1wb3JhbC5DaHJvbm9Vbml0Owo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICBCYWNrZ3JvdW5kOgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChjdXJySXRlcmF0b3IuaGFzTmV4dCgpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGN1cnJJdGVyYXRvci5uZXh0KCk7CiAgICAgICAgICAgICAgICB9IGVsc2Ugewo=</text>
+        <text encoding="base64">ICAgIEdpdmVuIGNvbm5lY3Rpb24gaGFzIGJlZW4gb3BlbmVkCiAgICBHaXZlbiBjb25uZWN0aW9uIGRlbGV0ZSBhbGwgZGF0YWJhc2VzCiAgICBHaXZlbiB0aGUgaW50ZWdyaXR5IGlzIHZhbGlkYXRlZAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvbmcgc3RhcnRUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBCZWZvcmVDbGFzcwogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldFVwQ2xhc3MoKSB0aHJvd3MgSW50ZXJydXB0ZWRFeGNlcHRpb24sIElPRXhjZXB0aW9uLCBUaW1lb3V0RXhjZXB0aW9uIHsKICAgICAgICBncmFrbiA9IG5ldyBHcmFrbkNvcmVSdW5uZXIoKTsKICAgICAgICBncmFrbi5zdGFydCgpOwogICAgICAgIGdyYWtuQ2xpZW50ID0gbmV3IEdyYWtuQ2xpZW50KGdyYWtuLmFkZHJlc3MoKSk7CiAgICAgICAgZ3Jha25DbGllbnQuZGF0YWJhc2VzKCkuY3JlYXRlKCJncmFrbiIpOwogICAgfQoKICAgIEBBZnRlckNsYXNzCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgY2xvc2VTZXNzaW9uKCkgdGhyb3dzIEV4Y2VwdGlvbiB7CiAgICAgICAgZ3Jha25DbGllbnQuY2xvc2UoKTsKICAgICAgICBncmFrbi5zdG9wKCk7CiAgICB9Cgo=</text>
+        <text encoding="base64">CiMhL3Vzci9iaW4vZW52IHNoCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFzc2VydCBjdXJySXRlcmF0b3IuaGFzTmV4dCgpOwogICAgICAgICAgICAgICAgcmV0dXJuIGN1cnJJdGVyYXRvci5uZXh0KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChjdXJySXRlcmF0b3IuaGFzTmV4dCgpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGN1cnJJdGVyYXRvci5uZXh0KCk7CiAgICAgICAgICAgICAgICB9IGVsc2Ugewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGxvbmcgc3RhcnRUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -505,9 +490,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">Y2FuIGJlIA==</last-search>
+      <last-search>Attribute types can be subtypes of other attribute types</last-search>
       <last-offset />
-      <last-pattern encoding="base64">Y2FuIGJlIA==</last-pattern>
+      <last-pattern>Attribute types can be subtypes of other attribute types</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
