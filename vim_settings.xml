@@ -7,14 +7,11 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Iterable</entry>
-        <entry encoding="base64">XDxJdGVyYWJsZVw+</entry>
         <entry>getInstances</entry>
         <entry encoding="base64">XDxUeXBlXD4=</entry>
         <entry>types</entry>
         <entry encoding="base64">Y2FuIGJlIA==</entry>
         <entry>Attribute types can be subtypes of other attribute types</entry>
-        <entry encoding="base64">XDxncmFwaE1nclw+</entry>
         <entry encoding="base64">XDx0aGluZ3NCeUlJRFw+</entry>
         <entry>commit</entry>
         <entry>cache</entry>
@@ -27,6 +24,9 @@
         <entry>sort</entry>
         <entry encoding="base64">XDxwdXRVbnRyYWNrZWRcPg==</entry>
         <entry>type</entry>
+        <entry encoding="base64">XDxncmFwaFw+</entry>
+        <entry encoding="base64">XDxncmFwaE1nclw+</entry>
+        <entry encoding="base64">XDx0aGluZ1R5cGVDb3VudFw+</entry>
       </history-search>
       <history-cmd>
         <entry>v</entry>
@@ -231,8 +231,8 @@
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" timestamp="1606404462939">
-        <mark key="'" line="186" column="43" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" timestamp="1606410116423">
+        <mark key="'" line="337" column="12" />
         <mark key="[" line="51" column="13" />
         <mark key="]" line="51" column="15" />
         <mark key="^" line="51" column="15" />
@@ -257,9 +257,6 @@
         <mark key="." line="23" column="58" />
         <mark key="^" line="23" column="20" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" timestamp="1606302523444">
-        <mark key="^" line="63" column="4" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" timestamp="1606319324704">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="62" column="0" />
@@ -274,6 +271,9 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/VertexIID.java" timestamp="1606405034023">
         <mark key="'" line="284" column="12" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" timestamp="1606410939725">
+        <mark key="'" line="83" column="67" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksSession.java" timestamp="1606391945449" />
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" timestamp="1606385093812" />
       <file name="$USER_HOME$/GraknLabs/behaviour/connection/database.feature" timestamp="1606311299756" />
@@ -283,63 +283,17 @@
         <mark key="]" line="184" column="32" />
         <mark key="." line="184" column="32" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1606401243335">
-        <mark key="'" line="171" column="24" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1606410434938">
+        <mark key="'" line="180" column="62" />
+        <mark key="[" line="290" column="73" />
+        <mark key="]" line="290" column="73" />
+        <mark key="." line="290" column="73" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" timestamp="1606409703616">
-        <mark key="'" line="49" column="11" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" timestamp="1606410236406">
+        <mark key="'" line="50" column="13" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" />
-      <jump line="65" column="34" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
-      <jump line="78" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
-      <jump line="17" column="0" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/artifacts.bzl" />
-      <jump line="18" column="0" filename="$USER_HOME$/GraknLabs/client-java/dependencies/maven/update.sh" />
-      <jump line="18" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/dependencies/maven/update.sh" />
-      <jump line="161" column="25" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="65" column="48" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
-      <jump line="79" column="71" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
-      <jump line="80" column="52" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
-      <jump line="82" column="65" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
-      <jump line="86" column="71" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
-      <jump line="96" column="61" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/attributetype/AttributeTypeSteps.java" />
-      <jump line="673" column="4" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="18" column="30" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="68" column="0" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionSteps.java" />
-      <jump line="43" column="13" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/thingtype/ThingTypeSteps.java" />
-      <jump line="180" column="26" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="29" column="2" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/debug/debug.feature" />
-      <jump line="90" column="4" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/debug/debug.feature" />
-      <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="21" column="2" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/debug/debug.feature" />
-      <jump line="231" column="60" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/concept/type/thingtype/ThingTypeSteps.java" />
-      <jump line="120" column="0" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="199" column="31" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="152" column="4" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="173" column="12" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="165" column="12" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/attributetype.feature" />
-      <jump line="34" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/rpc/TransactionRPC.java" />
-      <jump line="29" column="18" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/artifacts.bzl" />
-      <jump line="29" column="36" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/BehaviourTest.java" />
-      <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/BehaviourTest.java" />
-      <jump line="30" column="4" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/artifacts.bzl" />
-      <jump line="23" column="25" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/artifacts.bzl" />
-      <jump line="28" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/dependencies/graknlabs/artifacts.bzl" />
-      <jump line="72" column="17" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="91" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="92" column="40" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="134" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="93" column="43" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="328" column="25" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="154" column="13" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="155" column="30" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="53" column="62" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="62" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="77" column="22" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="83" column="18" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="99" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="135" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="315" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="195" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" />
       <jump line="351" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
@@ -391,12 +345,61 @@
       <jump line="46" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
       <jump line="90" column="43" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
       <jump line="49" column="11" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" />
+      <jump line="48" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="49" column="14" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="75" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="82" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="83" column="18" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="95" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="101" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="174" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="175" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="187" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="191" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="195" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="199" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="203" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="213" column="37" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="214" column="18" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="220" column="37" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="221" column="18" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="222" column="29" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="223" column="27" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="227" column="51" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="228" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="245" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="246" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="247" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="248" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="254" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="255" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="256" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="257" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="264" column="32" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="271" column="28" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="272" column="17" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="281" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="288" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="297" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="305" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="306" column="17" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="337" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="81" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" />
+      <jump line="41" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" />
+      <jump line="50" column="13" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" />
+      <jump line="180" column="62" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
+      <jump line="94" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
+      <jump line="130" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
+      <jump line="109" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
+      <jump line="107" column="27" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
+      <jump line="100" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
+      <jump line="83" column="67" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwo=</text>
+      <register name="&quot;" type="4">
+        <text>RocksTransaction</text>
       </register>
       <register name="+" type="4">
         <text>thingsByTypeIID</text>
@@ -405,10 +408,10 @@
         <text>a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IC0tam9icz0x</text>
+        <text>RocksTransaction</text>
       </register>
       <register name="/" type="4">
-        <text>type</text>
+        <text encoding="base64">XDx0aGluZ1R5cGVDb3VudFw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -478,9 +481,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>type</last-search>
+      <last-search encoding="base64">XDx0aGluZ1R5cGVDb3VudFw+</last-search>
       <last-offset />
-      <last-pattern>type</last-pattern>
+      <last-pattern encoding="base64">XDx0aGluZ1R5cGVDb3VudFw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
