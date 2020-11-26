@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>types</entry>
-        <entry encoding="base64">Y2FuIGJlIA==</entry>
         <entry>Attribute types can be subtypes of other attribute types</entry>
         <entry encoding="base64">XDx0aGluZ3NCeUlJRFw+</entry>
         <entry>commit</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDx0aGluZ1R5cGVDb3VudFw+</entry>
         <entry>put</entry>
         <entry>putUntracked</entry>
+        <entry>merge</entry>
+        <entry encoding="base64">XDxtZXJnZVw+</entry>
       </history-search>
       <history-cmd>
         <entry>v</entry>
@@ -203,8 +203,8 @@
         <mark key="^" line="52" column="46" />
         <mark key="." line="52" column="45" />
       </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" timestamp="1606411880541">
-        <mark key="'" line="173" column="16" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" timestamp="1606413400482">
+        <mark key="'" line="562" column="24" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/WORKSPACE" timestamp="1606309254941">
         <mark key="'" line="42" column="0" />
@@ -289,15 +289,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="63" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="136" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="163" column="35" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="227" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="244" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="261" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="279" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="296" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="307" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="308" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="316" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="317" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
@@ -389,6 +380,15 @@
       <jump line="24" column="8" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
       <jump line="173" column="16" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
       <jump line="259" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
+      <jump line="419" column="36" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="209" column="16" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="212" column="13" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="215" column="16" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="218" column="13" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="221" column="16" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="224" column="13" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="564" column="24" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
+      <jump line="562" column="24" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -406,7 +406,7 @@
         <text>RocksTransaction</text>
       </register>
       <register name="/" type="4">
-        <text>putUntracked</text>
+        <text encoding="base64">XDxtZXJnZVw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -476,9 +476,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>putUntracked</last-search>
+      <last-search encoding="base64">XDxtZXJnZVw+</last-search>
       <last-offset />
-      <last-pattern>putUntracked</last-pattern>
+      <last-pattern encoding="base64">XDxtZXJnZVw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
