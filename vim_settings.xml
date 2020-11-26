@@ -20,13 +20,13 @@
         <entry>cache</entry>
         <entry encoding="base64">XDxjYWNoZWRTY2hlbWFTZXNzaW9uXD4=</entry>
         <entry encoding="base64">XDx0aGluZ3NCeVR5cGVJSURcPg==</entry>
-        <entry>type</entry>
         <entry encoding="base64">XDxkYXRhUmVhZFNjaGVtYUxvY2tcPg==</entry>
         <entry encoding="base64">XDxkYXRhV3JpdGVTY2hlbWFMb2NrXD4=</entry>
         <entry encoding="base64">XDxtYXlDbG9zZVw+</entry>
         <entry>sorted</entry>
         <entry>sort</entry>
         <entry encoding="base64">XDxwdXRVbnRyYWNrZWRcPg==</entry>
+        <entry>type</entry>
       </history-search>
       <history-cmd>
         <entry>v</entry>
@@ -225,8 +225,8 @@
         <mark key="^" line="29" column="21" />
         <mark key="." line="29" column="58" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" timestamp="1606405880890">
-        <mark key="'" line="130" column="74" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" timestamp="1606409682456">
+        <mark key="'" line="90" column="43" />
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
@@ -286,15 +286,11 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1606401243335">
         <mark key="'" line="171" column="24" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" timestamp="1606384566175">
-        <mark key="'" line="195" column="12" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" timestamp="1606409703616">
+        <mark key="'" line="49" column="11" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" />
-      <jump line="92" column="0" filename="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" />
-      <jump line="116" column="0" filename="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" />
       <jump line="2" column="0" filename="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" />
       <jump line="65" column="34" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
       <jump line="78" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/QueryIterator.java" />
@@ -391,6 +387,10 @@
       <jump line="128" column="24" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
       <jump line="129" column="24" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
       <jump line="130" column="74" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="60" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="46" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="90" column="43" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="49" column="11" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -408,7 +408,7 @@
         <text encoding="base64">IC0tam9icz0x</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwdXRVbnRyYWNrZWRcPg==</text>
+        <text>type</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -478,9 +478,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwdXRVbnRyYWNrZWRcPg==</last-search>
+      <last-search>type</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwdXRVbnRyYWNrZWRcPg==</last-pattern>
+      <last-pattern>type</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
