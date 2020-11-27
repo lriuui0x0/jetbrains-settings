@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>type</entry>
         <entry encoding="base64">XDxncmFwaFw+</entry>
         <entry encoding="base64">XDxncmFwaE1nclw+</entry>
         <entry encoding="base64">XDx0aGluZ1R5cGVDb3VudFw+</entry>
@@ -27,6 +26,7 @@
         <entry>Hash</entry>
         <entry>has</entry>
         <entry>delete</entry>
+        <entry encoding="base64">XDxkZWxldGVkXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>v</entry>
@@ -265,9 +265,6 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Storage.java" timestamp="1606478494155">
         <mark key="'" line="42" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/KeyGenerator.java" timestamp="1606411377060">
-        <mark key="'" line="158" column="4" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" timestamp="1606469423740">
         <mark key="'" line="49" column="67" />
       </file>
@@ -281,13 +278,11 @@
         <mark key="[" line="42" column="0" />
         <mark key="]" line="46" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/SchemaEdgeImpl.java" timestamp="1606479899480">
+        <mark key="'" line="233" column="12" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="122" column="50" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/KeyGenerator.java" />
-      <jump line="100" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/KeyGenerator.java" />
-      <jump line="158" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/KeyGenerator.java" />
-      <jump line="24" column="8" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
-      <jump line="173" column="16" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
       <jump line="259" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
       <jump line="419" column="36" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
       <jump line="209" column="16" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4.jar!/org/rocksdb/Transaction.class" />
@@ -383,6 +378,11 @@
       <jump line="78" column="85" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/GraknServer.java" />
       <jump line="101" column="29" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/GraknServer.java" />
       <jump line="103" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/server/GraknServer.java" />
+      <jump line="54" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/SchemaEdgeImpl.java" />
+      <jump line="71" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/SchemaEdgeImpl.java" />
+      <jump line="118" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/SchemaEdgeImpl.java" />
+      <jump line="196" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/SchemaEdgeImpl.java" />
+      <jump line="233" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/SchemaEdgeImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -400,7 +400,7 @@
         <text>c</text>
       </register>
       <register name="/" type="4">
-        <text>delete</text>
+        <text encoding="base64">XDxkZWxldGVkXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -470,9 +470,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>delete</last-search>
+      <last-search encoding="base64">XDxkZWxldGVkXD4=</last-search>
       <last-offset />
-      <last-pattern>delete</last-pattern>
+      <last-pattern encoding="base64">XDxkZWxldGVkXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
