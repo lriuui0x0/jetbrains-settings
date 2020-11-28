@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>iid</entry>
         <entry encoding="base64">XDxjb21wdXRlSWZBYnNlbnRcPg==</entry>
         <entry encoding="base64">XDxkZWxldGVWZXJ0ZXhGcm9tR3JhcGhcPg==</entry>
         <entry encoding="base64">XDxzdGF0aXN0aWNzXD4=</entry>
@@ -21,12 +20,13 @@
         <entry>delete</entry>
         <entry>typeVertex</entry>
         <entry>create</entry>
-        <entry>commit</entry>
         <entry encoding="base64">XDxnZXRDb21taXRUaW1lV3JpdGVCYXRjaFw+</entry>
         <entry>getId</entry>
         <entry encoding="base64">XDwxMFw+</entry>
         <entry>merge</entry>
         <entry>multiGet</entry>
+        <entry>commit</entry>
+        <entry encoding="base64">XDxTdHJpbmdcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>v</entry>
@@ -234,6 +234,9 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/GraphManager.java" timestamp="1606558966407">
         <mark key="'" line="67" column="4" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" timestamp="1606571598229">
+        <mark key="'" line="345" column="60" />
+      </file>
       <file name="/Dummy.txt" timestamp="1606494164053">
         <mark key="[" line="0" column="0" />
       </file>
@@ -279,8 +282,8 @@
         <mark key="." line="312" column="59" />
         <mark key="^" line="312" column="60" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" timestamp="1606562169982">
-        <mark key="'" line="61" column="4" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" timestamp="1606571645912">
+        <mark key="'" line="243" column="15" />
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
         <mark key="." line="59" column="0" />
@@ -294,14 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="342" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
-      <jump line="337" column="47" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
-      <jump line="343" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
-      <jump line="344" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
-      <jump line="12" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Statistics.java" />
-      <jump line="480" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="443" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="475" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="113" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
       <jump line="335" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
@@ -394,6 +389,14 @@
       <jump line="312" column="20" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
       <jump line="338" column="18" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
       <jump line="356" column="11" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
+      <jump line="121" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="342" column="54" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="345" column="60" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="60" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="227" column="69" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="229" column="59" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="233" column="69" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
+      <jump line="243" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -411,7 +414,7 @@
         <text>System.currentTimeMillis() - time</text>
       </register>
       <register name="/" type="4">
-        <text>multiGet</text>
+        <text encoding="base64">XDxTdHJpbmdcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -481,9 +484,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>multiGet</last-search>
+      <last-search encoding="base64">XDxTdHJpbmdcPg==</last-search>
       <last-offset />
-      <last-pattern>multiGet</last-pattern>
+      <last-pattern encoding="base64">XDxTdHJpbmdcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
