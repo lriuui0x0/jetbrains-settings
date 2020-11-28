@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjcmVhdGVcPg==</entry>
         <entry encoding="base64">XDx0eXBlXD4=</entry>
         <entry encoding="base64">XDxzdG9yYWdlXD4=</entry>
         <entry encoding="base64">XDxpc1JlYWRPbmx5XD4=</entry>
@@ -27,6 +26,7 @@
         <entry>create</entry>
         <entry>commit</entry>
         <entry encoding="base64">XDxnZXRDb21taXRUaW1lV3JpdGVCYXRjaFw+</entry>
+        <entry>getId</entry>
       </history-search>
       <history-cmd>
         <entry>v</entry>
@@ -47,8 +47,8 @@
         <entry>:w</entry>
         <entry>vs</entry>
         <entry>W</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -256,8 +256,8 @@
         <mark key="^" line="35" column="39" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" timestamp="1606568144545">
-        <mark key="'" line="1676" column="20" />
+      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" timestamp="1606568936374">
+        <mark key="'" line="1412" column="4" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1606567721626">
         <mark key="'" line="385" column="8" />
@@ -293,7 +293,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="411" column="129" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="428" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="358" column="41" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="61" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/GraphManager.java" />
@@ -393,6 +392,7 @@
       <jump line="179" column="93" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
       <jump line="2004" column="22" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
       <jump line="1676" column="20" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
+      <jump line="1412" column="4" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -410,7 +410,7 @@
         <text>.</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRDb21taXRUaW1lV3JpdGVCYXRjaFw+</text>
+        <text>getId</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -474,15 +474,15 @@
         <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIDA7Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxnZXRDb21taXRUaW1lV3JpdGVCYXRjaFw+</last-search>
+      <last-search>getId</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRDb21taXRUaW1lV3JpdGVCYXRjaFw+</last-pattern>
+      <last-pattern>getId</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
