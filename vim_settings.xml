@@ -7,16 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxuZXdBZGphY2VuY3lcPg==</entry>
-        <entry>commit</entry>
-        <entry>mergeUntracked</entry>
-        <entry>deleteUntracked</entry>
-        <entry encoding="base64">Pj4+Pg==</entry>
-        <entry encoding="base64">Pj4+</entry>
-        <entry>exclusive</entry>
-        <entry encoding="base64">XDxnZXRFZGdlT3duc0RlbHRhQ291bnRcPg==</entry>
-        <entry encoding="base64">XDxnZXRFZGdlT3duc1BlcnNpc3RlZENvdW50XD4=</entry>
-        <entry encoding="base64">XDxQcmVmaXhcPg==</entry>
         <entry encoding="base64">XDxhdHRyaWJ1dGVWZXJ0ZXhVcGRhdGVzXD4=</entry>
         <entry encoding="base64">XDx1cGRhdGVcPg==</entry>
         <entry encoding="base64">XDxoYXNFZGdlVXBkYXRlc1w+</entry>
@@ -27,6 +17,16 @@
         <entry>UnRecogn</entry>
         <entry>Unre</entry>
         <entry encoding="base64">XDxJTExFR0FMX0NBU1RcPg==</entry>
+        <entry>extra</entry>
+        <entry>findInstances</entry>
+        <entry>instances</entry>
+        <entry encoding="base64">XDx1cGRhdGVUeXBlXD4=</entry>
+        <entry encoding="base64">XDxTdGF0aXN0aWNzVXBkYXRlVHlwZVw+</entry>
+        <entry>LENGTH</entry>
+        <entry encoding="base64">XDxTVFJJTkdfTUFYX0xFTkdUSFw+</entry>
+        <entry>IID</entry>
+        <entry>thing</entry>
+        <entry>extract</entry>
       </history-search>
       <history-cmd>
         <entry>w\:w</entry>
@@ -196,23 +196,26 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" timestamp="1606819486873">
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" timestamp="1606824701405">
         <mark key="'" line="140" column="55" />
-        <mark key="[" line="286" column="54" />
+        <mark key="[" line="78" column="137" />
         <mark key="m" line="140" column="53" />
-        <mark key="]" line="286" column="82" />
-        <mark key="." line="286" column="81" />
-        <mark key="^" line="286" column="82" />
+        <mark key="]" line="78" column="138" />
+        <mark key="." line="78" column="137" />
+        <mark key="^" line="78" column="138" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" timestamp="1606762692154">
         <mark key="'" line="194" column="74" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" timestamp="1606824276508">
-        <mark key="'" line="81" column="0" />
-        <mark key="[" line="21" column="80" />
-        <mark key="]" line="21" column="81" />
-        <mark key="." line="21" column="80" />
-        <mark key="^" line="21" column="81" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/EdgeIID.java" timestamp="1606825238137">
+        <mark key="'" line="102" column="58" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" timestamp="1606826946736">
+        <mark key="'" line="32" column="23" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+        <mark key="^" line="32" column="24" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/thing/impl/ThingImpl.java" timestamp="1606816553328">
         <mark key="'" line="104" column="68" />
@@ -228,16 +231,10 @@
         <mark key="^" line="170" column="79" />
         <mark key="." line="170" column="78" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/GraphManager.java" timestamp="1606670694051">
-        <mark key="'" line="73" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" timestamp="1606822330106">
-        <mark key="'" line="457" column="35" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" timestamp="1606825804750">
+        <mark key="'" line="680" column="20" />
         <mark key="k" line="646" column="0" />
-        <mark key="[" line="544" column="0" />
-        <mark key="]" line="546" column="8" />
-        <mark key="." line="546" column="7" />
-        <mark key="^" line="546" column="8" />
+        <mark key="^" line="698" column="37" />
       </file>
       <file name="/Dummy.txt" timestamp="1606821370623">
         <mark key="[" line="0" column="0" />
@@ -256,7 +253,7 @@
         <mark key="." line="126" column="24" />
         <mark key="^" line="126" column="25" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/InfixIID.java" timestamp="1606815490244" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/InfixIID.java" timestamp="1606825178786" />
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" timestamp="1606819643269">
         <mark key="'" line="40" column="0" />
         <mark key="[" line="256" column="26" />
@@ -268,8 +265,12 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/exception/ErrorMessage.java" timestamp="1606821202799">
         <mark key="'" line="178" column="61" />
       </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Transaction.java" timestamp="1606731542744">
-        <mark key="'" line="482" column="48" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/VertexIID.java" timestamp="1606826888771">
+        <mark key="'" line="372" column="91" />
+        <mark key="[" line="310" column="32" />
+        <mark key="]" line="310" column="43" />
+        <mark key="^" line="310" column="43" />
+        <mark key="." line="310" column="42" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1606821228068">
         <mark key="'" line="55" column="64" />
@@ -278,32 +279,26 @@
         <mark key="." line="379" column="78" />
         <mark key="^" line="379" column="79" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/ThingVertexImpl.java" timestamp="1606670635460">
-        <mark key="'" line="161" column="57" />
-        <mark key="[" line="194" column="0" />
-        <mark key="]" line="194" column="0" />
-        <mark key="." line="194" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/impl/AttributeTypeImpl.java" timestamp="1606824716805">
+        <mark key="'" line="95" column="25" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" timestamp="1606822035894">
-        <mark key="'" line="72" column="25" />
-        <mark key="[" line="44" column="34" />
-        <mark key="]" line="44" column="34" />
-        <mark key="." line="44" column="34" />
-        <mark key="^" line="44" column="34" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" timestamp="1606826365068">
+        <mark key="'" line="21" column="0" />
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="0" />
+        <mark key="." line="69" column="0" />
+        <mark key="^" line="67" column="54" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" timestamp="1606823562635">
-        <mark key="'" line="239" column="4" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" timestamp="1606826130594">
+        <mark key="'" line="43" column="28" />
         <mark key="k" line="168" column="37" />
-        <mark key="[" line="224" column="27" />
-        <mark key="]" line="224" column="27" />
-        <mark key="." line="224" column="26" />
-        <mark key="^" line="224" column="27" />
+        <mark key="[" line="233" column="47" />
+        <mark key="]" line="233" column="47" />
+        <mark key="." line="233" column="67" />
+        <mark key="^" line="231" column="43" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/AttributeVertexImpl.java" timestamp="1606670493963">
-        <mark key="'" line="96" column="24" />
-        <mark key="[" line="59" column="0" />
-        <mark key="]" line="59" column="0" />
-        <mark key="." line="59" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/IID.java" timestamp="1606826141300">
+        <mark key="'" line="22" column="22" />
       </file>
       <file name="/fragment.java" timestamp="1606821756110">
         <mark key="'" line="0" column="11" />
@@ -314,48 +309,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="600" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="610" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="149" column="11" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="146" column="70" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="142" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="140" column="55" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="157" column="95" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="158" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="156" column="70" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="164" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="154" column="81" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="606" column="92" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="263" column="48" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="265" column="56" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="269" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="273" column="32" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="274" column="32" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="128" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="133" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="134" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="64" column="42" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="64" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="76" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="97" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="104" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="75" column="1" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="123" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="113" column="26" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="106" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="129" column="52" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="132" column="88" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="155" column="11" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="75" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="82" column="29" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="124" column="34" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="136" column="55" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/edge/impl/ThingEdgeImpl.java" />
-      <jump line="159" column="44" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="248" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="40" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="42" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
-      <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
       <jump line="66" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
       <jump line="59" column="100" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
       <jump line="74" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
@@ -363,7 +316,6 @@
       <jump line="565" column="45" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="591" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="136" column="62" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
-      <jump line="193" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
       <jump line="593" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="590" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="564" column="51" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
@@ -379,9 +331,6 @@
       <jump line="113" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/exception/ErrorMessage.java" />
       <jump line="178" column="61" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/exception/ErrorMessage.java" />
       <jump line="55" column="64" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="23" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
-      <jump line="25" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
       <jump line="29" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
       <jump line="32" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
       <jump line="37" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
@@ -390,7 +339,6 @@
       <jump line="580" column="24" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="71" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
       <jump line="64" column="98" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
-      <jump line="64" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
       <jump line="559" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="605" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="561" column="66" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
@@ -406,20 +354,67 @@
       <jump line="704" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="457" column="35" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="19" column="80" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
-      <jump line="20" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
-      <jump line="18" column="64" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
-      <jump line="21" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
       <jump line="39" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
       <jump line="221" column="32" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
       <jump line="239" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
       <jump line="108" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
       <jump line="81" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="452" column="64" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/VertexIID.java" />
+      <jump line="95" column="25" filename="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/impl/AttributeTypeImpl.java" />
+      <jump line="167" column="77" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="102" column="58" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/EdgeIID.java" />
+      <jump line="433" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="659" column="72" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="196" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="198" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="202" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="211" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="215" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="219" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="671" column="64" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="664" column="77" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="691" column="84" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="462" column="69" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="30" column="25" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="44" column="109" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="45" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="63" column="133" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="64" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="10" column="58" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="13" column="81" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="15" column="37" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="22" column="69" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="21" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="23" column="60" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="46" column="78" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="231" column="42" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="233" column="41" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="18" column="64" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="685" column="40" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="677" column="24" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="673" column="45" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="678" column="27" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="680" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
+      <jump line="20" column="83" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="28" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="25" column="73" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="193" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="43" column="28" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="41" column="40" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/IID.java" />
+      <jump line="47" column="26" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/IID.java" />
+      <jump line="22" column="22" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/IID.java" />
+      <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
+      <jump line="227" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/VertexIID.java" />
+      <jump line="372" column="91" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/VertexIID.java" />
+      <jump line="24" column="72" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="27" column="75" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
+      <jump line="33" column="23" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuZ3JhcGguaWlkLkVkZ2VJSUQ7Cg==</text>
       </register>
       <register name="+" type="4">
         <text>ConcurrentModificationException</text>
@@ -428,21 +423,21 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>of</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxJTExFR0FMX0NBU1RcPg==</text>
+        <text>extract</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">U3RhdGlzdGljc1VwZGF0ZVR5cGUg</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgVmVydGV4SUlELlRoaW5nIHRoaW5nSUlEID0gVmVydGV4SUlELlRoaW5nLm9mKHVwZGF0ZUlJRCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuZ3JhcGguaWlkLkVkZ2VJSUQ7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -471,28 +466,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgVmVydGV4SUlELlRoaW5nIHRoaW5nSUlEID0gVmVydGV4SUlELlRoaW5nLm9mKHVwZGF0ZUlJRCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbS5zdW4ueG1sLmludGVybmFsLm9yZy5qdm5ldC5mYXN0aW5mb3NldC5zYXguRW5jb2RpbmdBbGdvcml0aG1Db250ZW50SGFuZGxlcjsK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBieXRlcwo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgVAo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgRWRnZUlJRC5UaGluZyBlZGdlID0gRWRnZUlJRC5UaGluZy5vZih1cGRhdGVJSUQpOwo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEVuY29kaW5nLlN0YXRpc3RpY3NJbmZpeC5FREdFX09XTlNfQ09VTlQuYnl0ZXMoKSwK</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwdWJsaWMgdm9pZCBjb3VudFBlbmRpbmdVcGRhdGVzKCkgewogICAgICAgICAgICBSZXNvdXJjZUl0ZXJhdG9yPFN0YXRpc3RpY3NVcGRhdGU+IHVwZGF0ZXMgPSBzdG9yYWdlLml0ZXJhdGUoIFN0YXRpc3RpY3NCeXRlcy51cGRhdGVkS2V5KCksIFN0YXRpc3RpY3NVcGRhdGU6Om9mKTsKICAgICAgICAgICAgd2hpbGUgKHVwZGF0ZXMuaGFzTmV4dCgpKSB7CiAgICAgICAgICAgICAgICBTdGF0aXN0aWNzVXBkYXRlIHVwZGF0ZSA9IHVwZGF0ZXMubmV4dCgpOwogICAgICAgICAgICAgICAgaWYgKHVwZGF0ZSBpbnN0YW5jZW9mIFN0YXRpc3RpY3NVcGRhdGUuQXR0cmlidXRlKSB7CiAgICAgICAgICAgICAgICAgICAgVmVydGV4SUlELkF0dHJpYnV0ZTw/PiBhdHRJSUQgPSB1cGRhdGUuYXNBdHRyaWJ1dGUoKS5hdHRJSUQoKTsKICAgICAgICAgICAgICAgICAgICBpZiAodXBkYXRlLnVwZGF0ZVR5cGUoKSA9PSBFbmNvZGluZy5TdGF0aXN0aWNzVXBkYXRlVHlwZS5DUkVBVEVEKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJ5dGVbXSBjb3VudGVkID0gc3RvcmFnZS5nZXQoU3RhdGlzdGljc0J5dGVzLmF0dHJpYnV0ZUNvdW50ZWRLZXkoYXR0SUlEKSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb3VudGVkID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0b3JhZ2UubWVyZ2VVbnRyYWNrZWQoU3RhdGlzdGljc0J5dGVzLnZlcnRleENvdW50S2V5KGF0dElJRC50eXBlKCkpLCBsb25nVG9CeXRlcygxKSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdG9yYWdlLm1lcmdlVW50cmFja2VkKFN0YXRpc3RpY3NCeXRlcy52ZXJ0ZXhUcmFuc2l0aXZlQ291bnRLZXkoc2NoZW1hR3JhcGgucm9vdEF0dHJpYnV0ZVR5cGUoKS5paWQoKSksIGxvbmdUb0J5dGVzKDEpKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0b3JhZ2UucHV0KFN0YXRpc3RpY3NCeXRlcy5hdHRyaWJ1dGVDb3VudGVkS2V5KGF0dElJRCkpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmICh1cGRhdGUudXBkYXRlVHlwZSgpID09IEVuY29kaW5nLlN0YXRpc3RpY3NVcGRhdGVUeXBlLkRFTEVURUQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgYnl0ZVtdIGNvdW50ZWQgPSBzdG9yYWdlLmdldChTdGF0aXN0aWNzQnl0ZXMuYXR0cmlidXRlQ291bnRlZEtleShhdHRJSUQpKTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNvdW50ZWQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RvcmFnZS5tZXJnZVVudHJhY2tlZChTdGF0aXN0aWNzQnl0ZXMudmVydGV4Q291bnRLZXkoYXR0SUlELnR5cGUoKSksIGxvbmdUb0J5dGVzKC0xKSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdG9yYWdlLm1lcmdlVW50cmFja2VkKFN0YXRpc3RpY3NCeXRlcy52ZXJ0ZXhUcmFuc2l0aXZlQ291bnRLZXkoc2NoZW1hR3JhcGgucm9vdEF0dHJpYnV0ZVR5cGUoKS5paWQoKSksIGxvbmdUb0J5dGVzKC0xKSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdG9yYWdlLmRlbGV0ZShTdGF0aXN0aWNzQnl0ZXMuYXR0cmlidXRlQ291bnRlZEtleShhdHRJSUQpKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBHcmFrbkV4Y2VwdGlvbihJTExFR0FMX1NUQVRFKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgc3RvcmFnZS5kZWxldGUoU3RhdGlzdGljc0J5dGVzLmF0dHJpYnV0ZVVwZGF0ZWRLZXkoYXR0SUlEKSk7CiAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKHVwZGF0ZSBpbnN0YW5jZW9mIFN0YXRpc3RpY3NVcGRhdGUuSGFzRWRnZSkgewogICAgICAgICAgICAgICAgICAgIFZlcnRleElJRC5UaGluZyB0aGluZ0lJRCA9IHVwZGF0ZS5hc0hhc0VkZ2UoKS50aGluZ0lJRCgpOwogICAgICAgICAgICAgICAgICAgIFZlcnRleElJRC5BdHRyaWJ1dGU8Pz4gYXR0SUlEID0gdXBkYXRlLmFzSGFzRWRnZSgpLmF0dElJRCgpOwogICAgICAgICAgICAgICAgICAgIGlmICh1cGRhdGUudXBkYXRlVHlwZSgpID09IEVuY29kaW5nLlN0YXRpc3RpY3NVcGRhdGVUeXBlLkNSRUFURUQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgYnl0ZVtdIGNvdW50ZWQgPSBzdG9yYWdlLmdldChTdGF0aXN0aWNzQnl0ZXMuaGFzRWRnZUNvdW50ZWRLZXkodGhpbmdJSUQsIGF0dElJRCkpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAoY291bnRlZCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdG9yYWdlLm1lcmdlVW50cmFja2VkKFN0YXRpc3RpY3NCeXRlcy5oYXNFZGdlQ291bnRLZXkodGhpbmdJSUQudHlwZSgpLCBhdHRJSUQudHlwZSgpKSwgbG9uZ1RvQnl0ZXMoMSkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RvcmFnZS5wdXQoU3RhdGlzdGljc0J5dGVzLmhhc0VkZ2VDb3VudGVkS2V5KHRoaW5nSUlELCBhdHRJSUQpKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAodXBkYXRlLnVwZGF0ZVR5cGUoKSA9PSBFbmNvZGluZy5TdGF0aXN0aWNzVXBkYXRlVHlwZS5ERUxFVEVEKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJ5dGVbXSBjb3VudGVkID0gc3RvcmFnZS5nZXQoU3RhdGlzdGljc0J5dGVzLmF0dHJpYnV0ZUNvdW50ZWRLZXkoYXR0SUlEKSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb3VudGVkICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0b3JhZ2UubWVyZ2VVbnRyYWNrZWQoU3RhdGlzdGljc0J5dGVzLmhhc0VkZ2VDb3VudEtleSh0aGluZ0lJRC50eXBlKCksIGF0dElJRC50eXBlKCkpLCBsb25nVG9CeXRlcygtMSkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RvcmFnZS5kZWxldGUoU3RhdGlzdGljc0J5dGVzLmhhc0VkZ2VDb3VudGVkS2V5KHRoaW5nSUlELCBhdHRJSUQpKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBHcmFrbkV4Y2VwdGlvbihJTExFR0FMX1NUQVRFKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgc3RvcmFnZS5kZWxldGUodXBkYXRlLmtleSgpKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgbmV3IEdyYWtuRXhjZXB0aW9uKElMTEVHQUxfU1RBVEUpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEVuY29kaW5nLlN0YXRpc3RpY3NJbmZpeC5FREdFX09XTlNfQ09VTlQuYnl0ZXMoKSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBFREdFX09XTlNfVFJBTlNJVElWRV9DT1VOVCgzKTsK</text>
+        <text encoding="base64">ICAgICAgICBieXRlW10gdXBkYXRlSUlEID0gQnl0ZXMuc3RyaXBQcmVmaXgodXBkYXRlS2V5LCApCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0b3JhZ2UubWVyZ2VVbnRyYWNrZWQoU3RhdGlzdGljc0J5dGVzLnZlcnRleENvdW50S2V5KGF0dElJRC50eXBlKCkpLCBsb25nVG9CeXRlcygtMSkpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RvcmFnZS5tZXJnZVVudHJhY2tlZChTdGF0aXN0aWNzQnl0ZXMudmVydGV4VHJhbnNpdGl2ZUNvdW50S2V5KHNjaGVtYUdyYXBoLnJvb3RBdHRyaWJ1dGVUeXBlKCkuaWlkKCkpLCBsb25nVG9CeXRlcygtMSkpOwo=</text>
+        <text encoding="base64">ICAgICAgICBieXRlW10gdXBkYXRlS2V5ID0gQnl0ZXMuc3RyaXBQcmVmaXgoa2V5LCBFbmNvZGluZy5QcmVmaXguU1RBVElTVElDU19VUERBVEVELmJ5dGVzKCkubGVuZ3RoKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -501,9 +496,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxJTExFR0FMX0NBU1RcPg==</last-search>
+      <last-search>extract</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxJTExFR0FMX0NBU1RcPg==</last-pattern>
+      <last-pattern>extract</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
