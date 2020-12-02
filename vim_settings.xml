@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxTVFJJTkdfTUFYX0xFTkdUSFw+</entry>
-        <entry>IID</entry>
-        <entry>thing</entry>
-        <entry>extract</entry>
-        <entry encoding="base64">XDxTdGF0aXN0aWNzVXBkYXRlVHlwZVw+</entry>
         <entry encoding="base64">XDxudW1iZXJcPg==</entry>
         <entry encoding="base64">XDxyZWFkYWJsZVN0cmluZ1w+</entry>
         <entry encoding="base64">XDx0eXBlc0J5TGFiZWxcPg==</entry>
@@ -27,6 +22,11 @@
         <entry encoding="base64">XDxsb2NrXD4=</entry>
         <entry>interrupt</entry>
         <entry>Director</entry>
+        <entry>after</entry>
+        <entry>After</entry>
+        <entry>Entity types cannot have keys of attributes that are not keyable</entry>
+        <entry encoding="base64">XDxzZXNzaW9uc1BhcmFsbGVsXD4=</entry>
+        <entry>connection close</entry>
       </history-search>
       <history-cmd>
         <entry>w\:w</entry>
@@ -196,9 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/a.dummy" timestamp="1606901326355">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" timestamp="1606903422971">
         <mark key="'" line="268" column="0" />
         <mark key="[" line="46" column="44" />
@@ -212,6 +209,9 @@
         <mark key="]" line="1018" column="46" />
         <mark key="." line="1018" column="45" />
         <mark key="^" line="1018" column="46" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/session/SessionSteps.java" timestamp="1606913254335">
+        <mark key="'" line="77" column="11" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/exception/ErrorMessage.java" timestamp="1606909167216">
         <mark key="'" line="84" column="51" />
@@ -231,6 +231,12 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/BasicTest.java" timestamp="1606910935714">
         <mark key="'" line="137" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" timestamp="1606913397861">
+        <mark key="'" line="106" column="26" />
+        <mark key="[" line="107" column="0" />
+        <mark key="]" line="107" column="0" />
+        <mark key="." line="107" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" timestamp="1606903379979">
         <mark key="'" line="0" column="1" />
         <mark key="[" line="0" column="0" />
@@ -238,15 +244,18 @@
         <mark key="." line="52" column="0" />
         <mark key="^" line="51" column="71" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/concept/type/entitytype/EntityTypeTest.java" timestamp="1606908005133">
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/concept/type/entitytype/EntityTypeTest.java" timestamp="1606912116529">
         <mark key="[" line="46" column="0" />
         <mark key="]" line="50" column="110" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksSession.java" timestamp="1606909243993">
         <mark key="'" line="193" column="55" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" timestamp="1606907897821">
-        <mark key="'" line="685" column="12" />
+      <file name="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" timestamp="1606913246599">
+        <mark key="'" line="265" column="9" />
+        <mark key="[" line="319" column="24" />
+        <mark key="]" line="319" column="40" />
+        <mark key="." line="28" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsUpdate.java" timestamp="1606903388427">
         <mark key="'" line="37" column="8" />
@@ -254,18 +263,8 @@
         <mark key="]" line="17" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/Grakn.java" timestamp="1606901079285">
-        <mark key="'" line="123" column="0" />
-        <mark key="[" line="122" column="0" />
-        <mark key="]" line="122" column="0" />
-        <mark key="^" line="122" column="8" />
-        <mark key="." line="122" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/GraphManager.java" timestamp="1606845065708">
-        <mark key="'" line="73" column="0" />
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/transaction/TransactionSteps.java" timestamp="1606912955058">
+        <mark key="'" line="51" column="81" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" timestamp="1606904675946">
         <mark key="'" line="21" column="44" />
@@ -294,13 +293,11 @@
         <mark key="^" line="317" column="18" />
         <mark key="." line="317" column="12" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" timestamp="1606850809626">
-        <mark key="'" line="43" column="28" />
-        <mark key="k" line="168" column="37" />
-        <mark key="[" line="42" column="64" />
-        <mark key="]" line="42" column="81" />
-        <mark key="." line="42" column="80" />
-        <mark key="^" line="42" column="81" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/concept/type/thingtype/ThingTypeSteps.java" timestamp="1606912708727">
+        <mark key="[" line="54" column="67" />
+        <mark key="]" line="54" column="67" />
+        <mark key="^" line="54" column="67" />
+        <mark key="." line="54" column="66" />
       </file>
       <file name="/fragment.java" timestamp="1606908518459">
         <mark key="'" line="0" column="11" />
@@ -311,33 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="117" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="126" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="128" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="142" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="109" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="99" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="91" column="24" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="90" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="100" column="74" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="108" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="92" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="623" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="700" column="32" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="702" column="39" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="704" column="39" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="705" column="91" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="54" column="42" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="52" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="105" column="48" filename="$USER_HOME$/GraknLabs/grakn-2.0/Grakn.java" />
-      <jump line="268" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
-      <jump line="122" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/Grakn.java" />
-      <jump line="731" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="455" column="35" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="123" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/Grakn.java" />
-      <jump line="559" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="558" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="550" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="546" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="504" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="507" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
@@ -411,15 +381,42 @@
       <jump line="323" column="45" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
       <jump line="124" column="49" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
       <jump line="137" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/BasicTest.java" />
+      <jump line="91" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="52" column="29" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="28" column="0" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="304" column="12" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="319" column="65" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="108" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="53" column="57" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="228" column="33" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/transaction/TransactionSteps.java" />
+      <jump line="34" column="67" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/transaction/TransactionSteps.java" />
+      <jump line="53" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/transaction/TransactionSteps.java" />
+      <jump line="51" column="81" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/transaction/TransactionSteps.java" />
+      <jump line="31" column="44" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="128" column="4" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="275" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="357" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="364" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="969" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="976" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="68" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="73" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="252" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="258" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="265" column="9" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="72" column="54" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/session/SessionSteps.java" />
+      <jump line="77" column="11" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/session/SessionSteps.java" />
+      <jump line="107" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="106" column="26" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFRocmVhZC5jdXJyZW50VGhyZWFkKCkuaW50ZXIK</text>
+        <text encoding="base64">ICAgICAgICBzZXNzaW9ucy4K</text>
       </register>
-      <register name="+" type="2">
-        <text encoding="base64">ICAgIC8vICAgICAgIC0tY2FjaGVfdGVzdF9yZXN1bHRzPW5vIDogdG8gbWFrZSBzdXJlIHlvdSdyZSBub3QgdXNpbmcgY2FjaGUKICAgIC8vICAgICAgIC0tdGVzdF9vdXRwdXQ9c3RyZWFtZWQgOiB0byBtYWtlIHN1cmUgYWxsIG91dHB1dCBpcyBwcmludGVkCiAgICAvLyAgICAgICAtLXN1YmNvbW1hbmRzIDogdG8gcHJpbnQgdGhlIGxvdy1sZXZlbCBjb21tYW5kcyBhbmQgZXhlY3V0aW9uIHBhdGhzCiAgICAvLyAgICAgICAtLXNhbmRib3hfZGVidWcgOiB0byBrZWVwIHRoZSBzYW5kYm94IG5vdCBkZWxldGVkIGFmdGVyIHRlc3QgcnVucwogICAgLy8gICAgICAgLS1zcGF3bl9zdHJhdGVneT1zdGFuZGFsb25lIDogaWYgeW91J3JlIG9uIE1hYyBhbmQgdGhlIHRlc3RzIG5lZWQgcGVybWlzc2lvbiB0byBhY2Nlc3MgZmlsZXN5c3RlbQo=</text>
+      <register name="+" type="4">
+        <text>set owns key type</text>
       </register>
       <register name="l" type="4">
         <text />
@@ -428,7 +425,7 @@
         <text encoding="base64">ID0gbmV3IFRocmVhZCh0aGlzOjp1cGRhdGVGbik7</text>
       </register>
       <register name="/" type="4">
-        <text>Director</text>
+        <text>connection close</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -439,7 +436,7 @@
         <text encoding="base64">ICAgICAgICAgICAgdGhyZWFkID0gbmV3IFRocmVhZCh0aGlzOjp1cGRhdGVGbik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFRocmVhZC5jdXJyZW50VGhyZWFkKCkuaW50ZXIK</text>
+        <text encoding="base64">ICAgICAgICBzZXNzaW9ucy4K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -468,28 +465,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKEdyYSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgVGhyZWFkLmN1cnJlbnRUaHJlYWQoKS5pbnRlcnJ1cHQoKTsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBHcmFrbkV4Y2VwdGlvbihlKTsKICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgIEFmdGVyOgogICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFRocmVhZC5jdXJyZW50VGhyZWFkKCkuaW50ZXIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwo=</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgVGhyZWFkLmN1cnJlbnRUaHJlYWQoKS5pbnRlcnJ1cHQoKTsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBHcmFrbkV4Y2VwdGlvbihlKTsKICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgR3Jha25FeGNlcHRpb24oZSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBUaHJlYWQuY3VycmVudFRocmVhZCgpLmludGVycnVwdCgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IHsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgVGhyZWFkLmN1cnJlbnRUaHJlYWQoKS5pbnRlcnJ1cHQoKTsKICAgICAgICAgICAgICAgIHRocm93IG5ldyBHcmFrbkV4Y2VwdGlvbihlKTsKICAgICAgICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -498,9 +495,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Director</last-search>
+      <last-search>connection close</last-search>
       <last-offset />
-      <last-pattern>Director</last-pattern>
+      <last-pattern>connection close</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
