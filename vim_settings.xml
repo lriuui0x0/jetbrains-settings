@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxyb2Nrc1RyYW5zYWN0aW9uXD4=</entry>
-        <entry encoding="base64">XDx0eXBlSUlEXD4=</entry>
-        <entry encoding="base64">XDxhc0Jvb2xlYW5cPg==</entry>
-        <entry>Entity types can re-override keys as keys</entry>
         <entry encoding="base64">XDxsb2NrXD4=</entry>
         <entry>Director</entry>
         <entry>after</entry>
@@ -27,6 +23,10 @@
         <entry>nterrupt</entry>
         <entry>interrupt</entry>
         <entry>isOut</entry>
+        <entry encoding="base64">XDxtYXlSZWZyZXNoU3RvcmFnZVw+</entry>
+        <entry>SetSnapshot</entry>
+        <entry>Cache</entry>
+        <entry>cache</entry>
       </history-search>
       <history-cmd>
         <entry>w\:w</entry>
@@ -207,14 +207,16 @@
       <file name="/a.dummy" timestamp="1606925940654">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/concept/type/entitytype/BUILD" timestamp="1606914052829">
-        <mark key="'" line="18" column="76" />
-      </file>
       <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Status.java" timestamp="1606930096284">
         <mark key="[" line="33" column="25" />
         <mark key="]" line="33" column="25" />
         <mark key="^" line="33" column="25" />
         <mark key="." line="33" column="24" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" timestamp="1606991376632">
+        <mark key="[" line="89" column="0" />
+        <mark key="]" line="89" column="36" />
+        <mark key="." line="83" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/session/SessionSteps.java" timestamp="1606921068898">
         <mark key="'" line="147" column="0" />
@@ -267,43 +269,37 @@
         <mark key="." line="37" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" timestamp="1606929521689">
-        <mark key="'" line="159" column="44" />
-        <mark key="[" line="170" column="72" />
-        <mark key="]" line="170" column="72" />
-        <mark key="^" line="170" column="79" />
-        <mark key="." line="170" column="72" />
+        <mark key="'" line="156" column="44" />
+        <mark key="[" line="167" column="72" />
+        <mark key="]" line="167" column="72" />
+        <mark key="^" line="167" column="79" />
+        <mark key="." line="167" column="72" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" timestamp="1606931038745">
-        <mark key="'" line="850" column="0" />
-        <mark key="k" line="669" column="0" />
-        <mark key="[" line="777" column="32" />
-        <mark key="]" line="777" column="31" />
-        <mark key="." line="777" column="30" />
-        <mark key="^" line="777" column="31" />
+        <mark key="'" line="513" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" timestamp="1606930217378">
-        <mark key="'" line="277" column="12" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" timestamp="1606991521605">
+        <mark key="'" line="61" column="36" />
         <mark key="[" line="270" column="93" />
         <mark key="]" line="270" column="104" />
         <mark key="." line="270" column="103" />
         <mark key="^" line="270" column="104" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/session/SessionTest.java" timestamp="1606914043317">
-        <mark key="'" line="53" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1606991297060">
+        <mark key="'" line="368" column="8" />
+        <mark key="[" line="370" column="0" />
+        <mark key="]" line="370" column="1" />
+        <mark key="." line="370" column="0" />
+        <mark key="^" line="370" column="1" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" timestamp="1606922233614">
-        <mark key="[" line="558" column="22" />
-        <mark key="]" line="558" column="23" />
-        <mark key="." line="558" column="23" />
-        <mark key="^" line="558" column="22" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" timestamp="1606931139974">
-        <mark key="'" line="136" column="27" />
-        <mark key="k" line="168" column="37" />
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" timestamp="1606990000008">
         <mark key="[" line="42" column="64" />
         <mark key="]" line="42" column="81" />
         <mark key="." line="42" column="80" />
         <mark key="^" line="42" column="81" />
+      </file>
+      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" timestamp="1606990620298">
+        <mark key="'" line="15" column="19" />
       </file>
       <file name="/fragment.java" timestamp="1606921254721">
         <mark key="'" line="0" column="11" />
@@ -314,26 +310,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="486" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="474" column="68" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="599" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
-      <jump line="467" column="28" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
-      <jump line="256" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="250" column="60" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="469" column="24" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="482" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="549" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="547" column="49" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="619" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="597" column="88" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="40" column="26" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/session/SessionSteps.java" />
-      <jump line="147" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/session/SessionSteps.java" />
-      <jump line="513" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" />
-      <jump line="823" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="465" column="35" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
-      <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
-      <jump line="1" column="1" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/StatisticsBytes.java" />
-      <jump line="676" column="46" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="736" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="677" column="68" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="260" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
@@ -414,12 +390,32 @@
       <jump line="370" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="850" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/DataGraph.java" />
       <jump line="136" column="27" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" />
+      <jump line="94" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
+      <jump line="84" column="99" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
+      <jump line="91" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
+      <jump line="75" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
+      <jump line="83" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/QueryTest.java" />
+      <jump line="422" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
+      <jump line="201" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
+      <jump line="195" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
+      <jump line="14" column="9" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" />
+      <jump line="17" column="13" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" />
+      <jump line="21" column="41" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" />
+      <jump line="24" column="7" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" />
+      <jump line="46" column="27" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" />
+      <jump line="47" column="25" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" />
+      <jump line="15" column="19" filename="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" />
+      <jump line="358" column="109" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
+      <jump line="368" column="8" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
+      <jump line="49" column="13" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
+      <jump line="60" column="32" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
+      <jump line="61" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>100</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">ICAgICAgICBSdW50aW1lLmdldFJ1bnRpbWUoKS5hZGRTaHV0ZG93bkhvb2soTmFtZWRUaHJlYWRGYWN0b3J5LmNyZWF0ZShHcmFrblNlcnZlci5jbGFzcywgInNodXRkb3duIikubmV3VGhyZWFkKHRoaXM6OmNsb3NlKSk7Cg==</text>
@@ -428,21 +424,21 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>100</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>isOut</text>
+        <text>cache</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>session.database.name + &quot;::statistics-background-counter&quot;</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IChHcmFrbi5TZXNzaW9uIHNlc3Npb24gPSBncmFrbi5zZXNzaW9uKGRhdGFiYXNlLCBBcmd1bWVudHMuU2Vzc2lvbi5UeXBlLkRBVEEpKSB7CiAgICAgICAgICAgICAgICB0cnkgKEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihBcmd1bWVudHMuVHJhbnNhY3Rpb24uVHlwZS5XUklURSkpIHsKICAgICAgICAgICAgICAgICAgICB0eC5xdWVyeSgpLmluc2VydChHcmFxbC5wYXJzZVF1ZXJ5KCJpbnNlcnQgJHggaXNhIHBlcnNvbjsgIikpOwogICAgICAgICAgICAgICAgICAgIHR4LnF1ZXJ5KCkuaW5zZXJ0KEdyYXFsLnBhcnNlUXVlcnkoImluc2VydCAkeCAxIGlzYSBhZ2U7IikpOwogICAgICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9Cgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb3VudEpvYk5vdGlmaWNhdGlvbnMucmVsZWFzZSgpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -474,25 +470,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IChHcmFrbi5TZXNzaW9uIHNlc3Npb24gPSBncmFrbi5zZXNzaW9uKGRhdGFiYXNlLCBBcmd1bWVudHMuU2Vzc2lvbi5UeXBlLkRBVEEpKSB7CiAgICAgICAgICAgICAgICB0cnkgKEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihBcmd1bWVudHMuVHJhbnNhY3Rpb24uVHlwZS5XUklURSkpIHsKICAgICAgICAgICAgICAgICAgICB0eC5xdWVyeSgpLmluc2VydChHcmFxbC5wYXJzZVF1ZXJ5KCJpbnNlcnQgJHggaXNhIHBlcnNvbjsgIikpOwogICAgICAgICAgICAgICAgICAgIHR4LnF1ZXJ5KCkuaW5zZXJ0KEdyYXFsLnBhcnNlUXVlcnkoImluc2VydCAkeCAxIGlzYSBhZ2U7IikpOwogICAgICAgICAgICAgICAgICAgIHR4LmNvbW1pdCgpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9Cgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAg</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKHBlcnNvbi50b1N0cmluZygpKTsKICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKGFnZS50b1N0cmluZygpKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjb3VudEpvYk5vdGlmaWNhdGlvbnMucmVsZWFzZSgpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5pc091dCA9IGlzT3V0Owo=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAg</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgKiBAcGFyYW0gaXNPdXQgICAgaWYgdGhlIGVkZ2UgaXMgdGhlIG91dHdhcmQgZWRnZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -501,9 +497,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>isOut</last-search>
+      <last-search>cache</last-search>
       <last-offset />
-      <last-pattern>isOut</last-pattern>
+      <last-pattern>cache</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
