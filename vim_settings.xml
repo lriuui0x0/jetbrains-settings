@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>remove</entry>
-        <entry>nterupt</entry>
         <entry>nterrupt</entry>
         <entry>interrupt</entry>
         <entry>isOut</entry>
@@ -27,9 +25,10 @@
         <entry encoding="base64">XDxzZXRSZWxhdGVzXD4=</entry>
         <entry encoding="base64">XDxzZWVkXD4=</entry>
         <entry encoding="base64">XDxuZXh0XD4=</entry>
+        <entry encoding="base64">XDxjaGlsZHJlbkZuXD4=</entry>
+        <entry>setHas</entry>
       </history-search>
       <history-cmd>
-        <entry>w\:w</entry>
         <entry>2</entry>
         <entry>b</entry>
         <entry>Q</entry>
@@ -47,8 +46,9 @@
         <entry>wwwll:w</entry>
         <entry>W</entry>
         <entry>w\</entry>
-        <entry>q</entry>
+        <entry>q:q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -211,10 +211,7 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/collection/Bytes.java" timestamp="1607008496595">
         <mark key="'" line="29" column="19" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/ParallelIterators.java" timestamp="1607077160789" />
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" timestamp="1606994487857">
-        <mark key="'" line="513" column="12" />
-      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/ParallelIterators.java" timestamp="1607077266065" />
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/impl/RelationTypeImpl.java" timestamp="1607020484921">
         <mark key="'" line="132" column="61" />
         <mark key="." line="132" column="60" />
@@ -235,7 +232,7 @@
         <mark key="]" line="339" column="0" />
         <mark key="." line="339" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/CartesianIterator.java" timestamp="1607076723230">
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/CartesianIterator.java" timestamp="1607078117956">
         <mark key="'" line="121" column="20" />
         <mark key="[" line="121" column="15" />
         <mark key="]" line="121" column="21" />
@@ -246,6 +243,9 @@
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/TreeIterator.java" timestamp="1607077778577">
+        <mark key="'" line="44" column="36" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/BaseIterator.java" timestamp="1607075998952" />
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" timestamp="1607010782602">
         <mark key="'" line="47" column="20" />
@@ -254,7 +254,7 @@
         <mark key="." line="42" column="80" />
         <mark key="^" line="42" column="81" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" timestamp="1607073719623">
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" timestamp="1607078340737">
         <mark key="[" line="212" column="0" />
         <mark key="]" line="217" column="163" />
         <mark key="^" line="216" column="133" />
@@ -291,11 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="191" column="78" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
-      <jump line="212" column="115" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
-      <jump line="217" column="66" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
-      <jump line="210" column="47" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
-      <jump line="215" column="52" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
       <jump line="216" column="22" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
       <jump line="357" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
       <jump line="212" column="49" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
@@ -391,6 +386,11 @@
       <jump line="119" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/BasicTest.java" />
       <jump line="101" column="22" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/BasicTest.java" />
       <jump line="121" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/CartesianIterator.java" />
+      <jump line="26" column="51" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/TreeIterator.java" />
+      <jump line="35" column="58" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/TreeIterator.java" />
+      <jump line="37" column="26" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/TreeIterator.java" />
+      <jump line="54" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/TreeIterator.java" />
+      <jump line="44" column="36" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/TreeIterator.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -408,7 +408,7 @@
         <text>()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxuZXh0XD4=</text>
+        <text>setHas</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -472,15 +472,15 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzb3V0Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxuZXh0XD4=</last-search>
+      <last-search>setHas</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxuZXh0XD4=</last-pattern>
+      <last-pattern>setHas</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
