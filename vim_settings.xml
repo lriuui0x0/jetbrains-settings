@@ -211,6 +211,7 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/collection/Bytes.java" timestamp="1607008496595">
         <mark key="'" line="29" column="19" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/ParallelIterators.java" timestamp="1607077160789" />
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/SchemaGraph.java" timestamp="1606994487857">
         <mark key="'" line="513" column="12" />
       </file>
@@ -234,11 +235,18 @@
         <mark key="]" line="339" column="0" />
         <mark key="." line="339" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/CartesianIterator.java" timestamp="1607076723230">
+        <mark key="'" line="121" column="20" />
+        <mark key="[" line="121" column="15" />
+        <mark key="]" line="121" column="21" />
+        <mark key="." line="121" column="15" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/impl/TypeImpl.java" timestamp="1607022504131">
         <mark key="[" line="167" column="0" />
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/BaseIterator.java" timestamp="1607075998952" />
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/Encoding.java" timestamp="1607010782602">
         <mark key="'" line="47" column="20" />
         <mark key="[" line="42" column="64" />
@@ -252,12 +260,6 @@
         <mark key="^" line="216" column="133" />
         <mark key="." line="216" column="0" />
       </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/Status.java" timestamp="1606930096284">
-        <mark key="[" line="33" column="25" />
-        <mark key="]" line="33" column="25" />
-        <mark key="^" line="33" column="25" />
-        <mark key="." line="33" column="24" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksIterator.java" timestamp="1607022214784">
         <mark key="[" line="50" column="21" />
         <mark key="]" line="50" column="22" />
@@ -270,9 +272,6 @@
         <mark key="]" line="63" column="12" />
         <mark key="^" line="63" column="12" />
         <mark key="." line="63" column="11" />
-      </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/2bb547c231bf12c5027554aa4371230d/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionOptions.java" timestamp="1606990620298">
-        <mark key="'" line="15" column="19" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" timestamp="1607003264236">
         <mark key="[" line="20" column="62" />
@@ -292,7 +291,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="599" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
       <jump line="191" column="78" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
       <jump line="212" column="115" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
       <jump line="217" column="66" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/SchemaAdjacencyImpl.java" />
@@ -392,12 +390,13 @@
       <jump line="873" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/BasicTest.java" />
       <jump line="119" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/BasicTest.java" />
       <jump line="101" column="22" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/integration/BasicTest.java" />
+      <jump line="121" column="20" filename="$USER_HOME$/GraknLabs/grakn-2.0/common/iterator/CartesianIterator.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>employer</text>
+        <text>list</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">Ly8gICAgICAgICAgICBmaW5hbCBSZXNvdXJjZUl0ZXJhdG9yPFNjaGVtYUVkZ2U+IHN0b3JhZ2VJdGVyYXRvciA9IHN0b3JhZ2VJdGVyYXRvcnMuY29tcHV0ZUlmQWJzZW50KAovLyAgICAgICAgICAgICAgICAgICAgaGFzaGVkKGpvaW4ob3duZXIuaWlkKCkuYnl0ZXMoKSwgZGlyZWN0aW9uLmlzT3V0KCkgPyBlbmNvZGluZy5vdXQoKS5ieXRlcygpIDogZW5jb2RpbmcuaW4oKS5ieXRlcygpKSksCi8vICAgICAgICAgICAgICAgICAgICBpaWQgLT4gb3duZXIuZ3JhcGgoKS5zdG9yYWdlKCkuaXRlcmF0ZShpaWQuYXJyYXkoKSwgKGtleSwgdmFsdWUpIC0+IGNhY2hlKG5ld1BlcnNpc3RlZEVkZ2Uoa2V5LCB2YWx1ZSkpKQovLyAgICAgICAgICAgICk7CiAgICAgICAgICAgIEJ5dGVzLkhhc2hlZCBpaWQgPSBoYXNoZWQoam9pbihvd25lci5paWQoKS5ieXRlcygpLCBkaXJlY3Rpb24uaXNPdXQoKSA/IGVuY29kaW5nLm91dCgpLmJ5dGVzKCkgOiBlbmNvZGluZy5pbigpLmJ5dGVzKCkpKTsKICAgICAgICAgICAgZmluYWwgUmVzb3VyY2VJdGVyYXRvcjxTY2hlbWFFZGdlPiBzdG9yYWdlSXRlcmF0b3IgPSBvd25lci5ncmFwaCgpLnN0b3JhZ2UoKS5pdGVyYXRlKGlpZC5hcnJheSgpLCAoa2V5LCB2YWx1ZSkgLT4gY2FjaGUobmV3UGVyc2lzdGVkRWRnZShrZXksIHZhbHVlKSkpOwo=</text>
@@ -406,7 +405,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>employer</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxuZXh0XD4=</text>
