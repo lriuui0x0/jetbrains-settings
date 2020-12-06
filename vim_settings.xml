@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdG9yYWdlXD4=</entry>
         <entry encoding="base64">XDxzY2hlbWFUcmFuc2FjdGlvblw+</entry>
         <entry encoding="base64">XDxjYWNoZVw+</entry>
         <entry encoding="base64">XDxzdG9yYWdlU2NoZW1hXD4=</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</entry>
         <entry>repeated</entry>
         <entry>Entity types can unset owning attributes</entry>
+        <entry encoding="base64">XDxzZXNzaW9uc1RvVHJhbnNhY3Rpb25zXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>b</entry>
@@ -199,7 +199,7 @@
       <file name="/Dummy.txt" timestamp="1607265015063">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" timestamp="1607265708732">
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" timestamp="1607267464254">
         <mark key="a" line="214" column="53" />
         <mark key="'" line="201" column="38" />
         <mark key="[" line="46" column="0" />
@@ -210,7 +210,7 @@
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabaseManager.java" timestamp="1607265156344">
         <mark key="'" line="4" column="2" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksSession.java" timestamp="1607192557811">
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksSession.java" timestamp="1607267458315">
         <mark key="'" line="184" column="4" />
         <mark key="[" line="61" column="0" />
         <mark key="]" line="61" column="0" />
@@ -245,6 +245,13 @@
       <file name="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" timestamp="1607266393484">
         <mark key="'" line="80" column="40" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" timestamp="1607267436661">
+        <mark key="'" line="54" column="47" />
+        <mark key="[" line="109" column="0" />
+        <mark key="]" line="109" column="39" />
+        <mark key="." line="109" column="0" />
+        <mark key="^" line="110" column="26" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/concept/type/impl/ThingTypeImpl.java" timestamp="1607187540732">
         <mark key="'" line="300" column="8" />
       </file>
@@ -275,12 +282,6 @@
         <mark key="." line="55" column="16" />
         <mark key="^" line="55" column="17" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/adjacency/impl/ThingAdjacencyImpl.java" timestamp="1607092027418">
-        <mark key="'" line="313" column="0" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/util/KeyGenerator.java" timestamp="1607260871067" />
       <file name="/fragment.java" timestamp="1607263136568">
         <mark key="'" line="0" column="11" />
@@ -294,11 +295,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="391" column="26" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="408" column="19" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="413" column="19" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="64" column="23" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
-      <jump line="279" column="57" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
       <jump line="62" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
       <jump line="275" column="54" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
       <jump line="374" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksTransaction.java" />
@@ -394,12 +390,17 @@
       <jump line="204" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
       <jump line="201" column="38" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
       <jump line="80" column="40" filename="$USER_HOME$/GraknLabs/behaviour/concept/type/entitytype.feature" />
+      <jump line="92" column="4" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="81" column="15" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="109" column="10" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="80" column="52" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
+      <jump line="54" column="47" filename="$USER_HOME$/GraknLabs/grakn-2.0/test/behaviour/connection/ConnectionSteps.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKGkgKyAiIC0tLS0gIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKExpc3Q8R3Jha24uVHJhbnNhY3Rpb24+IHZhbHVlIDogc2Vzc2lvbnNUb1RyYW5zYWN0aW9ucy52YWx1ZXMoKSkgewogICAgICAgICAgICB2YWx1ZS5jbGVhcigpOwogICAgICAgIH0K</text>
       </register>
       <register name="+" type="4">
         <text>ReleaseSnapshot</text>
@@ -411,7 +412,7 @@
         <text encoding="base64">SW50ZXJydXB0ZWRFeGNlcHRpb24g</text>
       </register>
       <register name="/" type="4">
-        <text>Entity types can unset owning attributes</text>
+        <text encoding="base64">XDxzZXNzaW9uc1RvVHJhbnNhY3Rpb25zXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -422,7 +423,7 @@
         <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKGkgKyAiIC0tLS0gIik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJ3YWl0aW5nIik7CiAgICAgICAgVGhyZWFkLnNsZWVwKDUwMDApOwogICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiZG9uZSB3YWl0aW5nIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKExpc3Q8R3Jha24uVHJhbnNhY3Rpb24+IHZhbHVlIDogc2Vzc2lvbnNUb1RyYW5zYWN0aW9ucy52YWx1ZXMoKSkgewogICAgICAgICAgICB2YWx1ZS5jbGVhcigpOwogICAgICAgIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -450,29 +451,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5wYXJhbWV0ZXJzLkFyZ3VtZW50cy5TZXNzaW9uLlR5cGUuREFUQTsK</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICBmb3IgKExpc3Q8R3Jha24uVHJhbnNhY3Rpb24+IHZhbHVlIDogc2Vzc2lvbnNUb1RyYW5zYWN0aW9ucy52YWx1ZXMoKSkgewo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuY29tbW9uLmV4Y2VwdGlvbi5HcmFrbkV4Y2VwdGlvbjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBiYXNpY190ZXN0X2ZhaWx1cmVzKCkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IDIwMDsgaSsrKSB7CiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbihpICsgIiAtLS0tICIpOwogICAgICAgICAgICBiYXNpY190ZXN0X2ZhaWx1cmVzX2lubmVyKCk7CiAgICAgICAgfQogICAgfQoKICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBiYXNpY190ZXN0X2ZhaWx1cmVzX2lubmVyKCkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICBVdGlsLnJlc2V0RGlyZWN0b3J5KGRpcmVjdG9yeSk7CgogICAgICAgIHRyeSAoR3Jha24gZ3Jha24gPSBSb2Nrc0dyYWtuLm9wZW4oZGlyZWN0b3J5KSkgewogICAgICAgICAgICBncmFrbi5kYXRhYmFzZXMoKS5jcmVhdGUoZGF0YWJhc2UpOwogICAgICAgIH0KCiAgICAgICAgdHJ5IChHcmFrbiBncmFrbiA9IFJvY2tzR3Jha24ub3BlbihkaXJlY3RvcnkpKSB7CgogICAgICAgIH0KICAgIH0KCg==</text>
+        <text encoding="base64">CiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJ3YWl0aW5nIik7CiAgICAgICAgVGhyZWFkLnNsZWVwKDUwMDApOwogICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiZG9uZSB3YWl0aW5nIik7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5wYXJhbWV0ZXJzLkFyZ3VtZW50cy5TZXNzaW9uLlR5cGUuREFUQTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuY29tbW9uLmV4Y2VwdGlvbi5HcmFrbkV4Y2VwdGlvbjsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgKFJvY2tzU2Vzc2lvbiBzZXNzaW9uID0gY3JlYXRlQW5kT3BlblNlc3Npb24oREFUQSwgbmV3IE9wdGlvbnMuU2Vzc2lvbigpKSkgewogICAgICAgICAgICB0cnkgKFJvY2tzVHJhbnNhY3Rpb24gdHhuID0gc2Vzc2lvbi50cmFuc2FjdGlvbihSRUFEKSkgewogICAgICAgICAgICB9CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBiYXNpY190ZXN0X2ZhaWx1cmVzKCkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IDIwMDsgaSsrKSB7CiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbihpICsgIiAtLS0tICIpOwogICAgICAgICAgICBiYXNpY190ZXN0X2ZhaWx1cmVzX2lubmVyKCk7CiAgICAgICAgfQogICAgfQoKICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCBiYXNpY190ZXN0X2ZhaWx1cmVzX2lubmVyKCkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICBVdGlsLnJlc2V0RGlyZWN0b3J5KGRpcmVjdG9yeSk7CgogICAgICAgIHRyeSAoR3Jha24gZ3Jha24gPSBSb2Nrc0dyYWtuLm9wZW4oZGlyZWN0b3J5KSkgewogICAgICAgICAgICBncmFrbi5kYXRhYmFzZXMoKS5jcmVhdGUoZGF0YWJhc2UpOwogICAgICAgIH0KCiAgICAgICAgdHJ5IChHcmFrbiBncmFrbiA9IFJvY2tzR3Jha24ub3BlbihkaXJlY3RvcnkpKSB7CgogICAgICAgIH0KICAgIH0KCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICAgICAgZGF0YUtleUdlbmVyYXRvci5zeW5jKHR4bi5hc0RhdGEoKS5kYXRhU3RvcmFnZSgpKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -481,9 +482,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Entity types can unset owning attributes</last-search>
+      <last-search encoding="base64">XDxzZXNzaW9uc1RvVHJhbnNhY3Rpb25zXD4=</last-search>
       <last-offset />
-      <last-pattern>Entity types can unset owning attributes</last-pattern>
+      <last-pattern encoding="base64">XDxzZXNzaW9uc1RvVHJhbnNhY3Rpb25zXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
