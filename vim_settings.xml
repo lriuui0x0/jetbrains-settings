@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>behav</entry>
         <entry>sorted</entry>
         <entry>deleteVertexFrom</entry>
         <entry>fromTypes</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxzdGF0aXN0aWNzQmFja2dyb3VuZENvdW50ZXJTZXNzaW9uXD4=</entry>
         <entry>close</entry>
         <entry>isOpen</entry>
+        <entry>rpm</entry>
       </history-search>
       <history-cmd>
         <entry>b</entry>
@@ -239,6 +239,11 @@
         <mark key="." line="256" column="0" />
         <mark key="^" line="156" column="31" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" timestamp="1607353920797">
+        <mark key="[" line="139" column="0" />
+        <mark key="]" line="139" column="0" />
+        <mark key="." line="139" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn-2.0/traversal/planner/PlannerEdge.java" timestamp="1607279559450">
         <mark key="'" line="1007" column="49" />
         <mark key="[" line="1021" column="62" />
@@ -251,13 +256,6 @@
         <mark key="[" line="250" column="0" />
         <mark key="]" line="250" column="45" />
         <mark key="." line="250" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" timestamp="1607350392918">
-        <mark key="'" line="437" column="24" />
-        <mark key="[" line="438" column="31" />
-        <mark key="]" line="438" column="32" />
-        <mark key="." line="438" column="31" />
-        <mark key="^" line="438" column="32" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" timestamp="1607353211024">
         <mark key="'" line="63" column="66" />
@@ -278,13 +276,6 @@
         <mark key="]" line="153" column="15" />
         <mark key="." line="153" column="14" />
         <mark key="^" line="153" column="15" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-2.0/graph/iid/IndexIID.java" timestamp="1607279537341">
-        <mark key="'" line="69" column="8" />
-        <mark key="[" line="94" column="73" />
-        <mark key="]" line="94" column="83" />
-        <mark key="." line="94" column="82" />
-        <mark key="^" line="94" column="83" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/BUILD" timestamp="1607346341818">
         <mark key="'" line="41" column="41" />
@@ -308,10 +299,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="421" column="69" filename="$USER_HOME$/GraknLabs/grakn-2.0/graph/vertex/impl/TypeVertexImpl.java" />
-      <jump line="1007" column="49" filename="$USER_HOME$/GraknLabs/grakn-2.0/traversal/planner/PlannerEdge.java" />
-      <jump line="219" column="0" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
-      <jump line="317" column="12" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
       <jump line="300" column="31" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
       <jump line="320" column="21" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
       <jump line="301" column="16" filename="$USER_HOME$/GraknLabs/grakn-2.0/rocks/RocksDatabase.java" />
@@ -408,12 +395,16 @@
       <jump line="56" column="32" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
       <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/deployment/RpmTest.java" />
       <jump line="63" column="66" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" />
+      <jump line="164" column="44" filename="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" />
+      <jump line="190" column="11" filename="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" />
+      <jump line="144" column="37" filename="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" />
+      <jump line="142" column="28" filename="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>&quot;sudo&quot;, &quot;yum&quot;, &quot;install&quot;, &quot;-y&quot;, &quot;grakn-core-server-0.0.0_&quot; + commit</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgZGVwZW5kZW5jaWVzOiBbZGVwbG95LXJwbS1zbmFwc2hvdF0K</text>
       </register>
       <register name="+" type="4">
         <text>&quot;sudo&quot;, &quot;yum&quot;, &quot;install&quot;, &quot;-y&quot;, &quot;grakn-core-server-0.0.0_&quot; + commit</text>
@@ -425,7 +416,7 @@
         <text>().</text>
       </register>
       <register name="/" type="4">
-        <text>isOpen</text>
+        <text>rpm</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -436,7 +427,7 @@
         <text encoding="base64">ICAgICAgICBncmFrblByb2Nlc3MgPSBleGVjdXRvci5jb21tYW5kKCJncmFrbiIsICJzZXJ2ZXIiKS5zdGFydCgpOwoKICAgICAgICB3YWl0VW50aWxSZWFkeSgpOwogICAgICAgIGFzc2VydFRydWUoIkdyYWtuIENvcmUgZmFpbGVkIHRvIHN0YXJ0IiwgZ3Jha25Qcm9jZXNzLmdldFByb2Nlc3MoKS5pc0FsaXZlKCkpOwoKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkdyYWtuIENvcmUgZGF0YWJhc2Ugc2VydmVyIHN0YXJ0ZWQiKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBncmFrblByb2Nlc3MgPSBleGVjdXRvci5jb21tYW5kKCJncmFrbiIsICJzZXJ2ZXIiKS5zdGFydCgpOwo=</text>
+        <text encoding="base64">ICAgICAgZGVwZW5kZW5jaWVzOiBbZGVwbG95LXJwbS1zbmFwc2hvdF0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -465,28 +456,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZmlsdGVyOgogICAgICAgIG93bmVyOiBncmFrbmxhYnMKICAgICAgICBicmFuY2g6IG1hc3Rlcgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBncmFrblByb2Nlc3MgPSBleGVjdXRvci5jb21tYW5kKCJncmFrbiIsICJzZXJ2ZXIiKS5zdGFydCgpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gTk9URTogV2UgdXNlIGEgU2VtYXBob3JlIGluc3RlYWQgb2YgQ291bnREb3duTGF0Y2ggaGVyZSBiZWNhdXNlIHNlbWFwaG9yZSBpcyBjbG9zZXIgdG8gb3VyIHVzYWdlIHBhdHRlcm4gaGVyZS4KICAgICAgICAgICAgLy8gV2Ugd2FudCB0byBzdGFydCBjb3VudGluZyBhcyBsb25nIGFzIG9uZSB0cmFuc2FjdGlvbiBub3RpZmllcywgYW5kIGJlIGFibGUgdG8gcmVzZXQgdG8gd2FpdGluZyBzdGF0ZS4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8vIFRPRE86IHZlcmlmeQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8vIFRPRE86IHZlcmlmeQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gTk9URTogV2UgdXNlIGEgU2VtYXBob3JlIGluc3RlYWQgb2YgQ291bnREb3duTGF0Y2ggaGVyZSBiZWNhdXNlIHNlbWFwaG9yZSBpcyBjbG9zZXIgdG8gb3VyIHVzYWdlIHBhdHRlcm4gaGVyZS4KICAgICAgICAgICAgLy8gV2Ugd2FudCB0byBzdGFydCBjb3VudGluZyBhcyBsb25nIGFzIG9uZSB0cmFuc2FjdGlvbiBub3RpZmllcywgYW5kIGJlIGFibGUgdG8gcmVzZXQgdG8gd2FpdGluZyBzdGF0ZS4K</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgIC8vIFRPRE86IHZlcmlmeQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCB0ZXN0MSgpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCAxMDA7IGkrKykgewogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oaSArICIgLS0tLSAiKTsKICAgICAgICAgICAgdGVzdDFfaW5uZXIoKTsKICAgICAgICB9CiAgICB9CgogICAgQFRlc3QKICAgIHB1YmxpYyB2b2lkIHRlc3QxX2lubmVyKCkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICBVdGlsLnJlc2V0RGlyZWN0b3J5KGRpcmVjdG9yeSk7CgogICAgICAgIHRyeSAoR3Jha24gZ3Jha24gPSBSb2Nrc0dyYWtuLm9wZW4oZGlyZWN0b3J5KSkgewogICAgICAgICAgICBncmFrbi5kYXRhYmFzZXMoKS5jcmVhdGUoZGF0YWJhc2UpOwoKCiAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gZ3Jha24uc2Vzc2lvbihkYXRhYmFzZSwgQXJndW1lbnRzLlNlc3Npb24uVHlwZS5TQ0hFTUEpKSB7CgogICAgICAgICAgICAgICAgdHJ5IChHcmFrbi5UcmFuc2FjdGlvbiB0cmFuc2FjdGlvbiA9IHNlc3Npb24udHJhbnNhY3Rpb24oQXJndW1lbnRzLlRyYW5zYWN0aW9uLlR5cGUuUkVBRCkpIHsKCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdHJ5IChHcmFrbi5UcmFuc2FjdGlvbiB0cmFuc2FjdGlvbiA9IHNlc3Npb24udHJhbnNhY3Rpb24oQXJndW1lbnRzLlRyYW5zYWN0aW9uLlR5cGUuV1JJVEUpKSB7CgogICAgICAgICAgICAgICAgICAgIHRyYW5zYWN0aW9uLmNvbW1pdCgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uVHJhbnNhY3Rpb24gdHJhbnNhY3Rpb24gPSBzZXNzaW9uLnRyYW5zYWN0aW9uKEFyZ3VtZW50cy5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoK</text>
+        <text encoding="base64">ICAgIC8vIFRPRE86IHZlcmlmeQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBUZXN0CiAgICBwdWJsaWMgdm9pZCB0ZXN0MSgpIHRocm93cyBJT0V4Y2VwdGlvbiB7CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCAxMDA7IGkrKykgewogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oaSArICIgLS0tLSAiKTsKICAgICAgICAgICAgdGVzdDFfaW5uZXIoKTsKICAgICAgICB9CiAgICB9CgogICAgQFRlc3QKICAgIHB1YmxpYyB2b2lkIHRlc3QxX2lubmVyKCkgdGhyb3dzIElPRXhjZXB0aW9uIHsKICAgICAgICBVdGlsLnJlc2V0RGlyZWN0b3J5KGRpcmVjdG9yeSk7CgogICAgICAgIHRyeSAoR3Jha24gZ3Jha24gPSBSb2Nrc0dyYWtuLm9wZW4oZGlyZWN0b3J5KSkgewogICAgICAgICAgICBncmFrbi5kYXRhYmFzZXMoKS5jcmVhdGUoZGF0YWJhc2UpOwoKCiAgICAgICAgICAgIHRyeSAoR3Jha24uU2Vzc2lvbiBzZXNzaW9uID0gZ3Jha24uc2Vzc2lvbihkYXRhYmFzZSwgQXJndW1lbnRzLlNlc3Npb24uVHlwZS5TQ0hFTUEpKSB7CgogICAgICAgICAgICAgICAgdHJ5IChHcmFrbi5UcmFuc2FjdGlvbiB0cmFuc2FjdGlvbiA9IHNlc3Npb24udHJhbnNhY3Rpb24oQXJndW1lbnRzLlRyYW5zYWN0aW9uLlR5cGUuUkVBRCkpIHsKCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdHJ5IChHcmFrbi5UcmFuc2FjdGlvbiB0cmFuc2FjdGlvbiA9IHNlc3Npb24udHJhbnNhY3Rpb24oQXJndW1lbnRzLlRyYW5zYWN0aW9uLlR5cGUuV1JJVEUpKSB7CgogICAgICAgICAgICAgICAgICAgIHRyYW5zYWN0aW9uLmNvbW1pdCgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uVHJhbnNhY3Rpb24gdHJhbnNhY3Rpb24gPSBzZXNzaW9uLnRyYW5zYWN0aW9uKEFyZ3VtZW50cy5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7CgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoK</text>
+        <text encoding="base64">ICAgIC8vIFRPRE86IHZlcmlmeQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -495,9 +486,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>isOpen</last-search>
+      <last-search>rpm</last-search>
       <last-offset />
-      <last-pattern>isOpen</last-pattern>
+      <last-pattern>rpm</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
