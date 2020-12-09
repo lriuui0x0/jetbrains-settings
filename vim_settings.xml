@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjbGllbnRcPg==</entry>
-        <entry encoding="base64">XDxwYXJhbWV0ZXJzXD4=</entry>
         <entry encoding="base64">XDxoYXNFZGdlQ291bnRKb2JLZXlcPg==</entry>
         <entry encoding="base64">XDxjb3VudEpvYlR5cGVcPg==</entry>
         <entry>attribute</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JJbmNvbWluZ0VkZ2VzXD4=</entry>
         <entry encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JPdXRHb2luZ0VkZ2VzXD4=</entry>
         <entry encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JWZXJ0ZXhGbG93XD4=</entry>
+        <entry>maven</entry>
+        <entry>protocol</entry>
       </history-search>
       <history-cmd>
         <entry>b</entry>
@@ -196,15 +196,43 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/behaviour/graql/reasoner/variable-roles.feature" timestamp="1607504742427">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="0" />
-        <mark key="." line="24" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" timestamp="1607509716550">
         <mark key="[" line="24" column="0" />
         <mark key="]" line="24" column="0" />
         <mark key="." line="24" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/traversal/planner/Planner.java" timestamp="1607519421610">
+        <mark key="'" line="259" column="56" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1607522319839">
+        <mark key="'" line="32" column="33" />
+        <mark key="[" line="60" column="58" />
+        <mark key="]" line="60" column="58" />
+        <mark key="." line="60" column="58" />
+        <mark key="^" line="60" column="20" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/protocol/.grabl/automation.yml" timestamp="1607521526946">
+        <mark key="'" line="45" column="11" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/util/StatisticsBytes.java" timestamp="1607517339067">
+        <mark key="'" line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1607515138928">
+        <mark key="'" line="687" column="38" />
+        <mark key="[" line="584" column="0" />
+        <mark key="]" line="584" column="0" />
+        <mark key="^" line="588" column="58" />
+        <mark key="." line="584" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/iid/VertexIID.java" timestamp="1607516261967">
+        <mark key="'" line="69" column="30" />
+        <mark key="[" line="412" column="111" />
+        <mark key="]" line="360" column="129" />
+        <mark key="^" line="360" column="129" />
+        <mark key="." line="412" column="130" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/traversal/planner/PlannerVertex.java" timestamp="1607520310710">
+        <mark key="'" line="146" column="54" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" timestamp="1607517404085">
         <mark key="'" line="317" column="63" />
@@ -213,34 +241,16 @@
         <mark key="^" line="319" column="51" />
         <mark key="." line="319" column="50" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/dependencies/graknlabs/repositories.bzl" timestamp="1607506711850">
-        <mark key="[" line="30" column="18" />
-        <mark key="]" line="30" column="57" />
-        <mark key="." line="58" column="58" />
-        <mark key="^" line="58" column="20" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/traversal/planner/Planner.java" timestamp="1607519421610">
-        <mark key="'" line="259" column="56" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1607451976623">
-        <mark key="[" line="60" column="58" />
-        <mark key="]" line="60" column="58" />
-        <mark key="." line="60" column="58" />
-        <mark key="^" line="60" column="20" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/artifacts.bzl" timestamp="1607518026813">
-        <mark key="'" line="23" column="25" />
         <mark key="[" line="30" column="0" />
         <mark key="]" line="30" column="0" />
         <mark key="." line="30" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/util/StatisticsBytes.java" timestamp="1607517339067">
-        <mark key="'" line="19" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/concept/type/relationtype/RelationTypeTest.java" timestamp="1607508717497">
-        <mark key="[" line="32" column="30" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
+      <file name="$USER_HOME$/GraknLabs/protocol/dependencies/graknlabs/repositories.bzl" timestamp="1607521453743">
+        <mark key="[" line="23" column="18" />
+        <mark key="]" line="23" column="58" />
+        <mark key="^" line="23" column="21" />
+        <mark key="." line="23" column="18" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/exception/ErrorMessage.java" timestamp="1607509722468">
         <mark key="'" line="3" column="1" />
@@ -262,25 +272,6 @@
         <mark key="." line="55" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/GraqlSteps.java" timestamp="1607513106036" />
-      <file name="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" timestamp="1607508039948">
-        <mark key="[" line="108" column="75" />
-        <mark key="]" line="108" column="75" />
-        <mark key="." line="108" column="75" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1607515138928">
-        <mark key="'" line="687" column="38" />
-        <mark key="[" line="584" column="0" />
-        <mark key="]" line="584" column="0" />
-        <mark key="^" line="588" column="58" />
-        <mark key="." line="584" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/iid/VertexIID.java" timestamp="1607516261967">
-        <mark key="'" line="69" column="30" />
-        <mark key="[" line="412" column="111" />
-        <mark key="]" line="360" column="129" />
-        <mark key="^" line="360" column="129" />
-        <mark key="." line="412" column="130" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" timestamp="1607513639599">
         <mark key="'" line="1238" column="40" />
         <mark key="[" line="1269" column="33" />
@@ -292,16 +283,8 @@
         <mark key="^" line="0" column="35" />
         <mark key="." line="0" column="34" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/traversal/planner/PlannerVertex.java" timestamp="1607520310710">
-        <mark key="'" line="146" column="54" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="127" column="71" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" />
-      <jump line="146" column="71" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" />
-      <jump line="158" column="71" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" />
-      <jump line="70" column="58" filename="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" />
-      <jump line="40" column="13" filename="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" />
       <jump line="71" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" />
       <jump line="69" column="31" filename="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" />
       <jump line="74" column="50" filename="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" />
@@ -397,6 +380,11 @@
       <jump line="122" column="8" filename="$USER_HOME$/GraknLabs/grakn/traversal/planner/PlannerVertex.java" />
       <jump line="160" column="4" filename="$USER_HOME$/GraknLabs/grakn/traversal/planner/PlannerVertex.java" />
       <jump line="146" column="54" filename="$USER_HOME$/GraknLabs/grakn/traversal/planner/PlannerVertex.java" />
+      <jump line="41" column="14" filename="$USER_HOME$/GraknLabs/protocol/.grabl/automation.yml" />
+      <jump line="42" column="21" filename="$USER_HOME$/GraknLabs/protocol/.grabl/automation.yml" />
+      <jump line="43" column="42" filename="$USER_HOME$/GraknLabs/protocol/.grabl/automation.yml" />
+      <jump line="45" column="11" filename="$USER_HOME$/GraknLabs/protocol/.grabl/automation.yml" />
+      <jump line="32" column="33" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -414,7 +402,7 @@
         <text>1</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JWZXJ0ZXhGbG93XD4=</text>
+        <text>protocol</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -484,9 +472,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JWZXJ0ZXhGbG93XD4=</last-search>
+      <last-search>protocol</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JWZXJ0ZXhGbG93XD4=</last-pattern>
+      <last-pattern>protocol</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
