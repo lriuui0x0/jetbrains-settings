@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>assert</entry>
-        <entry>System.out</entry>
         <entry>check</entry>
         <entry encoding="base64">XDxzdGF0aXN0aWNzQmFja2dyb3VuZENvdW50ZXJTZXNzaW9uXD4=</entry>
         <entry>close</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JPdXRHb2luZ0VkZ2VzXD4=</entry>
         <entry encoding="base64">XDxpbml0aWFsaXNlQ29uc3RyYWludHNGb3JWZXJ0ZXhGbG93XD4=</entry>
         <entry encoding="base64">XDxwYXJhbWV0ZXJzXD4=</entry>
+        <entry encoding="base64">XDxoYXNFZGdlQ291bnRKb2JLZXlcPg==</entry>
+        <entry encoding="base64">XDxjb3VudEpvYlR5cGVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>b</entry>
@@ -227,8 +227,9 @@
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1607507622469">
-        <mark key="'" line="776" column="8" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/util/StatisticsBytes.java" timestamp="1607511033704" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1607510970307">
+        <mark key="'" line="792" column="20" />
       </file>
       <file name="$USER_HOME$/GraknLabs/behaviour/graql/reasoner/schema-queries.feature" timestamp="1607450928304">
         <mark key="[" line="23" column="0" />
@@ -284,11 +285,6 @@
         <mark key="." line="82" column="0" />
         <mark key="^" line="67" column="27" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/behaviour/graql/reasoner/rule-interaction.feature" timestamp="1607450923470">
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
-      </file>
       <file name="/fragment.java" timestamp="1607507740503">
         <mark key="[" line="0" column="0" />
       </file>
@@ -301,10 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/concept/type/entitytype/EntityTypeSteps.java" />
-      <jump line="105" column="6" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/ConnectionSteps.java" />
-      <jump line="26" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/ConnectionSteps.java" />
-      <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/concept/type/entitytype/EntityTypeTest.java" />
       <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/ConnectionSteps.java" />
       <jump line="95" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/ConnectionSteps.java" />
       <jump line="41" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/ConnectionSteps.java" />
@@ -401,6 +393,10 @@
       <jump line="46" column="39" filename="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" />
       <jump line="24" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/exception/ErrorMessage.java" />
       <jump line="3" column="1" filename="$USER_HOME$/GraknLabs/grakn/common/exception/ErrorMessage.java" />
+      <jump line="679" column="20" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
+      <jump line="68" column="52" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
+      <jump line="795" column="27" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
+      <jump line="792" column="20" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -418,7 +414,7 @@
         <text>grakn.common.exception.ErrorMessage::code</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwYXJhbWV0ZXJzXD4=</text>
+        <text encoding="base64">XDxjb3VudEpvYlR5cGVcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -488,9 +484,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwYXJhbWV0ZXJzXD4=</last-search>
+      <last-search encoding="base64">XDxjb3VudEpvYlR5cGVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwYXJhbWV0ZXJzXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxjb3VudEpvYlR5cGVcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxsb2NhbF92YXJzXD4=</last-substitute>
       <last-dir>1</last-dir>
