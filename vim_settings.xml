@@ -7,12 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxDb25jZXB0TWFuYWdlclw+</entry>
-        <entry encoding="base64">XDxDb25jZXB0UHJvdG9cPg==</entry>
-        <entry encoding="base64">XDx2YXJIYXNJbmNvbWluZ0VkZ2VzXD4=</entry>
-        <entry encoding="base64">XDxpc1BvdGVudGlhbFN0YXJ0aW5nVmVydGV4XD4=</entry>
-        <entry>varIsSelected</entry>
-        <entry>logic</entry>
         <entry>logics</entry>
         <entry encoding="base64">XDxxdWV1ZVw+</entry>
         <entry>produce</entry>
@@ -27,6 +21,12 @@
         <entry encoding="base64">XDxhbnN3ZXJcPg==</entry>
         <entry encoding="base64">XDxvcHRpb25zXD4=</entry>
         <entry>CAST</entry>
+        <entry encoding="base64">XDxhbmltUmF0ZVw+</entry>
+        <entry encoding="base64">XDx0eXBlXD4=</entry>
+        <entry encoding="base64">XDxidWlsZGVyXD4=</entry>
+        <entry encoding="base64">XDxsaW5lc1w+</entry>
+        <entry encoding="base64">XDxzdGFydGVkXD4=</entry>
+        <entry encoding="base64">XDxhbmltYXRlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>b</entry>
@@ -196,9 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrate/Import.java" timestamp="1607603992563">
-        <mark key="'" line="2" column="20" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/GraknRPCService.java" timestamp="1607604913131">
         <mark key="'" line="0" column="1" />
         <mark key="[" line="0" column="0" />
@@ -211,25 +208,25 @@
         <mark key="." line="152" column="38" />
         <mark key="^" line="152" column="39" />
       </file>
-      <file name="/a.dummy" timestamp="1607622033454">
+      <file name="/a.dummy" timestamp="1607623669367">
         <mark key="[" line="0" column="8" />
         <mark key="]" line="0" column="8" />
         <mark key="^" line="0" column="8" />
         <mark key="." line="0" column="7" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" timestamp="1607622190642">
-        <mark key="'" line="205" column="127" />
-        <mark key="[" line="205" column="61" />
-        <mark key="]" line="205" column="85" />
-        <mark key="." line="205" column="84" />
-        <mark key="^" line="205" column="85" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" timestamp="1607626243150">
+        <mark key="'" line="38" column="121" />
+        <mark key="[" line="58" column="9" />
+        <mark key="]" line="59" column="39" />
+        <mark key="." line="59" column="38" />
+        <mark key="^" line="59" column="39" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrate/proto/BUILD" timestamp="1607604088304">
-        <mark key="'" line="2" column="13" />
-        <mark key="[" line="2" column="13" />
-        <mark key="]" line="2" column="13" />
-        <mark key="." line="2" column="20" />
-        <mark key="^" line="1" column="20" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" timestamp="1607623920428">
+        <mark key="'" line="205" column="31" />
+        <mark key="[" line="207" column="28" />
+        <mark key="]" line="207" column="43" />
+        <mark key="." line="207" column="42" />
+        <mark key="^" line="207" column="43" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/pattern/BUILD" timestamp="1607612860962">
         <mark key="'" line="21" column="0" />
@@ -243,10 +240,9 @@
         <mark key="." line="24" column="0" />
         <mark key="^" line="13" column="25" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrate/ImportData.java" timestamp="1607602606826">
-        <mark key="[" line="2" column="19" />
-        <mark key="]" line="2" column="19" />
-        <mark key="." line="2" column="19" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1607626077150">
+        <mark key="[" line="142" column="16" />
+        <mark key="]" line="142" column="54" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/proto/migrator.proto" timestamp="1607604238751">
         <mark key="'" line="77" column="0" />
@@ -255,10 +251,11 @@
         <mark key="^" line="24" column="39" />
         <mark key="." line="24" column="38" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Import.java" timestamp="1607604150818">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/util/ResponseBuilder.java" timestamp="1607623626409">
+        <mark key="[" line="56" column="36" />
+        <mark key="]" line="56" column="36" />
+        <mark key="." line="56" column="35" />
+        <mark key="^" line="56" column="36" />
       </file>
       <file name="/private/var/tmp/_bazel_lriuui0x0/cc84a188dd01b277d4e8abad1fc1ebf5/execroot/graknlabs_grakn_core/bazel-out/darwin-fastbuild/bin/server/migrator/libmigrator-grpc-src.jar!/grakn/core/server/migrator/proto/MigratorGrpc.java" timestamp="1607605367400">
         <mark key="'" line="162" column="0" />
@@ -274,30 +271,38 @@
       <file name="$USER_HOME$/GraknLabs/grakn/common/exception/ErrorMessage.java" timestamp="1607617548239">
         <mark key="'" line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" timestamp="1607622274581">
-        <mark key="[" line="27" column="27" />
-        <mark key="]" line="44" column="27" />
-        <mark key="^" line="44" column="27" />
-        <mark key="." line="44" column="26" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" timestamp="1607625679192">
+        <mark key="'" line="22" column="29" />
+        <mark key="[" line="67" column="27" />
+        <mark key="]" line="68" column="15" />
+        <mark key="." line="68" column="14" />
+        <mark key="^" line="68" column="15" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" timestamp="1607623013944">
-        <mark key="'" line="41" column="97" />
-        <mark key="[" line="71" column="9" />
-        <mark key="]" line="72" column="25" />
-        <mark key="." line="72" column="24" />
-        <mark key="^" line="72" column="25" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" timestamp="1607625790121">
+        <mark key="'" line="52" column="58" />
+        <mark key="[" line="59" column="54" />
+        <mark key="]" line="59" column="54" />
+        <mark key="." line="59" column="54" />
+        <mark key="^" line="59" column="54" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" timestamp="1607623738714">
+        <mark key="'" line="20" column="21" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="90" column="25" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" timestamp="1607616638587">
         <mark key="[" line="29" column="14" />
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorRPCService.java" timestamp="1607623113165">
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorRPCService.java" timestamp="1607623409417">
         <mark key="'" line="24" column="70" />
-        <mark key="[" line="39" column="25" />
-        <mark key="]" line="39" column="39" />
-        <mark key="." line="39" column="38" />
-        <mark key="^" line="39" column="39" />
+        <mark key="[" line="39" column="33" />
+        <mark key="]" line="39" column="37" />
+        <mark key="." line="39" column="36" />
+        <mark key="^" line="39" column="37" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1607614743987">
         <mark key="[" line="56" column="0" />
@@ -305,68 +310,14 @@
         <mark key="^" line="58" column="36" />
         <mark key="." line="56" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1607621980800">
+      <file name="/fragment.java" timestamp="1607623812509">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="46" />
-        <mark key="^" line="0" column="46" />
-        <mark key="." line="0" column="45" />
+        <mark key="]" line="0" column="9" />
+        <mark key="^" line="0" column="9" />
+        <mark key="." line="0" column="8" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="78" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="82" column="32" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="92" column="36" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="93" column="21" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="94" column="43" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="106" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" />
-      <jump line="34" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" />
-      <jump line="32" column="23" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" />
-      <jump line="38" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" />
-      <jump line="37" column="22" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" />
-      <jump line="36" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" />
-      <jump line="31" column="23" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerOptions.java" />
-      <jump line="153" column="39" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="155" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="101" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="103" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="29" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="28" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="23" column="36" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="120" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/exception/ErrorMessage.java" />
-      <jump line="108" column="35" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="110" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="165" column="66" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
-      <jump line="39" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="50" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="62" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="67" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="72" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="86" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="90" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="94" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="98" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="102" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="105" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="35" column="13" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="37" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="70" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="75" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="77" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="84" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="88" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="92" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="96" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="100" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="104" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="118" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
       <jump line="124" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
       <jump line="127" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
       <jump line="130" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
@@ -405,7 +356,6 @@
       <jump line="79" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
       <jump line="153" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
       <jump line="151" column="26" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
-      <jump line="205" column="127" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
       <jump line="52" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" />
       <jump line="50" column="53" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" />
       <jump line="69" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" />
@@ -413,12 +363,67 @@
       <jump line="48" column="23" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" />
       <jump line="73" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" />
       <jump line="41" column="97" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" />
+      <jump line="43" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
+      <jump line="3" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
+      <jump line="56" column="29" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="2" column="21" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" />
+      <jump line="205" column="31" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
+      <jump line="74" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="31" column="28" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="2" column="28" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="29" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
+      <jump line="45" column="34" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="46" column="20" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="58" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="74" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="32" column="26" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="79" column="26" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="31" column="16" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="77" column="28" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="93" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="99" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="94" column="41" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="41" column="20" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="71" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="81" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="68" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="88" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="34" column="20" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="48" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="61" column="45" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="40" column="20" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="73" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="91" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="59" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="76" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="67" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="75" column="24" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="101" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="56" column="24" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="70" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="63" column="41" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="97" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="72" column="37" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="43" column="25" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="98" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="22" column="29" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="63" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="52" column="58" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="42" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
+      <jump line="40" column="58" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
+      <jump line="60" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
+      <jump line="38" column="121" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByZXNwb25zZU9ic2VydmVyLgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFRocmVhZC5zbGVlcCgxMDApOwo=</text>
       </register>
       <register name="+" type="2">
         <text encoding="base64">amF2YV9saWJyYXJ5KAogICAgbmFtZSA9ICJtaWdyYXRvci1ncnBjIiwKICAgIHNyY3MgPSBnbG9iKFsiOm1pZ3JhdG9yLWdycGMtc3JjIl0pLAo=</text>
@@ -427,10 +432,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>true</text>
+        <text>onNext</text>
       </register>
       <register name="/" type="4">
-        <text>CAST</text>
+        <text encoding="base64">XDxhbmltYXRlXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -438,10 +443,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdFswXSA9IHRydWU7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFRocmVhZC5zbGVlcCgxMDApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXNwb25zZU9ic2VydmVyLgo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -470,28 +475,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdFswXSA9IHRydWU7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHB1YmljIAoK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuc2VydmVyLm1pZ3JhdG9yLk1pZ3JhdG9yOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAK</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLnNlcnZlci5ycGMudXRpbC5SZXNwb25zZUJ1aWxkZXIuZXhjZXB0aW9uOwoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBib29sZWFuW10gcmVzdWx0ID0gOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBib29sZWFuIAo=</text>
+        <text encoding="base64">ICAgICAgICByZXNwb25zZU9ic2VydmVyLm9uRXJyb3IoZXhjZXB0aW9uKG5ldyBFeGNlcHRpb24oImhlbGxvIikpKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiSW1wb3J0IGNvbXBsZXRlZCIpOwo=</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImhlbGxvIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB9IGNhdGNoICgpCg==</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -500,9 +505,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>CAST</last-search>
+      <last-search encoding="base64">XDxhbmltYXRlXD4=</last-search>
       <last-offset />
-      <last-pattern>CAST</last-pattern>
+      <last-pattern encoding="base64">XDxhbmltYXRlXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxleHBvcnRGaWxlXD4=</last-substitute>
       <last-dir>1</last-dir>
