@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxMT0dcPg==</entry>
         <entry>TYPE</entry>
         <entry encoding="base64">XDxWYWx1ZU9iamVjdFw+</entry>
         <entry encoding="base64">XDxlbnRpdHlNc2dcPg==</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxzZXNzaW9uXD4=</entry>
         <entry>assert</entry>
         <entry encoding="base64">XDxzdGFydFw+</entry>
+        <entry encoding="base64">XDxjcmVhdGVBdHRyaWJ1dGVXb3JrZXJzXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1w</entry>
@@ -228,18 +228,18 @@
         <mark key="." line="71" column="53" />
         <mark key="^" line="69" column="27" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrate/Export.java" timestamp="1607966514917">
+        <mark key="'" line="110" column="33" />
+        <mark key="[" line="114" column="26" />
+        <mark key="]" line="114" column="32" />
+        <mark key="." line="114" column="31" />
+        <mark key="^" line="114" column="32" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" timestamp="1607951351828">
         <mark key="'" line="94" column="44" />
         <mark key="[" line="95" column="0" />
         <mark key="]" line="95" column="0" />
         <mark key="." line="95" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/proto/migrator.proto" timestamp="1607937504454">
-        <mark key="'" line="30" column="15" />
-        <mark key="[" line="49" column="11" />
-        <mark key="]" line="49" column="16" />
-        <mark key="^" line="49" column="16" />
-        <mark key="." line="49" column="15" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest4.java" timestamp="1607956231106">
         <mark key="'" line="56" column="0" />
@@ -300,7 +300,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="139" column="24" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
       <jump line="0" column="1" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
       <jump line="27" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
       <jump line="54" column="34" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
@@ -400,12 +399,13 @@
       <jump line="262" column="44" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
       <jump line="161" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
       <jump line="150" column="63" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
+      <jump line="110" column="33" filename="$USER_HOME$/GraknLabs/grakn/server/migrate/Export.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>.substring(0, Math.min(valueMsg.getString().length(), 250))</text>
+        <text>parallelStream</text>
       </register>
       <register name="+" type="4">
         <text>attribute.getOwners(getType())</text>
@@ -414,10 +414,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>.substring(0, Math.min(valueMsg.getString().length(), 250))</text>
+        <text>parallelStream</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzdGFydFw+</text>
+        <text encoding="base64">XDxjcmVhdGVBdHRyaWJ1dGVXb3JrZXJzXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -487,9 +487,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzdGFydFw+</last-search>
+      <last-search encoding="base64">XDxjcmVhdGVBdHRyaWJ1dGVXb3JrZXJzXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzdGFydFw+</last-pattern>
+      <last-pattern encoding="base64">XDxjcmVhdGVBdHRyaWJ1dGVXb3JrZXJzXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxleHBvcnRGaWxlXD4=</last-substitute>
       <last-dir>1</last-dir>
