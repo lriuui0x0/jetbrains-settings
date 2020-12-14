@@ -46,8 +46,8 @@
         <entry>ww:w</entry>
         <entry>vs</entry>
         <entry>w\</entry>
-        <entry>q</entry>
         <entry>.w</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -214,12 +214,12 @@
         <mark key="." line="58" column="96" />
         <mark key="^" line="58" column="23" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" timestamp="1607954892086">
-        <mark key="'" line="311" column="0" />
-        <mark key="[" line="305" column="0" />
-        <mark key="]" line="305" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" timestamp="1607963893732">
+        <mark key="'" line="150" column="63" />
+        <mark key="[" line="206" column="81" />
+        <mark key="]" line="206" column="81" />
         <mark key="^" line="307" column="91" />
-        <mark key="." line="305" column="0" />
+        <mark key="." line="206" column="81" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" timestamp="1607956164070">
         <mark key="'" line="98" column="0" />
@@ -227,12 +227,6 @@
         <mark key="]" line="71" column="53" />
         <mark key="." line="71" column="53" />
         <mark key="^" line="69" column="27" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" timestamp="1607961368118">
-        <mark key="'" line="209" column="22" />
-        <mark key="[" line="179" column="0" />
-        <mark key="]" line="179" column="0" />
-        <mark key="." line="179" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" timestamp="1607951351828">
         <mark key="'" line="94" column="44" />
@@ -286,10 +280,10 @@
         <mark key="^" line="79" column="62" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/reasoner/resolution/MockTransaction.java" timestamp="1607961292849">
-        <mark key="[" line="96" column="23" />
-        <mark key="]" line="96" column="27" />
-        <mark key="." line="96" column="26" />
-        <mark key="^" line="96" column="27" />
+        <mark key="[" line="94" column="23" />
+        <mark key="]" line="94" column="27" />
+        <mark key="." line="94" column="26" />
+        <mark key="^" line="94" column="27" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" timestamp="1607950481394">
         <mark key="'" line="31" column="28" />
@@ -306,12 +300,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="180" column="94" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
-      <jump line="212" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
-      <jump line="216" column="65" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
-      <jump line="225" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
-      <jump line="44" column="39" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
-      <jump line="39" column="13" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
       <jump line="139" column="24" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
       <jump line="0" column="1" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
       <jump line="27" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
@@ -406,12 +394,18 @@
       <jump line="184" column="51" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
       <jump line="79" column="60" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
       <jump line="209" column="22" filename="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" />
+      <jump line="74" column="42" filename="$USER_HOME$/GraknLabs/grakn/server/BUILD" />
+      <jump line="206" column="60" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
+      <jump line="280" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
+      <jump line="262" column="44" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
+      <jump line="161" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
+      <jump line="150" column="63" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgZmFsc2U7Cg==</text>
+      <register name="&quot;" type="4">
+        <text>.substring(0, Math.min(valueMsg.getString().length(), 250))</text>
       </register>
       <register name="+" type="4">
         <text>attribute.getOwners(getType())</text>
@@ -420,7 +414,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>conceptMap</text>
+        <text>.substring(0, Math.min(valueMsg.getString().length(), 250))</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzdGFydFw+</text>
