@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxoYXNcPg==</entry>
-        <entry>_</entry>
-        <entry encoding="base64">XDxrZXlcPg==</entry>
         <entry>relates</entry>
         <entry>dependee</entry>
         <entry encoding="base64">XDxncmFrblw+</entry>
@@ -27,6 +24,9 @@
         <entry>STATE</entry>
         <entry>vertex</entry>
         <entry encoding="base64">XDx2ZXJ0ZXhcPg==</entry>
+        <entry encoding="base64">XDx0b3RhbFRoaW5nQ291bnRcPg==</entry>
+        <entry>latch</entry>
+        <entry>paralle</entry>
       </history-search>
       <history-cmd>
         <entry>.,.+1w</entry>
@@ -47,8 +47,8 @@
         <entry>w\</entry>
         <entry>.w</entry>
         <entry encoding="base64">JzwsJz53</entry>
-        <entry>w</entry>
         <entry>q</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -196,12 +196,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" timestamp="1608030101110">
-        <mark key="'" line="185" column="4" />
-        <mark key="[" line="195" column="75" />
-        <mark key="]" line="195" column="78" />
-        <mark key="." line="195" column="77" />
-        <mark key="^" line="195" column="78" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" timestamp="1608044592341">
+        <mark key="'" line="145" column="10" />
+        <mark key="[" line="56" column="44" />
+        <mark key="]" line="56" column="83" />
+        <mark key="." line="56" column="82" />
+        <mark key="^" line="56" column="83" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" timestamp="1608037487362">
         <mark key="'" line="61" column="4" />
@@ -210,12 +210,11 @@
         <mark key="." line="63" column="103" />
         <mark key="^" line="55" column="28" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" timestamp="1608039989904">
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" timestamp="1608044157008">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="143" column="18" />
-        <mark key="^" line="143" column="19" />
+        <mark key="[" line="143" column="0" />
+        <mark key="]" line="143" column="0" />
+        <mark key="." line="143" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" timestamp="1608037348385">
         <mark key="'" line="214" column="112" />
@@ -272,18 +271,18 @@
         <mark key="." line="82" column="33" />
         <mark key="^" line="82" column="34" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" timestamp="1608037426067">
-        <mark key="'" line="44" column="23" />
-        <mark key="[" line="67" column="13" />
-        <mark key="]" line="67" column="24" />
-        <mark key="." line="67" column="23" />
-        <mark key="^" line="67" column="24" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" timestamp="1608044342302">
+        <mark key="'" line="108" column="0" />
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="." line="50" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" timestamp="1608041268743">
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Migrator.java" timestamp="1608044373173">
         <mark key="'" line="22" column="26" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="0" column="0" />
+        <mark key="[" line="24" column="15" />
+        <mark key="]" line="25" column="4" />
+        <mark key="." line="25" column="3" />
+        <mark key="^" line="25" column="4" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/concept/impl/RelationImpl.java" timestamp="1608028957351" />
       <file name="$USER_HOME$/GraknLabs/grakn/concept/type/ThingType.java" timestamp="1608037548643">
@@ -295,29 +294,21 @@
       <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1607967924212">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1608030468966">
+      <file name="/fragment.java" timestamp="1608044471191">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="12" />
         <mark key="^" line="0" column="12" />
         <mark key="." line="0" column="12" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" timestamp="1608042402896">
-        <mark key="'" line="49" column="42" />
-        <mark key="[" line="129" column="0" />
-        <mark key="]" line="129" column="0" />
-        <mark key="." line="129" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" timestamp="1608044436514">
+        <mark key="'" line="143" column="8" />
+        <mark key="[" line="101" column="30" />
+        <mark key="]" line="101" column="30" />
+        <mark key="." line="101" column="30" />
+        <mark key="^" line="101" column="24" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="31" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
-      <jump line="74" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
-      <jump line="59" column="64" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
-      <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
-      <jump line="57" column="46" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
-      <jump line="65" column="16" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
-      <jump line="49" column="107" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
-      <jump line="66" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
-      <jump line="63" column="30" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
       <jump line="79" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
       <jump line="85" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
       <jump line="120" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
@@ -336,8 +327,6 @@
       <jump line="112" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
       <jump line="69" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
       <jump line="57" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
-      <jump line="80" column="86" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
-      <jump line="86" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
       <jump line="67" column="49" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
       <jump line="43" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
       <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
@@ -409,12 +398,23 @@
       <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
       <jump line="70" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
       <jump line="84" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/ProgressPrinter.java" />
+      <jump line="86" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
+      <jump line="71" column="26" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
+      <jump line="80" column="16" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
+      <jump line="59" column="17" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
+      <jump line="193" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
+      <jump line="190" column="86" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
+      <jump line="53" column="35" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="63" column="52" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="108" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/MigratorClient.java" />
+      <jump line="143" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" />
+      <jump line="145" column="10" filename="$USER_HOME$/GraknLabs/grakn/server/util/ServerCommand.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>current, total</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="+" type="4">
         <text>attribute.getOwners(getType())</text>
@@ -423,10 +423,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>current, total</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx2ZXJ0ZXhcPg==</text>
+        <text>paralle</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -434,10 +434,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBUaHJlYWQuc2xlZXAoMTAwKTsKICAgICAgICB9IGNhdGNoIChJbnRlcnJ1cHRlZEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICBzdHJlYW1PYnNlcnZlci5hd2FpdCgpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBUaHJlYWQuc2xlZXAoKTsK</text>
+        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBsYXRjaC5hd2FpdCgpOwogICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgdGhyb3cgR3Jha25FeGNlcHRpb24ub2YoRXJyb3JNZXNzYWdlLkludGVybmFsLlVORVhQRUNURURfSU5URVJSVVBUSU9OKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -466,39 +466,39 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBUaHJlYWQuc2xlZXAoMTAwKTsK</text>
+        <text encoding="base64">ICAgICAgICBzdHJlYW1PYnNlcnZlci5hd2FpdCgpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBDb3VudERvd25MYXRjaCBsYXRjaCA9IG5ldyBDb3VudERvd25MYXRjaCgxKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGF0Y2guYXdhaXQoKTsKCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgR3Jha24uVHJhbnNhY3Rpb24gdHgK</text>
+        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBsYXRjaC5hd2FpdCgpOwogICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgdGhyb3cgR3Jha25FeGNlcHRpb24ub2YoRXJyb3JNZXNzYWdlLkludGVybmFsLlVORVhQRUNURURfSU5URVJSVVBUSU9OKTsKICAgICAgICB9Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFRPRE8K</text>
+      <register name="6" type="4">
+        <text encoding="base64">bGljIHZvaWQgd2FpdCgpIHsKICAgICAgICAgICA=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBDb3VudERvd25MYXRjaCBsYXRjaCA9IG5ldyBDb3VudERvd25MYXRjaCgxKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIGxvbmcgZ2V0SW5zdGFuY2VzQ291bnQoKSB7CiAgICAgICAgICAgIHJldHVybiBncmFwaE1nci5kYXRhKCkuc3RhdHMoKS50aGluZ1ZlcnRleENvdW50KHZlcnRleCk7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICB0eC5jbG9zZSgpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGluc3RhbmNlcyh2IC0+IHsKICAgICAgICAgICAgICAgIHN3aXRjaCAodi5lbmNvZGluZygpKSB7CiAgICAgICAgICAgICAgICAgICAgY2FzZSBFTlRJVFk6CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBFbnRpdHlJbXBsLm9mKHYpOwogICAgICAgICAgICAgICAgICAgIGNhc2UgQVRUUklCVVRFOgogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gQXR0cmlidXRlSW1wbC5vZih2KTsKICAgICAgICAgICAgICAgICAgICBjYXNlIFJFTEFUSU9OOgogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gUmVsYXRpb25JbXBsLm9mKHYpOwogICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6CiAgICAgICAgICAgICAgICAgICAgICAgIGFzc2VydCBmYWxzZTsKICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgZXhjZXB0aW9uKEdyYWtuRXhjZXB0aW9uLm9mKFVOUkVDT0dOSVNFRF9WQUxVRSkpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICByZWFkT3duZXJzaGlwcyhlbnRpdHkpLmZvckVhY2goZW50aXR5QnVpbGRlcjo6YWRkQXR0cmlidXRlKTsK</text>
       </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>w</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx2ZXJ0ZXhcPg==</last-search>
+      <last-search>paralle</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx2ZXJ0ZXhcPg==</last-pattern>
+      <last-pattern>paralle</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxleHBvcnRGaWxlXD4=</last-substitute>
       <last-dir>1</last-dir>
