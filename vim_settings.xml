@@ -7,26 +7,26 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>merge</entry>
-        <entry>bytes</entry>
-        <entry encoding="base64">XDxieXRlc1RvTG9uZ1w+</entry>
-        <entry encoding="base64">XDxzbmFwc2hvdFw+</entry>
-        <entry encoding="base64">XDxieXRlc0hhdmVQcmVmaXhcPg==</entry>
-        <entry encoding="base64">XDx1bnNpZ25lZFNob3J0VG9CeXRlc1w+</entry>
-        <entry>schema.gql</entry>
-        <entry>relates</entry>
-        <entry>relocation_previous</entry>
-        <entry>relocation</entry>
-        <entry encoding="base64">XDxyZWxvY2F0aW9uXD4=</entry>
-        <entry>plays</entry>
         <entry>key</entry>
         <entry encoding="base64">XDxrZXlcPg==</entry>
         <entry>has</entry>
-        <entry>regex</entry>
         <entry>abstract</entry>
         <entry>email</entry>
         <entry>STRING</entry>
         <entry>string</entry>
+        <entry>regex</entry>
+        <entry>analyssi</entry>
+        <entry>analy</entry>
+        <entry>index</entry>
+        <entry encoding="base64">XDxpc0tleWFibGVcPg==</entry>
+        <entry>relate</entry>
+        <entry>as</entry>
+        <entry>relates</entry>
+        <entry encoding="base64">XDxSRUxBVEVTXD4=</entry>
+        <entry encoding="base64">XDxBU1w+</entry>
+        <entry encoding="base64">XDx0eXBlc1w+</entry>
+        <entry encoding="base64">XDxUeXBlVmFyaWFibGVcPg==</entry>
+        <entry>over</entry>
       </history-search>
       <history-cmd>
         <entry>wb</entry>
@@ -196,39 +196,38 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" timestamp="1608137458532">
-        <mark key="'" line="116" column="38" />
+      <file name="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" timestamp="1608139653039">
+        <mark key="'" line="61" column="84" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" timestamp="1608139387388">
+        <mark key="'" line="113" column="53" />
         <mark key="[" line="93" column="0" />
         <mark key="]" line="93" column="0" />
         <mark key="." line="93" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" timestamp="1608130589736">
-        <mark key="^" line="24" column="19" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/AttributeType.java" timestamp="1608135282052">
-        <mark key="'" line="0" column="1" />
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/AttributeType.java" timestamp="1608139297564">
+        <mark key="'" line="103" column="23" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" timestamp="1608138294233">
+        <mark key="'" line="193" column="45" />
+        <mark key="[" line="91" column="5" />
+        <mark key="]" line="92" column="4" />
+        <mark key="." line="92" column="3" />
+        <mark key="^" line="92" column="4" />
       </file>
       <file name="$USER_HOME$/GraknLabs/graql/java/pattern/constraint/ThingConstraint.java" timestamp="1608137545279">
         <mark key="'" line="612" column="87" />
         <mark key="[" line="612" column="64" />
         <mark key="]" line="612" column="95" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/iid/VertexIID.java" timestamp="1608132791935">
-        <mark key="[" line="385" column="0" />
-        <mark key="]" line="385" column="0" />
-        <mark key="." line="385" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/BasicTest.java" timestamp="1608134025958">
-        <mark key="'" line="65" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" timestamp="1608137677509">
-        <mark key="'" line="35" column="32" />
-        <mark key="[" line="95" column="100" />
-        <mark key="]" line="95" column="101" />
-        <mark key="." line="95" column="100" />
-        <mark key="^" line="95" column="101" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" timestamp="1608138965202">
+        <mark key="'" line="142" column="4" />
+        <mark key="[" line="132" column="0" />
+        <mark key="]" line="132" column="0" />
+        <mark key="." line="132" column="0" />
+        <mark key="^" line="138" column="77" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/MigratorTest.java" timestamp="1608135170141">
         <mark key="'" line="38" column="0" />
@@ -237,55 +236,58 @@
         <mark key="." line="35" column="12" />
         <mark key="^" line="35" column="13" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" timestamp="1608137098998">
-        <mark key="'" line="25" column="40" />
-        <mark key="[" line="427" column="4" />
-        <mark key="]" line="427" column="4" />
-        <mark key="." line="427" column="7" />
-        <mark key="^" line="437" column="8" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" timestamp="1608138328673">
+        <mark key="'" line="73" column="0" />
+        <mark key="[" line="47" column="29" />
+        <mark key="]" line="47" column="29" />
+        <mark key="." line="47" column="29" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/QueryTest.java" timestamp="1608136541005">
         <mark key="'" line="64" column="73" />
         <mark key="[" line="64" column="63" />
         <mark key="]" line="64" column="141" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/MigratorTest.java" timestamp="1608137155303">
-        <mark key="'" line="47" column="97" />
-        <mark key="[" line="55" column="68" />
-        <mark key="]" line="56" column="37" />
-        <mark key="." line="56" column="36" />
-        <mark key="^" line="56" column="37" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/MigratorTest.java" timestamp="1608138162209">
+        <mark key="'" line="47" column="0" />
+        <mark key="[" line="62" column="130" />
+        <mark key="]" line="62" column="137" />
+        <mark key="." line="62" column="136" />
+        <mark key="^" line="62" column="137" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" timestamp="1608138344518">
+        <mark key="'" line="461" column="9" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="799" column="6" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/logic/RuleTest.java" timestamp="1608135256730">
         <mark key="'" line="54" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/BUILD" timestamp="1608137633742">
-        <mark key="'" line="43" column="11" />
-        <mark key="[" line="36" column="38" />
-        <mark key="]" line="36" column="45" />
-        <mark key="." line="36" column="44" />
-        <mark key="^" line="36" column="45" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/BUILD" timestamp="1608138104606">
+        <mark key="'" line="42" column="11" />
+        <mark key="[" line="42" column="28" />
+        <mark key="]" line="42" column="40" />
+        <mark key="." line="42" column="39" />
+        <mark key="^" line="42" column="40" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" timestamp="1608136633439">
-        <mark key="'" line="76" column="35" />
-        <mark key="[" line="553" column="22" />
-        <mark key="]" line="553" column="22" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" timestamp="1608138049597">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="584" column="18" />
         <mark key="^" line="553" column="22" />
         <mark key="." line="553" column="21" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" timestamp="1608132305529">
-        <mark key="'" line="225" column="0" />
-        <mark key="[" line="33" column="20" />
-        <mark key="]" line="33" column="44" />
-        <mark key="." line="33" column="43" />
-        <mark key="^" line="33" column="44" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/BUILD" timestamp="1608136686729">
         <mark key="'" line="59" column="0" />
         <mark key="[" line="64" column="0" />
         <mark key="]" line="64" column="27" />
       </file>
-      <file name="/fragment.java" timestamp="1608137024301">
+      <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1608137760739">
+        <mark key="[" line="70" column="38" />
+        <mark key="]" line="70" column="38" />
+        <mark key="." line="70" column="38" />
+      </file>
+      <file name="/fragment.java" timestamp="1608138272540">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="12" />
         <mark key="^" line="0" column="12" />
@@ -301,85 +303,6 @@
       <file name="$USER_HOME$/GraknLabs/graql/java/common/util/Strings.java" timestamp="1608137499067" />
     </filemarks>
     <jumps>
-      <jump line="152" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="153" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="211" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="212" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="217" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="131" column="10" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="284" column="40" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="289" column="88" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="292" column="40" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="296" column="92" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="41" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="36" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="146" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="209" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="225" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="332" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="344" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="349" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="373" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="387" column="5" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="394" column="6" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="430" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="423" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="128" column="24" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="192" column="16" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="220" column="22" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="326" column="23" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="327" column="25" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="351" column="5" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="358" column="6" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="386" column="15" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="425" column="26" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="436" column="21" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="437" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="438" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="61" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="62" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="79" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="140" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="141" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="193" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="194" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="195" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="196" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="197" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="215" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="216" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="221" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="235" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="236" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="237" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="242" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="334" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="339" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="346" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="352" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="353" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="369" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="370" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="390" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="391" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="395" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="396" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="418" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="419" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="420" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="421" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="426" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="427" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="266" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="278" column="104" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="281" column="19" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="294" column="75" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="298" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="305" column="13" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="308" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="313" column="24" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
-      <jump line="315" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
       <jump line="325" column="26" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
       <jump line="374" column="24" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
       <jump line="375" column="6" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
@@ -390,38 +313,117 @@
       <jump line="119" column="21" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
       <jump line="408" column="23" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
       <jump line="76" column="35" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
-      <jump line="42" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/BUILD" />
       <jump line="20" column="25" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/BUILD" />
       <jump line="41" column="11" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/BUILD" />
       <jump line="122" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
       <jump line="25" column="40" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
       <jump line="53" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/MigratorTest.java" />
-      <jump line="47" column="97" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/MigratorTest.java" />
       <jump line="103" column="38" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
       <jump line="116" column="38" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
       <jump line="612" column="87" filename="$USER_HOME$/GraknLabs/graql/java/pattern/constraint/ThingConstraint.java" />
       <jump line="35" column="32" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
+      <jump line="290" column="11" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="7" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="558" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="561" column="17" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="570" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="575" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="581" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="586" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="11" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="177" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="178" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="188" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="226" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="230" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="116" column="18" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="486" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="487" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="488" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="489" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="491" column="26" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="493" column="24" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="496" column="28" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="498" column="25" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="499" column="30" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="500" column="28" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="503" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="507" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="512" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="515" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="520" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="523" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="368" column="17" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="381" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="438" column="17" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="483" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="478" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/schema.gql" />
+      <jump line="321" column="18" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="799" column="5" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="42" column="11" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/BUILD" />
+      <jump line="47" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/MigratorTest.java" />
+      <jump line="193" column="45" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" />
+      <jump line="59" column="33" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="24" column="16" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="414" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="73" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema.gql" />
+      <jump line="41" column="21" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="81" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="325" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="401" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="447" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="555" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="461" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/schema2.gql" />
+      <jump line="131" column="71" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
+      <jump line="142" column="4" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
+      <jump line="34" column="12" filename="$USER_HOME$/GraknLabs/grakn/concept/type/AttributeType.java" />
+      <jump line="104" column="28" filename="$USER_HOME$/GraknLabs/grakn/concept/type/AttributeType.java" />
+      <jump line="45" column="12" filename="$USER_HOME$/GraknLabs/grakn/concept/type/AttributeType.java" />
+      <jump line="103" column="23" filename="$USER_HOME$/GraknLabs/grakn/concept/type/AttributeType.java" />
+      <jump line="353" column="26" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="269" column="19" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="280" column="20" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="4" column="63" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="236" column="63" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="276" column="19" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="273" column="36" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="114" column="53" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="272" column="36" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="112" column="53" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="113" column="53" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="56" column="8" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
+      <jump line="62" column="90" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
+      <jump line="100" column="19" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
+      <jump line="101" column="19" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
+      <jump line="108" column="16" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
+      <jump line="109" column="23" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
+      <jump line="50" column="33" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
+      <jump line="61" column="84" filename="$USER_HOME$/GraknLabs/grakn/pattern/variable/VariableRegistry.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>graql</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICB0aGluZ1R5cGUuZ2V0T3ducygpLgo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
       </register>
-      <register name="+" type="4">
-        <text>attribute.getOwners(getType())</text>
+      <register name="+" type="2">
+        <text encoding="base64">ZGVmaW5lCgphY2Nlc3MtdG9rZW4gc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmFjdGl2ZSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgYm9vbGVhbjsKCmFsaWFzIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgphbmFseXNpcy1pZCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgbG9uZzsKCmJ1aWxkLWNvcnJlY3RuZXNzLXdhaXQtZm9yLXF1YWxpdHkgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGJvb2xlYW47CgpidWlsZC1wZXJmb3JtYW5jZS13YWl0LWZvci1jb3JyZWN0bmVzcyBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgYm9vbGVhbjsKCmJ1aWxkLXBlcmZvcm1hbmNlLXdhaXQtZm9yLXF1YWxpdHkgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGJvb2xlYW47Cgpjb25maWcgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmNvbnRlbnQgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmNyZWF0ZWQgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGRhdGV0aW1lOwoKZGF0YSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKZGVmYXVsdCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgYm9vbGVhbjsKCmRlc2NyaXB0aW9uIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpkaXNjb3JkLWlkIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpkaXNjb3JkLXdlYmhvb2stdXJsIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpkdXJhdGlvbiBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgbG9uZzsKCmVtYWlsIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmcsCiAgICByZWdleCAiLitcQC4rXC4uKyI7CgplbmRlZCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgZGF0ZXRpbWU7CgplbnZpcm9ubWVudC12YXJpYWJsZSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKZXJyb3Igc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmZvcmsgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGJvb2xlYW47Cgpmb3JtYXQgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmZ1bGwtbmFtZSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKZ2l0aHViLXRva2VuIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpoZWFkcyBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKaWRyIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgppbmRleCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgbG9uZzsKCmluc3RhbGxhdGlvbi1pZCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKaXAgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmlzLWFwcHJvdmVkIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBib29sZWFuOwoKaXRlcmF0aW9uIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBsb25nOwoKam9iLXR5cGUgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmxhYmVsIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpsYXRlc3Qgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGJvb2xlYW47CgpuYW1lIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpvZmZlciBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKb3JnLXJvbGUgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCm9zLXR5cGUgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCnBhcmVudC1naXRodWItaWQgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGxvbmc7CgpwYXRoIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpwYXR0ZXJuIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpwZXJtaXNzaW9uIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7Cgpwcmlvcml0eSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgbG9uZzsKCnByaXZhdGUgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGJvb2xlYW47CgpwdWJsaXNoZXIgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCnJlZmVyZW5jZS10eXBlIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpyZXNvdXJjZS1ncm91cCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKcnVuIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBsb25nOwoKc2NyaXB0IHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7CgpzaGEgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCnNrdSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKc3RhcnRlZCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgZGF0ZXRpbWU7CgpzdGF0dXMgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCnN5bWJvbCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKc3luYyBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgYm9vbGVhbjsKCnVzZXItc3NoLXByaXZhdGUta2V5IHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7Cgp1c2VyLXNzaC1wdWJsaWMta2V5IHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmc7Cgp2ZXJzaW9uLWNhbmRpZGF0ZSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKY29tbWl0LWFuYWx5c2lzIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgYW5hbHlzaXMsCiAgICByZWxhdGVzIGNvbW1pdCwKICAgIHJlbGF0ZXMgcHJvZHVjZXI7Cgpjb21taXQtYXV0aG9yIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgYXV0aG9yLAogICAgcmVsYXRlcyBjb21taXQ7Cgpjb21taXQtZGVwZW5kZW5jeSBzdWIgcmVsYXRpb24sCiAgICBvd25zIHN0YXR1cywKICAgIHJlbGF0ZXMgYW5hbHlzaXMsCiAgICByZWxhdGVzIGRlcGVuZGFudCwKICAgIHJlbGF0ZXMgZGVwZW5kZWU7Cgpjb21taXQtZmlsZSBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIGNvbW1pdCwKICAgIHJlbGF0ZXMgZmlsZTsKCmNvbW1pdC1saW5rIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgbmV4dCwKICAgIHJlbGF0ZXMgcHJldmlvdXM7Cgpjb21taXQtcmVmZXJlbmNlIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgY29tbWl0LAogICAgcmVsYXRlcyByZWZlcmVuY2U7Cgpqb2ItZGVwZW5kZW5jeSBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIGRlcGVuZGFudCwKICAgIHJlbGF0ZXMgZGVwZW5kZWU7Cgpqb2ItaW1hZ2Ugc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyBpbWFnZSwKICAgIHJlbGF0ZXMgam9iOwoKb3JnLWluc3RhbGxlciBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIGluc3RhbGxlciwKICAgIHJlbGF0ZXMgb3JnOwoKb3JnLW1lbWJlciBzdWIgcmVsYXRpb24sCiAgICBvd25zIG9yZy1yb2xlLAogICAgcmVsYXRlcyBtZW1iZXIsCiAgICByZWxhdGVzIG9yZzsKCm9yZy10ZWFtIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgb3JnLAogICAgcmVsYXRlcyB0ZWFtOwoKcGVyZm9ybWFuY2UtdHJhY2Ugc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyBhbmFseXNpcywKICAgIHJlbGF0ZXMgdHJhY2U7CgpwZXJmb3JtYW5jZS10cmFja2VyIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgYW5hbHlzaXMsCiAgICByZWxhdGVzIHRyYWNrZXI7CgpwaXBlbGluZS1hdXRvbWF0aW9uIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgYnJhbmNoLAogICAgcmVsYXRlcyBwaXBlbGluZSwKICAgIHJlbGF0ZXMgdHJpZ2dlcjsKCnBpcGVsaW5lLWRlcGVuZGVuY3kgc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyBkZXBlbmRhbnQsCiAgICByZWxhdGVzIGRlcGVuZGVlOwoKcGlwZWxpbmUtd29ya2Zsb3cgc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyBwaXBlbGluZSwKICAgIHJlbGF0ZXMgd29ya2Zsb3c7CgpyZXBvLWJyYW5jaC1ydWxlIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgcmVwbywKICAgIHJlbGF0ZXMgcnVsZTsKCnJlcG8tY29sbGFib3JhdG9yIHN1YiByZWxhdGlvbiwKICAgIG93bnMgcGVybWlzc2lvbiwKICAgIHJlbGF0ZXMgY29sbGFib3JhdG9yLAogICAgcmVsYXRlcyByZXBvOwoKcmVwby1jb21taXQgc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyBjb21taXQsCiAgICByZWxhdGVzIHJlcG87CgpyZXBvLWRlcGVuZGVuY3kgc3ViIHJlbGF0aW9uLAogICAgb3ducyByZWZlcmVuY2UtdHlwZSwKICAgIHJlbGF0ZXMgZGVwZW5kYW50LAogICAgcmVsYXRlcyBkZXBlbmRlZTsKCnJlcG8tZGVwZW5kZW5jeS1kaXJlY3Qgc3ViIHJlcG8tZGVwZW5kZW5jeSwKICAgIG93bnMgcmVmZXJlbmNlLXR5cGUsCiAgICByZWxhdGVzIGRlcGVuZGFudCwKICAgIHJlbGF0ZXMgZGVwZW5kZWU7CgpyZXBvLWRlcGVuZGVuY3ktdHJhbnNpdGl2ZSBzdWIgcmVwby1kZXBlbmRlbmN5LAogICAgb3ducyByZWZlcmVuY2UtdHlwZSwKICAgIHJlbGF0ZXMgZGVwZW5kYW50LAogICAgcmVsYXRlcyBkZXBlbmRlZTsKCnJlcG8tZm9yayBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIGNoaWxkLAogICAgcmVsYXRlcyBwYXJlbnQ7CgpyZXBvLW93bmVyIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgb3duZXIsCiAgICByZWxhdGVzIHJlcG87CgpyZXBvLXJlZmVyZW5jZSBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIHJlZmVyZW5jZSwKICAgIHJlbGF0ZXMgcmVwbzsKCnJlcG8tdGVhbSBzdWIgcmVsYXRpb24sCiAgICBvd25zIHBlcm1pc3Npb24sCiAgICByZWxhdGVzIHJlcG8sCiAgICByZWxhdGVzIHRlYW07Cgp0ZWFtLW1lbWJlciBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIG1lbWJlciwKICAgIHJlbGF0ZXMgdGVhbTsKCnRyYWNlLXRyYWNrZXIgc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyB0cmFjZSwKICAgIHJlbGF0ZXMgdHJhY2tlcjsKCnRyYWNlLXRyZWUgc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyBjaGlsZCwKICAgIHJlbGF0ZXMgcGFyZW50OwoKdHJhY2tlci10cmVlIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgY2hpbGQsCiAgICByZWxhdGVzIHBhcmVudDsKCndvcmtmbG93LWRlcGVuZGVuY3kgc3ViIHJlbGF0aW9uLAogICAgcmVsYXRlcyBkZXBlbmRhbnQsCiAgICByZWxhdGVzIGRlcGVuZGVlOwoKd29ya2Zsb3ctam9iIHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgam9iLAogICAgcmVsYXRlcyB3b3JrZmxvdzsKCmFuYWx5c2lzIHN1YiBlbnRpdHksCiAgICBhYnN0cmFjdCwKICAgIG93bnMgYW5hbHlzaXMtaWQgQGtleSwKICAgIG93bnMgY3JlYXRlZCwKICAgIHBsYXlzIGNvbW1pdC1hbmFseXNpczphbmFseXNpczsKCmF1dG9tYXRpb24gc3ViIGVudGl0eSwKICAgIGFic3RyYWN0LAogICAgb3ducyBzeW1ib2wgQGtleSwKICAgIG93bnMgZW5kZWQsCiAgICBvd25zIGluZGV4LAogICAgb3ducyBsYXRlc3QsCiAgICBvd25zIG5hbWUsCiAgICBvd25zIHJ1biwKICAgIG93bnMgc3RhcnRlZCwKICAgIG93bnMgc3RhdHVzOwoKYnJhbmNoIHN1YiBlbnRpdHksCiAgICBvd25zIHN5bWJvbCBAa2V5LAogICAgb3ducyBkZWZhdWx0LAogICAgb3ducyBoZWFkcywKICAgIG93bnMgbmFtZSwKICAgIG93bnMgc3luYywKICAgIHBsYXlzIGNvbW1pdC1yZWZlcmVuY2U6cmVmZXJlbmNlLAogICAgcGxheXMgcGlwZWxpbmUtYXV0b21hdGlvbjpicmFuY2gsCiAgICBwbGF5cyByZXBvLXJlZmVyZW5jZTpyZWZlcmVuY2U7CgpicmFuY2gtcnVsZSBzdWIgZW50aXR5LAogICAgb3ducyBzeW1ib2wgQGtleSwKICAgIG93bnMgYnVpbGQtY29ycmVjdG5lc3Mtd2FpdC1mb3ItcXVhbGl0eSwKICAgIG93bnMgYnVpbGQtcGVyZm9ybWFuY2Utd2FpdC1mb3ItY29ycmVjdG5lc3MsCiAgICBvd25zIGJ1aWxkLXBlcmZvcm1hbmNlLXdhaXQtZm9yLXF1YWxpdHksCiAgICBvd25zIHBhdHRlcm4sCiAgICBvd25zIHByaW9yaXR5LAogICAgcGxheXMgcmVwby1icmFuY2gtcnVsZTpydWxlOwoKY29tbWl0IHN1YiBlbnRpdHksCiAgICBvd25zIHN5bWJvbCBAa2V5LAogICAgb3ducyBjcmVhdGVkLAogICAgb3ducyBzaGEsCiAgICBvd25zIHZlcnNpb24tY2FuZGlkYXRlLAogICAgcGxheXMgY29tbWl0LWFuYWx5c2lzOmNvbW1pdCwKICAgIHBsYXlzIGNvbW1pdC1hdXRob3I6Y29tbWl0LAogICAgcGxheXMgY29tbWl0LWRlcGVuZGVuY3k6ZGVwZW5kYW50LAogICAgcGxheXMgY29tbWl0LWRlcGVuZGVuY3k6ZGVwZW5kZWUsCiAgICBwbGF5cyBjb21taXQtZmlsZTpjb21taXQsCiAgICBwbGF5cyBjb21taXQtbGluazpuZXh0LAogICAgcGxheXMgY29tbWl0LWxpbms6cHJldmlvdXMsCiAgICBwbGF5cyBjb21taXQtcmVmZXJlbmNlOmNvbW1pdCwKICAgIHBsYXlzIHBpcGVsaW5lLWF1dG9tYXRpb246dHJpZ2dlciwKICAgIHBsYXlzIHJlcG8tY29tbWl0OmNvbW1pdDsKCmN1c3RvbS1pbWFnZSBzdWIgaW1hZ2UsCiAgICBvd25zIGFjdGl2ZSwKICAgIG93bnMgYWxpYXMsCiAgICBvd25zIG5hbWUsCiAgICBvd25zIG9zLXR5cGUsCiAgICBvd25zIHJlc291cmNlLWdyb3VwLAogICAgcGxheXMgam9iLWltYWdlOmltYWdlOwoKZGVwZW5kZW5jeS1hbmFseXNpcyBzdWIgYW5hbHlzaXMsCiAgICBvd25zIGFuYWx5c2lzLWlkIEBrZXksCiAgICBvd25zIGNyZWF0ZWQsCiAgICBvd25zIGVycm9yLAogICAgb3ducyBzdGF0dXMsCiAgICBwbGF5cyBjb21taXQtYW5hbHlzaXM6YW5hbHlzaXMsCiAgICBwbGF5cyBjb21taXQtZGVwZW5kZW5jeTphbmFseXNpczsKCmZpbGUgc3ViIGVudGl0eSwKICAgIG93bnMgY29udGVudCwKICAgIG93bnMgZXJyb3IsCiAgICBvd25zIGZvcm1hdCwKICAgIG93bnMgbmFtZSwKICAgIHBsYXlzIGNvbW1pdC1maWxlOmZpbGU7CgppbWFnZSBzdWIgZW50aXR5LAogICAgYWJzdHJhY3QsCiAgICBvd25zIGFjdGl2ZSwKICAgIG93bnMgYWxpYXMsCiAgICBvd25zIG9zLXR5cGUsCiAgICBwbGF5cyBqb2ItaW1hZ2U6aW1hZ2U7Cgpqb2Igc3ViIGF1dG9tYXRpb24sCiAgICBvd25zIHN5bWJvbCBAa2V5LAogICAgb3ducyBlbmRlZCwKICAgIG93bnMgZW52aXJvbm1lbnQtdmFyaWFibGUsCiAgICBvd25zIGluZGV4LAogICAgb3ducyBpcCwKICAgIG93bnMgam9iLXR5cGUsCiAgICBvd25zIGxhdGVzdCwKICAgIG93bnMgbmFtZSwKICAgIG93bnMgcnVuLAogICAgb3ducyBzY3JpcHQsCiAgICBvd25zIHN0YXJ0ZWQsCiAgICBvd25zIHN0YXR1cywKICAgIHBsYXlzIGpvYi1kZXBlbmRlbmN5OmRlcGVuZGFudCwKICAgIHBsYXlzIGpvYi1kZXBlbmRlbmN5OmRlcGVuZGVlLAogICAgcGxheXMgam9iLWltYWdlOmpvYiwKICAgIHBsYXlzIHdvcmtmbG93LWpvYjpqb2I7CgptYXJrZXRwbGFjZS1pbWFnZSBzdWIgaW1hZ2UsCiAgICBvd25zIGFjdGl2ZSwKICAgIG93bnMgYWxpYXMsCiAgICBvd25zIG9mZmVyLAogICAgb3ducyBvcy10eXBlLAogICAgb3ducyBwdWJsaXNoZXIsCiAgICBvd25zIHNrdSwKICAgIHBsYXlzIGpvYi1pbWFnZTppbWFnZTsKCm9yZ2FuaXNhdGlvbiBzdWIgZW50aXR5LAogICAgb3ducyBuYW1lIEBrZXksCiAgICBvd25zIGFjY2Vzcy10b2tlbiwKICAgIG93bnMgZGlzY29yZC13ZWJob29rLXVybCwKICAgIG93bnMgZW52aXJvbm1lbnQtdmFyaWFibGUsCiAgICBvd25zIGZ1bGwtbmFtZSwKICAgIG93bnMgaW5zdGFsbGF0aW9uLWlkLAogICAgb3ducyBwZXJtaXNzaW9uLAogICAgcGxheXMgb3JnLWluc3RhbGxlcjpvcmcsCiAgICBwbGF5cyBvcmctbWVtYmVyOm9yZywKICAgIHBsYXlzIG9yZy10ZWFtOm9yZywKICAgIHBsYXlzIHJlcG8tb3duZXI6b3duZXI7CgpwZXJmb3JtYW5jZS1hbmFseXNpcyBzdWIgYW5hbHlzaXMsCiAgICBvd25zIGFuYWx5c2lzLWlkIEBrZXksCiAgICBvd25zIGNyZWF0ZWQsCiAgICBwbGF5cyBjb21taXQtYW5hbHlzaXM6YW5hbHlzaXMsCiAgICBwbGF5cyBwZXJmb3JtYW5jZS10cmFjZTphbmFseXNpcywKICAgIHBsYXlzIHBlcmZvcm1hbmNlLXRyYWNrZXI6YW5hbHlzaXM7CgpwaXBlbGluZSBzdWIgYXV0b21hdGlvbiwKICAgIG93bnMgc3ltYm9sIEBrZXksCiAgICBvd25zIGVuZGVkLAogICAgb3ducyBpbmRleCwKICAgIG93bnMgbGF0ZXN0LAogICAgb3ducyBuYW1lLAogICAgb3ducyBydW4sCiAgICBvd25zIHN0YXJ0ZWQsCiAgICBvd25zIHN0YXR1cywKICAgIHBsYXlzIHBpcGVsaW5lLWF1dG9tYXRpb246cGlwZWxpbmUsCiAgICBwbGF5cyBwaXBlbGluZS1kZXBlbmRlbmN5OmRlcGVuZGFudCwKICAgIHBsYXlzIHBpcGVsaW5lLWRlcGVuZGVuY3k6ZGVwZW5kZWUsCiAgICBwbGF5cyBwaXBlbGluZS13b3JrZmxvdzpwaXBlbGluZTsKCnBpcGVsaW5lLXJlbGVhc2Ugc3ViIHBpcGVsaW5lLAogICAgb3ducyBzeW1ib2wgQGtleSwKICAgIG93bnMgZW5kZWQsCiAgICBvd25zIGluZGV4LAogICAgb3ducyBpcy1hcHByb3ZlZCwKICAgIG93bnMgbGF0ZXN0LAogICAgb3ducyBuYW1lLAogICAgb3ducyBydW4sCiAgICBvd25zIHN0YXJ0ZWQsCiAgICBvd25zIHN0YXR1cywKICAgIHBsYXlzIHBpcGVsaW5lLWF1dG9tYXRpb246cGlwZWxpbmUsCiAgICBwbGF5cyBwaXBlbGluZS1kZXBlbmRlbmN5OmRlcGVuZGFudCwKICAgIHBsYXlzIHBpcGVsaW5lLWRlcGVuZGVuY3k6ZGVwZW5kZWUsCiAgICBwbGF5cyBwaXBlbGluZS13b3JrZmxvdzpwaXBlbGluZTsKCnJlcG9zaXRvcnkgc3ViIGVudGl0eSwKICAgIG93bnMgc3ltYm9sIEBrZXksCiAgICBvd25zIGFjdGl2ZSwKICAgIG93bnMgZGVzY3JpcHRpb24sCiAgICBvd25zIGVudmlyb25tZW50LXZhcmlhYmxlLAogICAgb3ducyBmb3JrLAogICAgb3ducyBuYW1lLAogICAgb3ducyBwYXJlbnQtZ2l0aHViLWlkLAogICAgb3ducyBwcml2YXRlLAogICAgcGxheXMgcmVwby1icmFuY2gtcnVsZTpyZXBvLAogICAgcGxheXMgcmVwby1jb2xsYWJvcmF0b3I6cmVwbywKICAgIHBsYXlzIHJlcG8tY29tbWl0OnJlcG8sCiAgICBwbGF5cyByZXBvLWRlcGVuZGVuY3k6ZGVwZW5kYW50LAogICAgcGxheXMgcmVwby1kZXBlbmRlbmN5OmRlcGVuZGVlLAogICAgcGxheXMgcmVwby1mb3JrOmNoaWxkLAogICAgcGxheXMgcmVwby1mb3JrOnBhcmVudCwKICAgIHBsYXlzIHJlcG8tb3duZXI6cmVwbywKICAgIHBsYXlzIHJlcG8tcmVmZXJlbmNlOnJlcG8sCiAgICBwbGF5cyByZXBvLXRlYW06cmVwbzsKCnRhZyBzdWIgZW50aXR5LAogICAgb3ducyBzeW1ib2wgQGtleSwKICAgIG93bnMgY3JlYXRlZCwKICAgIG93bnMgaGVhZHMsCiAgICBvd25zIG5hbWUsCiAgICBwbGF5cyBjb21taXQtZGVwZW5kZW5jeTpkZXBlbmRlZSwKICAgIHBsYXlzIGNvbW1pdC1yZWZlcmVuY2U6cmVmZXJlbmNlLAogICAgcGxheXMgcGlwZWxpbmUtYXV0b21hdGlvbjp0cmlnZ2VyLAogICAgcGxheXMgcmVwby1yZWZlcmVuY2U6cmVmZXJlbmNlOwoKdGVhbSBzdWIgZW50aXR5LAogICAgb3ducyBzeW1ib2wgQGtleSwKICAgIG93bnMgbmFtZSwKICAgIHBsYXlzIG9yZy10ZWFtOnRlYW0sCiAgICBwbGF5cyB0ZWFtLW1lbWJlcjp0ZWFtOwoKdHJhY2Ugc3ViIGVudGl0eSwKICAgIG93bnMgaWRyIEBrZXksCiAgICBvd25zIGRhdGEsCiAgICBvd25zIGR1cmF0aW9uLAogICAgb3ducyBlbmRlZCwKICAgIG93bnMgaXRlcmF0aW9uLAogICAgb3ducyBsYWJlbCwKICAgIG93bnMgbmFtZSwKICAgIG93bnMgcGF0aCwKICAgIG93bnMgc3RhcnRlZCwKICAgIHBsYXlzIHBlcmZvcm1hbmNlLXRyYWNlOnRyYWNlLAogICAgcGxheXMgdHJhY2UtdHJhY2tlcjp0cmFjZSwKICAgIHBsYXlzIHRyYWNlLXRyZWU6Y2hpbGQsCiAgICBwbGF5cyB0cmFjZS10cmVlOnBhcmVudDsKCnRyYWNrZXIgc3ViIGVudGl0eSwKICAgIG93bnMgaWRyIEBrZXksCiAgICBvd25zIG5hbWUsCiAgICBvd25zIHBhdGgsCiAgICBwbGF5cyBwZXJmb3JtYW5jZS10cmFja2VyOnRyYWNrZXIsCiAgICBwbGF5cyB0cmFjZS10cmFja2VyOnRyYWNrZXIsCiAgICBwbGF5cyB0cmFja2VyLXRyZWU6Y2hpbGQsCiAgICBwbGF5cyB0cmFja2VyLXRyZWU6cGFyZW50OwoKdXNlciBzdWIgZW50aXR5LAogICAgb3ducyBuYW1lIEBrZXksCiAgICBvd25zIGFjY2Vzcy10b2tlbiwKICAgIG93bnMgZGlzY29yZC1pZCwKICAgIG93bnMgZGlzY29yZC13ZWJob29rLXVybCwKICAgIG93bnMgZW1haWwsCiAgICBvd25zIGVudmlyb25tZW50LXZhcmlhYmxlLAogICAgb3ducyBmdWxsLW5hbWUsCiAgICBvd25zIGdpdGh1Yi10b2tlbiwKICAgIG93bnMgaW5zdGFsbGF0aW9uLWlkLAogICAgb3ducyB1c2VyLXNzaC1wcml2YXRlLWtleSwKICAgIG93bnMgdXNlci1zc2gtcHVibGljLWtleSwKICAgIHBsYXlzIGNvbW1pdC1hdXRob3I6YXV0aG9yLAogICAgcGxheXMgb3JnLWluc3RhbGxlcjppbnN0YWxsZXIsCiAgICBwbGF5cyBvcmctbWVtYmVyOm1lbWJlciwKICAgIHBsYXlzIHJlcG8tY29sbGFib3JhdG9yOmNvbGxhYm9yYXRvciwKICAgIHBsYXlzIHJlcG8tb3duZXI6b3duZXIsCiAgICBwbGF5cyB0ZWFtLW1lbWJlcjptZW1iZXI7Cgp3b3JrZmxvdyBzdWIgYXV0b21hdGlvbiwKICAgIG93bnMgc3ltYm9sIEBrZXksCiAgICBvd25zIGVuZGVkLAogICAgb3ducyBpbmRleCwKICAgIG93bnMgbGF0ZXN0LAogICAgb3ducyBuYW1lLAogICAgb3ducyBydW4sCiAgICBvd25zIHN0YXJ0ZWQsCiAgICBvd25zIHN0YXR1cywKICAgIHBsYXlzIGNvbW1pdC1hbmFseXNpczpwcm9kdWNlciwKICAgIHBsYXlzIHBpcGVsaW5lLXdvcmtmbG93OndvcmtmbG93LAogICAgcGxheXMgd29ya2Zsb3ctZGVwZW5kZW5jeTpkZXBlbmRhbnQsCiAgICBwbGF5cyB3b3JrZmxvdy1kZXBlbmRlbmN5OmRlcGVuZGVlLAogICAgcGxheXMgd29ya2Zsb3ctam9iOndvcmtmbG93OwoKcnVsZSBwZXJmb3JtYW5jZS10cmFjZS1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgIChhbmFseXNpczogJHgsIHRyYWNlOiAkeSkgaXNhIHBlcmZvcm1hbmNlLXRyYWNlOwogICAgICAgIChwYXJlbnQ6ICR5LCBjaGlsZDogJHopIGlzYSB0cmFjZS10cmVlOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAoYW5hbHlzaXM6ICR4LCB0cmFjZTogJHopIGlzYSBwZXJmb3JtYW5jZS10cmFjZTsKICAgIH07CgpydWxlIHBlcmZvcm1hbmNlLXRyYWNrZXItcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAoYW5hbHlzaXM6ICR4LCB0cmFja2VyOiAkeSkgaXNhIHBlcmZvcm1hbmNlLXRyYWNrZXI7CiAgICAgICAgKHBhcmVudDogJHksIGNoaWxkOiAkeikgaXNhIHRyYWNrZXItdHJlZTsKICAgIH0sCiAgICB0aGVuCiAgICB7CiAgICAgICAgKGFuYWx5c2lzOiAkeCwgdHJhY2tlcjogJHopIGlzYSBwZXJmb3JtYW5jZS10cmFja2VyOwogICAgfTsKCnJ1bGUgcmVwby1jb2xsYWJvcmF0b3Itb3JnLWZvcmstbWVtYmVyLXBlcm1pc3Npb24tcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAkbyBpc2Egb3JnYW5pc2F0aW9uLCBoYXMgcGVybWlzc2lvbiAkcDsKICAgICAgICAob3JnOiAkbywgbWVtYmVyOiAkdSkgaXNhIG9yZy1tZW1iZXIsIGhhcyBvcmctcm9sZSAibWVtYmVyIjsKICAgICAgICAocmVwbzogJHIsIG93bmVyOiAkbykgaXNhIHJlcG8tb3duZXI7CiAgICAgICAgJHIgaXNhIHJlcG9zaXRvcnksIGhhcyBwcml2YXRlIHRydWU7CiAgICAgICAgKHBhcmVudDogJHIsIGNoaWxkOiAkcmMpIGlzYSByZXBvLWZvcms7CiAgICAgICAgJGMgKHJlcG86ICRyYywgY29sbGFib3JhdG9yOiAkdSkgaXNhIHJlcG8tY29sbGFib3JhdG9yOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAkYyBoYXMgJHA7CiAgICB9OwoKcnVsZSByZXBvLWNvbGxhYm9yYXRvci1vcmctZm9yay1vd25lci1wZXJtaXNzaW9uLXJ1bGU6CiAgICB3aGVuCiAgICB7CiAgICAgICAgJG8gaXNhIG9yZ2FuaXNhdGlvbiwgaGFzIHBlcm1pc3Npb24gJHA7CiAgICAgICAgKG9yZzogJG8sIG1lbWJlcjogJHUpIGlzYSBvcmctbWVtYmVyLCBoYXMgb3JnLXJvbGUgIm93bmVyIjsKICAgICAgICAocmVwbzogJHIsIG93bmVyOiAkbykgaXNhIHJlcG8tb3duZXI7CiAgICAgICAgJHIgaXNhIHJlcG9zaXRvcnksIGhhcyBwcml2YXRlIHRydWU7CiAgICAgICAgKHBhcmVudDogJHIsIGNoaWxkOiAkcmMpIGlzYSByZXBvLWZvcms7CiAgICAgICAgJGMgKHJlcG86ICRyYywgY29sbGFib3JhdG9yOiAkdSkgaXNhIHJlcG8tY29sbGFib3JhdG9yOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAkYyBoYXMgcGVybWlzc2lvbiAiYWRtaW4iOwogICAgfTsKCnJ1bGUgcmVwby1jb2xsYWJvcmF0b3Itb3JnLWZvcmstcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAob3JnOiAkbywgbWVtYmVyOiAkdSkgaXNhIG9yZy1tZW1iZXI7CiAgICAgICAgKHJlcG86ICRyLCBvd25lcjogJG8pIGlzYSByZXBvLW93bmVyOwogICAgICAgICRyIGlzYSByZXBvc2l0b3J5LCBoYXMgcHJpdmF0ZSB0cnVlOwogICAgICAgIChwYXJlbnQ6ICRyLCBjaGlsZDogJHJjKSBpc2EgcmVwby1mb3JrOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAocmVwbzogJHJjLCBjb2xsYWJvcmF0b3I6ICR1KSBpc2EgcmVwby1jb2xsYWJvcmF0b3I7CiAgICB9OwoKcnVsZSByZXBvLWNvbGxhYm9yYXRvci1vcmctbWVtYmVyLXBlcm1pc3Npb24tcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAkbyBpc2Egb3JnYW5pc2F0aW9uLCBoYXMgcGVybWlzc2lvbiAkcDsKICAgICAgICAob3JnOiAkbywgbWVtYmVyOiAkdSkgaXNhIG9yZy1tZW1iZXIsIGhhcyBvcmctcm9sZSAibWVtYmVyIjsKICAgICAgICAocmVwbzogJHIsIG93bmVyOiAkbykgaXNhIHJlcG8tb3duZXI7CiAgICAgICAgJGMgKHJlcG86ICRyLCBjb2xsYWJvcmF0b3I6ICR1KSBpc2EgcmVwby1jb2xsYWJvcmF0b3I7CiAgICB9LAogICAgdGhlbgogICAgewogICAgICAgICRjIGhhcyAkcDsKICAgIH07CgpydWxlIHJlcG8tY29sbGFib3JhdG9yLW9yZy1vd25lci1wZXJtaXNzaW9uLXJ1bGU6CiAgICB3aGVuCiAgICB7CiAgICAgICAgKG9yZzogJG8sIG1lbWJlcjogJHUpIGlzYSBvcmctbWVtYmVyLCBoYXMgb3JnLXJvbGUgIm93bmVyIjsKICAgICAgICAocmVwbzogJHIsIG93bmVyOiAkbykgaXNhIHJlcG8tb3duZXI7CiAgICAgICAgJGMgKHJlcG86ICRyLCBjb2xsYWJvcmF0b3I6ICR1KSBpc2EgcmVwby1jb2xsYWJvcmF0b3I7CiAgICB9LAogICAgdGhlbgogICAgewogICAgICAgICRjIGhhcyBwZXJtaXNzaW9uICJhZG1pbiI7CiAgICB9OwoKcnVsZSByZXBvLWNvbGxhYm9yYXRvci1vcmctcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAob3JnOiAkbywgbWVtYmVyOiAkdSkgaXNhIG9yZy1tZW1iZXI7CiAgICAgICAgKHJlcG86ICRyLCBvd25lcjogJG8pIGlzYSByZXBvLW93bmVyOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAocmVwbzogJHIsIGNvbGxhYm9yYXRvcjogJHUpIGlzYSByZXBvLWNvbGxhYm9yYXRvcjsKICAgIH07CgpydWxlIHJlcG8tY29sbGFib3JhdG9yLXBlcm1pc3Npb24tYWRtaW4tb3ducy13cml0ZS1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgICRjIGlzYSByZXBvLWNvbGxhYm9yYXRvciwgaGFzIHBlcm1pc3Npb24gImFkbWluIjsKICAgIH0sCiAgICB0aGVuCiAgICB7CiAgICAgICAgJGMgaGFzIHBlcm1pc3Npb24gIndyaXRlIjsKICAgIH07CgpydWxlIHJlcG8tY29sbGFib3JhdG9yLXBlcm1pc3Npb24td3JpdGUtb3ducy1yZWFkLXJ1bGU6CiAgICB3aGVuCiAgICB7CiAgICAgICAgJGMgaXNhIHJlcG8tY29sbGFib3JhdG9yLCBoYXMgcGVybWlzc2lvbiAid3JpdGUiOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAkYyBoYXMgcGVybWlzc2lvbiAicmVhZCI7CiAgICB9OwoKcnVsZSByZXBvLWNvbGxhYm9yYXRvci10ZWFtLXBlcm1pc3Npb24tcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAocmVwbzogJHgsIHRlYW06ICR5KSBpc2EgcmVwby10ZWFtLCBoYXMgcGVybWlzc2lvbiAkcDsKICAgICAgICAodGVhbTogJHksIG1lbWJlcjogJHopIGlzYSB0ZWFtLW1lbWJlcjsKICAgICAgICAkYyAocmVwbzogJHgsIGNvbGxhYm9yYXRvcjogJHopIGlzYSByZXBvLWNvbGxhYm9yYXRvcjsKICAgIH0sCiAgICB0aGVuCiAgICB7CiAgICAgICAgJGMgaGFzICRwOwogICAgfTsKCnJ1bGUgcmVwby1jb2xsYWJvcmF0b3ItdGVhbS1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgIChyZXBvOiAkeCwgdGVhbTogJHkpIGlzYSByZXBvLXRlYW07CiAgICAgICAgKHRlYW06ICR5LCBtZW1iZXI6ICR6KSBpc2EgdGVhbS1tZW1iZXI7CiAgICB9LAogICAgdGhlbgogICAgewogICAgICAgIChyZXBvOiAkeCwgY29sbGFib3JhdG9yOiAkeikgaXNhIHJlcG8tY29sbGFib3JhdG9yOwogICAgfTsKCnJ1bGUgcmVwby1jb2xsYWJvcmF0b3ItdXNlci1wZXJtaXNzaW9uLXJ1bGU6CiAgICB3aGVuCiAgICB7CiAgICAgICAgJG93bmVyIGlzYSB1c2VyOwogICAgICAgIChyZXBvOiAkcmVwbywgb3duZXI6ICRvd25lcikgaXNhIHJlcG8tb3duZXI7CiAgICAgICAgJGMgKHJlcG86ICRyZXBvLCBjb2xsYWJvcmF0b3I6ICRvd25lcikgaXNhIHJlcG8tY29sbGFib3JhdG9yOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAkYyBoYXMgcGVybWlzc2lvbiAiYWRtaW4iOwogICAgfTsKCnJ1bGUgcmVwby1jb2xsYWJvcmF0b3ItdXNlci1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgICRvd25lciBpc2EgdXNlcjsKICAgICAgICAocmVwbzogJHJlcG8sIG93bmVyOiAkb3duZXIpIGlzYSByZXBvLW93bmVyOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAocmVwbzogJHJlcG8sIGNvbGxhYm9yYXRvcjogJG93bmVyKSBpc2EgcmVwby1jb2xsYWJvcmF0b3I7CiAgICB9OwoKcnVsZSByZXBvLWRlcGVuZGVuY3ktdHJhbnNpdGl2ZS1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgIChkZXBlbmRlZTogJHgsIGRlcGVuZGFudDogJHkpIGlzYSByZXBvLWRlcGVuZGVuY3k7CiAgICAgICAgKGRlcGVuZGVlOiAkeSwgZGVwZW5kYW50OiAkeikgaXNhIHJlcG8tZGVwZW5kZW5jeTsKICAgIH0sCiAgICB0aGVuCiAgICB7CiAgICAgICAgKGRlcGVuZGVlOiAkeCwgZGVwZW5kYW50OiAkeikgaXNhIHJlcG8tZGVwZW5kZW5jeS10cmFuc2l0aXZlOwogICAgfTsKCnJ1bGUgcmVwby1kZXBlbmRlbmN5LXRyYW5zaXRpdmUtdHlwZS1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgIChkZXBlbmRlZTogJHgsIGRlcGVuZGFudDogJHkpIGlzYSByZXBvLWRlcGVuZGVuY3ksIGhhcyByZWZlcmVuY2UtdHlwZSAkdDsKICAgICAgICAoZGVwZW5kZWU6ICR5LCBkZXBlbmRhbnQ6ICR6KSBpc2EgcmVwby1kZXBlbmRlbmN5LCBoYXMgcmVmZXJlbmNlLXR5cGUgJHQ7CiAgICAgICAgJGQgKGRlcGVuZGVlOiAkeCwgZGVwZW5kYW50OiAkeikgaXNhIHJlcG8tZGVwZW5kZW5jeS10cmFuc2l0aXZlOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAkZCBoYXMgJHQ7CiAgICB9OwoKcnVsZSByZXBvLWZvcmstcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAocGFyZW50OiAkeCwgY2hpbGQ6ICR5KSBpc2EgcmVwby1mb3JrOwogICAgICAgIChwYXJlbnQ6ICR5LCBjaGlsZDogJHopIGlzYSByZXBvLWZvcms7CiAgICB9LAogICAgdGhlbgogICAgewogICAgICAgIChwYXJlbnQ6ICR4LCBjaGlsZDogJHopIGlzYSByZXBvLWZvcms7CiAgICB9OwoKcnVsZSB0cmFjZS1pdGVyYXRpb24tcnVsZToKICAgIHdoZW4KICAgIHsKICAgICAgICAocGFyZW50OiAkeCwgY2hpbGQ6ICR5KSBpc2EgdHJhY2UtdHJlZTsKICAgICAgICAkeCBoYXMgaXRlcmF0aW9uICRpOwogICAgfSwKICAgIHRoZW4KICAgIHsKICAgICAgICAkeSBoYXMgJGk7CiAgICB9OwoKcnVsZSB0cmFjZS1sYWJlbC1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgIChwYXJlbnQ6ICR4LCBjaGlsZDogJHkpIGlzYSB0cmFjZS10cmVlOwogICAgICAgICR4IGhhcyBsYWJlbCAkbDsKICAgIH0sCiAgICB0aGVuCiAgICB7CiAgICAgICAgJHkgaGFzICRsOwogICAgfTsKCnJ1bGUgdHJhY2tlci10cmFjZS1ydWxlOgogICAgd2hlbgogICAgewogICAgICAgICh0cmFja2VyOiAkeCwgdHJhY2U6ICR5KSBpc2EgdHJhY2UtdHJhY2tlcjsKICAgICAgICAocGFyZW50OiAkeSwgY2hpbGQ6ICR6KSBpc2EgdHJhY2UtdHJlZTsKICAgIH0sCiAgICB0aGVuCiAgICB7CiAgICAgICAgKHRyYWNrZXI6ICR4LCB0cmFjZTogJHopIGlzYSB0cmFjZS10cmFja2VyOwogICAgfTsK</text>
       </register>
       <register name="l" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>graql</text>
+        <text>;</text>
       </register>
       <register name="/" type="4">
-        <text>string</text>
+        <text>over</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -429,10 +431,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19ncmFxbC8vamF2YTpncmFxbCIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ3Jha24uZGF0YWJhc2VzKCkuY3JlYXRlKGRhdGFiYXNlKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9zZXJ2ZXI6c2VydmVyIiwK</text>
+        <text encoding="base64">ICAgICAgICB0aGluZ1R5cGUuZ2V0T3ducygpLgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -446,28 +448,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB0aGluZ1R5cGUuZ2V0T3ducygpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICB0aGluZ1R5cGUuZ2V0T3ducygpLgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9jb21tb246Y29tbW9uIiwK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9jb25jZXB0OmNvbmNlcHQiLAogICAgICAgICIvL3BhdHRlcm46cGF0dGVybiIK</text>
+        <text encoding="base64">ICAgICAgICB0aGluZ1R5cGUuZ2V0T3ducygpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9sb2dpYzpsb2dpYyIsCg==</text>
+        <text encoding="base64">ICAgICAgICByZWxhdGlvbgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aG9zdF9jb21wYXRpYmxlX2phdmFfdGVzdCgKICAgIG5hbWUgPSAidGVzdC10eXBlLWhpbnRlciIsCiAgICBzcmNzID0gWyJUeXBlSGludGVyVGVzdC5qYXZhIl0sCiAgICB0ZXN0X2NsYXNzID0gImdyYWtuLmNvcmUubG9naWMuVHlwZUhpbnRlclRlc3QiLAogICAgbmF0aXZlX2xpYnJhcmllc19kZXBzID0gWwogICAgICAgICIvL3JvY2tzOnJvY2tzIiwKICAgICAgICAiLy86Z3Jha24iLAogICAgICAgICIvL2NvbmNlcHQ6Y29uY2VwdCIsCiAgICAgICAgIi8vbG9naWM6bG9naWMiLAogICAgICAgICIvL3BhdHRlcm46cGF0dGVybiIsCiAgICBdLAogICAgZGVwcyA9IFsKICAgICAgICAjIEludGVybmFsIGRlcGVuZGVuY2llcwogICAgICAgICIvL3Rlc3QvaW50ZWdyYXRpb24vdXRpbDp1dGlsIiwKICAgICAgICAiLy9jb21tb246Y29tbW9uIiwKCiAgICAgICAgIyBFeHRlcm5hbCBkZXBlbmRlbmNpZXMgZnJvbSBHcmFrbiBMYWJzCiAgICAgICAgIkBncmFrbmxhYnNfZ3JhcWwvL2phdmEvcXVlcnk6cXVlcnkiLAogICAgICAgICJAZ3Jha25sYWJzX2dyYXFsLy9qYXZhOmdyYXFsIiwKICAgICAgICAiQGdyYWtubGFic19jb21tb24vLzpjb21tb24iLAogICAgXSwKICAgIGRhdGEgPSBbIjpiYXNpYy1zY2hlbWEuZ3FsIl0sCikKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9jb25jZXB0OmNvbmNlcHQiLAogICAgICAgICIvL3BhdHRlcm46cGF0dGVybiIsCiAgICAgICAgIi8vbG9naWM6bG9naWMiLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZ3Jha24uCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAicmVhc29uZXIvKiIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -476,9 +478,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>string</last-search>
+      <last-search>over</last-search>
       <last-offset />
-      <last-pattern>string</last-pattern>
+      <last-pattern>over</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
