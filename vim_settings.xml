@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>getSub</entry>
-        <entry encoding="base64">XDxuZXh0XD4=</entry>
         <entry>getSuperTypes</entry>
         <entry>Thing</entry>
         <entry>pattern</entry>
@@ -27,6 +25,8 @@
         <entry>bytes</entry>
         <entry encoding="base64">XDxieXRlc1RvTG9uZ1w+</entry>
         <entry encoding="base64">XDxzbmFwc2hvdFw+</entry>
+        <entry encoding="base64">XDxieXRlc0hhdmVQcmVmaXhcPg==</entry>
+        <entry encoding="base64">XDx1bnNpZ25lZFNob3J0VG9CeXRlc1w+</entry>
       </history-search>
       <history-cmd>
         <entry>wb</entry>
@@ -210,7 +210,6 @@
         <mark key="^" line="259" column="34" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" timestamp="1608130589736">
-        <mark key="'" line="60" column="0" />
         <mark key="^" line="24" column="19" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" timestamp="1608127611727">
@@ -218,7 +217,6 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="17" column="0" />
         <mark key="." line="112" column="0" />
-        <mark key="^" line="144" column="24" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/GraknServer.java" timestamp="1608128947240">
         <mark key="'" line="286" column="0" />
@@ -230,12 +228,10 @@
       <file name="$USER_HOME$/GraknLabs/grakn/graph/util/StatisticsBytes.java" timestamp="1608125110111">
         <mark key="'" line="24" column="29" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/proto/migrator.proto" timestamp="1608112727309">
-        <mark key="'" line="59" column="12" />
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="0" />
-        <mark key="^" line="49" column="17" />
-        <mark key="." line="26" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/iid/VertexIID.java" timestamp="1608132791935">
+        <mark key="[" line="385" column="0" />
+        <mark key="]" line="385" column="0" />
+        <mark key="." line="385" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" timestamp="1608129565564">
         <mark key="'" line="76" column="0" />
@@ -253,8 +249,12 @@
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/logic/LogicManagerHandler.java" timestamp="1608118575350">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/vertex/TypeVertex.java" timestamp="1608053831837">
-        <mark key="'" line="78" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" timestamp="1608132305529">
+        <mark key="'" line="225" column="0" />
+        <mark key="[" line="33" column="20" />
+        <mark key="]" line="33" column="44" />
+        <mark key="." line="33" column="43" />
+        <mark key="^" line="33" column="44" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/logic/LogicManager.java" timestamp="1608118673604">
         <mark key="'" line="46" column="26" />
@@ -280,11 +280,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="1" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/logic/LogicManagerHandler.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/logic/LogicManagerHandler.java" />
-      <jump line="60" column="98" filename="$USER_HOME$/GraknLabs/grakn/logic/LogicManager.java" />
-      <jump line="68" column="4" filename="$USER_HOME$/GraknLabs/grakn/logic/LogicManager.java" />
-      <jump line="149" column="0" filename="$USER_HOME$/GraknLabs/grakn/logic/LogicManager.java" />
       <jump line="46" column="26" filename="$USER_HOME$/GraknLabs/grakn/logic/LogicManager.java" />
       <jump line="24" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
       <jump line="96" column="74" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
@@ -380,12 +375,17 @@
       <jump line="76" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
       <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/MigratorRPCService.java" />
       <jump line="110" column="0" filename="$USER_HOME$/GraknLabs/graql/grammar/Graql.g4" />
+      <jump line="62" column="26" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
+      <jump line="70" column="25" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
+      <jump line="187" column="20" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
+      <jump line="33" column="19" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
+      <jump line="225" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>.asStart()</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="+" type="4">
         <text>attribute.getOwners(getType())</text>
@@ -397,7 +397,7 @@
         <text>.asStart()</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzbmFwc2hvdFw+</text>
+        <text encoding="base64">XDx1bnNpZ25lZFNob3J0VG9CeXRlc1w+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -408,7 +408,7 @@
         <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKgogKi8KCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -437,28 +437,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHZhbHVlLgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmluYWwgbG9uZyBzdGFydCA9IFN5c3RlbS5uYW5vVGltZSgpOwoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gdHlwZS5nZXRTdWJ0eXBlcygpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmaW5hbCBieXRlW10gdmFsID0gOwogICAgICAgICAgICAgICAgICAgIHJldHVybiB2YWwgPT0gbnVsbCA/IDAgOiBieXRlc1RvTG9uZyh2YWwpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiB2YWwgPT0gbnVsbCA/IDAgOiBieXRlc1RvTG9uZyh2YWwpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmluYWwgbG9uZyBzdGFydCA9IFN5c3RlbS5uYW5vVGltZSgpOwoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZpbmFsIGJ5dGVbXSB2YWwgPSAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -467,9 +467,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzbmFwc2hvdFw+</last-search>
+      <last-search encoding="base64">XDx1bnNpZ25lZFNob3J0VG9CeXRlc1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzbmFwc2hvdFw+</last-pattern>
+      <last-pattern encoding="base64">XDx1bnNpZ25lZFNob3J0VG9CeXRlc1w+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
