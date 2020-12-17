@@ -7,17 +7,9 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxhbmFseXNpc1w+</entry>
-        <entry>analysis sub</entry>
-        <entry>regex</entry>
-        <entry>assertEquals</entry>
-        <entry encoding="base64">XDxyb290UmVsYXRpb25UeXBlXD4=</entry>
-        <entry encoding="base64">XDxhc3NlcnRFcXVhbHNcPg==</entry>
         <entry>getHas</entry>
-        <entry>plays</entry>
         <entry>Direct</entry>
         <entry>Override</entry>
-        <entry>getRelates</entry>
         <entry>overr</entry>
         <entry>declared</entry>
         <entry encoding="base64">XDxnZXRQbGF5c092ZXJyaWRlXD4=</entry>
@@ -27,6 +19,14 @@
         <entry>getOwns</entry>
         <entry encoding="base64">XDxsaXN0XD4=</entry>
         <entry>OWNS</entry>
+        <entry>as</entry>
+        <entry encoding="base64">YXMg</entry>
+        <entry encoding="base64">IGFz</entry>
+        <entry>plays</entry>
+        <entry>setRel</entry>
+        <entry>getRelates</entry>
+        <entry>getRelatesExplicit</entry>
+        <entry encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -227,18 +227,22 @@
         <mark key="]" line="93" column="0" />
         <mark key="." line="93" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" timestamp="1608205728228">
-        <mark key="'" line="287" column="32" />
-        <mark key="[" line="348" column="68" />
-        <mark key="]" line="349" column="16" />
-        <mark key="^" line="349" column="16" />
-        <mark key="." line="349" column="15" />
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" timestamp="1608207125307">
+        <mark key="'" line="342" column="83" />
+        <mark key="[" line="285" column="0" />
+        <mark key="]" line="285" column="0" />
+        <mark key="^" line="284" column="88" />
+        <mark key="." line="285" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/Type.java" timestamp="1608207404979">
+        <mark key="'" line="58" column="0" />
+        <mark key="[" line="45" column="38" />
+        <mark key="]" line="45" column="46" />
+        <mark key="." line="45" column="45" />
+        <mark key="^" line="45" column="46" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" timestamp="1608201706174">
         <mark key="'" line="187" column="8" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/BasicTest.java" timestamp="1608198558464">
-        <mark key="'" line="51" column="31" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" timestamp="1608202922200">
         <mark key="'" line="134" column="4" />
@@ -253,12 +257,12 @@
         <mark key="]" line="16" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/RelationType.java" timestamp="1608202447504">
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/RelationType.java" timestamp="1608207447453">
         <mark key="'" line="55" column="0" />
-        <mark key="[" line="57" column="0" />
-        <mark key="]" line="57" column="50" />
-        <mark key="." line="57" column="30" />
-        <mark key="^" line="57" column="31" />
+        <mark key="[" line="55" column="23" />
+        <mark key="]" line="55" column="31" />
+        <mark key="." line="55" column="30" />
+        <mark key="^" line="55" column="31" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/migrator/BUILD" timestamp="1608201371608">
         <mark key="'" line="0" column="0" />
@@ -270,17 +274,17 @@
       <file name="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/TypeEdgeImpl.java" timestamp="1608203272557">
         <mark key="'" line="100" column="19" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/ThingType.java" timestamp="1608204271471">
-        <mark key="[" line="71" column="33" />
-        <mark key="]" line="71" column="35" />
-        <mark key="." line="71" column="34" />
-        <mark key="^" line="71" column="35" />
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/ThingType.java" timestamp="1608207434847">
+        <mark key="[" line="81" column="39" />
+        <mark key="]" line="81" column="47" />
+        <mark key="." line="81" column="46" />
+        <mark key="^" line="81" column="47" />
       </file>
-      <file name="/fragment.java" timestamp="1608200287388">
+      <file name="/fragment.java" timestamp="1608206453319">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="68" />
-        <mark key="^" line="0" column="68" />
-        <mark key="." line="0" column="67" />
+        <mark key="]" line="0" column="45" />
+        <mark key="^" line="0" column="45" />
+        <mark key="." line="0" column="44" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Exporter.java" timestamp="1608200319081">
         <mark key="'" line="180" column="40" />
@@ -289,21 +293,15 @@
         <mark key="^" line="195" column="43" />
         <mark key="." line="195" column="42" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" timestamp="1608205835503">
-        <mark key="'" line="189" column="95" />
-        <mark key="[" line="189" column="73" />
-        <mark key="]" line="190" column="16" />
-        <mark key="." line="190" column="15" />
-        <mark key="^" line="190" column="16" />
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" timestamp="1608207513659">
+        <mark key="'" line="226" column="24" />
+        <mark key="[" line="188" column="39" />
+        <mark key="]" line="189" column="20" />
+        <mark key="." line="189" column="19" />
+        <mark key="^" line="189" column="20" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="32" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
-      <jump line="66" column="32" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
-      <jump line="71" column="32" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
-      <jump line="99" column="33" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
-      <jump line="113" column="32" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
-      <jump line="126" column="30" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
       <jump line="138" column="44" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
       <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn/concept/type/RelationType.java" />
       <jump line="187" column="8" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
@@ -398,12 +396,18 @@
       <jump line="151" column="87" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
       <jump line="152" column="24" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
       <jump line="159" column="17" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
+      <jump line="128" column="4" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
+      <jump line="344" column="83" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" />
+      <jump line="152" column="0" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
+      <jump line="147" column="0" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
+      <jump line="178" column="32" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
+      <jump line="226" column="24" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zb3J0ZWQoQ29tcGFyYXRvci5jb21wYXJpbmcoeCAtPiB4LmdldExhYmVsKCkubmFtZSgpKSkK</text>
+      <register name="&quot;" type="4">
+        <text>Direct</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -415,10 +419,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">LnNvcnRlZChDb21wYXJhdG9yLmNvbXBhcmluZyh4IC0+IHguZ2V0TGFiZWwoKS5uYW1lKCkpKQ==</text>
+        <text>Direct</text>
       </register>
       <register name="/" type="4">
-        <text>OWNS</text>
+        <text encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -426,10 +430,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC5zb3J0ZWQoQ29tcGFyYXRvci5jb21wYXJpbmcoeCAtPiB4LmdldExhYmVsKCkubmFtZSgpKSkK</text>
+        <text encoding="base64">ICAgICAgICBmaW5hbCBUeXBlVmVydGV4IHJvbGVWZXJ0ZXggPSBncmFwaE1nci5zY2hlbWEoKS5nZXRUeXBlKHJvbGVUeXBlLmdldExhYmVsKCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBidWlsZGVyLmFwcGVuZChDT01NQV9ORVdMSU5FX0lOREVOVCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hcHBlbmQoU3RyaW5nLmZvcm1hdCgicGxheXMgJXMiLCB0aGluZ1R5cGUuZ2V0TGFiZWwoKS5zY29wZWROYW1lKCkpKTsK</text>
+        <text encoding="base64">ICAgICAgICBmaW5hbCBUeXBlVmVydGV4IGF0dHJWZXJ0ZXggPSBsaW5rKGxpc3QodmVydGV4Lm91dHMoKS5lZGdlKE9XTlNfS0VZKS50bygpLCB2ZXJ0ZXgub3V0cygpLmVkZ2UoT1dOUykudG8oKSkpCiAgICAgICAgICAgICAgICAuZmlsdGVyKHYgLT4gdi5sYWJlbCgpLmVxdWFscyhhdHRyaWJ1dGVUeXBlLmdldExhYmVsKCkubmFtZSgpKSkuZmlyc3RPck51bGwoKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -443,28 +447,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB7Cg==</text>
+        <text encoding="base64">ICAgICAgICBmaW5hbCBUeXBlVmVydGV4IHJvbGVWZXJ0ZXggPSB2ZXJ0ZXgub3V0cygpLmVkZ2UoUExBWVMpLnRvKCkKICAgICAgICAgICAgICAgIC5maWx0ZXIodiAtPiB2LnNjb3BlZExhYmVsKCkuZXF1YWxzKHJvbGVUeXBlLmdldExhYmVsKCkuc2NvcGVkTmFtZSgpKSkuZmlyc3RPck51bGwoKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhdHRyaWJ1dGVUeXBlcy5zdHJlYW0oKS5maWx0ZXIoeCAtPiAha2V5cy5jb250YWlucyh4LmdldExhYmVsKCkubmFtZSgpKSkuc29ydGVkKCkKICAgICAgICAgICAgICAgIC5mb3JFYWNoKGF0dHJpYnV0ZVR5cGUgLT4gYnVpbGRlcgogICAgICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKENPTU1BX05FV0xJTkVfSU5ERU5UKQogICAgICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKFN0cmluZy5mb3JtYXQoIm93bnMgJXMiLCBhdHRyaWJ1dGVUeXBlLmdldExhYmVsKCkubmFtZSgpKSkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJvbGVUeXBlLmdldExhYmVsKCkuc2NvcGUoKS5nZXQoKSk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiIEBrZXkiKTsK</text>
+        <text encoding="base64">ICAgICAgICBmaW5hbCBUeXBlVmVydGV4IHJvbGVWZXJ0ZXggPSB2ZXJ0ZXgub3V0cygpLmVkZ2UoUkVMQVRFUykudG8oKQogICAgICAgICAgICAgICAgLmZpbHRlcih2IC0+IHYubGFiZWwoKS5lcXVhbHMocm9sZUxhYmVsKSkuZmlyc3RPck51bGwoKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBidWlsZGVyLmFwcGVuZChDT01NQV9ORVdMSU5FX0lOREVOVCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hcHBlbmQoU3RyaW5nLmZvcm1hdCgicGxheXMgJXMiLCB0aGluZ1R5cGUuZ2V0TGFiZWwoKS5zY29wZWROYW1lKCkpKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICB7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBhdHRyaWJ1dGVUeXBlcy5zdHJlYW0oKS5maWx0ZXIoeCAtPiAha2V5cy5jb250YWlucyh4LmdldExhYmVsKCkubmFtZSgpKSkuc29ydGVkKCkKICAgICAgICAgICAgICAgIC5mb3JFYWNoKGF0dHJpYnV0ZVR5cGUgLT4gYnVpbGRlcgogICAgICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKENPTU1BX05FV0xJTkVfSU5ERU5UKQogICAgICAgICAgICAgICAgICAgICAgICAuYXBwZW5kKFN0cmluZy5mb3JtYXQoIm93bnMgJXMiLCBhdHRyaWJ1dGVUeXBlLmdldExhYmVsKCkubmFtZSgpKSkpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiAoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiIEBrZXkiKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICByZXR1cm4gdmVydGV4Lm91dHMoKS5lZGdlKEVuY29kaW5nLkVkZ2UuVHlwZS5QTEFZUykKICAgICAgICAgICAgICAgIC5tYXAoKQogICAgICAgICAgICAgICAgLnRvKCkKICAgICAgICAgICAgICAgIC5maWx0ZXIodiAtPiB2LnNjb3BlZExhYmVsKCkuZXF1YWxzKHJvbGVUeXBlLmdldExhYmVsKCkuc2NvcGVkTmFtZSgpKSkKICAgICAgICAgICAgICAgIC5tYXAodiAtPiBSb2xlVHlwZUltcGwub2YoZ3JhcGhNZ3IsIHYpKQogICAgICAgICAgICAgICAgLmZpcnN0T3JOdWxsKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -473,9 +477,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>OWNS</last-search>
+      <last-search encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</last-search>
       <last-offset />
-      <last-pattern>OWNS</last-pattern>
+      <last-pattern encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
