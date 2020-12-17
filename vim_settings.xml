@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>getHas</entry>
-        <entry>Direct</entry>
         <entry>Override</entry>
         <entry>overr</entry>
         <entry>declared</entry>
@@ -27,6 +25,8 @@
         <entry>getRelates</entry>
         <entry>getRelatesExplicit</entry>
         <entry encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</entry>
+        <entry>timeout</entry>
+        <entry encoding="base64">XDxzZXRJZGxlVGltZW91dFw+</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -255,6 +255,9 @@
       <file name="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" timestamp="1608201706174">
         <mark key="'" line="187" column="8" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1608216717145">
+        <mark key="'" line="103" column="18" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/TypeEdgeImpl.java" timestamp="1608203272557">
         <mark key="'" line="100" column="19" />
       </file>
@@ -305,9 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="138" column="44" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Schema.java" />
-      <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn/concept/type/RelationType.java" />
-      <jump line="187" column="8" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
       <jump line="185" column="4" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" />
       <jump line="160" column="58" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" />
       <jump line="187" column="92" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/ThingTypeImpl.java" />
@@ -405,6 +405,9 @@
       <jump line="147" column="0" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
       <jump line="178" column="32" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
       <jump line="226" column="24" filename="$USER_HOME$/GraknLabs/grakn/concept/type/impl/RelationTypeImpl.java" />
+      <jump line="53" column="8" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" />
+      <jump line="93" column="17" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" />
+      <jump line="103" column="18" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -425,7 +428,7 @@
         <text>Direct</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</text>
+        <text encoding="base64">XDxzZXRJZGxlVGltZW91dFw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -480,9 +483,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</last-search>
+      <last-search encoding="base64">XDxzZXRJZGxlVGltZW91dFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxnZXRSZWxhdGVzRXhwbGljaXRcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxzZXRJZGxlVGltZW91dFw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
