@@ -248,11 +248,11 @@
         <mark key="^" line="70" column="95" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" timestamp="1608296188320">
-        <mark key="'" line="123" column="0" />
-        <mark key="[" line="96" column="52" />
-        <mark key="]" line="96" column="53" />
-        <mark key="." line="96" column="52" />
-        <mark key="^" line="96" column="53" />
+        <mark key="'" line="148" column="0" />
+        <mark key="[" line="121" column="52" />
+        <mark key="]" line="121" column="53" />
+        <mark key="." line="121" column="52" />
+        <mark key="^" line="121" column="53" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/.circleci/config.yml" timestamp="1608297788399">
         <mark key="'" line="0" column="0" />
@@ -268,17 +268,20 @@
         <mark key="]" line="46" column="0" />
         <mark key="." line="46" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" timestamp="1608298372963">
-        <mark key="'" line="51" column="42" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="0" column="0" />
-        <mark key="^" line="68" column="50" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" timestamp="1608302306122">
+        <mark key="'" line="64" column="31" />
+        <mark key="[" line="68" column="66" />
+        <mark key="]" line="68" column="75" />
+        <mark key="." line="68" column="74" />
+        <mark key="^" line="68" column="75" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/WORKSPACE" timestamp="1608298097920">
         <mark key="[" line="102" column="0" />
         <mark key="]" line="102" column="0" />
         <mark key="." line="102" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/config/config_small.yml" timestamp="1608301949233">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/artifacts.bzl" timestamp="1608298055812">
         <mark key="[" line="21" column="0" />
@@ -287,9 +290,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="114" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema2.gql" />
-      <jump line="115" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema2.gql" />
-      <jump line="122" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema2.gql" />
       <jump line="111" column="20" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema2.gql" />
       <jump line="107" column="18" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema2.gql" />
       <jump line="40" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema2.gql" />
@@ -352,7 +352,6 @@
       <jump line="76" column="16" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
       <jump line="78" column="17" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
       <jump line="68" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
-      <jump line="70" column="16" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
       <jump line="72" column="17" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
       <jump line="69" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" />
       <jump line="82" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" />
@@ -387,12 +386,16 @@
       <jump line="0" column="1" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest3.java" />
       <jump line="49" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="33" column="42" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
+      <jump line="42" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_small.yml" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_small.yml" />
+      <jump line="70" column="17" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
+      <jump line="64" column="31" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKgogKi8KCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJpbnNlcnRcbiIgKwogICAgICAgICAgICAgICAgIiR0cmFuc2FjdGlvbiAoc2VsbGVyOiAkYy1zZWxsZXIsIGJ1eWVyOiAkYy1idXllciwgbWVyY2hhbmRpc2U6ICRwcm9kdWN0KSBpc2EgdHJhbnNhY3Rpb24sIGhhcyB2YWx1ZSA4NDYzLjU0Nzc3LCBoYXMgcHJvZHVjdC1xdWFudGl0eSA4MCwgaGFzIGlzLXRheGFibGUgdHJ1ZTtcbiIgKwogICAgICAgICAgICAgICAgIiRsb2NhdGVzIChsb2NhdGlvbjogJGNvdW50cnksIGxvY2F0ZWQ6ICR0cmFuc2FjdGlvbikgaXNhIGxvY2F0ZXM7XG4iOwo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -418,7 +421,7 @@
         <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKgogKi8KCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Pj4+Pj4+PiAzZmI2OWRkLi4uIHdpcAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJpbnNlcnRcbiIgKwogICAgICAgICAgICAgICAgIiR0cmFuc2FjdGlvbiAoc2VsbGVyOiAkYy1zZWxsZXIsIGJ1eWVyOiAkYy1idXllciwgbWVyY2hhbmRpc2U6ICRwcm9kdWN0KSBpc2EgdHJhbnNhY3Rpb24sIGhhcyB2YWx1ZSA4NDYzLjU0Nzc3LCBoYXMgcHJvZHVjdC1xdWFudGl0eSA4MCwgaGFzIGlzLXRheGFibGUgdHJ1ZTtcbiIgKwogICAgICAgICAgICAgICAgIiRsb2NhdGVzIChsb2NhdGlvbjogJGNvdW50cnksIGxvY2F0ZWQ6ICR0cmFuc2FjdGlvbikgaXNhIGxvY2F0ZXM7XG4iOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -432,28 +435,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIExvYWQgQGdyYWtubGFicyBkZXBlbmRlbmNpZXMgIwojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKIyBMb2FkIEBncmFrbmxhYnNfY29tbW9uIChmcm9tIEBncmFrbmxhYnNfY2xpZW50X2phdmEpICMKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwpsb2FkKCJAZ3Jha25sYWJzX2NsaWVudF9qYXZhLy9kZXBlbmRlbmNpZXMvZ3Jha25sYWJzOnJlcG9zaXRvcmllcy5iemwiLCAiZ3Jha25sYWJzX2NvbW1vbiIpCmdyYWtubGFic19jb21tb24oKQoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIExvYWQgQGdyYWtubGFic19ncmFxbCAoZnJvbSBAZ3Jha25sYWJzX2NsaWVudF9qYXZhKSAjCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKbG9hZCgiQGdyYWtubGFic19jbGllbnRfamF2YS8vZGVwZW5kZW5jaWVzL2dyYWtubGFiczpyZXBvc2l0b3JpZXMuYnpsIiwgImdyYWtubGFic19ncmFxbCIpCmdyYWtubGFic19ncmFxbCgpCmxvYWQoIkBncmFrbmxhYnNfZ3JhcWwvL2RlcGVuZGVuY2llcy9tYXZlbjphcnRpZmFjdHMuYnpsIiwgZ3Jha25sYWJzX2dyYXFsX2FydGlmYWN0cyA9ICJhcnRpZmFjdHMiKQoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIExvYWQgQGdyYWtubGFic19wcm90b2NvbCAoZnJvbSBAZ3Jha25sYWJzX2NsaWVudF9qYXZhKSAjCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKbG9hZCgiQGdyYWtubGFic19jbGllbnRfamF2YS8vZGVwZW5kZW5jaWVzL2dyYWtubGFiczpyZXBvc2l0b3JpZXMuYnpsIiwgImdyYWtubGFic19wcm90b2NvbCIpCmdyYWtubGFic19wcm90b2NvbCgpCgojIExvYWQgYXJ0aWZhY3QKbG9hZCgiLy9kZXBlbmRlbmNpZXMvZ3Jha25sYWJzOmFydGlmYWN0cy5iemwiLCAiZ3Jha25sYWJzX2dyYWtuX2NvcmVfYXJ0aWZhY3QiKQpncmFrbmxhYnNfZ3Jha25fY29yZV9hcnRpZmFjdCgpCgojIExvYWQgbWF2ZW4KbG9hZCgiLy9kZXBlbmRlbmNpZXMvbWF2ZW46YXJ0aWZhY3RzLmJ6bCIsIGdyYWtubGFic19zaW11bGF0aW9uX2FydGlmYWN0cyA9ICJhcnRpZmFjdHMiKQpsb2FkKCJAZ3Jha25sYWJzX2NsaWVudF9qYXZhLy9kZXBlbmRlbmNpZXMvbWF2ZW46YXJ0aWZhY3RzLmJ6bCIsIGdyYWtubGFic19jbGllbnRfamF2YV9hcnRpZmFjdHMgPSAiYXJ0aWZhY3RzIikKbG9hZCgiQGdyYWtubGFic19ncmFxbC8vZGVwZW5kZW5jaWVzL21hdmVuOmFydGlmYWN0cy5iemwiLCBncmFrbmxhYnNfZ3JhcWxfYXJ0aWZhY3RzID0gImFydGlmYWN0cyIpCmxvYWQoIkBncmFrbmxhYnNfcHJvdG9jb2wvL2RlcGVuZGVuY2llcy9tYXZlbjphcnRpZmFjdHMuYnpsIiwgZ3Jha25sYWJzX3Byb3RvY29sX2FydGlmYWN0cyA9ICJhcnRpZmFjdHMiKQoKIyBMb2FkIG5lbzRqCmxvYWQoIkBydWxlc19qdm1fZXh0ZXJuYWwvLzpkZWZzLmJ6bCIsIHJqZV9tYXZlbl9pbnN0YWxsID0gIm1hdmVuX2luc3RhbGwiKQpyamVfbWF2ZW5faW5zdGFsbCgKICAgIG5hbWUgPSAibmVvNGoiLAogICAgYXJ0aWZhY3RzID0gWyJvcmcubmVvNGouZHJpdmVyOm5lbzRqLWphdmEtZHJpdmVyOjQuMS4wIl0sCiAgICByZXBvc2l0b3JpZXMgPSBbCiAgICAgICAgImh0dHBzOi8vcmVwbzEubWF2ZW4ub3JnL21hdmVuMiIsCiAgICBdLAogICAgc3RyaWN0X3Zpc2liaWxpdHkgPSBUcnVlLAogICAgdmVyc2lvbl9jb25mbGljdF9wb2xpY3kgPSAicGlubmVkIgopCj09PT09PT0K</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Pj4+Pj4+PiAzZmI2OWRkLi4uIHdpcAo=</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">PDw8PDw8PCBIRUFECgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIExvYWQgQGdyYWtubGFicyBkZXBlbmRlbmNpZXMgIwojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKIyBMb2FkIEBncmFrbmxhYnNfY29tbW9uIChmcm9tIEBncmFrbmxhYnNfY2xpZW50X2phdmEpICMKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwpsb2FkKCJAZ3Jha25sYWJzX2NsaWVudF9qYXZhLy9kZXBlbmRlbmNpZXMvZ3Jha25sYWJzOnJlcG9zaXRvcmllcy5iemwiLCAiZ3Jha25sYWJzX2NvbW1vbiIpCmdyYWtubGFic19jb21tb24oKQoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIExvYWQgQGdyYWtubGFic19ncmFxbCAoZnJvbSBAZ3Jha25sYWJzX2NsaWVudF9qYXZhKSAjCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKbG9hZCgiQGdyYWtubGFic19jbGllbnRfamF2YS8vZGVwZW5kZW5jaWVzL2dyYWtubGFiczpyZXBvc2l0b3JpZXMuYnpsIiwgImdyYWtubGFic19ncmFxbCIpCmdyYWtubGFic19ncmFxbCgpCmxvYWQoIkBncmFrbmxhYnNfZ3JhcWwvL2RlcGVuZGVuY2llcy9tYXZlbjphcnRpZmFjdHMuYnpsIiwgZ3Jha25sYWJzX2dyYXFsX2FydGlmYWN0cyA9ICJhcnRpZmFjdHMiKQoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIExvYWQgQGdyYWtubGFic19wcm90b2NvbCAoZnJvbSBAZ3Jha25sYWJzX2NsaWVudF9qYXZhKSAjCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKbG9hZCgiQGdyYWtubGFic19jbGllbnRfamF2YS8vZGVwZW5kZW5jaWVzL2dyYWtubGFiczpyZXBvc2l0b3JpZXMuYnpsIiwgImdyYWtubGFic19wcm90b2NvbCIpCmdyYWtubGFic19wcm90b2NvbCgpCgojIExvYWQgYXJ0aWZhY3QKbG9hZCgiLy9kZXBlbmRlbmNpZXMvZ3Jha25sYWJzOmFydGlmYWN0cy5iemwiLCAiZ3Jha25sYWJzX2dyYWtuX2NvcmVfYXJ0aWZhY3QiKQpncmFrbmxhYnNfZ3Jha25fY29yZV9hcnRpZmFjdCgpCgojIExvYWQgbWF2ZW4KbG9hZCgiLy9kZXBlbmRlbmNpZXMvbWF2ZW46YXJ0aWZhY3RzLmJ6bCIsIGdyYWtubGFic19zaW11bGF0aW9uX2FydGlmYWN0cyA9ICJhcnRpZmFjdHMiKQpsb2FkKCJAZ3Jha25sYWJzX2NsaWVudF9qYXZhLy9kZXBlbmRlbmNpZXMvbWF2ZW46YXJ0aWZhY3RzLmJ6bCIsIGdyYWtubGFic19jbGllbnRfamF2YV9hcnRpZmFjdHMgPSAiYXJ0aWZhY3RzIikKbG9hZCgiQGdyYWtubGFic19ncmFxbC8vZGVwZW5kZW5jaWVzL21hdmVuOmFydGlmYWN0cy5iemwiLCBncmFrbmxhYnNfZ3JhcWxfYXJ0aWZhY3RzID0gImFydGlmYWN0cyIpCmxvYWQoIkBncmFrbmxhYnNfcHJvdG9jb2wvL2RlcGVuZGVuY2llcy9tYXZlbjphcnRpZmFjdHMuYnpsIiwgZ3Jha25sYWJzX3Byb3RvY29sX2FydGlmYWN0cyA9ICJhcnRpZmFjdHMiKQoKIyBMb2FkIG5lbzRqCmxvYWQoIkBydWxlc19qdm1fZXh0ZXJuYWwvLzpkZWZzLmJ6bCIsIHJqZV9tYXZlbl9pbnN0YWxsID0gIm1hdmVuX2luc3RhbGwiKQpyamVfbWF2ZW5faW5zdGFsbCgKICAgIG5hbWUgPSAibmVvNGoiLAogICAgYXJ0aWZhY3RzID0gWyJvcmcubmVvNGouZHJpdmVyOm5lbzRqLWphdmEtZHJpdmVyOjQuMS4wIl0sCiAgICByZXBvc2l0b3JpZXMgPSBbCiAgICAgICAgImh0dHBzOi8vcmVwbzEubWF2ZW4ub3JnL21hdmVuMiIsCiAgICBdLAogICAgc3RyaWN0X3Zpc2liaWxpdHkgPSBUcnVlLAogICAgdmVyc2lvbl9jb25mbGljdF9wb2xpY3kgPSAicGlubmVkIgopCj09PT09PT0K</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICB0YXJnZXRzID0gWyI6c2ltdWxhdGlvbi1saWIiXSwKICAgIGxpY2Vuc2VfdHlwZSA9ICJhZ3BsIgopCj09PT09PT0K</text>
+        <text encoding="base64">Pj4+Pj4+PiAzZmI2OWRkLi4uIHdpcAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Pj4+Pj4+PiAyNGI3MzVmLi4uIENoZXJyeSBwaWNrZWQgZTg4N2IwNWVhMzc2NjQ5MDgxNDdjYmEyMDFmZDg1OTY0NWZkYzhmNQo=</text>
+        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICB0YXJnZXRzID0gWyI6c2ltdWxhdGlvbi1saWIiXSwKICAgIGxpY2Vuc2VfdHlwZSA9ICJhZ3BsIgopCj09PT09PT0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECmxvYWQoIkBncmFrbmxhYnNfYmF6ZWxfZGlzdHJpYnV0aW9uLy9hcnRpZmFjdDpydWxlcy5iemwiLCAiYXJ0aWZhY3RfZmlsZSIpCmxvYWQoIkBncmFrbmxhYnNfZGVwZW5kZW5jaWVzLy9kaXN0cmlidXRpb246ZGVwbG95bWVudC5iemwiLCAiZGVwbG95bWVudF9wcml2YXRlIikKPT09PT09PQo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECmxvYWQoIkBncmFrbmxhYnNfYmF6ZWxfZGlzdHJpYnV0aW9uLy9hcnRpZmFjdDpydWxlcy5iemwiLCAiYXJ0aWZhY3RfZmlsZSIpCmxvYWQoIkBncmFrbmxhYnNfZGVwZW5kZW5jaWVzLy9kaXN0cmlidXRpb246ZGVwbG95bWVudC5iemwiLCAiZGVwbG95bWVudF9wcml2YXRlIikK</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Pj4+Pj4+PiAyNGI3MzVmLi4uIENoZXJyeSBwaWNrZWQgZTg4N2IwNWVhMzc2NjQ5MDgxNDdjYmEyMDFmZDg1OTY0NWZkYzhmNQo=</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">PDw8PDw8PCBIRUFECmxvYWQoIkBncmFrbmxhYnNfYmF6ZWxfZGlzdHJpYnV0aW9uLy9hcnRpZmFjdDpydWxlcy5iemwiLCAiYXJ0aWZhY3RfZmlsZSIpCmxvYWQoIkBncmFrbmxhYnNfZGVwZW5kZW5jaWVzLy9kaXN0cmlidXRpb246ZGVwbG95bWVudC5iemwiLCAiZGVwbG95bWVudF9wcml2YXRlIikKPT09PT09PQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">PDw8PDw8PCBIRUFECmxvYWQoIkBncmFrbmxhYnNfYmF6ZWxfZGlzdHJpYnV0aW9uLy9hcnRpZmFjdDpydWxlcy5iemwiLCAiYXJ0aWZhY3RfZmlsZSIpCmxvYWQoIkBncmFrbmxhYnNfZGVwZW5kZW5jaWVzLy9kaXN0cmlidXRpb246ZGVwbG95bWVudC5iemwiLCAiZGVwbG95bWVudF9wcml2YXRlIikK</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICAgICAgY29tbWl0ID0gImRjMDU5MWM1M2ZlMmQzNzUxYjEwNjhiZTA1ODUzMzdhZWZhMjYyZDkiICAjIHN5bmMtbWFya2VyOiBkbyBub3QgcmVtb3ZlIHRoaXMgY29tbWVudCwgdGhpcyBpcyB1c2VkIGZvciBzeW5jLWRlcGVuZGVuY2llcyBieSBAZ3Jha25sYWJzX2dyYWJsX3RyYWNpbmcKPT09PT09PQo=</text>
+        <text encoding="base64">Pj4+Pj4+PiAyNGI3MzVmLi4uIENoZXJyeSBwaWNrZWQgZTg4N2IwNWVhMzc2NjQ5MDgxNDdjYmEyMDFmZDg1OTY0NWZkYzhmNQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
