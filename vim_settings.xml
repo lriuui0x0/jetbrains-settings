@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>locates</entry>
         <entry>location-hier</entry>
         <entry>current</entry>
         <entry>member</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxjb25maWdfdGVzdFw+</entry>
         <entry encoding="base64">XDxSVU5cPg==</entry>
         <entry>update</entry>
+        <entry encoding="base64">XDxpbnNlcnROZXdBZ2VRdWVyeVw+</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -196,6 +196,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/GraknLabs/simulation/neo4j/action/write/Neo4jUpdateAgesOfPeopleInCityAction.java" timestamp="1608315623850" />
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" timestamp="1608316190822">
+        <mark key="'" line="85" column="46" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/BUILD" timestamp="1608298078585">
         <mark key="'" line="2" column="0" />
         <mark key="[" line="87" column="0" />
@@ -223,26 +227,14 @@
         <mark key="]" line="39" column="0" />
         <mark key="." line="39" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1608296256330">
-        <mark key="'" line="53" column="8" />
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" timestamp="1608316184415">
+        <mark key="'" line="100" column="55" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/data/continents.csv" timestamp="1608296953089">
         <mark key="'" line="3" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/data/BUILD" timestamp="1608296876125">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/GraknSimulation.java" timestamp="1608296860558">
-        <mark key="'" line="68" column="126" />
-        <mark key="[" line="70" column="94" />
-        <mark key="]" line="70" column="94" />
-        <mark key="." line="70" column="94" />
-        <mark key="^" line="70" column="95" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/AgeUpdateAgent.java" timestamp="1608313946633">
         <mark key="'" line="49" column="188" />
@@ -256,11 +248,6 @@
         <mark key="]" line="44" column="59" />
         <mark key="." line="44" column="58" />
         <mark key="^" line="44" column="59" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/yaml_tool/GraknYAMLLoader.java" timestamp="1608296927895">
-        <mark key="[" line="46" column="0" />
-        <mark key="]" line="46" column="0" />
-        <mark key="." line="46" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/action/write/UpdateAgesOfPeopleInCityAction.java" timestamp="1608313615416">
         <mark key="'" line="45" column="4" />
@@ -296,15 +283,11 @@
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" timestamp="1608315556754">
+        <mark key="'" line="58" column="20" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
-      <jump line="73" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
-      <jump line="83" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
-      <jump line="95" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
-      <jump line="69" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
-      <jump line="50" column="15" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest3.java" />
-      <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest3.java" />
       <jump line="63" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest3.java" />
       <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest3.java" />
       <jump line="27" column="51" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest7.java" />
@@ -398,6 +381,13 @@
       <jump line="49" column="188" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/AgeUpdateAgent.java" />
       <jump line="43" column="49" filename="$USER_HOME$/GraknLabs/simulation/common/action/write/UpdateAgesOfPeopleInCityAction.java" />
       <jump line="45" column="4" filename="$USER_HOME$/GraknLabs/simulation/common/action/write/UpdateAgesOfPeopleInCityAction.java" />
+      <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
+      <jump line="53" column="96" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
+      <jump line="104" column="30" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
+      <jump line="101" column="28" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
+      <jump line="58" column="20" filename="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" />
+      <jump line="100" column="55" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
+      <jump line="85" column="46" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -418,7 +408,7 @@
         <text>RUN</text>
       </register>
       <register name="/" type="4">
-        <text>update</text>
+        <text encoding="base64">XDxpbnNlcnROZXdBZ2VRdWVyeVw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -473,9 +463,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>update</last-search>
+      <last-search encoding="base64">XDxpbnNlcnROZXdBZ2VRdWVyeVw+</last-search>
       <last-offset />
-      <last-pattern>update</last-pattern>
+      <last-pattern encoding="base64">XDxpbnNlcnROZXdBZ2VRdWVyeVw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
