@@ -203,7 +203,6 @@
         <mark key="]" line="88" column="0" />
         <mark key="." line="88" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/common/data/BUILD" timestamp="1608294712494" />
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/data/schema2.gql" timestamp="1608295260481">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="0" column="0" />
@@ -262,6 +261,12 @@
         <mark key="]" line="18" column="3" />
         <mark key="." line="18" column="2" />
         <mark key="^" line="18" column="3" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" timestamp="1608304337081">
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="45" column="23" />
+        <mark key="." line="44" column="45" />
+        <mark key="^" line="44" column="46" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/yaml_tool/GraknYAMLLoader.java" timestamp="1608296927895">
         <mark key="[" line="46" column="0" />
@@ -399,7 +404,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Z3Jha24uY2xpZW50LmNvbW1vbi5leGNlcHRpb24uR3Jha25DbGllbnRFeGNlcHRpb246IFtRUlkwN10gSW52YWxpZCBRdWVyeSBQYXR0ZXJuOiBUaGUgdmFyaWFibGUgJyRwZXJzb24nIGlzIGJvdGggYSB0eXBlIGFuZCBhIHRoaW5nLiBQbGVhc2UgY2hlY2sgc2VydmVyIGxvZ3MgZm9yIHRoZSBzdGFjayB0cmFjZS4K</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gR3JhcWwubWF0Y2goCiAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKFBFUlNPTikuaXNhKFBFUlNPTikuaGFzKEVNQUlMLCBQRVJTT05fRU1BSUxfRk9SX1FVRVJZKSwKICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoKS5yZWwoR3JhcWwudmFyKCksIEdyYXFsLnZhcigieCIpKQogICAgICAgICAgICApLmdldCgieCIpOwo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -411,7 +416,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>NO</text>
+        <text>PERSON</text>
       </register>
       <register name="/" type="4">
         <text>insert</text>
@@ -422,7 +427,7 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">LyoKICogQ29weXJpZ2h0IChDKSAyMDIwIEdyYWtuIExhYnMKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAqIExpY2Vuc2UsIG9yIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAqIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKgogKi8KCg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gR3JhcWwubWF0Y2goCiAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKFBFUlNPTikuaXNhKFBFUlNPTikuaGFzKEVNQUlMLCBQRVJTT05fRU1BSUxfRk9SX1FVRVJZKSwKICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoKS5yZWwoR3JhcWwudmFyKCksIEdyYXFsLnZhcigieCIpKQogICAgICAgICAgICApLmdldCgieCIpOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICJpbnNlcnRcbiIgKwogICAgICAgICAgICAgICAgIiR0cmFuc2FjdGlvbiAoc2VsbGVyOiAkYy1zZWxsZXIsIGJ1eWVyOiAkYy1idXllciwgbWVyY2hhbmRpc2U6ICRwcm9kdWN0KSBpc2EgdHJhbnNhY3Rpb24sIGhhcyB2YWx1ZSA4NDYzLjU0Nzc3LCBoYXMgcHJvZHVjdC1xdWFudGl0eSA4MCwgaGFzIGlzLXRheGFibGUgdHJ1ZTtcbiIgKwogICAgICAgICAgICAgICAgIiRsb2NhdGVzIChsb2NhdGlvbjogJGNvdW50cnksIGxvY2F0ZWQ6ICR0cmFuc2FjdGlvbikgaXNhIGxvY2F0ZXM7XG4iOwo=</text>
