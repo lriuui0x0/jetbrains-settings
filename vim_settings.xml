@@ -7,16 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjb25maWdfc21hbGxcPg==</entry>
-        <entry>client</entry>
-        <entry>Pair</entry>
-        <entry>birth</entry>
-        <entry>Birth</entry>
-        <entry>birthIn</entry>
-        <entry>marriage</entry>
-        <entry encoding="base64">XDxlbWFpbFw+</entry>
-        <entry>parentship</entry>
-        <entry>itera</entry>
         <entry encoding="base64">XDxzaW11bGF0aW9uXD4=</entry>
         <entry>product</entry>
         <entry>produced</entry>
@@ -27,6 +17,16 @@
         <entry>start</entry>
         <entry encoding="base64">XDxyZXNpZGVuY3lcPg==</entry>
         <entry encoding="base64">XDxhZ2VcPg==</entry>
+        <entry>born-in</entry>
+        <entry>born</entry>
+        <entry encoding="base64">XDxDSVRZXD4=</entry>
+        <entry encoding="base64">XDxMT0NBVEVTXD4=</entry>
+        <entry encoding="base64">XDxMT0NBVElPTl9OQU1FXD4=</entry>
+        <entry>MARRI</entry>
+        <entry encoding="base64">XDxFTUFJTFw+</entry>
+        <entry>loca</entry>
+        <entry>LOCATION_</entry>
+        <entry>initi</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -196,12 +196,13 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" timestamp="1608382814018">
-        <mark key="'" line="78" column="0" />
-        <mark key="[" line="35" column="18" />
-        <mark key="]" line="35" column="24" />
-        <mark key="." line="35" column="23" />
-        <mark key="^" line="35" column="24" />
+      <file name="$USER_HOME$/GraknLabs/grakn/common/exception/GraknException.java" timestamp="1608391230461" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" timestamp="1608391313361">
+        <mark key="'" line="309" column="11" />
+        <mark key="[" line="62" column="42" />
+        <mark key="]" line="62" column="43" />
+        <mark key="." line="62" column="42" />
+        <mark key="^" line="62" column="43" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest3.java" timestamp="1608388999260">
         <mark key="'" line="66" column="0" />
@@ -226,31 +227,27 @@
         <mark key="^" line="37" column="69" />
         <mark key="." line="66" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" timestamp="1608389789093">
-        <mark key="'" line="165" column="11" />
-        <mark key="[" line="154" column="17" />
-        <mark key="]" line="154" column="24" />
-        <mark key="^" line="154" column="24" />
-        <mark key="." line="154" column="23" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" timestamp="1608391940343">
+        <mark key="'" line="166" column="11" />
+        <mark key="[" line="160" column="35" />
+        <mark key="]" line="160" column="35" />
+        <mark key="." line="160" column="35" />
+        <mark key="^" line="160" column="35" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/neo4j/action/Neo4jActionFactory.java" timestamp="1608383357768">
-        <mark key="'" line="90" column="84" />
-        <mark key="[" line="47" column="0" />
-        <mark key="]" line="47" column="0" />
-        <mark key="." line="47" column="0" />
+      <file name="$USER_HOME$/GraknLabs/simulation/common/data/cities.csv" timestamp="1608391858709">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="6" column="17" />
+        <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/read/GraknMarriedCoupleAction.java" timestamp="1608386577705">
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/read/GraknMarriedCoupleAction.java" timestamp="1608391377340">
         <mark key="'" line="62" column="59" />
-        <mark key="[" line="86" column="0" />
-        <mark key="]" line="86" column="0" />
+        <mark key="[" line="63" column="0" />
+        <mark key="]" line="85" column="32" />
         <mark key="." line="86" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" timestamp="1608389638502">
-        <mark key="'" line="100" column="9" />
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="0" />
-        <mark key="^" line="47" column="0" />
-        <mark key="." line="78" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" timestamp="1608392093767">
+        <mark key="]" line="111" column="6" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" timestamp="1608386989530">
         <mark key="'" line="13" column="0" />
@@ -259,17 +256,11 @@
         <mark key="." line="41" column="12" />
         <mark key="^" line="31" column="13" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknTwoHopAction.java" timestamp="1608384578702">
-        <mark key="'" line="37" column="68" />
-        <mark key="[" line="55" column="0" />
-        <mark key="]" line="55" column="0" />
-        <mark key="." line="55" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/GraknActionFactory.java" timestamp="1608383342838">
-        <mark key="'" line="106" column="4" />
-        <mark key="[" line="48" column="0" />
-        <mark key="]" line="48" column="0" />
-        <mark key="." line="48" column="0" />
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/Model.java" timestamp="1608391589059">
+        <mark key="'" line="39" column="32" />
+        <mark key="[" line="105" column="0" />
+        <mark key="]" line="105" column="0" />
+        <mark key="." line="105" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/QueryTest.java" timestamp="1608389012318">
         <mark key="[" line="64" column="63" />
@@ -303,12 +294,11 @@
       <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/ParentshipAgent.java" timestamp="1608387349897">
         <mark key="'" line="88" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" timestamp="1608389697883">
-        <mark key="'" line="62" column="20" />
-        <mark key="[" line="62" column="7" />
-        <mark key="]" line="62" column="7" />
-        <mark key="." line="62" column="6" />
-        <mark key="^" line="62" column="7" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" timestamp="1608392458968">
+        <mark key="[" line="82" column="24" />
+        <mark key="]" line="82" column="25" />
+        <mark key="." line="82" column="24" />
+        <mark key="^" line="82" column="25" />
       </file>
       <file name="/fragment.java" timestamp="1608388352305">
         <mark key="[" line="0" column="0" />
@@ -318,29 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="52" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/yaml_tool/GraknYAMLLoader.java" />
-      <jump line="51" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/yaml_tool/GraknYAMLLoader.java" />
-      <jump line="31" column="48" filename="$USER_HOME$/GraknLabs/simulation/grakn/yaml_tool/GraknYAMLLoader.java" />
-      <jump line="47" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="42" column="46" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="43" column="26" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="45" column="58" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="158" column="0" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="44" column="65" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="78" column="0" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="39" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="36" column="25" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="41" column="46" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="46" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknArbitraryOneHopAction.java" />
-      <jump line="94" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
-      <jump line="95" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
-      <jump line="102" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
-      <jump line="108" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
-      <jump line="103" column="61" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
-      <jump line="106" column="44" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
-      <jump line="92" column="64" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
-      <jump line="20" column="28" filename="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/repositories.bzl" />
-      <jump line="26" column="0" filename="$USER_HOME$/GraknLabs/simulation/WORKSPACE" />
       <jump line="26" column="0" filename="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/repositories.bzl" />
       <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/simulation/common/utils/Pair.java" />
       <jump line="34" column="82" filename="$USER_HOME$/GraknLabs/simulation/common/action/write/InsertTransactionAction.java" />
@@ -382,11 +349,9 @@
       <jump line="13" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
       <jump line="88" column="0" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/ParentshipAgent.java" />
       <jump line="67" column="60" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
-      <jump line="110" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="203" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="40" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
       <jump line="117" column="35" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="44" column="38" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="43" column="92" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
@@ -398,7 +363,6 @@
       <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest3.java" />
       <jump line="60" column="52" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="77" column="38" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
-      <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="88" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="103" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="108" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
@@ -418,27 +382,59 @@
       <jump line="100" column="9" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
       <jump line="61" column="20" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
       <jump line="62" column="20" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="85" column="26" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
+      <jump line="58" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
+      <jump line="84" column="10" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
+      <jump line="105" column="10" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
+      <jump line="309" column="11" filename="$USER_HOME$/GraknLabs/grakn/server/migrator/Importer.java" />
+      <jump line="70" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/Model.java" />
+      <jump line="97" column="33" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="95" column="38" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="99" column="42" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="100" column="43" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="101" column="42" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="42" column="50" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/Model.java" />
+      <jump line="39" column="32" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/Model.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/simulation/common/data/cities.csv" />
+      <jump line="83" column="28" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="84" column="25" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="105" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="81" column="117" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="107" column="8" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="80" column="31" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="86" column="75" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="82" column="48" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="110" column="35" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8.java" />
+      <jump line="99" column="19" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
+      <jump line="111" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest8/world2.gql" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>private</text>
+        <text>,</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
       </register>
       <register name="+" type="2">
-        <text encoding="base64">ZGVmaW5lCgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIEF0dHJpYnV0ZXMKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKCm5hbWUgc3ViIGF0dHJpYnV0ZSwgYWJzdHJhY3QsCiAgICB2YWx1ZSBzdHJpbmc7Cgpsb2NhdGlvbi1uYW1lIHN1YiBuYW1lOwoKb3JnYW5pc2F0aW9uLW5hbWUgc3ViIG5hbWUsIGFic3RyYWN0Owpjb21wYW55LW5hbWUgc3ViIG9yZ2FuaXNhdGlvbi1uYW1lOwojdW5pdmVyc2l0eS1uYW1lIHN1YiBvcmdhbmlzYXRpb24tbmFtZTsKI2NoYXJpdHktbmFtZSBzdWIgb3JnYW5pc2F0aW9uLW5hbWU7Cgpjb21wYW55LW51bWJlciBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgbG9uZzsKCmZvcmVuYW1lIHN1YiBuYW1lOwoKc3VybmFtZSBzdWIgbmFtZTsKCnByb2R1Y3QtbmFtZSBzdWIgbmFtZTsKCiNzZXJ2aWNlLW5hbWUgc3ViIG5hbWU7CgpkYXRlLW9mLWV2ZW50IHN1YiBhdHRyaWJ1dGUsCiAgICBhYnN0cmFjdCwKICAgIHZhbHVlIGRhdGV0aW1lOwoKZGF0ZS1vZi1pbmNvcnBvcmF0aW9uIHN1YiBkYXRlLW9mLWV2ZW50OwoKc3RhcnQtZGF0ZSBzdWIgZGF0ZS1vZi1ldmVudDsKCmVuZC1kYXRlIHN1YiBkYXRlLW9mLWV2ZW50OwoKZGF0ZS1vZi1iaXJ0aCBzdWIgZGF0ZS1vZi1ldmVudDsKCmRhdGUtb2YtbWFycmlhZ2Ugc3ViIGRhdGUtb2YtZXZlbnQ7ICAjIFRPRE8gdW51c2VkCgpyZWxvY2F0aW9uLWRhdGUgc3ViIGRhdGUtb2YtZXZlbnQ7CgpnZW5kZXIgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZzsKCmFnZSBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgbG9uZzsKCmxhbmd1YWdlIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmcsCiAgICByZWdleCAiXihFbmdsaXNofEdlcm1hbnxQb3J0dWdlc2V8QWZyaWthYW5zfE1hbmRhcmluKSQiOwoKI2NvbnRlbnQtbGFuZ3VhZ2Ugc3ViIGF0dHJpYnV0ZSwKIyAgICB2YWx1ZSBzdHJpbmc7CgojbnVtLWNoYXJhY3RlcnMgc3ViIGF0dHJpYnV0ZSwKIyAgICB2YWx1ZSBsb25nOwoKdGV4dC1jb250ZW50IHN1YiBhdHRyaWJ1dGUsIGFic3RyYWN0LAogICAgdmFsdWUgc3RyaW5nOwojICAgIG93bnMgY29udGVudC1sYW5ndWFnZSwgIyBTZWVtcyB0byBicmVhayBncmFrbiB3aGVuIHF1ZXJ5aW5nIGZvciB0aGlzCiMgICAgb3ducyBudW0tY2hhcmFjdGVyczsKCmNvbnRyYWN0LWNvbnRlbnQgc3ViIHRleHQtY29udGVudDsKCmNvbnRyYWN0ZWQtaG91cnMgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGRvdWJsZTsKCndhZ2UtdmFsdWUgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGRvdWJsZTsKCmN1cnJlbmN5LWNvZGUgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIHN0cmluZywKICAgIHJlZ2V4ICJeKFVTRHxHQlB8RVVSfEJSTHxaQVJ8Uk1CfEFVRCkkIjsKCmN1cnJlbmN5IHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBzdHJpbmcsCiAgICByZWdleCAiXihBbWVyaWNhbiBEb2xsYXJ8R3JlYXQgQnJpdGlzaCBQb3VuZHxFdXJvfEJyYXppbGlhbiBSZWFsfFNvdXRoIEFmcmljYW4gUmFuZHxSZW5taW5iaXxBdXN0cmFsaWFuIERvbGxhcikkIiwKICAgIG93bnMgY3VycmVuY3ktY29kZTsKCnZhbHVlIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBkb3VibGU7CgpkYXRlLXNpZ25lZCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgZGF0ZXRpbWU7CgplbWFpbCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgc3RyaW5nOwoKaWRlbnRpZmllciBzdWIgYXR0cmlidXRlLCBhYnN0cmFjdCwKICAgIHZhbHVlIGxvbmc7CgptYXJyaWFnZS1pZCBzdWIgaWRlbnRpZmllcjsKCiNzZXJ2aWNlLWlkIHN1YiBpZGVudGlmaWVyOwoKcHJvZHVjdC1iYXJjb2RlIHN1YiBpZGVudGlmaWVyOwoKZGVzY3JpcHRpb24gc3ViIGF0dHJpYnV0ZSwgYWJzdHJhY3QsCiAgICB2YWx1ZSBzdHJpbmc7Cgpwcm9kdWN0LWRlc2NyaXB0aW9uIHN1YiBkZXNjcmlwdGlvbjsKCnByb2R1Y3QtcXVhbnRpdHkgc3ViIGF0dHJpYnV0ZSwKICAgIHZhbHVlIGxvbmc7Cgojc2VydmljZS1kZXNjcmlwdGlvbiBzdWIgZGVzY3JpcHRpb247Cgppcy10YXhhYmxlIHN1YiBhdHRyaWJ1dGUsCiAgICB2YWx1ZSBib29sZWFuOwoKaXMtY3VycmVudCBzdWIgYXR0cmlidXRlLAogICAgdmFsdWUgYm9vbGVhbjsKCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCiMgRW50aXRpZXMsIFJlbGF0aW9ucyBhbmQgUnVsZXMsIGJ5IGFwcHJveGltYXRlIGNhdGVnb3J5CiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgTG9jYXRpb25zCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmxvY2F0aW9uIHN1YiBlbnRpdHksCiAgICBhYnN0cmFjdCwKICAgIG93bnMgbG9jYXRpb24tbmFtZSBAa2V5LAogICAgcGxheXMgbG9jYXRpb24taGllcmFyY2h5OnN1cGVyaW9yLAogICAgcGxheXMgbG9jYXRpb24taGllcmFyY2h5OnN1Ym9yZGluYXRlLAogICAgcGxheXMgcmVsb2NhdGlvbjpwcmV2aW91cy1sb2NhdGlvbiwKICAgIHBsYXlzIHJlbG9jYXRpb246bmV3LWxvY2F0aW9uLAogICAgcGxheXMgbG9jYXRlczpsb2NhdGlvbiwKICAgIHBsYXlzIGJvcm4taW46cGxhY2Utb2YtYmlydGg7ICAjIFRPRE8gQ2FuIHdlIGF2b2lkIHVzaW5nIHRoaXMgYnV0IGFsc28gYXZvaWQgdmFsaWRhdGlvbiBlcnJvcnM/CgpjaXR5IHN1YiBsb2NhdGlvbiwKICAgIHBsYXlzIHJlc2lkZW5jeTpsb2NhdGlvbjsKCmNvdW50cnkgc3ViIGxvY2F0aW9uLAogICAgb3ducyBjdXJyZW5jeSwKICAgIG93bnMgbGFuZ3VhZ2UsCiAgICBwbGF5cyBpbmNvcnBvcmF0aW9uOmluY29ycG9yYXRpbmc7Cgpjb250aW5lbnQgc3ViIGxvY2F0aW9uLAogICAgcGxheXMgcHJvZHVjZWQtaW46Y29udGluZW50OwoKbG9jYXRpb24taGllcmFyY2h5IHN1YiByZWxhdGlvbiwKICAgIHJlbGF0ZXMgc3VwZXJpb3IsCiAgICByZWxhdGVzIHN1Ym9yZGluYXRlOwoKbG9jYXRlcyBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIGxvY2F0aW9uLAogICAgcmVsYXRlcyBsb2NhdGVkOwoKcnVsZSBsb2NhdGlvbi1oaWVyYXJjaHktdHJhbnNpdGl2aXR5Ogp3aGVuIHsKICAgICRsaDEoc3VwZXJpb3I6ICRhLCBzdWJvcmRpbmF0ZTogJGIpIGlzYSBsb2NhdGlvbi1oaWVyYXJjaHk7CiAgICAkbGgyKHN1cGVyaW9yOiAkYiwgc3Vib3JkaW5hdGU6ICRjKSBpc2EgbG9jYXRpb24taGllcmFyY2h5Owp9IHRoZW4gewogICAgKHN1cGVyaW9yOiAkYSwgc3Vib3JkaW5hdGU6ICRjKSBpc2EgbG9jYXRpb24taGllcmFyY2h5Owp9OwoKIyBUcmFuc2l0aXZlIGdyb3VwMiBtZW1iZXJzaGlwCiMgSGVyZSB3ZSByZWFsaXNlIHRoYXQgaXQncyBjb21tb24gdG8gc2F5IHRoYXQgd2hlbiBzb21ldGhpbmcgdGFrZXMgcGxhY2UgaW4gYSBsb2NhdGlvbiBpdCBhbHNvIHRha2VzIHBsYWNlIGluIHRoZSBzdXBlcmlvciBwbGFjZXMuCiMgVGhpcyB3aWxsIGxlYWQgdG8gbWFueSBydWxlcyBvZiB0aGlzIGtpbmQuIENhbiB0aGlzIGJlIGdlbmVyaWZpZWQsIGFuZCBzaG91bGQgaXQgYmU/CnJ1bGUgbG9jYXRlcy10cmFuc2l0aXZlLXdpdGgtbG9jYXRpb24taGllcmFyY2h5Ogp3aGVuIHsKICAgICRsb2MobG9jYXRlZDogJHRoaW5nLCBsb2NhdGlvbjogJGEpIGlzYSBsb2NhdGVzOwogICAgJGxoMihzdXBlcmlvcjogJGIsIHN1Ym9yZGluYXRlOiAkYSkgaXNhIGxvY2F0aW9uLWhpZXJhcmNoeTsKfSB0aGVuIHsKICAgIChsb2NhdGVkOiAkdGhpbmcsIGxvY2F0aW9uOiAkYikgaXNhIGxvY2F0ZXM7Cn07CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgQ3VycmVuY3kKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKcnVsZSB0cmFuc2FjdGlvbi1jdXJyZW5jeS1pcy10aGF0LW9mLXRoZS1jb3VudHJ5Ogp3aGVuIHsKICAgICR0cmFuc2FjdGlvbiBpc2EgdHJhbnNhY3Rpb247CiAgICAkbChsb2NhdGVkOiAkdHJhbnNhY3Rpb24sIGxvY2F0aW9uOiAkdHJhbnNhY3Rpb24tbG9jYXRpb24pIGlzYSBsb2NhdGVzOwogICAgJHRyYW5zYWN0aW9uLWxvY2F0aW9uIGlzYSBjb3VudHJ5LCBoYXMgY3VycmVuY3kgJGN1cnJlbmN5Owp9IHRoZW4gewogICAgJHRyYW5zYWN0aW9uIGhhcyAkY3VycmVuY3k7Cn07CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgRnJpZW5kcyBhbmQgRmFtaWx5CiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCnBlcnNvbiBzdWIgZW50aXR5LAogICAgb3ducyBlbWFpbCBAa2V5LAogICAgb3ducyBmb3JlbmFtZSwKICAgIG93bnMgc3VybmFtZSwKICAgIG93bnMgZ2VuZGVyLAogICAgb3ducyBkYXRlLW9mLWJpcnRoLAogICAgb3ducyBhZ2UsCiAgICBwbGF5cyBlbXBsb3ltZW50OmVtcGxveWVlLAojICAgIHBsYXlzIHZvbHVudGVlcmluZzp2b2x1bnRlZXIsCiMgICAgcGxheXMgc3R1ZGVudHNoaXA6c3R1ZGVudCwKICAgIHBsYXlzIHBhcmVudHNoaXA6cGFyZW50LAogICAgcGxheXMgcGFyZW50c2hpcDpjaGlsZCwKICAgIHBsYXlzIG1hcnJpYWdlOmh1c2JhbmQsCiAgICBwbGF5cyBtYXJyaWFnZTp3aWZlLAogICAgcGxheXMgZnJpZW5kc2hpcDpmcmllbmQsCiAgICBwbGF5cyBib3JuLWluOmNoaWxkLAogICAgcGxheXMgcmVzaWRlbmN5OnJlc2lkZW50LAogICAgcGxheXMgcmVsb2NhdGlvbjpyZWxvY2F0ZWQtcGVyc29uOwoKcGFyZW50c2hpcCBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIHBhcmVudCwgICMgQ291bGQgaGF2ZSB0d28gcGFyZW50cyBwbGF5aW5nIHBhcmVudCBpbiBhIHNpbmdsZSBwYXJlbnRzaGlwIGZvciBpbnRlcmVzdGluZyBjYXJkaW5hbGl0eQogICAgcmVsYXRlcyBjaGlsZDsKCmZyaWVuZHNoaXAgc3ViIHJlbGF0aW9uLAogICAgb3ducyBzdGFydC1kYXRlLAogICAgb3ducyBlbmQtZGF0ZSwKICAgIHJlbGF0ZXMgZnJpZW5kOyAjIENvdWxkIGJlIE4tYXJ5LCB0aG91Z2ggaW4gYSByZWFsLXdvcmxkIGNvbnRleHQgdGhpcyBpcyBpbXBlcmZlY3QKCm1hcnJpYWdlIHN1YiByZWxhdGlvbiwKICAgIG93bnMgbWFycmlhZ2UtaWQgQGtleSwKICAgIG93bnMgZGF0ZS1vZi1tYXJyaWFnZSwgICMgVE9ETyB1bnVzZWQKICAgIHJlbGF0ZXMgaHVzYmFuZCwKICAgIHJlbGF0ZXMgd2lmZSwKICAgIHBsYXlzIGxvY2F0ZXM6bG9jYXRlZDsKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBJbmRpdmlkdWFscwojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpib3JuLWluIHN1YiBsb2NhdGVzLAogICAgcmVsYXRlcyBwbGFjZS1vZi1iaXJ0aCBhcyBsb2NhdGlvbiwKICAgIHJlbGF0ZXMgY2hpbGQgYXMgbG9jYXRlZDsKCnJlc2lkZW5jeSBzdWIgcmVsYXRpb24sCiAgICBvd25zIHN0YXJ0LWRhdGUsCiAgICBvd25zIGVuZC1kYXRlLAogICAgb3ducyBpcy1jdXJyZW50LAogICAgcmVsYXRlcyByZXNpZGVudCwKICAgIHJlbGF0ZXMgbG9jYXRpb247CgpyZWxvY2F0aW9uIHN1YiByZWxhdGlvbiwKICAgIG93bnMgcmVsb2NhdGlvbi1kYXRlLAogICAgcmVsYXRlcyBwcmV2aW91cy1sb2NhdGlvbiwKICAgIHJlbGF0ZXMgbmV3LWxvY2F0aW9uLAogICAgcmVsYXRlcyByZWxvY2F0ZWQtcGVyc29uOwoKIyBDYXVzZXMgb2YgcmVzaWRlbmN5CiMgLSBib3JuIGluIGEgbG9jYXRpb24KIyAtIG1vdmUgdG8gYSBsb2NhdGlvbgojIC0gY2FuIGJlIGluZmVycmVkIGZyb20gd2hlcmUgc29tZW9uZSB3b3JrcyBvciBzdHVkaWVzIGF0IHNjaG9vbCBvciB1bml2ZXJzaXR5CgpydWxlIGJvcm4taW4tbG9jYXRpb24taW1wbGllcy1yZXNpZGVuY3k6CndoZW4gewogICAgJGJpKHBsYWNlLW9mLWJpcnRoOiAkbG9jYXRpb24sIGNoaWxkOiAkcGVyc29uKSBpc2EgYm9ybi1pbjsKfSB0aGVuIHsKICAgIChyZXNpZGVudDogJHBlcnNvbiwgbG9jYXRpb246ICRsb2NhdGlvbikgaXNhIHJlc2lkZW5jeTsKfTsKCiMgVGhpcyBydWxlIGNhbiBiZSB0cmlnZ2VyZWQgYnkgYSBwZXJzb24gbW92aW5nIGJhY2sgdG8gdGhlaXIgaG9tZXRvd24gaGF2aW5nIG1vdmVkIGF3YXksIGFuZCBhZGQgYW4gaW5jb3JyZWN0IHN0YXJ0LWRhdGUKcnVsZSBib3JuLWluLWxvY2F0aW9uLWltcGxpZXMtcmVzaWRlbmN5LWRhdGU6CndoZW4gewogICAgJGJpKHBsYWNlLW9mLWJpcnRoOiAkbG9jYXRpb24sIGNoaWxkOiAkcGVyc29uKSBpc2EgYm9ybi1pbjsKICAgICRwZXJzb24gaXNhIHBlcnNvbiwgaGFzIGRhdGUtb2YtYmlydGggJGRvYjsKICAgICRyKHJlc2lkZW50OiAkcGVyc29uLCBsb2NhdGlvbjogJGxvY2F0aW9uKSBpc2EgcmVzaWRlbmN5Owp9IHRoZW4gewogICAgJHIgaGFzICRkb2I7Cn07CgpydWxlIHBlcnNvbi1yZWxvY2F0aW5nLWFkZHMtbmV3LXJlc2lkZW5jeToKd2hlbiB7CiAgICAkcmVsKHJlbG9jYXRlZC1wZXJzb246ICRwZXJzb24sIG5ldy1sb2NhdGlvbjogJGxvY2F0aW9uKSBpc2EgcmVsb2NhdGlvbjsKfSB0aGVuIHsKICAgIChyZXNpZGVudDogJHBlcnNvbiwgbG9jYXRpb246ICRsb2NhdGlvbikgaXNhIHJlc2lkZW5jeTsKfTsKCnJ1bGUgcGVyc29uLXJlbG9jYXRpbmctZW5kcy1vbGQtcmVzaWRlbmN5Ogp3aGVuIHsKICAgICRyZWwocmVsb2NhdGVkLXBlcnNvbjogJHBlcnNvbiwgcHJldmlvdXMtbG9jYXRpb246ICRsb2NhdGlvbikgaXNhIHJlbG9jYXRpb24sIGhhcyByZWxvY2F0aW9uLWRhdGUgJHJlbC1kYXRlOwogICAgJG9sZC1yZXNpZGVuY3kocmVzaWRlbnQ6ICRwZXJzb24sIGxvY2F0aW9uOiAkbG9jYXRpb24pIGlzYSByZXNpZGVuY3k7Cn0gdGhlbiB7CiAgICAkb2xkLXJlc2lkZW5jeSBoYXMgJHJlbC1kYXRlOwp9OwoKcnVsZSByZXNpZGVuY3ktd2l0aG91dC1lbmQtZGF0ZS1pcy1jdXJyZW50Ogp3aGVuIHsKICAgICRyZXMocmVzaWRlbnQ6ICRwZXJzb24sIGxvY2F0aW9uOiAkbG9jYXRpb24pIGlzYSByZXNpZGVuY3k7CiAgICBub3QgewogICAgICAgICRyZXMgaGFzIGVuZC1kYXRlICRyZWwtZGF0ZTsKICAgIH07Cn0gdGhlbiB7CiAgICAkcmVzIGhhcyBpcy1jdXJyZW50IHRydWU7Cn07CgpydWxlIGxhYmVsLW5vbi1jdXJyZW50LXJlc2lkZW5jeToKd2hlbiB7CiAgICAkcmVzIGlzYSByZXNpZGVuY3ksIGhhcyBlbmQtZGF0ZSAkZW5kLWRhdGU7Cn0gdGhlbiB7CiAgICAkcmVzIGhhcyBpcy1jdXJyZW50IGZhbHNlOwp9OwoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIE9yZ2FuaXNhdGlvbmFsIFN0cnVjdHVyZQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpvcmdhbmlzYXRpb24gc3ViIGVudGl0eTsKCmNvbXBhbnkgc3ViIG9yZ2FuaXNhdGlvbiwKICAgICMgV2UgbWF5IHdhbnQgdG8gc2F5IGBvd25zIGNvbXBhbnktbmFtZSBhcyBvcmdhbmlzYXRpb24tbmFtZTtgCiAgICBvd25zIGNvbXBhbnktbmFtZSBAa2V5LAogICAgb3ducyBjb21wYW55LW51bWJlciBAa2V5LAogICAgcGxheXMgZW1wbG95bWVudDplbXBsb3llciwKICAgIHBsYXlzIHRyYW5zYWN0aW9uOnNlbGxlciwKICAgIHBsYXlzIHRyYW5zYWN0aW9uOmJ1eWVyLAogICAgcGxheXMgaW5jb3Jwb3JhdGlvbjppbmNvcnBvcmF0ZWQ7CgppbmNvcnBvcmF0aW9uIHN1YiByZWxhdGlvbiwKICAgIG93bnMgZGF0ZS1vZi1pbmNvcnBvcmF0aW9uLAogICAgcmVsYXRlcyBpbmNvcnBvcmF0ZWQsCiAgICByZWxhdGVzIGluY29ycG9yYXRpbmc7CgojdW5pdmVyc2l0eSBzdWIgb3JnYW5pc2F0aW9uLAojICAgIG93bnMgdW5pdmVyc2l0eS1uYW1lLAojICAgIHBsYXlzIGVtcGxveW1lbnQ6ZW1wbG95ZXIsCiMgICAgcGxheXMgc3R1ZGVudHNoaXA6c2Nob29sLAojICAgIHBsYXlzIHRyYW5zYWN0aW9uOnNlbGxlciwKIyAgICBwbGF5cyB0cmFuc2FjdGlvbjpidXllcjsKCiNjaGFyaXR5IHN1YiBvcmdhbmlzYXRpb24sCiMgICAgb3ducyBjaGFyaXR5LW5hbWUsCiMgICAgcGxheXMgdm9sdW50ZWVyaW5nOmNhdXNlLAojICAgIHBsYXlzIHRyYW5zYWN0aW9uOmJ1eWVyOwoKbWVtYmVyc2hpcCBzdWIgcmVsYXRpb24sCiMgICAgb3ducyBpZGVudGlmaWVyIEBrZXksCiAgICBvd25zIHN0YXJ0LWRhdGUsCiAgICBvd25zIGVuZC1kYXRlLAogICAgcmVsYXRlcyBtZW1iZXIsCiAgICByZWxhdGVzIGdyb3VwMjsKCmVtcGxveW1lbnQgc3ViIG1lbWJlcnNoaXAsCiAgICAjIG93bnMgZW1wbG95bWVudC1pZCBhcyBtZW1iZXJzaGlwLWlkIEBrZXksICMgV2UgbWlnaHQgd2FudCB0byBzYXkgdGhpcz8KICAgIHJlbGF0ZXMgZW1wbG95ZWUgYXMgbWVtYmVyLAogICAgcmVsYXRlcyBlbXBsb3llciBhcyBncm91cDIsCiAgICAjIHJlbGF0ZXMgY29udHJhY3QsCiAgICAjIHJlbGF0ZXMgcHJvZmVzc2lvbiwKICAgICMgcmVsYXRlcyB3YWdlLCAgIyBodHRwczovL2dpdGh1Yi5jb20vZ3Jha25sYWJzL2dyYWtuL2lzc3Vlcy81NTUzCiAgICAjIEZvciB3YWdlcyBpbiBkaWZmZXJlbnQgY3VycmVuY2llcywgZWl0aGVyOgogICAgIyAtIHN1YnR5cGUgZm9yIHRoZSBkaWZmZXJlbnQgY3VycmVuY2llcywKICAgICMgLSBhZGQgY3VycmVuY3kgYXMgYXR0cmlidXRlIHRvIGltcGxpY2l0IHJlbGF0aW9uLAogICAgIyAtIG1vZGVsIHRoZSB3YWdlIGFzIGFuIGVudGl0eSwKICAgICMgVGhlIGF0dHJpYnV0ZSBvbiBhbiBpbXBsaWNpdCByZWxhdGlvbiBpcyBhIHBhdHRlcm4gd2Ugd291bGQgbGlrZSB0byBzdHJlc3MtdGVzdAoKICAgIG93bnMgY29udHJhY3RlZC1ob3VycywKICAgICMgTmVzdGVkIHJlbGF0aW9uCiAgICBwbGF5cyBsb2NhdGVzOmxvY2F0ZWQ7Cgp3YWdlIHN1YiBlbnRpdHksCiMgICAgcGxheXMgZW1wbG95bWVudDp3YWdlLAogICAgb3ducyB3YWdlLXZhbHVlLAogICAgb3ducyBjdXJyZW5jeTsKCiNzdHVkZW50c2hpcCBzdWIgbWVtYmVyc2hpcCwKIyAgICByZWxhdGVzIHN0dWRlbnQgYXMgbWVtYmVyLAojICAgIHJlbGF0ZXMgc2Nob29sIGFzIGdyb3VwMjsKCiN2b2x1bnRlZXJpbmcgc3ViIG1lbWJlcnNoaXAsCiMgICAgcmVsYXRlcyB2b2x1bnRlZXIgYXMgbWVtYmVyLAojICAgIHJlbGF0ZXMgY2F1c2UgYXMgZ3JvdXAyOwoKI29jY3VwYXRpb24gc3ViIGVudGl0eSwKIyAgICBvd25zIG5hbWUgQGtleTsKIyAgICBwbGF5cyBlbXBsb3ltZW50OnByb2Zlc3Npb247CgpsZWdhbC1kb2N1bWVudCBzdWIgZW50aXR5LCBhYnN0cmFjdCwKICAgIG93bnMgZGF0ZS1zaWduZWQsICAjIFRPRE8gdW51c2VkCiAgICBvd25zIHRleHQtY29udGVudDsKCmVtcGxveW1lbnQtY29udHJhY3Qgc3ViIGxlZ2FsLWRvY3VtZW50LCBhYnN0cmFjdCwKICAgICMgcGxheXMgZW1wbG95bWVudDpjb250cmFjdCwKICAgIG93bnMgY29udHJhY3QtY29udGVudCwKICAgIG93bnMgY29udHJhY3RlZC1ob3VyczsKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBPcmdhbmlzYXRpb25hbCBUcmFkZQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgp0cmFuc2FjdGlvbiBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIGJ1eWVyLAogICAgcmVsYXRlcyBzZWxsZXIsCiAgICByZWxhdGVzIG1lcmNoYW5kaXNlLAogICAgb3ducyBjdXJyZW5jeSwKICAgIG93bnMgdmFsdWUsCiAgICBvd25zIHByb2R1Y3QtcXVhbnRpdHksCiAgICBvd25zIGlzLXRheGFibGUsCiAgICBwbGF5cyBsb2NhdGVzOmxvY2F0ZWQ7Cgpwcm9kdWN0IHN1YiBlbnRpdHksCiAgICBvd25zIHByb2R1Y3QtYmFyY29kZSBAa2V5LAogICAgb3ducyBwcm9kdWN0LW5hbWUsCiAgICBvd25zIHByb2R1Y3QtZGVzY3JpcHRpb24sCiAgICBwbGF5cyB0cmFuc2FjdGlvbjptZXJjaGFuZGlzZSwKICAgIHBsYXlzIHByb2R1Y2VkLWluOnByb2R1Y3Q7Cgpwcm9kdWNlZC1pbiBzdWIgcmVsYXRpb24sCiAgICByZWxhdGVzIHByb2R1Y3QsCiAgICByZWxhdGVzIGNvbnRpbmVudDsKCiNzZXJ2aWNlIHN1YiBlbnRpdHksCiMgICAgb3ducyBzZXJ2aWNlLWlkIEBrZXksCiMgICAgb3ducyBzZXJ2aWNlLW5hbWUsCiMgICAgb3ducyBzZXJ2aWNlLWRlc2NyaXB0aW9uLAojICAgIHBsYXlzIHRyYW5zYWN0aW9uOm1lcmNoYW5kaXNlOwoKZW1wbG95bWVudCBzdWIgbWVtYmVyc2hpcCwKICAgIHJlbGF0ZXMgY29udHJhY3QsCiMgICAgcmVsYXRlcyBlbXBsb3ltZW50X3Byb2Zlc3Npb24sCiAgICByZWxhdGVzIHdhZ2U7Cgojb2NjdXBhdGlvbiBzdWIgZW50aXR5LAojICAgcGxheXMgZW1wbG95bWVudF9wcm9mZXNzaW9uOwoKZW1wbG95bWVudC1jb250cmFjdCBzdWIgbGVnYWwtZG9jdW1lbnQsCiAgICBwbGF5cyBlbXBsb3ltZW50OmNvbnRyYWN0OwoKd2FnZSBzdWIgZW50aXR5LAogICAgcGxheXMgZW1wbG95bWVudDp3YWdlOwoKI2NvbnRyYWN0LWhhcy1sYW5ndWFnZS1vZi1sb2NhdGlvbi1pcy10aGVyZS1pcy1vbmx5LW9uZS1sYW5ndWFnZSBzdWIgcnVsZSwKI3doZW4gewojICAgICRlbXAoZW1wbG95bWVudF9jb250cmFjdDogJGNvbnRyYWN0KSBpc2EgZW1wbG95bWVudDsKIyAgICAkY29udHJhY3QgaXNhIGVtcGxveW1lbnQtY29udHJhY3QsIGhhcyBjb250cmFjdC1jb250ZW50ICRjb250ZW50OwojICAgICgkZW1wLCAkbG9jYXRpb24xKSBpc2EgbG9jYXRlczsKIyAgICAkbG9jYXRpb24xIGhhcyBsYW5ndWFnZSAkbGFuZzE7CiMgICAgbm90IHsKIyAgICAgICAgKCRlbXAsICRsb2NhdGlvbjIpIGlzYSBsb2NhdGVzOwojICAgICAgICAkbG9jYXRpb24yIGhhcyBsYW5ndWFnZSAkbGFuZzI7CiMgICAgICAgICRsYW5nMSAhPT0gJGxhbmcyOwojICAgIH07CiN9LCB0aGVuIHsKIyAgICAkY29udGVudCBoYXMgY29udGVudC1sYW5ndWFnZSAkbGFuZzE7CiN9OwoKcnVsZSBjb250cmFjdGVkLWhvdXJzLWFwcGx5LXRvLWVtcGxveW1lbnQ6CndoZW4gewogICAgJGVtcChjb250cmFjdDogJGMpIGlzYSBlbXBsb3ltZW50OwogICAgJGMgaXNhIGVtcGxveW1lbnQtY29udHJhY3QsIGhhcyBjb250cmFjdGVkLWhvdXJzICRob3VyczsKfSB0aGVuIHsKICAgICRlbXAgaGFzICRob3VyczsKfTsK</text>
+        <text>London,United Kingdom
+New York,USA
+Berlin,Germany
+Brasilia,Brazil
+Cape Town,South Africa
+Beijing,China
+Canberra,Australia</text>
       </register>
       <register name="l" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>private</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhZ2VcPg==</text>
+        <text>initi</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -446,10 +442,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9jb21tb246Y29tbW9uIiwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5IChSb2Nrc1RyYW5zYWN0aW9uIHRyYW5zYWN0aW9uID0gc2Vzc2lvbi50cmFuc2FjdGlvbihSRUFEKSkgewogICAgICAgICAgICAgICAgR3JhcWxNYXRjaCBxdWVyeSA9IEdyYXFsLm1hdGNoKAogICAgICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoImNpdHkiKS5pc2EoImNpdHkiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXMoImxvY2F0aW9uLW5hbWUiLCBjaXR5KSwKICAgICAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKCJtIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJodXNiYW5kIiwgR3JhcWwudmFyKCJodXNiYW5kIikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgid2lmZSIsIEdyYXFsLnZhcigid2lmZSIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5pc2EoIm1hcnJpYWdlIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJtYXJyaWFnZS1pZCIsIEdyYXFsLnZhcigibWFycmlhZ2UtaWQiKSksCiAgICAgICAgICAgICAgICAgICAgICAgIEdyYXFsLm5vdCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoInBhciIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJwYXJlbnQiLCAiaHVzYmFuZCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJwYXJlbnQiLCAid2lmZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaXNhKCJwYXJlbnRzaGlwIikKICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKCJodXNiYW5kIikuaXNhKCJwZXJzb24iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXMoImVtYWlsIiwgR3JhcWwudmFyKCJodXNiYW5kLWVtYWlsIikpLAogICAgICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoIndpZmUiKS5pc2EoInBlcnNvbiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygiZW1haWwiLCBHcmFxbC52YXIoIndpZmUtZW1haWwiKSksCiAgICAgICAgICAgICAgICAgICAgICAgIEdyYXFsLnZhcigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgibG9jYXRlZCIsIEdyYXFsLnZhcigibSIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoImxvY2F0aW9uIiwgR3JhcWwudmFyKCJjaXR5IikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmlzYSgibG9jYXRlcyIpCiAgICAgICAgICAgICAgICApLnNvcnQoIm1hcnJpYWdlLWlkIik7CiAgICAgICAgICAgICAgICB0cmFuc2FjdGlvbi5xdWVyeSgpLm1hdGNoKHF1ZXJ5KS50b0xpc3QoKTsKICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9jb21tb246Y29tbW9uIiwK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgKFN0cmluZyBjaXR5IDogY2l0aWVzKSB7CiAgICAgICAgICAgIHRyeSAoUm9ja3NUcmFuc2FjdGlvbiB0cmFuc2FjdGlvbiA9IHNlc3Npb24udHJhbnNhY3Rpb24oUkVBRCkpIHsKICAgICAgICAgICAgICAgIEdyYXFsTWF0Y2ggcXVlcnkgPSBHcmFxbC5tYXRjaCgKICAgICAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKCJjaXR5IikuaXNhKCJjaXR5IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJsb2NhdGlvbi1uYW1lIiwgY2l0eSksCiAgICAgICAgICAgICAgICAgICAgICAgIEdyYXFsLnZhcigibSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgiaHVzYmFuZCIsIEdyYXFsLnZhcigiaHVzYmFuZCIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoIndpZmUiLCBHcmFxbC52YXIoIndpZmUiKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaXNhKCJtYXJyaWFnZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhhcygibWFycmlhZ2UtaWQiLCBHcmFxbC52YXIoIm1hcnJpYWdlLWlkIikpLAogICAgICAgICAgICAgICAgICAgICAgICBHcmFxbC5ub3QoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKCJwYXIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgicGFyZW50IiwgImh1c2JhbmQiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgicGFyZW50IiwgIndpZmUiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmlzYSgicGFyZW50c2hpcCIpCiAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgIEdyYXFsLnZhcigiaHVzYmFuZCIpLmlzYSgicGVyc29uIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJlbWFpbCIsIEdyYXFsLnZhcigiaHVzYmFuZC1lbWFpbCIpKSwKICAgICAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKCJ3aWZlIikuaXNhKCJwZXJzb24iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXMoImVtYWlsIiwgR3JhcWwudmFyKCJ3aWZlLWVtYWlsIikpLAogICAgICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoImxvY2F0ZWQiLCBHcmFxbC52YXIoIm0iKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJsb2NhdGlvbiIsIEdyYXFsLnZhcigiY2l0eSIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5pc2EoImxvY2F0ZXMiKQogICAgICAgICAgICAgICAgKS5zb3J0KCJtYXJyaWFnZS1pZCIpOwogICAgICAgICAgICAgICAgdHJhbnNhY3Rpb24ucXVlcnkoKS5tYXRjaChxdWVyeSkudG9MaXN0KCk7CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -463,28 +459,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIG93bnMgaXMtY3VycmVudCwKICAgIG93bnMgc3RhcnQtZGF0ZSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIG93bnMgZW5kLWRhdGUsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIG93bnMgZW5kLWRhdGUsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIChTdHJpbmcgY2l0eSA6IGxpc3QoIkxvbmRvbiIsICJOZXcgWW9yayIsICJCZXJsaW4iLCAiQnJhc2lsaWEiLCAiQ2FwZSBUb3duIiwgIkJlaWppbmciLCAiQ2FuYmVycmEiKSkgewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNhY3Rpb24ucXVlcnkoKS5tYXRjaChxdWVyeSkudG9MaXN0KCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHBsYXlzIHJlbG9jYXRpb246cmVsb2NhdGVkLXBlcnNvbiwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHBsYXlzIGZyaWVuZHNoaXA6ZnJpZW5kLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHBsYXlzIGVtcGxveW1lbnQ6ZW1wbG95ZWUsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgR3JhcWxNYXRjaCBxdWVyeSA9IEdyYXFsLm1hdGNoKAogICAgICAgICAgICAgICAgICAgIEdyYXFsLnZhcigiY2l0eSIpLmlzYSgiY2l0eSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJsb2NhdGlvbi1uYW1lIiwgIkNhcGUgVG93biIpLAogICAgICAgICAgICAgICAgICAgIEdyYXFsLnZhcigibSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJodXNiYW5kIiwgR3JhcWwudmFyKCJodXNiYW5kIikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJ3aWZlIiwgR3JhcWwudmFyKCJ3aWZlIikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaXNhKCJtYXJyaWFnZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJtYXJyaWFnZS1pZCIsIEdyYXFsLnZhcigibWFycmlhZ2UtaWQiKSksCiAgICAgICAgICAgICAgICAgICAgR3JhcWwubm90KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgR3JhcWwudmFyKCJwYXIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVsKCJwYXJlbnQiLCAiaHVzYmFuZCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZWwoInBhcmVudCIsICJ3aWZlIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmlzYSgicGFyZW50c2hpcCIpCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoImh1c2JhbmQiKS5pc2EoInBlcnNvbiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJlbWFpbCIsIEdyYXFsLnZhcigiaHVzYmFuZC1lbWFpbCIpKSwKICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoIndpZmUiKS5pc2EoInBlcnNvbiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGFzKCJlbWFpbCIsIEdyYXFsLnZhcigid2lmZS1lbWFpbCIpKSwKICAgICAgICAgICAgICAgICAgICBHcmFxbC52YXIoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgibG9jYXRlZCIsIEdyYXFsLnZhcigibSIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlbCgibG9jYXRpb24iLCBHcmFxbC52YXIoImNpdHkiKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5pc2EoImxvY2F0ZXMiKQogICAgICAgICAgICApLnNvcnQoIm1hcnJpYWdlLWlkIik7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHBsYXlzIHJlbG9jYXRpb246bmV3LWxvY2F0aW9uLAogICAgcGxheXMgcmVsb2NhdGlvbjpwcmV2aW91cy1sb2NhdGlvbjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJhbnNhY3Rpb24uY29tbWl0KCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -493,9 +489,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxhZ2VcPg==</last-search>
+      <last-search>initi</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhZ2VcPg==</last-pattern>
+      <last-pattern>initi</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
