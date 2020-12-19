@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>match</entry>
-        <entry>insert</entry>
         <entry encoding="base64">XDxkYk9wZXJhdGlvblw+</entry>
         <entry encoding="base64">XDxjb25maWdfdGVzdFw+</entry>
         <entry encoding="base64">XDxSVU5cPg==</entry>
@@ -27,6 +25,8 @@
         <entry>marriage</entry>
         <entry encoding="base64">XDxlbWFpbFw+</entry>
         <entry>location-name</entry>
+        <entry>parentship</entry>
+        <entry>itera</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -196,9 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/a.dummy" timestamp="1608381369304">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/neo4j/BUILD" timestamp="1608382387439">
         <mark key="[" line="23" column="0" />
         <mark key="]" line="23" column="37" />
@@ -216,11 +213,6 @@
         <mark key="]" line="35" column="24" />
         <mark key="." line="35" column="23" />
         <mark key="^" line="35" column="24" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/common/utils/Utils.java" timestamp="1608381189264">
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknFindSpecificPersonAction.java" timestamp="1608385626430">
         <mark key="'" line="40" column="26" />
@@ -242,17 +234,18 @@
         <mark key="]" line="47" column="0" />
         <mark key="." line="47" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/common/utils/Util.java" timestamp="1608381167627">
-        <mark key="[" line="7" column="14" />
-        <mark key="]" line="17" column="28" />
-        <mark key="." line="17" column="27" />
-        <mark key="^" line="17" column="28" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/read/GraknMarriedCoupleAction.java" timestamp="1608386577705">
         <mark key="'" line="62" column="59" />
         <mark key="[" line="86" column="0" />
         <mark key="]" line="86" column="0" />
         <mark key="." line="86" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" timestamp="1608386989530">
+        <mark key="'" line="13" column="0" />
+        <mark key="[" line="41" column="10" />
+        <mark key="]" line="41" column="10" />
+        <mark key="." line="41" column="12" />
+        <mark key="^" line="31" column="13" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/BUILD" timestamp="1608382375058">
         <mark key="[" line="22" column="0" />
@@ -296,8 +289,14 @@
         <mark key="^" line="91" column="33" />
         <mark key="." line="91" column="32" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" timestamp="1608385238453">
-        <mark key="'" line="9" column="0" />
+      <file name="/Dummy.txt" timestamp="1608387142944">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="19" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" timestamp="1608386822921">
+        <mark key="'" line="199" column="10" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="446" column="2" />
         <mark key="." line="0" column="0" />
@@ -309,6 +308,9 @@
         <mark key="." line="77" column="0" />
         <mark key="^" line="42" column="67" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/ParentshipAgent.java" timestamp="1608387349897">
+        <mark key="'" line="88" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/agent/BUILD" timestamp="1608382361281">
         <mark key="[" line="18" column="0" />
         <mark key="]" line="18" column="37" />
@@ -316,12 +318,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="20" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknFindTransactionCurrencyAction.java" />
-      <jump line="54" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/read/GraknMarriedCoupleAction.java" />
-      <jump line="55" column="23" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknInsertCompanyAction.java" />
-      <jump line="63" column="16" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknInsertCompanyAction.java" />
-      <jump line="62" column="65" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknInsertCompanyAction.java" />
-      <jump line="56" column="36" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknInsertCompanyAction.java" />
       <jump line="88" column="53" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
       <jump line="91" column="39" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
       <jump line="91" column="51" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
@@ -416,12 +412,18 @@
       <jump line="40" column="26" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/insight/GraknFindSpecificPersonAction.java" />
       <jump line="86" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/read/GraknMarriedCoupleAction.java" />
       <jump line="62" column="59" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/read/GraknMarriedCoupleAction.java" />
+      <jump line="37" column="31" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
+      <jump line="184" column="10" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
+      <jump line="198" column="10" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
+      <jump line="199" column="10" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
+      <jump line="13" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
+      <jump line="88" column="0" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/ParentshipAgent.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19jb21tb24vLzpjb21tb24iLAo=</text>
+      <register name="&quot;" type="4">
+        <text>TRACE</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -433,10 +435,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>client</text>
+        <text>TRACE</text>
       </register>
       <register name="/" type="4">
-        <text>location-name</text>
+        <text>itera</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -491,9 +493,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>location-name</last-search>
+      <last-search>itera</last-search>
       <last-offset />
-      <last-pattern>location-name</last-pattern>
+      <last-pattern>itera</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
