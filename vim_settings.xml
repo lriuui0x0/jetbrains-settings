@@ -269,7 +269,13 @@
         <mark key="^" line="36" column="56" />
         <mark key="." line="36" column="55" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/AgeUpdateAgent.java" timestamp="1608553002153" />
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" timestamp="1608557934753">
+        <mark key="'" line="91" column="30" />
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+        <mark key="^" line="89" column="16" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/FriendshipAgent.java" timestamp="1608553025633">
         <mark key="[" line="34" column="37" />
         <mark key="]" line="34" column="56" />
@@ -291,7 +297,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
       <jump line="50" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
       <jump line="64" column="22" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="1" column="1" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
@@ -391,12 +396,13 @@
       <jump line="207" column="43" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
       <jump line="44" column="8" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" />
       <jump line="42" column="96" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" />
+      <jump line="92" column="30" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5jb25jZXB0LmFuc3dlci5Db25jZXB0TWFwOwo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -459,7 +465,7 @@ databaseName: &quot;world&quot;</text>
         <text />
       </register>
       <register name="-" type="4">
-        <text>.</text>
+        <text encoding="base64">U3RyZWFtPENvbmNlcHRNYXA+</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx5bWxcPg==</text>
@@ -473,7 +479,7 @@ databaseName: &quot;world&quot;</text>
         <text>radioSwitchContainer.current.</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5jb25jZXB0LmFuc3dlci5Db25jZXB0TWFwOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -487,28 +493,28 @@ databaseName: &quot;world&quot;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAocmFkaW9Td2l0Y2hDb250YWluZXIuY3VycmVudCkgewo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gQHRzLWlnbm9yZQo=</text>
+        <text encoding="base64">ICAgICAgICBTCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBAdHMtaWdub3JlCg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAocmFkaW9Td2l0Y2hDb250YWluZXIuY3VycmVudCkgewo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByYWRpb1N3aXRjaENvbnRhaW5lci5jdXJyZW50LnN0eWxlLnRvcCA9IGAke01hdGgubWF4KElOSVRJQUxfVE9QIC0gd2luZG93LnNjcm9sbFksIDIwKX1weGA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgLy8gQHRzLWlnbm9yZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJERUJVRyBMT0dTIGhvc3RVcmkiICsgaG9zdFVyaSArICJERUJVRyBMT0dTIHRyYWNlIiArIHRyYWNlLnRvU3RyaW5nKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAvLyBAdHMtaWdub3JlCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Pj4+Pj4+PiB0ZXN0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICAgICAgICAtLWNvbmZpZy1maWxlIC9ob21lL2dyYWJsLyRHUkFCTF9SRVBPL2NvbmZpZy9jb25maWdfc21hbGwueW1sCj09PT09PT0K</text>
+        <text encoding="base64">ICAgICAgICByYWRpb1N3aXRjaENvbnRhaW5lci5jdXJyZW50LnN0eWxlLnRvcCA9IGAke01hdGgubWF4KElOSVRJQUxfVE9QIC0gd2luZG93LnNjcm9sbFksIDIwKX1weGA7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
