@@ -7,12 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDx0cmFjZVw+</entry>
-        <entry>run</entry>
-        <entry encoding="base64">XDxkYk9wZXJhdGlvbkZhY3RvcnlcPg==</entry>
-        <entry>trace</entry>
-        <entry encoding="base64">XDx5bWxcPg==</entry>
-        <entry>step</entry>
         <entry encoding="base64">U2ltdWxhdGlvbiA=</entry>
         <entry>SimulationStep</entry>
         <entry>Simu</entry>
@@ -27,6 +21,12 @@
         <entry encoding="base64">XDxUcmFuc2FjdGlvblN0cmVhbVw+</entry>
         <entry encoding="base64">XDxzdHJlYW1cPg==</entry>
         <entry encoding="base64">XDxvbkNvbXBsZXRlZFw+</entry>
+        <entry encoding="base64">XDxjbG9zZVw+</entry>
+        <entry>close</entry>
+        <entry encoding="base64">XDxkYk9wZXJhdGlvblw+</entry>
+        <entry>run</entry>
+        <entry encoding="base64">XDxyZXF1ZXN0T2JzZXJ2ZXJcPg==</entry>
+        <entry encoding="base64">XDxzdHJlYW1Jc09wZW5cPg==</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -196,11 +196,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages-react/PerformanceAnalysis/index.tsx" timestamp="1608557248931">
-        <mark key="[" line="189" column="41" />
-        <mark key="]" line="189" column="42" />
-        <mark key="^" line="189" column="42" />
-        <mark key="." line="189" column="41" />
+      <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" timestamp="1608569004845">
+        <mark key="'" line="87" column="159" />
+        <mark key="[" line="57" column="90" />
+        <mark key="]" line="57" column="90" />
+        <mark key="." line="57" column="89" />
+        <mark key="^" line="57" column="90" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1608568345895">
         <mark key="'" line="63" column="13" />
@@ -217,17 +218,11 @@
         <mark key="." line="30" column="54" />
         <mark key="^" line="30" column="21" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages-react/PerformanceAnalysis/common/ui/ScaleNormalizeSwitcher/index.tsx" timestamp="1608557348740">
-        <mark key="[" line="13" column="0" />
-        <mark key="]" line="13" column="8" />
-        <mark key="." line="13" column="8" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionStream.java" timestamp="1608568449948">
-        <mark key="'" line="162" column="22" />
-        <mark key="[" line="88" column="31" />
-        <mark key="]" line="89" column="39" />
-        <mark key="^" line="89" column="39" />
-        <mark key="." line="89" column="38" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionStream.java" timestamp="1608568523784">
+        <mark key="'" line="159" column="9" />
+        <mark key="[" line="89" column="0" />
+        <mark key="]" line="89" column="0" />
+        <mark key="." line="89" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/artifacts.bzl" timestamp="1608562104923">
         <mark key="[" line="29" column="58" />
@@ -235,17 +230,11 @@
         <mark key="." line="29" column="58" />
         <mark key="^" line="29" column="21" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" timestamp="1608556766519">
-        <mark key="'" line="207" column="43" />
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/ResponseIterator.java" timestamp="1608568591233">
+        <mark key="'" line="68" column="16" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" timestamp="1608556799757">
-        <mark key="'" line="42" column="96" />
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" timestamp="1608568954408">
+        <mark key="'" line="48" column="11" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/GraknActionFactory.java" timestamp="1608564405022">
         <mark key="'" line="138" column="4" />
@@ -264,6 +253,9 @@
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1608566196457">
         <mark key="'" line="53" column="8" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/common/action/Action.java" timestamp="1608569023478">
+        <mark key="'" line="30" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" timestamp="1608557934753">
         <mark key="'" line="19" column="30" />
         <mark key="[" line="19" column="0" />
@@ -276,12 +268,12 @@
         <mark key="." line="106" column="40" />
         <mark key="^" line="106" column="41" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1608568234315">
-        <mark key="'" line="190" column="24" />
-        <mark key="[" line="213" column="16" />
-        <mark key="]" line="213" column="29" />
-        <mark key="." line="213" column="28" />
-        <mark key="^" line="213" column="29" />
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1608569128651">
+        <mark key="'" line="144" column="12" />
+        <mark key="[" line="196" column="45" />
+        <mark key="]" line="196" column="45" />
+        <mark key="." line="196" column="45" />
+        <mark key="^" line="203" column="54" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" timestamp="1608566187025">
         <mark key="'" line="68" column="0" />
@@ -296,36 +288,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="180" column="0" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="70" column="33" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="71" column="21" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="74" column="19" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="132" column="28" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="181" column="33" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="148" column="23" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="145" column="18" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="135" column="16" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="75" column="15" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="58" column="19" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="81" column="42" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="85" column="45" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="90" column="51" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
-      <jump line="95" column="15" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
-      <jump line="44" column="66" filename="$USER_HOME$/GraknLabs/simulation/grakn/GraknSimulation.java" />
-      <jump line="43" column="138" filename="$USER_HOME$/GraknLabs/simulation/grakn/GraknSimulation.java" />
-      <jump line="36" column="15" filename="$USER_HOME$/GraknLabs/simulation/config/Config.java" />
-      <jump line="39" column="38" filename="$USER_HOME$/GraknLabs/simulation/config/Config.java" />
-      <jump line="40" column="22" filename="$USER_HOME$/GraknLabs/simulation/config/Config.java" />
-      <jump line="28" column="24" filename="$USER_HOME$/GraknLabs/simulation/config/Config.java" />
-      <jump line="59" column="28" filename="$USER_HOME$/GraknLabs/simulation/common/Simulation.java" />
-      <jump line="209" column="12" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
-      <jump line="85" column="16" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
-      <jump line="43" column="80" filename="$USER_HOME$/GraknLabs/simulation/neo4j/Neo4jSimulation.java" />
-      <jump line="42" column="179" filename="$USER_HOME$/GraknLabs/simulation/neo4j/Neo4jSimulation.java" />
-      <jump line="31" column="185" filename="$USER_HOME$/GraknLabs/simulation/common/TransactionalSimulation.java" />
-      <jump line="49" column="45" filename="$USER_HOME$/GraknLabs/simulation/common/Simulation.java" />
-      <jump line="56" column="172" filename="$USER_HOME$/GraknLabs/simulation/common/Simulation.java" />
-      <jump line="60" column="41" filename="$USER_HOME$/GraknLabs/simulation/common/Simulation.java" />
       <jump line="49" column="23" filename="$USER_HOME$/GraknLabs/simulation/common/agent/AgentFactory.java" />
       <jump line="71" column="99" filename="$USER_HOME$/GraknLabs/simulation/common/Simulation.java" />
       <jump line="70" column="36" filename="$USER_HOME$/GraknLabs/simulation/common/agent/AgentFactory.java" />
@@ -371,14 +333,12 @@
       <jump line="74" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" />
       <jump line="68" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" />
       <jump line="138" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/GraknActionFactory.java" />
-      <jump line="196" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="86" column="17" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
       <jump line="78" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="59" column="39" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="147" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="160" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="172" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="195" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="184" column="52" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="87" column="24" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
       <jump line="98" column="139" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
@@ -396,12 +356,44 @@
       <jump line="63" column="13" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" />
       <jump line="88" column="16" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionStream.java" />
       <jump line="161" column="22" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionStream.java" />
+      <jump line="89" column="28" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionStream.java" />
+      <jump line="160" column="9" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionStream.java" />
+      <jump line="93" column="46" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="173" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="47" column="4" filename="$USER_HOME$/GraknLabs/client-java/rpc/ResponseIterator.java" />
+      <jump line="37" column="67" filename="$USER_HOME$/GraknLabs/client-java/rpc/ResponseIterator.java" />
+      <jump line="42" column="86" filename="$USER_HOME$/GraknLabs/client-java/rpc/ResponseIterator.java" />
+      <jump line="46" column="31" filename="$USER_HOME$/GraknLabs/client-java/rpc/ResponseIterator.java" />
+      <jump line="68" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/ResponseIterator.java" />
+      <jump line="174" column="91" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="63" column="67" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="83" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="161" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="48" column="11" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
+      <jump line="89" column="16" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" />
+      <jump line="57" column="30" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" />
+      <jump line="58" column="125" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" />
+      <jump line="64" column="30" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" />
+      <jump line="65" column="115" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" />
+      <jump line="82" column="30" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" />
+      <jump line="87" column="159" filename="$USER_HOME$/GraknLabs/simulation/common/agent/write/TransactionAgent.java" />
+      <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/simulation/common/action/Action.java" />
+      <jump line="195" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="201" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="146" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="163" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="196" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="202" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="66" column="32" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="80" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="84" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="144" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yLnByaW50U3RhY2tUcmFjZSgpOwo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -464,21 +456,21 @@ databaseName: &quot;world&quot;</text>
         <text />
       </register>
       <register name="-" type="4">
-        <text>parallelStream</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxvbkNvbXBsZXRlZFw+</text>
+        <text encoding="base64">XDxzdHJlYW1Jc09wZW5cPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>radioSwitchContainer.current.</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigic2VydmVyIG9uIEVycm9yIik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yLnByaW50U3RhY2tUcmFjZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJvbkNvbXBsZXRlZCIpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -492,28 +484,28 @@ databaseName: &quot;world&quot;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yLnByaW50U3RhY2tUcmFjZSgpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJvbkNvbXBsZXRlZCIpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5jb25jZXB0LmFuc3dlci5Db25jZXB0TWFwOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBTCg==</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIm9uQ29tcGxldGVkIik7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yLnByaW50U3RhY2tUcmFjZSgpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAocmFkaW9Td2l0Y2hDb250YWluZXIuY3VycmVudCkgewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVycm9yLnByaW50U3RhY2tUcmFjZSgpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLy8gQHRzLWlnbm9yZQo=</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5jb25jZXB0LmFuc3dlci5Db25jZXB0TWFwOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAvLyBAdHMtaWdub3JlCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -522,9 +514,9 @@ databaseName: &quot;world&quot;</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxvbkNvbXBsZXRlZFw+</last-search>
+      <last-search encoding="base64">XDxzdHJlYW1Jc09wZW5cPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxvbkNvbXBsZXRlZFw+</last-pattern>
+      <last-pattern encoding="base64">XDxzdHJlYW1Jc09wZW5cPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
