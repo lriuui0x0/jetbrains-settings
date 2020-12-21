@@ -229,8 +229,8 @@
         <mark key="^" line="110" column="92" />
         <mark key="." line="134" column="72" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" timestamp="1608553595094">
-        <mark key="'" line="133" column="45" />
+      <file name="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" timestamp="1608556766519">
+        <mark key="'" line="207" column="43" />
         <mark key="[" line="21" column="0" />
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
@@ -246,6 +246,12 @@
         <mark key="]" line="27" column="56" />
         <mark key="^" line="27" column="56" />
         <mark key="." line="27" column="55" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" timestamp="1608556799757">
+        <mark key="'" line="42" column="96" />
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/RelocationAgent.java" timestamp="1608553056098">
         <mark key="[" line="37" column="37" />
@@ -267,12 +273,6 @@
         <mark key="^" line="34" column="56" />
         <mark key="." line="34" column="55" />
       </file>
-      <file name="/Dummy.txt" timestamp="1608552851289">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="19" />
-        <mark key="^" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/ParentshipAgent.java" timestamp="1608553039758">
         <mark key="'" line="88" column="0" />
         <mark key="[" line="40" column="37" />
@@ -288,8 +288,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="79" column="4" filename="$USER_HOME$/GraknLabs/grakn/traversal/procedure/ProcedureEdge.java" />
-      <jump line="75" column="119" filename="$USER_HOME$/GraknLabs/grakn/traversal/procedure/ProcedureEdge.java" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
       <jump line="50" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
       <jump line="64" column="22" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
@@ -346,7 +344,6 @@
       <jump line="40" column="22" filename="$USER_HOME$/GraknLabs/simulation/config/Config.java" />
       <jump line="28" column="24" filename="$USER_HOME$/GraknLabs/simulation/config/Config.java" />
       <jump line="59" column="28" filename="$USER_HOME$/GraknLabs/simulation/common/Simulation.java" />
-      <jump line="207" column="222" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
       <jump line="209" column="12" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
       <jump line="85" column="16" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
       <jump line="43" column="80" filename="$USER_HOME$/GraknLabs/simulation/neo4j/Neo4jSimulation.java" />
@@ -388,12 +385,15 @@
       <jump line="78" column="67" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="41" column="33" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="133" column="45" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
+      <jump line="207" column="43" filename="$USER_HOME$/GraknLabs/simulation/SimulationRunner.java" />
+      <jump line="44" column="8" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" />
+      <jump line="42" column="96" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Pj4+Pj4+PiB0ZXN0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJERUJVRyBMT0dTIGhvc3RVcmkiICsgaG9zdFVyaSArICJERUJVRyBMT0dTIHRyYWNlIiArIHRyYWNlLnRvU3RyaW5nKCkpOwo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -470,7 +470,7 @@ databaseName: &quot;world&quot;</text>
         <text>TraversalTest8/world2.data</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Pj4+Pj4+PiB0ZXN0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJERUJVRyBMT0dTIGhvc3RVcmkiICsgaG9zdFVyaSArICJERUJVRyBMT0dTIHRyYWNlIiArIHRyYWNlLnRvU3RyaW5nKCkpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -484,28 +484,28 @@ databaseName: &quot;world&quot;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICAgICAgICAtLWNvbmZpZy1maWxlIC9ob21lL2dyYWJsLyRHUkFCTF9SRVBPL2NvbmZpZy9jb25maWdfc21hbGwueW1sCj09PT09PT0K</text>
+        <text encoding="base64">Pj4+Pj4+PiB0ZXN0Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByb3RlY3RlZCBmaW5hbCBTaW11bGF0aW9uQ29udGV4dCBzaW11bGF0aW9uQ29udGV4dDsK</text>
+        <text encoding="base64">PDw8PDw8PCBIRUFECiAgICAgICAgICAtLWNvbmZpZy1maWxlIC9ob21lL2dyYWJsLyRHUkFCTF9SRVBPL2NvbmZpZy9jb25maWdfc21hbGwueW1sCj09PT09PT0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU2ltdWxhdGlvbkNvbnRleHQgc2ltdWxhdGlvbkNvbnRleHQ7Cg==</text>
+        <text encoding="base64">ICAgIHByb3RlY3RlZCBmaW5hbCBTaW11bGF0aW9uQ29udGV4dCBzaW11bGF0aW9uQ29udGV4dDsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiTG9uZG9uIiwKICAgICAgICAgICAgICAgICAgICAiTmV3IFlvcmsiLAogICAgICAgICAgICAgICAgICAgICJCZXJsaW4iLAogICAgICAgICAgICAgICAgICAgICJCcmFzaWxpYSIsCiAgICAgICAgICAgICAgICAgICAgIkNhcGUgVG93biIsCiAgICAgICAgICAgICAgICAgICAgIkJlaWppbmciLAo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgU2ltdWxhdGlvbkNvbnRleHQgc2ltdWxhdGlvbkNvbnRleHQ7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgQEJlZm9yZUNsYXNzCi8vICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBiZWZvcmUoKSB0aHJvd3MgSU9FeGNlcHRpb24gewovLyAgICAgICAgVXRpbC5yZXNldERpcmVjdG9yeShkaXJlY3RvcnkpOwovLyAgICAgICAgZ3Jha24gPSBSb2Nrc0dyYWtuLm9wZW4oZGlyZWN0b3J5KTsKLy8gICAgICAgIGdyYWtuLmRhdGFiYXNlcygpLmNyZWF0ZShkYXRhYmFzZSk7Ci8vCi8vICAgICAgICB0cnkgKFJvY2tzU2Vzc2lvbiBzZXNzaW9uID0gZ3Jha24uc2Vzc2lvbihkYXRhYmFzZSwgQXJndW1lbnRzLlNlc3Npb24uVHlwZS5TQ0hFTUEpKSB7Ci8vICAgICAgICAgICAgdHJ5IChSb2Nrc1RyYW5zYWN0aW9uIHRyYW5zYWN0aW9uID0gc2Vzc2lvbi50cmFuc2FjdGlvbihXUklURSkpIHsKLy8gICAgICAgICAgICAgICAgZmluYWwgR3JhcWxEZWZpbmUgcXVlcnkgPSBwYXJzZVF1ZXJ5KG5ldyBTdHJpbmcoRmlsZXMucmVhZEFsbEJ5dGVzKFBhdGhzLmdldCgidGVzdC9pbnRlZ3JhdGlvbi90cmF2ZXJzYWwvVHJhdmVyc2FsVGVzdDgvd29ybGQyLmdxbCIpKSwgVVRGXzgpKTsKLy8gICAgICAgICAgICAgICAgdHJhbnNhY3Rpb24ucXVlcnkoKS5kZWZpbmUocXVlcnkpOwovLyAgICAgICAgICAgICAgICB0cmFuc2FjdGlvbi5jb21taXQoKTsKLy8gICAgICAgICAgICB9Ci8vICAgICAgICB9Ci8vCi8vICAgICAgICBJbXBvcnRlciBpbXBvcnRlciA9IG5ldyBJbXBvcnRlcihncmFrbiwgZGF0YWJhc2UsIFBhdGhzLmdldCgidGVzdC9pbnRlZ3JhdGlvbi90cmF2ZXJzYWwvVHJhdmVyc2FsVGVzdDgvd29ybGQyLmRhdGEiKSwgbmV3IEhhc2hNYXA8PigpKTsKLy8gICAgICAgIGltcG9ydGVyLnJ1bigpOwovLwovLyAgICAgICAgc2Vzc2lvbiA9IGdyYWtuLnNlc3Npb24oZGF0YWJhc2UsIERBVEEpOwovLyAgICB9CgogICAgQEFmdGVyQ2xhc3MKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBhZnRlcigpIHsKLy8gICAgICAgIHNlc3Npb24uY2xvc2UoKTsKLy8gICAgICAgIGdyYWtuLmNsb3NlKCk7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiTG9uZG9uIiwKICAgICAgICAgICAgICAgICAgICAiTmV3IFlvcmsiLAogICAgICAgICAgICAgICAgICAgICJCZXJsaW4iLAogICAgICAgICAgICAgICAgICAgICJCcmFzaWxpYSIsCiAgICAgICAgICAgICAgICAgICAgIkNhcGUgVG93biIsCiAgICAgICAgICAgICAgICAgICAgIkJlaWppbmciLAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2Vzc2lvbi5jbG9zZSgpOwogICAgICAgICAgICBncmFrbi5jbG9zZSgpOwo=</text>
+        <text encoding="base64">Ly8gICAgQEJlZm9yZUNsYXNzCi8vICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBiZWZvcmUoKSB0aHJvd3MgSU9FeGNlcHRpb24gewovLyAgICAgICAgVXRpbC5yZXNldERpcmVjdG9yeShkaXJlY3RvcnkpOwovLyAgICAgICAgZ3Jha24gPSBSb2Nrc0dyYWtuLm9wZW4oZGlyZWN0b3J5KTsKLy8gICAgICAgIGdyYWtuLmRhdGFiYXNlcygpLmNyZWF0ZShkYXRhYmFzZSk7Ci8vCi8vICAgICAgICB0cnkgKFJvY2tzU2Vzc2lvbiBzZXNzaW9uID0gZ3Jha24uc2Vzc2lvbihkYXRhYmFzZSwgQXJndW1lbnRzLlNlc3Npb24uVHlwZS5TQ0hFTUEpKSB7Ci8vICAgICAgICAgICAgdHJ5IChSb2Nrc1RyYW5zYWN0aW9uIHRyYW5zYWN0aW9uID0gc2Vzc2lvbi50cmFuc2FjdGlvbihXUklURSkpIHsKLy8gICAgICAgICAgICAgICAgZmluYWwgR3JhcWxEZWZpbmUgcXVlcnkgPSBwYXJzZVF1ZXJ5KG5ldyBTdHJpbmcoRmlsZXMucmVhZEFsbEJ5dGVzKFBhdGhzLmdldCgidGVzdC9pbnRlZ3JhdGlvbi90cmF2ZXJzYWwvVHJhdmVyc2FsVGVzdDgvd29ybGQyLmdxbCIpKSwgVVRGXzgpKTsKLy8gICAgICAgICAgICAgICAgdHJhbnNhY3Rpb24ucXVlcnkoKS5kZWZpbmUocXVlcnkpOwovLyAgICAgICAgICAgICAgICB0cmFuc2FjdGlvbi5jb21taXQoKTsKLy8gICAgICAgICAgICB9Ci8vICAgICAgICB9Ci8vCi8vICAgICAgICBJbXBvcnRlciBpbXBvcnRlciA9IG5ldyBJbXBvcnRlcihncmFrbiwgZGF0YWJhc2UsIFBhdGhzLmdldCgidGVzdC9pbnRlZ3JhdGlvbi90cmF2ZXJzYWwvVHJhdmVyc2FsVGVzdDgvd29ybGQyLmRhdGEiKSwgbmV3IEhhc2hNYXA8PigpKTsKLy8gICAgICAgIGltcG9ydGVyLnJ1bigpOwovLwovLyAgICAgICAgc2Vzc2lvbiA9IGdyYWtuLnNlc3Npb24oZGF0YWJhc2UsIERBVEEpOwovLyAgICB9CgogICAgQEFmdGVyQ2xhc3MKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBhZnRlcigpIHsKLy8gICAgICAgIHNlc3Npb24uY2xvc2UoKTsKLy8gICAgICAgIGdyYWtuLmNsb3NlKCk7CiAgICB9Cgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZXNzaW9uLmNsb3NlKCk7CiAgICAgICAgZ3Jha24uY2xvc2UoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2Vzc2lvbi5jbG9zZSgpOwogICAgICAgICAgICBncmFrbi5jbG9zZSgpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZXNzaW9uLmNsb3NlKCk7CiAgICAgICAgZ3Jha24uY2xvc2UoKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
