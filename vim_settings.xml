@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxkYk5hbWVcPg==</entry>
-        <entry>Grakn</entry>
-        <entry>value</entry>
         <entry encoding="base64">XDx2YWx1ZVw+</entry>
         <entry encoding="base64">XDxkYXRhdHlwZVw+</entry>
         <entry>client_java</entry>
@@ -27,6 +24,9 @@
         <entry>wage-value</entry>
         <entry>wage-datatype</entry>
         <entry encoding="base64">XDxPRkZcPg==</entry>
+        <entry>NOT</entry>
+        <entry encoding="base64">XDxUUkFDRVw+</entry>
+        <entry encoding="base64">XDxOT1w+</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -41,12 +41,12 @@
         <entry>s</entry>
         <entry>ww:w</entry>
         <entry>vs</entry>
-        <entry>w\</entry>
         <entry>.w</entry>
         <entry encoding="base64">JzwsJz53</entry>
         <entry>we</entry>
         <entry>wq</entry>
         <entry>ww</entry>
+        <entry>w\</entry>
         <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
@@ -196,38 +196,33 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" timestamp="1608666367789">
-        <mark key="[" line="20" column="37" />
-        <mark key="]" line="20" column="38" />
-        <mark key="." line="20" column="37" />
-        <mark key="^" line="20" column="38" />
+      <file name="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" timestamp="1608671623808">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="26" />
+        <mark key="." line="31" column="0" />
+        <mark key="^" line="3" column="15" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/repositories.bzl" timestamp="1608664463991">
-        <mark key="'" line="27" column="19" />
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="33" column="0" />
-        <mark key="." line="33" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1608670841863">
+        <mark key="'" line="252" column="54" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" timestamp="1608667815384">
-        <mark key="'" line="3" column="10" />
-        <mark key="[" line="49" column="12" />
-        <mark key="k" line="8" column="14" />
-        <mark key="]" line="49" column="16" />
-        <mark key="." line="49" column="15" />
-        <mark key="^" line="49" column="16" />
+      <file name="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jDriver.java" timestamp="1608669730867">
+        <mark key="'" line="53" column="8" />
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="54" column="8" />
+        <mark key="." line="54" column="8" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/design/automation.yml" timestamp="1608655567806">
-        <mark key="'" line="89" column="25" />
-        <mark key="[" line="61" column="0" />
-        <mark key="]" line="61" column="26" />
-        <mark key="^" line="89" column="15" />
-        <mark key="." line="61" column="0" />
+      <file name="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" timestamp="1608671700228">
+        <mark key="'" line="1" column="10" />
+        <mark key="[" line="9" column="10" />
+        <mark key="]" line="9" column="10" />
+        <mark key="." line="9" column="12" />
+        <mark key="^" line="33" column="13" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/artifacts.bzl" timestamp="1608664235062">
-        <mark key="[" line="26" column="19" />
-        <mark key="]" line="26" column="20" />
-        <mark key="." line="26" column="19" />
-        <mark key="^" line="26" column="20" />
+      <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/artifacts.bzl" timestamp="1608670683560">
+        <mark key="[" line="19" column="58" />
+        <mark key="]" line="19" column="58" />
+        <mark key="." line="19" column="58" />
+        <mark key="^" line="19" column="21" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/grakn/BUILD" timestamp="1608665603718">
         <mark key="'" line="24" column="10" />
@@ -236,24 +231,30 @@
         <mark key="^" line="23" column="15" />
         <mark key="." line="24" column="14" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" timestamp="1608654763607">
-        <mark key="[" line="75" column="0" />
-        <mark key="]" line="75" column="0" />
-        <mark key="." line="75" column="0" />
+      <file name="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" timestamp="1608669819651">
+        <mark key="'" line="63" column="8" />
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="8" />
+        <mark key="." line="69" column="8" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" timestamp="1608665696243">
-        <mark key="'" line="65" column="92" />
-        <mark key="[" line="98" column="45" />
-        <mark key="]" line="98" column="45" />
-        <mark key="." line="98" column="45" />
-        <mark key="^" line="73" column="62" />
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" timestamp="1608669700801">
+        <mark key="'" line="66" column="0" />
+        <mark key="[" line="65" column="0" />
+        <mark key="]" line="65" column="8" />
+        <mark key="." line="65" column="8" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" timestamp="1608671042682">
+        <mark key="[" line="94" column="0" />
+        <mark key="]" line="94" column="8" />
+        <mark key="." line="94" column="8" />
+        <mark key="^" line="79" column="8" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/yaml_tool/BUILD" timestamp="1608665610286">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1608650672038">
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1608671614581">
         <mark key="'" line="64" column="19" />
         <mark key="[" line="64" column="18" />
         <mark key="]" line="64" column="28" />
@@ -280,7 +281,6 @@
         <mark key="." line="123" column="21" />
         <mark key="^" line="123" column="36" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/common/Route.java" timestamp="1608658471227" />
       <file name="$USER_HOME$/GraknLabs/simulation/WORKSPACE" timestamp="1608665418391">
         <mark key="'" line="192" column="40" />
         <mark key="[" line="183" column="0" />
@@ -303,17 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="335" column="126" filename="$USER_HOME$/GraknLabs/grabl/automation/config/AutomationConfig.java" />
-      <jump line="134" column="26" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
-      <jump line="62" column="68" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
-      <jump line="85" column="53" filename="$USER_HOME$/GraknLabs/grabl/design/automation.yml" />
-      <jump line="87" column="25" filename="$USER_HOME$/GraknLabs/grabl/design/automation.yml" />
-      <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" />
-      <jump line="72" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknDriver.java" />
-      <jump line="65" column="10" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="3" column="6" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="31" column="6" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="46" column="6" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="64" column="6" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="64" column="19" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
@@ -321,8 +310,6 @@
       <jump line="71" column="22" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
       <jump line="80" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
       <jump line="70" column="92" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
-      <jump line="58" column="47" filename="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" />
-      <jump line="61" column="9" filename="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" />
       <jump line="12" column="18" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
       <jump line="78" column="4" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
       <jump line="76" column="27" filename="$USER_HOME$/GraknLabs/simulation/common/agent/base/Agent.java" />
@@ -402,13 +389,26 @@
       <jump line="357" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="358" column="22" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="359" column="8" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="3" column="10" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
+      <jump line="57" column="8" filename="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jDriver.java" />
+      <jump line="75" column="8" filename="$USER_HOME$/GraknLabs/simulation/grakn/driver/GraknOperation.java" />
+      <jump line="61" column="9" filename="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" />
+      <jump line="58" column="32" filename="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" />
+      <jump line="66" column="8" filename="$USER_HOME$/GraknLabs/simulation/neo4j/driver/Neo4jOperation.java" />
+      <jump line="324" column="0" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="337" column="4" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="252" column="54" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="27" column="17" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
+      <jump line="5" column="10" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
+      <jump line="33" column="12" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
+      <jump line="39" column="12" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
+      <jump line="3" column="12" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
+      <jump line="1" column="10" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>0</text>
+        <text>NO</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -420,10 +420,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>NO</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxPRkZcPg==</text>
+        <text encoding="base64">XDxOT1w+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -431,10 +431,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAiQG5lbzRqLy86aW9fZ3JhcWxfZ3JhcWxfbGFuZyIsCg==</text>
+        <text encoding="base64">ICAgICAgbWFjaGluZTogMTZjcHVzLTMyZ2IK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwZXJzb24KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXMoQUdFLCBhZ2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkK</text>
+        <text encoding="base64">ICAgICAgbWFjaGluZTogCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -448,28 +448,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oYXMoQUdFLCBhZ2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkK</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19ncmFxbC8vamF2YTpncmFxbCIsCg==</text>
+        <text encoding="base64">ICAgICAgICB0cnkgKEdyYWJsVHJhY2luZ1RocmVhZFN0YXRpYy5UaHJlYWRUcmFjZSB0cmFjZSA9IHRyYWNlT25UaHJlYWQoRVhFQ1VURS5nZXROYW1lKCkpKSB7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGdyYWtubGFic19ncmFibF90cmFjaW5nX2FydGlmYWN0cywK</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgImlvLmdyYXFsOmdyYXFsLWxhbmc6MS4wLjYiLAo=</text>
+        <text encoding="base64">ICAgICAgICB0cnkgKEdyYWJsVHJhY2luZ1RocmVhZFN0YXRpYy5UaHJlYWRUcmFjZSB0cmFjZSA9IHRyYWNlT25UaHJlYWQoRVhFQ1VURS5nZXROYW1lKCkpKSB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiQG1hdmVuLy86aW9fZ3Jha25fY2xpZW50X2dyYWtuX2NsaWVudCIsCg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19ncmFxbC8vamF2YTpncmFxbCIsCg==</text>
+        <text encoding="base64">ICAgICAgICB0cnkgKEdyYWJsVHJhY2luZ1RocmVhZFN0YXRpYy5UaHJlYWRUcmFjZSB0cmFjZSA9IHRyYWNlT25UaHJlYWQoRVhFQ1VURS5nZXROYW1lKCkpKSB7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAiQGdyYWtubGFic19ncmFxbC8vamF2YTpncmFxbCIsCg==</text>
+        <text encoding="base64">ICAgICAgICB9LCBTT1JURURfRVhFQ1VURS5nZXROYW1lKCkpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAiQG1hdmVuLy86Y2xpZW50LWphdmEiLAo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gdHJhY2UoKCkgLT4gewo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -478,9 +478,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxPRkZcPg==</last-search>
+      <last-search encoding="base64">XDxOT1w+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxPRkZcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxOT1w+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
