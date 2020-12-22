@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxpdGVyYXRlUmVnaW9uYWxBZ2VudFw+</entry>
-        <entry>trasaction</entry>
-        <entry encoding="base64">XDxSZXNwb25zZUNvbGxlY3RvcnNcPg==</entry>
-        <entry>onError</entry>
         <entry encoding="base64">XDxUcmFuc2FjdGlvblN0cmVhbVw+</entry>
         <entry encoding="base64">XDxzdHJlYW1cPg==</entry>
         <entry encoding="base64">XDxvbkNvbXBsZXRlZFw+</entry>
@@ -27,6 +23,10 @@
         <entry encoding="base64">XDxzaW11bGF0aW9uU3RlcFw+</entry>
         <entry encoding="base64">XDxpdGVyYXRpb25cPg==</entry>
         <entry>pages</entry>
+        <entry>Azure</entry>
+        <entry>FS</entry>
+        <entry>F</entry>
+        <entry>Fs</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -197,12 +197,6 @@
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/GraknLabs/grabl/tracing/server/TraceTreeBuffer.java" timestamp="1608638432382" />
-      <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/ProductAgent.java" timestamp="1608635393316">
-        <mark key="[" line="41" column="41" />
-        <mark key="]" line="41" column="49" />
-        <mark key="." line="41" column="48" />
-        <mark key="^" line="41" column="49" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/agent/region/ContinentAgent.java" timestamp="1608635823208">
         <mark key="[" line="44" column="36" />
         <mark key="]" line="44" column="44" />
@@ -251,6 +245,12 @@
         <mark key="^" line="43" column="40" />
         <mark key="." line="43" column="39" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/design/automation.yml" timestamp="1608646643961">
+        <mark key="[" line="51" column="10" />
+        <mark key="]" line="51" column="11" />
+        <mark key="." line="51" column="10" />
+        <mark key="^" line="51" column="11" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/common/Simulation.java" timestamp="1608635937462">
         <mark key="'" line="53" column="16" />
         <mark key="[" line="100" column="16" />
@@ -264,11 +264,12 @@
         <mark key="^" line="45" column="39" />
         <mark key="." line="45" column="38" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/common/agent/write/RelocationAgent.java" timestamp="1608635401946">
-        <mark key="[" line="46" column="25" />
-        <mark key="]" line="46" column="33" />
-        <mark key="^" line="46" column="33" />
-        <mark key="." line="46" column="32" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1608646737795">
+        <mark key="'" line="78" column="221" />
+        <mark key="[" line="258" column="55" />
+        <mark key="]" line="258" column="75" />
+        <mark key="^" line="258" column="75" />
+        <mark key="." line="258" column="74" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1608641641693">
         <mark key="'" line="51" column="0" />
@@ -313,12 +314,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="92" column="30" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/write/GraknUpdateAgesOfPeopleInCityAction.java" />
-      <jump line="65" column="30" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="309" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="55" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" />
-      <jump line="57" column="10" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" />
       <jump line="74" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" />
       <jump line="68" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" />
       <jump line="138" column="4" filename="$USER_HOME$/GraknLabs/simulation/grakn/action/GraknActionFactory.java" />
@@ -413,12 +408,18 @@
       <jump line="51" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" />
       <jump line="4" column="42" filename="$USER_HOME$/GraknLabs/grabl/local/azure_auth.properties" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grabl/local/azure_auth.properties" />
+      <jump line="127" column="34" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="10" column="38" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="46" column="13" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="61" column="12" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="76" column="11" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
+      <jump line="78" column="221" filename="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>,</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -430,10 +431,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>REPLACEME</text>
+        <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>pages</text>
+        <text>Fs</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -444,7 +445,7 @@
         <text>ac4cab6f-0465-44b9-a7b9-6c8b6a3f9442</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgY3B1Ogo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -458,28 +459,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZXhwb3J0Cg==</text>
+        <text encoding="base64">ICAgICAgaW1hZ2U6IAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgbWFjaGllCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZXhwb3J0Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBVbmJvdW5kVmFyaWFibGUgZW1haWxWYXIgPSBHcmFxbC52YXIoRU1BSUwpOwogICAgICAgIFVuYm91bmRWYXJpYWJsZSBnZW5kZXJWYXIgPSBHcmFxbC52YXIoR0VOREVSKTsKICAgICAgICBVbmJvdW5kVmFyaWFibGUgZm9yZW5hbWVWYXIgPSBHcmFxbC52YXIoRk9SRU5BTUUpOwogICAgICAgIFVuYm91bmRWYXJpYWJsZSBzdXJuYW1lVmFyID0gR3JhcWwudmFyKFNVUk5BTUUpOwogICAgICAgIFVuYm91bmRWYXJpYWJsZSBkb2JWYXIgPSBHcmFxbC52YXIoREFURV9PRl9CSVJUSCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZW1haWxWYXIuZXEoZW1haWwpLAogICAgICAgICAgICAgICAgICAgICAgICBnZW5kZXJWYXIuZXEoZ2VuZGVyKSwKICAgICAgICAgICAgICAgICAgICAgICAgZm9yZW5hbWVWYXIuZXEoZm9yZW5hbWUpLAogICAgICAgICAgICAgICAgICAgICAgICBzdXJuYW1lVmFyLmVxKHN1cm5hbWUpLAogICAgICAgICAgICAgICAgICAgICAgICBkb2JWYXIuZXEodG9kYXkpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHNpbXVsYXRpb25Db250ZXh0LnNpbXVsYXRpb25TdGVwKCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBVbmJvdW5kVmFyaWFibGUgZW1haWxWYXIgPSBHcmFxbC52YXIoRU1BSUwpOwogICAgICAgIFVuYm91bmRWYXJpYWJsZSBnZW5kZXJWYXIgPSBHcmFxbC52YXIoR0VOREVSKTsKICAgICAgICBVbmJvdW5kVmFyaWFibGUgZm9yZW5hbWVWYXIgPSBHcmFxbC52YXIoRk9SRU5BTUUpOwogICAgICAgIFVuYm91bmRWYXJpYWJsZSBzdXJuYW1lVmFyID0gR3JhcWwudmFyKFNVUk5BTUUpOwogICAgICAgIFVuYm91bmRWYXJpYWJsZSBkb2JWYXIgPSBHcmFxbC52YXIoREFURV9PRl9CSVJUSCk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -488,9 +489,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>pages</last-search>
+      <last-search>Fs</last-search>
       <last-offset />
-      <last-pattern>pages</last-pattern>
+      <last-pattern>Fs</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
