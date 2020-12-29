@@ -25,8 +25,8 @@
         <entry>for</entry>
         <entry>remove</entry>
         <entry encoding="base64">XDxjb2xsZWN0b3JzXD4=</entry>
-        <entry>commit</entry>
         <entry encoding="base64">XDxjbG9zZVBlbmRpbmdSZXF1ZXN0V2l0aEVycm9yXD4=</entry>
+        <entry>commit</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -204,6 +204,12 @@
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1609237284380">
         <mark key="'" line="59" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" timestamp="1609258293237">
+        <mark key="'" line="72" column="50" />
+        <mark key="[" line="105" column="0" />
+        <mark key="]" line="105" column="0" />
+        <mark key="." line="105" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1609251185986">
         <mark key="'" line="80" column="12" />
       </file>
@@ -272,7 +278,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="75" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="69" column="24" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="183" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="425" column="69" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
@@ -372,12 +377,13 @@
       <jump line="129" column="42" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="243" column="65" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="254" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="72" column="50" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>WithError</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgVGhyZWFkLnNsZWVwKDE1KTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -389,10 +395,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>WithError</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbG9zZVBlbmRpbmdSZXF1ZXN0V2l0aEVycm9yXD4=</text>
+        <text>commit</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -403,7 +409,7 @@
         <text>(Response.Result)response</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgVGhyZWFkLnNsZWVwKDE1KTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -417,28 +423,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29sbGVjdG9ycy5jbGVhcigpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY29sbGVjdG9ycy5jbGVhcigpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29sbGVjdG9ycy5jbGVhcigpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICgoKFJlc3BvbnNlLkRvbmUpcmVzcG9uc2UpLmVycm9yKCkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHRocm93ICgoUmVzcG9uc2UuRG9uZSlyZXNwb25zZSkuZXJyb3IoKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIHN0YXR1czsKCiAgICAgICAgICAgICAgICBwdWJsaWMgU3RyaW5nIHN0YXR1cygpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gc3RhdHVzOwogICAgICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICgoKFJlc3BvbnNlLkRvbmUpcmVzcG9uc2UpLmVycm9yKCkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHRocm93ICgoUmVzcG9uc2UuRG9uZSlyZXNwb25zZSkuZXJyb3IoKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbXBsZXRlZCgpIHsKICAgICAgICAgICAgICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIHN0YXR1czsKCiAgICAgICAgICAgICAgICBwdWJsaWMgU3RyaW5nIHN0YXR1cygpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gc3RhdHVzOwogICAgICAgICAgICAgICAgfQoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aGlzLnN0YXR1cyA9IHN0YXR1czsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIENvbXBsZXRlZCgpIHsKICAgICAgICAgICAgICAgIH0KCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAvLyBUT0RPOiBwYXJzZSBkaWZmZXJlbnQgZ1JQQyBlcnJvcnMgaW50byBzcGVjaWZpYyBHcmFrbkNsaWVudEV4Y2VwdGlvbgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0aGlzLnN0YXR1cyA9IHN0YXR1czsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -447,9 +453,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjbG9zZVBlbmRpbmdSZXF1ZXN0V2l0aEVycm9yXD4=</last-search>
+      <last-search>commit</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbG9zZVBlbmRpbmdSZXF1ZXN0V2l0aEVycm9yXD4=</last-pattern>
+      <last-pattern>commit</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
