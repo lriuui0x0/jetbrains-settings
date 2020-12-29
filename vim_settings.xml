@@ -20,13 +20,13 @@
         <entry>take</entry>
         <entry encoding="base64">XDxjbG9zZVN1Y2Nlc3NcPg==</entry>
         <entry encoding="base64">XDxyZXNwb25zZU9ic2VydmVyXD4=</entry>
-        <entry>commit</entry>
         <entry encoding="base64">XDxleGVjdXRlXD4=</entry>
         <entry encoding="base64">XDx0cmFuc2FjdGlvbldhc0Nsb3NlZFw+</entry>
         <entry>transaction.close</entry>
         <entry>for</entry>
         <entry>remove</entry>
         <entry encoding="base64">XDxjb2xsZWN0b3JzXD4=</entry>
+        <entry>commit</entry>
       </history-search>
       <history-cmd>
         <entry>w:w</entry>
@@ -46,8 +46,8 @@
         <entry>ww</entry>
         <entry>w\</entry>
         <entry encoding="base64">JzwsJz53</entry>
-        <entry>q</entry>
         <entry>cnext</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -204,8 +204,8 @@
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1609237284380">
         <mark key="'" line="59" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1609245472921">
-        <mark key="'" line="152" column="17" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1609251185986">
+        <mark key="'" line="80" column="12" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" timestamp="1609233210355">
         <mark key="'" line="80" column="0" />
@@ -214,14 +214,14 @@
         <mark key="." line="50" column="17" />
         <mark key="^" line="69" column="18" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1609251164585">
+        <mark key="'" line="210" column="51" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/artifacts.bzl" timestamp="1609236951307">
         <mark key="[" line="29" column="58" />
         <mark key="]" line="29" column="58" />
         <mark key="^" line="29" column="20" />
         <mark key="." line="29" column="58" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/traversal/procedure/ProcedureVertex.java" timestamp="1608742757780">
-        <mark key="'" line="173" column="27" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1608743412908">
         <mark key="'" line="44" column="23" />
@@ -274,11 +274,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="39" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/VertexProducer.java" />
-      <jump line="39" column="58" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
-      <jump line="136" column="0" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
-      <jump line="40" column="60" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/VertexProducer.java" />
-      <jump line="42" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="41" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="46" column="86" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="58" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
@@ -374,6 +369,11 @@
       <jump line="191" column="52" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="204" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="179" column="74" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="78" column="4" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="195" column="75" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="230" column="12" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="210" column="51" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="80" column="12" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -394,7 +394,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb2xsZWN0b3JzXD4=</text>
+        <text>commit</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -449,9 +449,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjb2xsZWN0b3JzXD4=</last-search>
+      <last-search>commit</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb2xsZWN0b3JzXD4=</last-pattern>
+      <last-pattern>commit</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
