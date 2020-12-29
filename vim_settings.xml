@@ -235,12 +235,12 @@
       <file name="$USER_HOME$/GraknLabs/behaviour/connection/transaction.feature" timestamp="1609246217918">
         <mark key="'" line="24" column="61" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1609259734199">
-        <mark key="'" line="132" column="0" />
-        <mark key="[" line="129" column="8" />
-        <mark key="]" line="129" column="19" />
-        <mark key="." line="129" column="18" />
-        <mark key="^" line="129" column="19" />
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1609262561919">
+        <mark key="'" line="239" column="55" />
+        <mark key="[" line="234" column="46" />
+        <mark key="]" line="234" column="46" />
+        <mark key="." line="234" column="46" />
+        <mark key="^" line="234" column="19" />
       </file>
       <file name="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" timestamp="1609234614645">
         <mark key="'" line="48" column="0" />
@@ -278,14 +278,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="183" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="425" column="69" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="440" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="152" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="162" column="25" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="163" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="175" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
-      <jump line="249" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="256" column="7" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="257" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
       <jump line="266" column="0" filename="$USER_HOME$/GraknLabs/simulation/grakn/data/schema.gql" />
@@ -371,19 +363,27 @@
       <jump line="310" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="302" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="300" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="301" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="253" column="87" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="129" column="42" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="243" column="65" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="254" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="72" column="50" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
       <jump line="132" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="286" column="20" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="301" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="305" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="311" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="313" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="315" column="0" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="326" column="45" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="226" column="80" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="239" column="55" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>closeClient</text>
+        <text>)</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -395,7 +395,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>closeClient</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text>commit</text>
@@ -405,11 +405,11 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBjbG9zZShSZXNwb25zZS5Eb25lIGRvbmVSZXNwb25zZSkgewogICAgICAgIGlmIChpc09wZW4uY29tcGFyZUFuZFNldCh0cnVlLCBmYWxzZSkpIHsKICAgICAgICAgICAgY29sbGVjdG9ycy5jbGVhcihkb25lUmVzcG9uc2UpOwogICAgICAgICAgICByZXF1ZXN0T2JzZXJ2ZXIub25Db21wbGV0ZWQoKTsKICAgICAgICB9CiAgICB9Cgo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">U3RhdHVzUnVudGltZUV4Y2VwdGlvbiA=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEdyYWtuQ2xpZW50RXhjZXB0aW9uIGVycm9yKCkgewogICAgICAgICAgICAgICAgICAgIHRocm93IGVycm9yOwogICAgICAgICAgICAgICAgfQoK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -423,28 +423,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgVGhyZWFkLnNsZWVwKDE1KTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICAgICAgfQo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29sbGVjdG9ycy5jbGVhcigpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY29sbGVjdG9ycy5jbGVhcigpOwo=</text>
+        <text encoding="base64">ICAgICAgICBhYnN0cmFjdCAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICgoKFJlc3BvbnNlLkRvbmUpcmVzcG9uc2UpLmVycm9yKCkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHRocm93ICgoUmVzcG9uc2UuRG9uZSlyZXNwb25zZSkuZXJyb3IoKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaXZhdGUgZmluYWwgU3RyaW5nIHN0YXR1czsKCiAgICAgICAgICAgICAgICBwdWJsaWMgU3RyaW5nIHN0YXR1cygpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gc3RhdHVzOwogICAgICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgVGhyZWFkLnNsZWVwKDE1KTsKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
