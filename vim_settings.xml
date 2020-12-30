@@ -207,6 +207,11 @@
         <mark key="]" line="66" column="43" />
         <mark key="." line="65" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/BehaviourTest.java" timestamp="1609347626418">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="0" />
+        <mark key="." line="36" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" timestamp="1609339721077">
         <mark key="'" line="701" column="35" />
         <mark key="[" line="534" column="70" />
@@ -214,10 +219,12 @@
         <mark key="." line="534" column="73" />
         <mark key="^" line="534" column="74" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/common/test/server/GraknCoreRunner.java" timestamp="1609342895223">
-        <mark key="'" line="127" column="19" />
-        <mark key="[" line="37" column="60" />
-        <mark key="]" line="37" column="77" />
+      <file name="$USER_HOME$/GraknLabs/common/test/server/GraknCoreRunner.java" timestamp="1609347867626">
+        <mark key="'" line="60" column="16" />
+        <mark key="[" line="171" column="0" />
+        <mark key="]" line="171" column="0" />
+        <mark key="." line="171" column="0" />
+        <mark key="^" line="170" column="63" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" timestamp="1609346092334">
         <mark key="[" line="73" column="71" />
@@ -235,9 +242,6 @@
         <mark key="[" line="47" column="0" />
         <mark key="]" line="47" column="39" />
       </file>
-      <file name="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" timestamp="1609339367831">
-        <mark key="'" line="569" column="54" />
-      </file>
       <file name="/Dummy." timestamp="1609342435370">
         <mark key="[" line="0" column="0" />
       </file>
@@ -250,8 +254,8 @@
         <mark key="." line="64" column="0" />
         <mark key="^" line="63" column="43" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1609345179703">
-        <mark key="'" line="262" column="35" />
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1609347341509">
+        <mark key="'" line="53" column="51" />
         <mark key="[" line="129" column="8" />
         <mark key="]" line="129" column="24" />
         <mark key="." line="129" column="23" />
@@ -294,9 +298,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="187" column="10" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="190" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="130" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="185" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="133" column="17" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="231" column="17" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
@@ -394,12 +395,15 @@
       <jump line="37" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/BUILD" />
       <jump line="21" column="28" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/BUILD" />
       <jump line="25" column="11" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/database/BUILD" />
+      <jump line="53" column="51" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="52" column="36" filename="$USER_HOME$/GraknLabs/common/test/server/GraknCoreRunner.java" />
+      <jump line="60" column="16" filename="$USER_HOME$/GraknLabs/common/test/server/GraknCoreRunner.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHJlc291cmNlcyA9IFsgIi8vc2VydmVyL2NvbmY6bG9nYmFjay1kZWJ1Zy54bWwiIF0sCiAgICByZXNvdXJjZV9zdHJpcF9wcmVmaXggPSAic2VydmVyL2NvbmYvIiwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiLi9ncmFrbiIsICJzZXJ2ZXIiLAogICAgICAgICAgICAgICAgICAgICItLXBvcnQiLCBJbnRlZ2VyLnRvU3RyaW5nKHBvcnQpLAogICAgICAgICAgICAgICAgICAgICItLWRhdGEiLCB0bXBEaXIudG9BYnNvbHV0ZVBhdGgoKS50b1N0cmluZygpCiAgICAgICAgICAgICkuc3RhcnQoKTsK</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -411,7 +415,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>server</text>
+        <text>Integer.toString(port)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxleGVjdXRvclw+</text>
@@ -421,11 +425,11 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHJlc291cmNlcyA9IFsgIi8vc2VydmVyL2NvbmY6bG9nYmFjay1kZWJ1Zy54bWwiIF0sCiAgICByZXNvdXJjZV9zdHJpcF9wcmVmaXggPSAic2VydmVyL2NvbmYvIiwK</text>
+      <register name="0" type="4">
+        <text>tmpDir.toAbsolutePath().toString()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHJlc291cmNlcyA9IFsgIi8vc2VydmVyL2NvbmY6bG9nYmFjay1kZWJ1Zy54bWwiIF0sCiAgICByZXNvdXJjZV9zdHJpcF9wcmVmaXggPSAic2VydmVyL2NvbmYvIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiLi9ncmFrbiIsICJzZXJ2ZXIiLAogICAgICAgICAgICAgICAgICAgICItLXBvcnQiLCBJbnRlZ2VyLnRvU3RyaW5nKHBvcnQpLAogICAgICAgICAgICAgICAgICAgICItLWRhdGEiLCB0bXBEaXIudG9BYnNvbHV0ZVBhdGgoKS50b1N0cmluZygpCiAgICAgICAgICAgICkuc3RhcnQoKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -439,29 +443,29 @@
         </keys>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICB0aGlzLgo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIAogICAgCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHJlc291cmNlcyA9IFsgIi8vc2VydmVyL2NvbmY6bG9nYmFjay1kZWJ1Zy54bWwiIF0sCiAgICByZXNvdXJjZV9zdHJpcF9wcmVmaXggPSAic2VydmVyL2NvbmYvIgo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUudHJhdmVyc2FsLnByb2NlZHVyZS5HcmFwaFByb2NlZHVyZTsK</text>
       </register>
-      <register name="3" type="4">
+      <register name="8" type="4">
         <text>;
 import org.rocksdb.RocksDBException</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIExvCgo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgaHR0cDJFeC4K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgaHR0cDJFeC4K</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7Cg==</text>
+        <text encoding="base64">ICAgIExvCgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
