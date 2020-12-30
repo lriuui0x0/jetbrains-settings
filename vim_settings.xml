@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxHcmFwaEl0ZXJhdG9yXD4=</entry>
         <entry encoding="base64">XDx0aGVuUnVuXD4=</entry>
         <entry>rule</entry>
         <entry encoding="base64">XDxpZGxlVGltZW91dE1pbGxpc1w+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxjbG9zZVBlbmRpbmdSZXF1ZXN0V2l0aEVycm9yXD4=</entry>
         <entry>commit</entry>
         <entry>netty</entry>
+        <entry>bin-</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -196,6 +196,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/BehaviourTest.java" timestamp="1609330434212">
+        <mark key="[" line="46" column="0" />
+        <mark key="]" line="46" column="22" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" timestamp="1609322585451">
         <mark key="'" line="30" column="9" />
         <mark key="[" line="75" column="77" />
@@ -215,13 +219,6 @@
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1609251185986">
         <mark key="'" line="80" column="12" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" timestamp="1609233210355">
-        <mark key="'" line="80" column="0" />
-        <mark key="[" line="50" column="16" />
-        <mark key="]" line="50" column="16" />
-        <mark key="." line="50" column="17" />
-        <mark key="^" line="69" column="18" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1609251164585">
         <mark key="'" line="210" column="51" />
       </file>
@@ -240,6 +237,11 @@
         <mark key="." line="31" column="58" />
         <mark key="^" line="31" column="20" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1609330716499">
+        <mark key="[" line="106" column="40" />
+        <mark key="]" line="106" column="40" />
+        <mark key="." line="106" column="40" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/behaviour/connection/transaction.feature" timestamp="1609246217918">
         <mark key="'" line="24" column="61" />
       </file>
@@ -249,13 +251,6 @@
         <mark key="]" line="129" column="24" />
         <mark key="." line="129" column="23" />
         <mark key="^" line="129" column="24" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" timestamp="1609234614645">
-        <mark key="'" line="48" column="0" />
-        <mark key="[" line="46" column="7" />
-        <mark key="]" line="46" column="9" />
-        <mark key="." line="46" column="8" />
-        <mark key="^" line="46" column="9" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/QueryFuture.java" timestamp="1609253123966">
         <mark key="[" line="52" column="0" />
@@ -268,14 +263,17 @@
         <mark key="." line="29" column="58" />
         <mark key="^" line="29" column="20" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/util/RequestReader.java" timestamp="1608743759962">
-        <mark key="'" line="44" column="81" />
-      </file>
       <file name="/fragment.java" timestamp="1609246944505">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="16" />
         <mark key="^" line="0" column="16" />
         <mark key="." line="0" column="15" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionSteps.java" timestamp="1609330484862">
+        <mark key="[" line="73" column="25" />
+        <mark key="]" line="73" column="48" />
+        <mark key="." line="73" column="47" />
+        <mark key="^" line="73" column="48" />
       </file>
     </filemarks>
     <jumps>
@@ -384,7 +382,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICBkNTExOTg1ZjVhZGQyMWU2YmM1MzcwMTBkMTJjZGJkZDljNjYxZjRm</text>
+        <text>-debug</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -396,10 +394,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICBkNTExOTg1ZjVhZGQyMWU2YmM1MzcwMTBkMTJjZGJkZDljNjYxZjRm</text>
+        <text>-debug</text>
       </register>
       <register name="/" type="4">
-        <text>netty</text>
+        <text>bin-</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -454,9 +452,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>netty</last-search>
+      <last-search>bin-</last-search>
       <last-offset />
-      <last-pattern>netty</last-pattern>
+      <last-pattern>bin-</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
