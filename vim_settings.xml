@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxpZGxlVGltZW91dE1pbGxpc1w+</entry>
-        <entry encoding="base64">XDxzZXNzaW9uSWRsVGltZW91dE1pbGxpc1w+</entry>
-        <entry encoding="base64">XDxsb25nXD4=</entry>
-        <entry encoding="base64">XDwxODAwMFw+</entry>
-        <entry encoding="base64">XDxUUkFDRVw+</entry>
         <entry>take</entry>
         <entry encoding="base64">XDxjbG9zZVN1Y2Nlc3NcPg==</entry>
         <entry encoding="base64">XDxyZXNwb25zZU9ic2VydmVyXD4=</entry>
@@ -26,7 +21,12 @@
         <entry>netty</entry>
         <entry>bin-</entry>
         <entry encoding="base64">XDxjbG9zZUZyb21TZXJ2ZXJcPg==</entry>
+        <entry encoding="base64">XDxTdHJlYW1FeGNlcHRpb25cPg==</entry>
         <entry>onStreamError</entry>
+        <entry>FINER</entry>
+        <entry encoding="base64">XDxnZXRMb2dnZXJcPg==</entry>
+        <entry>FINE</entry>
+        <entry encoding="base64">XDxIdHRwMkVycm9yXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -196,54 +196,24 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/BehaviourTest.java" timestamp="1609330434212">
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="39" column="22" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" timestamp="1609322585451">
-        <mark key="'" line="30" column="9" />
-        <mark key="[" line="75" column="77" />
-        <mark key="]" line="76" column="16" />
-        <mark key="." line="76" column="15" />
-        <mark key="^" line="76" column="16" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" timestamp="1609258293237">
-        <mark key="'" line="72" column="50" />
-        <mark key="[" line="105" column="0" />
-        <mark key="]" line="105" column="0" />
-        <mark key="." line="105" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1609251185986">
-        <mark key="'" line="80" column="12" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" timestamp="1609336434275">
-        <mark key="'" line="518" column="53" />
+      <file name="/Dummy.txt" timestamp="1609338673403">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1609251164585">
         <mark key="'" line="210" column="51" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/dependencies/maven/artifacts.snapshot" timestamp="1609325828230">
-        <mark key="'" line="62" column="12" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/repositories.bzl" timestamp="1609329995395">
-        <mark key="[" line="31" column="58" />
-        <mark key="]" line="31" column="58" />
-        <mark key="." line="31" column="58" />
-        <mark key="^" line="31" column="20" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1609330716499">
-        <mark key="[" line="106" column="40" />
-        <mark key="]" line="106" column="40" />
-        <mark key="." line="106" column="40" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/behaviour/connection/transaction.feature" timestamp="1609246217918">
-        <mark key="'" line="24" column="61" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1609336317601">
-        <mark key="[" line="0" column="0" />
+      <file name="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" timestamp="1609339367831">
+        <mark key="'" line="569" column="54" />
       </file>
       <file name="/Dummy." timestamp="1609334281853">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/BehaviourTest.java" timestamp="1609330434212">
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="39" column="22" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/dependencies/maven/artifacts.snapshot" timestamp="1609325828230">
+        <mark key="'" line="62" column="12" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1609332642366">
         <mark key="'" line="189" column="30" />
@@ -258,21 +228,58 @@
         <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" timestamp="1609322585451">
+        <mark key="'" line="30" column="9" />
+        <mark key="[" line="75" column="77" />
+        <mark key="]" line="76" column="16" />
+        <mark key="." line="76" column="15" />
+        <mark key="^" line="76" column="16" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" timestamp="1609258293237">
+        <mark key="'" line="72" column="50" />
+        <mark key="[" line="105" column="0" />
+        <mark key="]" line="105" column="0" />
+        <mark key="." line="105" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/rpc/QueryFuture.java" timestamp="1609253123966">
         <mark key="[" line="52" column="0" />
         <mark key="]" line="52" column="0" />
         <mark key="." line="52" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1609251185986">
+        <mark key="'" line="80" column="12" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/repositories.bzl" timestamp="1609329995395">
+        <mark key="[" line="31" column="58" />
+        <mark key="]" line="31" column="58" />
+        <mark key="." line="31" column="58" />
+        <mark key="^" line="31" column="20" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/behaviour/connection/transaction.feature" timestamp="1609246217918">
+        <mark key="'" line="24" column="61" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/maven/artifacts.bzl" timestamp="1609331904256">
         <mark key="[" line="60" column="0" />
         <mark key="]" line="60" column="0" />
         <mark key="." line="60" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" timestamp="1609339721077">
+        <mark key="'" line="701" column="35" />
+        <mark key="[" line="534" column="70" />
+        <mark key="]" line="534" column="74" />
+        <mark key="." line="534" column="73" />
+        <mark key="^" line="534" column="74" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/simulation/dependencies/graknlabs/artifacts.bzl" timestamp="1609330022857">
         <mark key="[" line="29" column="58" />
         <mark key="]" line="29" column="58" />
         <mark key="." line="29" column="58" />
         <mark key="^" line="29" column="20" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1609330716499">
+        <mark key="[" line="106" column="40" />
+        <mark key="]" line="106" column="40" />
+        <mark key="." line="106" column="40" />
       </file>
       <file name="/fragment.java" timestamp="1609246944505">
         <mark key="[" line="0" column="0" />
@@ -288,32 +295,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="17" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="4" column="41" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="32" column="41" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="48" column="41" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="69" column="17" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="6" column="17" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="33" column="17" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
-      <jump line="3" column="10" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
-      <jump line="5" column="10" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
-      <jump line="48" column="0" filename="$USER_HOME$/GraknLabs/simulation/config/config_test.yml" />
-      <jump line="59" column="0" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" />
-      <jump line="144" column="28" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="184" column="16" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="182" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="163" column="61" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="76" column="75" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="157" column="8" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="170" column="52" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="199" column="12" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="159" column="39" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
-      <jump line="91" column="23" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
-      <jump line="92" column="28" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
-      <jump line="93" column="59" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
-      <jump line="96" column="23" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
-      <jump line="97" column="28" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
       <jump line="98" column="78" filename="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/transaction/TransactionSteps.java" />
       <jump line="75" column="32" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="84" column="58" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
@@ -385,15 +366,41 @@
       <jump line="132" column="17" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="189" column="30" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="669" column="4" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="533" column="6" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="847" column="31" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
       <jump line="469" column="53" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
       <jump line="499" column="53" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
       <jump line="518" column="53" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="642" column="30" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="655" column="60" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="670" column="54" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="50" column="57" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="53" column="44" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="92" column="11" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="141" column="50" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="160" column="50" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="349" column="20" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="350" column="23" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="426" column="53" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="474" column="14" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="490" column="25" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="492" column="14" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="495" column="15" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="496" column="15" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="519" column="14" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="550" column="25" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="558" column="30" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="559" column="18" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="569" column="54" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
+      <jump line="289" column="6" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="534" column="37" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="701" column="35" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>closeFromServer</text>
+        <text>Level.WARNING</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -405,10 +412,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>closeFromServer</text>
+        <text>Level.WARNING</text>
       </register>
       <register name="/" type="4">
-        <text>onStreamError</text>
+        <text encoding="base64">XDxIdHRwMkVycm9yXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -419,7 +426,7 @@
         <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBjbG9zZUZyb21TZXJ2ZXIoUmVzcG9uc2UuRG9uZSBkb25lUmVzcG9uc2UpIHsKICAgICAgICBpZiAoaXNPcGVuLmNvbXBhcmVBbmRTZXQodHJ1ZSwgZmFsc2UpKSB7CiAgICAgICAgICAgIGNvbGxlY3RvcnMuY2xlYXIoZG9uZVJlc3BvbnNlKTsKICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7CiAgICAgICAgfQogICAgfQoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgaHR0cDJFeC4K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -433,28 +440,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICJpby5uZXR0eTpuZXR0eS1hbGwiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1jb2RlYy1odHRwMiI6ICI0LjEuMzguRmluYWwiLAogICAgImlvLm5ldHR5Om5ldHR5LWhhbmRsZXIiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1oYW5kbGVyLXByb3h5IjogIjQuMS4zOC5GaW5hbCIsCiAgICAiaW8ubmV0dHk6bmV0dHktYnVmZmVyIjogIjQuMS4zOC5GaW5hbCIsCiAgICAiaW8ubmV0dHk6bmV0dHktY29kZWMiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1jb2RlYy1odHRwIjogIjQuMS4zOC5GaW5hbCIsCiAgICAiaW8ubmV0dHk6bmV0dHktY29kZWMtc29ja3MiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1jb21tb24iOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS10cmFuc3BvcnQiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1yZXNvbHZlciI6ICI0LjEuMzguRmluYWwiLAo=</text>
+        <text encoding="base64">ICAgICAgaHR0cDJFeC4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEdyYWtuQ2xpZW50RXhjZXB0aW9uIGVycm9yKCkgewogICAgICAgICAgICAgICAgICAgIHRocm93IGVycm9yOwogICAgICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U7Cg==</text>
+        <text encoding="base64">ICAgICJpby5uZXR0eTpuZXR0eS1hbGwiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1jb2RlYy1odHRwMiI6ICI0LjEuMzguRmluYWwiLAogICAgImlvLm5ldHR5Om5ldHR5LWhhbmRsZXIiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1oYW5kbGVyLXByb3h5IjogIjQuMS4zOC5GaW5hbCIsCiAgICAiaW8ubmV0dHk6bmV0dHktYnVmZmVyIjogIjQuMS4zOC5GaW5hbCIsCiAgICAiaW8ubmV0dHk6bmV0dHktY29kZWMiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1jb2RlYy1odHRwIjogIjQuMS4zOC5GaW5hbCIsCiAgICAiaW8ubmV0dHk6bmV0dHktY29kZWMtc29ja3MiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1jb21tb24iOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS10cmFuc3BvcnQiOiAiNC4xLjM4LkZpbmFsIiwKICAgICJpby5uZXR0eTpuZXR0eS1yZXNvbHZlciI6ICI0LjEuMzguRmluYWwiLAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVxdWVzdE9ic2VydmVyLm9uQ29tcGxldGVkKCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIEdyYWtuQ2xpZW50RXhjZXB0aW9uIGVycm9yKCkgewogICAgICAgICAgICAgICAgICAgIHRocm93IGVycm9yOwogICAgICAgICAgICAgICAgfQoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2U7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBhYnN0cmFjdCAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -463,9 +470,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>onStreamError</last-search>
+      <last-search encoding="base64">XDxIdHRwMkVycm9yXD4=</last-search>
       <last-offset />
-      <last-pattern>onStreamError</last-pattern>
+      <last-pattern encoding="base64">XDxIdHRwMkVycm9yXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
