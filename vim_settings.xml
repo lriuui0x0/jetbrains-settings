@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>rule</entry>
         <entry encoding="base64">XDxpZGxlVGltZW91dE1pbGxpc1w+</entry>
         <entry encoding="base64">XDxzZXNzaW9uSWRsVGltZW91dE1pbGxpc1w+</entry>
         <entry encoding="base64">XDxsb25nXD4=</entry>
@@ -27,6 +26,7 @@
         <entry>netty</entry>
         <entry>bin-</entry>
         <entry encoding="base64">XDxjbG9zZUZyb21TZXJ2ZXJcPg==</entry>
+        <entry>onStreamError</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -216,6 +216,9 @@
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1609251185986">
         <mark key="'" line="80" column="12" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" timestamp="1609336434275">
+        <mark key="'" line="518" column="53" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1609251164585">
         <mark key="'" line="210" column="51" />
       </file>
@@ -285,10 +288,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="35" column="20" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="79" column="52" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="44" column="81" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/util/RequestReader.java" />
-      <jump line="58" column="0" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="50" column="17" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="4" column="41" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
       <jump line="32" column="41" filename="$USER_HOME$/GraknLabs/simulation/.grabl/automation.yml" />
@@ -385,6 +384,10 @@
       <jump line="194" column="31" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="132" column="17" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
       <jump line="189" column="30" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
+      <jump line="669" column="4" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="469" column="53" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="499" column="53" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
+      <jump line="518" column="53" filename="$USER_HOME$/GraknLabs/grpc-java/netty/src/main/java/io/grpc/netty/NettyServerHandler.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -405,7 +408,7 @@
         <text>closeFromServer</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjbG9zZUZyb21TZXJ2ZXJcPg==</text>
+        <text>onStreamError</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -460,9 +463,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjbG9zZUZyb21TZXJ2ZXJcPg==</last-search>
+      <last-search>onStreamError</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjbG9zZUZyb21TZXJ2ZXJcPg==</last-pattern>
+      <last-pattern>onStreamError</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
