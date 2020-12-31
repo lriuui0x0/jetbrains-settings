@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>FINE</entry>
-        <entry encoding="base64">XDxIdHRwMkVycm9yXD4=</entry>
-        <entry>Rocks</entry>
-        <entry encoding="base64">XDxSb2Nrc0dyYWtuXD4=</entry>
         <entry encoding="base64">XDxMT0dcPg==</entry>
         <entry>commit</entry>
         <entry encoding="base64">XDxjb21taXRcPg==</entry>
@@ -26,7 +22,11 @@
         <entry>monitor</entry>
         <entry encoding="base64">XDxzY3JpcHRcPg==</entry>
         <entry>log</entry>
+        <entry encoding="base64">XDxqb2JcPg==</entry>
+        <entry>command</entry>
         <entry encoding="base64">XDxjb21tYW5kXD4=</entry>
+        <entry encoding="base64">XDxjb21tYW5kTG9nTGluZXNcPg==</entry>
+        <entry encoding="base64">XDxjb21tYW5kTGluZXNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -248,10 +248,11 @@
         <mark key="." line="45" column="136" />
         <mark key="^" line="45" column="137" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Job/single/types.ts" timestamp="1609417354510">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="17" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Job/single/types.ts" timestamp="1609418792173">
+        <mark key="[" line="18" column="4" />
+        <mark key="]" line="18" column="15" />
+        <mark key="." line="18" column="14" />
+        <mark key="^" line="18" column="15" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1609418184245">
         <mark key="'" line="457" column="0" />
@@ -305,11 +306,12 @@
         <mark key="." line="191" column="32" />
         <mark key="^" line="191" column="33" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" timestamp="1609417116543">
-        <mark key="[" line="53" column="50" />
-        <mark key="]" line="53" column="57" />
-        <mark key="^" line="53" column="57" />
-        <mark key="." line="53" column="56" />
+      <file name="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" timestamp="1609419632665">
+        <mark key="'" line="265" column="60" />
+        <mark key="[" line="266" column="79" />
+        <mark key="]" line="266" column="79" />
+        <mark key="." line="266" column="82" />
+        <mark key="^" line="265" column="87" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/design/service/automation/automation-job-log-response.json" timestamp="1609415120617">
         <mark key="[" line="7" column="11" />
@@ -322,24 +324,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="117" column="12" filename="$USER_HOME$/GraknLabs/common/test/server/GraknCoreRunner.java" />
-      <jump line="120" column="12" filename="$USER_HOME$/GraknLabs/common/test/server/GraknCoreRunner.java" />
-      <jump line="127" column="19" filename="$USER_HOME$/GraknLabs/common/test/server/GraknCoreRunner.java" />
-      <jump line="262" column="35" filename="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" />
-      <jump line="35" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/database/BUILD" />
-      <jump line="154" column="4" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="128" column="79" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="41" column="54" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="46" column="8" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="52" column="15" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="61" column="15" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="69" column="53" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="70" column="15" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="116" column="20" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="118" column="27" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="119" column="33" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="120" column="37" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="129" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
       <jump line="131" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
       <jump line="132" column="21" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
       <jump line="162" column="42" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
@@ -422,12 +406,30 @@
       <jump line="139" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
       <jump line="153" column="45" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
       <jump line="156" column="125" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
+      <jump line="69" column="10" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="127" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="135" column="40" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="73" column="17" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="163" column="8" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="75" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="139" column="19" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="137" column="45" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="231" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="241" column="0" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="236" column="55" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="144" column="5" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="238" column="64" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="239" column="49" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="250" column="77" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="251" column="49" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="261" column="62" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
+      <jump line="263" column="60" filename="$USER_HOME$/GraknLabs/grabl/pages/Job/single/index.tsx" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>commandLogLines</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -439,10 +441,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>getCommand</text>
+        <text>commandLogLines</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb21tYW5kXD4=</text>
+        <text encoding="base64">XDxjb21tYW5kTGluZXNcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -450,10 +452,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBTdHJpbmcgY29tbWFuZCA9IGdyYWJsLmNvbmNlcHQuSm9iLmdldENvbW1hbmQodHgsIGpvYik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBqb2I/LmNvbW1hbmRMb2cgJiYgc2V0Q29tbWFuZExvZ0xpbmVzKE9iamVjdC52YWx1ZXMoam9iLmNvbW1hbmRMb2cpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc2VzPXt7IHJvb3Q6IG93bkNsYXNzZXMuc2NyaXB0Q29kZSB9fQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVzPXtjb21tYW5kTG9nTGluZXN9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGFzTGluZU51bWJlcnMKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWY9e2NvbW1hbmRMb2dMaW5lcy5sZW5ndGggPj0gY29tbWFuZExpbmVzLmxlbmd0aCA/IHJlZkd1dHRlciA6IHVuZGVmaW5lZH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBndXR0ZXJXaWR0aD17Y29tbWFuZExvZ0xpbmVzLmxlbmd0aCA8IGNvbW1hbmRMaW5lcy5sZW5ndGggPyBndXR0ZXJXaWR0aCA6IHVuZGVmaW5lZH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -467,28 +469,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBQCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRpdGxlLz4K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAgam9iSlNPTi5hZGQoImNvbW1hbmQiLCBjb21tYW5kKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgCg==</text>
+        <text encoding="base64">ICAgICAgICBqb2I/LmNvbW1hbmRMb2cgJiYgc2V0Q29tbWFuZExpbmVzKE9iamVjdC52YWx1ZXMoam9iLmNvbW1hbmRMb2cpKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjYXQgPiBncmFrbi5zZXJ2aWNlIDw8LSBFT00KICAgICAgICBbVW5pdF0KICAgICAgICBEZXNjcmlwdGlvbj1HcmFrbiBDb3JlCgogICAgICAgIFtTZXJ2aWNlXQogICAgICAgIFR5cGU9c2ltcGxlCiAgICAgICAgRXhlY1N0YXJ0PS9ob21lL2dyYWJsL3NpbXVsYXRpb24vZGlzdC9ncmFrbi1jb3JlLWFsbC1saW51eC9ncmFrbiBzZXJ2ZXIKICAgICAgICBSZXN0YXJ0PW9uLWZhaWx1cmUKICAgICAgICBSZXN0YXJ0U2VjPTEwCiAgICAgICAgS2lsbE1vZGU9cHJvY2VzcwoKICAgICAgICBbSW5zdGFsbF0KICAgICAgICBXYW50ZWRCeT1tdWx0aS11c2VyLnRhcmdldAogICAgICAgIEVPTQoKICAgICAgICBzdWRvIG12IGdyYWtuLnNlcnZpY2UgL2V0Yy9zeXN0ZW1kL3N5c3RlbS8KCiAgICAgICAgYmF6ZWwgcnVuIC0tY29uZmlnPXJiZSAvL3Rlc3Q6Z3Jha24tZXh0cmFjdG9yLWxpbnV4IC0tIGRpc3QvZ3Jha24tY29yZS1hbGwtbGludXgKICAgICAgICBjZCAuL2Rpc3QvZ3Jha24tY29yZS1hbGwtbGludXgvCgogICAgICAgIHN1ZG8gc3lzdGVtY3RsIGRhZW1vbi1yZWxvYWQKICAgICAgICBzdWRvIHN5c3RlbWN0bCBzdGFydCBncmFrbgogICAgICAgIGV4cG9ydCBHUkFCTF9FWFBPUlRfUEVSRk9STUFOQ0VfU01BTExfR1JBS05fVVJJPSIke0hPU1ROQU1FfToxNzI5Igo=</text>
+        <text encoding="base64">ICAgIGNvbnN0IFttb25pdG9yTG9nTGluZXMsIHNldE1vbml0b3JMb2dMaW5lc10gPSB1c2VTdGF0ZTxBcnJheTxzdHJpbmc+PihbXSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBiYXplbCBydW4gLS1jb25maWc9cmJlIC8vOnNpbXVsYXRpb24tc21hbGwgLS0gXAogICAgICAgICAgLS1kYXRhYmFzZSAiR3Jha24gQ29yZSAyLjAiIFwKICAgICAgICAgIC0tZGF0YWJhc2UtdXJpICRHUkFCTF9FWFBPUlRfUEVSRk9STUFOQ0VfU01BTExfR1JBS05fVVJJIFwKICAgICAgICAgIC0tdHJhY2luZy11cmkgJEdSQUJMX1RSQUNJTkdfVVJJIFwKICAgICAgICAgIC0tb3JnICRHUkFCTF9PV05FUiBcCiAgICAgICAgICAtLXJlcG8gJEdSQUJMX1JFUE8gXAogICAgICAgICAgLS1jb21taXQgJEdSQUJMX0NPTU1JVCBcCiAgICAgICAgICAtLXVzZXJuYW1lICRHUkFCTF9PV05FUiBcCiAgICAgICAgICAtLWFwaS10b2tlbiAkR1JBQkxfVE9LRU4gXAogICAgICAgICAgLS1jb25maWctZmlsZSAvaG9tZS9ncmFibC8kR1JBQkxfUkVQTy9jb25maWcvY29uZmlnX3Rlc3QueW1sCg==</text>
+        <text encoding="base64">ICAgIGNvbnN0IFtjb21tYW5kTGluZXMsIHNldENvbW1hbmRMaW5lc10gPSB1c2VTdGF0ZTxBcnJheTxzdHJpbmc+PihbXSk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHRlc3QtcGVyZm9ybWFuY2Utc21hbGwtbmVvNGotYmFja2dyb3VuZDoKICAgICAgbWFjaGluZTogMTZjcHVzLTMyZ2IKICAgICAgaW1hZ2U6IGdyYWtubGFicy11YnVudHUtMjAuMDQtamF2YTExCiAgICAgIHR5cGU6IGJhY2tncm91bmQKICAgICAgdGltZW91dDogIjVoIgogICAgICBzY3JpcHQ6IHwKICAgICAgICBzdWRvIGFkZC1hcHQtcmVwb3NpdG9yeSAteSBwcGE6b3Blbmpkay1yL3BwYQogICAgICAgIGN1cmwgaHR0cHM6Ly9jbGktYXNzZXRzLmhlcm9rdS5jb20vYXB0L3JlbGVhc2Uua2V5IHwgc3VkbyBhcHQta2V5IGFkZCAtCiAgICAgICAgY3VybCBodHRwczovL2RsLmdvb2dsZS5jb20vbGludXgvbGludXhfc2lnbmluZ19rZXkucHViIHwgc3VkbyBhcHQta2V5IGFkZCAtCiAgICAgICAgc3VkbyBhcHQtZ2V0IHVwZGF0ZQogICAgICAgIHdnZXQgLU8gLSBodHRwczovL2RlYmlhbi5uZW80ai5jb20vbmVvdGVjaG5vbG9neS5ncGcua2V5IHwgc3VkbyBhcHQta2V5IGFkZCAtCiAgICAgICAgZWNobyAnZGViIGh0dHBzOi8vZGViaWFuLm5lbzRqLmNvbSBzdGFibGUgNC4xJyB8IHN1ZG8gdGVlIC1hIC9ldGMvYXB0L3NvdXJjZXMubGlzdC5kL25lbzRqLmxpc3QKICAgICAgICBzdWRvIGFwdC1nZXQgdXBkYXRlCiAgICAgICAgc3VkbyBhcHQtZ2V0IGluc3RhbGwgLXkgbmVvNGo9MTo0LjEuMAogICAgICAgIHN1ZG8gdXBkYXRlLWphdmEtYWx0ZXJuYXRpdmVzIC0tanJlIC0tc2V0IGphdmEtMS4xMS4wLW9wZW5qZGstYW1kNjQKICAgICAgICBlY2hvICdkYm1zLmNvbm5lY3RvcnMuZGVmYXVsdF9saXN0ZW5fYWRkcmVzcz0wLjAuMC4wJyB8IHN1ZG8gdGVlIC1hIC9ldGMvbmVvNGovbmVvNGouY29uZgogICAgICAgIGVjaG8gJ2RibXMuc2VjdXJpdHkuYXV0aF9lbmFibGVkPWZhbHNlJyB8IHN1ZG8gdGVlIC1hIC9ldGMvbmVvNGovbmVvNGouY29uZgogICAgICAgIHBzIGF1eCB8IGdyZXAgIm9yZy5uZW80ai5zZXJ2ZXIiIHwgYXdrICd7cHJpbnQgJDJ9JyB8IHhhcmdzIHN1ZG8ga2lsbCAtOSA+L2Rldi9udWxsIDImPjEgfHwgdHJ1ZQogICAgICAgIHN1ZG8gbmVvNGogc3RhcnQKICAgICAgICBleHBvcnQgR1JBQkxfRVhQT1JUX1BFUkZPUk1BTkNFX1NNQUxMX05FTzRKX1VSST0iYm9sdDovLyR7SE9TVE5BTUV9Ojc2ODciCiAgICB0ZXN0LXBlcmZvcm1hbmNlLXNtYWxsLW5lbzRqOgogICAgICBpbWFnZTogZ3Jha25sYWJzLXVidW50dS0yMC4wNC1qYXZhMTEKICAgICAgZGVwZW5kZW5jaWVzOiBbdGVzdC1wZXJmb3JtYW5jZS1zbWFsbC1uZW80ai1iYWNrZ3JvdW5kXQogICAgICB0aW1lb3V0OiAiNWgiCiAgICAgIHNjcmlwdDogfAogICAgICAgIGJhemVsIHJ1biAtLWNvbmZpZz1yYmUgLy86c2ltdWxhdGlvbi1zbWFsbCAtLSBcCiAgICAgICAgICAtLWRhdGFiYXNlIE5lbzRqIFwKICAgICAgICAgIC0tZGF0YWJhc2UtdXJpICRHUkFCTF9FWFBPUlRfUEVSRk9STUFOQ0VfU01BTExfTkVPNEpfVVJJIFwKICAgICAgICAgIC0tdHJhY2luZy11cmkgJEdSQUJMX1RSQUNJTkdfVVJJIFwKICAgICAgICAgIC0tb3JnICRHUkFCTF9PV05FUiBcCiAgICAgICAgICAtLXJlcG8gJEdSQUJMX1JFUE8gXAogICAgICAgICAgLS1jb21taXQgJEdSQUJMX0NPTU1JVCBcCiAgICAgICAgICAtLXVzZXJuYW1lICRHUkFCTF9PV05FUiBcCiAgICAgICAgICAtLWFwaS10b2tlbiAkR1JBQkxfVE9LRU4gXAogICAgICAgICAgLS1jb25maWctZmlsZSAvaG9tZS9ncmFibC8kR1JBQkxfUkVQTy9jb25maWcvY29uZmlnX3Rlc3QueW1sCg==</text>
+        <text encoding="base64">ICAgIGNvbW1hbmQ6IHN0cmluZzsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -497,9 +499,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjb21tYW5kXD4=</last-search>
+      <last-search encoding="base64">XDxjb21tYW5kTGluZXNcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb21tYW5kXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxjb21tYW5kTGluZXNcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
