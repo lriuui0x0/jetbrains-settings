@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>netty</entry>
-        <entry>bin-</entry>
-        <entry encoding="base64">XDxjbG9zZUZyb21TZXJ2ZXJcPg==</entry>
         <entry encoding="base64">XDxTdHJlYW1FeGNlcHRpb25cPg==</entry>
         <entry>onStreamError</entry>
         <entry>FINER</entry>
@@ -27,6 +24,9 @@
         <entry>errors</entry>
         <entry encoding="base64">XDxlcnJvcnNcPg==</entry>
         <entry encoding="base64">XDxzdHJlYW1lZFw+</entry>
+        <entry>gql</entry>
+        <entry>job sub</entry>
+        <entry>job-type</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -220,6 +220,16 @@
         <mark key="]" line="32" column="52" />
         <mark key="." line="32" column="52" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" timestamp="1609413688952">
+        <mark key="'" line="283" column="8" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Job.java" timestamp="1609413848860">
+        <mark key="'" line="34" column="28" />
+        <mark key="[" line="34" column="39" />
+        <mark key="]" line="34" column="45" />
+        <mark key="^" line="34" column="45" />
+        <mark key="." line="34" column="44" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/pages/rules.bzl" timestamp="1609412025634">
         <mark key="[" line="10" column="70" />
         <mark key="]" line="10" column="70" />
@@ -250,8 +260,12 @@
         <mark key="]" line="6" column="40" />
         <mark key="." line="6" column="40" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/pattern/BUILD" timestamp="1609411337189">
-        <mark key="'" line="29" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grabl/automation/common/Automation.java" timestamp="1609413818836">
+        <mark key="'" line="89" column="58" />
+        <mark key="[" line="89" column="52" />
+        <mark key="]" line="89" column="58" />
+        <mark key="." line="89" column="57" />
+        <mark key="^" line="89" column="58" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/local/grabl.env" timestamp="1609411891452">
         <mark key="[" line="3" column="25" />
@@ -280,13 +294,6 @@
         <mark key="]" line="23" column="36" />
         <mark key="." line="23" column="36" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" timestamp="1609411371243">
-        <mark key="'" line="49" column="0" />
-        <mark key="[" line="49" column="79" />
-        <mark key="]" line="49" column="79" />
-        <mark key="^" line="59" column="54" />
-        <mark key="." line="49" column="86" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/graql/language/define/DefineTest.java" timestamp="1609411569848">
         <mark key="[" line="22" column="0" />
         <mark key="]" line="22" column="0" />
@@ -298,21 +305,8 @@
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/conf/BUILD" timestamp="1609411278442">
-        <mark key="[" line="17" column="58" />
-        <mark key="]" line="17" column="58" />
-        <mark key="." line="17" column="58" />
-        <mark key="^" line="17" column="65" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="670" column="54" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
-      <jump line="50" column="57" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
-      <jump line="53" column="44" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
-      <jump line="92" column="11" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
-      <jump line="141" column="50" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
-      <jump line="160" column="50" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
-      <jump line="349" column="20" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
       <jump line="350" column="23" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
       <jump line="426" column="53" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
       <jump line="474" column="14" filename="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java" />
@@ -406,12 +400,19 @@
       <jump line="76" column="62" filename="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" />
       <jump line="77" column="76" filename="$USER_HOME$/GraknLabs/client-java/.grabl/automation.yml" />
       <jump line="31" column="5" filename="$USER_HOME$/GraknLabs/grabl/.gitignore" />
+      <jump line="412" column="14" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="24" column="0" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="452" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="283" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/schema/grabl.gql" />
+      <jump line="81" column="47" filename="$USER_HOME$/GraknLabs/grabl/automation/common/Automation.java" />
+      <jump line="89" column="58" filename="$USER_HOME$/GraknLabs/grabl/automation/common/Automation.java" />
+      <jump line="34" column="28" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>-react</text>
+        <text>job1</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -423,10 +424,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>-react</text>
+        <text>job1</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzdHJlYW1lZFw+</text>
+        <text>job-type</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -484,9 +485,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzdHJlYW1lZFw+</last-search>
+      <last-search>job-type</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzdHJlYW1lZFw+</last-pattern>
+      <last-pattern>job-type</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
