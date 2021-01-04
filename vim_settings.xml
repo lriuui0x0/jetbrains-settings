@@ -230,13 +230,11 @@
         <mark key="." line="267" column="150" />
         <mark key="^" line="266" column="141" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1609759314788">
-        <mark key="'" line="886" column="78" />
-        <mark key="[" line="887" column="18" />
-        <mark key="]" line="887" column="52" />
-        <mark key="m" line="887" column="17" />
-        <mark key="." line="887" column="51" />
-        <mark key="^" line="887" column="52" />
+      <file name="$USER_HOME$/GraknLabs/grabl/service/Session.java" timestamp="1609761089328">
+        <mark key="'" line="880" column="56" />
+        <mark key="[" line="881" column="0" />
+        <mark key="]" line="881" column="0" />
+        <mark key="." line="881" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/service/Job.java" timestamp="1609758415167">
         <mark key="'" line="56" column="8" />
@@ -301,7 +299,7 @@
         <mark key="^" line="291" column="86" />
         <mark key="." line="291" column="85" />
       </file>
-      <file name="/Dummy.txt" timestamp="1609758997027">
+      <file name="/Dummy.txt" timestamp="1609760824097">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/job/BUILD" timestamp="1609756718026">
@@ -315,8 +313,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="230" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/job/Job.java" />
-      <jump line="241" column="0" filename="$USER_HOME$/GraknLabs/grabl/automation/job/Job.java" />
       <jump line="815" column="0" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="814" column="115" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="818" column="135" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
@@ -393,7 +389,6 @@
       <jump line="262" column="40" filename="$USER_HOME$/GraknLabs/grabl/automation/workflow/Workflow.java" />
       <jump line="730" column="4" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="872" column="118" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
-      <jump line="880" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="877" column="15" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="174" column="53" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
       <jump line="176" column="22" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
@@ -415,12 +410,15 @@
       <jump line="887" column="17" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="888" column="8" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
       <jump line="886" column="78" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="905" column="28" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="913" column="31" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
+      <jump line="880" column="56" filename="$USER_HOME$/GraknLabs/grabl/service/Session.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">bW9uaXRvci5pc1ByZXNlbnQoKSAmJiA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -432,7 +430,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bW9uaXRvci5pc1ByZXNlbnQoKSAmJiA=</text>
+        <text>downloadLog</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxtb25pdG9yXD4=</text>
@@ -442,8 +440,8 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG1vbml0b3IgPSBncmFibC5jb25jZXB0LkpvYi5nZXRNb25pdG9yKHR4LCBqb2IpOwo=</text>
+      <register name="0" type="4">
+        <text>workflowStatus.equals(&quot;success&quot;) || workflowStatus.equals(&quot;error&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
@@ -460,28 +458,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nRmlsZVBhdGgK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcGFpcgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSnNvbk9iamVjdCByZXNwb25zZSA9IHRoaXMuam9iLmNvbnN0cnVjdEpvYkxvZ3MoZGVzdGluYXRpb24sIHNjcmlwdExpbmVEZXN0aW5hdGlvbiwgbG9nZ2VyKTsKICAgICAgICAgICAgd2Vic29ja2V0LnRlbGwocmVzcG9uc2UudG9TdHJpbmcoKSwgc2VsZik7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gcGFpcihsb2dGaWxlUGF0aCwgc2NyaXB0TGluZUZpbGVQYXRoKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGpvYlR5cGUgPSBncmFibC5jb25jZXB0LkpvYi5nZXRKb2JUeXBlKHR4LCBqb2IpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSnNvbk9iamVjdCByZXNwb25zZSA9IHRoaXMuam9iLmNvbnN0cnVjdEpvYkxvZ3MobG9nRmlsZVBhdGgsIHNjcmlwdExpbmVOdW1iZXJGaWxlUGF0aCwgbG9nZ2VyKTsKICAgICAgICAgICAgd2Vic29ja2V0LnRlbGwocmVzcG9uc2UudG9TdHJpbmcoKSwgc2VsZik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBib29sZWFuIGlzRm9yZWdyb3VuZEpvYkZpbmlzaGVkID0gam9iVHlwZS5lcXVhbHMoImZvcmVncm91bmQiKSAmJiAoc3RhdHVzLmVxdWFscygic3VjY2VzcyIpIHx8IHN0YXR1cy5lcXVhbHMoImVycm9yIikpOwogICAgICAgIGJvb2xlYW4gaXNCYWNrZ3JvdW5kSm9iRmluaXNoZWQgPSBqb2JUeXBlLmVxdWFscygiYmFja2dyb3VuZCIpICYmICh3b3JrZmxvd1N0YXR1cy5lcXVhbHMoInN1Y2Nlc3MiKSB8fCB3b3JrZmxvd1N0YXR1cy5lcXVhbHMoImVycm9yIikpOwogICAgICAgIGlmIChpc0ZvcmVncm91bmRKb2JGaW5pc2hlZCB8fCBpc0JhY2tncm91bmRKb2JGaW5pc2hlZCkgewogICAgICAgICAgICBkb3dubG9hZE9iamVjdChsb2dGaWxlLCBsb2dGaWxlUGF0aCwgdGhpcy5ncmFibFByb3BlcnRpZXMpOwogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgZG93bmxvYWRPYmplY3Qoc2NyaXB0TGluZUZpbGUsIHNjcmlwdExpbmVGaWxlUGF0aCwgdGhpcy5ncmFibFByb3BlcnRpZXMpOwogICAgICAgICAgICB9IGNhdGNoIChCbG9iU3RvcmFnZUV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICBpZiAoIUZpbGVzLmV4aXN0cyhzY3JpcHRMaW5lRmlsZVBhdGgpKSB7CiAgICAgICAgICAgICAgICAgICAgRmlsZXMuY3JlYXRlRmlsZShzY3JpcHRMaW5lRmlsZVBhdGgpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgUGF0aCBkZXN0aW5hdGlvbiA9IFBhdGhzLmdldChncmFibFByb3BlcnRpZXMuZ2V0RGlyTG9nc0pvYigpLnRvQWJzb2x1dGVQYXRoKCkudG9TdHJpbmcoKSwgam9iLmdldFJvdXRlKCksIHJvdXRlLmdldExvZ0ZpbGUoKSk7CiAgICAgICAgICAgIFBhdGggc2NyaXB0TGluZURlc3RpbmF0aW9uID0gUGF0aHMuZ2V0KGdyYWJsUHJvcGVydGllcy5nZXREaXJMb2dzSm9iKCkudG9BYnNvbHV0ZVBhdGgoKS50b1N0cmluZygpLCBqb2IuZ2V0Um91dGUoKSwgc2NyaXB0TGluZU51bWJlckZpbGVQYXRoKTsKICAgICAgICAgICAgaWYgKHJvdXRlLmdldExvZ0ZpbGUoKS5lcXVhbHMoImNvbW1hbmQubG9nIikpIHsKICAgICAgICAgICAgICAgIFN0cmluZyB0YXJnZXQgPSBGaWxlLmdldENvbW1hbmRMb2dGaWxlKGpvYik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2NyaXB0TGluZUZpbGVQYXRoID0gZG93bmxvYWRMb2coam9iLCBGaWxlLmdldE1vbml0b3JMb2dGaWxlKGpvYiksIEZpbGUuZ2V0TW9uaXRvckxvZ1NjcmlwdExpbmVGaWxlKGpvYikpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN0cmluZyBzY3JpcHRMaW5lVGFyZ2V0ID0gRmlsZS5nZXRDb21tYW5kTG9nU2NyaXB0TGluZUZpbGUoam9iKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
