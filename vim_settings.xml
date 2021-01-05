@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>back</entry>
-        <entry encoding="base64">XDxydW5uaW5nSm9ic1w+</entry>
         <entry>background</entry>
         <entry>command.log</entry>
         <entry encoding="base64">XDxfam9iUnVuXD4=</entry>
@@ -27,6 +25,8 @@
         <entry>Relation</entry>
         <entry>relation</entry>
         <entry>Relations</entry>
+        <entry>isClosed</entry>
+        <entry>isOpen</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -209,6 +209,12 @@
         <mark key="^" line="80" column="108" />
         <mark key="." line="80" column="107" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1609849304411">
+        <mark key="'" line="291" column="16" />
+        <mark key="[" line="181" column="17" />
+        <mark key="]" line="181" column="18" />
+        <mark key="." line="181" column="18" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" timestamp="1609848564240">
         <mark key="[" line="61" column="6" />
         <mark key="]" line="61" column="11" />
@@ -265,12 +271,6 @@
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="5" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grabl/pages/Job/single/types.ts" timestamp="1609417354510">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="17" column="0" />
-        <mark key="^" line="22" column="11" />
-      </file>
       <file name="vim_settings.xml" timestamp="1609841227040">
         <mark key="[" line="0" column="0" />
       </file>
@@ -288,7 +288,7 @@
         <mark key="[" line="53" column="0" />
         <mark key="]" line="54" column="5" />
       </file>
-      <file name="/fragment.java" timestamp="1609847366841">
+      <file name="/fragment.java" timestamp="1609849398384">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
@@ -296,19 +296,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="154" column="4" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="128" column="79" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="41" column="54" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="46" column="8" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="52" column="15" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="61" column="15" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="69" column="53" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="70" column="15" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="116" column="20" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="118" column="27" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="119" column="33" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="120" column="37" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
-      <jump line="129" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
       <jump line="131" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
       <jump line="132" column="21" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
       <jump line="162" column="42" filename="$USER_HOME$/GraknLabs/grakn/traversal/structure/Structure.java" />
@@ -396,6 +383,19 @@
       <jump line="196" column="25" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" />
       <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" />
       <jump line="59" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" />
+      <jump line="183" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="52" column="28" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="69" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="91" column="19" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="92" column="20" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="97" column="13" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="103" column="13" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="109" column="13" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="115" column="12" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="181" column="17" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="186" column="17" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="209" column="16" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="291" column="16" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -416,7 +416,7 @@
         <text>false</text>
       </register>
       <register name="/" type="4">
-        <text>Relations</text>
+        <text>isOpen</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -471,9 +471,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Relations</last-search>
+      <last-search>isOpen</last-search>
       <last-offset />
-      <last-pattern>Relations</last-pattern>
+      <last-pattern>isOpen</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
