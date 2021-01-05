@@ -218,15 +218,17 @@
       <file name="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" timestamp="1609854705858">
         <mark key="'" line="91" column="56" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/logic/tool/TypeResolver.java" timestamp="1609853140354">
-        <mark key="'" line="137" column="69" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/GraqlSteps.java" timestamp="1609861433638">
+        <mark key="'" line="152" column="77" />
+        <mark key="[" line="152" column="69" />
+        <mark key="]" line="152" column="69" />
+        <mark key="." line="152" column="68" />
+        <mark key="^" line="152" column="69" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/GraqlSteps.java" timestamp="1609857844461">
-        <mark key="'" line="131" column="11" />
-        <mark key="[" line="152" column="63" />
-        <mark key="]" line="152" column="68" />
-        <mark key="." line="152" column="67" />
-        <mark key="^" line="152" column="68" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/GraphManager.java" timestamp="1609861774766">
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="0" />
+        <mark key="." line="58" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/dependencies/graknlabs/repositories.bzl" timestamp="1609857753906">
         <mark key="'" line="54" column="4" />
@@ -242,7 +244,7 @@
         <mark key="." line="70" column="48" />
         <mark key="^" line="70" column="49" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1609855594799">
+      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1609861739568">
         <mark key="'" line="65" column="93" />
         <mark key="[" line="102" column="0" />
         <mark key="]" line="102" column="0" />
@@ -251,6 +253,11 @@
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/ResourceIterator.java" timestamp="1609854947721">
         <mark key="'" line="53" column="36" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/ConceptManager.java" timestamp="1609861831931">
+        <mark key="[" line="180" column="0" />
+        <mark key="]" line="180" column="0" />
+        <mark key="." line="180" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/QueryTest.java" timestamp="1609860708846">
         <mark key="'" line="51" column="13" />
@@ -282,9 +289,6 @@
         <mark key="[" line="50" column="0" />
         <mark key="]" line="50" column="0" />
         <mark key="." line="50" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/producer/ProducerBuffer.java" timestamp="1609851852310">
-        <mark key="'" line="62" column="38" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/BasicTest.java" timestamp="1609860686165">
         <mark key="'" line="137" column="62" />
@@ -334,7 +338,6 @@
       <jump line="73" column="31" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" />
       <jump line="51" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" />
       <jump line="140" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" />
-      <jump line="152" column="40" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/GraqlSteps.java" />
       <jump line="137" column="69" filename="$USER_HOME$/GraknLabs/grakn/logic/tool/TypeResolver.java" />
       <jump line="133" column="25" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/bugs/async-bugs.feature" />
       <jump line="98" column="4" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
@@ -404,12 +407,13 @@
       <jump line="60" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="55" column="62" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="57" column="99" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
+      <jump line="152" column="77" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/GraqlSteps.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB0aHJvdyBuZXcgR3Jha25FeGNlcHRpb24oKTsKICAgICAgICB0aHJvdyBncmFrCg==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -421,7 +425,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>new GraknException();</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxxdWVyeVw+</text>
@@ -432,10 +436,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5IChHcmFrbi5TZXNzaW9uIHNlc3Npb24gPSBncmFrbi5zZXNzaW9uKGRhdGFiYXNlLCBBcmd1bWVudHMuU2Vzc2lvbi5UeXBlLkRBVEEpKSB7CiAgICAgICAgICAgICAgICB0cnkgKEdyYWtuLlRyYW5zYWN0aW9uIHR4ID0gc2Vzc2lvbi50cmFuc2FjdGlvbihBcmd1bWVudHMuVHJhbnNhY3Rpb24uVHlwZS5SRUFEKSkgewogICAgICAgICAgICAgICAgICAgIFN0cmluZyBxdWVyeSA9ICJtYXRjaCAkeCBzdWIgdGhpbmc7IjsKICAgICAgICAgICAgICAgICAgICBMaXN0PENvbmNlcHRNYXA+IHJlc3VsdHMgPSB0eC5xdWVyeSgpLm1hdGNoKEdyYXFsLnBhcnNlUXVlcnkocXVlcnkpLmFzTWF0Y2goKSkudG9MaXN0KCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB0aHJvdyBuZXcgR3Jha25FeGNlcHRpb24oKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB0aHJvdyBuZXcgR3Jha25FeGNlcHRpb24oKTsKICAgICAgICB0aHJvdyBncmFrCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -449,28 +453,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgKCkK</text>
+        <text encoding="base64">ICAgICAgICB0aHJvdyAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBmb3IgKCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uVHJhbnNhY3Rpb24gdHJhbnNhY3Rpb24gPSBzZXNzaW9uLnRyYW5zYWN0aW9uKEFyZ3VtZW50cy5UcmFuc2FjdGlvbi5UeXBlLldSSVRFKSkgewogICAgICAgICAgICAgICAgICAgIHRyYW5zYWN0aW9uLmNvbW1pdCgpOwogICAgICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICB0cnkgKEdyYWtuLlNlc3Npb24gc2Vzc2lvbiA9IGdyYWtuLnNlc3Npb24oZGF0YWJhc2UsIEFyZ3VtZW50cy5TZXNzaW9uLlR5cGUuU0NIRU1BKSkgewovLyAgICAgICAgICAgICAgICB0cnkgKEdyYWtuLlRyYW5zYWN0aW9uIHRyYW5zYWN0aW9uID0gc2Vzc2lvbi50cmFuc2FjdGlvbihBcmd1bWVudHMuVHJhbnNhY3Rpb24uVHlwZS5XUklURSkpIHsKLy8gICAgICAgICAgICAgICAgICAgIHRyYW5zYWN0aW9uLmNvbW1pdCgpOwovLyAgICAgICAgICAgICAgICB9Ci8vCi8vICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uVHJhbnNhY3Rpb24gdHJhbnNhY3Rpb24gPSBzZXNzaW9uLnRyYW5zYWN0aW9uKEFyZ3VtZW50cy5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7Ci8vICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uVHJhbnNhY3Rpb24gdHJhbnNhY3Rpb24gPSBzZXNzaW9uLnRyYW5zYWN0aW9uKEFyZ3VtZW50cy5UcmFuc2FjdGlvbi5UeXBlLldSSVRFKSkgewogICAgICAgICAgICAgICAgICAgIHRyYW5zYWN0aW9uLmNvbW1pdCgpOwogICAgICAgICAgICAgICAgfQoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnRfdHJhbnNhY3Rpb25fcmVhZCh0cmFuc2FjdGlvbik7Cg==</text>
+        <text encoding="base64">Ly8gICAgICAgICAgICB0cnkgKEdyYWtuLlNlc3Npb24gc2Vzc2lvbiA9IGdyYWtuLnNlc3Npb24oZGF0YWJhc2UsIEFyZ3VtZW50cy5TZXNzaW9uLlR5cGUuU0NIRU1BKSkgewovLyAgICAgICAgICAgICAgICB0cnkgKEdyYWtuLlRyYW5zYWN0aW9uIHRyYW5zYWN0aW9uID0gc2Vzc2lvbi50cmFuc2FjdGlvbihBcmd1bWVudHMuVHJhbnNhY3Rpb24uVHlwZS5XUklURSkpIHsKLy8gICAgICAgICAgICAgICAgICAgIHRyYW5zYWN0aW9uLmNvbW1pdCgpOwovLyAgICAgICAgICAgICAgICB9Ci8vCi8vICAgICAgICAgICAgICAgIHRyeSAoR3Jha24uVHJhbnNhY3Rpb24gdHJhbnNhY3Rpb24gPSBzZXNzaW9uLnRyYW5zYWN0aW9uKEFyZ3VtZW50cy5UcmFuc2FjdGlvbi5UeXBlLlJFQUQpKSB7Ci8vICAgICAgICAgICAgICAgIH0KLy8gICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgdHlwZUFzc2VydGlvbnMucGFyYWxsZWwoKS5mb3JFYWNoKGFzc2VydGlvbiAtPiBhc3NlcnRpb24uYWNjZXB0KHRyYW5zYWN0aW9uKSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -489,7 +493,7 @@
     </search>
   </component>
   <component name="VimSettings">
-    <state version="6" enabled="true" />
+    <state version="6" enabled="false" />
     <notifications>
       <idea-join enabled="true" />
       <idea-put enabled="false" />
