@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>get answers</entry>
-        <entry>close</entry>
         <entry>throw</entry>
         <entry encoding="base64">XDwjXD4=</entry>
         <entry>######</entry>
@@ -27,6 +25,8 @@
         <entry>parse</entry>
         <entry>parseQuery</entry>
         <entry encoding="base64">Pj4+</entry>
+        <entry>session</entry>
+        <entry encoding="base64">XDxFbnRpdHlUeXBlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -196,6 +196,9 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/fragment.py" timestamp="1609929174472">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" timestamp="1609866367777">
         <mark key="[" line="44" column="0" />
         <mark key="]" line="44" column="27" />
@@ -205,52 +208,14 @@
       <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/transaction/TransactionSteps.java" timestamp="1609868618460">
         <mark key="'" line="90" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/console/common/Printer.java" timestamp="1609929234130">
+        <mark key="'" line="166" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/dependencies/graknlabs/repositories.bzl" timestamp="1609870760257">
         <mark key="^" line="44" column="21" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" timestamp="1609865769039">
-        <mark key="'" line="0" column="1" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="17" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/ErrorHandledIterator.java" timestamp="1609870550017">
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/concept/TypeHandler.java" timestamp="1609928371170">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="8" />
-        <mark key="^" line="51" column="19" />
-        <mark key="." line="36" column="8" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" timestamp="1609869172261">
-        <mark key="'" line="62" column="0" />
-        <mark key="[" line="66" column="49" />
-        <mark key="]" line="66" column="58" />
-        <mark key="." line="66" column="57" />
-        <mark key="^" line="66" column="58" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1609870990135">
-        <mark key="'" line="65" column="93" />
-        <mark key="[" line="103" column="0" />
-        <mark key="]" line="103" column="0" />
-        <mark key="^" line="68" column="87" />
-        <mark key="." line="103" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/ResourceIterator.java" timestamp="1609865337639">
-        <mark key="'" line="130" column="37" />
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="0" />
-        <mark key="." line="30" column="0" />
-        <mark key="^" line="129" column="87" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/QueryTest.java" timestamp="1609866212261">
-        <mark key="'" line="51" column="13" />
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="144" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/console/common/Printer.java" timestamp="1609926814871">
-        <mark key="'" line="166" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/concept/TypeHandler.java" timestamp="1609926804201">
-        <mark key="'" line="20" column="0" />
         <mark key="[" line="212" column="0" />
         <mark key="]" line="212" column="0" />
         <mark key="." line="212" column="89" />
@@ -270,12 +235,29 @@
         <mark key="]" line="64" column="27" />
         <mark key="." line="65" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1609927728312">
-        <mark key="'" line="213" column="92" />
-        <mark key="[" line="24" column="42" />
-        <mark key="]" line="24" column="47" />
-        <mark key="." line="24" column="46" />
-        <mark key="^" line="24" column="47" />
+      <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1609929057164">
+        <mark key="'" line="129" column="51" />
+        <mark key="[" line="129" column="73" />
+        <mark key="]" line="129" column="73" />
+        <mark key="." line="129" column="72" />
+        <mark key="^" line="129" column="73" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1609929029430">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/ErrorHandledIterator.java" timestamp="1609870550017">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="8" />
+        <mark key="^" line="51" column="19" />
+        <mark key="." line="36" column="8" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" timestamp="1609869172261">
+        <mark key="'" line="62" column="0" />
+        <mark key="[" line="66" column="49" />
+        <mark key="]" line="66" column="58" />
+        <mark key="." line="66" column="57" />
+        <mark key="^" line="66" column="58" />
       </file>
       <file name="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" timestamp="1609870033668">
         <mark key="'" line="2008" column="9" />
@@ -283,22 +265,34 @@
         <mark key="]" line="1152" column="0" />
         <mark key="." line="1152" column="0" />
       </file>
-      <file name="/fragment.java" timestamp="1609925049595">
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/impl/EntityTypeImpl.java" timestamp="1609929657303">
+        <mark key="[" line="75" column="49" />
+        <mark key="]" line="75" column="54" />
+        <mark key="." line="75" column="53" />
+        <mark key="^" line="75" column="54" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/concept/type/EntityType.java" timestamp="1609929791771">
+        <mark key="'" line="46" column="25" />
+        <mark key="[" line="43" column="8" />
+        <mark key="]" line="43" column="17" />
+        <mark key="." line="43" column="16" />
+        <mark key="^" line="43" column="17" />
+      </file>
+      <file name="/fragment.java" timestamp="1609929552706">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1609870990135">
+        <mark key="'" line="65" column="93" />
+        <mark key="[" line="103" column="0" />
+        <mark key="]" line="103" column="0" />
+        <mark key="^" line="68" column="87" />
+        <mark key="." line="103" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="1964" column="24" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
-      <jump line="1970" column="22" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
-      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
-      <jump line="2008" column="22" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
-      <jump line="713" column="8" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
-      <jump line="60" column="35" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/transaction/TransactionSteps.java" />
-      <jump line="109" column="55" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/transaction/TransactionSteps.java" />
-      <jump line="115" column="4" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/connection/transaction/TransactionSteps.java" />
       <jump line="720" column="4" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
       <jump line="729" column="4" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
       <jump line="738" column="4" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
@@ -391,12 +385,20 @@
       <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/concept/TypeHandler.java" />
       <jump line="166" column="0" filename="$USER_HOME$/GraknLabs/console/common/Printer.java" />
       <jump line="212" column="92" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/concept/TypeHandler.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/concept/TypeHandler.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/concept/TypeHandler.java" />
+      <jump line="132" column="16" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="129" column="51" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" />
+      <jump line="43" column="8" filename="$USER_HOME$/GraknLabs/client-java/concept/type/EntityType.java" />
+      <jump line="46" column="25" filename="$USER_HOME$/GraknLabs/client-java/concept/type/EntityType.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNsaWVudC5jb25jZXB0LmFuc3dlci5OdW1lcmljOwo=</text>
+      <register name="&quot;" type="4">
+        <text>EntityType</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -408,10 +410,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>Numeric</text>
+        <text>EntityType</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">Pj4+</text>
+        <text encoding="base64">XDxFbnRpdHlUeXBlXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -466,9 +468,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">Pj4+</last-search>
+      <last-search encoding="base64">XDxFbnRpdHlUeXBlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">Pj4+</last-pattern>
+      <last-pattern encoding="base64">XDxFbnRpdHlUeXBlXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
