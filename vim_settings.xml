@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>commits</entry>
-        <entry>Outline</entry>
         <entry>duplicate</entry>
         <entry encoding="base64">XDxQQVJBTExFTElTQVRJT05fRkFDVE9SXD4=</entry>
         <entry>tryOpti</entry>
@@ -27,6 +25,8 @@
         <entry>producer</entry>
         <entry encoding="base64">XDxjb21iaW5lZEFuc3dlcnNcPg==</entry>
         <entry encoding="base64">XDxmdXR1cmVcPg==</entry>
+        <entry encoding="base64">XDxwcm9kdWNlZFw+</entry>
+        <entry encoding="base64">XDxpc0RvbmVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>wjjj:w</entry>
@@ -235,12 +235,12 @@
         <mark key="[" line="387" column="0" />
         <mark key="]" line="387" column="36" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" timestamp="1610017817357">
-        <mark key="'" line="34" column="43" />
-        <mark key="[" line="80" column="106" />
-        <mark key="]" line="80" column="108" />
-        <mark key="." line="80" column="107" />
-        <mark key="^" line="80" column="108" />
+      <file name="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" timestamp="1610021555126">
+        <mark key="'" line="132" column="12" />
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="65" />
+        <mark key="." line="69" column="0" />
+        <mark key="^" line="68" column="69" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/debug.feature" timestamp="1609943557429">
         <mark key="'" line="79" column="0" />
@@ -302,15 +302,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="24" column="7" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/debug.feature" />
-      <jump line="21" column="24" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/get.feature" />
-      <jump line="19" column="11" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/debug.feature" />
-      <jump line="20" column="2" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/debug.feature" />
-      <jump line="79" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/debug.feature" />
-      <jump line="53" column="55" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
-      <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
-      <jump line="61" column="37" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
-      <jump line="55" column="48" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="86" column="12" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" />
       <jump line="71" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="56" column="95" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
@@ -341,14 +332,12 @@
       <jump line="74" column="4" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphIterator.java" />
       <jump line="61" column="84" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphIterator.java" />
       <jump line="78" column="72" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
-      <jump line="45" column="63" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="111" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="117" column="0" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="133" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphIterator.java" />
       <jump line="47" column="0" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphIterator.java" />
       <jump line="58" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="49" column="32" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
-      <jump line="61" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="118" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="91" column="57" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
       <jump line="98" column="133" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
@@ -402,12 +391,23 @@
       <jump line="31" column="36" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/VertexProducer.java" />
       <jump line="39" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/VertexProducer.java" />
       <jump line="40" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/VertexProducer.java" />
+      <jump line="61" column="0" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="41" column="39" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="45" column="93" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="106" column="113" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="46" column="67" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="57" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="74" column="72" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="47" column="32" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="55" column="13" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="110" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="123" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuY29tbW9uLmNvbmN1cnJlbnQuRXhlY3V0b3JTZXJ2aWNlOwo=</text>
+        <text encoding="base64">ICAgICAgICBpbnQgc3BsaXRDb3VudCA9IChpbnQpIE1hdGguY2VpbCgoZG91YmxlKSBjb3VudCAvIHApOwo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -419,10 +419,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>, false</text>
+        <text>futures</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmdXR1cmVcPg==</text>
+        <text encoding="base64">XDxpc0RvbmVcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -430,10 +430,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFRPRE86IEl0J3MgcG9zc2libGUgdGhhdCBmdXR1cmVzLnJlbW92ZSgpIGhhcHBlbnMgaGVyZSB3aGljaCBjYXVzZXMgbm90IGNhbGxpbmcgY29uc3VtZSB3aGVuIHdlIHNob3VsZAo=</text>
+        <text encoding="base64">ICAgICAgICBpbnQgc3BsaXRDb3VudCA9IChpbnQpIE1hdGguY2VpbCgoZG91YmxlKSBjb3VudCAvIHApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuY29tbW9uLmNvbmN1cnJlbnQuRXhlY3V0b3JTZXJ2aWNlOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -447,28 +447,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBFeGVjdXRvclNlcnZpY2UuZm9ya0pvaW5Qb29sKCkuc3VibWl0KCgpIC0+IHsK</text>
+        <text encoding="base64">ICAgICAgICBpbnQgam9iQ291bnQgPSBqb2JzLmlzRW1wdHkoKSA/CiAgICAgICAgaWYgKGpvYnMuc2l6ZSgpID09ICkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB9KTsK</text>
+        <text encoding="base64">ICAgICAgICBpbnQgcCA9IGZ1dHVyZXMuaXNFbXB0eSgpID8gcGFyYWxsZWxpc2F0aW9uIDogZnV0dXJlcy5zaXplKCk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBFeGVjdXRvclNlcnZpY2UuZm9ya0pvaW5Qb29sKCkuc3VibWl0KCgpIC0+IHsK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTWFwPFJlc291cmNlSXRlcmF0b3I8VmVydGV4TWFwPiwgUGFpcjw+PiBmdXR1cmVzOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5VVUlEOwo=</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0aGlzLmlkID0gVVVJRC5yYW5kb21VVUlEKCk7Cg==</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgcHJvZHVjZShTaW5rPFZlcnRleE1hcD4gc2luaywgaW50IGNvdW50KSB7CiAgICB9Cgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgVVVJRCBpZDsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBVVUlEIGdldElkKCkgewogICAgICAgIHJldHVybiBpZDsKICAgIH0KCg==</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUuY29tbW9uLmNvbmN1cnJlbnQuRXhlY3V0b3JTZXJ2aWNlOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -477,9 +477,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxmdXR1cmVcPg==</last-search>
+      <last-search encoding="base64">XDxpc0RvbmVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmdXR1cmVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxpc0RvbmVcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
