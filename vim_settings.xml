@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjMVw+</entry>
         <entry encoding="base64">XDxpc0RvbmVcPg==</entry>
         <entry>done</entry>
         <entry encoding="base64">XDxwcm9kdWNlcnNcPg==</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxmaW5pc2hcPg==</entry>
         <entry encoding="base64">XDxzeW5jaHJvbml6ZWRcPg==</entry>
         <entry encoding="base64">XDxuYXRpdmVcPg==</entry>
+        <entry encoding="base64">XDxBdG9taWNJbnRlZ2VyXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>3</entry>
@@ -231,12 +231,12 @@
       <file name="$USER_HOME$/GraknLabs/grakn/common/producer/IterableProducer.java" timestamp="1610358268963">
         <mark key="'" line="62" column="4" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" timestamp="1610444316869">
-        <mark key="'" line="94" column="46" />
-        <mark key="[" line="94" column="56" />
-        <mark key="]" line="94" column="60" />
-        <mark key="." line="94" column="59" />
-        <mark key="^" line="94" column="60" />
+      <file name="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" timestamp="1610446721567">
+        <mark key="'" line="34" column="44" />
+        <mark key="[" line="81" column="27" />
+        <mark key="]" line="81" column="27" />
+        <mark key="." line="81" column="31" />
+        <mark key="^" line="77" column="21" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/QueryTest.java" timestamp="1610127981217">
         <mark key="'" line="17" column="0" />
@@ -294,7 +294,7 @@
         <mark key="." line="152" column="67" />
         <mark key="^" line="152" column="68" />
       </file>
-      <file name="/fragment.java" timestamp="1610444315560">
+      <file name="/fragment.java" timestamp="1610446041295">
         <mark key="'" line="0" column="7" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -303,9 +303,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="93" column="12" filename="$USER_HOME$/GraknLabs/grakn/traversal/procedure/VertexProcedure.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn/traversal/procedure/VertexProcedure.java" />
-      <jump line="36" column="49" filename="$USER_HOME$/GraknLabs/grakn/traversal/procedure/VertexProcedure.java" />
       <jump line="121" column="8" filename="$USER_HOME$/GraknLabs/grakn/.grabl/automation.yml" />
       <jump line="1904" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
       <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" />
@@ -403,27 +400,30 @@
       <jump line="213" column="10" filename="/private/var/tmp/_bazel_lriuui0x0/cc84a188dd01b277d4e8abad1fc1ebf5/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionDB.java" />
       <jump line="215" column="10" filename="/private/var/tmp/_bazel_lriuui0x0/cc84a188dd01b277d4e8abad1fc1ebf5/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionDB.java" />
       <jump line="94" column="46" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="69" column="92" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="61" column="34" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
+      <jump line="34" column="44" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">YXNzZXJ0IA==</text>
+        <text>futures</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
       </register>
       <register name="+" type="2">
-        <text encoding="base64">ICAgICAgaW5zZXJ0CiAgICAgICR4IGlzYSBwZXJzb24sIGhhcyBuYW1lICJCZXJ0aWUiLCBoYXMgcmVmIDA7CiAgICAgICR5IGlzYSBwZXJzb24sIGhhcyBuYW1lICJBbmdlbGluYSIsIGhhcyByZWYgMTsKICAgICAgJHIgKGZyaWVuZDogJHgsIGZyaWVuZDogJHkpIGlzYSBmcmllbmRzaGlwLCBoYXMgcmVmIDI7Cg==</text>
+        <text encoding="base64">YmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKMTA6MDk6MjIuNjg0IFtHcmFrblNlcnZlcjo6d29ya2VyOjoxXSBERUJVRyBpby5ncnBjLm5ldHR5Lk5ldHR5U2VydmVySGFuZGxlciAtIFtpZDogMHhlMThhOGMwZSwgTDovMDowOjA6MDowOjA6MDoxOjE3MjkgLSBSOi8wOjA6MDowOjA6MDowOjE6NTY0MDJdIE9VVEJPVU5EIERBVEE6IHN0cmVhbUlkPTMgcGFkZGluZz0wIGVuZFN0cmVhbT1mYWxzZSBsZW5ndGg9MTY5MCBieXRlcz0wMDAwMDAwNjk1MGEyNDM1NjUzOTM4NjUzNDM3MzcyZDMzMzYzNzY0MmQzNDM4NjMzNjJkMzgzNTMzMzQyZDYzMzUzMTM4MzEzNTYxMzYzMDMwNjE2MjQyZWMwY2JhMDZlODBjMGExZDBhMWIwYTAyNjc3MzEyMTUwYTEzMGEwOC4uLgoxMDowOToyMi42ODUgW0dyYWtuU2VydmVyOjp3b3JrZXI6OjFdIERFQlVHIGlvLmdycGMubmV0dHkuTmV0dHlTZXJ2ZXJIYW5kbGVyIC0gW2lkOiAweGUxOGE4YzBlLCBMOi8wOjA6MDowOjA6MDowOjE6MTcyOSAtIFI6LzA6MDowOjA6MDowOjA6MTo1NjQwMl0gT1VUQk9VTkQgREFUQTogc3RyZWFtSWQ9MyBwYWRkaW5nPTAgZW5kU3RyZWFtPWZhbHNlIGxlbmd0aD00NSBieXRlcz0wMDAwMDAwMDI4MGEyNDM1NjUzOTM4NjUzNDM3MzcyZDMzMzYzNzY0MmQzNDM4NjMzNjJkMzgzNTMzMzQyZDYzMzUzMTM4MzEzNTYxMzYzMDMwNjE2MjIwMDEKMTA6MDk6MjIuNjkxIFtHcmFrblNlcnZlcjo6d29ya2VyOjoxXSBERUJVRyBpby5ncnBjLm5ldHR5Lk5ldHR5U2VydmVySGFuZGxlciAtIFtpZDogMHhlMThhOGMwZSwgTDovMDowOjA6MDowOjA6MDoxOjE3MjkgLSBSOi8wOjA6MDowOjA6MDowOjE6NTY0MDJdIElOQk9VTkQgV0lORE9XX1VQREFURTogc3RyZWFtSWQ9MyB3aW5kb3dTaXplSW5jcmVtZW50PTE3MzUKMTA6MDk6MjIuNjkxIFtHcmFrblNlcnZlcjo6d29ya2VyOjoxXSBERUJVRyBpby5ncnBjLm5ldHR5Lk5ldHR5U2VydmVySGFuZGxlciAtIFtpZDogMHhlMThhOGMwZSwgTDovMDowOjA6MDowOjA6MDoxOjE3MjkgLSBSOi8wOjA6MDowOjA6MDowOjE6NTY0MDJdIElOQk9VTkQgREFUQTogc3RyZWFtSWQ9MyBwYWRkaW5nPTAgZW5kU3RyZWFtPWZhbHNlIGxlbmd0aD00NSBieXRlcz0wMDAwMDAwMDI4MGEyNDM1NjUzOTM4NjUzNDM3MzcyZDMzMzYzNzY0MmQzNDM4NjMzNjJkMzgzNTMzMzQyZDYzMzUzMTM4MzEzNTYxMzYzMDMwNjE2MjIwMDEKMTA6MDk6MjIuNjkyIFtHcmFrblNlcnZlcjo6d29ya2VyOjoxXSBERUJVRyBpby5ncnBjLm5ldHR5Lk5ldHR5U2VydmVySGFuZGxlciAtIFtpZDogMHhlMThhOGMwZSwgTDovMDowOjA6MDowOjA6MDoxOjE3MjkgLSBSOi8wOjA6MDowOjA6MDowOjE6NTY0MDJdIE9VVEJPVU5EIFBJTkc6IGFjaz1mYWxzZSBieXRlcz0xMjM0CjEwOjA5OjIyLjY5MiBbR3Jha25TZXJ2ZXI6Ondvcmtlcjo6MV0gREVCVUcgaW8uZ3JwYy5uZXR0eS5OZXR0eVNlcnZlckhhbmRsZXIgLSBbaWQ6IDB4ZTE4YThjMGUsIEw6LzA6MDowOjA6MDowOjA6MToxNzI5IC0gUjovMDowOjA6MDowOjA6MDoxOjU2NDAyXSBJTkJPVU5EIFdJTkRPV19VUERBVEU6IHN0cmVhbUlkPTAgd2luZG93U2l6ZUluY3JlbWVudD0xNzM1CjEwOjA5OjIyLjY5MiBbR3Jha25TZXJ2ZXI6Ondvcmtlcjo6MV0gREVCVUcgaW8uZ3JwYy5uZXR0eS5OZXR0eVNlcnZlckhhbmRsZXIgLSBbaWQ6IDB4ZTE4YThjMGUsIEw6LzA6MDowOjA6MDowOjA6MToxNzI5IC0gUjovMDowOjA6MDowOjA6MDoxOjU2NDAyXSBJTkJPVU5EIFBJTkc6IGFjaz1mYWxzZSBieXRlcz0xCjEwOjA5OjIyLjY5MiBbR3Jha25TZXJ2ZXI6Ondvcmtlcjo6MV0gREVCVUcgaW8uZ3JwYy5uZXR0eS5OZXR0eVNlcnZlckhhbmRsZXIgLSBbaWQ6IDB4ZTE4YThjMGUsIEw6LzA6MDowOjA6MDowOjA6MToxNzI5IC0gUjovMDowOjA6MDowOjA6MDoxOjU2NDAyXSBPVVRCT1VORCBQSU5HOiBhY2s9dHJ1ZSBieXRlcz0xCjEwOjA5OjIyLjY5MyBbR3Jha25TZXJ2ZXI6Ondvcmtlcjo6MV0gREVCVUcgaW8uZ3JwYy5uZXR0eS5OZXR0eVNlcnZlckhhbmRsZXIgLSBbaWQ6IDB4ZTE4YThjMGUsIEw6LzA6MDowOjA6MDowOjA6MToxNzI5IC0gUjovMDowOjA6MDowOjA6MDoxOjU2NDAyXSBJTkJPVU5EIFBJTkc6IGFjaz10cnVlIGJ5dGVzPTEyMzQKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCmJlZm9yZSAyCmFmdGVyIDEKYmVmb3JlIDIKYWZ0ZXIgMQpiZWZvcmUgMgphZnRlciAxCg==</text>
       </register>
       <register name="l" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">YXNzZXJ0IA==</text>
+        <text>futures</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxuYXRpdmVcPg==</text>
+        <text encoding="base64">XDxBdG9taWNJbnRlZ2VyXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -431,10 +431,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImJlZm9yZSAiICsgZnV0dXJlcy5zaXplKCkpOwo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgZmluYWwgTWFwPExvbmcsIENvbXBsZXRhYmxlRnV0dXJlPFZvaWQ+PiBmdXR1cmVzOwo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhc3NlcnQgIWZ1dHVyZXMuY29udGFpbnNLZXkoaXRlcmF0b3IpOwo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">LnJlY3ljbGUoKSk7CiAgICA=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -448,28 +448,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oU3RyaW5nLmZvcm1hdCgiY291bnQgPSAlZCwgaSA9ICVkLCBpdGVyYXRvci5oYXNOZXh0KCkgPSAlZCIsIGNvdW50LCBpLCBpdGVyYXRvci5oYXNOZXh0KCkgPyAxIDogMCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImFmdGVyICIgKyBmdXR1cmVzLnNpemUoKSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImJlZm9yZSAiICsgZnV0dXJlcy5zaXplKCkpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzb3V0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYXNzZXJ0IGZ1dHVyZXMuZ2V0KGlkKSAhPSBudWxsOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImJlZm9yZSAiICsgZnV0dXJlcy5zaXplKCkpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBhc3NlcnQgZnV0dXJlcy5jb250YWluc0tleShpdGVyYXRvcik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZ1dHVyZXMuY29tcHV0ZUlmUHJlc2VudChpZCwgKGssIHYpIC0+IHBhaXIodi5maXJzdCgpLCB2LnNlY29uZCgpLnRoZW5SdW5Bc3luYygKICAgICAgICAgICAgICAgICAgICAgICAgKCkgLT4gcHJvZHVjZUFzeW5jKHF1ZXVlLCBpZCwgc3BsaXRDb3VudCksIGZvcmtKb2luUG9vbCgpCiAgICAgICAgICAgICAgICApKSk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImVuZCAiICsgZnV0dXJlcy5zaXplKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZ1dHVyZXMuY29tcHUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImJlZ2luICIgKyBmdXR1cmVzLnNpemUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oZnV0dXJlcy5zaXplKCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -478,9 +478,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxuYXRpdmVcPg==</last-search>
+      <last-search encoding="base64">XDxBdG9taWNJbnRlZ2VyXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxuYXRpdmVcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxBdG9taWNJbnRlZ2VyXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
