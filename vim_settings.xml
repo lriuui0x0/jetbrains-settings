@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>get</entry>
-        <entry>define</entry>
         <entry encoding="base64">XDxzY2hlbWFcPg==</entry>
         <entry>put</entry>
         <entry encoding="base64">XDx0cnVlXD4=</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxEaXN0aW5jdEl0ZXJhdG9yXD4=</entry>
         <entry>his</entry>
         <entry encoding="base64">XDxyZXNvbHV0aW9uXD4=</entry>
+        <entry encoding="base64">XDxUeXBlXD4=</entry>
+        <entry>backwardRole</entry>
       </history-search>
       <history-cmd>
         <entry>www</entry>
@@ -196,17 +196,16 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1610387012290" />
-      <file name="$USER_HOME$/GraknLabs/grakn/common/producer/IterableProducer.java" timestamp="1610358268963">
-        <mark key="'" line="62" column="4" />
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/reasoner/BUILD" timestamp="1610544388253">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="48" column="1" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/traversal/common/Predicate.java" timestamp="1610553606718">
+        <mark key="[" line="197" column="59" />
+        <mark key="]" line="197" column="90" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" timestamp="1610530573626" />
-      <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/debug/debug.feature" timestamp="1610128475599">
-        <mark key="'" line="59" column="8" />
-        <mark key="[" line="85" column="6" />
-        <mark key="]" line="85" column="24" />
-        <mark key="." line="91" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/language/match/MatchTest.java" timestamp="1610387742686" />
       <file name="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" timestamp="1610387633851">
         <mark key="'" line="314" column="8" />
@@ -220,28 +219,15 @@
         <mark key="." line="33" column="51" />
         <mark key="^" line="33" column="52" />
       </file>
-      <file name="/private/var/tmp/_bazel_lriuui0x0/cc84a188dd01b277d4e8abad1fc1ebf5/external/maven/v1/https/repo1.maven.org/maven2/org/rocksdb/rocksdbjni/6.11.4/rocksdbjni-6.11.4-sources.jar!/org/rocksdb/OptimisticTransactionDB.java" timestamp="1610386988964">
-        <mark key="'" line="215" column="10" />
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCDatabaseManager.java" timestamp="1610544706586">
+        <mark key="[" line="67" column="0" />
+        <mark key="]" line="71" column="9" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" timestamp="1610379947167">
-        <mark key="'" line="73" column="28" />
-        <mark key="[" line="79" column="68" />
-        <mark key="]" line="79" column="73" />
-        <mark key="." line="79" column="72" />
-        <mark key="^" line="79" column="73" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/GraqlSteps.java" timestamp="1610379921890">
-        <mark key="'" line="161" column="87" />
-        <mark key="[" line="152" column="61" />
-        <mark key="]" line="152" column="68" />
-        <mark key="." line="152" column="67" />
-        <mark key="^" line="152" column="68" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksGrakn.java" timestamp="1610129132256">
-        <mark key="[" line="69" column="49" />
-        <mark key="]" line="69" column="49" />
-        <mark key="." line="69" column="49" />
-        <mark key="^" line="38" column="44" />
+      <file name="$USER_HOME$/GraknLabs/console/common/Printer.java" timestamp="1610560606417" />
+      <file name="$USER_HOME$/GraknLabs/client-java/GraknClient.java" timestamp="1610545232467">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="0" />
+        <mark key="." line="56" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" timestamp="1610461298688">
         <mark key="'" line="64" column="0" />
@@ -250,10 +236,11 @@
         <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" timestamp="1610534233581">
+        <mark key="'" line="28" column="39" />
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
         <mark key="^" line="33" column="20" />
+        <mark key="." line="31" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1610387406332">
         <mark key="'" line="74" column="55" />
@@ -268,8 +255,30 @@
         <mark key="." line="47" column="27" />
         <mark key="^" line="47" column="28" />
       </file>
-      <file name="vim_settings.xml" timestamp="1610365912536">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/traversal/procedure/GraphProcedure.java" timestamp="1610553059083">
+        <mark key="'" line="234" column="0" />
+        <mark key="[" line="236" column="0" />
+        <mark key="]" line="236" column="0" />
+        <mark key="^" line="235" column="45" />
+        <mark key="." line="236" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/console/dependencies/graknlabs/repositories.bzl" timestamp="1610558037871">
+        <mark key="'" line="34" column="27" />
+        <mark key="[" line="37" column="58" />
+        <mark key="]" line="37" column="58" />
+        <mark key="." line="37" column="58" />
+        <mark key="^" line="37" column="18" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1610546100969">
+        <mark key="[" line="148" column="0" />
+        <mark key="]" line="148" column="0" />
+        <mark key="." line="148" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" timestamp="1610546088474">
+        <mark key="'" line="22" column="7" />
+        <mark key="[" line="91" column="0" />
+        <mark key="]" line="95" column="13" />
+        <mark key="." line="96" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" timestamp="1610447483644">
         <mark key="'" line="192" column="12" />
