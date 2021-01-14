@@ -57,22 +57,46 @@
   <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Z</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed COMMA</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
         <text>ctrl pressed OPEN_BRACKET</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed V</text>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed J</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
-        <text>ctrl pressed D</text>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed Q</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed U</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>ctrl pressed B</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>ctrl pressed J</text>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed K</text>
@@ -82,6 +106,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed B</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed W</text>
@@ -103,6 +130,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed BACK_SPACE</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed O</text>
@@ -153,37 +183,7 @@
         <text>shift ctrl pressed SEMICOLON</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
-        <text>alt pressed Q</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
         <text>alt pressed R</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed M</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed X</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed J</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed BACK_SPACE</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed Z</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed B</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed COMMA</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed N</text>
-      </shortcut-conflict>
-      <shortcut-conflict owner="ide">
-        <text>alt pressed C</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>alt pressed V</text>
@@ -196,64 +196,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/reasoner/BUILD" timestamp="1610544388253">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="48" column="1" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/traversal/common/Predicate.java" timestamp="1610553606718">
-        <mark key="[" line="197" column="59" />
-        <mark key="]" line="197" column="90" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" timestamp="1610530573626" />
-      <file name="$USER_HOME$/GraknLabs/grakn/test/behaviour/graql/language/match/MatchTest.java" timestamp="1610387742686" />
-      <file name="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" timestamp="1610387633851">
-        <mark key="'" line="314" column="8" />
-        <mark key="[" line="20" column="0" />
-        <mark key="]" line="54" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" timestamp="1610534224469">
-        <mark key="'" line="21" column="17" />
-        <mark key="[" line="33" column="39" />
-        <mark key="]" line="33" column="52" />
-        <mark key="." line="33" column="51" />
-        <mark key="^" line="33" column="52" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCDatabaseManager.java" timestamp="1610544706586">
-        <mark key="[" line="67" column="0" />
-        <mark key="]" line="71" column="9" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/console/common/Printer.java" timestamp="1610560606417" />
-      <file name="$USER_HOME$/GraknLabs/client-java/GraknClient.java" timestamp="1610545232467">
-        <mark key="[" line="56" column="0" />
-        <mark key="]" line="56" column="0" />
-        <mark key="." line="56" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" timestamp="1610461298688">
         <mark key="'" line="64" column="0" />
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" timestamp="1610534233581">
-        <mark key="'" line="28" column="39" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="^" line="33" column="20" />
-        <mark key="." line="31" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1610387406332">
-        <mark key="'" line="74" column="55" />
-        <mark key="[" line="93" column="13" />
-        <mark key="]" line="93" column="14" />
-        <mark key="." line="93" column="13" />
-        <mark key="^" line="93" column="14" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/ResourceIterator.java" timestamp="1610461305525">
-        <mark key="[" line="47" column="12" />
-        <mark key="]" line="47" column="28" />
-        <mark key="." line="47" column="27" />
-        <mark key="^" line="47" column="28" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/traversal/procedure/GraphProcedure.java" timestamp="1610553059083">
         <mark key="'" line="234" column="0" />
@@ -262,26 +209,12 @@
         <mark key="^" line="235" column="45" />
         <mark key="." line="236" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/console/dependencies/graknlabs/repositories.bzl" timestamp="1610558037871">
-        <mark key="'" line="34" column="27" />
-        <mark key="[" line="37" column="58" />
-        <mark key="]" line="37" column="58" />
-        <mark key="." line="37" column="58" />
-        <mark key="^" line="37" column="18" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1610546100969">
-        <mark key="[" line="148" column="0" />
-        <mark key="]" line="148" column="0" />
-        <mark key="." line="148" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" timestamp="1610546088474">
-        <mark key="'" line="22" column="7" />
-        <mark key="[" line="91" column="0" />
-        <mark key="]" line="95" column="13" />
-        <mark key="." line="96" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" timestamp="1610447483644">
-        <mark key="'" line="192" column="12" />
+      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1610387406332">
+        <mark key="'" line="74" column="55" />
+        <mark key="[" line="93" column="13" />
+        <mark key="]" line="93" column="14" />
+        <mark key="." line="93" column="13" />
+        <mark key="^" line="93" column="14" />
       </file>
       <file name="$USER_HOME$/GraknLabs/console/GraknConsole.java" timestamp="1610532955337">
         <mark key="'" line="76" column="38" />
@@ -289,6 +222,70 @@
         <mark key="]" line="84" column="118" />
         <mark key="^" line="84" column="118" />
         <mark key="." line="84" column="117" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCSession.java" timestamp="1610546088474">
+        <mark key="'" line="22" column="7" />
+        <mark key="[" line="91" column="0" />
+        <mark key="]" line="95" column="13" />
+        <mark key="." line="96" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/ResourceIterator.java" timestamp="1610461305525">
+        <mark key="[" line="47" column="12" />
+        <mark key="]" line="47" column="28" />
+        <mark key="." line="47" column="27" />
+        <mark key="^" line="47" column="28" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/traversal/common/Predicate.java" timestamp="1610553606718">
+        <mark key="[" line="197" column="59" />
+        <mark key="]" line="197" column="90" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/behaviour/graql/language/match.feature" timestamp="1610387633851">
+        <mark key="'" line="314" column="8" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="54" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/GraknClient.java" timestamp="1610545232467">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="0" />
+        <mark key="." line="56" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/reasoner/BUILD" timestamp="1610544388253">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="48" column="1" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" timestamp="1610534233581">
+        <mark key="'" line="28" column="39" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="^" line="33" column="20" />
+        <mark key="." line="31" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCDatabaseManager.java" timestamp="1610544706586">
+        <mark key="[" line="67" column="0" />
+        <mark key="]" line="71" column="9" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1610546100969">
+        <mark key="[" line="148" column="0" />
+        <mark key="]" line="148" column="0" />
+        <mark key="." line="148" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/console/dependencies/graknlabs/repositories.bzl" timestamp="1610558037871">
+        <mark key="'" line="34" column="27" />
+        <mark key="[" line="37" column="58" />
+        <mark key="]" line="37" column="58" />
+        <mark key="." line="37" column="58" />
+        <mark key="^" line="37" column="18" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/BUILD" timestamp="1610534224469">
+        <mark key="'" line="21" column="17" />
+        <mark key="[" line="33" column="39" />
+        <mark key="]" line="33" column="52" />
+        <mark key="." line="33" column="51" />
+        <mark key="^" line="33" column="52" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" timestamp="1610447483644">
+        <mark key="'" line="192" column="12" />
       </file>
       <file name="/fragment.java" timestamp="1610534030183">
         <mark key="'" line="0" column="7" />
