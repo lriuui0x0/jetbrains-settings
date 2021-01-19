@@ -39,7 +39,6 @@
         <entry>we</entry>
         <entry>wq</entry>
         <entry>cnext</entry>
-        <entry>ww</entry>
         <entry>qq</entry>
         <entry>w\</entry>
         <entry encoding="base64">JzwsJz53</entry>
@@ -47,6 +46,7 @@
         <entry encoding="base64">JzwsJz4=</entry>
         <entry>:w</entry>
         <entry>:q</entry>
+        <entry>ww</entry>
         <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
@@ -230,12 +230,12 @@
         <mark key="^" line="169" column="36" />
         <mark key="." line="169" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" timestamp="1611072806979">
-        <mark key="'" line="190" column="16" />
-        <mark key="[" line="174" column="64" />
-        <mark key="]" line="174" column="81" />
-        <mark key="." line="174" column="80" />
-        <mark key="^" line="174" column="81" />
+      <file name="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" timestamp="1611074059375">
+        <mark key="'" line="191" column="99" />
+        <mark key="[" line="191" column="93" />
+        <mark key="]" line="191" column="100" />
+        <mark key="^" line="191" column="90" />
+        <mark key="." line="191" column="93" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/query/QueryHandler.java" timestamp="1611056841084">
         <mark key="'" line="139" column="17" />
@@ -279,6 +279,12 @@
         <mark key="'" line="205" column="76" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/traversal/planner/GraphPlanner.java" timestamp="1610991832536" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" timestamp="1611074337221">
+        <mark key="[" line="270" column="22" />
+        <mark key="]" line="270" column="22" />
+        <mark key="." line="270" column="21" />
+        <mark key="^" line="270" column="22" />
+      </file>
       <file name="/fragment.java" timestamp="1611057799074">
         <mark key="'" line="0" column="7" />
         <mark key="[" line="0" column="0" />
@@ -288,9 +294,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="192" column="12" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="81" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
-      <jump line="79" column="26" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
       <jump line="67" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
       <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
       <jump line="87" column="69" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
@@ -380,7 +383,6 @@
       <jump line="131" column="17" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
       <jump line="138" column="16" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
       <jump line="178" column="47" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="191" column="12" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
       <jump line="173" column="38" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
       <jump line="166" column="16" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
       <jump line="49" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
@@ -388,12 +390,16 @@
       <jump line="208" column="44" filename="$USER_HOME$/GraknLabs/grakn/graph/adjacency/impl/ThingAdjacencyImpl.java" />
       <jump line="188" column="33" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
       <jump line="190" column="16" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
+      <jump line="339" column="77" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
+      <jump line="255" column="73" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
+      <jump line="253" column="27" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
+      <jump line="191" column="99" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>isModified</text>
+        <text>Lock.lockRead();</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -405,7 +411,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>isModified</text>
+        <text>Lock.lockRead();</text>
       </register>
       <register name="/" type="4">
         <text>isModified</text>
@@ -415,11 +421,11 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>insertHas(thing, variable.has())</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBMT0cuZGVidWcoInRoaW5nID0gaW5zZXJ0SXNhKHZhcmlhYmxlLmlzYSgpLmdldCgpLCB2YXJpYWJsZSk7ICIgKyAodGltZTUgLSB0aW1lMikpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBjb25zdW1lZC5hZGQobmV4dCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBMT0cuZGVidWcoInRoaW5nID0gaW5zZXJ0SXNhKHZhcmlhYmxlLmlzYSgpLmdldCgpLCB2YXJpYWJsZSk7ICIgKyAodGltZTUgLSB0aW1lMikpOwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -433,28 +439,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICAgICAgICAgICAgR3JhcWxNYXRjaC5VbmZpbHRlcmVkIG1hdGNoID0gcXVlcnkubWF0Y2goKS5nZXQoKTsKICAgICAgICAgICAgICAgIExpc3Q8VW5ib3VuZFZhcmlhYmxlPiBmaWx0ZXJWYXJzID0gbmV3IEFycmF5TGlzdDw+KG1hdGNoLm5hbWVkVmFyaWFibGVzVW5ib3VuZCgpKTsKICAgICAgICAgICAgICAgIGZpbHRlclZhcnMucmV0YWluQWxsKGl0ZXJhdGUocXVlcnkudmFyaWFibGVzKCkpLm1hcChCb3VuZFZhcmlhYmxlOjp0b1VuYm91bmQpLnRvTGlzdCgpKTsKICAgICAgICAgICAgICAgIExpc3Q8Q29uY2VwdE1hcD4gbWF0Y2hlZCA9IG1hdGNoKG1hdGNoLmdldChmaWx0ZXJWYXJzKSwgb3B0aW9ucykudG9MaXN0KCk7Cj4+Pj4+Pj4gU3Rhc2hlZCBjaGFuZ2VzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICh0aW1lNyAhPSAtMSkgewogICAgICAgICAgICAgICAgICAgIExPRy5kZWJ1ZygiaW5zZXJ0ZWQucHV0KHZhcmlhYmxlLnJlZmVyZW5jZSgpLCB0aGluZyk7ICIgKyAodGltZTcgLSB0aW1lNikpOwogICAgICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRpbWU3ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIExPRy5kZWJ1ZygibWF0Y2hlZCBhbnN3ZXJzICIgKyBtYXRjaGVkLnNpemUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9uZyB0aW1lNyA9IC0xOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICAgICAgICAgICAgTGlzdDxDb25jZXB0TWFwPiBtYXRjaGVkID0gbWF0Y2gocXVlcnkubWF0Y2goKS5nZXQoKSwgb3B0aW9ucykudG9MaXN0KCk7Cj4+Pj4+Pj4gU3Rhc2hlZCBjaGFuZ2VzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRoaW5nID0gcmVzdWx0LmZpcnN0KCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIExPRy5kZWJ1ZygibWF0Y2hlZCBhbnN3ZXJzICIgKyBtYXRjaGVkLnNpemUoKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
