@@ -254,12 +254,12 @@
         <mark key="[" line="57" column="0" />
         <mark key="]" line="57" column="38" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" timestamp="1610987654595">
-        <mark key="'" line="79" column="31" />
-        <mark key="[" line="49" column="0" />
-        <mark key="]" line="50" column="0" />
-        <mark key="^" line="116" column="29" />
-        <mark key="." line="200" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" timestamp="1611055410265">
+        <mark key="'" line="160" column="30" />
+        <mark key="[" line="165" column="13" />
+        <mark key="]" line="165" column="26" />
+        <mark key="^" line="165" column="26" />
+        <mark key="." line="165" column="25" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/logic/tool/TypeResolver.java" timestamp="1610991565391">
         <mark key="'" line="71" column="47" />
@@ -290,17 +290,15 @@
         <mark key="[" line="46" column="0" />
         <mark key="]" line="46" column="39" />
       </file>
-      <file name="/fragment.java" timestamp="1610991831670">
+      <file name="/fragment.java" timestamp="1611055920274">
         <mark key="'" line="0" column="7" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="0" column="28" />
-        <mark key="." line="0" column="0" />
+        <mark key="]" line="0" column="64" />
+        <mark key="^" line="0" column="65" />
+        <mark key="." line="0" column="64" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="110" column="0" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
-      <jump line="47" column="26" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
       <jump line="200" column="0" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
       <jump line="187" column="8" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
       <jump line="193" column="12" filename="$USER_HOME$/GraknLabs/grakn/common/producer/IterableProducer.java" />
@@ -399,24 +397,26 @@
       <jump line="171" column="22" filename="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" />
       <jump line="170" column="32" filename="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" />
       <jump line="172" column="32" filename="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" />
+      <jump line="162" column="37" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
+      <jump line="160" column="30" filename="$USER_HOME$/GraknLabs/grakn/query/QueryManager.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>commit</text>
+      <register name="&quot;" type="2">
+        <text>((RocksTransaction.Data) transaction).graphMgr.data().thingsByIID</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
       </register>
-      <register name="+" type="4">
-        <text encoding="base64">TGlzdDxQcm9kdWNlcjxDb25jZXB0TWFwPj4=</text>
+      <register name="+" type="2">
+        <text>((RocksTransaction.Data) transaction).graphMgr.data().thingsByIID</text>
       </register>
       <register name="l" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>commit</text>
+        <text>return</text>
       </register>
       <register name="/" type="4">
         <text>put(</text>
@@ -426,8 +426,8 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBMT0cuZGVidWcodmVydGljZXMuc2l6ZSgpICsgIiB0aGluZ3MgdG8gY29tbWl0Li4uIik7Cg==</text>
+      <register name="0" type="4">
+        <text encoding="base64">UmVzb3VyY2VJdGVyYXRvcjxDb25jZXB0TWFwPiA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHB1YmxpYyBmaW5hbCBpbnQgY29tbWl0Q291bnQ7Cg==</text>
