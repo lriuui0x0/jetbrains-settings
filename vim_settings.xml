@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxyZWxhdGlvblw+</entry>
         <entry>echoding</entry>
         <entry>getPlays</entry>
         <entry>outs</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDx1bmZ1bGZpbGxlZFw+</entry>
         <entry>id</entry>
         <entry>validate</entry>
+        <entry>lock</entry>
       </history-search>
       <history-cmd>
         <entry>wwwll:w</entry>
@@ -244,12 +244,15 @@
         <mark key="." line="308" column="30" />
         <mark key="^" line="304" column="42" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/concept/ConceptManager.java" timestamp="1611313191435">
-        <mark key="'" line="182" column="114" />
-        <mark key="[" line="181" column="0" />
-        <mark key="m" line="181" column="24" />
-        <mark key="]" line="181" column="0" />
-        <mark key="." line="181" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" timestamp="1611314567027">
+        <mark key="'" line="103" column="0" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/ConceptManager.java" timestamp="1611313966150">
+        <mark key="'" line="55" column="0" />
+        <mark key="[" line="55" column="0" />
+        <mark key="m" line="177" column="24" />
+        <mark key="]" line="55" column="0" />
+        <mark key="." line="55" column="0" />
       </file>
       <file name="/Dummy." timestamp="1611247179404">
         <mark key="[" line="0" column="0" />
@@ -289,9 +292,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="192" column="12" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="81" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
-      <jump line="79" column="26" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
       <jump line="67" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
       <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/iterator/DistinctIterator.java" />
       <jump line="87" column="69" filename="$USER_HOME$/GraknLabs/grakn/traversal/producer/GraphProducer.java" />
@@ -389,12 +389,15 @@
       <jump line="87" column="16" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
       <jump line="88" column="14" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
       <jump line="86" column="12" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
+      <jump line="183" column="47" filename="$USER_HOME$/GraknLabs/grakn/concept/ConceptManager.java" />
+      <jump line="55" column="0" filename="$USER_HOME$/GraknLabs/grakn/concept/ConceptManager.java" />
+      <jump line="103" column="0" filename="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgdmFsaWRhdGUoKSB7CiAgICAgICAgc3VwZXIudmFsaWRhdGUoKTsKICAgIH0KCg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihDb25jZXB0TWFuYWdlci5jbGFzcyk7Cgo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -409,7 +412,7 @@
         <text>System.out.println</text>
       </register>
       <register name="/" type="4">
-        <text>validate</text>
+        <text>lock</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -420,7 +423,7 @@
         <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihSb2Nrc1RyYW5zYWN0aW9uLmNsYXNzKTsKCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgdmFsaWRhdGUoKSB7CiAgICAgICAgc3VwZXIudmFsaWRhdGUoKTsKICAgIH0KCg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvZ2dlciBMT0cgPSBMb2dnZXJGYWN0b3J5LmdldExvZ2dlcihDb25jZXB0TWFuYWdlci5jbGFzcyk7Cgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -434,19 +437,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAoIlRoaW5ncyB0byB2YWxpZGF0ZSIpOwo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zbGY0ai5Mb2dnZXI7CmltcG9ydCBvcmcuc2xmNGouTG9nZ2VyRmFjdG9yeTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUucm9ja3MuUm9ja3NUcmFuc2FjdGlvbjsK</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgdmFsaWRhdGUoKSB7CiAgICAgICAgc3VwZXIudmFsaWRhdGUoKTsKICAgIH0KCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">cwo=</text>
+        <text encoding="base64">ICAgICAgICAoIlRoaW5ncyB0byB2YWxpZGF0ZSIpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUucm9ja3MuUm9ja3NUcmFuc2FjdGlvbjsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cwo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsK</text>
@@ -455,7 +458,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBsb25nIHRpbWU1ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -464,9 +467,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>validate</last-search>
+      <last-search>lock</last-search>
       <last-offset />
-      <last-pattern>validate</last-pattern>
+      <last-pattern>lock</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
