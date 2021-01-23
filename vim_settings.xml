@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdHJva2VfY3VydmVzXD4=</entry>
-        <entry>1 curves</entry>
-        <entry>^1 curves</entry>
         <entry>175 curve</entry>
         <entry encoding="base64">XDxkYXRhc2V0XD4=</entry>
         <entry encoding="base64">XDxwb2ludF9kYXRhc2V0XD4=</entry>
@@ -27,6 +24,9 @@
         <entry encoding="base64">XDxhdmxfbmV3X25vZGVcPg==</entry>
         <entry encoding="base64">XDxuXD4=</entry>
         <entry>kth</entry>
+        <entry encoding="base64">XDxjdXJyXD4=</entry>
+        <entry encoding="base64">XDxqXD4=</entry>
+        <entry encoding="base64">XDx4XD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s</entry>
@@ -44,10 +44,10 @@
         <entry>wq</entry>
         <entry>q</entry>
         <entry>W</entry>
-        <entry>we</entry>
         <entry>Lw</entry>
         <entry>@w</entry>
         <entry>w#</entry>
+        <entry>we</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -199,15 +199,17 @@
       <file name="vim_settings.xml" timestamp="1611257126778">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/CSES/data.txt" timestamp="1611420502843">
+      <file name="$USER_HOME$/CSES/data.txt" timestamp="1611434682115">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="4" column="9" />
+        <mark key="]" line="0" column="3" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" timestamp="1611433879587">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
-        <mark key="." line="10" column="0" />
+      <file name="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" timestamp="1611434994511">
+        <mark key="'" line="16" column="4" />
+        <mark key="[" line="1" column="63" />
+        <mark key="]" line="1" column="64" />
+        <mark key="." line="1" column="63" />
+        <mark key="^" line="1" column="64" />
       </file>
       <file name="$USER_HOME$/HCM/dataset/line/2011/TestData2_2_sub_14.inkml" timestamp="1610909013233">
         <mark key="[" line="5" column="27" />
@@ -312,12 +314,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="17246" column="0" filename="$USER_HOME$/HCM/log" />
-      <jump line="0" column="0" filename="$USER_HOME$/HCM/log" />
-      <jump line="27473" column="0" filename="$USER_HOME$/HCM/log" />
-      <jump line="82" column="0" filename="$USER_HOME$/HCM/web/view/main.js" />
-      <jump line="12" column="29" filename="$USER_HOME$/HCM/training.py" />
-      <jump line="13" column="41" filename="$USER_HOME$/HCM/training.py" />
       <jump line="113" column="39" filename="$USER_HOME$/HCM/preprocessing.py" />
       <jump line="127" column="125" filename="$USER_HOME$/HCM/preprocessing.py" />
       <jump line="0" column="0" filename="$USER_HOME$/HCM/preprocessing.py" />
@@ -405,19 +401,25 @@
       <jump line="56" column="0" filename="$USER_HOME$/CSES/Mathematics/Josephus-Queries.cpp" />
       <jump line="9" column="0" filename="$USER_HOME$/CSES/Mathematics/Josephus-Queries.cpp" />
       <jump line="1" column="1" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="47" column="27" filename="$USER_HOME$/CSES/Mathematics/Josephus-Queries.cpp" />
       <jump line="3" column="2" filename="$USER_HOME$/CSES/Mathematics/Josephus-Queries.cpp" />
       <jump line="57" column="0" filename="$USER_HOME$/CSES/Mathematics/Josephus-Queries.cpp" />
       <jump line="6" column="0" filename="$USER_HOME$/CSES/Mathematics/Josephus-Queries.cpp" />
       <jump line="46" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="482" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
+      <jump line="9" column="25" filename="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" />
+      <jump line="24" column="8" filename="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" />
+      <jump line="18" column="48" filename="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" />
+      <jump line="15" column="8" filename="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" />
+      <jump line="21" column="4" filename="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" />
+      <jump line="16" column="4" filename="$USER_HOME$/CSES/Sorting-and-Searching/Josephus-Problem-II.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>ion</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -454,10 +456,10 @@
         </keys>
       </register>
       <register name="-" type="4">
-        <text>formula</text>
+        <text>ion</text>
       </register>
       <register name="/" type="4">
-        <text>kth</text>
+        <text encoding="base64">XDx4XD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -468,7 +470,7 @@
         <text encoding="base64">MTYgMQoxNiAyCjE2IDMKMTYgNAoxNiA1CjE2IDYKMTYgNwoxNiA4Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">NAo3IDEKNyAzCjIgMgoxMzM3IDEzMTMK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -483,28 +485,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGF2bF8K</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">SW50IG5leHRbMjAwMDA5XTsKCg==</text>
+        <text encoding="base64">CiAgICBuZXh0W25dID0gMTsKICAgIEludCBjdXJyID0gMTsKICAgIGZvciAoSW50IGkgPSAwOyBpIDwgbjsgaSsrKQogICAgewogICAgICAgIG5leHRbY3Vycl0gPSBuZXh0W25leHRbY3Vycl1dOwogICAgICAgIGN1cnIgPSBuZXh0W2N1cnJdOwogICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">MTYKMTYgMQoxNiAyCjE2IDMKMTYgNAoxNiA1CjE2IDYKMTYgNwoxNiA4CjE2IDkKMTYgMTAKMTYgMTEKMTYgMTIKMTYgMTMKMTYgMTQKMTYgMTUKMTYgMTYK</text>
+        <text encoding="base64">ICAgIEludCB4ID0gMDsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Nwo=</text>
+        <text encoding="base64">ICAgIEludCB4ID0gMDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSW50IGM7Cg==</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAKICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -513,9 +515,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>kth</last-search>
+      <last-search encoding="base64">XDx4XD4=</last-search>
       <last-offset />
-      <last-pattern>kth</last-pattern>
+      <last-pattern encoding="base64">XDx4XD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
