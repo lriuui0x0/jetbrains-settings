@@ -251,11 +251,11 @@
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" timestamp="1611605049944" />
       <file name="$USER_HOME$/GraknLabs/grakn/logic/tool/TypeResolver.java" timestamp="1611669901468" />
-      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" timestamp="1611663046543">
-        <mark key="'" line="163" column="36" />
-        <mark key="[" line="168" column="0" />
-        <mark key="]" line="168" column="54" />
-        <mark key="." line="165" column="34" />
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" timestamp="1611673727319">
+        <mark key="'" line="130" column="4" />
+        <mark key="[" line="95" column="0" />
+        <mark key="]" line="95" column="0" />
+        <mark key="." line="95" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1611668225495">
         <mark key="[" line="0" column="0" />
@@ -265,7 +265,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="520" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" />
       <jump line="530" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" />
       <jump line="540" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" />
       <jump line="550" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/SchemaGraph.java" />
@@ -365,23 +364,13 @@
       <jump line="63" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
       <jump line="58" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/traversal/TraversalTest.java" />
+      <jump line="162" column="4" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text>isa cgdb-assay-id, = &quot;126034&quot;;
-isa cgdb-compound-id, = &quot;169701&quot;;
-isa tax-id, = &quot;10090&quot;;
-isa cgdb-cell-line-id, = &quot;326&quot;;
-isa cgdb-document-id, = &quot;1355&quot;;
-isa uniprot-id, = &quot;Q61263&quot;;
-$document-4 isa document, has cgdb-document-id = &quot;1355&quot;;
-$assay-0 isa assay, has cgdb-assay-id = &quot;126034&quot;;
-$protein-5 isa protein, has uniprot-id = &quot;Q61263&quot;;
-$organism-2 isa organism, has tax-id = &quot;10090&quot;;
-$cell-line-3 isa cell-line, has cgdb-cell-line-id = &quot;326&quot;;
-$compound-1 isa compound, has cgdb-compound-id = &quot;169701&quot;;</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -418,7 +407,7 @@ $compound-1 isa compound, has cgdb-compound-id = &quot;169701&quot;;</text>
         <text encoding="base64">aWYgKGlzT3Blbi5nZXQoKSkg</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -432,7 +421,7 @@ $compound-1 isa compound, has cgdb-compound-id = &quot;169701&quot;;</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCiAgICAgICAgICAgIHJlYWRXcml0ZUxvY2subG9ja1dyaXRlKCk7Cj09PT09PT0K</text>
+        <text encoding="base64">PT09PT09PQogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBwdXRVbnRyYWNrZWQoYnl0ZVtdIGtleSkgewogICAgICAgIHB1dFVudHJhY2tlZChrZXksIEVNUFRZX0FSUkFZKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIHB1dFVudHJhY2tlZChieXRlW10ga2V5LCBieXRlW10gdmFsdWUpIHsKICAgICAgICB2YWxpZGF0ZVRyYW5zYWN0aW9uSXNPcGVuKCk7CiAgICAgICAgdHJ5IHsKLy8gICAgICAgICAgICByZWFkV3JpdGVMb2NrLmxvY2tXcml0ZSgpOwogICAgICAgICAgICBzdG9yYWdlVHJhbnNhY3Rpb24ucHV0VW50cmFja2VkKGtleSwgdmFsdWUpOwogICAgICAgIH0gY2F0Y2ggKFJvY2tzREJFeGNlcHRpb24gZSkgewogICAgICAgICAgICB0aHJvdyBleGNlcHRpb24oZSk7CiAgICAgICAgfSBmaW5hbGx5IHsKLy8gICAgICAgICAgICBpZiAoaXNPcGVuKCkpIHJlYWRXcml0ZUxvY2sudW5sb2NrV3JpdGUoKTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBtZXJnZVVudHJhY2tlZChieXRlW10ga2V5LCBieXRlW10gdmFsdWUpIHsKICAgICAgICB2YWxpZGF0ZVRyYW5zYWN0aW9uSXNPcGVuKCk7CiAgICAgICAgdHJ5IHsKLy8gICAgICAgICAgICByZWFkV3JpdGVMb2NrLmxvY2tXcml0ZSgpOwogICAgICAgICAgICBzdG9yYWdlVHJhbnNhY3Rpb24ubWVyZ2VVbnRyYWNrZWQoa2V5LCB2YWx1ZSk7CiAgICAgICAgfSBjYXRjaCAoUm9ja3NEQkV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHRocm93IGV4Y2VwdGlvbihlKTsKICAgICAgICB9IGZpbmFsbHkgewovLyAgICAgICAgICAgIGlmIChpc09wZW4oKSkgcmVhZFdyaXRlTG9jay51bmxvY2tXcml0ZSgpOwogICAgICAgIH0KPj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
@@ -441,19 +430,19 @@ $compound-1 isa compound, has cgdb-compound-id = &quot;169701&quot;;</text>
         <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCiAgICAgICAgICAgIHJlYWRXcml0ZUxvY2subG9ja1dyaXRlKCk7Cj09PT09PT0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PT09PT09PQogICAgICAgICAgICByZXR1cm4gTWF0Y2hlci5jcmVhdGUocmVhc29uZXIsIHF1ZXJ5LCBvcHRpb25zKS5leGVjdXRlKGlzUGFyYWxsZWwpLm9uRXJyb3IoY29uY2VwdE1ncjo6ZXhjZXB0aW9uKTsKPj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
+        <text encoding="base64">Pj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCiAgICAgICAgICAgIHJlYWRXcml0ZUxvY2subG9ja1dyaXRlKCk7Cj09PT09PT0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTE9HLmRlYnVnKCJFeGVjdXRpbmcgcXVlcnlcbiIgKyBxdWVyeSk7Cg==</text>
+        <text encoding="base64">PT09PT09PQogICAgICAgICAgICByZXR1cm4gTWF0Y2hlci5jcmVhdGUocmVhc29uZXIsIHF1ZXJ5LCBvcHRpb25zKS5leGVjdXRlKGlzUGFyYWxsZWwpLm9uRXJyb3IoY29uY2VwdE1ncjo6ZXhjZXB0aW9uKTsKPj4+Pj4+PiBTdGFzaGVkIGNoYW5nZXMK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Pj4+Pj4+IFN0YXNoZWQgY2hhbmdlcwo=</text>
+        <text encoding="base64">PDw8PDw8PCBVcGRhdGVkIHVwc3RyZWFtCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">PT09PT09PQogICAgICAgICAgICByZXR1cm4gTWF0Y2hlci5jcmVhdGUocmVhc29uZXIsIHF1ZXJ5LCBvcHRpb25zKS5leGVjdXRlKGlzUGFyYWxsZWwpLm9uRXJyb3IoY29uY2VwdE1ncjo6ZXhjZXB0aW9uKTsKPg==</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgTE9HLmRlYnVnKCJFeGVjdXRpbmcgcXVlcnlcbiIgKyBxdWVyeSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
