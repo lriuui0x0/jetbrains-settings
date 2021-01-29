@@ -47,8 +47,8 @@
         <entry>ww</entry>
         <entry encoding="base64">JzwsJz53</entry>
         <entry>let @/ = &quot;&quot;</entry>
-        <entry>w</entry>
         <entry>q</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -217,12 +217,12 @@
         <mark key="." line="844" column="121" />
         <mark key="^" line="844" column="122" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1611932802679">
-        <mark key="'" line="135" column="39" />
-        <mark key="[" line="99" column="35" />
-        <mark key="]" line="99" column="35" />
-        <mark key="." line="99" column="39" />
-        <mark key="^" line="135" column="40" />
+      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1611936731391">
+        <mark key="'" line="43" column="0" />
+        <mark key="[" line="135" column="35" />
+        <mark key="]" line="135" column="35" />
+        <mark key="." line="135" column="39" />
+        <mark key="^" line="99" column="40" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/bytes/Bytes.java" timestamp="1611919701247">
         <mark key="'" line="30" column="38" />
@@ -238,7 +238,7 @@
         <mark key="^" line="321" column="62" />
         <mark key="." line="254" column="55" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1611932787993">
+      <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1611936751760">
         <mark key="[" line="106" column="40" />
         <mark key="]" line="106" column="40" />
         <mark key="." line="106" column="40" />
@@ -250,12 +250,11 @@
         <mark key="." line="20" column="32" />
         <mark key="^" line="20" column="33" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" timestamp="1611932241551">
-        <mark key="'" line="53" column="27" />
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="30" column="52" />
-        <mark key="." line="10" column="0" />
-        <mark key="^" line="41" column="28" />
+      <file name="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" timestamp="1611936603229">
+        <mark key="[" line="47" column="15" />
+        <mark key="]" line="47" column="28" />
+        <mark key="." line="47" column="27" />
+        <mark key="^" line="47" column="28" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/conf/logback.xml" timestamp="1611924693550">
         <mark key="'" line="1" column="0" />
@@ -284,10 +283,11 @@
         <mark key="." line="20" column="31" />
         <mark key="^" line="20" column="32" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/iid/IID.java" timestamp="1611931185312">
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/iid/IID.java" timestamp="1611936647707">
         <mark key="[" line="58" column="0" />
         <mark key="]" line="58" column="0" />
         <mark key="." line="58" column="0" />
+        <mark key="^" line="56" column="15" />
       </file>
       <file name="/Dummy.txt" timestamp="1611919328354">
         <mark key="[" line="0" column="0" />
@@ -314,8 +314,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="355" column="17" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
-      <jump line="384" column="38" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
       <jump line="761" column="33" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
       <jump line="765" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
       <jump line="824" column="33" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
@@ -411,15 +409,17 @@
       <jump line="852" column="27" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
       <jump line="891" column="27" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
       <jump line="923" column="0" filename="$USER_HOME$/GraknLabs/grakn/graph/common/Encoding.java" />
-      <jump line="99" column="35" filename="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" />
-      <jump line="135" column="39" filename="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" />
       <jump line="384" column="97" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/TypeVertexImpl.java" />
+      <jump line="135" column="35" filename="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" />
+      <jump line="99" column="39" filename="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" />
+      <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" />
+      <jump line="43" column="0" filename="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>bytes</text>
+        <text>-debug</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -431,7 +431,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>bytes</text>
+        <text>-debug</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDx3YXJuXD4=</text>
@@ -445,7 +445,7 @@
         <text encoding="base64">ICAgICAgICAgICAgcHJpdmF0ZSBmaW5hbCBieXRlW10gYnl0ZXM7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gVE9ETzogRW5jb2RpbmcgY2xhc3MgcHJlLWNvbnN0cnVjdCBieXRlQXJyYXkgYW5kIGJ5dGVbXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -459,31 +459,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy4K</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gaGFzaDsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgaW50IGhhc2ggPSAwOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoaGFzaCA9PSAwKSBoYXNoID0gCg==</text>
+        <text encoding="base64">ICAgICAgICBpbnQgaGFzaENvZGUgPSAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoaGFzaENvZGVDYWNoZS5pc1ByZXNlbnQoKSkgcmV0dXJuIGhhc2hDb2RlQ2FjaGUuZ2V0KCk7Cg==</text>
+        <text encoding="base64">Ly8gVE9ETzogRW5jb2RpbmcgY2xhc3MgcHJlLWNvbnN0cnVjdCBieXRlQXJyYXkgYW5kIGJ5dGVbXQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICA9IE9wdGlvbmFsLm9mKGhhc2hDb2RlKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhpcy4K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoaGFzaENvZGVDYWNoZS5pc1ByZXNlbnQoKSkgcmV0dXJuIGhhc2hDb2RlQ2FjaGUuZ2V0KCk7CiAgICAgICAgaW50IGhhc2hDb2RlID0gZ2V0SGFzaENvZGUoKTsK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBieXRlW10gYnl0ZXMgPSAK</text>
-      </register>
-      <register name="9" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAoaGFzaCA9PSAwKSBoYXNoID0gCg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBpZiAoaGFzaENvZGVDYWNoZS5pc1ByZXNlbnQoKSkgcmV0dXJuIGhhc2hDb2RlQ2FjaGUuZ2V0KCk7Cg==</text>
+      </register>
       <register name=":" type="4">
-        <text>q</text>
+        <text>w</text>
       </register>
     </registers>
   </component>
