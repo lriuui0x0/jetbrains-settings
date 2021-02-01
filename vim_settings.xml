@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxieXRlc0NhY2hlXD4=</entry>
         <entry encoding="base64">XDxieXRlXD4=</entry>
         <entry>get()</entry>
         <entry>get(</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxhcnJheUNvcHlMZW5ndGhcPg==</entry>
         <entry encoding="base64">XDxieXRlQXJyYXlcPg==</entry>
         <entry encoding="base64">XDx3YXJuXD4=</entry>
+        <entry>types should be able to define roles they play with an override</entry>
       </history-search>
       <history-cmd>
         <entry>q:q</entry>
@@ -196,6 +196,13 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1612180311787">
+        <mark key="'" line="57" column="27" />
+        <mark key="[" line="59" column="50" />
+        <mark key="]" line="59" column="54" />
+        <mark key="^" line="59" column="54" />
+        <mark key="." line="59" column="53" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/concept/Job.java" timestamp="1612175086850">
         <mark key="'" line="32" column="33" />
         <mark key="[" line="33" column="62" />
@@ -203,18 +210,25 @@
         <mark key="^" line="33" column="63" />
         <mark key="." line="33" column="62" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionStepsBase.java" timestamp="1612179079526">
-        <mark key="[" line="67" column="25" />
-        <mark key="]" line="67" column="53" />
-        <mark key="." line="67" column="52" />
-        <mark key="^" line="67" column="53" />
+      <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionStepsBase.java" timestamp="1612181284637">
+        <mark key="[" line="75" column="17" />
+        <mark key="]" line="75" column="23" />
+        <mark key="." line="75" column="22" />
+        <mark key="^" line="75" column="23" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/reasoner/Reasoner.java" timestamp="1611936731391">
-        <mark key="'" line="43" column="0" />
-        <mark key="[" line="135" column="35" />
-        <mark key="]" line="135" column="35" />
-        <mark key="." line="135" column="39" />
-        <mark key="^" line="99" column="40" />
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1612181088862">
+        <mark key="'" line="312" column="28" />
+        <mark key="[" line="332" column="0" />
+        <mark key="m" line="305" column="29" />
+        <mark key="]" line="332" column="89" />
+        <mark key="." line="307" column="0" />
+        <mark key="^" line="306" column="29" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" timestamp="1612181045354">
+        <mark key="'" line="1" column="0" />
+        <mark key="[" line="286" column="0" />
+        <mark key="]" line="286" column="34" />
+        <mark key="." line="352" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grabl/automation/job/runner/AzureRunner.java" timestamp="1612177276433">
         <mark key="'" line="0" column="0" />
@@ -223,10 +237,8 @@
         <mark key="." line="434" column="30" />
         <mark key="^" line="434" column="31" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1611936751760">
-        <mark key="[" line="106" column="40" />
-        <mark key="]" line="106" column="40" />
-        <mark key="." line="106" column="40" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1612179713828">
+        <mark key="'" line="1" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/query/QueryHandler.java" timestamp="1612177443263">
         <mark key="'" line="64" column="13" />
@@ -234,68 +246,28 @@
       <file name="vim_settings.xml" timestamp="1612177400187">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" timestamp="1612181333361">
+        <mark key="'" line="522" column="0" />
+        <mark key="[" line="524" column="0" />
+        <mark key="]" line="524" column="0" />
+        <mark key="." line="524" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grabl/dependencies/maven/artifacts.snapshot" timestamp="1612175179574">
         <mark key="[" line="326" column="0" />
         <mark key="]" line="326" column="46" />
-      </file>
-      <file name="/Dummy." timestamp="1611937663579">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/test/behaviour/connection/ConnectionStepsCore.java" timestamp="1612179575746">
         <mark key="[" line="45" column="0" />
         <mark key="]" line="45" column="46" />
       </file>
+      <file name="/fragment.java" timestamp="1612180730497">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="^" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="115" column="26" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
-      <jump line="119" column="19" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
-      <jump line="120" column="15" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
-      <jump line="162" column="70" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
-      <jump line="315" column="24" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="302" column="28" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="306" column="28" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="309" column="28" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="312" column="28" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="28" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/conf/logback.xml" />
-      <jump line="517" column="58" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="530" column="12" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="635" column="19" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="650" column="21" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="660" column="54" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="662" column="46" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="667" column="23" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="721" column="12" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="161" column="8" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
-      <jump line="88" column="14" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
-      <jump line="87" column="16" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/AttributeImpl.java" />
-      <jump line="73" column="81" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/RelationImpl.java" />
-      <jump line="138" column="53" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/RelationImpl.java" />
-      <jump line="136" column="16" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/RelationImpl.java" />
-      <jump line="137" column="14" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/RelationImpl.java" />
-      <jump line="210" column="79" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
-      <jump line="214" column="8" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
-      <jump line="24" column="35" filename="$USER_HOME$/GraknLabs/grakn/concurrent/producer/ProducerIterator.java" />
-      <jump line="131" column="22" filename="$USER_HOME$/GraknLabs/grakn/concurrent/producer/ProducerIterator.java" />
-      <jump line="140" column="37" filename="$USER_HOME$/GraknLabs/grakn/concurrent/producer/ProducerIterator.java" />
-      <jump line="91" column="12" filename="$USER_HOME$/GraknLabs/grakn/concurrent/queue/ManagedBlockingQueue.java" />
-      <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grakn/concurrent/lock/ManagedReadWriteLock.java" />
-      <jump line="45" column="10" filename="$USER_HOME$/GraknLabs/grakn/concurrent/lock/ManagedCountDownLatch.java" />
-      <jump line="49" column="0" filename="$USER_HOME$/GraknLabs/grakn/concurrent/lock/ManagedLock.java" />
-      <jump line="10" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="28" column="8" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="23" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="34" column="30" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="13" column="14" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="18" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="24" column="14" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="31" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="39" column="8" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="35" column="14" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="9" column="46" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="16" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
-      <jump line="22" column="8" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
       <jump line="20" column="30" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
       <jump line="38" column="30" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
       <jump line="41" column="4" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
@@ -347,27 +319,76 @@
       <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/BasicTest.java" />
       <jump line="4" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
       <jump line="64" column="13" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/query/QueryHandler.java" />
+      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" />
+      <jump line="60" column="4" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" />
+      <jump line="57" column="27" filename="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" />
+      <jump line="22" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="524" column="17" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="525" column="12" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="514" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="497" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="474" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="444" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="441" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="423" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="414" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="396" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="379" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="375" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="367" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="359" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="351" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="343" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="335" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="327" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="319" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="311" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="292" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="273" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="253" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="230" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="212" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="189" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="171" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="148" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="130" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="122" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="114" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="106" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="98" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="90" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="82" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="64" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="47" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="43" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="0" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="16" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="19" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="1" column="0" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksDatabase.java" />
+      <jump line="522" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>GraknSingleton.getGraknRunner().address();</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAjIEZhaWxlZCBvbiB0aGlzCg==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
       </register>
-      <register name="+" type="2">
-        <text encoding="base64">ICAgIGJ5dGVbXSBieXRlcyA9IG5ldyBieXRlWzEwMDAwXTsKCiAgICBjbGFzcyBCeXRlSXRlcmF0b3IgaW1wbGVtZW50cyBJdGVyYXRvcjxCeXRlPiB7CgogICAgICAgIHByaXZhdGUgZmluYWwgYnl0ZVtdIGJ5dGVzOwogICAgICAgIHByaXZhdGUgaW50IGluZGV4OwoKICAgICAgICBwdWJsaWMgQnl0ZUl0ZXJhdG9yKGJ5dGVbXSBieXRlcykgewogICAgICAgICAgICB0aGlzLmJ5dGVzID0gYnl0ZXM7CiAgICAgICAgICAgIHRoaXMuaW5kZXggPSAwOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIGJvb2xlYW4gaGFzTmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGluZGV4IDwgYnl0ZXMubGVuZ3RoOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIEJ5dGUgbmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGJ5dGVzW2luZGV4KytdOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UxKGludCBjb3B5Q291bnQpIHsKICAgICAgICBMaXN0PEJ5dGVJdGVyYXRvcj4gYnl0ZUl0ZXJhdG9ycyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY29weUNvdW50OyBpKyspIHsKICAgICAgICAgICAgYnl0ZUl0ZXJhdG9ycy5hZGQobmV3IEJ5dGVJdGVyYXRvcihieXRlcykpOwogICAgICAgIH0KICAgICAgICBJdGVyYXRvcjxCeXRlPiBpdGVyYXRvciA9IGxpbmsoYnl0ZUl0ZXJhdG9ycyk7CiAgICAgICAgYnl0ZVtdIGNvcHlCeXRlcyA9IG5ldyBieXRlW2J5dGVzLmxlbmd0aCAqIGNvcHlDb3VudF07CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGl0ZXJhdG9yLmhhc05leHQoKTsgaSsrKSB7CiAgICAgICAgICAgIGNvcHlCeXRlc1tpXSA9IGl0ZXJhdG9yLm5leHQoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UyKGludCBjb3B5Q291bnQpIHsKICAgICAgICBieXRlW10gY29weUJ5dGVzID0gbmV3IGJ5dGVbYnl0ZXMubGVuZ3RoICogY29weUNvdW50XTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvcHlDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIFN5c3RlbS5hcnJheWNvcHkoYnl0ZXMsIDAsIGNvcHlCeXRlcywgaSAqIGJ5dGVzLmxlbmd0aCwgYnl0ZXMubGVuZ3RoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdGVzdCgpIHsKICAgICAgICBpbnQgdGVzdENvdW50ID0gMTA7CiAgICAgICAgaW50IGNvcHlDb3VudCA9IDEwOwogICAgICAgIExpc3Q8TG9uZz4gdGltZXMxID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgTGlzdDxMb25nPiB0aW1lczIgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHRlc3RDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIGxvbmcgc3RhcnQ7CgogICAgICAgICAgICBzdGFydCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwogICAgICAgICAgICBjYXNlMShjb3B5Q291bnQpOwogICAgICAgICAgICB0aW1lczEuYWRkKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQpOwoKICAgICAgICAgICAgc3RhcnQgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgY2FzZTIoY29weUNvdW50KTsKICAgICAgICAgICAgdGltZXMyLmFkZChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0KTsKICAgICAgICB9CiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJDYXNlIDEgIiArICh0aW1lczEuc3RyZWFtKCkubWFwVG9Mb25nKHggLT4geCkuc3VtKCkgLyB0ZXN0Q291bnQpKTsKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkNhc2UgMiAiICsgKHRpbWVzMi5zdHJlYW0oKS5tYXBUb0xvbmcoeCAtPiB4KS5zdW0oKSAvIHRlc3RDb3VudCkpOwogICAgfQo=</text>
+      <register name="+" type="4">
+        <text>types should be able to define roles they play with an override</text>
       </register>
       <register name="l" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>GraknSingleton.getGraknRunner().address();</text>
+        <text>parallelStream</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb3B5VGltZXNcPg==</text>
+        <text>types should be able to define roles they play with an override</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -378,7 +399,7 @@
         <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkNhc2UgMSAiICsgKHRpbWVzMS5zdHJlYW0oKS5tYXBUb0xvbmcoeCAtPiB4KS5zdW0oKSAvIHRlc3RDb3VudCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5jb2xsZWN0aW9uLkJ5dGVzLmpvaW47Cgo=</text>
+        <text encoding="base64">ICAjIEZhaWxlZCBvbiB0aGlzCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -392,28 +413,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5pdGVyYXRvci5JdGVyYXRvcnMubGluazsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuSXRlcmF0b3I7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsK</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5jb2xsZWN0aW9uLkJ5dGVzLmpvaW47Cgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICBieXRlW10gYnl0ZXMgPSBuZXcgYnl0ZVsxXzAwMF8wMDBdOwoKICAgIHN0YXRpYyBjbGFzcyBCeXRlSXRlcmF0b3IgaW1wbGVtZW50cyBJdGVyYXRvcjxCeXRlPiB7CgogICAgICAgIHByaXZhdGUgZmluYWwgYnl0ZVtdIGJ5dGVzOwogICAgICAgIHByaXZhdGUgaW50IGluZGV4OwoKICAgICAgICBwdWJsaWMgQnl0ZUl0ZXJhdG9yKGJ5dGVbXSBieXRlcykgewogICAgICAgICAgICB0aGlzLmJ5dGVzID0gYnl0ZXM7CiAgICAgICAgICAgIHRoaXMuaW5kZXggPSAwOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIGJvb2xlYW4gaGFzTmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGluZGV4IDwgYnl0ZXMubGVuZ3RoOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIEJ5dGUgbmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGJ5dGVzW2luZGV4KytdOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UxKGludCBjb3B5Q291bnQpIHsKICAgICAgICBMaXN0PEJ5dGVJdGVyYXRvcj4gYnl0ZUl0ZXJhdG9ycyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY29weUNvdW50OyBpKyspIHsKICAgICAgICAgICAgYnl0ZUl0ZXJhdG9ycy5hZGQobmV3IEJ5dGVJdGVyYXRvcihieXRlcykpOwogICAgICAgIH0KICAgICAgICBJdGVyYXRvcjxCeXRlPiBpdGVyYXRvciA9IGxpbmsoYnl0ZUl0ZXJhdG9ycyk7CiAgICAgICAgYnl0ZVtdIGNvcHlCeXRlcyA9IG5ldyBieXRlW2J5dGVzLmxlbmd0aCAqIGNvcHlDb3VudF07CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGl0ZXJhdG9yLmhhc05leHQoKTsgaSsrKSB7CiAgICAgICAgICAgIGNvcHlCeXRlc1tpXSA9IGl0ZXJhdG9yLm5leHQoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UyKGludCBjb3B5Q291bnQpIHsKICAgICAgICBieXRlW10gY29weUJ5dGVzID0gbmV3IGJ5dGVbYnl0ZXMubGVuZ3RoICogY29weUNvdW50XTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvcHlDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIFN5c3RlbS5hcnJheWNvcHkoYnl0ZXMsIDAsIGNvcHlCeXRlcywgaSAqIGJ5dGVzLmxlbmd0aCwgYnl0ZXMubGVuZ3RoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdGVzdCgpIHsKICAgICAgICBpbnQgdGVzdENvdW50ID0gMTA7CiAgICAgICAgaW50IGNvcHlDb3VudCA9IDEwOwogICAgICAgIExpc3Q8TG9uZz4gdGltZXMxID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgTGlzdDxMb25nPiB0aW1lczIgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHRlc3RDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIGxvbmcgc3RhcnQ7CgogICAgICAgICAgICBzdGFydCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwogICAgICAgICAgICBjYXNlMShjb3B5Q291bnQpOwogICAgICAgICAgICB0aW1lczEuYWRkKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQpOwoKICAgICAgICAgICAgc3RhcnQgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgY2FzZTIoY29weUNvdW50KTsKICAgICAgICAgICAgdGltZXMyLmFkZChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0KTsKCiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiVGVzdCBpdGVyYXRpb24gIiArIGkpOwogICAgICAgIH0KICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkNhc2UgMSAiICsgKHRpbWVzMS5zdHJlYW0oKS5tYXBUb0xvbmcoeCAtPiB4KS5zdW0oKSAvIHRlc3RDb3VudCkpOwogICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiQ2FzZSAyICIgKyAodGltZXMyLnN0cmVhbSgpLm1hcFRvTG9uZyh4IC0+IHgpLnN1bSgpIC8gdGVzdENvdW50KSk7CiAgICB9Cg==</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5pdGVyYXRvci5JdGVyYXRvcnMubGluazsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5ieXRlcy5CeXRlcy5qb2luOwoK</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuSXRlcmF0b3I7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICAK</text>
+        <text encoding="base64">CiAgICBieXRlW10gYnl0ZXMgPSBuZXcgYnl0ZVsxXzAwMF8wMDBdOwoKICAgIHN0YXRpYyBjbGFzcyBCeXRlSXRlcmF0b3IgaW1wbGVtZW50cyBJdGVyYXRvcjxCeXRlPiB7CgogICAgICAgIHByaXZhdGUgZmluYWwgYnl0ZVtdIGJ5dGVzOwogICAgICAgIHByaXZhdGUgaW50IGluZGV4OwoKICAgICAgICBwdWJsaWMgQnl0ZUl0ZXJhdG9yKGJ5dGVbXSBieXRlcykgewogICAgICAgICAgICB0aGlzLmJ5dGVzID0gYnl0ZXM7CiAgICAgICAgICAgIHRoaXMuaW5kZXggPSAwOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIGJvb2xlYW4gaGFzTmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGluZGV4IDwgYnl0ZXMubGVuZ3RoOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIEJ5dGUgbmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGJ5dGVzW2luZGV4KytdOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UxKGludCBjb3B5Q291bnQpIHsKICAgICAgICBMaXN0PEJ5dGVJdGVyYXRvcj4gYnl0ZUl0ZXJhdG9ycyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY29weUNvdW50OyBpKyspIHsKICAgICAgICAgICAgYnl0ZUl0ZXJhdG9ycy5hZGQobmV3IEJ5dGVJdGVyYXRvcihieXRlcykpOwogICAgICAgIH0KICAgICAgICBJdGVyYXRvcjxCeXRlPiBpdGVyYXRvciA9IGxpbmsoYnl0ZUl0ZXJhdG9ycyk7CiAgICAgICAgYnl0ZVtdIGNvcHlCeXRlcyA9IG5ldyBieXRlW2J5dGVzLmxlbmd0aCAqIGNvcHlDb3VudF07CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGl0ZXJhdG9yLmhhc05leHQoKTsgaSsrKSB7CiAgICAgICAgICAgIGNvcHlCeXRlc1tpXSA9IGl0ZXJhdG9yLm5leHQoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UyKGludCBjb3B5Q291bnQpIHsKICAgICAgICBieXRlW10gY29weUJ5dGVzID0gbmV3IGJ5dGVbYnl0ZXMubGVuZ3RoICogY29weUNvdW50XTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvcHlDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIFN5c3RlbS5hcnJheWNvcHkoYnl0ZXMsIDAsIGNvcHlCeXRlcywgaSAqIGJ5dGVzLmxlbmd0aCwgYnl0ZXMubGVuZ3RoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdGVzdCgpIHsKICAgICAgICBpbnQgdGVzdENvdW50ID0gMTA7CiAgICAgICAgaW50IGNvcHlDb3VudCA9IDEwOwogICAgICAgIExpc3Q8TG9uZz4gdGltZXMxID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgTGlzdDxMb25nPiB0aW1lczIgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHRlc3RDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIGxvbmcgc3RhcnQ7CgogICAgICAgICAgICBzdGFydCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwogICAgICAgICAgICBjYXNlMShjb3B5Q291bnQpOwogICAgICAgICAgICB0aW1lczEuYWRkKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQpOwoKICAgICAgICAgICAgc3RhcnQgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgY2FzZTIoY29weUNvdW50KTsKICAgICAgICAgICAgdGltZXMyLmFkZChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0KTsKCiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiVGVzdCBpdGVyYXRpb24gIiArIGkpOwogICAgICAgIH0KICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkNhc2UgMSAiICsgKHRpbWVzMS5zdHJlYW0oKS5tYXBUb0xvbmcoeCAtPiB4KS5zdW0oKSAvIHRlc3RDb3VudCkpOwogICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiQ2FzZSAyICIgKyAodGltZXMyLnN0cmVhbSgpLm1hcFRvTG9uZyh4IC0+IHgpLnN1bSgpIC8gdGVzdENvdW50KSk7CiAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5ieXRlcy5CeXRlcy5qb2luOwoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -422,9 +443,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjb3B5VGltZXNcPg==</last-search>
+      <last-search>types should be able to define roles they play with an override</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb3B5VGltZXNcPg==</last-pattern>
+      <last-pattern>types should be able to define roles they play with an override</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
