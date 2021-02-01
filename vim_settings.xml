@@ -196,20 +196,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grabl/concept/Job.java" timestamp="1612174492110" />
+      <file name="$USER_HOME$/GraknLabs/grabl/concept/Job.java" timestamp="1612175086850">
+        <mark key="'" line="32" column="33" />
+        <mark key="[" line="33" column="62" />
+        <mark key="]" line="33" column="63" />
+        <mark key="^" line="33" column="63" />
+        <mark key="." line="33" column="62" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1611933611671">
         <mark key="'" line="124" column="4" />
         <mark key="[" line="844" column="120" />
         <mark key="]" line="844" column="122" />
         <mark key="." line="844" column="121" />
         <mark key="^" line="844" column="122" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/common/bytes/Bytes.java" timestamp="1611919701247">
-        <mark key="'" line="30" column="38" />
-        <mark key="[" line="147" column="28" />
-        <mark key="]" line="147" column="32" />
-        <mark key="." line="147" column="31" />
-        <mark key="^" line="147" column="32" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1612173674771">
         <mark key="[" line="106" column="40" />
@@ -235,6 +234,10 @@
         <mark key="]" line="4030" column="43" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/concept/type/impl/AttributeTypeImpl.java" timestamp="1611929544789" />
+      <file name="$USER_HOME$/GraknLabs/grabl/dependencies/maven/artifacts.snapshot" timestamp="1612175179574">
+        <mark key="[" line="326" column="0" />
+        <mark key="]" line="326" column="46" />
+      </file>
       <file name="/Dummy." timestamp="1611937663579">
         <mark key="[" line="0" column="0" />
       </file>
@@ -252,8 +255,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="114" column="35" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
-      <jump line="115" column="26" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
       <jump line="119" column="19" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
       <jump line="120" column="15" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
       <jump line="162" column="70" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/ThingVertexImpl.java" />
@@ -352,24 +353,26 @@
       <jump line="806" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/BasicTest.java" />
       <jump line="46" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/BasicTest.java" />
       <jump line="4" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/bytes/ByteArray.java" />
+      <jump line="34" column="8" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
+      <jump line="32" column="33" filename="$USER_HOME$/GraknLabs/grabl/concept/Job.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>-debug</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">QG1hdmVuLy86amF2YXhfYW5ub3RhdGlvbl9qYXZheF9hbm5vdGF0aW9uX2FwaQo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
       </register>
       <register name="+" type="2">
-        <text encoding="base64">ICAgIGJ5dGVbXSBieXRlcyA9IG5ldyBieXRlWzEwMDAwXTsKCiAgICBjbGFzcyBCeXRlSXRlcmF0b3IgaW1wbGVtZW50cyBJdGVyYXRvcjxCeXRlPiB7CgogICAgICAgIHByaXZhdGUgZmluYWwgYnl0ZVtdIGJ5dGVzOwogICAgICAgIHByaXZhdGUgaW50IGluZGV4OwoKICAgICAgICBwdWJsaWMgQnl0ZUl0ZXJhdG9yKGJ5dGVbXSBieXRlcykgewogICAgICAgICAgICB0aGlzLmJ5dGVzID0gYnl0ZXM7CiAgICAgICAgICAgIHRoaXMuaW5kZXggPSAwOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIGJvb2xlYW4gaGFzTmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGluZGV4IDwgYnl0ZXMubGVuZ3RoOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIEJ5dGUgbmV4dCgpIHsKICAgICAgICAgICAgcmV0dXJuIGJ5dGVzW2luZGV4KytdOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UxKGludCBjb3B5Q291bnQpIHsKICAgICAgICBMaXN0PEJ5dGVJdGVyYXRvcj4gYnl0ZUl0ZXJhdG9ycyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgY29weUNvdW50OyBpKyspIHsKICAgICAgICAgICAgYnl0ZUl0ZXJhdG9ycy5hZGQobmV3IEJ5dGVJdGVyYXRvcihieXRlcykpOwogICAgICAgIH0KICAgICAgICBJdGVyYXRvcjxCeXRlPiBpdGVyYXRvciA9IGxpbmsoYnl0ZUl0ZXJhdG9ycyk7CiAgICAgICAgYnl0ZVtdIGNvcHlCeXRlcyA9IG5ldyBieXRlW2J5dGVzLmxlbmd0aCAqIGNvcHlDb3VudF07CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGl0ZXJhdG9yLmhhc05leHQoKTsgaSsrKSB7CiAgICAgICAgICAgIGNvcHlCeXRlc1tpXSA9IGl0ZXJhdG9yLm5leHQoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBwdWJsaWMgYnl0ZVtdIGNhc2UyKGludCBjb3B5Q291bnQpIHsKICAgICAgICBieXRlW10gY29weUJ5dGVzID0gbmV3IGJ5dGVbYnl0ZXMubGVuZ3RoICogY29weUNvdW50XTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGNvcHlDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIFN5c3RlbS5hcnJheWNvcHkoYnl0ZXMsIDAsIGNvcHlCeXRlcywgaSAqIGJ5dGVzLmxlbmd0aCwgYnl0ZXMubGVuZ3RoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHlCeXRlczsKICAgIH0KCiAgICBAVGVzdAogICAgcHVibGljIHZvaWQgdGVzdCgpIHsKICAgICAgICBpbnQgdGVzdENvdW50ID0gMTA7CiAgICAgICAgaW50IGNvcHlDb3VudCA9IDEwOwogICAgICAgIExpc3Q8TG9uZz4gdGltZXMxID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgTGlzdDxMb25nPiB0aW1lczIgPSBuZXcgQXJyYXlMaXN0PD4oKTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHRlc3RDb3VudDsgaSsrKSB7CiAgICAgICAgICAgIGxvbmcgc3RhcnQ7CgogICAgICAgICAgICBzdGFydCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwogICAgICAgICAgICBjYXNlMShjb3B5Q291bnQpOwogICAgICAgICAgICB0aW1lczEuYWRkKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnQpOwoKICAgICAgICAgICAgc3RhcnQgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICAgICAgY2FzZTIoY29weUNvdW50KTsKICAgICAgICAgICAgdGltZXMyLmFkZChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0KTsKICAgICAgICB9CiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJDYXNlIDEgIiArICh0aW1lczEuc3RyZWFtKCkubWFwVG9Mb25nKHggLT4geCkuc3VtKCkgLyB0ZXN0Q291bnQpKTsKICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkNhc2UgMiAiICsgKHRpbWVzMi5zdHJlYW0oKS5tYXBUb0xvbmcoeCAtPiB4KS5zdW0oKSAvIHRlc3RDb3VudCkpOwogICAgfQo=</text>
+        <text encoding="base64">QG1hdmVuLy86amF2YXhfYW5ub3RhdGlvbl9qYXZheF9hbm5vdGF0aW9uX2FwaQo=</text>
       </register>
       <register name="l" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>-debug</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxjb3B5VGltZXNcPg==</text>
