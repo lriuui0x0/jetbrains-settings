@@ -15,7 +15,6 @@
         <entry encoding="base64">XDx3YXJuXD4=</entry>
         <entry>types should be able to define roles they play with an override</entry>
         <entry encoding="base64">XDxzY2hlbWFTdG9yYWdlXD4=</entry>
-        <entry encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</entry>
         <entry encoding="base64">XDx1dWlkXD4=</entry>
         <entry encoding="base64">XDxzdG9yYWdlVHJhbnNhY3Rpb25cPg==</entry>
         <entry>getInternal</entry>
@@ -24,9 +23,10 @@
         <entry encoding="base64">XDxUUkFOU0FDVElPTl9DTE9TRURcPg==</entry>
         <entry encoding="base64">XDxJTExFR0FMX1NUQVRFXD4=</entry>
         <entry encoding="base64">XDxxdWVyeU1hbmFnZXJcPg==</entry>
-        <entry>close</entry>
         <entry encoding="base64">XDxSb2Nrc1RyYW5zYWN0aW9uXD4=</entry>
         <entry>Fail</entry>
+        <entry>close</entry>
+        <entry encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>q:q</entry>
@@ -46,8 +46,8 @@
         <entry>:q</entry>
         <entry>ww</entry>
         <entry>let @/ = &quot;&quot;</entry>
-        <entry>q</entry>
         <entry encoding="base64">JzwsJz53</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -196,8 +196,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1612197933613">
-        <mark key="'" line="241" column="30" />
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1612259285280">
+        <mark key="'" line="325" column="13" />
         <mark key="[" line="294" column="0" />
         <mark key="m" line="311" column="29" />
         <mark key="]" line="294" column="0" />
@@ -242,7 +242,7 @@
         <mark key="." line="64" column="76" />
         <mark key="^" line="64" column="77" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1612257724658">
+      <file name="$USER_HOME$/GraknLabs/client-java/rpc/RPCTransaction.java" timestamp="1612258799896">
         <mark key="'" line="88" column="4" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/dependencies/graknlabs/repositories.bzl" timestamp="1612180311787">
@@ -260,12 +260,12 @@
         <mark key="]" line="72" column="0" />
         <mark key="." line="72" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1612257779773">
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/TransactionRPC.java" timestamp="1612259000306">
         <mark key="'" line="91" column="20" />
-        <mark key="[" line="55" column="4" />
-        <mark key="]" line="55" column="11" />
-        <mark key="." line="55" column="10" />
-        <mark key="^" line="55" column="11" />
+        <mark key="[" line="160" column="31" />
+        <mark key="]" line="160" column="37" />
+        <mark key="." line="160" column="36" />
+        <mark key="^" line="160" column="37" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" timestamp="1612257963579">
         <mark key="'" line="353" column="66" />
@@ -290,16 +290,16 @@
       <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/SessionRPC.java" timestamp="1612179713828">
         <mark key="'" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/query/QueryHandler.java" timestamp="1612257771863">
-        <mark key="'" line="175" column="0" />
-        <mark key="[" line="28" column="0" />
-        <mark key="]" line="28" column="0" />
-        <mark key="." line="28" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/server/rpc/query/QueryHandler.java" timestamp="1612258863779">
+        <mark key="'" line="176" column="0" />
+        <mark key="[" line="177" column="0" />
+        <mark key="]" line="177" column="0" />
+        <mark key="." line="177" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/client-java/query/QueryManager.java" timestamp="1612193848709">
         <mark key="'" line="128" column="148" />
       </file>
-      <file name="/fragment.java" timestamp="1612257944981">
+      <file name="/fragment.java" timestamp="1612259008311">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="43" />
         <mark key="^" line="0" column="21" />
@@ -307,11 +307,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="174" column="9" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="163" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="150" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="132" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="180" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
       <jump line="90" column="0" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
       <jump line="78" column="0" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
       <jump line="259" column="12" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
@@ -407,12 +402,17 @@
       <jump line="30" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
       <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
       <jump line="44" column="0" filename="$USER_HOME$/GraknLabs/behaviour/graql/language/define.feature" />
+      <jump line="72" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="241" column="13" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="128" column="18" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="124" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
+      <jump line="325" column="13" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>public</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsK</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -427,7 +427,7 @@
         <text>public</text>
       </register>
       <register name="/" type="4">
-        <text>Fail</text>
+        <text encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -435,10 +435,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKCFpc09wZW4oKSkgewogICAgICAgICAgICAgICAgdGhyb3cgR3Jha25FeGNlcHRpb24ub2YoSUxMRUdBTF9TVEFURSk7CiAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImRlZmluZSIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUucm9ja3MuUm9ja3NUcmFuc2FjdGlvbjsK</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -452,28 +452,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKChSb2Nrc1RyYW5zYWN0aW9uKXRyYW5zYWN0aW9uUlBDLnRyYW5zYWN0aW9uKS51dWlkICsgIiBkZWZpbmUiKTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5leGNlcHRpb24uRXJyb3JNZXNzYWdlLkludGVybmFsLklMTEVHQUxfU1RBVEU7Cg==</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImZpbmlzaGVkIGRlZmluZSIpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVVVJRCB1dWlkID0gVVVJRC5yYW5kb21VVUlEKCk7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgMTAwMDAwMDsgaSsrKSB7CiAgICAgICAgICAgICAgICBMT0cuZXJyb3IodXVpZC50b1N0cmluZygpKTsKICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICBzb3V0Cgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVVVJRCB1dWlkID0gVVVJRC5yYW5kb21VVUlEKCk7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgMTAwMDAwMDsgaSsrKSB7CiAgICAgICAgICAgICAgICBMT0cuZXJyb3IodXVpZC50b1N0cmluZygpKTsKICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">aW1wb3J0IGdyYWtuLmNvcmUucm9ja3MuUm9ja3NUcmFuc2FjdGlvbjsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgVVVJRCB1dWlkID0gVVVJRC5yYW5kb21VVUlEKCk7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgMTAwMDAwMDsgaSsrKSB7CiAgICAgICAgICAgICAgICBMT0cuZXJyb3IodXVpZC50b1N0cmluZygpKTsKICAgICAgICAgICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKChSb2Nrc1RyYW5zYWN0aW9uKXRyYW5zYWN0aW9uUlBDLnRyYW5zYWN0aW9uKS51dWlkICsgIiBkZWZpbmUiKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">aW1wb3J0IHN0YXRpYyBncmFrbi5jb3JlLmNvbW1vbi5leGNlcHRpb24uRXJyb3JNZXNzYWdlLkludGVybmFsLklMTEVHQUxfU1RBVEU7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgVVVJRCB1dWlkID0gVVVJRC5yYW5kb21VVUlEKCk7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgMTAwMDAwMDsgaSsrKSB7CiAgICAgICAgICAgICAgICBMT0cuZXJyb3IodXVpZC50b1N0cmluZygpKTsKICAgICAgICAgICAgfQoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgTE9HLnRyYWNlKCJSZXF1ZXN0OiB7fSIsIHJlcXVlc3QpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgVVVJRCB1dWlkID0gVVVJRC5yYW5kb21VVUlEKCk7CiAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgMTAwMDAwMDsgaSsrKSB7CiAgICAgICAgICAgICAgICBMT0cuZXJyb3IodXVpZC50b1N0cmluZygpKTsKICAgICAgICAgICAgfQoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -482,9 +482,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Fail</last-search>
+      <last-search encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</last-search>
       <last-offset />
-      <last-pattern>Fail</last-pattern>
+      <last-pattern encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
