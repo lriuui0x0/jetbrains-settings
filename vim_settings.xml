@@ -207,15 +207,26 @@
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1612446549527">
         <mark key="'" line="296" column="34" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" timestamp="1612448769306">
-        <mark key="'" line="19" column="0" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" timestamp="1612430906549">
         <mark key="'" line="107" column="21" />
         <mark key="[" line="95" column="8" />
         <mark key="]" line="95" column="8" />
         <mark key="." line="95" column="8" />
         <mark key="^" line="84" column="25" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/benchmark/.grabl/automation.yml" timestamp="1612431812155">
+        <mark key="[" line="180" column="0" />
+        <mark key="]" line="189" column="70" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/benchmark/common/agent/base/Agent.java" timestamp="1612452869790">
+        <mark key="'" line="89" column="72" />
+        <mark key="[" line="88" column="42" />
+        <mark key="]" line="88" column="48" />
+        <mark key="." line="88" column="47" />
+        <mark key="^" line="88" column="48" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" timestamp="1612448769306">
+        <mark key="'" line="19" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" timestamp="1612436827647">
         <mark key="'" line="121" column="89" />
@@ -229,10 +240,6 @@
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1612446653904">
         <mark key="^" line="41" column="91" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/benchmark/.grabl/automation.yml" timestamp="1612431812155">
-        <mark key="[" line="180" column="0" />
-        <mark key="]" line="189" column="70" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/graph/iid/VertexIID.java" timestamp="1612443778593">
         <mark key="'" line="148" column="8" />
@@ -251,7 +258,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="64" column="8" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="105" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="5" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="69" column="21" filename="$USER_HOME$/HCM/synth/generate.py" />
@@ -351,12 +357,13 @@
       <jump line="276" column="42" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="278" column="8" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
       <jump line="117" column="42" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
+      <jump line="89" column="72" filename="$USER_HOME$/GraknLabs/benchmark/common/agent/base/Agent.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoIWV4ZWN1dG9yU2VydmljZS5hd2FpdFRlcm1pbmF0aW9uKDEwMCwgVGltZVVuaXQuTUlMTElTRUNPTkRTKSkgewogICAgICAgICAgICAgICAgZXhlY3V0b3JTZXJ2aWNlLnNodXRkb3duTm93KCk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChJbnRlcnJ1cHRlZEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGV4ZWN1dG9yU2VydmljZS5zaHV0ZG93bk5vdygpOwogICAgICAgIH0K</text>
+      <register name="&quot;" type="4">
+        <text>parallelStream</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -368,7 +375,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>800</text>
+        <text>parallelStream</text>
       </register>
       <register name="/" type="4">
         <text>e1</text>
@@ -382,7 +389,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHNodXRkb3duUXVlcnlKb2JzKCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoIWV4ZWN1dG9yU2VydmljZS5hd2FpdFRlcm1pbmF0aW9uKDEwMCwgVGltZVVuaXQuTUlMTElTRUNPTkRTKSkgewogICAgICAgICAgICAgICAgZXhlY3V0b3JTZXJ2aWNlLnNodXRkb3duTm93KCk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChJbnRlcnJ1cHRlZEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGV4ZWN1dG9yU2VydmljZS5zaHV0ZG93bk5vdygpOwogICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -396,28 +403,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBzaHV0ZG93bkpvYnMoKSB7CiAgICAgICAgZXhlY3V0b3JTZXJ2aWNlLnNodXRkb3duKCk7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKCFleGVjdXRvclNlcnZpY2UuYXdhaXRUZXJtaW5hdGlvbig4MDAsIFRpbWVVbml0Lk1JTExJU0VDT05EUykpIHsKICAgICAgICAgICAgICAgIGV4ZWN1dG9yU2VydmljZS5zaHV0ZG93bk5vdygpOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZTIpIHsKICAgICAgICAgICAgZXhlY3V0b3JTZXJ2aWNlLnNodXRkb3duTm93KCk7CiAgICAgICAgfQogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoIWV4ZWN1dG9yU2VydmljZS5hd2FpdFRlcm1pbmF0aW9uKDEwMCwgVGltZVVuaXQuTUlMTElTRUNPTkRTKSkgewogICAgICAgICAgICAgICAgZXhlY3V0b3JTZXJ2aWNlLnNodXRkb3duTm93KCk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChJbnRlcnJ1cHRlZEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGV4ZWN1dG9yU2VydmljZS5zaHV0ZG93bk5vdygpOwogICAgICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBzaHV0ZG93bkpvYnMoKSB7CiAgICAgICAgZXhlY3V0b3JTZXJ2aWNlLnNodXRkb3duKCk7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKCFleGVjdXRvclNlcnZpY2UuYXdhaXRUZXJtaW5hdGlvbig4MDAsIFRpbWVVbml0Lk1JTExJU0VDT05EUykpIHsKICAgICAgICAgICAgICAgIGV4ZWN1dG9yU2VydmljZS5zaHV0ZG93bk5vdygpOwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoSW50ZXJydXB0ZWRFeGNlcHRpb24gZTIpIHsKICAgICAgICAgICAgZXhlY3V0b3JTZXJ2aWNlLnNodXRkb3duTm93KCk7CiAgICAgICAgfQogICAgfQoK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsK</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKGUuZ2V0Q2F1c2UoKSBpbnN0YW5jZW9mIEdyYWtuQ2xpZW50RXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICB0aHJvdyAoR3Jha25DbGllbnRFeGNlcHRpb24pZS5nZXRDYXVzZSgpOwogICAgICAgICAgICB9IGVsc2UgCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsK</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGUuZ2V0Q2F1c2UoKSBpbnN0YW5jZW9mIEdyYWtuQ2xpZW50RXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICB0aHJvdyAoR3Jha25DbGllbnRFeGNlcHRpb24pZS5nZXRDYXVzZSgpOwogICAgICAgICAgICB9IGVsc2UgCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgKGUuKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGUuKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
