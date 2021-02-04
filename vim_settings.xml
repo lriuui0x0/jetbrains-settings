@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Fail</entry>
-        <entry>close</entry>
         <entry encoding="base64">XDxjbG9zZVN0b3JhZ2VcPg==</entry>
         <entry encoding="base64">XDxyZXNwb25kZXJcPg==</entry>
         <entry encoding="base64">XDw4XD4=</entry>
@@ -27,6 +25,8 @@
         <entry>transi</entry>
         <entry>transitive</entry>
         <entry>hasEdge</entry>
+        <entry>put</entry>
+        <entry encoding="base64">XDxIQVNcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>w]</entry>
@@ -196,6 +196,13 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/adjacency/impl/ThingAdjacencyImpl.java" timestamp="1612436692836">
+        <mark key="'" line="171" column="85" />
+        <mark key="[" line="171" column="68" />
+        <mark key="]" line="171" column="83" />
+        <mark key="." line="171" column="82" />
+        <mark key="^" line="171" column="83" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/client-java/test/integration/ClientQueryTest.java" timestamp="1612430906549">
         <mark key="'" line="107" column="21" />
         <mark key="[" line="95" column="8" />
@@ -209,8 +216,8 @@
         <mark key="]" line="104" column="0" />
         <mark key="." line="104" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1612435975386">
-        <mark key="'" line="680" column="50" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" timestamp="1612436481387">
+        <mark key="'" line="654" column="44" />
         <mark key="[" line="669" column="20" />
         <mark key="]" line="669" column="23" />
         <mark key="^" line="669" column="23" />
@@ -218,6 +225,13 @@
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" timestamp="1612435947531">
         <mark key="'" line="271" column="9" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" timestamp="1612436774919">
+        <mark key="'" line="323" column="19" />
+        <mark key="[" line="323" column="55" />
+        <mark key="]" line="323" column="70" />
+        <mark key="^" line="323" column="70" />
+        <mark key="." line="323" column="69" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1612430926852">
         <mark key="[" line="106" column="40" />
@@ -229,6 +243,9 @@
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/query/Matcher.java" timestamp="1612370017899" />
+      <file name="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" timestamp="1612436827647">
+        <mark key="'" line="121" column="89" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/benchmark/.grabl/automation.yml" timestamp="1612431812155">
         <mark key="[" line="180" column="0" />
         <mark key="]" line="189" column="70" />
@@ -245,13 +262,6 @@
       <file name="$USER_HOME$/GraknLabs/grakn/concurrent/producer/ProducerIterator.java" timestamp="1612370113249" />
     </filemarks>
     <jumps>
-      <jump line="5" column="0" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="851" column="5" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1220" column="35" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="915" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1254" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="12" column="20" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="902" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="905" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="889" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
@@ -339,12 +349,19 @@
       <jump line="658" column="77" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="659" column="20" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="671" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="657" column="23" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="716" column="20" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="718" column="12" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="686" column="54" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="648" column="21" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="680" column="50" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
+      <jump line="657" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
+      <jump line="654" column="44" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
+      <jump line="141" column="26" filename="$USER_HOME$/GraknLabs/grakn/graph/adjacency/impl/ThingAdjacencyImpl.java" />
+      <jump line="173" column="8" filename="$USER_HOME$/GraknLabs/grakn/graph/adjacency/impl/ThingAdjacencyImpl.java" />
+      <jump line="171" column="85" filename="$USER_HOME$/GraknLabs/grakn/graph/adjacency/impl/ThingAdjacencyImpl.java" />
+      <jump line="159" column="52" filename="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" />
+      <jump line="323" column="19" filename="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" />
+      <jump line="121" column="89" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -365,7 +382,7 @@
         <text>graphMgr.data().stats().hasEdgeCount()</text>
       </register>
       <register name="/" type="4">
-        <text>hasEdge</text>
+        <text encoding="base64">XDxIQVNcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -420,9 +437,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>hasEdge</last-search>
+      <last-search encoding="base64">XDxIQVNcPg==</last-search>
       <last-offset />
-      <last-pattern>hasEdge</last-pattern>
+      <last-pattern encoding="base64">XDxIQVNcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
