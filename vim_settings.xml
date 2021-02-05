@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>convert</entry>
-        <entry encoding="base64">XDxhdHRyaWJ1dGVzQnlJSURcPg==</entry>
         <entry encoding="base64">XDxwcmludGxuXD4=</entry>
         <entry>e2</entry>
         <entry>e1</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDx0ZXN0XD4=</entry>
         <entry encoding="base64">XDxpc1Rlc3RcPg==</entry>
         <entry>Transaction</entry>
+        <entry>product</entry>
+        <entry>product-barcode</entry>
       </history-search>
       <history-cmd>
         <entry>w]</entry>
@@ -197,10 +197,12 @@
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/GraknLabs/benchmark/common/agent/write/PurchaseAgent.java" timestamp="1612535142786" />
-      <file name="$USER_HOME$/GraknLabs/benchmark/test/BenchmarksForComparison.java" timestamp="1612526524541">
+      <file name="$USER_HOME$/GraknLabs/benchmark/test/BenchmarksForComparison.java" timestamp="1612536484700">
         <mark key="'" line="110" column="16" />
-        <mark key="[" line="101" column="0" />
-        <mark key="]" line="101" column="37" />
+        <mark key="[" line="48" column="37" />
+        <mark key="]" line="48" column="39" />
+        <mark key="." line="48" column="38" />
+        <mark key="^" line="48" column="39" />
       </file>
       <file name="$USER_HOME$/GraknLabs/benchmark/test/ComparisonTest.java" timestamp="1612532241690">
         <mark key="'" line="53" column="4" />
@@ -209,10 +211,19 @@
         <mark key="." line="48" column="37" />
         <mark key="^" line="48" column="58" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/benchmark/neo4j/action/write/Neo4jInsertTransactionAction.java" timestamp="1612535176555">
-        <mark key="[" line="76" column="0" />
-        <mark key="]" line="76" column="0" />
-        <mark key="." line="76" column="0" />
+      <file name="$USER_HOME$/GraknLabs/benchmark/neo4j/action/write/Neo4jInsertTransactionAction.java" timestamp="1612536436823">
+        <mark key="'" line="28" column="0" />
+        <mark key="[" line="70" column="77" />
+        <mark key="]" line="69" column="80" />
+        <mark key="." line="70" column="77" />
+        <mark key="^" line="69" column="80" />
+      </file>
+      <file name="$USER_HOME$/GraknLabs/benchmark/neo4j/action/Model.java" timestamp="1612536337712">
+        <mark key="'" line="50" column="31" />
+        <mark key="[" line="49" column="47" />
+        <mark key="]" line="49" column="51" />
+        <mark key="." line="49" column="50" />
+        <mark key="^" line="49" column="51" />
       </file>
       <file name="$USER_HOME$/GraknLabs/benchmark/config/config_test.yml" timestamp="1612525955575">
         <mark key="'" line="13" column="10" />
@@ -230,34 +241,24 @@
         <mark key="[" line="7" column="0" />
         <mark key="]" line="10" column="6" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/benchmark/common/agent/write/MarriageAgent.java" timestamp="1612521357193">
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="64" column="0" />
-        <mark key="." line="64" column="0" />
-      </file>
-      <file name="$USER_HOME$/GraknLabs/benchmark/common/utils/Trace.java" timestamp="1612521421988">
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="34" column="13" />
-      </file>
       <file name="$USER_HOME$/GraknLabs/benchmark/neo4j/Neo4JBenchmark.java" timestamp="1612534625251">
         <mark key="[" line="54" column="0" />
         <mark key="]" line="54" column="31" />
         <mark key="^" line="81" column="139" />
         <mark key="." line="54" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/benchmark/common/action/write/InsertMarriageAction.java" timestamp="1612522581648" />
       <file name="$USER_HOME$/GraknLabs/benchmark/neo4j/driver/Neo4jDriver.java" timestamp="1612533510909">
         <mark key="'" line="49" column="8" />
         <mark key="[" line="41" column="0" />
         <mark key="]" line="41" column="0" />
         <mark key="." line="41" column="0" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/benchmark/.grabl/automation.yml" timestamp="1612531099370">
-        <mark key="'" line="53" column="0" />
-        <mark key="[" line="62" column="75" />
-        <mark key="]" line="62" column="90" />
-        <mark key="." line="62" column="89" />
-        <mark key="^" line="62" column="90" />
+      <file name="$USER_HOME$/GraknLabs/benchmark/.grabl/automation.yml" timestamp="1612537010185">
+        <mark key="'" line="76" column="0" />
+        <mark key="[" line="285" column="0" />
+        <mark key="]" line="285" column="6" />
+        <mark key="." line="285" column="6" />
+        <mark key="^" line="76" column="8" />
       </file>
       <file name="/private/var/tmp/_bazel_lriuui0x0/f55c4c582e20be0530a88ca990b2b420/external/neo4j/v1/https/repo1.maven.org/maven2/org/neo4j/driver/neo4j-java-driver/4.1.0/neo4j-java-driver-4.1.0.jar!/org/neo4j/driver/Driver.class" timestamp="1612533349270" />
       <file name="$USER_HOME$/GraknLabs/benchmark/common/agent/base/Agent.java" timestamp="1612526568036">
@@ -267,25 +268,26 @@
         <mark key="." line="41" column="120" />
         <mark key="^" line="41" column="121" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/benchmark/grakn/data/schema.gql" timestamp="1612536460733">
+        <mark key="'" line="97" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/benchmark/test/BUILD" timestamp="1612530473607">
         <mark key="'" line="64" column="4" />
         <mark key="[" line="61" column="0" />
         <mark key="]" line="61" column="0" />
         <mark key="." line="61" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/benchmark/neo4j/action/write/Neo4jInsertProductAction.java" timestamp="1612536025473">
+        <mark key="[" line="44" column="24" />
+        <mark key="]" line="44" column="25" />
+        <mark key="^" line="44" column="24" />
+        <mark key="." line="44" column="25" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/benchmark/common/Benchmark.java" timestamp="1612532538424">
         <mark key="'" line="51" column="26" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="69" column="20" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/StatisticsTest.java" />
-      <jump line="35" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/StatisticsTest.java" />
-      <jump line="51" column="29" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="65" column="8" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="76" column="0" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
-      <jump line="557" column="0" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="567" column="8" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="565" column="63" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="81" column="94" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/StatisticsTest.java" />
       <jump line="87" column="12" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/StatisticsTest.java" />
       <jump line="47" column="53" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/StatisticsTest.java" />
@@ -378,6 +380,14 @@
       <jump line="159" column="65" filename="$USER_HOME$/GraknLabs/benchmark/neo4j/action/Neo4jActionFactory.java" />
       <jump line="160" column="30" filename="$USER_HOME$/GraknLabs/benchmark/neo4j/action/Neo4jActionFactory.java" />
       <jump line="183" column="12" filename="$USER_HOME$/GraknLabs/benchmark/neo4j/action/Neo4jActionFactory.java" />
+      <jump line="20" column="0" filename="$USER_HOME$/GraknLabs/benchmark/grakn/data/schema.gql" />
+      <jump line="23" column="0" filename="$USER_HOME$/GraknLabs/benchmark/grakn/data/schema.gql" />
+      <jump line="44" column="16" filename="$USER_HOME$/GraknLabs/benchmark/grakn/data/schema.gql" />
+      <jump line="50" column="31" filename="$USER_HOME$/GraknLabs/benchmark/neo4j/action/Model.java" />
+      <jump line="28" column="0" filename="$USER_HOME$/GraknLabs/benchmark/neo4j/action/write/Neo4jInsertTransactionAction.java" />
+      <jump line="97" column="0" filename="$USER_HOME$/GraknLabs/benchmark/grakn/data/schema.gql" />
+      <jump line="1" column="13" filename="$USER_HOME$/GraknLabs/benchmark/.grabl/automation.yml" />
+      <jump line="76" column="0" filename="$USER_HOME$/GraknLabs/benchmark/.grabl/automation.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -395,10 +405,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IElGIE5PVCBFWElTVFM=</text>
+        <text>5</text>
       </register>
       <register name="/" type="4">
-        <text>Transaction</text>
+        <text>product-barcode</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -423,22 +433,22 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBjbGVhbkRhdGFiYXNlKHNlc3Npb24pOwo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICAgIHR4ID0gc2Vzc2lvbi5iZWdpblRyYW5zYWN0aW9uKCk7Ci8vICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX3BlcnNvbl9lbWFpbCBJRiBFWElTVFMiKSk7Ci8vICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX2xvY2F0aW9uX2xvY2F0aW9uTmFtZSBJRiBFWElTVFMiKSk7Ci8vICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX2NvbXBhbnlfY29tcGFueU5hbWUgSUYgRVhJU1RTIikpOwovLyAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9jb21wYW55X2NvbXBhbnlOdW1iZXIgSUYgRVhJU1RTIikpOwovLyAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9wcm9kdWN0X3Byb2R1Y3RCYXJjb2RlIElGIEVYSVNUUyIpKTsKLy8gICAgICAgIHR4LmNvbW1pdCgpOwo=</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBjbGVhbkRhdGFiYXNlKHNlc3Npb24pOwo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Ly8gICAgICAgIHR4ID0gc2Vzc2lvbi5iZWdpblRyYW5zYWN0aW9uKCk7Ci8vICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX3BlcnNvbl9lbWFpbCBJRiBFWElTVFMiKSk7Ci8vICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX2xvY2F0aW9uX2xvY2F0aW9uTmFtZSBJRiBFWElTVFMiKSk7Ci8vICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX2NvbXBhbnlfY29tcGFueU5hbWUgSUYgRVhJU1RTIikpOwovLyAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9jb21wYW55X2NvbXBhbnlOdW1iZXIgSUYgRVhJU1RTIikpOwovLyAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9wcm9kdWN0X3Byb2R1Y3RCYXJjb2RlIElGIEVYSVNUUyIpKTsKLy8gICAgICAgIHR4LmNvbW1pdCgpOwo=</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJNQVRDSCAobikgREVUQUNIIERFTEVURSBuIikpOwo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX3BlcnNvbl9lbWFpbCBJRiBFWElTVFMiKSk7CiAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9sb2NhdGlvbl9sb2NhdGlvbk5hbWUgSUYgRVhJU1RTIikpOwogICAgICAgIHR4LnJ1bihuZXcgUXVlcnkoIkRST1AgQ09OU1RSQUlOVCB1bmlxdWVfY29tcGFueV9jb21wYW55TmFtZSBJRiBFWElTVFMiKSk7CiAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9jb21wYW55X2NvbXBhbnlOdW1iZXIgSUYgRVhJU1RTIikpOwogICAgICAgIHR4LnJ1bihuZXcgUXVlcnkoIkRST1AgQ09OU1RSQUlOVCB1bmlxdWVfcHJvZHVjdF9wcm9kdWN0QmFyY29kZSBJRiBFWElTVFMiKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJNQVRDSCAobikgREVUQUNIIERFTEVURSBuIikpOwo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICB0eC5ydW4obmV3IFF1ZXJ5KCJEUk9QIENPTlNUUkFJTlQgdW5pcXVlX3BlcnNvbl9lbWFpbCBJRiBFWElTVFMiKSk7CiAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9sb2NhdGlvbl9sb2NhdGlvbk5hbWUgSUYgRVhJU1RTIikpOwogICAgICAgIHR4LnJ1bihuZXcgUXVlcnkoIkRST1AgQ09OU1RSQUlOVCB1bmlxdWVfY29tcGFueV9jb21wYW55TmFtZSBJRiBFWElTVFMiKSk7CiAgICAgICAgdHgucnVuKG5ldyBRdWVyeSgiRFJPUCBDT05TVFJBSU5UIHVuaXF1ZV9jb21wYW55X2NvbXBhbnlOdW1iZXIgSUYgRVhJU1RTIikpOwogICAgICAgIHR4LnJ1bihuZXcgUXVlcnkoIkRST1AgQ09OU1RSQUlOVCB1bmlxdWVfcHJvZHVjdF9wcm9kdWN0QmFyY29kZSBJRiBFWElTVFMiKSk7Cg==</text>
@@ -453,9 +463,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Transaction</last-search>
+      <last-search>product-barcode</last-search>
       <last-offset />
-      <last-pattern>Transaction</last-pattern>
+      <last-pattern>product-barcode</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
