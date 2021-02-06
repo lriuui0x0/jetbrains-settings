@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>compa</entry>
         <entry encoding="base64">XDxhbGxfcGFyYW1zXD4=</entry>
         <entry encoding="base64">XDxhbGxfY3VydmVzXD4=</entry>
         <entry encoding="base64">XDxwYXJhbXNcPg==</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxmaXRfY3VydmVcPg==</entry>
         <entry encoding="base64">XDxjdXJ2ZVw+</entry>
         <entry encoding="base64">XDx0YW5nZW50c1w+</entry>
+        <entry encoding="base64">XDxpZFw+</entry>
       </history-search>
       <history-cmd>
         <entry>vs</entry>
@@ -47,8 +47,8 @@
         <entry>wq</entry>
         <entry>Lw</entry>
         <entry>w#</entry>
-        <entry>q</entry>
         <entry>w</entry>
+        <entry>q</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -276,10 +276,13 @@
         <mark key="." line="12" column="14" />
         <mark key="^" line="12" column="15" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1612621305116">
-        <mark key="'" line="264" column="87" />
+      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1612621453340">
+        <mark key="'" line="250" column="0" />
         <mark key="i" line="163" column="19" />
-        <mark key="^" line="261" column="8" />
+        <mark key="[" line="262" column="31" />
+        <mark key="]" line="262" column="34" />
+        <mark key="^" line="262" column="34" />
+        <mark key="." line="262" column="33" />
       </file>
       <file name="$USER_HOME$/CSES/Graph-Algorithms/Shortest-Routes-II.cpp" timestamp="1612107757874">
         <mark key="'" line="0" column="0" />
@@ -316,9 +319,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="241" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="232" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="227" column="18" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="220" column="27" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="21" column="13" filename="$USER_HOME$/HCM/curve_fitting.py" />
       <jump line="0" column="5" filename="$USER_HOME$/HCM/curve_fitting.py" />
@@ -414,14 +414,17 @@
       <jump line="255" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="266" column="29" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="257" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="250" column="20" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="264" column="87" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="263" column="8" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="262" column="45" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="258" column="20" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="250" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IG11bHRpcHJvY2Vzc2luZwo=</text>
+      <register name="&quot;" type="4">
+        <text>'{root}/data/{file}.pkl'</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -433,10 +436,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>id</text>
+        <text>'{root}/data/{file}.pkl'</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0YW5nZW50c1w+</text>
+        <text encoding="base64">XDxpZFw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -447,7 +450,7 @@
         <text>open(f'{root}/base/{i}.json', mode='r').read()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG11bHRpcHJvY2Vzc2luZwo=</text>
+        <text encoding="base64">ICAgIHJldHVybiBzYW1wbGVzCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -461,39 +464,39 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">cHJpbnQodGltZS50aW1lKCkgLSBzdGFydCkK</text>
+        <text encoding="base64">ICAgIC4K</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">c3RhcnQgPSB0aW1lLnRpbWUoKQo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">KQogICAg</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0IG11bHRpcHJvY2Vzc2luZwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludAo=</text>
+        <text encoding="base64">cHJpbnQodGltZS50aW1lKCkgLSBzdGFydCkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">cHJpbnQocmVzdWx0KQo=</text>
+        <text encoding="base64">c3RhcnQgPSB0aW1lLnRpbWUoKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cmVzdWx0ID0gbXVsdGlwcm9jZXNzaW5nLlBvb2woMzIpLm1hcChwcm9jZXNzX2Z1bmMsIHJhbmdlKDMyKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHJpbnQocmVzdWx0KQo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>q</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx0YW5nZW50c1w+</last-search>
+      <last-search encoding="base64">XDxpZFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0YW5nZW50c1w+</last-pattern>
+      <last-pattern encoding="base64">XDxpZFw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
