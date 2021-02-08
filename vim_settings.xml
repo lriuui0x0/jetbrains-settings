@@ -217,12 +217,12 @@
       <file name="$USER_HOME$/GraknLabs/benchmark/grakn/action/write/GraknInsertTransactionAction.java" timestamp="1612541933717">
         <mark key="'" line="54" column="12" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" timestamp="1612793031695">
-        <mark key="'" line="117" column="88" />
-        <mark key="[" line="117" column="0" />
-        <mark key="]" line="117" column="90" />
-        <mark key="." line="117" column="23" />
-        <mark key="^" line="143" column="121" />
+      <file name="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" timestamp="1612798561212">
+        <mark key="'" line="237" column="39" />
+        <mark key="[" line="287" column="99" />
+        <mark key="]" line="287" column="125" />
+        <mark key="." line="287" column="124" />
+        <mark key="^" line="287" column="125" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1612790098278">
         <mark key="[" line="106" column="40" />
@@ -272,7 +272,6 @@
       <file name="$USER_HOME$/GraknLabs/benchmark/dependencies/graknlabs/artifacts.bzl" timestamp="1612786470369" />
     </filemarks>
     <jumps>
-      <jump line="80" column="0" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="608" column="8" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="611" column="0" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
       <jump line="271" column="9" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksTransaction.java" />
@@ -372,12 +371,13 @@
       <jump line="94" column="0" filename="$USER_HOME$/GraknLabs/grakn/query/Updater.java" />
       <jump line="116" column="4" filename="$USER_HOME$/GraknLabs/grakn/query/Updater.java" />
       <jump line="109" column="57" filename="$USER_HOME$/GraknLabs/grakn/query/Updater.java" />
+      <jump line="237" column="39" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ZWxzZSA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaW5zZXJ0Cg==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -389,7 +389,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZWxzZSA=</text>
+        <text>relation</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxQQVJBTExFTElTQVRJT05fRkFDVE9SXD4=</text>
@@ -400,10 +400,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiBjb250ZXh0Lm9wdGlvbnMoKS5wYXJhbGxlbCgpID8gZXhlY3V0ZVBhcmFsbGVsKCkgOiBleGVjdXRlU2VyaWFsKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJjcmVhdGluZyByZWxhdGlvbiAiICsgdGhpbmdUeXBlLmdldExhYmVsKCkuc2NvcGVkTmFtZSgpICsgIiAiICsgcmVsYXRpb24uZ2V0SUlERm9yUHJpbnRpbmcoKSk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaW5zZXJ0Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -417,28 +417,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImNyZWF0aW5nIGVudGl0eSAiICsgZW50aXR5LmdldElJREZvclByaW50aW5nKCkpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgUmVzb3VyY2VJdGVyYXRvcjxDb25jZXB0TWFwPiBleGVjdXRlU2VyaWFsKCkgewogICAgICAgIHJldHVybiBudWxsOwogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImNyZWF0aW5nIGVudGl0eSIpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBleGVjdXRlU2VyaWFsKCkgewogICAgfQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcm9sZVBsYXllci4K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGFzc2VydCBpbnNlcnRzICE9IG51bGw7Cg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgTGlzdDxDb25jZXB0TWFwPiBleGVjdXRlU2VyaWFsKCkgewogICAgICAgIHJldHVybiBudWxsOwogICAgfQoK</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgUmVzb3VyY2VJdGVyYXRvcjxDb25jZXB0TWFwPiBleGVjdXRlU2VyaWFsKCkgewogICAgICAgIHJldHVybiBudWxsOwogICAgfQoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmICgpCg==</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgdm9pZCBleGVjdXRlU2VyaWFsKCkgewogICAgfQoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
