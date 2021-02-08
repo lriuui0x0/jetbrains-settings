@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxlbWFpbFw+</entry>
-        <entry encoding="base64">XDxudW1iZXJcPg==</entry>
         <entry encoding="base64">XDxjb25jZXB0TWdyXD4=</entry>
         <entry>data</entry>
         <entry>integration</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxwYXJhbGxlbFw+</entry>
         <entry encoding="base64">XDxERUZBVUxUX1BBUkFMTEVMXD4=</entry>
         <entry encoding="base64">XDxQQVJBTExFTElTQVRJT05fRkFDVE9SXD4=</entry>
+        <entry encoding="base64">XDx0aGluZ3NXaXRoR2VuZXJhdGVkSUlEXD4=</entry>
+        <entry>getLast</entry>
       </history-search>
       <history-cmd>
         <entry>s</entry>
@@ -243,11 +243,12 @@
         <mark key="^" line="86" column="84" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/iterator/AbstractResourceIterator.java" timestamp="1612791972963" />
-      <file name="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" timestamp="1612801494605">
-        <mark key="'" line="154" column="8" />
-        <mark key="[" line="153" column="0" />
-        <mark key="]" line="153" column="0" />
-        <mark key="." line="153" column="0" />
+      <file name="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" timestamp="1612803009742">
+        <mark key="'" line="176" column="75" />
+        <mark key="[" line="171" column="44" />
+        <mark key="]" line="171" column="44" />
+        <mark key="." line="171" column="44" />
+        <mark key="^" line="182" column="128" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn/query/Matcher.java" timestamp="1612790211381">
         <mark key="'" line="83" column="29" />
@@ -279,6 +280,9 @@
         <mark key="^" line="110" column="8" />
         <mark key="." line="116" column="0" />
       </file>
+      <file name="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" timestamp="1612802245223">
+        <mark key="'" line="109" column="0" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" timestamp="1612793490600">
         <mark key="'" line="32" column="32" />
         <mark key="[" line="32" column="51" />
@@ -295,12 +299,6 @@
       <file name="$USER_HOME$/GraknLabs/benchmark/dependencies/graknlabs/artifacts.bzl" timestamp="1612786470369" />
     </filemarks>
     <jumps>
-      <jump line="648" column="21" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="680" column="50" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="657" column="16" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="654" column="44" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="141" column="26" filename="$USER_HOME$/GraknLabs/grakn/graph/adjacency/impl/ThingAdjacencyImpl.java" />
-      <jump line="159" column="52" filename="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" />
       <jump line="323" column="19" filename="$USER_HOME$/GraknLabs/grakn/graph/edge/impl/ThingEdgeImpl.java" />
       <jump line="121" column="89" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
       <jump line="173" column="8" filename="$USER_HOME$/GraknLabs/grakn/graph/adjacency/impl/ThingAdjacencyImpl.java" />
@@ -395,12 +393,18 @@
       <jump line="156" column="8" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
       <jump line="246" column="26" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
       <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
+      <jump line="170" column="40" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
+      <jump line="172" column="59" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
+      <jump line="109" column="0" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
+      <jump line="180" column="86" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
+      <jump line="177" column="80" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
+      <jump line="176" column="75" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>join</text>
+        <text>)</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -412,10 +416,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>join</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxQQVJBTExFTElTQVRJT05fRkFDVE9SXD4=</text>
+        <text>getLast</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -423,7 +427,7 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBoZXhDaGFyc1swXSA9ICcwJzsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJzeW5jaW5nICIgKyBCeXRlcy5nZXRIZXgocHJlZml4KSArICIsICIgKyAobGFzdElJRCA9PSBudWxsID8gIm51bGwiIDogZ2V0SGV4KGxhc3RJSUQpKSk7Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJHZW5lcmF0aW5nIGlkICIgKyBCeXRlcy5nZXRIZXgoYnl0ZXMpKTsK</text>
@@ -471,9 +475,9 @@ ThingImpl.</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxQQVJBTExFTElTQVRJT05fRkFDVE9SXD4=</last-search>
+      <last-search>getLast</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxQQVJBTExFTElTQVRJT05fRkFDVE9SXD4=</last-pattern>
+      <last-pattern>getLast</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
