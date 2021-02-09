@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>Transaction</entry>
-        <entry>product</entry>
         <entry>product-barcode</entry>
         <entry encoding="base64">XDw1aFw+</entry>
         <entry>filter</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxjbGllbnRSZXF1ZXN0VGFza1w+</entry>
         <entry>server</entry>
         <entry>port</entry>
+        <entry encoding="base64">XDxsYXN0QXBwbGllZFw+</entry>
+        <entry>identity</entry>
       </history-search>
       <history-cmd>
         <entry>s</entry>
@@ -258,7 +258,8 @@
         <mark key="." line="130" column="75" />
         <mark key="^" line="130" column="76" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" timestamp="1612877394640">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" timestamp="1612879124815">
+        <mark key="'" line="356" column="108" />
         <mark key="[" line="112" column="63" />
         <mark key="]" line="112" column="71" />
         <mark key="^" line="112" column="71" />
@@ -271,27 +272,14 @@
         <mark key="." line="106" column="40" />
         <mark key="^" line="106" column="46" />
       </file>
-      <file name="/fragment.java" timestamp="1612876886078">
+      <file name="/fragment.java" timestamp="1612879463039">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="109" />
-        <mark key="^" line="0" column="109" />
-        <mark key="." line="0" column="108" />
+        <mark key="]" line="0" column="88" />
+        <mark key="^" line="0" column="88" />
+        <mark key="." line="0" column="87" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="278" column="8" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
-      <jump line="117" column="42" filename="$USER_HOME$/GraknLabs/console/GraknConsole.java" />
-      <jump line="89" column="72" filename="$USER_HOME$/GraknLabs/benchmark/common/agent/base/Agent.java" />
-      <jump line="516" column="35" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="909" column="4" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="63" column="53" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/QueryTest.java" />
-      <jump line="69" column="98" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/QueryTest.java" />
-      <jump line="66" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/QueryTest.java" />
-      <jump line="67" column="55" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/QueryTest.java" />
-      <jump line="65" column="0" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/QueryTest.java" />
-      <jump line="33" column="38" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/QueryTest.java" />
-      <jump line="32" column="87" filename="$USER_HOME$/GraknLabs/grakn/test/integration/statistics/QueryTest.java" />
-      <jump line="83" column="29" filename="$USER_HOME$/GraknLabs/grakn/query/Matcher.java" />
       <jump line="41" column="28" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
       <jump line="150" column="24" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
       <jump line="183" column="23" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
@@ -379,27 +367,40 @@
       <jump line="52" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" />
       <jump line="60" column="69" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTestKit.java" />
       <jump line="235" column="80" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTestKit.java" />
+      <jump line="653" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="659" column="110" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="662" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="716" column="28" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="717" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="718" column="114" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="762" column="164" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="311" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="320" column="72" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="323" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="354" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="355" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="356" column="108" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgLy8gRHJvcCBtZXNzYWdlCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ZnJvbSA8PSBjb21taXRJbmRleA==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
       </register>
       <register name="+" type="4">
-        <text>Returns the {@code IID} of this {@code Thing} as hexadecimal string.</text>
+        <text>System.identityHashCode(this)</text>
       </register>
       <register name="l" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>oldState.ID</text>
+        <text encoding="base64">ZnJvbSA8PSBjb21taXRJbmRleA==</text>
       </register>
       <register name="/" type="4">
-        <text>port</text>
+        <text>identity</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -455,9 +456,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>port</last-search>
+      <last-search>identity</last-search>
       <last-offset />
-      <last-pattern>port</last-pattern>
+      <last-pattern>identity</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
