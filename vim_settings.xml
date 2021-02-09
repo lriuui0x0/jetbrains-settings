@@ -7,9 +7,7 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>activate</entry>
         <entry>leaderCommit</entry>
-        <entry encoding="base64">XDxhcHBlbmRFbnRyaWVzUmVxXD4=</entry>
         <entry encoding="base64">XDxsZWFkZXJDb21taXRcPg==</entry>
         <entry encoding="base64">XDxpbmZvXD4=</entry>
         <entry>trace(</entry>
@@ -27,6 +25,8 @@
         <entry>config</entry>
         <entry encoding="base64">XDxjdXJyZW50VGltZVw+</entry>
         <entry encoding="base64">XDxhc3NlcnRpb25UYXNrXD4=</entry>
+        <entry encoding="base64">XDxjb250ZW50XD4=</entry>
+        <entry encoding="base64">XDxhcHBlbmRFbnRyaWVzUmVxXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s</entry>
@@ -228,12 +228,12 @@
         <mark key="." line="95" column="112" />
         <mark key="^" line="95" column="113" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" timestamp="1612895022741">
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" timestamp="1612895706444">
         <mark key="'" line="62" column="4" />
-        <mark key="[" line="56" column="99" />
-        <mark key="]" line="56" column="100" />
-        <mark key="." line="56" column="99" />
-        <mark key="^" line="56" column="100" />
+        <mark key="[" line="45" column="29" />
+        <mark key="]" line="45" column="29" />
+        <mark key="." line="45" column="29" />
+        <mark key="^" line="45" column="30" />
       </file>
       <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/common/PeriodicTask.java" timestamp="1612885306476">
         <mark key="'" line="26" column="25" />
@@ -254,8 +254,8 @@
         <mark key="." line="815" column="104" />
         <mark key="^" line="815" column="105" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" timestamp="1612885272439">
-        <mark key="'" line="597" column="175" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" timestamp="1612896055507">
+        <mark key="'" line="568" column="27" />
         <mark key="[" line="246" column="38" />
         <mark key="]" line="246" column="45" />
         <mark key="^" line="246" column="45" />
@@ -274,7 +274,7 @@
         <mark key="." line="101" column="57" />
         <mark key="^" line="155" column="124" />
       </file>
-      <file name="/fragment.java" timestamp="1612888437305">
+      <file name="/fragment.java" timestamp="1612896036331">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="88" />
         <mark key="^" line="0" column="88" />
@@ -282,20 +282,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="726" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="745" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="749" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="753" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="757" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="772" column="28" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="228" column="36" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTestKit.java" />
-      <jump line="54" column="8" filename="$USER_HOME$/GraknLabs/grakn-cluster/.grabl/automation.yml" />
-      <jump line="22" column="6" filename="$USER_HOME$/GraknLabs/grakn-cluster/.grabl/automation.yml" />
-      <jump line="39" column="52" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" />
-      <jump line="52" column="0" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" />
-      <jump line="22" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" />
-      <jump line="138" column="0" filename="$USER_HOME$/GraknLabs/grakn/concurrent/actor/EventLoop.java" />
-      <jump line="44" column="79" filename="$USER_HOME$/GraknLabs/grakn/concurrent/actor/EventLoop.java" />
       <jump line="47" column="22" filename="$USER_HOME$/GraknLabs/grakn/concurrent/actor/EventLoop.java" />
       <jump line="76" column="18" filename="$USER_HOME$/GraknLabs/grakn/concurrent/actor/EventLoop.java" />
       <jump line="77" column="15" filename="$USER_HOME$/GraknLabs/grakn/concurrent/actor/EventLoop.java" />
@@ -382,12 +368,26 @@
       <jump line="34" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" />
       <jump line="51" column="42" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" />
       <jump line="62" column="4" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTest.java" />
+      <jump line="89" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="174" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="245" column="58" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="190" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="192" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="198" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="386" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="387" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="389" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="391" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="562" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="563" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="566" column="29" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="568" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>10</text>
+        <text>0</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -399,10 +399,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>10</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxhc3NlcnRpb25UYXNrXD4=</text>
+        <text encoding="base64">XDxhcHBlbmRFbnRyaWVzUmVxXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -457,9 +457,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxhc3NlcnRpb25UYXNrXD4=</last-search>
+      <last-search encoding="base64">XDxhcHBlbmRFbnRyaWVzUmVxXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxhc3NlcnRpb25UYXNrXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxhcHBlbmRFbnRyaWVzUmVxXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
