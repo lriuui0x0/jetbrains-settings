@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>product-barcode</entry>
-        <entry encoding="base64">XDw1aFw+</entry>
-        <entry>filter</entry>
-        <entry>parallel</entry>
-        <entry encoding="base64">XDxwYXJhbGxlbFw+</entry>
         <entry encoding="base64">XDxERUZBVUxUX1BBUkFMTEVMXD4=</entry>
         <entry encoding="base64">XDxQQVJBTExFTElTQVRJT05fRkFDVE9SXD4=</entry>
         <entry encoding="base64">XDx0aGluZ3NXaXRoR2VuZXJhdGVkSUlEXD4=</entry>
@@ -27,6 +22,11 @@
         <entry>port</entry>
         <entry encoding="base64">XDxsYXN0QXBwbGllZFw+</entry>
         <entry>identity</entry>
+        <entry>commitIndex</entry>
+        <entry>activate</entry>
+        <entry>leaderCommit</entry>
+        <entry encoding="base64">XDxhcHBlbmRFbnRyaWVzUmVxXD4=</entry>
+        <entry encoding="base64">XDxsZWFkZXJDb21taXRcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>s</entry>
@@ -258,21 +258,27 @@
         <mark key="." line="130" column="75" />
         <mark key="^" line="130" column="76" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" timestamp="1612879124815">
-        <mark key="'" line="356" column="108" />
-        <mark key="[" line="112" column="63" />
-        <mark key="]" line="112" column="71" />
-        <mark key="^" line="112" column="71" />
-        <mark key="." line="112" column="70" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" timestamp="1612880035109">
+        <mark key="'" line="574" column="116" />
+        <mark key="[" line="715" column="51" />
+        <mark key="]" line="715" column="51" />
+        <mark key="^" line="100" column="123" />
+        <mark key="." line="715" column="51" />
       </file>
-      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Peers.java" timestamp="1612877665156" />
+      <file name="$USER_HOME$/GraknLabs/grakn-cluster/raft/Peers.java" timestamp="1612879850770">
+        <mark key="'" line="208" column="36" />
+        <mark key="[" line="101" column="57" />
+        <mark key="]" line="101" column="57" />
+        <mark key="." line="101" column="57" />
+        <mark key="^" line="155" column="124" />
+      </file>
       <file name="$USER_HOME$/GraknLabs/grakn/server/BUILD" timestamp="1612811090994">
         <mark key="[" line="106" column="40" />
         <mark key="]" line="106" column="40" />
         <mark key="." line="106" column="40" />
         <mark key="^" line="106" column="46" />
       </file>
-      <file name="/fragment.java" timestamp="1612879463039">
+      <file name="/fragment.java" timestamp="1612880106631">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="88" />
         <mark key="^" line="0" column="88" />
@@ -280,55 +286,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="41" column="28" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="150" column="24" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="183" column="23" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="184" column="41" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="153" column="15" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="53" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="32" column="32" filename="$USER_HOME$/GraknLabs/grakn/common/parameters/Options.java" />
-      <jump line="118" column="84" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="125" column="0" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="144" column="111" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="145" column="4" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="142" column="45" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="97" column="70" filename="$USER_HOME$/GraknLabs/grakn/query/Deleter.java" />
-      <jump line="143" column="120" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="117" column="88" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="94" column="0" filename="$USER_HOME$/GraknLabs/grakn/query/Deleter.java" />
-      <jump line="108" column="67" filename="$USER_HOME$/GraknLabs/grakn/query/Deleter.java" />
-      <jump line="110" column="4" filename="$USER_HOME$/GraknLabs/grakn/query/Deleter.java" />
-      <jump line="107" column="33" filename="$USER_HOME$/GraknLabs/grakn/query/Deleter.java" />
-      <jump line="94" column="0" filename="$USER_HOME$/GraknLabs/grakn/query/Updater.java" />
-      <jump line="116" column="4" filename="$USER_HOME$/GraknLabs/grakn/query/Updater.java" />
-      <jump line="109" column="57" filename="$USER_HOME$/GraknLabs/grakn/query/Updater.java" />
-      <jump line="237" column="39" filename="$USER_HOME$/GraknLabs/grakn/query/Inserter.java" />
-      <jump line="84" column="38" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
-      <jump line="62" column="34" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
-      <jump line="64" column="4" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
-      <jump line="94" column="8" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
-      <jump line="90" column="47" filename="$USER_HOME$/GraknLabs/grakn/concept/thing/impl/ThingImpl.java" />
-      <jump line="438" column="130" filename="$USER_HOME$/GraknLabs/grakn/graph/DataGraph.java" />
-      <jump line="146" column="79" filename="$USER_HOME$/GraknLabs/grakn/graph/iid/VertexIID.java" />
-      <jump line="42" column="13" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
-      <jump line="156" column="8" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="246" column="26" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
-      <jump line="21" column="0" filename="$USER_HOME$/GraknLabs/grakn/common/collection/Bytes.java" />
-      <jump line="170" column="40" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="172" column="59" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="109" column="0" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="176" column="75" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="179" column="20" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="177" column="51" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="187" column="20" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="178" column="51" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="180" column="42" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
-      <jump line="262" column="31" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="293" column="20" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="297" column="35" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="335" column="20" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="338" column="35" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
-      <jump line="96" column="16" filename="$USER_HOME$/GraknLabs/grakn/rocks/RocksStorage.java" />
       <jump line="345" column="15" filename="$USER_HOME$/GraknLabs/grakn/graph/vertex/impl/TypeVertexImpl.java" />
       <jump line="33" column="0" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
       <jump line="175" column="51" filename="$USER_HOME$/GraknLabs/grakn/graph/common/KeyGenerator.java" />
@@ -368,18 +325,67 @@
       <jump line="60" column="69" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTestKit.java" />
       <jump line="235" column="80" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/test/replay/ReplayTestKit.java" />
       <jump line="653" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="659" column="110" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
       <jump line="662" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
       <jump line="716" column="28" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="717" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
       <jump line="718" column="114" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="762" column="164" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
       <jump line="311" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="320" column="72" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
       <jump line="323" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
       <jump line="354" column="32" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="355" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
-      <jump line="356" column="108" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="319" column="78" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="57" column="40" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="310" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="320" column="54" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="322" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="353" column="20" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="355" column="46" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="356" column="73" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="415" column="42" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="416" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="418" column="36" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="419" column="84" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="420" column="71" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="429" column="38" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="436" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="468" column="125" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="507" column="113" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="508" column="99" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="517" column="23" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="524" column="151" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="527" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="603" column="125" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="612" column="104" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="652" column="17" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="659" column="92" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="661" column="35" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="715" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="717" column="42" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="762" column="151" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="128" column="25" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="152" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="154" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="158" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="160" column="45" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="265" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="444" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="578" column="37" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="643" column="84" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="737" column="26" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="71" column="16" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="134" column="41" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="157" column="120" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Peers.java" />
+      <jump line="208" column="36" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Peers.java" />
+      <jump line="101" column="14" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="190" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="192" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="198" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="388" column="24" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="389" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="391" column="43" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="393" column="27" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="568" column="132" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="569" column="116" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="572" column="82" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
+      <jump line="574" column="116" filename="$USER_HOME$/GraknLabs/grakn-cluster/raft/Raft.java" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -400,7 +406,7 @@
         <text encoding="base64">ZnJvbSA8PSBjb21taXRJbmRleA==</text>
       </register>
       <register name="/" type="4">
-        <text>identity</text>
+        <text encoding="base64">XDxsZWFkZXJDb21taXRcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -456,9 +462,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>identity</last-search>
+      <last-search encoding="base64">XDxsZWFkZXJDb21taXRcPg==</last-search>
       <last-offset />
-      <last-pattern>identity</last-pattern>
+      <last-pattern encoding="base64">XDxsZWFkZXJDb21taXRcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
