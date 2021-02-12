@@ -243,12 +243,11 @@
         <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/training.py" timestamp="1613164795332">
-        <mark key="'" line="27" column="37" />
-        <mark key="[" line="46" column="28" />
-        <mark key="]" line="12" column="20" />
-        <mark key="." line="12" column="19" />
-        <mark key="^" line="12" column="20" />
+      <file name="$USER_HOME$/HCM/synth/training.py" timestamp="1613166687974">
+        <mark key="[" line="40" column="23" />
+        <mark key="]" line="40" column="25" />
+        <mark key="." line="40" column="24" />
+        <mark key="^" line="40" column="25" />
       </file>
       <file name="$USER_HOME$/HCM/synth/predict.py" timestamp="1612708802849">
         <mark key="[" line="0" column="0" />
@@ -306,7 +305,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="73" column="33" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="55" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="65" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="20" column="33" filename="$USER_HOME$/HCM/synth/network.py" />
@@ -336,7 +334,6 @@
       <jump line="39" column="53" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="40" column="62" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="60" column="27" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="34" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="27" column="0" filename="$USER_HOME$/HCM/synth/network.py" />
       <jump line="37" column="9" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="41" column="15" filename="$USER_HOME$/HCM/synth/training.py" />
@@ -406,12 +403,14 @@
       <jump line="5" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/101_fujita.inkml" />
       <jump line="23" column="55" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="30" column="37" filename="$USER_HOME$/HCM/synth/training.py" />
+      <jump line="34" column="28" filename="$USER_HOME$/HCM/synth/training.py" />
+      <jump line="51" column="17" filename="$USER_HOME$/HCM/synth/training.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>max(len(strokes) for strokes in dataset_input)</text>
+        <text>100</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -423,7 +422,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>max(len(strokes) for strokes in dataset_input)</text>
+        <text>100</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxpbnB1dF9kYXRhXD4=</text>
@@ -434,10 +433,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHN0cm9rZV9jb3VudCA9IG1heChsZW4oc3Ryb2tlcykgZm9yIHN0cm9rZXMgaW4gZGF0YXNldF9pbnB1dCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQxID0gdGltZS50aW1lKCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZTEgPSB0aW1lLnRpbWUoKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -451,28 +450,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZTQgPSB0aW1lLnRpbWUoKQogICAgICAgICAgICBwcmludChmJ2JhdGNoID0ge3RpbWU0IC0gdGltZTF9JykK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQxID0gdGltZS50aW1lKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5kaWNlc1tqXSwgaW5kaWNlc1tpIC0gMV0gPSBpbmRpY2VzW2kgLSAxXSwgaW5kaWNlc1tqXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQyID0gdGltZS50aW1lKCkKICAgICAgICAgICAgcHJpbnQoZidvcHRpbSA9IHtzdGFydDIgLSBzdGFydDF9JykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQxID0gdGltZS50aW1lKCkKICAgICAgICAgICAgcHJpbnQoZid0aW1lID0ge3N0YXJ0MSAtIHN0YXJ0fScpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1dGggPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZTMgPSB0aW1lLnRpbWUoKQogICAgICAgICAgICAjIHByaW50KGYndGltZTMgPSB7dGltZTMgLSB0aW1lMn0nKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydXRoID0gZWxlbTMudGV4dAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGltZTIgPSB0aW1lLnRpbWUoKQogICAgICAgICAgICAjIHByaW50KGYndGltZTIgPSB7dGltZTIgLSB0aW1lMX0nKQo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsaWYgZWxlbTMudGFnID09IG5zX2lua21sKCdhbm5vdGF0aW9uJyk6CiA=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoZid0aW1lMyA9IHt0aW1lMyAtIHRpbWUyfScpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1dGggPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoZid0aW1lNCA9IHt0aW1lNCAtIHRpbWUzfScpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
