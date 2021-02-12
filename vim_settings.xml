@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxWZWNcPg==</entry>
         <entry encoding="base64">XDxucFw+</entry>
         <entry encoding="base64">XDxzdHJva2VfY291bnRcPg==</entry>
         <entry encoding="base64">XDxzdHJva2Vfc2l6ZVw+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxkaWdpdFw+</entry>
         <entry encoding="base64">XDwxMDAwMDBcPg==</entry>
         <entry encoding="base64">XDxzaW5cPg==</entry>
+        <entry encoding="base64">XDxpbnB1dF9kYXRhXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>.w</entry>
@@ -243,12 +243,12 @@
         <mark key="." line="1" column="0" />
         <mark key="^" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/training.py" timestamp="1613162791369">
-        <mark key="'" line="15" column="59" />
-        <mark key="[" line="38" column="41" />
-        <mark key="]" line="38" column="43" />
-        <mark key="." line="38" column="42" />
-        <mark key="^" line="38" column="43" />
+      <file name="$USER_HOME$/HCM/synth/training.py" timestamp="1613164795332">
+        <mark key="'" line="27" column="37" />
+        <mark key="[" line="46" column="28" />
+        <mark key="]" line="12" column="20" />
+        <mark key="." line="12" column="19" />
+        <mark key="^" line="12" column="20" />
       </file>
       <file name="$USER_HOME$/HCM/synth/predict.py" timestamp="1612708802849">
         <mark key="[" line="0" column="0" />
@@ -306,7 +306,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/HCM/synth/network.py" />
       <jump line="73" column="33" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="55" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="65" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
@@ -314,7 +313,6 @@
       <jump line="14" column="0" filename="$USER_HOME$/HCM/synth/network.py" />
       <jump line="10" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="58" column="10" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="30" column="44" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="17" column="43" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="11" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="4" column="32" filename="$USER_HOME$/HCM/synth/network.py" />
@@ -406,12 +404,14 @@
       <jump line="29" column="36" filename="$USER_HOME$/HCM/preprocessing.py" />
       <jump line="30" column="59" filename="$USER_HOME$/HCM/preprocessing.py" />
       <jump line="5" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/101_fujita.inkml" />
+      <jump line="23" column="55" filename="$USER_HOME$/HCM/synth/training.py" />
+      <jump line="30" column="37" filename="$USER_HOME$/HCM/synth/training.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>62</text>
+        <text>max(len(strokes) for strokes in dataset_input)</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -423,21 +423,21 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>62</text>
+        <text>max(len(strokes) for strokes in dataset_input)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzaW5cPg==</text>
+        <text encoding="base64">XDxpbnB1dF9kYXRhXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>truth.strip() != '\\sin'</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHN0cm9rZV9jb3VudCA9IG1heChsZW4oc3Ryb2tlcykgZm9yIHN0cm9rZXMgaW4gZGF0YXNldF9pbnB1dCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1dGggPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -451,28 +451,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydXRoID0gZWxlbTMudGV4dAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsaWYgZWxlbTMudGFnID09IG5zX2lua21sKCdhbm5vdGF0aW9uJyk6CiA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1dGggPSBOb25lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW5kaWNlc1tqXSwgaW5kaWNlc1tpIC0gMV0gPSBpbmRpY2VzW2kgLSAxXSwgaW5kaWNlc1tqXQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsaWYgZWxlbTMudGFnID09IG5zX2lua21sKCdhbm5vdGF0aW9uJyk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ1dGggPSBlbGVtMy50ZXh0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB4ICs9IDEK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1dGggPSBOb25lCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaWYgeCA+IDUgYW5kIHRydXRoLnN0cmlwKCkgbm90IGluIFsnXFxzaW4nLCAnXFxjb3MnLCAnXFx0YW4nLCAnXFxsaW0nXToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KHgsIHRydXRoLnN0cmlwKCksIGZpbGUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydXRoID0gZWxlbTMudGV4dAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsaWYgZWxlbTMudGFnID09IG5zX2lua21sKCdhbm5vdGF0aW9uJyk6CiA=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgeCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1dGggPSBOb25lCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -481,9 +481,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzaW5cPg==</last-search>
+      <last-search encoding="base64">XDxpbnB1dF9kYXRhXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzaW5cPg==</last-pattern>
+      <last-pattern encoding="base64">XDxpbnB1dF9kYXRhXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
