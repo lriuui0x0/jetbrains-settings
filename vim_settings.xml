@@ -196,9 +196,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="vim_settings.xml" timestamp="1612211986498">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="/start_script.py" timestamp="1612705009392">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="1" column="2" />
@@ -215,6 +212,13 @@
         <mark key="[" line="0" column="6" />
         <mark key="]" line="0" column="7" />
         <mark key="." line="0" column="6" />
+      </file>
+      <file name="$USER_HOME$/HCM/preprocessing.py" timestamp="1613090688033">
+        <mark key="'" line="116" column="0" />
+        <mark key="[" line="125" column="0" />
+        <mark key="]" line="125" column="8" />
+        <mark key="." line="125" column="8" />
+        <mark key="^" line="101" column="26" />
       </file>
       <file name="$USER_HOME$/HCM/synth/curve_fitting.py" timestamp="1612704140074">
         <mark key="'" line="49" column="4" />
@@ -316,11 +320,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="220" column="5" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="2" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="218" column="16" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="188" column="17" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="3" column="7" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="94" column="82" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="80" column="21" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="2" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
@@ -416,12 +415,17 @@
       <jump line="222" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="221" column="76" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="26" column="92" filename="$USER_HOME$/HCM/synth/predict/main.js" />
+      <jump line="27" column="31" filename="$USER_HOME$/HCM/preprocessing.py" />
+      <jump line="55" column="28" filename="$USER_HOME$/HCM/preprocessing.py" />
+      <jump line="102" column="25" filename="$USER_HOME$/HCM/preprocessing.py" />
+      <jump line="105" column="0" filename="$USER_HOME$/HCM/preprocessing.py" />
+      <jump line="116" column="0" filename="$USER_HOME$/HCM/preprocessing.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>0123456789abcdefghijklmnopqrstuvwxyz</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQoeCkK</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -433,7 +437,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>&quot;&quot;</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDwxMDAwMDBcPg==</text>
@@ -447,7 +451,7 @@
         <text>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaW50KGxlbihkYXRhc2V0KSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQoeCkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -461,28 +465,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50KHN0cm9rZV9jb3VudCwgc3Ryb2tlX3NpemUpCg==</text>
+        <text encoding="base64">ZGF0YV9saXN0IAoK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IyBUT0RPOiBEbyBub3QgZ2VuZXJhdGUgMSB0aGF0IGxvb2sgbGlrZSA3Cg==</text>
+        <text encoding="base64">ICAgIHByaW50KGxlbihkYXRhc2V0KSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">IyBUT0RPOiBEbyBub3QgZ2VuZXJhdGUgMSB0aGF0IGxvb2sgbGlrZSA3Cg==</text>
+        <text encoding="base64">ICAgIHByaW50KHN0cm9rZV9jb3VudCwgc3Ryb2tlX3NpemUpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZsYXQgPSBubi5GbGF0dGUK</text>
+        <text encoding="base64">IyBUT0RPOiBEbyBub3QgZ2VuZXJhdGUgMSB0aGF0IGxvb2sgbGlrZSA3Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB4MyA9IAo=</text>
+        <text encoding="base64">IyBUT0RPOiBEbyBub3QgZ2VuZXJhdGUgMSB0aGF0IGxvb2sgbGlrZSA3Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmZsYXQgPSBubi5GbGF0dGVuKCkK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmZsYXQgPSBubi5GbGF0dGUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB4MiA9IHRjLmNhdCh4MiwgZGltPTEpCg==</text>
+        <text encoding="base64">ICAgICAgICB4MyA9IAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmZsYXQgPSBubi5GbGF0dGVuKCkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -501,7 +505,7 @@
     </search>
   </component>
   <component name="VimSettings">
-    <state version="7" enabled="true" />
+    <state version="6" enabled="true" />
     <notifications>
       <idea-join enabled="true" />
       <idea-put enabled="false" />
