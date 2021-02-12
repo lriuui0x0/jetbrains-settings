@@ -213,12 +213,12 @@
         <mark key="]" line="0" column="7" />
         <mark key="." line="0" column="6" />
       </file>
-      <file name="$USER_HOME$/HCM/preprocessing.py" timestamp="1613156596923">
-        <mark key="'" line="30" column="61" />
-        <mark key="[" line="30" column="61" />
-        <mark key="]" line="30" column="89" />
-        <mark key="." line="30" column="88" />
-        <mark key="^" line="30" column="89" />
+      <file name="$USER_HOME$/HCM/preprocessing.py" timestamp="1613156681446">
+        <mark key="'" line="30" column="59" />
+        <mark key="[" line="30" column="30" />
+        <mark key="]" line="30" column="30" />
+        <mark key="." line="30" column="30" />
+        <mark key="^" line="30" column="93" />
       </file>
       <file name="$USER_HOME$/HCM/synth/curve_fitting.py" timestamp="1612704140074">
         <mark key="'" line="49" column="4" />
@@ -273,6 +273,9 @@
         <mark key="^" line="13" column="36" />
         <mark key="." line="13" column="36" />
       </file>
+      <file name="$USER_HOME$/HCM/dataset/line/2013/101_fujita.inkml" timestamp="1613156743505">
+        <mark key="'" line="5" column="0" />
+      </file>
       <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1613087398655">
         <mark key="'" line="221" column="76" />
         <mark key="[" line="221" column="14" />
@@ -290,13 +293,6 @@
       <file name="$USER_HOME$/HCM/dataset/line/2013/2009213-137-48.inkml" timestamp="1613156373394">
         <mark key="'" line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/HCM/training.py" timestamp="1612658363074">
-        <mark key="'" line="90" column="0" />
-        <mark key="[" line="91" column="0" />
-        <mark key="]" line="91" column="0" />
-        <mark key="n" line="52" column="52" />
-        <mark key="." line="91" column="0" />
-      </file>
       <file name="$USER_HOME$/HCM/synth/eval.py" timestamp="1612708347392">
         <mark key="'" line="8" column="21" />
         <mark key="[" line="11" column="0" />
@@ -312,7 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="54" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="0" column="0" filename="$USER_HOME$/HCM/synth/network.py" />
       <jump line="73" column="33" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="55" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
@@ -411,13 +406,14 @@
       <jump line="17" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/2009213-137-48.inkml" />
       <jump line="23" column="28" filename="$USER_HOME$/HCM/preprocessing.py" />
       <jump line="29" column="36" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="30" column="61" filename="$USER_HOME$/HCM/preprocessing.py" />
+      <jump line="30" column="59" filename="$USER_HOME$/HCM/preprocessing.py" />
+      <jump line="5" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/101_fujita.inkml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>truth</text>
+        <text>=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -429,7 +425,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>truth</text>
+        <text>=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzaW5cPg==</text>
@@ -440,7 +436,7 @@
         </keys>
       </register>
       <register name="0" type="4">
-        <text>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+        <text>truth.strip() != '\\sin'</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXNzCg==</text>
