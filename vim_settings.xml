@@ -29,7 +29,6 @@
         <entry encoding="base64">XDw0XD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>.w</entry>
         <entry>cnext</entry>
         <entry>ww</entry>
         <entry>qq</entry>
@@ -48,6 +47,7 @@
         <entry>w#</entry>
         <entry>wq</entry>
         <entry>q</entry>
+        <entry>call OpenTerminal()</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -231,11 +231,6 @@
         <mark key="^" line="15" column="25" />
         <mark key="." line="15" column="24" />
       </file>
-      <file name="$USER_HOME$/HCM/.gitignore" timestamp="1612658978524">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
-      </file>
       <file name="$USER_HOME$/HCM/synth/view/server.py" timestamp="1612708888092">
         <mark key="'" line="8" column="0" />
         <mark key="[" line="8" column="0" />
@@ -254,6 +249,13 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/HCM/notes/learning.md" timestamp="1613237606986">
+        <mark key="'" line="7" column="38" />
+        <mark key="[" line="8" column="27" />
+        <mark key="]" line="7" column="16" />
+        <mark key="." line="7" column="15" />
+        <mark key="^" line="7" column="16" />
       </file>
       <file name="$USER_HOME$/HCM/dataset/line/2013/94_fujita.inkml" timestamp="1613156164873">
         <mark key="'" line="0" column="0" />
@@ -306,8 +308,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="55" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="65" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="20" column="33" filename="$USER_HOME$/HCM/synth/network.py" />
       <jump line="14" column="0" filename="$USER_HOME$/HCM/synth/network.py" />
       <jump line="10" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
@@ -406,12 +406,14 @@
       <jump line="34" column="28" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="51" column="17" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="57" column="49" filename="$USER_HOME$/HCM/synth/training.py" />
+      <jump line="11" column="44" filename="$USER_HOME$/HCM/notes/learning.md" />
+      <jump line="7" column="38" filename="$USER_HOME$/HCM/notes/learning.md" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>l</text>
+        <text encoding="base64">b2Yg</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -423,7 +425,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>l</text>
+        <text>()</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDw0XD4=</text>
@@ -437,7 +439,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIG9wdGltLnBhcmFtX2dyb3Vwc1swXVsnbHInXSA9IDFlLTQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgYWNjdXJhY3kgPiAwLjk5OTk6CiAgICAgICAgICAgICAgICBvcHRpbS5wYXJhbV9ncm91cHNbMF1bJ2xyJ10gPSAxZS01Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -451,28 +453,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIC0gCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIC0gCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZTEgPSB0aW1lLnRpbWUoKQo=</text>
+        <text encoding="base64">ICAgIC0gY29udm9sdXRpb24gb24gbmVpZ2hib3VyaG9vZD8K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZTQgPSB0aW1lLnRpbWUoKQogICAgICAgICAgICBwcmludChmJ2JhdGNoID0ge3RpbWU0IC0gdGltZTF9JykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQxID0gdGltZS50aW1lKCkK</text>
+        <text encoding="base64">ICAgIC0gYXZvaWQgb3Zlci1jb25maWRlbnQgb24gc2ltaWxhciBjbGFzcwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQyID0gdGltZS50aW1lKCkKICAgICAgICAgICAgcHJpbnQoZidvcHRpbSA9IHtzdGFydDIgLSBzdGFydDF9JykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgYWNjdXJhY3kgPiAwLjk5OTk6CiAgICAgICAgICAgICAgICBvcHRpbS5wYXJhbV9ncm91cHNbMF1bJ2xyJ10gPSAxZS01Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc3RhcnQxID0gdGltZS50aW1lKCkKICAgICAgICAgICAgcHJpbnQoZid0aW1lID0ge3N0YXJ0MSAtIHN0YXJ0fScpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGltZTMgPSB0aW1lLnRpbWUoKQogICAgICAgICAgICAjIHByaW50KGYndGltZTMgPSB7dGltZTMgLSB0aW1lMn0nKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
