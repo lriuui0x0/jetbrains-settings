@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzaW5cPg==</entry>
         <entry encoding="base64">XDxpbnB1dF9kYXRhXD4=</entry>
         <entry encoding="base64">XDw0XD4=</entry>
         <entry encoding="base64">XDxoMVw+</entry>
@@ -19,7 +18,6 @@
         <entry encoding="base64">XDxnZXRfcmFuZG9tX3dpdGhfb3JpZ2luYWxcPg==</entry>
         <entry encoding="base64">XDxnZXRfcmFuZG9tX3NhbXBsZV9jdXJ2ZXNcPg==</entry>
         <entry encoding="base64">XDxwYXNzXD4=</entry>
-        <entry encoding="base64">XDxwb2ludFw+</entry>
         <entry>nan</entry>
         <entry encoding="base64">XDxhbGxfc2FtcGxlc1w+</entry>
         <entry encoding="base64">XDwxMDBcPg==</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDx3aWR0aHNcPg==</entry>
         <entry encoding="base64">XDwyMFw+</entry>
         <entry encoding="base64">XDw1MDBcPg==</entry>
+        <entry encoding="base64">XDxwb2ludFw+</entry>
+        <entry encoding="base64">XDxjb3VudFw+</entry>
       </history-search>
       <history-cmd>
         <entry>ww</entry>
@@ -46,8 +46,8 @@
         <entry>ws</entry>
         <entry>@w</entry>
         <entry>Lw</entry>
-        <entry>we</entry>
         <entry>q</entry>
+        <entry>we</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -278,11 +278,13 @@
         <mark key="." line="12" column="0" />
         <mark key="^" line="12" column="20" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1613689736176">
-        <mark key="'" line="45" column="0" />
-        <mark key="[" line="285" column="54" />
-        <mark key="]" line="287" column="0" />
-        <mark key="." line="287" column="0" />
+      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1613691971164">
+        <mark key="'" line="45" column="12" />
+        <mark key="[" line="41" column="21" />
+        <mark key="m" line="311" column="0" />
+        <mark key="]" line="42" column="15" />
+        <mark key="." line="42" column="14" />
+        <mark key="^" line="42" column="15" />
       </file>
       <file name="$USER_HOME$/site/404.md" timestamp="1613433498861">
         <mark key="[" line="1" column="0" />
@@ -313,17 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="31" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="55" column="28" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="102" column="25" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="105" column="0" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="116" column="0" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="28" column="33" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/94_fujita.inkml" />
-      <jump line="17" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/2009213-137-48.inkml" />
-      <jump line="23" column="28" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="29" column="36" filename="$USER_HOME$/HCM/preprocessing.py" />
-      <jump line="30" column="59" filename="$USER_HOME$/HCM/preprocessing.py" />
       <jump line="5" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/101_fujita.inkml" />
       <jump line="23" column="55" filename="$USER_HOME$/HCM/synth/training.py" />
       <jump line="30" column="37" filename="$USER_HOME$/HCM/synth/training.py" />
@@ -413,12 +404,23 @@
       <jump line="272" column="52" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="264" column="10" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="45" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="289" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="51" column="91" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="44" column="82" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="48" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="300" column="34" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="295" column="47" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="305" column="17" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="285" column="19" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="290" column="34" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="310" column="95" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="40" column="12" filename="$USER_HOME$/HCM/synth/generate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>pass</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -430,10 +432,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>random</text>
+        <text>pass</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDw1MDBcPg==</text>
+        <text encoding="base64">XDxjb3VudFw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -441,10 +443,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByaW50KHNhbXBsZV9jdXJ2ZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcG9zX2NvdW50ICs9IDEK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -457,29 +459,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50KFtjaGFyYWN0ZXJzW2NoYXJdIGZvciBjaGFyLCBfIGluIGFsbF9jaGFyc10pCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">cHQ6CiAgICAgICAg</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaW50KHNhbXBsZV9jdXJ2ZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgcGlkID09IDA6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaW50KHNhbXBsZV9jdXJ2ZXMpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50KHNhbXBsZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">cHJpbnQoYWxsX3NhbXBsZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzYW1wbGVfY3VydmVzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzYW1wbGVfY3VydmVzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChzYW1wbGVfY3VydmVzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZm9yIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -488,9 +490,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDw1MDBcPg==</last-search>
+      <last-search encoding="base64">XDxjb3VudFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDw1MDBcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxjb3VudFw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
