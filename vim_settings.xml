@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxpbnB1dF9kYXRhXD4=</entry>
-        <entry encoding="base64">XDw0XD4=</entry>
-        <entry encoding="base64">XDxoMVw+</entry>
         <entry encoding="base64">XDxoMlw+</entry>
         <entry encoding="base64">XDxwXD4=</entry>
         <entry encoding="base64">XDxOZXRcPg==</entry>
@@ -27,6 +24,9 @@
         <entry encoding="base64">XDw1MDBcPg==</entry>
         <entry encoding="base64">XDxwb2ludFw+</entry>
         <entry encoding="base64">XDxjb3VudFw+</entry>
+        <entry encoding="base64">XDxjZW50ZXJfeFw+</entry>
+        <entry encoding="base64">XDxjZW50ZXJfeVw+</entry>
+        <entry encoding="base64">XDxub3JtYWxpemVcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>ww</entry>
@@ -278,13 +278,13 @@
         <mark key="." line="12" column="0" />
         <mark key="^" line="12" column="20" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1613691971164">
-        <mark key="'" line="45" column="12" />
-        <mark key="[" line="41" column="21" />
-        <mark key="m" line="311" column="0" />
-        <mark key="]" line="42" column="15" />
-        <mark key="." line="42" column="14" />
-        <mark key="^" line="42" column="15" />
+      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1613693500910">
+        <mark key="'" line="185" column="4" />
+        <mark key="[" line="50" column="0" />
+        <mark key="m" line="319" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="." line="50" column="0" />
+        <mark key="^" line="16" column="28" />
       </file>
       <file name="$USER_HOME$/site/404.md" timestamp="1613433498861">
         <mark key="[" line="1" column="0" />
@@ -315,18 +315,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="5" column="0" filename="$USER_HOME$/HCM/dataset/line/2013/101_fujita.inkml" />
-      <jump line="23" column="55" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="30" column="37" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="34" column="28" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="57" column="49" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="7" column="38" filename="$USER_HOME$/HCM/notes/learning.md" />
-      <jump line="11" column="13" filename="$USER_HOME$/HCM/notes/learning.md" />
-      <jump line="5" column="24" filename="$USER_HOME$/site/_layouts/article.html" />
-      <jump line="0" column="14" filename="$USER_HOME$/site/_layouts/article.html" />
-      <jump line="12" column="27" filename="$USER_HOME$/site/_layouts/index.html" />
-      <jump line="13" column="33" filename="$USER_HOME$/site/_layouts/index.html" />
-      <jump line="9" column="25" filename="$USER_HOME$/site/_layouts/index.html" />
       <jump line="11" column="35" filename="$USER_HOME$/site/_layouts/index.html" />
       <jump line="17" column="2" filename="$USER_HOME$/site/assets/splendor.css" />
       <jump line="0" column="0" filename="$USER_HOME$/site/assets/splendor.css" />
@@ -415,12 +403,24 @@
       <jump line="290" column="34" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="310" column="95" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="40" column="12" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="49" column="69" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="43" column="48" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="34" column="4" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="73" column="11" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="167" column="11" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="201" column="11" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="241" column="16" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="307" column="38" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="35" column="4" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="271" column="60" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="308" column="46" filename="$USER_HOME$/HCM/synth/generate.py" />
+      <jump line="185" column="4" filename="$USER_HOME$/HCM/synth/generate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>pass</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBpZiB0eXBlKHNhbXBsZSkgPT0gbGlzdCBhbmQgbGVuKHNhbXBsZSkgYW5kIG5vdCBoYXNhdHRyKHR5cGUoc2FtcGxlWzBdKSwgJ19faXRlcl9fJyk6Cg==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -432,10 +432,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>pass</text>
+        <text>type(sample) == list and len(sample) and not hasattr(type(sample[0]), '__iter__'):</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjb3VudFw+</text>
+        <text encoding="base64">XDxub3JtYWxpemVcPg==</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -443,10 +443,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcG9zX2NvdW50ICs9IDEK</text>
+        <text encoding="base64">ICAgIGlmIGlzX3BvaW50KHNhbXBsZSk6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBpZiB0eXBlKHNhbXBsZSkgPT0gbGlzdCBhbmQgbGVuKHNhbXBsZSkgYW5kIG5vdCBoYXNhdHRyKHR5cGUoc2FtcGxlWzBdKSwgJ19faXRlcl9fJyk6Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -459,29 +459,29 @@
           <key char="106" code="0" mods="0" />
         </keys>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">cHQ6CiAgICAgICAg</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBpZiB0eXBlKHNhbXBsZSkgPT0gbGlzdCBhbmQgbm90IGhhc2F0dHIodHlwZShzYW1wbGVbMF0pLCAnX19pdGVyX18nKToK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgcGlkID09IDA6Cg==</text>
+        <text encoding="base64">ICAgIGRkCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpZiBsZW4oc2VsZWN0ZWRfY3VydmVzKSA8IGw6Cg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIAo=</text>
+        <text encoding="base64">ICAgIHN0cmluZyA9IHN0cihbY2hhcmFjdGVyc1tjaGFyXSBmb3IgKGNoYXIsIF8pIGluIGFsbF9jaGFyc10pCiAgICBwcmludChzdHJpbmcpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZm9yIAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -490,9 +490,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjb3VudFw+</last-search>
+      <last-search encoding="base64">XDxub3JtYWxpemVcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjb3VudFw+</last-pattern>
+      <last-pattern encoding="base64">XDxub3JtYWxpemVcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
