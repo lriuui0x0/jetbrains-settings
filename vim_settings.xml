@@ -7,11 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdGFydFw+</entry>
-        <entry encoding="base64">XDx0cmFpbmluZ19kYXRhXD4=</entry>
-        <entry encoding="base64">XDxzdHJva2Vfc2l6ZVw+</entry>
-        <entry encoding="base64">XDxpbnB1dF9vdXRwdXRcPg==</entry>
-        <entry encoding="base64">XDxzdHJva2VzXD4=</entry>
         <entry encoding="base64">XDwxNjAwMDBcPg==</entry>
         <entry encoding="base64">XDxwcm9iXD4=</entry>
         <entry encoding="base64">XDxUXD4=</entry>
@@ -27,9 +22,13 @@
         <entry>longer</entry>
         <entry encoding="base64">XDxiYXNlXD4=</entry>
         <entry encoding="base64">XDxibG9nXD4=</entry>
+        <entry encoding="base64">XDxzbmFwc2hvdFw+</entry>
+        <entry encoding="base64">XDxoaWdoZXJcPg==</entry>
+        <entry encoding="base64">XDxmXzFcPg==</entry>
+        <entry encoding="base64">XDxmXzJcPg==</entry>
+        <entry>output</entry>
       </history-search>
       <history-cmd>
-        <entry>qq</entry>
         <entry>w\</entry>
         <entry encoding="base64">JzwsJz53</entry>
         <entry encoding="base64">JzwsJz4=</entry>
@@ -39,7 +38,6 @@
         <entry>call Build()</entry>
         <entry>W</entry>
         <entry>w#</entry>
-        <entry>call OpenTerminal()</entry>
         <entry>wq</entry>
         <entry>ws</entry>
         <entry>@w</entry>
@@ -47,6 +45,8 @@
         <entry>ew</entry>
         <entry>Lw</entry>
         <entry>q</entry>
+        <entry>s</entry>
+        <entry>call OpenTerminal()</entry>
         <entry>we</entry>
         <entry>w</entry>
       </history-cmd>
@@ -196,7 +196,14 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1613860047005">
+      <file name="$USER_HOME$/site/computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" timestamp="1614195592242">
+        <mark key="'" line="9" column="0" />
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="86" column="11" />
+        <mark key="^" line="6" column="36" />
+        <mark key="." line="6" column="33" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1614292670715">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="2" />
         <mark key="^" line="0" column="2" />
@@ -208,6 +215,13 @@
         <mark key="]" line="23" column="14" />
         <mark key="." line="23" column="13" />
         <mark key="^" line="23" column="14" />
+      </file>
+      <file name="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" timestamp="1614297885756">
+        <mark key="'" line="53" column="111" />
+        <mark key="[" line="71" column="0" />
+        <mark key="]" line="71" column="14" />
+        <mark key="." line="71" column="13" />
+        <mark key="^" line="71" column="14" />
       </file>
       <file name="$USER_HOME$/site/_config.yml" timestamp="1614107263732">
         <mark key="'" line="2" column="0" />
@@ -269,13 +283,6 @@
         <mark key="]" line="39" column="0" />
         <mark key="." line="39" column="0" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/view/main.js" timestamp="1613683214081">
-        <mark key="'" line="85" column="30" />
-        <mark key="[" line="90" column="22" />
-        <mark key="]" line="90" column="22" />
-        <mark key="." line="90" column="24" />
-        <mark key="^" line="85" column="33" />
-      </file>
       <file name="$USER_HOME$/site/_mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" timestamp="1614120067464">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="9" column="0" />
@@ -291,20 +298,14 @@
         <mark key="^" line="316" column="45" />
         <mark key="." line="316" column="0" />
       </file>
-      <file name="$USER_HOME$/site/_layouts/page.html" timestamp="1613921000932">
-        <mark key="[" line="10" column="68" />
-        <mark key="]" line="10" column="81" />
-        <mark key="^" line="10" column="81" />
-        <mark key="." line="10" column="80" />
+      <file name="$USER_HOME$/site/_layouts/page.html" timestamp="1614194867762">
+        <mark key="[" line="10" column="83" />
+        <mark key="]" line="10" column="84" />
+        <mark key="^" line="10" column="84" />
+        <mark key="." line="10" column="83" />
       </file>
       <file name="$USER_HOME$/site/publish.sh" timestamp="1613922834636">
         <mark key="^" line="2" column="22" />
-      </file>
-      <file name="$USER_HOME$/site/_computing/0001.md" timestamp="1613778537333">
-        <mark key="[" line="2" column="3" />
-        <mark key="]" line="4" column="0" />
-        <mark key="^" line="4" column="0" />
-        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/site/_layouts/index.html" timestamp="1613924129986">
         <mark key="'" line="18" column="16" />
@@ -322,42 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="33" filename="$USER_HOME$/HCM/synth/network.py" />
-      <jump line="7" column="0" filename="$USER_HOME$/HCM/synth/generate.py" />
-      <jump line="9" column="85" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="11" column="19" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="44" column="63" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="45" column="97" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="47" column="70" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="49" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="50" column="62" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="20" column="24" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="4" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="5" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="8" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="17" column="52" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="43" column="51" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="67" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="52" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="40" column="85" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="13" column="59" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="42" column="114" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="46" column="59" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="6" column="8" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="18" column="21" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="14" column="89" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="15" column="91" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="16" column="58" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="56" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="19" column="0" filename="$USER_HOME$/HCM/synth/training.py" />
-      <jump line="11" column="0" filename="$USER_HOME$/HCM/synth/view/server.py" />
-      <jump line="17" column="12" filename="$USER_HOME$/HCM/synth/predict/server.py" />
-      <jump line="19" column="98" filename="$USER_HOME$/HCM/synth/predict/server.py" />
-      <jump line="24" column="36" filename="$USER_HOME$/HCM/synth/predict/server.py" />
-      <jump line="44" column="119" filename="$USER_HOME$/HCM/synth/predict/server.py" />
-      <jump line="31" column="8" filename="$USER_HOME$/HCM/synth/predict/server.py" />
-      <jump line="32" column="11" filename="$USER_HOME$/HCM/synth/predict/server.py" />
       <jump line="42" column="41" filename="$USER_HOME$/HCM/synth/predict/server.py" />
       <jump line="25" column="67" filename="$USER_HOME$/HCM/synth/predict/server.py" />
       <jump line="27" column="63" filename="$USER_HOME$/HCM/synth/predict/server.py" />
@@ -422,12 +387,48 @@
       <jump line="3" column="0" filename="$USER_HOME$/site/_mathematics/2021-02-23-dasf.md" />
       <jump line="13" column="596" filename="$USER_HOME$/site/_mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="0" column="0" filename="$USER_HOME$/site/_mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="4" column="0" filename="$USER_HOME$/site/computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
+      <jump line="24" column="1" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="9" column="0" filename="$USER_HOME$/site/computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
+      <jump line="0" column="2" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="18" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="19" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="21" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="23" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="27" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="29" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="25" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="58" column="60" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="59" column="77" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="60" column="94" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="51" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="67" column="322" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="10" column="1" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="15" column="115" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="69" column="107" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="70" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="75" column="58" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="73" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="71" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="72" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="76" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="1" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="55" column="41" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="56" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="42" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="7" column="1" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="9" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="62" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="65" column="514" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="11" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="63" column="41" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="53" column="111" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">LSBJbXBsaWNpdCBkaWZmZXJlbnRpYXRpb24K</text>
+        <text encoding="base64">VG8gc3VtbWFyaXplLCBkaWZmZXJlbnRpYXRpb24gYWx3YXlzIG1lYW5zIGZpbmRpbmcgdGhlIGxpbmVhciBtYXAgd2hpY2ggd2kK</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -439,21 +440,21 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">d2FudCA=</text>
+        <text>we basically override a call.</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxibG9nXD4=</text>
+        <text>output</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">LSBQYXJ0aWFsIGRlcml2YXRpdmUK</text>
+      <register name="0" type="4">
+        <text>\frac{d}{dt}(\vec{a} \cdot \vec{b})</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">LSBJbXBsaWNpdCBkaWZmZXJlbnRpYXRpb24K</text>
+        <text encoding="base64">VG8gc3VtbWFyaXplLCBkaWZmZXJlbnRpYXRpb24gYWx3YXlzIG1lYW5zIGZpbmRpbmcgdGhlIGxpbmVhciBtYXAgd2hpY2ggd2kK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -467,28 +468,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">LSBJbXBsaWNpdCBkaWZmZXJlbnRpYXRpb24K</text>
+        <text encoding="base64">VE9ETzogSW50ZXJwcmV0IGRpcmVjdGlvbmFsIGRlcml2YXRpdmUKCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">SW4gdGhlIHNpbWlsYXJ5IAoK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">LSBNdWx0aS12YXJpYWJsZSBpbnRlZ3JhdGlvbgo=</text>
+        <text encoding="base64">LSBJbXBsaWNpdCBkaWZmZXJlbnRpYXRpb24K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">LSBJbXByb3BlciBpbnRlZ3JhbAo=</text>
+        <text encoding="base64">T3RoZXIgd2VsbCBrbm93biBjb25jZXB0cyBpbiAKCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">LSBNdWx0aS12YXJpYWJsZSBpbnRlZ3JhdGlvbgo=</text>
+        <text encoding="base64">Tm90ZSB0aGF0IHRoZSBzcGFjZSBvZiBsaW5lYXIgbWFwcyBpdHNlbGYgaXMgYSB2YWxpZCB0YXJnZXQgZm9yIGZ1bmN0aW9uLCBhbmQgd2UgY2FuIHNlbnNpYmx5IGRlZmluZSBtZXRyaWNzIG9uIGl0IGFzIHdlbGwgKHdpbGwgZXhwbGFpbiB0aGlzIGxhdGVyKS4gVGhpcyBtZWFucyB3ZSBjYW4gY2FsY3VsYXRlIHRoZSBkZXJpdmF0aXZlIG9mIHRoZSBkZXJpdmF0aXZlLCBrbm93biBhcyBoaWdoZXItb3JkZXIgZGVyaXZhdGl2ZS4gVGhlIGZpcnN0IGZldyBvcmRlcnMgb2YgZGVyaXZhdGl2ZXMgb2YgZnVuY3Rpb24gJCRmOiBcbWF0aGJie1J9Xm4gXHRvIFxtYXRoYmJ7Un1ebSQkIGFyZToKCi0gMHRoIG9yZGVyOiAkJFxtYXRoYmJ7Un1ebiBcdG8gXG1hdGhiYntSfV5tJCQKLSAxdGggb3JkZXI6ICQkXG1hdGhiYntSfV5uIFx0byBcbWF0aGJie1J9Xm4gXHRvIFxtYXRoYmJ7Un1ebSQkCi0gMnRoIG9yZGVyOiAkJFxtYXRoYmJ7Un1ebiBcdG8gXG1hdGhiYntSfV5uIFx0byBcbWF0aGJie1J9Xm4gXHRvIFxtYXRoYmJ7Un1ebSQkCi0gM3RoIG9yZGVyOiAkJFxtYXRoYmJ7Un1ebiBcdG8gXG1hdGhiYntSfV5uIFx0byBcbWF0aGJie1J9Xm4gXHRvIFxtYXRoYmJ7Un1ebiBcdG8gXG1hdGhiYntSfV5tJCQKLSAuLi4KCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">LSBNdWx0aS12YXJpYWJsZSBjYWxjdWx1cwo=</text>
+        <text encoding="base64">VE9ETzogSW50ZXJwcmV0IGRpcmVjdGlvbmFsIGRlcml2YXRpdmUKCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">LSBJbXByb3BlciBpbnRlZ3JhbAo=</text>
+        <text encoding="base64">TWF0cml4IGNhbGN1bHVzIGFyZSBub3RoaW5nIGJ1dCBydW5uaW5nIGRpZmZlcmVudGlhdGlvbiBvbiBmdW5jdGlvbnMgd2hvc2UgaW5kZXBlbmRlbnQgb3IgZGVwZW5kZW50IHZhcmlhYmxlcyBjYW4gYmUgbWF0cml4LiBTaW5jZSBub3JtcyAoa25vd24gYXMgKm9wZXJhdG9yIG5vcm0qKSBhbmQgbWV0cmljcyBjYW4gYWxzbyBiZSBkZWZpbmVkIG9uIG1hdHJpY2VzLCB0aGVyZSdzIG5vdGhpbmcgY29uY2VwdHVhbGx5IGRpZmZlcmVudCBmcm9tIG1hdHJpeCBkaWZmZXJlbnRpYXRpb24gYW5kIG9yZGluYXJ5IGRpZmZlcmVudGlhdGlvbi4KCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">LSBJbXByb3BlciBpbnRlZ3JhbAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -497,9 +498,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxibG9nXD4=</last-search>
+      <last-search>output</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxibG9nXD4=</last-pattern>
+      <last-pattern>output</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
