@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDwxNjAwMDBcPg==</entry>
-        <entry encoding="base64">XDxwcm9iXD4=</entry>
-        <entry encoding="base64">XDxUXD4=</entry>
         <entry encoding="base64">XDxWXD4=</entry>
         <entry>ID</entry>
         <entry>correctne</entry>
@@ -27,6 +24,9 @@
         <entry encoding="base64">XDxmXzFcPg==</entry>
         <entry encoding="base64">XDxmXzJcPg==</entry>
         <entry>output</entry>
+        <entry>section</entry>
+        <entry>taking</entry>
+        <entry>take</entry>
       </history-search>
       <history-cmd>
         <entry>w\</entry>
@@ -216,12 +216,12 @@
         <mark key="." line="23" column="13" />
         <mark key="^" line="23" column="14" />
       </file>
-      <file name="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" timestamp="1614386498115">
-        <mark key="'" line="10" column="1" />
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="84" column="0" />
-        <mark key="." line="84" column="0" />
-        <mark key="^" line="82" column="67" />
+      <file name="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" timestamp="1614387616287">
+        <mark key="'" line="87" column="0" />
+        <mark key="[" line="86" column="126" />
+        <mark key="]" line="86" column="140" />
+        <mark key="." line="86" column="139" />
+        <mark key="^" line="86" column="140" />
       </file>
       <file name="$USER_HOME$/site/_config.yml" timestamp="1614107263732">
         <mark key="'" line="2" column="0" />
@@ -323,10 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="0" filename="$USER_HOME$/site/_computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
-      <jump line="45" column="0" filename="$USER_HOME$/site/_computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
-      <jump line="43" column="0" filename="$USER_HOME$/site/_computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
-      <jump line="41" column="0" filename="$USER_HOME$/site/_computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
       <jump line="39" column="0" filename="$USER_HOME$/site/_computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
       <jump line="37" column="0" filename="$USER_HOME$/site/_computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
       <jump line="33" column="0" filename="$USER_HOME$/site/_computing/2021-02-19-understanding-the-correctness-of-the-raft-algorithm.md" />
@@ -403,7 +399,6 @@
       <jump line="76" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="1" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="55" column="41" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
-      <jump line="56" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="42" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="7" column="1" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="9" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
@@ -423,12 +418,17 @@
       <jump line="2" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="77" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
       <jump line="10" column="1" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="56" column="290" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="68" column="309" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="79" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="80" column="279" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
+      <jump line="87" column="0" filename="$USER_HOME$/site/mathematics/2021-02-23-review-of-calculus-through-real-analysis.md" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">aW5maW5pdGVzdGltYWwg</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -440,10 +440,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">dGhhdCA=</text>
+        <text encoding="base64">aW5maW5pdGVzdGltYWwg</text>
       </register>
       <register name="/" type="4">
-        <text>output</text>
+        <text>take</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -451,7 +451,7 @@
         </keys>
       </register>
       <register name="0" type="4">
-        <text>\frac{d}{dt}(\vec{a} \cdot \vec{b})</text>
+        <text encoding="base64">aW5maW5pdGVzaW1hbCA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -474,22 +474,22 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Tm90ZSB0aGF0IHdlIG5lZWQgYSBzY2FsYXIgdmFsdWVkIGZ1bmN0aW9uIHRvIGludGVncmF0ZSBvdmVyLCB3aGljaCBpcyBkaWZmZXJlbnQgZnJvbSBkaWZmZXJlbnRpYXRpb24uIFRoZSByZWFzb24gaXMgd2Ugd2lsbCBuZWVkIHNvbWUgcXVhbnRhdGl2ZSAKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZHJhZnQ6IHRydWUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Tm90ZSB0aGF0IHdlIG5lZWQgYSBzY2FsYXIgdmFsdWVkIGZ1bmN0aW9uIHRvIGludGVncmF0ZSBvdmVyLCB3aGljaCBpcyBkaWZmZXJlbnQgZnJvbSBkaWZmZXJlbnRpYXRpb24uIFRoZSByZWFzb24gaXMgd2Ugd2lsbCBuZWVkIHNvbWUgcXVhbnRhdGl2ZSAKCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZHJhZnQ6IHRydWUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">VGhlcmUncmUgdGhyZWUgaW5ncmVkaWVudHMgb2YgdGhlIG5vdGlvbiBvZiBpbnRlZ3JhdGlvbi4gRmlyc3QsIGJyZWFraW5nIHRoZSBkb21haW4gdG8gaW50ZWdyYXRlIG92ZXIgaW50byBzbWFsbCBzZWN0aW9ucy4gU2Vjb25kLCBnZXQgdGhlIGZ1bmN0aW9uIHZhbHVlIGZvciB0aGlzIHNlY3Rpb24uIFRoaXJkLCBzdW0gdXAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">IyMgUmVhbCBudW1iZXIgc3lzdGVtCgpBbGwgY29uY2VwdHMgZnJvbSByZWFsIGFuYWx5c2lzIG11c3Qgc3RhcnQgZnJvbSByZWFsIG51bWJlciBzeXN0ZW0sIGRlbm90ZWQgYXMgJCRcbWF0aGJie1J9JCQuIEl0IGlzIHdlbGwta25vd24gdGhhdCAkJFxtYXRoYmJ7Un0kJCBpcyBhbiBleHRlbnNpb24gb2YgcmF0aW9uYWwgbnVtYmVyIHN5c3RlbSAkJFxtYXRoYmJ7UX0kJCB0byBpbmNsdWRlIHNvbWUgJ2dhcHMnIGxpa2UgJCRcc3FydHsyfSQkLiBUaGUgYXhpb20gdGhhdCBtYWtlcyAkJFxtYXRoYmJ7Un0kJCB0byBiZSBhIGNvbnRpbnVvdXMgbGluZSB3aXRob3V0IGFueSBnYXAgaXMgdGhlIGZvbGxvd2luZywga25vd24gYXMgdGhlIGNvbXBsZXRlbmVzcyBwcm9wZXJ0eToKCiQkXGZvcmFsbCBTIFxzdWJzZXRlcSBcbWF0aGJie1J9JCQsIGlmICQkUyQkIGlzIG5vbi1lbXB0eSBhbmQgaGFzIGFuIHVwcGVyIGJvdW5kLCB0aGVuIFMgaGFzIGEgKmxlYXN0IHVwcGVyIGJvdW5kKiBpbiAkJFxtYXRoYmJ7Un0kJCwgYWxzbyBjYWxsZWQgKnN1cHJlbXVtKiwgZGVub3RlZCBhcyAkJFxzdXAgUyQkLiBTaW1pbGFybHkgdGhlcmUncyAqZ3JlYXRlc3QgbG93ZXIgYm91bmQqIChvciAqaW5maW11bSopIGlmIHRoZSBzZXQgJCRTJCQgaXMgYm91bmRlZCBiZWxvdywgZGVub3RlZCBhcyAkJFxpbmYgUyQkLgoKSGVyZSB0aGUgbGVhc3QgdXBwZXIgYm91bmQgbWVhbnMsIGl0J3MgbGVzcyBvciBlcXVhbCB0byBldmVyeSB1cHBlciBib3VuZC4gTm93IGNvbnNpZGVyICQkUyA9IFx7IHggXGluIFxtYXRoYmJ7UX0gXG1pZCB4XjIgPCAyIFx9JCQsIHRoZSBjb21wbGV0ZW5lc3MgcHJvcGVydHkgZ3VhcmFudGVlcyB0aGF0IHRoZXJlIGV4aXN0cyBhIG51bWJlciAkJFxzcXJ0ezJ9JCQgc3VjaCB0aGF0ICQkKFxzcXJ0ezJ9KV4yID0gMiQkLgoKTm90ZSB0aGUgbm9uLWNvbnN0cnVjdGl2ZSBmbGF2b3VyIG9mIHRoaXMgYXhpb20uIEl0J3Mgbm90IGxpa2UgJCQzIFxvdmVyIDUkJCBpcyBhcHBhcmVudGx5IGJ1aWx0IGZyb20gJCQzJCQgYW5kICQkNSQkLCB0aGlzIGF4aW9tIHNpbXBseSBhc3NlcnRzIGEgbnVtYmVyIGZpbGxpbmcgdGhlIGdhcCBleGlzdHMgdGhhdCBzZWVtIHRvIGNvbWUgZnJvbSBub3doZXJlLgoKQ2FsY3VsdXMgYnVpbGRzIG9uIHRvcCBvZiB0aGlzIG5pY2Ugbm8tZ2FwIHN0cnVjdHVyZSB0aGF0IHJlYWwgbnVtYmVycyBwcm92aWRlLCBhbmQgSSdtIHlldCB0byB1bmRlcnN0YW5kIHRoZSByZWFzb24gZm9yIHRoZSBuZWNlc3NpdHkgb2YgdGhpcy4gSGVyZSdzIFthbiBpbnRlcmVzdGluZyBkaXNjdXNzaW9uXShodHRwczovL3d3dy5kcG1tcy5jYW0uYWMudWsvfnd0ZzEwL3JlYWxzLmh0bWwpIG9uIHdoeSByZWFsIG51bWJlcnMgYXJlIG5lZWRlZC4KCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -498,9 +498,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>output</last-search>
+      <last-search>take</last-search>
       <last-offset />
-      <last-pattern>output</last-pattern>
+      <last-pattern>take</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
