@@ -15,6 +15,19 @@
       </DOCUMENTATION>
       <SOURCES />
     </library>
+    <library name="katex" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_katex@0.12.0_dist_katex.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_katex@0.12.0_dist_katex.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_katex@0.12.0_dist_katex.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_katex@0.12.0_dist_katex.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="Python 3.6 interpreter library">
       <CLASSES>
         <root url="file:///usr/lib/python3.6" />
