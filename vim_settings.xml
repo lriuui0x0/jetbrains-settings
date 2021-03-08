@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>20 19</entry>
         <entry>9 20</entry>
         <entry encoding="base64">XDw5XD4=</entry>
         <entry encoding="base64">XDwyMFw+</entry>
@@ -27,6 +26,7 @@
         <entry>find_all</entry>
         <entry encoding="base64">XDxzcGxpdHRlZFw+</entry>
         <entry encoding="base64">XDx2ZXJ0aWNlc1w+</entry>
+        <entry encoding="base64">XDxlZGdlX29mZnNldFw+</entry>
       </history-search>
       <history-cmd>
         <entry>:w</entry>
@@ -44,10 +44,10 @@
         <entry>Lw</entry>
         <entry>Lq</entry>
         <entry>ew</entry>
-        <entry>we</entry>
-        <entry>wq</entry>
         <entry>w3</entry>
         <entry>q</entry>
+        <entry>wq</entry>
+        <entry>we</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -285,12 +285,12 @@
         <mark key="." line="63" column="23" />
         <mark key="^" line="63" column="24" />
       </file>
-      <file name="$USER_HOME$/CSES/lib.py" timestamp="1615233348755">
-        <mark key="'" line="26" column="30" />
-        <mark key="[" line="27" column="16" />
-        <mark key="]" line="27" column="18" />
-        <mark key="." line="27" column="17" />
-        <mark key="^" line="27" column="18" />
+      <file name="$USER_HOME$/CSES/lib.py" timestamp="1615235049074">
+        <mark key="'" line="27" column="67" />
+        <mark key="[" line="32" column="12" />
+        <mark key="]" line="32" column="12" />
+        <mark key="." line="32" column="11" />
+        <mark key="^" line="32" column="12" />
       </file>
       <file name="$USER_HOME$/CSES/lib.cpp" timestamp="1615163824919">
         <mark key="'" line="1155" column="0" />
@@ -319,7 +319,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1195" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="35" column="8" filename="$USER_HOME$/CSES/Graph-Algorithms/High-Score.cpp" />
       <jump line="1194" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="55" column="8" filename="$USER_HOME$/CSES/Graph-Algorithms/Cycle-Finding.cpp" />
@@ -417,14 +416,15 @@
       <jump line="19" column="0" filename="$USER_HOME$/CSES/lib.py" />
       <jump line="23" column="0" filename="$USER_HOME$/CSES/lib.py" />
       <jump line="21" column="19" filename="$USER_HOME$/CSES/lib.py" />
-      <jump line="22" column="47" filename="$USER_HOME$/CSES/lib.py" />
       <jump line="26" column="30" filename="$USER_HOME$/CSES/lib.py" />
+      <jump line="22" column="9" filename="$USER_HOME$/CSES/lib.py" />
+      <jump line="27" column="67" filename="$USER_HOME$/CSES/lib.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>)</text>
+        <text>[]</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -436,10 +436,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>[]</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx2ZXJ0aWNlc1w+</text>
+        <text encoding="base64">XDxlZGdlX29mZnNldFw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -450,7 +450,7 @@
         <text encoding="base64">ICAgICAgICAgICAgd3JpdGVfZm9ybWF0KCIlbGQgIiwgcGF0aFtpXSArIDEpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -467,16 +467,16 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGVkZ2VzID0gW10K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBhZGpfaGVhZFt1XSA9IGUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGVkZ2VzLmFwcGVuZAo=</text>
+        <text encoding="base64">ICAgICAgICBhZGpfaGVhZFtdCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGxpc3QgCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -485,7 +485,7 @@
         <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGVkZ2VzID0gW10K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -494,9 +494,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx2ZXJ0aWNlc1w+</last-search>
+      <last-search encoding="base64">XDxlZGdlX29mZnNldFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx2ZXJ0aWNlc1w+</last-pattern>
+      <last-pattern encoding="base64">XDxlZGdlX29mZnNldFw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
