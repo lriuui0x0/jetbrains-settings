@@ -7,12 +7,9 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxmaW5kXD4=</entry>
-        <entry encoding="base64">XDxuZXdfbWVyZ2VfZmluZFw+</entry>
         <entry encoding="base64">XDxtZXJnZVw+</entry>
         <entry encoding="base64">XDxlXD4=</entry>
         <entry encoding="base64">XDxmaXJzdFw+</entry>
-        <entry encoding="base64">XDxpXD4=</entry>
         <entry encoding="base64">XDxzdGFja19pbmRleFw+</entry>
         <entry>on_stack</entry>
         <entry encoding="base64">IA==</entry>
@@ -27,9 +24,11 @@
         <entry>typeset</entry>
         <entry encoding="base64">XDx3aWR0aFw+</entry>
         <entry encoding="base64">XDxoZWlnaHRcPg==</entry>
+        <entry encoding="base64">XDxpXD4=</entry>
+        <entry encoding="base64">XDxzY2NfY291bnRcPg==</entry>
+        <entry encoding="base64">XDxvcmRlclw+</entry>
       </history-search>
       <history-cmd>
-        <entry>qw</entry>
         <entry>call Build()</entry>
         <entry>ws</entry>
         <entry>@w</entry>
@@ -48,6 +47,7 @@
         <entry>we</entry>
         <entry>q</entry>
         <entry>Lw</entry>
+        <entry>wk</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -202,9 +202,9 @@
         <mark key="^" line="0" column="2" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/CSES/data.txt" timestamp="1615838054611">
+      <file name="$USER_HOME$/CSES/data.txt" timestamp="1615839489100">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="5" column="3" />
+        <mark key="]" line="2" column="3" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/CSES/Graph-Algorithms/Road-Construction.cpp" timestamp="1615662636599">
@@ -256,12 +256,12 @@
         <mark key="]" line="11136" column="79" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" timestamp="1615838232971">
-        <mark key="'" line="38" column="20" />
-        <mark key="[" line="38" column="17" />
-        <mark key="]" line="38" column="30" />
-        <mark key="^" line="38" column="30" />
-        <mark key="." line="38" column="29" />
+      <file name="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" timestamp="1615839843605">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="31" column="44" />
+        <mark key="]" line="31" column="45" />
+        <mark key="." line="31" column="44" />
+        <mark key="^" line="31" column="45" />
       </file>
       <file name="$USER_HOME$/CSES/Graph-Algorithms/Planets-and-Kingdoms.cpp" timestamp="1615683594312">
         <mark key="'" line="36" column="0" />
@@ -295,6 +295,12 @@
         <mark key="." line="15" column="20" />
         <mark key="^" line="15" column="21" />
       </file>
+      <file name="$USER_HOME$/CSES/lib.cpp" timestamp="1615839335103">
+        <mark key="'" line="1495" column="8" />
+        <mark key="[" line="1542" column="0" />
+        <mark key="]" line="1542" column="0" />
+        <mark key="." line="1542" column="0" />
+      </file>
       <file name="$USER_HOME$/CSES/Graph-Algorithms/Road-Reparation.cpp" timestamp="1615636562504">
         <mark key="'" line="7" column="0" />
         <mark key="[" line="4" column="0" />
@@ -311,22 +317,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="1486" column="95" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1487" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1498" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1473" column="9" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1517" column="37" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1485" column="46" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1503" column="8" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1500" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1527" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1522" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="5" column="3" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="6" column="3" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="8" column="3" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="9" column="3" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="10" column="3" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="11" column="3" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="12" column="4" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="13" column="3" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="14" column="3" filename="$USER_HOME$/CSES/data.txt" />
@@ -409,14 +399,30 @@
       <jump line="57" column="24" filename="$USER_HOME$/HCM/synth/katex/mathjax.html" />
       <jump line="68" column="20" filename="$USER_HOME$/HCM/synth/katex/mathjax.html" />
       <jump line="7" column="0" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="38" column="20" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="43" column="4" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="47" column="4" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="39" column="4" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="1495" column="8" filename="$USER_HOME$/CSES/lib.cpp" />
+      <jump line="31" column="8" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="33" column="24" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="32" column="24" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="48" column="24" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="37" column="72" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="51" column="4" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="49" column="4" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="36" column="9" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="34" column="35" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="35" column="4" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="54" column="0" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="10" column="0" filename="$USER_HOME$/CSES/Graph-Algorithms/Coin-Collector.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>katex</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -428,10 +434,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>katex</text>
+        <text>scc_graph</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxoZWlnaHRcPg==</text>
+        <text encoding="base64">XDxvcmRlclw+</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -439,10 +445,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB4OiBleHRlbnRbMF1bMF0gLSBtYXRoX2V4dGVudFswXVswXSwKICAgICAgICAgICAgICAgICAgICB5OiBleHRlbnRbMF1bMV0gLSBtYXRoX2V4dGVudFswXVsxXSwK</text>
+        <text encoding="base64">ICAgIHdyaXRlX2Zvcm1hdCgiaGVsbG9cbiIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -456,28 +462,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzYW1wbGUuY2hhcnMucHVzaCh7CiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBleHRlbnRbMV1bMF0sCiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogZXh0ZW50WzFdWzFdLAogICAgICAgICAgICAgICAgICAgICAgICBjb2RlOiBjb2RlLAogICAgICAgICAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgIHdyaXRlCg==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBhZGRfYm94KGV4dGVudCk7Cg==</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHdyaXRlX2Zvcm1hdCgiJWxkICVsZFxuIiwgc2NjX2dyYXBoLT52ZXJ0ZXhfY291bnQsIHNjY19ncmFwaC0+ZWRnZV9jb3VudCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzYW1wbGUuY2hhcnMucHVzaCh7CiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBleHRlbnRbMV1bMF0sCiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogZXh0ZW50WzFdWzFdLAogICAgICAgICAgICAgICAgICAgICAgICBjb2RlOiBjb2RlLAogICAgICAgICAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">NCA0CjQgNSAyIDcKMSAyCjIgMQoxIDMKMiA0Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB7fQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2FtcGxlLndpZHRoID0gbWF0aF9leHRlbnRbMV1bMF07CiAgICAgICAgICAgIHNhbXBsZS5oZWlnaHQgPSBtYXRoX2V4dGVudFsxXVsxXTsKICAgICAgICAgICAgc2FtcGxlLmNoYXJzID0gW107Cg==</text>
+        <text encoding="base64">ICAgIHdyaXRlX2Zvcm1hdCgiaGVsbG9cbiIpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHNhbXBsZSA9IHt9Owo=</text>
+        <text encoding="base64">ICAgIHdyaXRlX2Zvcm1hdCgiaGVsbG9cbiIpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2FtcGxlLndpZHRoID0gbWF0aF9leHRlbnRbMV1bMF07CiAgICAgICAgICAgIHNhbXBsZS5oZWlnaHQgPSBtYXRoX2V4dGVudFsxXVsxXTsKICAgICAgICAgICAgc2FtcGxlLmNoYXJzID0gW107Cg==</text>
+        <text encoding="base64">ICAgIHdyaXRlX2Zvcm1hdCgiaGVsbG9cbiIpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2FtcGxlLndpZHRoID0gbWF0aF9leHRlbnRbMV1bMF07CiAgICAgICAgICAgIHNhbXBsZS5oZWlnaHQgPSBtYXRoX2V4dGVudFsxXVsxXTsKICAgICAgICAgICAgc2FtcGxlLmNoYXJzID0gW107Cg==</text>
+        <text encoding="base64">ICAgIHdyaXRlX2Zvcm1hdCgiaGVsbG9cbiIpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -486,9 +492,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpXD4=</last-search>
+      <last-search encoding="base64">XDxvcmRlclw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxvcmRlclw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxzbmFwc2hvdFw+</last-substitute>
       <last-dir>1</last-dir>
