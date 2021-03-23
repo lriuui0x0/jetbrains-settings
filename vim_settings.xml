@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxjb3VudDJcPg==</entry>
         <entry encoding="base64">XDxkcmF3X3N2Z1w+</entry>
         <entry encoding="base64">XDxibG9nXD4=</entry>
         <entry encoding="base64">XDxjb2RlXD4=</entry>
@@ -27,6 +26,7 @@
         <entry>1.1</entry>
         <entry encoding="base64">XDxzYW1wbGVfZml0XD4=</entry>
         <entry encoding="base64">XDxzYW1wbGVfc2NhbGVkXD4=</entry>
+        <entry>mul(</entry>
       </history-search>
       <history-cmd>
         <entry>wb</entry>
@@ -244,12 +244,11 @@
         <mark key="^" line="18" column="26" />
         <mark key="." line="18" column="26" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/latex/mathjax.html" timestamp="1616462448106">
-        <mark key="'" line="256" column="17" />
-        <mark key="[" line="255" column="93" />
-        <mark key="]" line="255" column="94" />
-        <mark key="." line="255" column="93" />
-        <mark key="^" line="255" column="94" />
+      <file name="$USER_HOME$/HCM/synth/latex/mathjax.html" timestamp="1616489162584">
+        <mark key="'" line="220" column="4" />
+        <mark key="[" line="154" column="0" />
+        <mark key="]" line="154" column="10" />
+        <mark key="." line="154" column="10" />
       </file>
       <file name="$USER_HOME$/HCM/synth/base/0.json" timestamp="1616364189953">
         <mark key="'" line="0" column="152" />
@@ -287,8 +286,8 @@
         <mark key="." line="37" column="0" />
         <mark key="^" line="32" column="36" />
       </file>
-      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1616461236476">
-        <mark key="'" line="101" column="14" />
+      <file name="$USER_HOME$/HCM/synth/generate.py" timestamp="1616489133415">
+        <mark key="'" line="29" column="8" />
         <mark key="[" line="101" column="0" />
         <mark key="]" line="109" column="0" />
       </file>
@@ -315,9 +314,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="6" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
-      <jump line="71" column="12" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
-      <jump line="64" column="27" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="73" column="20" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="76" column="24" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="16" column="8" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
@@ -407,20 +403,23 @@
       <jump line="101" column="14" filename="$USER_HOME$/HCM/synth/generate.py" />
       <jump line="157" column="4" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="147" column="26" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
-      <jump line="194" column="39" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="201" column="88" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="222" column="31" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
-      <jump line="192" column="49" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="225" column="4" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
-      <jump line="218" column="88" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="257" column="12" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
       <jump line="256" column="17" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
+      <jump line="194" column="0" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
+      <jump line="218" column="35" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
+      <jump line="219" column="58" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
+      <jump line="192" column="49" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
+      <jump line="220" column="4" filename="$USER_HOME$/HCM/synth/latex/mathjax.html" />
+      <jump line="29" column="8" filename="$USER_HOME$/HCM/synth/generate.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICByZXMucHVzaChyKTsK</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -432,10 +431,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>ans</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzYW1wbGVfc2NhbGVkXD4=</text>
+        <text>mul(</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -446,7 +445,7 @@
         <text encoding="base64">ZGVmIG11bChtYXQsIHYpOgogICAgcmVzID0gW10KICAgIGZvciB1IGluIG1hdDoKICAgICAgICByID0gMAogICAgICAgIGZvciBpIGluIHJhbmdlKGxlbih2KSk6CiAgICAgICAgICAgIHIgKz0gdVtpXSAqIHZbaV0KICAgICAgICByZXMuYXBwZW5kKHIpCiAgICByZXR1cm4gcmVzCgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0IHNhbXBsZV9yYW5kb21pc2VkID0gc2FtcGxlX3Byb2plY3RpdmUoc2FtcGxlX3NjYWxlZCkK</text>
+        <text encoding="base64">ICAgICAgICAgICByZXMucHVzaChyKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -460,28 +459,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhzYW1wbGUpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgciArPSB1W2ldICogdltpXQo=</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhhbnMpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgaSBpbiByYW5nZShsZW4odikpOgogICAgICAgIHIgKz0gdVtpXSAqIHZbaV0K</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhuZXdfc2FtcGxlKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXMucHVzaChyKTsK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhhbnMpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgdSBpbiBtYXQ6CiAgICAgICAgbGV0IHIgPSAwCg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyh1cywgdnMpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgKCkK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhtaW5feCwgbWluX3ksIG1heF94LCBtYXhfeSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhwZXJjZW50KTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJlcyA9IFtdCiAgICBmb3IgdSBpbiBtYXQ6CiAgICByID0gMAogICAgZm9yIGkgaW4gcmFuZ2UobGVuKHYpKToKICAgIHIgKz0gdVtpXSAqIHZbaV0KICAgIHJlcy5hcHBlbmQocikKICAgIHJldHVybiByZXMK</text>
+        <text encoding="base64">ICAgICAgICBjb25zb2xlLmxvZyhkZWx0YSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -490,9 +489,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzYW1wbGVfc2NhbGVkXD4=</last-search>
+      <last-search>mul(</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzYW1wbGVfc2NhbGVkXD4=</last-pattern>
+      <last-pattern>mul(</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDx5MVw+</last-substitute>
       <last-dir>1</last-dir>
