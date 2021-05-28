@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxvZmZzZXRcPg==</entry>
-        <entry encoding="base64">XDxvZmZzZXRfcmVjXD4=</entry>
         <entry encoding="base64">XDxzY2FsZV9yZWNcPg==</entry>
         <entry encoding="base64">XDxvZmZzZXRfeVw+</entry>
         <entry encoding="base64">XDxyYW5kb21fY291bnRcPg==</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxkZXB0aF91XD4=</entry>
         <entry encoding="base64">XDxkZnNcPg==</entry>
         <entry encoding="base64">XDxpXD4=</entry>
+        <entry encoding="base64">XDxqXD4=</entry>
+        <entry>build</entry>
       </history-search>
       <history-cmd>
         <entry>wb</entry>
@@ -43,11 +43,11 @@
         <entry>@w</entry>
         <entry>w#</entry>
         <entry>qw</entry>
-        <entry>we</entry>
         <entry>ew</entry>
         <entry>Lw</entry>
         <entry>q</entry>
         <entry>wq</entry>
+        <entry>we</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -196,11 +196,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Sum-Queries.cpp" timestamp="1622233440997">
-        <mark key="'" line="1" column="3" />
-        <mark key="[" line="1" column="2" />
-        <mark key="]" line="1" column="2" />
-        <mark key="." line="1" column="2" />
+      <file name="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Sum-Queries.cpp" timestamp="1622236116843">
+        <mark key="[" line="17" column="37" />
+        <mark key="]" line="17" column="38" />
+        <mark key="." line="17" column="37" />
+        <mark key="^" line="17" column="38" />
       </file>
       <file name="$USER_HOME$/CSES/data.txt" timestamp="1622233192863">
         <mark key="[" line="0" column="0" />
@@ -214,11 +214,11 @@
         <mark key="." line="1" column="176" />
         <mark key="^" line="1" column="177" />
       </file>
-      <file name="$USER_HOME$/CSES/Range-Queries/Static-Range-Minimum-Queries.cpp" timestamp="1622233437227">
+      <file name="$USER_HOME$/CSES/Range-Queries/Static-Range-Minimum-Queries.cpp" timestamp="1622236032400">
         <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="39" column="1" />
-        <mark key="." line="1" column="120" />
+        <mark key="[" line="6" column="18" />
+        <mark key="]" line="6" column="19" />
+        <mark key="." line="6" column="19" />
         <mark key="^" line="1" column="121" />
       </file>
       <file name="$USER_HOME$/CSES/Tree-Algorithms/Tree-Diameter.cpp" timestamp="1616718597211">
@@ -297,12 +297,11 @@
         <mark key="^" line="45" column="20" />
         <mark key="." line="45" column="19" />
       </file>
-      <file name="$USER_HOME$/CSES/lib.cpp" timestamp="1616719440468">
-        <mark key="'" line="218" column="5" />
-        <mark key="[" line="278" column="23" />
-        <mark key="]" line="278" column="31" />
-        <mark key="." line="278" column="30" />
-        <mark key="^" line="278" column="31" />
+      <file name="$USER_HOME$/CSES/lib.cpp" timestamp="1622236184291">
+        <mark key="'" line="534" column="4" />
+        <mark key="[" line="2171" column="0" />
+        <mark key="]" line="2171" column="0" />
+        <mark key="." line="2171" column="0" />
       </file>
       <file name="$USER_HOME$/CSES/Mathematics/Counting-Grids.cpp" timestamp="1616622580537">
         <mark key="'" line="18" column="0" />
@@ -317,21 +316,15 @@
         <mark key="." line="1" column="21" />
         <mark key="^" line="1" column="22" />
       </file>
-      <file name="$USER_HOME$/CSES/Range-Queries/Static-Range-Sum-Queries.cpp" timestamp="1622232094613">
+      <file name="$USER_HOME$/CSES/Range-Queries/Static-Range-Sum-Queries.cpp" timestamp="1622236034214">
         <mark key="'" line="4" column="0" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="27" column="1" />
-        <mark key="." line="25" column="30" />
+        <mark key="[" line="6" column="14" />
+        <mark key="]" line="6" column="15" />
+        <mark key="." line="6" column="15" />
         <mark key="^" line="25" column="31" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Matching.cpp" />
-      <jump line="31" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Matching.cpp" />
-      <jump line="48" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Matching.cpp" />
-      <jump line="4" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Matching.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Matching.cpp" />
-      <jump line="21" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Diameter.cpp" />
       <jump line="11" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Diameter.cpp" />
       <jump line="24" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Diameter.cpp" />
       <jump line="38" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Tree-Diameter.cpp" />
@@ -426,12 +419,18 @@
       <jump line="1" column="120" filename="$USER_HOME$/CSES/Range-Queries/Static-Range-Minimum-Queries.cpp" />
       <jump line="0" column="0" filename="$USER_HOME$/CSES/Range-Queries/Static-Range-Minimum-Queries.cpp" />
       <jump line="1" column="3" filename="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Sum-Queries.cpp" />
+      <jump line="12" column="27" filename="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Sum-Queries.cpp" />
+      <jump line="17" column="4" filename="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Sum-Queries.cpp" />
+      <jump line="29" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
+      <jump line="2167" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
+      <jump line="2089" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
+      <jump line="534" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IENhbGN1bGF0ZSByYW5nZSBtaW5pbXVtIGZvciBwb3dlciBvZiAyIGF0IGVhY2ggbG9jYXRpb24gaW4gTyhubG9nbikgdGltZSwgdGhlbiBjYWxjdWxhdGUgbWluaW11bSBpbiBhbnkgcmFuZ2UgaW4gTygxKS4=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -443,10 +442,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IENhbGN1bGF0ZSByYW5nZSBtaW5pbXVtIGZvciBwb3dlciBvZiAyIGF0IGVhY2ggbG9jYXRpb24gaW4gTyhubG9nbikgdGltZSwgdGhlbiBjYWxjdWxhdGUgbWluaW11bSBpbiBhbnkgcmFuZ2UgaW4gTygxKS4=</text>
+        <text>new</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxpXD4=</text>
+        <text>build</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -454,10 +453,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">LyoKICogQ2FsY3VsYXRlIHJhbmdlIG1pbmltdW0gZm9yIHBvd2VyIG9mIDIgYXQgZWFjaCBsb2NhdGlvbiBpbiBPKG5sb2duKSB0aW1lLCB0aGVuIGNhbGN1bGF0ZSBtaW5pbXVtIGluIGFueSByYW5nZSBpbiBPKDEpLgogKi8KCiNpbmNsdWRlICIuLi9saWIuY3BwIgoKSW50IGRhdGFbMzJdWzIwMDAwNV07CgppbnQgbWFpbigpCnsKICAgIEludCBuID0gcmVhZF9pbnQoKTsKICAgIEludCBxID0gcmVhZF9pbnQoKTsKICAgIGZvciAoSW50IGogPSAwOyBqIDwgbjsgaisrKQogICAgewogICAgICAgIGRhdGFbMF1bal0gPSByZWFkX2ludCgpOwogICAgfQogICAgZm9yIChJbnQgaSA9IDE7IGkgPCAzMDsgaSsrKQogICAgewogICAgICAgIEludCBsID0gMSA8PCBpOwogICAgICAgIEludCBobCA9IDEgPDwgKGkgLSAxKTsKICAgICAgICBmb3IgKEludCBqID0gMDsgaiArIGwgPD0gbjsgaisrKQogICAgICAgIHsKICAgICAgICAgICAgZGF0YVtpXVtqXSA9IG1pbihkYXRhW2kgLSAxXVtqXSwgZGF0YVtpIC0gMV1baiArIGhsXSk7CiAgICAgICAgfQogICAgfQogICAgd2hpbGUgKHEtLSkKICAgIHsKICAgICAgICBJbnQgYSA9IHJlYWRfaW50KCkgLSAxOwogICAgICAgIEludCBiID0gcmVhZF9pbnQoKSAtIDE7CiAgICAgICAgSW50IGwgPSBiIC0gYSArIDE7CiAgICAgICAgSW50IGxiID0gMDsKICAgICAgICB3aGlsZSAobCkKICAgICAgICB7CiAgICAgICAgICAgIGwgPj49IDE7CiAgICAgICAgICAgIGxiKys7CiAgICAgICAgfQogICAgICAgIEludCBhbnMgPSBtaW4oZGF0YVtsYiAtIDFdW2FdLCBkYXRhW2xiIC0gMV1bYiArIDEgLSAoMSA8PCAobGIgLSAxKSldKTsKICAgICAgICB3cml0ZV9mb3JtYXQoIiVsZFxuIiwgYW5zKTsKICAgIH0KfQo=</text>
+        <text encoding="base64">SW50IGRhdGFbMjAwMDA5XTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICA7Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -471,28 +470,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">OCA0CjMgMiA0IDUgMSAxIDUgMwoyIDQKNSA2CjEgOAozIDMK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBJbnQgcyA9IGRhdGFbYl0gLSAoYSA+IDAgPyBkYXRhW2EgLSAxXSA6IDApOwo=</text>
+        <text encoding="base64">ICAgIGRhdGEK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAxOyBpIDwgbjsgaSsrKQogICAgewogICAgICAgIGRhdGFbaV0gKz0gZGF0YVtpIC0gMV07CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">SQoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAxOyBpIDwgMzA7IGkrKykKICAgIHsKICAgICAgICBJbnQgbCA9IDEgPDwgaTsKICAgICAgICBJbnQgaGwgPSAxIDw8IChpIC0gMSk7CiAgICAgICAgZm9yIChJbnQgaiA9IDA7IGogKyBsIDw9IG47IGorKykKICAgICAgICB7CiAgICAgICAgICAgIGRhdGFbaV1bal0gPSBtaW4oZGF0YVtpIC0gMV1bal0sIGRhdGFbaSAtIDFdW2ogKyBobF0pOwogICAgICAgIH0KICAgIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">NQoxIDIKMSAzCjMgNAozIDUK</text>
+        <text encoding="base64">ICAgICAgICA7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">OCA0CjMgMiA0IDUgMSAxIDUgMwoyIDQKNSA2CjEgOAozIDMK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -501,9 +500,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxpXD4=</last-search>
+      <last-search>build</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxpXD4=</last-pattern>
+      <last-pattern>build</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDx5MVw+</last-substitute>
       <last-dir>1</last-dir>
