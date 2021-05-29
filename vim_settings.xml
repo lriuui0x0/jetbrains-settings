@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzdGF0ZVw+</entry>
         <entry encoding="base64">XDxnblw+</entry>
         <entry encoding="base64">XDx2aXNpdGVkXD4=</entry>
         <entry encoding="base64">XDxkZXB0aF9jaGlsZFw+</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxhXD4=</entry>
         <entry encoding="base64">XDxiXD4=</entry>
         <entry encoding="base64">XDxzZWdtZW50X3RyZWVfcXVlcnlcPg==</entry>
+        <entry encoding="base64">XDx0cmVlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wb</entry>
@@ -213,9 +213,9 @@
         <mark key="." line="41" column="142" />
         <mark key="^" line="41" column="143" />
       </file>
-      <file name="$USER_HOME$/CSES/data.txt" timestamp="1622296482773">
+      <file name="$USER_HOME$/CSES/data.txt" timestamp="1622299131755">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="2" column="19" />
+        <mark key="]" line="2" column="20" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/CSES/Tree-Algorithms/Tree-Distances-II.cpp" timestamp="1616963515925">
@@ -244,12 +244,12 @@
         <mark key="." line="6" column="19" />
         <mark key="^" line="1" column="121" />
       </file>
-      <file name="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" timestamp="1622299026550">
-        <mark key="'" line="78" column="8" />
-        <mark key="[" line="81" column="27" />
-        <mark key="]" line="81" column="28" />
-        <mark key="^" line="81" column="28" />
-        <mark key="." line="81" column="27" />
+      <file name="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" timestamp="1622299122628">
+        <mark key="'" line="19" column="57" />
+        <mark key="[" line="19" column="54" />
+        <mark key="]" line="19" column="54" />
+        <mark key="." line="19" column="57" />
+        <mark key="^" line="18" column="50" />
       </file>
       <file name="$USER_HOME$/CSES/Tree-Algorithms/Tree-Diameter.cpp" timestamp="1616718597211">
         <mark key="'" line="0" column="0" />
@@ -323,8 +323,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="0" filename="$USER_HOME$/CSES/Mathematics/Binomial-Coefficients.cpp" />
-      <jump line="2" column="0" filename="$USER_HOME$/CSES/Range-Queries/Static-Range-Sum-Queries.cpp" />
       <jump line="5" column="0" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="22" column="30" filename="$USER_HOME$/CSES/Range-Queries/Static-Range-Sum-Queries.cpp" />
       <jump line="4" column="0" filename="$USER_HOME$/CSES/Range-Queries/Static-Range-Sum-Queries.cpp" />
@@ -404,7 +402,6 @@
       <jump line="50" column="0" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="21" column="5" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="73" column="63" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="166" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="1556" column="12" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="11" column="13" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
@@ -416,19 +413,22 @@
       <jump line="65" column="51" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="1" column="0" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="45" column="21" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
-      <jump line="59" column="54" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="62" column="0" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="46" column="0" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="79" column="37" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="80" column="51" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="82" column="8" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
       <jump line="78" column="8" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
+      <jump line="59" column="74" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
+      <jump line="18" column="49" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
+      <jump line="19" column="57" filename="$USER_HOME$/CSES/Range-Queries/Hotel-Queries.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>k</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">MTAgMTAKMSAxIDEgMSAxIDEgMSAxIDEgMQoxIDEgMSAxIDEgMSAxIDEgMSAxCg==</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -440,10 +440,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>k</text>
+        <text>tree</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzZWdtZW50X3RyZWVfcXVlcnlcPg==</text>
+        <text encoding="base64">XDx0cmVlXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -454,7 +454,7 @@
         <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHNlZ21lbnRfdHJlZV9maW5kKHRyZWUsIGsgKiAyLCBsLCAobCArIHIpIC8gMik7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGF0YVtdCg==</text>
+        <text encoding="base64">MTAgMTAKMSAxIDEgMSAxIDEgMSAxIDEgMQoxIDEgMSAxIDEgMSAxIDEgMSAxCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -468,19 +468,19 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VnbWVudF90cmVlX3VwZGF0ZSh0cmVlLCAxLCAwLCBuIC0gMSwgaG90ZWwgLSAxLCApOwo=</text>
+        <text encoding="base64">ICAgIHdyaXRlX2Zvcm1hdCgiJWxkXG4iLCB0cmVlWzFdKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgd3JpdGVfZm9ybWF0KCJoZWxsb1xuIik7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGF0YVtdCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VnbWVudF90cmVlX3VwZGF0ZSh0cmVlLCAxLCAwLCBuIC0gMSwgaG90ZWwgLSAxLCApOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
@@ -489,7 +489,7 @@
         <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSW50IGsgPSAxOwogICAgICAgICAgICB3aGlsZSAoayA8IG4pCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGsgPSB0cmVlW2sgKiAyXSA+PSB4ID8gayAqIDIgOiBrICogMiArIDE7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaG90ZWwgPSBrIC0gbiArIDE7Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -498,9 +498,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzZWdtZW50X3RyZWVfcXVlcnlcPg==</last-search>
+      <last-search encoding="base64">XDx0cmVlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzZWdtZW50X3RyZWVfcXVlcnlcPg==</last-pattern>
+      <last-pattern encoding="base64">XDx0cmVlXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDx5MVw+</last-substitute>
       <last-dir>1</last-dir>
