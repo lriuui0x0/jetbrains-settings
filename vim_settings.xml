@@ -223,11 +223,6 @@
         <mark key="." line="6" column="19" />
         <mark key="^" line="1" column="121" />
       </file>
-      <file name="$USER_HOME$/CSES/Mathematics/Binomial-Coefficients.cpp" timestamp="1622231771980">
-        <mark key="'" line="9" column="0" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="23" column="1" />
-      </file>
       <file name="$USER_HOME$/CSES/Range-Queries/Range-Update-Queries.cpp" timestamp="1622403305331">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="35" column="38" />
@@ -258,6 +253,13 @@
         <mark key="]" line="44" column="1" />
         <mark key="." line="41" column="142" />
         <mark key="^" line="41" column="143" />
+      </file>
+      <file name="$USER_HOME$/CSES/Range-Queries/Range-Updates-and-Sums.cpp" timestamp="1622408442288">
+        <mark key="'" line="15" column="0" />
+        <mark key="[" line="15" column="65" />
+        <mark key="]" line="15" column="72" />
+        <mark key="^" line="15" column="72" />
+        <mark key="." line="15" column="71" />
       </file>
       <file name="$USER_HOME$/CSES/Range-Queries/Range-Xor-Queries.cpp" timestamp="1622243935702">
         <mark key="[" line="22" column="0" />
@@ -299,9 +301,9 @@
         <mark key="." line="31" column="40" />
         <mark key="^" line="31" column="41" />
       </file>
-      <file name="$USER_HOME$/CSES/Range-Queries/Prefix-Sum-Queries.cpp" timestamp="1622392120725">
-        <mark key="'" line="5" column="0" />
-        <mark key="[" line="5" column="0" />
+      <file name="$USER_HOME$/CSES/Range-Queries/Prefix-Sum-Queries.cpp" timestamp="1622408176967">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="103" column="1" />
       </file>
       <file name="$USER_HOME$/CSES/Range-Queries/Subarray-Sum-Queries.cpp" timestamp="1622392128240">
@@ -327,11 +329,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="39" column="80" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
-      <jump line="42" column="15" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
-      <jump line="29" column="4" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
-      <jump line="2" column="0" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
-      <jump line="46" column="0" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
       <jump line="9" column="15" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
       <jump line="49" column="8" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
       <jump line="21" column="13" filename="$USER_HOME$/CSES/Range-Queries/Distinct-Values-Queries.cpp" />
@@ -427,12 +424,17 @@
       <jump line="2297" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="2312" column="22" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="19" column="21" filename="$USER_HOME$/CSES/Range-Queries/Forest-Queries-II.cpp" />
+      <jump line="12" column="16" filename="$USER_HOME$/CSES/Range-Queries/Prefix-Sum-Queries.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/CSES/Range-Queries/Prefix-Sum-Queries.cpp" />
+      <jump line="14" column="11" filename="$USER_HOME$/CSES/Range-Queries/Range-Updates-and-Sums.cpp" />
+      <jump line="21" column="0" filename="$USER_HOME$/CSES/Range-Queries/Range-Updates-and-Sums.cpp" />
+      <jump line="15" column="0" filename="$USER_HOME$/CSES/Range-Queries/Range-Updates-and-Sums.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAxOyBpIDw9IG47IGkrKykKICAgIHsKICAgICAgICBmb3IgKEludCBqID0gMTsgaiA8PSBuOyBqKyspCiAgICAgICAgewogICAgICAgICAgICB3cml0ZV9mb3JtYXQoIiVsZCAiLCB0cmVlW2kgKiBuICsgal0pOwogICAgICAgIH0KICAgICAgICB3cml0ZV9mb3JtYXQoIlxuIik7CiAgICB9Cgo=</text>
+      <register name="&quot;" type="4">
+        <text>i</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -444,7 +446,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>i</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxqXD4=</text>
@@ -455,10 +457,10 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAxOyBpIDw9IG47IGkrKykKICAgIHsKICAgICAgICBmb3IgKEludCBqID0gMTsgaiA8PSBtOyBqKyspCiAgICAgICAgewogICAgICAgICAgICBJbnQgajEgPSBqICsgKGogJiAtaik7CiAgICAgICAgICAgIGlmIChqMSA8PSBtKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0cmVlW2kgKiBtICsgajFdICs9IHRyZWVbaSAqIG0gKyBqXTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0K</text>
+        <text encoding="base64">Vm9pZCBzZWdtZW50X3RyZWVfdXBkYXRlKE5vZGUgKnRyZWUsIEludCBrLCBJbnQgbCwgSW50IHIsIEludCBpLCBJbnQgeCkKewogICAgaWYgKGwgPT0gcikKICAgIHsKICAgICAgICB0cmVlW2tdLnN1bSA9IHg7CiAgICAgICAgdHJlZVtrXS5tYXggPSBtYXgoeCwgMGwpOwogICAgfQogICAgZWxzZQogICAgewogICAgICAgIEludCBtID0gKGwgKyByKSAvIDI7CiAgICAgICAgaWYgKGkgPD0gbSkKICAgICAgICB7CiAgICAgICAgICAgIHNlZ21lbnRfdHJlZV91cGRhdGUodHJlZSwgayAqIDIsIGwsIG0sIGksIHgpOwogICAgICAgIH0KICAgICAgICBlbHNlCiAgICAgICAgewogICAgICAgICAgICBzZWdtZW50X3RyZWVfdXBkYXRlKHRyZWUsIGsgKiAyICsgMSwgbSArIDEsIHIsIGksIHgpOwogICAgICAgIH0KICAgICAgICB0cmVlW2tdID0gY29tYmluZSh0cmVlW2sgKiAyXSwgdHJlZVtrICogMiArIDFdKTsKICAgIH0KfQoK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAxOyBpIDw9IG47IGkrKykKICAgIHsKICAgICAgICBmb3IgKEludCBqID0gMTsgaiA8PSBuOyBqKyspCiAgICAgICAgewogICAgICAgICAgICB3cml0ZV9mb3JtYXQoIiVsZCAiLCB0cmVlW2kgKiBuICsgal0pOwogICAgICAgIH0KICAgICAgICB3cml0ZV9mb3JtYXQoIlxuIik7CiAgICB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -472,28 +474,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICB9CiAgICAgICAgZWxzZQogICAgICAgIHsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIChqMSA8PSBtKQogICAgICAgICAgICAgICAgewo=</text>
+        <text encoding="base64">ICAgICAgICBpZiAoaSA8PSBtKQogICAgICAgIHsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgKEludCBqID0gMTsgaiA8PSBtOyBqKyspCiAgICAgICAgewogICAgICAgICAgICBpZiAoajEgPD0gbSkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgdHJlZVtpICogbSArIGoxXSArPSB0cmVlW2kgKiBtICsgal07CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIEludCAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSW50IGoxID0gaiArIChqICYgLWopOwo=</text>
+        <text encoding="base64">ICAgIEludCA7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICAgIEludCBpMSA9IGkgKyAoaSAmIC1pKTsKLy8gICAgICAgIGlmIChpMSA8PSBuKQovLyAgICAgICAgewovLyAgICAgICAgICAgIGZvciAoSW50IGogPSAxOyBqIDw9IG07IGorKykKLy8gICAgICAgICAgICB7Ci8vICAgICAgICAgICAgICAgIHRyZWVbaTEgKiBtICsgal0gKz0gdHJlZVtpMSAqIG0gKyBqXTsKLy8gICAgICAgICAgICB9Ci8vICAgICAgICB9Cg==</text>
+        <text encoding="base64">Tm9kZSBjb21iaW5lKE5vZGUgbGVmdCwgTm9kZSByaWdodCkKewogICAgTm9kZSByZXN1bHQ7CiAgICByZXN1bHQuc3VtID0gbGVmdC5zdW0gKyByaWdodC5zdW07CiAgICByZXN1bHQubWF4ID0gbWF4KGxlZnQubWF4LCBsZWZ0LnN1bSArIHJpZ2h0Lm1heCk7CiAgICByZXR1cm4gcmVzdWx0Owp9CgpWb2lkIHNlZ21lbnRfdHJlZV9idWlsZChOb2RlICp0cmVlLCBJbnQgaywgSW50IGwsIEludCByLCBJbnQgKmRhdGEpCnsKICAgIGlmIChsID09IHIpCiAgICB7CiAgICAgICAgdHJlZVtrXS5zdW0gPSBkYXRhW2xdOwogICAgICAgIHRyZWVba10ubWF4ID0gbWF4KGRhdGFbbF0sIDBsKTsKICAgIH0KICAgIGVsc2UKICAgIHsKICAgICAgICBJbnQgbSA9IChsICsgcikgLyAyOwogICAgICAgIHNlZ21lbnRfdHJlZV9idWlsZCh0cmVlLCBrICogMiwgbCwgbSwgZGF0YSk7CiAgICAgICAgc2VnbWVudF90cmVlX2J1aWxkKHRyZWUsIGsgKiAyICsgMSwgbSArIDEsIHIsIGRhdGEpOwogICAgICAgIHRyZWVba10gPSBjb21iaW5lKHRyZWVbayAqIDJdLCB0cmVlW2sgKiAyICsgMV0pOwogICAgfQp9Cgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Zm9yKGludCBpPTE7aTw9bjsrK2kpCiAgICBmb3IoaW50IGo9MTtqPD1uOysraikKICAgICAgICBpZihqKyhqJi1qKTw9bikKICAgICAgICAgICAgY1tpXVtqKyhqJi1qKV0rPWNbaV1bal07CmZvcihpbnQgaT0xO2k8PW47KytpKQogICAgZm9yKGludCBqPTE7ajw9bjsrK2opCiAgICAgICAgaWYoaSsoaSYtaSk8PW4pCiAgICAgICAgICAgIGNbaSsoaSYtaSldW2pdKz1jW2ldW2pdOwoK</text>
+        <text encoding="base64">ICogU2VnbWVudCB0cmVlIHRvIG1haW50YWluIHJhbmdlIHN1bSBhbmQgbWF4aW11bSBwcmVmaXggc3VtIHdpdGhpbiB0aGUgcmFuZ2UuCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAxOyBpIDw9IG47IGkrKykKICAgIHsKICAgICAgICBmb3IgKEludCBqID0gMTsgaiA8PSBuOyBqKyspCiAgICAgICAgewogICAgICAgICAgICB3cml0ZV9mb3JtYXQoIiVsZCAiLCB0cmVlW2kgKiBuICsgal0pOwogICAgICAgIH0KICAgICAgICB3cml0ZV9mb3JtYXQoIlxuIik7CiAgICB9Cgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
