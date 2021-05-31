@@ -7,13 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxrXD4=</entry>
-        <entry encoding="base64">XDx1XD4=</entry>
-        <entry encoding="base64">XDxpXD4=</entry>
-        <entry encoding="base64">XDxjaGlsZF9jb3VudFw+</entry>
-        <entry encoding="base64">XDxzXD4=</entry>
-        <entry>avl_new</entry>
-        <entry>new_tree</entry>
         <entry>df</entry>
         <entry encoding="base64">XDxiaW5hcnlfcGFyZW50XD4=</entry>
         <entry encoding="base64">XDxwYXJlbnRcPg==</entry>
@@ -27,6 +20,13 @@
         <entry encoding="base64">XDx0cmVlXD4=</entry>
         <entry>DfsData</entry>
         <entry encoding="base64">XDxncmFwaFw+</entry>
+        <entry encoding="base64">XDxpXD4=</entry>
+        <entry encoding="base64">XDxkYXRhXD4=</entry>
+        <entry>flasg</entry>
+        <entry>flag</entry>
+        <entry>start</entry>
+        <entry encoding="base64">XDxhbnNcPg==</entry>
+        <entry encoding="base64">XDxyZWFkX2ludFw+</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz53</entry>
@@ -196,9 +196,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/CSES/data.txt" timestamp="1622490005004">
+      <file name="$USER_HOME$/CSES/data.txt" timestamp="1622492137239">
+        <mark key="'" line="400000" column="0" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="8" column="5" />
+        <mark key="]" line="400000" column="14" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" timestamp="1622467088832">
@@ -228,12 +229,11 @@
         <mark key="." line="13" column="28" />
         <mark key="^" line="13" column="29" />
       </file>
-      <file name="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" timestamp="1622490175271">
-        <mark key="'" line="31" column="0" />
-        <mark key="[" line="9" column="20" />
-        <mark key="]" line="9" column="21" />
-        <mark key="." line="9" column="20" />
-        <mark key="^" line="9" column="21" />
+      <file name="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" timestamp="1622493692533">
+        <mark key="[" line="128" column="0" />
+        <mark key="]" line="128" column="0" />
+        <mark key="^" line="125" column="44" />
+        <mark key="." line="128" column="0" />
       </file>
       <file name="$USER_HOME$/CSES/Tree-Algorithms/Tree-Matching.cpp" timestamp="1622463356670">
         <mark key="'" line="9" column="37" />
@@ -242,10 +242,10 @@
         <mark key="^" line="1" column="45" />
         <mark key="." line="1" column="44" />
       </file>
-      <file name="$USER_HOME$/CSES/Range-Queries/Pizzeria-Queries.cpp" timestamp="1622418180138">
-        <mark key="'" line="10" column="17" />
+      <file name="$USER_HOME$/CSES/Range-Queries/Pizzeria-Queries.cpp" timestamp="1622490227973">
+        <mark key="'" line="45" column="0" />
         <mark key="[" line="10" column="0" />
-        <mark key="]" line="24" column="0" />
+        <mark key="]" line="61" column="0" />
         <mark key="." line="1" column="172" />
         <mark key="^" line="1" column="173" />
       </file>
@@ -270,15 +270,15 @@
         <mark key="." line="33" column="20" />
         <mark key="^" line="1" column="136" />
       </file>
-      <file name="$USER_HOME$/CSES/Range-Queries/Range-Updates-and-Sums.cpp" timestamp="1622417671967">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="132" column="1" />
-        <mark key="." line="2" column="154" />
-        <mark key="^" line="2" column="155" />
-      </file>
       <file name="$USER_HOME$/CSES/log" timestamp="1622479743574">
         <mark key="'" line="17" column="8" />
+      </file>
+      <file name="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Minimum-Queries.cpp" timestamp="1622490207178">
+        <mark key="'" line="30" column="0" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="51" column="0" />
+        <mark key="." line="61" column="0" />
+        <mark key="^" line="56" column="18" />
       </file>
       <file name="$USER_HOME$/CSES/Range-Queries/Range-Queries-and-Copies.cpp" timestamp="1622462880351">
         <mark key="'" line="3" column="0" />
@@ -313,10 +313,10 @@
         <mark key="." line="1" column="182" />
         <mark key="^" line="1" column="183" />
       </file>
-      <file name="$USER_HOME$/CSES/lib.cpp" timestamp="1622490111623">
-        <mark key="'" line="2502" column="33" />
-        <mark key="[" line="2479" column="34" />
-        <mark key="]" line="2479" column="37" />
+      <file name="$USER_HOME$/CSES/lib.cpp" timestamp="1622493164952">
+        <mark key="'" line="2410" column="0" />
+        <mark key="[" line="1179" column="0" />
+        <mark key="]" line="1179" column="44" />
         <mark key="^" line="2479" column="37" />
         <mark key="." line="2479" column="36" />
       </file>
@@ -329,62 +329,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="2328" column="32" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2329" column="32" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2332" column="26" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="1574" column="8" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2301" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2335" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="39" column="61" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="47" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="18" column="12" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="9" column="5" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="6" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="4" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="6" column="0" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="2300" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="27" column="43" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="17" column="8" filename="$USER_HOME$/CSES/log" />
-      <jump line="2262" column="22" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2266" column="17" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2295" column="96" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2294" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2288" column="4" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2291" column="24" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="2286" column="41" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="6" column="22" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="8" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="29" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="399996" column="0" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="17" column="57" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-I.cpp" />
-      <jump line="31" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-I.cpp" />
-      <jump line="19" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-I.cpp" />
-      <jump line="2296" column="80" filename="$USER_HOME$/CSES/lib.cpp" />
-      <jump line="16" column="5" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-I.cpp" />
-      <jump line="27" column="38" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="13" column="19" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="13" column="22" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="18" column="31" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="16" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="18" column="31" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="20" column="37" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="7" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="10" column="16" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="13" column="22" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="19" column="31" filename="$USER_HOME$/CSES/Tree-Algorithms/Distance-Queries.cpp" />
-      <jump line="13" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Distinct-Colors.cpp" />
-      <jump line="21" column="21" filename="$USER_HOME$/CSES/Tree-Algorithms/Distinct-Colors.cpp" />
-      <jump line="23" column="57" filename="$USER_HOME$/CSES/Tree-Algorithms/Distinct-Colors.cpp" />
-      <jump line="25" column="19" filename="$USER_HOME$/CSES/Tree-Algorithms/Distinct-Colors.cpp" />
-      <jump line="28" column="19" filename="$USER_HOME$/CSES/Tree-Algorithms/Distinct-Colors.cpp" />
-      <jump line="10" column="40" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Company-Queries-II.cpp" />
-      <jump line="32" column="25" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="6" column="8" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="29" column="12" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="30" column="12" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
-      <jump line="31" column="12" filename="$USER_HOME$/CSES/Tree-Algorithms/Counting-Paths.cpp" />
       <jump line="2258" column="31" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="2265" column="20" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="2268" column="47" filename="$USER_HOME$/CSES/lib.cpp" />
@@ -424,17 +368,73 @@
       <jump line="2450" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="5" column="0" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="7" column="0" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
       <jump line="2502" column="33" filename="$USER_HOME$/CSES/lib.cpp" />
       <jump line="33" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
       <jump line="2" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
       <jump line="30" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="9" column="29" filename="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Minimum-Queries.cpp" />
+      <jump line="20" column="0" filename="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Minimum-Queries.cpp" />
+      <jump line="30" column="0" filename="$USER_HOME$/CSES/Range-Queries/Dynamic-Range-Minimum-Queries.cpp" />
+      <jump line="10" column="15" filename="$USER_HOME$/CSES/Range-Queries/Pizzeria-Queries.cpp" />
+      <jump line="24" column="0" filename="$USER_HOME$/CSES/Range-Queries/Pizzeria-Queries.cpp" />
+      <jump line="45" column="0" filename="$USER_HOME$/CSES/Range-Queries/Pizzeria-Queries.cpp" />
+      <jump line="44" column="8" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="85" column="20" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="48" column="67" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="62" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="49" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="97" column="31" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="83" column="22" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="84" column="32" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="6" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="110" column="49" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="113" column="12" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="105" column="12" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="114" column="55" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="118" column="71" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="65" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="20" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="42" column="63" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
+      <jump line="1" column="0" filename="$USER_HOME$/CSES/data.txt" />
+      <jump line="400000" column="0" filename="$USER_HOME$/CSES/data.txt" />
+      <jump line="102" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="1" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="2410" column="0" filename="$USER_HOME$/CSES/lib.cpp" />
+      <jump line="86" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="123" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="95" column="19" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="77" column="9" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="89" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="67" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="17" column="1" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="60" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="18" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="112" column="16" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="27" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="103" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="107" column="23" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="117" column="38" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="125" column="19" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="126" column="14" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="5" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="134" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="64" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="19" column="15" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="82" column="18" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="91" column="16" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="92" column="16" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="98" column="11" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="76" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="12" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
+      <jump line="87" column="4" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries-II.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>200009</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAwOyBpIDwgYW5zX2NvdW50OyBpKyspCiAgICB7CiAgICAgICAgd3JpdGVfZm9ybWF0KCIlbGQgIiwgYW5zW2ldKTsKICAgIH0K</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -446,21 +446,21 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>pos</text>
+        <text>_</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxncmFwaFw+</text>
+        <text encoding="base64">XDxyZWFkX2ludFw+</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>200009</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcXVlcmllc1tpXS5hID0gcmVhZF9pbnQoKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGZvciAoSW50IHUgPSAwOyB1IDwgbjsgdSsrKQogICAgewogICAgICAgIHdyaXRlX2Zvcm1hdCgiJWxkICVsZFxuIiwgdSArIDEsIGluZGV4W3VdKTsKICAgIH0K</text>
+        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAwOyBpIDwgYW5zX2NvdW50OyBpKyspCiAgICB7CiAgICAgICAgd3JpdGVfZm9ybWF0KCIlbGQgIiwgYW5zW2ldKTsKICAgIH0K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -474,28 +474,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">NSAzCjEgMgoxIDMKMyA0CjMgNQoxIDMKMiA1CjEgNAo=</text>
+        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAwOyBpIDwgYW5zX2NvdW50OyBpKyspCiAgICB7CiAgICAgICAgd3JpdGVfZm9ybWF0KCIlbGQgIiwgYW5zW2ldKTsKICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYW5zW2Fuc19jb3VudCsrXSA9IHBhdGhfbWF4Owo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dwo=</text>
+        <text encoding="base64">ICAgIGZvciAoSW50IGkgPSAwOyBpIDwgcTsgaSsrKQogICAgewogICAgICAgIHF1ZXJpZXNbaV0udCA9IHJlYWRfaW50KCk7CiAgICAgICAgcXVlcmllc1tpXS5hID0gcmVhZF9pbnQoKTsKICAgICAgICBxdWVyaWVzW2ldLmIgPSByZWFkX2ludCgpOwogICAgfQoKCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">c3RydWN0IFF1ZXJ5CnsKICAgIEludCB0OwogICAgSW50IGE7CiAgICBJbnQgYjsKfTsKUXVlcnkgcXVlcmllc1syMDAwMDldOwpJbnQgYW5zWzIwMDAwOV07Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHsKICAgICAgICBHcmFwaDw+ICpncmFwaDsKICAgICAgICBJbnQgKnNpemU7CiAgICAgICAgSW50IGN1cnJfaW5kZXg7CiAgICAgICAgSW50ICppbmRleDsKICAgICAgICBJbnQgKmhlYWQ7CiAgICB9Owo=</text>
+        <text encoding="base64">SW50IGFuc1syMDAwMDldOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">c3RydWN0IFF1ZXJ5CnsKICAgIEludCB0OwogICAgSW50IGE7CiAgICBJbnQgYjsKfTsKUXVlcnkgcXVlcmllc1syMDAwMDldOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ewo=</text>
+        <text encoding="base64">I2luY2x1ZGUgPGN0aW1lPgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG1heF9zaXplID0gZGF0YS0+c2l6ZVt2XTsKICAgICAgICAgICAgICAgIG1heF92ID0gdjsK</text>
+        <text encoding="base64">ICAgICAgICBpZiAocXVlcmllc1tpXS50ID09IDEpCiAgICAgICAgewo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -504,9 +504,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxncmFwaFw+</last-search>
+      <last-search encoding="base64">XDxyZWFkX2ludFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxncmFwaFw+</last-pattern>
+      <last-pattern encoding="base64">XDxyZWFkX2ludFw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDx5MVw+</last-substitute>
       <last-dir>1</last-dir>
