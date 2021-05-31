@@ -215,12 +215,12 @@
         <mark key="." line="60" column="40" />
         <mark key="^" line="60" column="41" />
       </file>
-      <file name="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" timestamp="1622465961211">
-        <mark key="'" line="68" column="16" />
-        <mark key="[" line="52" column="25" />
-        <mark key="]" line="52" column="26" />
-        <mark key="." line="52" column="25" />
-        <mark key="^" line="52" column="26" />
+      <file name="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" timestamp="1622466409561">
+        <mark key="'" line="1" column="86" />
+        <mark key="[" line="1" column="135" />
+        <mark key="]" line="1" column="136" />
+        <mark key="." line="1" column="135" />
+        <mark key="^" line="1" column="136" />
       </file>
       <file name="$USER_HOME$/CSES/Mathematics/Counting-Coprime-Pairs.cpp" timestamp="1622463102455">
         <mark key="[" line="12" column="5" />
@@ -249,12 +249,12 @@
         <mark key="." line="1" column="172" />
         <mark key="^" line="1" column="173" />
       </file>
-      <file name="$USER_HOME$/CSES/Tree-Algorithms/Subtree-Queries.cpp" timestamp="1622466182908">
-        <mark key="'" line="47" column="0" />
-        <mark key="[" line="38" column="24" />
-        <mark key="]" line="38" column="24" />
-        <mark key="." line="38" column="23" />
-        <mark key="^" line="38" column="24" />
+      <file name="$USER_HOME$/CSES/Tree-Algorithms/Subtree-Queries.cpp" timestamp="1622466317770">
+        <mark key="'" line="53" column="14" />
+        <mark key="[" line="1" column="3" />
+        <mark key="]" line="1" column="127" />
+        <mark key="." line="60" column="23" />
+        <mark key="^" line="60" column="24" />
       </file>
       <file name="$USER_HOME$/CSES/Range-Queries/Forest-Queries.cpp" timestamp="1622401651724">
         <mark key="'" line="0" column="0" />
@@ -331,8 +331,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/CSES/Range-Queries/Range-Updates-and-Sums.cpp" />
-      <jump line="30" column="56" filename="$USER_HOME$/CSES/Range-Queries/Polynomial-Queries.cpp" />
       <jump line="41" column="4" filename="$USER_HOME$/CSES/Range-Queries/Polynomial-Queries.cpp" />
       <jump line="49" column="0" filename="$USER_HOME$/CSES/Range-Queries/Polynomial-Queries.cpp" />
       <jump line="52" column="0" filename="$USER_HOME$/CSES/Range-Queries/Polynomial-Queries.cpp" />
@@ -426,17 +424,19 @@
       <jump line="22" column="12" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" />
       <jump line="23" column="20" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" />
       <jump line="4" column="0" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="50" column="24" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" />
       <jump line="67" column="16" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" />
       <jump line="0" column="0" filename="$USER_HOME$/CSES/data.txt" />
-      <jump line="3" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Subtree-Queries.cpp" />
       <jump line="47" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Subtree-Queries.cpp" />
+      <jump line="3" column="22" filename="$USER_HOME$/CSES/Tree-Algorithms/Subtree-Queries.cpp" />
+      <jump line="50" column="0" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" />
+      <jump line="53" column="14" filename="$USER_HOME$/CSES/Tree-Algorithms/Subtree-Queries.cpp" />
+      <jump line="1" column="86" filename="$USER_HOME$/CSES/Tree-Algorithms/Path-Queries.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">IGRhdGFbdV0gLSB4</text>
+        <text encoding="base64">KiA=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -448,7 +448,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IGRhdGFbdV0gLSB4</text>
+        <text encoding="base64">KiA=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzXD4=</text>
@@ -458,11 +458,11 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmVud2lja191cGRhdGUodHJlZSwgbiwgaW5kZXhbdV0sIHggLSBkYXRhW3VdKTsK</text>
+      <register name="0" type="4">
+        <text>Keep tree nodes in the traversal order in an array, so each subtree is an array segment. Use Fenwick tree maintain range sum.</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">LyoKICogS2VlcCB0cmVlIG5vZGVzIGluIHRoZSB0cmF2ZXJzYWwgb3JkZXIgaW4gYW4gYXJyYXksIHNvIGVhY2ggc3VidHJlZSBpcyBhbiBhcnJheSBzZWdtZW50LiBVc2UgRmVud2ljayB0cmVlIG1haW50YWluIHJhbmdlIHN1bS4KICovCgojaW5jbHVkZSAiLi4vbGliLmNwcCIKCkludCBkYXRhWzIwMDAwOV07CkludCBjdXJyX2luZGV4OwpJbnQgaW5kZXhbMjAwMDA5XTsKSW50IHNpemVbMjAwMDA5XTsKSW50IHRyZWVbMjAwMDA5XTsKCkludCBkZnMoR3JhcGg8PiAqZ3JhcGgsIEludCB1LCBJbnQgcCkKewogICAgaW5kZXhbdV0gPSArK2N1cnJfaW5kZXg7CiAgICBJbnQgcyA9IDE7CiAgICBmb3IgKEludCBlID0gZ3JhcGgtPnZlcnRpY2VzW3VdLmhlYWQ7IGUgIT0gLTE7IGUgPSBncmFwaC0+ZWRnZXNbZV0ubmV4dCkKICAgIHsKICAgICAgICBJbnQgdiA9IGdyYXBoLT5lZGdlc1tlXS50bzsKICAgICAgICBpZiAodiAhPSBwKQogICAgICAgIHsKICAgICAgICAgICAgcyArPSBkZnMoZ3JhcGgsIHYsIHUpOwogICAgICAgIH0KICAgIH0KICAgIHNpemVbdV0gPSBzOwogICAgcmV0dXJuIHM7Cn0KCg==</text>
+        <text encoding="base64">ICAgIGZvciAoaW50IGkgPSAwOyBpIDwgbjsgKytpKQogICAgewogICAgICAgIHdyaXRlX2Zvcm1hdCgiJWxkICIsIHBhdGhbaV0pOwogICAgfQogICAgd3JpdGVfZm9ybWF0KCJcblxuIik7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -476,28 +476,28 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW50IG1haW4oKQp7CiAgICBJbnQgbiA9IHJlYWRfaW50KCk7CiAgICBJbnQgcSA9IHJlYWRfaW50KCk7CiAgICBmb3IgKEludCB1ID0gMDsgdSA8IG47IHUrKykKICAgIHsKICAgICAgICBkYXRhW3VdID0gcmVhZF9pbnQoKTsKICAgIH0KICAgIEdyYXBoPD4gKmdyYXBoID0gbmV3X2dyYXBoKG4sIDIgKiBuKTsKICAgIGZvciAoSW50IHUgPSAwOyB1IDwgbjsgdSsrKQogICAgewogICAgICAgIGFkZF92ZXJ0ZXgoZ3JhcGgpOwogICAgfQogICAgZm9yIChJbnQgZSA9IDE7IGUgPCBuOyBlKyspCiAgICB7CiAgICAgICAgSW50IHUgPSByZWFkX2ludCgpIC0gMTsKICAgICAgICBJbnQgdiA9IHJlYWRfaW50KCkgLSAxOwogICAgICAgIGFkZF91bmRpcmVjdGVkX2VkZ2UoZ3JhcGgsIHUsIHYpOwogICAgfQogICAgZGZzKGdyYXBoLCAwLCAtMSk7CiAgICBmb3IgKEludCB1ID0gMDsgdSA8IG47IHUrKykKICAgIHsKICAgICAgICB0cmVlW2luZGV4W3VdXSA9IGRhdGFbdV07CiAgICB9CiAgICBmZW53aWNrX2J1aWxkKHRyZWUsIG4pOwogICAgd2hpbGUgKHEtLSkKICAgIHsKICAgICAgICBJbnQgdCA9IHJlYWRfaW50KCk7CiAgICAgICAgaWYgKHQgPT0gMSkKICAgICAgICB7CiAgICAgICAgICAgIEludCB1ID0gcmVhZF9pbnQoKSAtIDE7CiAgICAgICAgICAgIEludCB4ID0gcmVhZF9pbnQoKTsKICAgICAgICAgICAgSW50IGQgPSB4IC0gZGF0YVt1XTsKICAgICAgICAgICAgZmVud2lja191cGRhdGUodHJlZSwgbiwgaW5kZXhbdV0sIGQpOwogICAgICAgICAgICBpZiAoaW5kZXhbdV0gKyBzaXplW3VdIDw9IG4pCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGZlbndpY2tfdXBkYXRlKHRyZWUsIG4sIGluZGV4W3VdICsgc2l6ZVt1XSwgLWQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGRhdGFbdV0gKz0geDsKICAgICAgICB9CiAgICAgICAgZWxzZQogICAgICAgIHsKICAgICAgICAgICAgSW50IHUgPSByZWFkX2ludCgpIC0gMTsKICAgICAgICAgICAgSW50IHMgPSBmZW53aWNrX3N1bSh0cmVlLCBuLCBpbmRleFt1XSwgaW5kZXhbdV0gKyBzaXplW3VdIC0gMSk7CiAgICAgICAgICAgIHdyaXRlX2Zvcm1hdCgiJWxkXG4iLCBzKTsKICAgICAgICB9CiAgICB9Cn0=</text>
+        <text encoding="base64">ICAgICAgICAgICAgSW50IHUgPSByZWFkX2ludCgpIC0gMTsKICAgICAgICAgICAgSW50IHggPSByZWFkX2ludCgpOwogICAgICAgICAgICBmZW53aWNrX3VwZGF0ZSh0cmVlLCBuLCBpbmRleFt1XSwgeCAtIGRhdGFbdV0pOwogICAgICAgICAgICBkYXRhW3VdID0geDsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmVud2lja191cGRhdGUodHJlZSwgbiwgaW5kZXhbdV0gKyBzaXplW3VdLCBkYXRhW3VdIC0geCk7Cg==</text>
+        <text encoding="base64">LyoKICogS2VlcCB0cmVlIG5vZGVzIGluIHRoZSB0cmF2ZXJzYWwgb3JkZXIgaW4gYW4gYXJyYXksIHNvIGVhY2ggc3VidHJlZSBpcyBhbiBhcnJheSBzZWdtZW50LiBVc2UgRmVud2ljayB0cmVlIG1haW50YWluIHJhbmdlIHN1bS4KICovCgojaW5jbHVkZSAiLi4vbGliLmNwcCIKCkludCBkYXRhWzIwMDAwOV07CkludCBjdXJyX2luZGV4OwpJbnQgaW5kZXhbMjAwMDA5XTsKSW50IHNpemVbMjAwMDA5XTsKSW50IHRyZWVbMjAwMDA5XTsKCkludCBkZnMoR3JhcGg8PiAqZ3JhcGgsIEludCB1LCBJbnQgcCkKewogICAgaW5kZXhbdV0gPSArK2N1cnJfaW5kZXg7CiAgICBJbnQgcyA9IDE7CiAgICBmb3IgKEludCBlID0gZ3JhcGgtPnZlcnRpY2VzW3VdLmhlYWQ7IGUgIT0gLTE7IGUgPSBncmFwaC0+ZWRnZXNbZV0ubmV4dCkKICAgIHsKICAgICAgICBJbnQgdiA9IGdyYXBoLT5lZGdlc1tlXS50bzsKICAgICAgICBpZiAodiAhPSBwKQogICAgICAgIHsKICAgICAgICAgICAgcyArPSBkZnMoZ3JhcGgsIHYsIHUpOwogICAgICAgIH0KICAgIH0KICAgIHNpemVbdV0gPSBzOwogICAgcmV0dXJuIHM7Cn0KCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">aW50IG1haW4oKQp7CiAgICBJbnQgbiA9IHJlYWRfaW50KCk7CiAgICBJbnQgcSA9IHJlYWRfaW50KCk7CiAgICBmb3IgKEludCB1ID0gMDsgdSA8IG47IHUrKykKICAgIHsKICAgICAgICBkYXRhW3VdID0gcmVhZF9pbnQoKTsKICAgIH0KICAgIEdyYXBoPD4gKmdyYXBoID0gbmV3X2dyYXBoKG4sIDIgKiBuKTsKICAgIGZvciAoSW50IHUgPSAwOyB1IDwgbjsgdSsrKQogICAgewogICAgICAgIGFkZF92ZXJ0ZXgoZ3JhcGgpOwogICAgfQogICAgZm9yIChJbnQgZSA9IDE7IGUgPCBuOyBlKyspCiAgICB7CiAgICAgICAgSW50IHUgPSByZWFkX2ludCgpIC0gMTsKICAgICAgICBJbnQgdiA9IHJlYWRfaW50KCkgLSAxOwogICAgICAgIGFkZF91bmRpcmVjdGVkX2VkZ2UoZ3JhcGgsIHUsIHYpOwogICAgfQogICAgZGZzKGdyYXBoLCAwLCAtMSk7CiAgICBmb3IgKEludCB1ID0gMDsgdSA8IG47IHUrKykKICAgIHsKICAgICAgICB0cmVlW2luZGV4W3VdXSA9IGRhdGFbdV07CiAgICB9CiAgICBmZW53aWNrX2J1aWxkKHRyZWUsIG4pOwogICAgd2hpbGUgKHEtLSkKICAgIHsKICAgICAgICBJbnQgdCA9IHJlYWRfaW50KCk7CiAgICAgICAgaWYgKHQgPT0gMSkKICAgICAgICB7CiAgICAgICAgICAgIEludCB1ID0gcmVhZF9pbnQoKSAtIDE7CiAgICAgICAgICAgIEludCB4ID0gcmVhZF9pbnQoKTsKICAgICAgICAgICAgSW50IGQgPSB4IC0gZGF0YVt1XTsKICAgICAgICAgICAgZmVud2lja191cGRhdGUodHJlZSwgbiwgaW5kZXhbdV0sIGQpOwogICAgICAgICAgICBpZiAoaW5kZXhbdV0gKyBzaXplW3VdIDw9IG4pCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGZlbndpY2tfdXBkYXRlKHRyZWUsIG4sIGluZGV4W3VdICsgc2l6ZVt1XSwgLWQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGRhdGFbdV0gKz0geDsKICAgICAgICB9CiAgICAgICAgZWxzZQogICAgICAgIHsKICAgICAgICAgICAgSW50IHUgPSByZWFkX2ludCgpIC0gMTsKICAgICAgICAgICAgSW50IHMgPSBmZW53aWNrX3N1bSh0cmVlLCBuLCBpbmRleFt1XSwgaW5kZXhbdV0gKyBzaXplW3VdIC0gMSk7CiAgICAgICAgICAgIHdyaXRlX2Zvcm1hdCgiJWxkXG4iLCBzKTsKICAgICAgICB9CiAgICB9Cn0=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmVud2lja191cGRhdGUodHJlZSwgbiwgaW5kZXhbdV0gKyBzaXplW3VdLCBkYXRhW3VdIC0geCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">NSAzCjQgMiA1IDIgMQoxIDIKMSAzCjMgNAozIDUKMiA0CjEgMyAyCjIgNAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">MTAgMTAKMiA5IDkgMTAgMiAzIDIgMSA5IDEwCjggMTAKOSA1CjMgNwo3IDIKOCA1CjEgNAoxIDYKMSA4CjMgOAoyIDMKMiA4CjEgMyAxCjIgMQoyIDEwCjEgMTAgMgoyIDMKMSAzIDMKMiA2CjIgMgo=</text>
+        <text encoding="base64">NSAzCjQgMiA1IDIgMQoxIDIKMSAzCjMgNAozIDUKMiA0CjEgMyAyCjIgNAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHBhdGhbdV0gPSBwcyArIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
