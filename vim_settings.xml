@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxsYWJlbFw+</entry>
-        <entry encoding="base64">XDxiXD4=</entry>
         <entry encoding="base64">XDxhXD4=</entry>
         <entry encoding="base64">XDxkYXRhXD4=</entry>
         <entry encoding="base64">XDxpbmRleFw+</entry>
@@ -27,6 +25,8 @@
         <entry encoding="base64">XDxsZW5cPg==</entry>
         <entry>array_zero</entry>
         <entry encoding="base64">XDxjXD4=</entry>
+        <entry encoding="base64">XDxhcnJheV96ZXJvXD4=</entry>
+        <entry encoding="base64">XDxhcnJheV9maWxsXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>@q</entry>
@@ -305,19 +305,16 @@
         <mark key="." line="2839" column="0" />
         <mark key="^" line="2839" column="27" />
       </file>
-      <file name="$USER_HOME$/CP/lib.cpp" timestamp="1622997212190">
-        <mark key="'" line="2928" column="0" />
-        <mark key="[" line="2926" column="0" />
-        <mark key="]" line="2926" column="0" />
+      <file name="$USER_HOME$/CP/lib.cpp" timestamp="1622999745232">
+        <mark key="'" line="2883" column="14" />
+        <mark key="[" line="2883" column="38" />
+        <mark key="]" line="2883" column="42" />
         <mark key="m" line="2906" column="0" />
-        <mark key="." line="2926" column="0" />
-        <mark key="^" line="2926" column="8" />
+        <mark key="." line="2883" column="41" />
+        <mark key="^" line="2883" column="42" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="27" column="4" filename="$USER_HOME$/CSES/String-Algorithms/Substring-Distribution.cpp" />
-      <jump line="10" column="0" filename="$USER_HOME$/CSES/String-Algorithms/Substring-Distribution.cpp" />
-      <jump line="3" column="0" filename="$USER_HOME$/CP/contest/AtCoder-practice/A.cpp" />
       <jump line="3" column="0" filename="$USER_HOME$/CP/data.txt" />
       <jump line="6" column="4" filename="$USER_HOME$/CP/contest/AtCoder-Beginner-Contest-204/A.cpp" />
       <jump line="13" column="0" filename="$USER_HOME$/CP/contest/AtCoder-Beginner-Contest-204/B.cpp" />
@@ -358,7 +355,6 @@
       <jump line="2896" column="20" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2871" column="4" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2870" column="0" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="2905" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2872" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2908" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2877" column="27" filename="$USER_HOME$/CP/lib.cpp" />
@@ -381,7 +377,6 @@
       <jump line="2904" column="24" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2882" column="51" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2915" column="4" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="2883" column="46" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2886" column="8" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2889" column="8" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2880" column="4" filename="$USER_HOME$/CP/lib.cpp" />
@@ -408,19 +403,24 @@
       <jump line="2902" column="40" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2913" column="54" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2922" column="4" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="2890" column="18" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="10" column="0" filename="$USER_HOME$/CP/CSES/String-Algorithms/Substring-Order-II.cpp" />
       <jump line="15" column="0" filename="$USER_HOME$/CP/CSES/String-Algorithms/Substring-Order-II.cpp" />
       <jump line="2924" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2925" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2879" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="2928" column="0" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="597" column="5" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="2806" column="8" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="2905" column="12" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="2890" column="8" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="609" column="5" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="2883" column="14" filename="$USER_HOME$/CP/lib.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>zero</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -432,10 +432,10 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>L</text>
+        <text>zero</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxjXD4=</text>
+        <text encoding="base64">XDxhcnJheV9maWxsXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
@@ -443,37 +443,37 @@
         </keys>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">dGVtcGxhdGU8dHlwZW5hbWUgVD4KVm9pZCBhcnJheV96ZXJvKFQgKmFycmF5LCBJbnQgbikKewogICAgbWVtb3J5X2ZpbGwoYXJyYXksIHNpemVvZihUKSAqIG4sIDApOwp9Cgo=</text>
+        <text encoding="base64">ICAgICAgICBhcnJheV96ZXJvKGF1dG9tYXRvbltjdXJyXS5uZXh0LCBDKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGFycmF5X2ZpbGwoYXV0b21hdG9uWzBdLm5leHQsIEMsIC0xTCk7Cg==</text>
       </register>
       <register name="q" type="4">
         <text>.j</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICphdXRvbWF0b25fc2l6ZSA9IHNpemU7Cg==</text>
+        <text encoding="base64">ICAgICAgICBhcnJheV9maWxsKGF1dG9tYXRvbltjdXJyXS5uZXh0LCBDLCAtMUwpOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">OQozIDE0IDE1IDkgMjYgNSAzNSA4OSA3OQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICpzaXplX3JlcyA9IHNpemU7Cg==</text>
+        <text encoding="base64">ICAgICphdXRvbWF0b25fc2l6ZSA9IHNpemU7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">SW50IGxjcFsxMDAwMDldOwo=</text>
+        <text encoding="base64">OQozIDE0IDE1IDkgMjYgNSAzNSA4OSA3OQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICpzaXplX3JlcyA9IHNpemU7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGJ1aWxkX2xjcChzdHJpbmcsIG4sIHN1ZmZpeCwgbGNwKTsKICAgIEludCBrID0gcmVhZF9pbnQoKSAtIDE7CiAgICBmb3IgKEludCBpID0gMDsgaSA8IG47IGkrKykKICAgIHsKICAgICAgICBJbnQgZHVwbGljYXRlID0gaSA+IDAgPyBsY3BbaSAtIDFdIDogMDsKICAgICAgICBpZiAoZHVwbGljYXRlICsgayA8IG4gLSBzdWZmaXhbaV0pCiAgICAgICAgewogICAgICAgICAgICBzdHJpbmdbc3VmZml4W2ldICsgZHVwbGljYXRlICsgayArIDFdID0gJ1wwJzsKICAgICAgICAgICAgd3JpdGVfZm9ybWF0KCIlcyIsIHN0cmluZyArIHN1ZmZpeFtpXSk7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBlbHNlCiAgICAgICAgewogICAgICAgICAgICBrIC09IG4gLSBzdWZmaXhbaV0gLSBkdXBsaWNhdGU7CiAgICAgICAgfQogICAgfQo=</text>
+        <text encoding="base64">SW50IGxjcFsxMDAwMDldOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGF1dG9tYXRvbltjbG9uZV0ubGVuZ3RoID0gYXV0b21hdG9uW3BdLmxlbmd0aCArIDE7CiAgICAgICAgICAgICAgICBhdXRvbWF0b25bY2xvbmVdLm5leHQgPSBhdXRvbWF0b25bcV0ubmV4dDsKICAgICAgICAgICAgICAgIGF1dG9tYXRvbltjbG9uZV0ubGluayA9IGF1dG9tYXRvbltxXS5saW5rOwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICA9Cg==</text>
+        <text encoding="base64">ICAgIGJ1aWxkX2xjcChzdHJpbmcsIG4sIHN1ZmZpeCwgbGNwKTsKICAgIEludCBrID0gcmVhZF9pbnQoKSAtIDE7CiAgICBmb3IgKEludCBpID0gMDsgaSA8IG47IGkrKykKICAgIHsKICAgICAgICBJbnQgZHVwbGljYXRlID0gaSA+IDAgPyBsY3BbaSAtIDFdIDogMDsKICAgICAgICBpZiAoZHVwbGljYXRlICsgayA8IG4gLSBzdWZmaXhbaV0pCiAgICAgICAgewogICAgICAgICAgICBzdHJpbmdbc3VmZml4W2ldICsgZHVwbGljYXRlICsgayArIDFdID0gJ1wwJzsKICAgICAgICAgICAgd3JpdGVfZm9ybWF0KCIlcyIsIHN0cmluZyArIHN1ZmZpeFtpXSk7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBlbHNlCiAgICAgICAgewogICAgICAgICAgICBrIC09IG4gLSBzdWZmaXhbaV0gLSBkdXBsaWNhdGU7CiAgICAgICAgfQogICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -482,9 +482,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxjXD4=</last-search>
+      <last-search encoding="base64">XDxhcnJheV9maWxsXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxjXD4=</last-pattern>
+      <last-pattern encoding="base64">XDxhcnJheV9maWxsXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDx5MVw+</last-substitute>
       <last-dir>1</last-dir>
