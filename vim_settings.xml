@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>centroid</entry>
-        <entry>new_array</entry>
-        <entry>array_create</entry>
         <entry encoding="base64">XDxhbGxvY1w+</entry>
         <entry encoding="base64">XDxsZWFmX2NvdW50XD4=</entry>
         <entry encoding="base64">XDxjb3VudFw+</entry>
@@ -17,8 +14,6 @@
         <entry>find</entry>
         <entry encoding="base64">XDxlZGdlc1w+</entry>
         <entry>fenwick</entry>
-        <entry encoding="base64">XDxpXD4=</entry>
-        <entry encoding="base64">XDxlXD4=</entry>
         <entry>factorial</entry>
         <entry encoding="base64">XDxtb2RfaW52XD4=</entry>
         <entry encoding="base64">XDxjb21iaW5hdGlvblw+</entry>
@@ -27,6 +22,11 @@
         <entry encoding="base64">XDxkZnMyXD4=</entry>
         <entry encoding="base64">XDxkZnMzXD4=</entry>
         <entry encoding="base64">XDx1XD4=</entry>
+        <entry encoding="base64">XDxncmFwaFw+</entry>
+        <entry>topological</entry>
+        <entry>new_graph</entry>
+        <entry encoding="base64">XDxpXD4=</entry>
+        <entry encoding="base64">XDxlXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wl</entry>
@@ -46,8 +46,8 @@
         <entry>Pw</entry>
         <entry>wq</entry>
         <entry>Lw</entry>
-        <entry>q</entry>
         <entry>we</entry>
+        <entry>q</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -196,7 +196,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1624312516759">
+      <file name="/Dummy.txt" timestamp="1624482419425">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/CP/CSES/Additional-Problems/Tree-Isomorphism-II.cpp" timestamp="1624218341121">
@@ -286,11 +286,12 @@
         <mark key="." line="68" column="18" />
         <mark key="^" line="68" column="19" />
       </file>
-      <file name="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" timestamp="1624473774063">
-        <mark key="'" line="91" column="0" />
-        <mark key="[" line="78" column="0" />
-        <mark key="]" line="78" column="0" />
-        <mark key="." line="78" column="0" />
+      <file name="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" timestamp="1624483597301">
+        <mark key="'" line="59" column="54" />
+        <mark key="[" line="34" column="0" />
+        <mark key="]" line="35" column="5" />
+        <mark key="." line="34" column="0" />
+        <mark key="^" line="34" column="42" />
       </file>
       <file name="$USER_HOME$/CP/CSES/Additional-Problems/Graph-Girth.cpp" timestamp="1624310961980">
         <mark key="'" line="1" column="0" />
@@ -299,12 +300,11 @@
         <mark key="." line="1" column="127" />
         <mark key="^" line="1" column="128" />
       </file>
-      <file name="$USER_HOME$/CP/data.txt" timestamp="1624473291663">
-        <mark key="'" line="0" column="6" />
-        <mark key="[" line="5" column="3" />
-        <mark key="]" line="5" column="3" />
-        <mark key="." line="5" column="2" />
-        <mark key="^" line="5" column="3" />
+      <file name="$USER_HOME$/CP/data.txt" timestamp="1624481951698">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="7" column="3" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/CP/CSES/Range-Queries/Range-Updates-and-Sums.cpp" timestamp="1624048484738">
         <mark key="'" line="81" column="0" />
@@ -317,8 +317,8 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/CP/lib.cpp" timestamp="1624403429887">
-        <mark key="'" line="1300" column="0" />
+      <file name="$USER_HOME$/CP/lib.cpp" timestamp="1624483160516">
+        <mark key="'" line="1972" column="29" />
         <mark key="[" line="1311" column="0" />
         <mark key="]" line="1311" column="0" />
         <mark key="." line="1311" column="0" />
@@ -326,16 +326,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Counting-Sequences.cpp" />
-      <jump line="15" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Counting-Sequences.cpp" />
-      <jump line="2817" column="0" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="12" column="32" filename="$USER_HOME$/CP/CSES/Additional-Problems/Reversal-Sorting.cpp" />
-      <jump line="3309" column="14" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="3306" column="0" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="408" column="21" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="224" column="28" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="21" column="15" filename="$USER_HOME$/CP/CSES/Additional-Problems/Network-Breakdown.cpp" />
-      <jump line="11" column="21" filename="$USER_HOME$/CP/CSES/Additional-Problems/Network-Breakdown.cpp" />
       <jump line="12" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Network-Breakdown.cpp" />
       <jump line="10" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Network-Breakdown.cpp" />
       <jump line="34" column="51" filename="$USER_HOME$/CP/CSES/Additional-Problems/Network-Breakdown.cpp" />
@@ -391,12 +381,8 @@
       <jump line="1276" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="1281" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="1294" column="0" filename="$USER_HOME$/CP/lib.cpp" />
-      <jump line="1300" column="0" filename="$USER_HOME$/CP/lib.cpp" />
       <jump line="16" column="67" filename="$USER_HOME$/CP/CSES/Additional-Problems/Counting-Sequences.cpp" />
       <jump line="5" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Counting-Sequences.cpp" />
-      <jump line="54" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="31" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="70" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="0" column="6" filename="$USER_HOME$/CP/data.txt" />
       <jump line="6" column="8" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="47" column="20" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
@@ -404,15 +390,11 @@
       <jump line="30" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="103" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="101" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="64" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="74" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="38" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="68" column="8" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="66" column="8" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="75" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="56" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="13" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="28" column="12" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="12" column="8" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="34" column="8" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="83" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
@@ -420,18 +402,36 @@
       <jump line="76" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="51" column="12" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="53" column="12" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="55" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="57" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="32" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="11" column="13" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
-      <jump line="88" column="20" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
       <jump line="92" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="8" column="2" filename="$USER_HOME$/CP/data.txt" />
+      <jump line="28" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="31" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="35" column="3" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="60" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="55" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="69" column="8" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="66" column="8" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="70" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="64" column="4" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="80" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="88" column="0" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="1300" column="0" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="1749" column="0" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="1786" column="0" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="1972" column="29" filename="$USER_HOME$/CP/lib.cpp" />
+      <jump line="54" column="27" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="56" column="21" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="58" column="61" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
+      <jump line="59" column="54" filename="$USER_HOME$/CP/CSES/Additional-Problems/Critical-Cities.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGFnX3ZlcnRleFt1XSB8PSBkYWdfdmVydGV4W3ZdOwo=</text>
       </register>
       <register name="f" type="4">
         <text>_</text>
@@ -443,48 +443,48 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>ans</text>
+        <text>leave</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx1XD4=</text>
+        <text encoding="base64">XDxlXD4=</text>
       </register>
       <register name="o" type="4">
         <keys>
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="0" type="4">
-        <text>100009</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRhZ19lZGdlW3ZdID0gdHJ1ZTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGFnX3ZlcnRleFt1XSB8PSBkYWdfdmVydGV4W3ZdOwo=</text>
       </register>
       <register name="q" type="4">
         <text>.n</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHByaW50ZigiXG4tLS0tXG4iKTsKICAgIGZvciAoSW50IHUgPSAwOyB1IDwgbjsgdSsrKQogICAgewogICAgICAgIHByaW50ZigiJWxkICIsIGZbdV0pOwogICAgfQogICAgcHJpbnRmKCJcbiIpOwogICAgZm9yIChJbnQgdSA9IDA7IHUgPCBuOyB1KyspCiAgICB7CiAgICAgICAgcHJpbnRmKCIlbGQgIiwgZ1t1XSk7CiAgICB9CiAgICBwcmludGYoIlxuIik7CiAgICAvKiBHcmFwaDw+ICpkYWcgPSBuZXdfZ3JhcGgobiwgbSk7ICovCiAgICAvKiBmb3IgKEludCBpID0gMDsgaSA8IG47IGkrKykgKi8KICAgIC8qIHsgKi8KICAgIC8qICAgICBhZGRfdmVydGV4KGRhZyk7ICovCiAgICAvKiB9ICovCiAgICAvKiBmb3IgKEludCBpID0gMDsgaSA8IG07IGkrKykgKi8KICAgIC8qIHsgKi8KICAgIC8qICAgICBpZiAoY29ubmVjdGlvbltlXSkgKi8KICAgIC8qICAgICB7ICovCiAgICAvKiAgICAgICAgIGFkZF9lZGdlKGRhZywgZ3JhcGgtPmVkZ2VzW2ldLmZyb20sIGdyYXBoLT5lZGdlc1tpXS50byk7ICovCiAgICAvKiAgICAgfSAqLwogICAgLyogfSAqLwo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlIGlmICghbGVhdmVbdl0pCiAgICAgICAgewogICAgICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGRhZ192ZXJ0ZXhbdl0pCiAgICAgICAgICAgIHsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAobGVhdmVbdl0pCiAgICAgICAgewogICAgICAgICAgICBkYWdfZWRnZVt1XSA9IHRydWU7CiAgICAgICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGN1cnJfdGltZSA9IDA7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -493,9 +493,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx1XD4=</last-search>
+      <last-search encoding="base64">XDxlXD4=</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx1XD4=</last-pattern>
+      <last-pattern encoding="base64">XDxlXD4=</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxic3RfcmVwbGFjZVw+</last-substitute>
       <last-dir>1</last-dir>
